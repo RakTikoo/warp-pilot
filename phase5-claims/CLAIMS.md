@@ -358,3 +358,17 @@ open strengthening, not part of this claim.
 All arithmetic float64. Independent re-runs, corrections, and
 counterexamples are the point of publishing this — if a number
 here does not reproduce, that is a result we want to hear about.
+
+## Figures
+
+![Warp shells re-solved inside curved backgrounds: core DEC margin vs background mass](h4_margins.png)
+
+*Re-solved shells (plot script: `plot_h4_margins.py`, data: `results/h4_resolved_shell.json`). Core DEC margin vs Schwarzschild background mass: passes at mass 1 and 2, fails at 4 — only DEC fails there; the Phase 1 superposition value at mass 1 (−9.9×10⁻⁵) is shown for contrast: the flip from fail to pass is the difference between stacking spacetimes and re-solving in the total geometry. Gate-cleared data only.*
+
+![Wormhole exoticity floors](h6_floor.png)
+
+*The exoticity floors (plot script: `plot_h6_floor.py`, data: `results/h6_floor_identity.json`). Every audited zero-tidal profile's volume integral, in both measures, against its floor (−r₀/2 coordinate, −r₀ proper): no profile goes below its floor, and the exact identities agree with the Phase 2 integrator values on every profile.*
+
+![Decoupling criterion: classification of the seven audited cases](h2_classification.png)
+
+*The decoupling criterion's classification (plot script: `plot_h2_classification.py`). Five cases are strict instances of the rank predicate; f(T) and EiBI enter by structural analogy, and the f(T) row carries its unexamined-health-premise flag, per the gate restatement. Quantitative entries from `results/h2_criterion.json`; classification rows from the Phase 5 record and the gate document, as cited on the figure.*
