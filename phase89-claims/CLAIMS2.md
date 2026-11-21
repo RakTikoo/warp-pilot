@@ -641,3 +641,18 @@ assembly). All arithmetic float64. Independent re-runs,
 corrections, and counterexamples are the point of publishing
 this — if a number here does not reproduce, that is a result we
 want to hear about.
+
+
+## Figures
+
+![Moving re-solved shell at beta = 0.02: cavity and core NEC margins in both embeddings](moving_shell.png)
+
+*The moving shell (plot script: `plot_moving_shell.py`, data: `results/p91_chain.json`). In the areal embedding the re-solved shell at β = 0.02 passes at both distances — cavity clean at the 10⁻⁸ level against the Phase 5 failure class (−1.95×10⁻⁴, dashed). In the total-lapse-consistent PG embedding it passes at d=100 and fails at d=50; both embeddings are part of the claim, per the gate's wording conditions.*
+
+![Einstein-aether wall supply: starved subluminally, fed superluminally, excluded by data](aether_asymmetry.png)
+
+*The aether asymmetry (plot script: `plot_aether_asymmetry.py`, data: `results/p93_scan.json`). Best health-passing coverage: 0.000 at β = 0.1, partial 0.813 / full 0.218 at β = 1.1, partial 0.791 / full 0.449 at β = 1.5 — and 0 of 327 rows pass the solar-system PPN data gates. The claim is the asymmetry and the exclusion together; it is not a drive claim.*
+
+![Toroidal realisation: the Gelfand branch boundary](torus_branch.png)
+
+*The donut's branch structure (plot script: `plot_torus_branch.py`, data: `results/p83_control_scan.json`, `results/p83_branch_refine.json`). The fixed-form obstruction exists only above the branch boundary, bracketed at (0.6–0.7)× the original density×size²; the γ-extended solve realises the metric at residual RMS 1.89×10⁻⁴.*
