@@ -45,6 +45,16 @@ issues (run a script, compare numbers, report).
 
 *Finalist A, computed from the frozen configuration in `results/frozen/finalist_A.json` with the repository's own `shell.py` (plot script: `plot_finalist_A.py`). Left: matter density in a cross-section through the centre — an empty cavity (r < 10) inside a spherical wall (10–20) whose density peaks at its two edges; the whole configuration moves at β = 0.02. Right: the density profile and the shift (velocity) profile — the interior rides at the full β and the shift falls to zero across the wall, so the transition lives entirely inside the matter. This is a constant-velocity configuration; formation and stability are not claimed (see Limits).*
 
+### Finalist B2, and the frontier
+
+![Finalist B2 cross-section and profiles](finalist_B2_shape.png)
+
+*Finalist B2 (β = 0.03, 3.64×10²⁷ kg), computed from `results/frozen/finalist_B2.json` with `shell.py` (plot script: `plot_finalist_B2_shape.py`). Same edge-peaked wall design as Finalist A, at 50% higher velocity.*
+
+![The positive-energy frontier](frontier.png)
+
+*The mass–velocity frontier (plot script: `plot_frontier.py`). Verified positive-energy designs exist at β = 0.02, 0.03 and 0.05 along a compactness curve; at β = 0.1 three independent constructions land within ~10⁻⁸ of zero worst-margin and none certifies a pass — the frontier terminates between β = 0.05 and β = 0.1.*
+
 ## Limits — read these before citing anything
 
 - The verified shells are **constant-velocity** configurations. Formation,
