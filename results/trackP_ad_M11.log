@@ -1,0 +1,4 @@
+seed 777001: AD worst -3.0474e-05 (NEC +3.919e-09, TypeI 1.000) | FD stored in json
+   FD h=0.3: {'worst_sig': -3.371078066802659e-05, 'typeI_frac_sig': 1.0}
+   FD h=0.15: {'worst_sig': -3.0047241750334925e-05, 'typeI_frac_sig': 1.0}
+AD AUDIT DONE

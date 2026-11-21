@@ -1,0 +1,8 @@
+  ADV rd0: train=558 pts, obj=-1.568e-04, arbiter worst=-1.000e+00, bad pts=158 [579s]
+  ADV rd1: train=716 pts, obj=-1.496e-04, arbiter worst=-1.416e-03, bad pts=177 [1214s]
+  ADV rd2: train=893 pts, obj=-2.086e-04, arbiter worst=-4.271e-05, bad pts=60 [2219s]
+  FINAL seed=555001 h=0.3: worst=-1.8607e-04 tI=0.959
+  FINAL seed=555001 h=0.15: worst=-3.6815e-04 tI=0.967
+  FINAL seed=777001 h=0.3: worst=-2.7940e-04 tI=0.975
+  FINAL seed=777001 h=0.15: worst=-4.1985e-04 tI=0.981
+TrackP-ADV beta=0.05 M=3.5: 4608 evals -> results/trackP_b0.05_M3.5_adv.json

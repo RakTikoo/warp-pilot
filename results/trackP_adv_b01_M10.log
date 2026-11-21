@@ -1,0 +1,2 @@
+  ADV rd0: train=576 pts, obj=-1.312e-06, arbiter worst=-1.529e-04, bad pts=118 [340s]
+  ADV rd1: train=694 pts, obj=+2.759e-07, arbiter worst=-7.326e-05, bad pts=153 [1090s]

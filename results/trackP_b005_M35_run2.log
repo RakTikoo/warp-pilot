@@ -1,0 +1,5 @@
+  arbiter seed=999 h=0.3: worst=-8.0254e-04 (sec @r=16.80) tI=0.954
+  arbiter seed=999 h=0.15: worst=-6.8705e-04 (sec @r=16.80) tI=0.938
+  arbiter seed=31337 h=0.3: worst=-7.3324e-04 (sec @r=16.77) tI=0.962
+  arbiter seed=31337 h=0.15: worst=-6.1348e-04 (sec @r=16.77) tI=0.940
+TrackP beta=0.05 M=3.5: screen worst=+5.7204e-07, 3328 evals, 684s -> results/trackP_b0.05_M3.5.json
