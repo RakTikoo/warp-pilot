@@ -1,0 +1,7 @@
+X1 DE base search: Rmaj=60.0 aspect=4.00, screen pts=260
+DE done: {"screen_worst": -3.4846103568932576e-05, "screen_typeI": 1.0, "n_evals": 5134, "elapsed_s": 363.49930787086487}
+  arbiter seed=999 h=0.3: worst -4.3186e-05 TypeI 1.000
+  arbiter seed=999 h=0.15: worst -3.5407e-05 TypeI 1.000
+  arbiter seed=31337 h=0.3: worst -1.3754e-04 TypeI 1.000
+  arbiter seed=31337 h=0.15: worst -4.3845e-05 TypeI 1.000
+X1 DE DONE

@@ -1,0 +1,8 @@
+M=1.6 cos b0.02 worst= 1.697e-07 (dec @r=6.0) nec= 1.70e-07 typeI= 1.000
+M=1.7 cos b0.02 worst= 1.803e-07 (dec @r=6.0) nec= 1.80e-07 typeI= 1.000
+M=2.4 cos b=0.04 worst= -2.167e-04 (sec @r=10.5) nec= -2.27e-05 typeI= 0.945
+M=2.4 cos b=0.05 worst= -4.647e-04 (sec @r=10.5) nec= -4.80e-05 typeI= 0.851
+M=2.4 cos b=0.07 worst= -1.000e+00 (dec @r=10.5) nec= -1.00e-04 typeI= 0.651
+M=3.334 cos b=0.05 worst= -1.941e-04 (sec @r=10.5) nec= -2.09e-05 typeI= 0.976
+M=3.334 cos b=0.1 worst= -1.000e+00 (dec @r=10.5) nec= -1.65e-04 typeI= 0.635
+C9 DONE

@@ -1,0 +1,11 @@
+M=2.55 ep wd3.5 fl0.2 worst= -2.011e-05 nec= -2.44e-06 wec= 3.86e-06 sec= -2.01e-05 dec= -4.10e-10 typeI= 0.992
+M=2.55 ep wd3.0 fl0.3 worst= -2.337e-05 nec= -2.77e-06 wec= 5.30e-06 sec= -2.34e-05 dec= -6.85e-10 typeI= 0.989
+M=2.55 ep wd3.0 fl0.2 tanh4 worst= 1.369e-05 nec= 1.51e-05 wec= 1.51e-05 sec= 1.51e-05 dec= 1.37e-05 typeI= 1.000
+M=2.55 ep wd3.0 fl0.2 sr2.5 worst= -7.694e-05 nec= -8.29e-06 wec= -4.22e-05 sec= -7.69e-05 dec= -5.18e-09 typeI= 0.968
+M=2.55 ep wd3.0 fl0.2 sp0.9 worst= -2.012e-05 nec= -2.42e-06 wec= 1.25e-05 sec= -2.01e-05 dec= -5.73e-10 typeI= 0.989
+M=2.4 ep wd3.5 fl0.2 worst= -5.981e-05 nec= -6.46e-06 wec= -2.36e-05 sec= -5.98e-05 dec= -3.98e-09 typeI= 0.968
+M=2.4 ep wd3.0 fl0.3 worst= -6.795e-05 nec= -7.29e-06 wec= -3.19e-05 sec= -6.80e-05 dec= -4.38e-09 typeI= 0.968
+M=2.4 ep wd3.0 fl0.2 tanh4 worst= 1.284e-05 nec= 1.38e-05 wec= 1.38e-05 sec= 1.38e-05 dec= 1.28e-05 typeI= 1.000
+M=2.4 ep wd3.0 fl0.2 sr2.5 worst= -1.205e-04 nec= -1.27e-05 wec= -8.73e-05 sec= -1.20e-04 dec= -8.23e-09 typeI= 0.955
+M=2.4 ep wd3.0 fl0.2 sp0.9 worst= -6.641e-05 nec= -7.13e-06 wec= -3.02e-05 sec= -6.64e-05 dec= -4.34e-09 typeI= 0.974
+C5 DONE

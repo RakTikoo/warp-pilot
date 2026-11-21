@@ -1,0 +1,13 @@
+M=2.7 fuchs (control) worst= 2.863e-07 (dec @r=6.0) nec= 2.86e-07 typeI= 1.000 nsig= 490
+M=1.8 tanh w4 (control-bad) worst= -1.000e+00 (dec @r=7.0) nec= -3.63e-06 typeI= 0.738 nsig= 546
+M=2.7 cos[10,20] worst= 2.863e-07 (dec @r=6.0) nec= 2.86e-07 typeI= 1.000 nsig= 490
+M=2.4 cos[10,20] worst= 2.545e-07 (dec @r=6.0) nec= 2.54e-07 typeI= 1.000 nsig= 490
+M=2.2 cos[10,20] worst= 2.333e-07 (dec @r=6.0) nec= 2.33e-07 typeI= 1.000 nsig= 490
+M=2.0 cos[10,20] worst= 2.121e-07 (dec @r=6.0) nec= 2.12e-07 typeI= 1.000 nsig= 490
+M=1.8 cos[10,20] worst= 1.909e-07 (dec @r=6.0) nec= 1.91e-07 typeI= 1.000 nsig= 490
+M=1.5 cos[10,20] worst= -9.307e-06 (sec @r=10.5) nec= -1.17e-06 typeI= 0.996 nsig= 490
+M=2.4 quintic[10,20] worst= 2.545e-07 (dec @r=6.0) nec= 2.54e-07 typeI= 1.000 nsig= 490
+M=2.0 quintic[10,20] worst= 2.121e-07 (dec @r=6.0) nec= 2.12e-07 typeI= 1.000 nsig= 490
+M=2.4 cos beta=0.03 worst= 2.544e-07 (dec @r=6.0) nec= 2.54e-07 typeI= 1.000 nsig= 490
+M=2.0 cos beta=0.03 worst= -9.320e-05 (sec @r=10.5) nec= -9.91e-06 typeI= 0.980 nsig= 490
+C8 DONE

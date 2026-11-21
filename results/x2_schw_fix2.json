@@ -1,0 +1,130 @@
+{
+ "rows": [
+  {
+   "bg": "schw2",
+   "beta": 0.9,
+   "total": {
+    "rho_peak": 3.2510925042962214e+297,
+    "n_sig": 0
+   },
+   "diff": {
+    "rho_peak": 3.2640973951818455e+297,
+    "n_sig": 0
+   },
+   "n_excluded_total": 106,
+   "n_stencil_guard": 3
+  },
+  {
+   "bg": "schw2",
+   "beta": 1.0,
+   "total": {
+    "rho_peak": 8.570444086785384e+298,
+    "n_sig": 0
+   },
+   "diff": {
+    "rho_peak": 8.570873145393345e+298,
+    "n_sig": 0
+   },
+   "n_excluded_total": 106,
+   "n_stencil_guard": 3
+  },
+  {
+   "bg": "schw2",
+   "beta": 1.1,
+   "total": {
+    "rho_peak": 3.2636481862581853e+298,
+    "n_sig": 0
+   },
+   "diff": {
+    "rho_peak": 3.264094385371407e+298,
+    "n_sig": 0
+   },
+   "n_excluded_total": 106,
+   "n_stencil_guard": 3
+  },
+  {
+   "bg": "schw2",
+   "beta": 1.5,
+   "total": {
+    "rho_peak": 9.033409897228081e+298,
+    "n_sig": 0
+   },
+   "diff": {
+    "rho_peak": 9.034823109767652e+298,
+    "n_sig": 0
+   },
+   "n_excluded_total": 106,
+   "n_stencil_guard": 2
+  },
+  {
+   "bg": "schw4",
+   "beta": 0.9,
+   "total": {
+    "rho_peak": 9.360979690481261e+297,
+    "n_sig": 0
+   },
+   "diff": {
+    "rho_peak": 9.361032404208064e+297,
+    "n_sig": 0
+   },
+   "n_excluded_total": 314,
+   "n_stencil_guard": 16
+  },
+  {
+   "bg": "schw4",
+   "beta": 1.0,
+   "total": {
+    "rho_peak": 9.094677575233805e+298,
+    "n_sig": 0
+   },
+   "diff": {
+    "rho_peak": 9.093296270693774e+298,
+    "n_sig": 0
+   },
+   "n_excluded_total": 314,
+   "n_stencil_guard": 19
+  },
+  {
+   "bg": "schw4",
+   "beta": 1.1,
+   "total": {
+    "rho_peak": 7.718343303231258e+297,
+    "n_sig": 0
+   },
+   "diff": {
+    "rho_peak": 7.718429091998619e+297,
+    "n_sig": 0
+   },
+   "n_excluded_total": 314,
+   "n_stencil_guard": 21
+  },
+  {
+   "bg": "schw4",
+   "beta": 1.5,
+   "total": {
+    "rho_peak": 5.6072219262314325e+298,
+    "n_sig": 0
+   },
+   "diff": {
+    "rho_peak": 5.607242127074825e+298,
+    "n_sig": 0
+   },
+   "n_excluded_total": 314,
+   "n_stencil_guard": 15
+  },
+  {
+   "bg": "schw4",
+   "beta": 2.0,
+   "total": {
+    "rho_peak": 1.551375296250758e+300,
+    "n_sig": 0
+   },
+   "diff": {
+    "rho_peak": 1.551377629467512e+300,
+    "n_sig": 0
+   },
+   "n_excluded_total": 314,
+   "n_stencil_guard": 8
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+v=0.0 seed=555001: worst h0.3 -1.6305e-05 h0.15 -1.9202e-05 TypeI 1.000
+v=0.0 seed=777001: worst h0.3 -1.6361e-05 h0.15 -1.9202e-05 TypeI 1.000
+v=0.02 seed=555001: worst h0.3 -1.0000e+00 h0.15 -1.0000e+00 TypeI 0.748
+v=0.02 seed=777001: worst h0.3 -1.0000e+00 h0.15 -1.0000e+00 TypeI 0.749
+v=1.1 seed=555001: worst h0.3 -1.0000e+00 h0.15 -1.0000e+00 TypeI 0.467
+v=1.1 seed=777001: worst h0.3 -1.0000e+00 h0.15 -1.0000e+00 TypeI 0.467
+v=1.5 seed=555001: worst h0.3 -1.0000e+00 h0.15 -1.0000e+00 TypeI 0.466
+v=1.5 seed=777001: worst h0.3 -1.0000e+00 h0.15 -1.0000e+00 TypeI 0.464
+v=2.0 seed=555001: worst h0.3 -1.0001e+00 h0.15 -1.0001e+00 TypeI 0.463
+v=2.0 seed=777001: worst h0.3 -1.0001e+00 h0.15 -1.0001e+00 TypeI 0.461
+PHI LADDER DONE

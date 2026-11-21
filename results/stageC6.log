@@ -1,0 +1,13 @@
+M=2.4 tanh w=5.0 worst= 1.230e-05 nec= 1.27e-05 typeI= 1.000 rho_pk= 8.058e-05
+M=2.4 tanh w=6.0 worst= 1.233e-05 nec= 1.28e-05 typeI= 1.000 rho_pk= 8.058e-05
+M=2.2 tanh w=5.0 worst= 1.070e-05 nec= 1.07e-05 typeI= 1.000 rho_pk= 7.386e-05
+M=2.2 tanh w=6.0 worst= 1.084e-05 nec= 1.08e-05 typeI= 1.000 rho_pk= 7.386e-05
+M=2.0 tanh w=5.0 worst= 8.614e-06 nec= 8.61e-06 typeI= 1.000 rho_pk= 6.715e-05
+M=2.0 tanh w=6.0 worst= 8.783e-06 nec= 8.78e-06 typeI= 1.000 rho_pk= 6.715e-05
+M=1.8 tanh w=5.0 worst= 6.237e-06 nec= 6.24e-06 typeI= 1.000 rho_pk= 6.043e-05
+M=1.8 tanh w=6.0 worst= 6.459e-06 nec= 6.46e-06 typeI= 1.000 rho_pk= 6.043e-05
+M=2.2 tanh w=4 worst= 1.165e-05 nec= 1.19e-05 typeI= 1.000 rho_pk= 7.386e-05
+M=2.0 tanh w=4 worst= 1.008e-05 nec= 1.01e-05 typeI= 1.000 rho_pk= 6.715e-05
+M=2.4 tanh w=4 beta=0.03 worst= 8.282e-06 nec= 8.28e-06 typeI= 1.000 rho_pk= 8.058e-05
+M=2.7 tanh w=5 beta=0.03 worst= 8.586e-06 nec= 8.59e-06 typeI= 1.000 rho_pk= 9.066e-05
+C6 DONE

@@ -1,0 +1,7 @@
+adversarial screen: 1020 pts
+adversarial DE done: {"train_worst": -1.776996665682571e-05, "train_typeI": 1.0, "n_evals": 1564}
+  final seed=555001 h=0.3: worst -2.6343e-05 TypeI 1.000
+  final seed=555001 h=0.15: worst -2.1566e-05 TypeI 1.000
+  final seed=777001 h=0.3: worst -1.7560e-05 TypeI 1.000
+  final seed=777001 h=0.15: worst -3.9589e-05 TypeI 1.000
+X1 DE2 DONE

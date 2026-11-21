@@ -1,0 +1,9 @@
+[stage1] DE done: nfev=9990 elapsed=2070s obj=+1.3865e-05
+[stage1] screen worst -1.3865e-05 TypeI 1.000
+[stage2-adv] DE done: nfev=5040 elapsed=4517s obj=+1.5896e-05
+[stage2] train worst -1.5896e-05 TypeI 1.000
+  final seed=555001 h=0.3: worst -1.5997e-05 TypeI 1.000
+  final seed=555001 h=0.15: worst -1.9202e-05 TypeI 1.000
+  final seed=777001 h=0.3: worst -1.5881e-05 TypeI 1.000
+  final seed=777001 h=0.15: worst -1.9202e-05 TypeI 1.000
+X1 PHI DONE
