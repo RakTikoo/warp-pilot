@@ -1,0 +1,70 @@
+{
+  "scalar_tensor_rank": {
+    "lam=0.0": {
+      "gamma_throat": -0.9900414979064531,
+      "H_throat": -0.9900414979064531,
+      "H_minus_gamma_throat": 0.0,
+      "gamma_max_dev_across_domain": null,
+      "gamma_max_dev_vs_lam1": 3.3306690738754696e-16
+    },
+    "lam=0.5": {
+      "gamma_throat": -0.9900414979064531,
+      "H_throat": 0.004979251046773436,
+      "H_minus_gamma_throat": 0.9950207489532266,
+      "gamma_max_dev_across_domain": null,
+      "gamma_max_dev_vs_lam1": 2.220446049250313e-16
+    },
+    "lam=1.0": {
+      "gamma_throat": -0.9900414979064531,
+      "H_throat": 1.0,
+      "H_minus_gamma_throat": 1.9900414979064531,
+      "gamma_max_dev_across_domain": null
+    },
+    "lam=2.0": {
+      "gamma_throat": -0.9900414979064531,
+      "H_throat": 2.990041497906453,
+      "H_minus_gamma_throat": 3.9800829958129063,
+      "gamma_max_dev_across_domain": 4.440892098500626e-16,
+      "gamma_max_dev_vs_lam1": 4.440892098500626e-16
+    }
+  },
+  "fR_affine_slope": {
+    "config": {
+      "aA": 0.0,
+      "aC": 0.0,
+      "v_s": 1.0,
+      "R_star": 351.4591558560346,
+      "GR_worst_m": -7.866683109067761
+    },
+    "worst_point": [
+      0.8125,
+      0.0,
+      0.0
+    ],
+    "margin_at_alpha": {
+      "ahat=0.0": {
+        "fixed_point_dir_margin": -3.1942050590898474,
+        "global_min_nec": -3.1942050590898474,
+        "alpha": 0.0
+      },
+      "ahat=0.01": {
+        "fixed_point_dir_margin": -3.224193052790528,
+        "global_min_nec": -3.224193052790528,
+        "alpha": 2.845280833741096e-05
+      },
+      "ahat=0.1": {
+        "fixed_point_dir_margin": -3.6295907132280263,
+        "global_min_nec": -8.574058870573092,
+        "alpha": 0.00028452808337410963
+      },
+      "ahat=1.0": {
+        "fixed_point_dir_margin": -7.9469524366117685,
+        "global_min_nec": -97.66379868537155,
+        "alpha": 0.002845280833741096
+      }
+    },
+    "slope_M1_from_0_to_0.01": -1053.9554951857292,
+    "slope_M1_from_0_to_0.1": -1530.2027447523178,
+    "affine_consistency": 476.2472495665886
+  }
+}

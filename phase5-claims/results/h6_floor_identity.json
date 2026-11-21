@@ -1,0 +1,74 @@
+{
+  "r0": 1.0,
+  "rows": [
+    {
+      "profile": "power_alpha=-0.5",
+      "IV_coord_w1": -1.499525658350975,
+      "IV_coord_identity": -1.5,
+      "IV_coord_rel_dev": 0.0003162277660166228,
+      "IV_proper_w1": -2.0985297414791915,
+      "IV_proper_identity": -2.103273158149401,
+      "IV_proper_rel_dev": 0.0022552546975795388,
+      "coord_floor_ok": true,
+      "proper_floor_ok": true
+    },
+    {
+      "profile": "power_alpha=-1.0",
+      "IV_coord_w1": -0.9999998999999999,
+      "IV_coord_identity": -1.0,
+      "IV_coord_rel_dev": 1.0000000005838672e-07,
+      "IV_proper_w1": -1.5707863267949154,
+      "IV_proper_identity": -1.5707963267949585,
+      "IV_proper_rel_dev": 6.366197751140718e-06,
+      "coord_floor_ok": true,
+      "proper_floor_ok": true
+    },
+    {
+      "profile": "power_alpha=-2.0",
+      "IV_coord_w1": -0.7499999999999927,
+      "IV_coord_identity": -0.75,
+      "IV_coord_rel_dev": 9.769962616701378e-15,
+      "IV_proper_w1": -1.2935547795399047,
+      "IV_proper_identity": -1.293554779614949,
+      "IV_proper_rel_dev": 5.8013927407269316e-11,
+      "coord_floor_ok": true,
+      "proper_floor_ok": true
+    },
+    {
+      "profile": "exp_lam=1",
+      "IV_coord_w1": -0.798173681161597,
+      "IV_coord_identity": -0.7981736811615863,
+      "IV_coord_rel_dev": 1.3492255624354338e-14,
+      "IV_proper_w1": -1.3598540107330288,
+      "IV_proper_identity": -1.359854010733188,
+      "IV_proper_rel_dev": 1.1707578936757254e-13,
+      "coord_floor_ok": true,
+      "proper_floor_ok": true
+    },
+    {
+      "profile": "coswin_w=0.5",
+      "IV_coord_w1": -0.7281899799093916,
+      "IV_coord_identity": -0.7281900099093078,
+      "IV_coord_rel_dev": 4.119792335741937e-08,
+      "IV_proper_w1": -1.2748715801398576,
+      "IV_proper_identity": -1.2748745801214514,
+      "IV_proper_rel_dev": 2.3531582169627773e-06,
+      "coord_floor_ok": true,
+      "proper_floor_ok": true
+    },
+    {
+      "profile": "random_smooth",
+      "IV_coord_w1": -0.5936459894863594,
+      "IV_coord_identity": -0.5936459894871938,
+      "IV_coord_rel_dev": 1.40562496855926e-12,
+      "IV_proper_w1": -1.1136804886928826,
+      "IV_proper_identity": -1.1136804887120468,
+      "IV_proper_rel_dev": 1.7208010696167187e-11,
+      "coord_floor_ok": true,
+      "proper_floor_ok": true
+    }
+  ],
+  "all_coord_match": false,
+  "all_proper_match": false,
+  "all_floors_ok": true
+}
