@@ -39,6 +39,12 @@ issues (run a script, compare numbers, report).
   Casimir threading, and multi-component sources (the last closed by a
   linearity proof, not by search).
 
+## The shape of Finalist A
+
+![Finalist A cross-section and profiles](finalist_A_shape.png)
+
+*Finalist A, computed from the frozen configuration in `results/frozen/finalist_A.json` with the repository's own `shell.py` (plot script: `plot_finalist_A.py`). Left: matter density in a cross-section through the centre — an empty cavity (r < 10) inside a spherical wall (10–20) whose density peaks at its two edges; the whole configuration moves at β = 0.02. Right: the density profile and the shift (velocity) profile — the interior rides at the full β and the shift falls to zero across the wall, so the transition lives entirely inside the matter. This is a constant-velocity configuration; formation and stability are not claimed (see Limits).*
+
 ## Limits — read these before citing anything
 
 - The verified shells are **constant-velocity** configurations. Formation,
