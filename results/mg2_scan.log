@@ -1,0 +1,17 @@
+V1 Q = 2.9399952912959475 (expect +2.94)
+V2 beta=0 max |Tm - G/8pi| = 0.0
+V3 Zhao-vs-Mandal maxdiff = 0.6332835452232006 scale 2.4610202853137464
+V4 shell NEC min = 2.1214023049130083e-05 (expect +2.12140e-5)
+amps=(0.0, 0.0) v=0.9 done (125s) GR worst=-2.624e+01 Q*=1.401e+01
+amps=(0.0, 0.0) v=1.5 done (303s) GR worst=-1.427e+02 Q*=1.081e+02
+amps=(0.0, 0.0) v=2.0 done (497s) GR worst=-3.741e+02 Q*=3.416e+02
+amps=(0.3, 0.0) v=0.9 done (678s) GR worst=-1.345e+01 Q*=5.016e+00
+amps=(0.3, 0.0) v=1.5 done (860s) GR worst=-6.504e+01 Q*=3.295e+01
+amps=(0.3, 0.0) v=2.0 done (1036s) GR worst=-1.618e+02 Q*=1.028e+02
+amps=(0.0, 0.3) v=0.9 done (1211s) GR worst=-7.057e+01 Q*=1.218e+02
+amps=(0.0, 0.3) v=1.5 done (1338s) GR worst=-3.137e+02 Q*=3.629e+02
+amps=(0.0, 0.3) v=2.0 done (1441s) GR worst=-7.899e+02 Q*=7.511e+02
+amps=(0.3, -0.3) v=0.9 done (1517s) GR worst=-9.655e+01 Q*=2.243e+01
+amps=(0.3, -0.3) v=1.5 done (1573s) GR worst=-1.940e+02 Q*=6.785e+01
+amps=(0.3, -0.3) v=2.0 done (1654s) GR worst=-2.292e+02 Q*=1.186e+02
+MG2 DONE

@@ -1,0 +1,14 @@
+{
+ "beta": 1.5,
+ "D_nec_deficit": 0.0033622452172860796,
+ "delta_star": 0.0016811226086430398,
+ "T_cartan_geom": 7.425826474101849e+26,
+ "T_fluid_required_geom": 1117305901419.6895,
+ "T_fluid_required_Jm3": 1.3522864675552628e+56,
+ "T_fluid_required_kgm3": 1.504621613925913e+39,
+ "nuclear_kgm3": 1e+18,
+ "orders_above_nuclear": 21.177427296178724,
+ "wall_density_geom": 8.7686730230634e-05,
+ "elapsed_s": 2.313810348510742,
+ "verdict": "Sign: the spin contact term CAN enter NEC with the helping sign along the spin axis. Magnitude: supplying the beta=1.5 deficit needs a spin-polarised fluid ~10^21 orders of magnitude above nuclear density \u2014 the term is real and irrelevant at warp scales. Bounded exclusion by magnitude (F3: structural \u2014 the coupling is fixed by GR constants, no free parameter to tune). REOPENING: a torsion coupling >> EC standard (non-minimal torsion-matter coupling) \u2014 a different theory, gated by D2/D3 spin-precession bounds."
+}

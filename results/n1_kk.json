@@ -1,0 +1,81 @@
+{
+ "configs": [
+  {
+   "M": 2.0,
+   "beta": 0.02,
+   "sigma0": 0.1,
+   "jordan_worst": 3.1109650920386194e-11,
+   "source5_nec": 9.576219144047382e-09,
+   "source5_nec_sampled": -0.0017234844764379364,
+   "source5_wec": 1.7921001885196468e-07,
+   "source5_dec": -0.0017235570042823845,
+   "einstein_worst": -1.0000000000000298,
+   "einstein_nec": -0.0014088215900324415
+  },
+  {
+   "M": 2.0,
+   "beta": 0.02,
+   "sigma0": 0.3,
+   "jordan_worst": 3.1109650920386194e-11,
+   "source5_nec": 1.0756429699200487e-08,
+   "source5_nec_sampled": -0.0053293964587266375,
+   "source5_wec": 1.7921001885196468e-07,
+   "source5_dec": -0.0053411746170670855,
+   "einstein_worst": -1.0000000161713478,
+   "einstein_nec": -0.004153537029482341
+  },
+  {
+   "M": 2.0,
+   "beta": 1.5,
+   "sigma0": 0.1,
+   "jordan_worst": -1.0000493666401453,
+   "source5_nec": 2.000180816395488e-06,
+   "source5_nec_sampled": -0.004434906651837582,
+   "source5_wec": 8.596567965304741e-08,
+   "source5_dec": -0.0016088080311286242,
+   "einstein_worst": -1.00004052764937,
+   "einstein_nec": -0.0030388076008137045
+  },
+  {
+   "M": 2.0,
+   "beta": 1.5,
+   "sigma0": 0.3,
+   "jordan_worst": -1.0000493666401453,
+   "source5_nec": 4.97633920574299e-06,
+   "source5_nec_sampled": -0.013756677699277584,
+   "source5_wec": 8.596567965311643e-08,
+   "source5_dec": -0.004996414891776655,
+   "einstein_worst": -1.0000272791533926,
+   "einstein_nec": -0.004137161122760423
+  },
+  {
+   "M": 2.0,
+   "beta": 0.02,
+   "sigma0": 0.0,
+   "jordan_worst": 3.1109650920386194e-11,
+   "source5_nec": 6.85623959979938e-07,
+   "source5_nec_sampled": 6.89944910900189e-07,
+   "source5_wec": 1.519310780768151e-06,
+   "source5_dec": 6.85623959979938e-07,
+   "einstein_worst": 3.1109650920386194e-11,
+   "einstein_nec": 3.11213988280144e-11,
+   "control": "sigma0=0 trivial lift"
+  },
+  {
+   "M": 2.0,
+   "beta": 1.5,
+   "sigma0": 0.0,
+   "jordan_worst": -1.0000493666401453,
+   "source5_nec": 2.8484043374496086e-07,
+   "source5_nec_sampled": -0.0033613567572628182,
+   "source5_wec": 6.494013803395297e-07,
+   "source5_dec": -2.240925407280632e-05,
+   "einstein_worst": -1.0000493666401453,
+   "einstein_nec": -0.0033587696192617245,
+   "control": "sigma0=0 trivial lift"
+  }
+ ],
+ "elapsed_s": 15.297450304031372,
+ "gates": "L_y free: D3 fifth-force gate L_y < 30 um satisfiable by choice; ATLAS RS floor binds the warped variant only (this is flat S1). Assumption: sigma stabilised by an unspecified potential (stated, not derived); an unstabilised modulus would be case (1) under D3/MICROSCOPE.",
+ "verdict_note": "source5_nec_sampled is the all-observer verdict number; the eigenvalue NEC silently restricts to Type-I points and is reported for comparison only. sigma=0 controls validate the reduction (5D NEC sampled +6.9e-7 at beta=0.02 = the 4D source; -3.36e-3 at beta=1.5 = the known 4D deficit)."
+}

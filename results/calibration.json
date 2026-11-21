@@ -1,0 +1,167 @@
+{
+ "unit_tests": {
+  "perfect_fluid_pass": true,
+  "eulerian_positive_nec_fail": true,
+  "flux_typeIV_flagged": true,
+  "dust_pass": true,
+  "neg_density_wec_fail": true
+ },
+ "alcubierre": [
+  {
+   "N": 33,
+   "h": 0.375,
+   "time_s": 20.327240467071533,
+   "method": "full audit",
+   "max_abs_err_rho": 0.002482885816188195,
+   "median_rel_err_rho": 0.285045579422339,
+   "min_nec": -0.06542668946231903,
+   "min_wec": -0.6343254843471622,
+   "min_sec": -0.6431581186067369,
+   "min_dec": -1.0092377105735866,
+   "frac_nec_viol_in_wall": 0.9759036144578314,
+   "typeI_frac": 0.0685087792525809
+  },
+  {
+   "N": 49,
+   "h": 0.25,
+   "time_s": 63.08422303199768,
+   "method": "full audit",
+   "max_abs_err_rho": 0.0011358742781728852,
+   "median_rel_err_rho": 0.10814579831651527,
+   "min_nec": -0.0691018495399633,
+   "min_wec": -0.6700984876055559,
+   "min_sec": -0.6774916917971234,
+   "min_dec": -1.0111754269530517,
+   "frac_nec_viol_in_wall": 0.9821109123434705,
+   "typeI_frac": 0.07460326904606074
+  },
+  {
+   "N": 65,
+   "h": 0.1875,
+   "time_s": 21.484139442443848,
+   "method": "screening summary",
+   "max_abs_err_rho": 0.0005196058686258113,
+   "median_rel_err_rho": 0.03978882523529639,
+   "min_nec": -0.06987046939724394,
+   "min_wec": -0.6779831855290795,
+   "min_sec": -0.6843375912783236,
+   "min_dec": -1.011652240218107,
+   "typeI_frac": 0.01849112426035503
+  },
+  {
+   "N": 97,
+   "h": 0.125,
+   "time_s": 102.6840488910675,
+   "method": "screening summary",
+   "max_abs_err_rho": 0.00013726926556031915,
+   "median_rel_err_rho": 0.008986809419859373,
+   "min_nec": -0.07026210813526006,
+   "min_wec": -0.6816766306001143,
+   "min_sec": -0.6881102541711072,
+   "min_dec": -1.011815759196388,
+   "typeI_frac": 0.020083866696093577
+  }
+ ],
+ "eigen_vs_sampled_nec_agreement_typeI": 1.0,
+ "eigen_vs_sampled_nec_clear_points": 14,
+ "point_auditor": {
+  "points": [
+   [
+    0.0,
+    1.5,
+    0.0
+   ],
+   [
+    1.0,
+    1.0,
+    0.5
+   ],
+   [
+    0.0,
+    0.0,
+    1.5
+   ]
+  ],
+  "exact_That00": [
+   -0.00492,
+   -0.00273,
+   -0.00492
+  ],
+  "exact_nec_equator": -0.00964,
+  "runs": [
+   {
+    "h": 0.2,
+    "That00": [
+     -0.004294491841067581,
+     -0.002637502794820752,
+     -0.004294491841067585
+    ],
+    "nec": [
+     -0.035928454317898435,
+     -0.037232780595964965,
+     -0.035840958579493806
+    ],
+    "typeI": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "h": 0.1,
+    "That00": [
+     -0.004861173026363363,
+     -0.0027273775405876324,
+     -0.0048611730263633645
+    ],
+    "nec": [
+     -0.00911938025646359,
+     -0.038382256070500304,
+     -0.009119380256463602
+    ],
+    "typeI": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "h": 0.05,
+    "That00": [
+     -0.004918160837087994,
+     -0.0027342150053603323,
+     -0.004918160837087997
+    ],
+    "nec": [
+     -0.009601871377639508,
+     -0.03847628413827533,
+     -0.009601871377639517
+    ],
+    "typeI": [
+     true,
+     false,
+     true
+    ]
+   }
+  ]
+ },
+ "vandenbroeck": {
+  "min_nec": -0.26090163586223325,
+  "min_wec": -0.6814071544492666,
+  "min_dec": -1.0272978675885251,
+  "min_nec_in_wall": -0.26090163586223325,
+  "typeI_frac": 0.08892553272870998
+ },
+ "fuchs_base_shell_exact": {
+  "M_geom_m": 3.334274,
+  "min_nec_shell": 3.1688917841338605e-06,
+  "min_wec_shell": 3.1688917841338605e-06,
+  "min_sec_shell": 2.92136644854053e-06,
+  "min_dec_shell": 3.1688917841338605e-06,
+  "rho_peak_geom": 0.0001131077677893661,
+  "p_t_peak_over_rho": 0.5574237720888874
+ },
+ "sampled_ge_eigen_bound_frac": null,
+ "point_typeI_wall_points": 14,
+ "margins_note": "Eigenvalue margins (Type I) use eigenframe null normalisation; sampled margins use Eulerian k0=1 normalisation. Magnitudes differ by frame boost factors; SIGNS agree 14/14 on clear Type-I points and sign is the rigorous content. Brute-force sphere optimisation at 4 points matched the sampled values (e.g. -0.02965 vs sampled -0.02949 vs eigenvalue -0.01632)."
+}

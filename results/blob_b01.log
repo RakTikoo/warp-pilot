@@ -1,0 +1,9 @@
+TRACK B blob: beta=0.1 lattice 5^3 x 5 fields = 625 genes, screen 300 pts
+seed (spherical wall blurred on lattice): worst -1.8830e-05 TypeI 1.000
+DE done: screen worst +8.8593e-06 evals 0 2905s
+  final seed=555001 h=0.35: worst +2.7779e-06 TypeI 1.000
+  final seed=555001 h=0.175: worst +2.7779e-06 TypeI 1.000
+  final seed=777001 h=0.35: worst +3.5831e-06 TypeI 1.000
+  final seed=777001 h=0.175: worst +3.5831e-06 TypeI 1.000
+grid mass: winner 46.95 (seed 46.38, spherical target 10)
+TRACK B DONE
