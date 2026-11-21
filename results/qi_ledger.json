@@ -1,0 +1,364 @@
+{
+ "anchors": {
+  "pf_R100_D1_v1": {
+   "E_kg": -1.1221926713947991e+30,
+   "E_Msun": -0.5643498123656877,
+   "pf_claim": "order of a quarter solar mass"
+  },
+  "tanh_R100_sigma2_v1": {
+   "E_kg": -7.481282443635241e+29,
+   "E_Msun": -0.3762331060380716,
+   "Delta_eff_m": 1.5000160329582286
+  },
+  "pf_R100_QIwall_v1": {
+   "Delta_QI_m": 1.616255e-33,
+   "E_kg": -6.9431081102123945e+62,
+   "E_galaxies": -3.471554055106197e+20,
+   "pf_claim": "~-3e20 galaxy masses (Eq. 31)"
+  },
+  "vdb": {
+   "paper_total_negative": "few x 1e30 kg (few M_sun)",
+   "E_IV_kg_quoted": -6.3e+29,
+   "E_II_neg_kg_quoted": -1.4e+30,
+   "E_II_pos_kg_quoted": 4.9e+30,
+   "note": "v5 corrected version; v4 abstract erroneously said grams"
+  }
+ },
+ "sweep": [
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 0.1,
+   "sigma": 0.2,
+   "Delta_eff": 0.454219498569822,
+   "E_kg": -2.5130514228565927e+24,
+   "E_Msun": -1.2638115852170728e-06
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 0.1,
+   "sigma": 2.0,
+   "Delta_eff": 1.5557329282241872,
+   "E_kg": -8.668061090870111e+23,
+   "E_Msun": -4.359161109229765e-07
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 0.1,
+   "sigma": 20.0,
+   "Delta_eff": 0.15016079854964914,
+   "E_kg": -7.487253251216151e+24,
+   "E_Msun": -3.7653337748199123e-06
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 0.5,
+   "sigma": 0.2,
+   "Delta_eff": 0.454219498569822,
+   "E_kg": -6.28262855714148e+25,
+   "E_Msun": -3.159528963042681e-05
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 0.5,
+   "sigma": 2.0,
+   "Delta_eff": 1.5557329282241872,
+   "E_kg": -2.1670152727175273e+25,
+   "E_Msun": -1.0897902773074411e-05
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 0.5,
+   "sigma": 20.0,
+   "Delta_eff": 0.15016079854964914,
+   "E_kg": -1.8718133128040372e+26,
+   "E_Msun": -9.413334437049778e-05
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 1.0,
+   "sigma": 0.2,
+   "Delta_eff": 0.454219498569822,
+   "E_kg": -2.513051422856592e+26,
+   "E_Msun": -0.00012638115852170724
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 1.0,
+   "sigma": 2.0,
+   "Delta_eff": 1.5557329282241872,
+   "E_kg": -8.668061090870109e+25,
+   "E_Msun": -4.3591611092297644e-05
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 1.0,
+   "sigma": 20.0,
+   "Delta_eff": 0.15016079854964914,
+   "E_kg": -7.487253251216149e+26,
+   "E_Msun": -0.0003765333774819911
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 2.0,
+   "sigma": 0.2,
+   "Delta_eff": 0.454219498569822,
+   "E_kg": -1.0052205691426368e+27,
+   "E_Msun": -0.000505524634086829
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 2.0,
+   "sigma": 2.0,
+   "Delta_eff": 1.5557329282241872,
+   "E_kg": -3.4672244363480436e+26,
+   "E_Msun": -0.00017436644436919058
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 1.0,
+   "v": 2.0,
+   "sigma": 20.0,
+   "Delta_eff": 0.15016079854964914,
+   "E_kg": -2.9949013004864596e+27,
+   "E_Msun": -0.0015061335099279644
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 0.1,
+   "sigma": 0.2,
+   "Delta_eff": 15.557329282241874,
+   "E_kg": -8.66806109087011e+24,
+   "E_Msun": -4.3591611092297644e-06
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 0.1,
+   "sigma": 2.0,
+   "Delta_eff": 1.5016079854964914,
+   "E_kg": -7.487253251216151e+25,
+   "E_Msun": -3.765333774819912e-05
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 0.1,
+   "sigma": 20.0,
+   "Delta_eff": 0.15000160329600476,
+   "E_kg": -7.481282443635245e+26,
+   "E_Msun": -0.00037623310603807173
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 0.5,
+   "sigma": 0.2,
+   "Delta_eff": 15.557329282241874,
+   "E_kg": -2.1670152727175268e+26,
+   "E_Msun": -0.00010897902773074408
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 0.5,
+   "sigma": 2.0,
+   "Delta_eff": 1.5016079854964914,
+   "E_kg": -1.871813312804037e+27,
+   "E_Msun": -0.0009413334437049777
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 0.5,
+   "sigma": 20.0,
+   "Delta_eff": 0.15000160329600476,
+   "E_kg": -1.8703206109088108e+28,
+   "E_Msun": -0.009405827650951791
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 1.0,
+   "sigma": 0.2,
+   "Delta_eff": 15.557329282241874,
+   "E_kg": -8.668061090870107e+26,
+   "E_Msun": -0.0004359161109229763
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 1.0,
+   "sigma": 2.0,
+   "Delta_eff": 1.5016079854964914,
+   "E_kg": -7.487253251216148e+27,
+   "E_Msun": -0.003765333774819911
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 1.0,
+   "sigma": 20.0,
+   "Delta_eff": 0.15000160329600476,
+   "E_kg": -7.481282443635243e+28,
+   "E_Msun": -0.037623310603807164
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 2.0,
+   "sigma": 0.2,
+   "Delta_eff": 15.557329282241874,
+   "E_kg": -3.467224436348043e+27,
+   "E_Msun": -0.0017436644436919053
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 2.0,
+   "sigma": 2.0,
+   "Delta_eff": 1.5016079854964914,
+   "E_kg": -2.9949013004864593e+28,
+   "E_Msun": -0.015061335099279644
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 10.0,
+   "v": 2.0,
+   "sigma": 20.0,
+   "Delta_eff": 0.15000160329600476,
+   "E_kg": -2.9925129774540972e+29,
+   "E_Msun": -0.15049324241522866
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 0.1,
+   "sigma": 0.2,
+   "Delta_eff": 15.016079854965028,
+   "E_kg": -7.487253251216152e+26,
+   "E_Msun": -0.00037653337748199127
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 0.1,
+   "sigma": 2.0,
+   "Delta_eff": 1.5000160329582286,
+   "E_kg": -7.481282443635243e+27,
+   "E_Msun": -0.0037623310603807163
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 0.1,
+   "sigma": 20.0,
+   "Delta_eff": 0.15000001603038982,
+   "E_kg": -7.4812227355594355e+28,
+   "E_Msun": -0.03762301033236325
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 0.5,
+   "sigma": 0.2,
+   "Delta_eff": 15.016079854965028,
+   "E_kg": -1.8718133128040376e+28,
+   "E_Msun": -0.00941333443704978
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 0.5,
+   "sigma": 2.0,
+   "Delta_eff": 1.5000160329582286,
+   "E_kg": -1.8703206109088104e+29,
+   "E_Msun": -0.0940582765095179
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 0.5,
+   "sigma": 20.0,
+   "Delta_eff": 0.15000001603038982,
+   "E_kg": -1.8703056838898585e+30,
+   "E_Msun": -0.9405752583090811
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 1.0,
+   "sigma": 0.2,
+   "Delta_eff": 15.016079854965028,
+   "E_kg": -7.48725325121615e+28,
+   "E_Msun": -0.03765333774819912
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 1.0,
+   "sigma": 2.0,
+   "Delta_eff": 1.5000160329582286,
+   "E_kg": -7.481282443635241e+29,
+   "E_Msun": -0.3762331060380716
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 1.0,
+   "sigma": 20.0,
+   "Delta_eff": 0.15000001603038982,
+   "E_kg": -7.481222735559434e+30,
+   "E_Msun": -3.7623010332363243
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 2.0,
+   "sigma": 0.2,
+   "Delta_eff": 15.016079854965028,
+   "E_kg": -2.99490130048646e+29,
+   "E_Msun": -0.1506133509927965
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 2.0,
+   "sigma": 2.0,
+   "Delta_eff": 1.5000160329582286,
+   "E_kg": -2.9925129774540966e+30,
+   "E_Msun": -1.5049324241522863
+  },
+  {
+   "family": "alcubierre_tanh",
+   "R": 100.0,
+   "v": 2.0,
+   "sigma": 20.0,
+   "Delta_eff": 0.15000001603038982,
+   "E_kg": -2.9924890942237736e+31,
+   "E_Msun": -15.049204132945297
+  }
+ ],
+ "scaling": {
+  "v_exponent": 2.0000000000000075,
+  "R_exponent": 1.968027043824546,
+  "Delta_exponent": -0.9603259890248902
+ },
+ "casimir": {
+  "rho_J_m3_at_1um": -0.00043337158769505576,
+  "warp_need_J_m3_at_R1m": 4.815872158433047e+42,
+  "gap_orders": 46.04581451456712,
+  "note": "research report said ~1e35 J/m3 / ~38 orders; direct evaluation of (c^4/8piG)(1/R^2) at R=1 m gives 4.8e42 J/m3 and a ~46-order gap. Even the report smaller figure leaves >=38 orders."
+ }
+}

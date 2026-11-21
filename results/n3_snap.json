@@ -1,0 +1,74 @@
+{
+ "target_beta": 0.1,
+ "M": 10.0,
+ "R1": 10.0,
+ "R2": 30.0,
+ "snapshots": [
+  {
+   "lambda": 0.0,
+   "beta": 0.0,
+   "worst": -3.113893669123866e-08,
+   "typeI": 1.0
+  },
+  {
+   "lambda": 0.2,
+   "beta": 0.010000000000000002,
+   "worst": -3.11341887673378e-08,
+   "typeI": 1.0
+  },
+  {
+   "lambda": 0.4,
+   "beta": 0.020000000000000004,
+   "worst": -3.1119987528434245e-08,
+   "typeI": 1.0
+  },
+  {
+   "lambda": 0.6,
+   "beta": 0.03,
+   "worst": -3.1096459863261304e-08,
+   "typeI": 1.0
+  },
+  {
+   "lambda": 0.8,
+   "beta": 0.04000000000000001,
+   "worst": -3.1063814910791e-08,
+   "typeI": 1.0
+  },
+  {
+   "lambda": 1.0,
+   "beta": 0.05,
+   "worst": -3.1022340627160466e-08,
+   "typeI": 1.0
+  }
+ ],
+ "static_beta0.0": {
+  "worst": -2.8697905333138888e-08,
+  "typeI": 1.0,
+  "M_recovered": 10.000005042844133,
+  "umin": 0.3753401759676319,
+  "shoot": "local-scan",
+  "realisation": {
+   "rho_res": 6.719606727588418e-05,
+   "pr_res": 2.230762112406572e-16,
+   "pt_res": 6.18018317017475e-05
+  }
+ },
+ "static_beta0.1": {
+  "worst": -2.0647103113482726e-06,
+  "typeI": 1.0,
+  "M_recovered": 10.000005042844133,
+  "umin": 0.3753401759676319,
+  "shoot": "local-scan",
+  "realisation": {
+   "rho_res": 6.719606727588418e-05,
+   "pr_res": 2.230762112406572e-16,
+   "pt_res": 6.18018317017475e-05
+  }
+ },
+ "snapshot_beta1.1": {
+  "worst": -1.0000035023234148,
+  "typeI": 0.42857142857142855
+ },
+ "elapsed_s": 18.222471952438354,
+ "formation_label": "quasi-static instant path only \u2014 necessary, not sufficient, for formation; dynamics not modelled."
+}

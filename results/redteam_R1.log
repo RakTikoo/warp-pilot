@@ -1,0 +1,7 @@
+finalist_A nec worst: 7.306650846044294e-06 r: 22.35998378240826 frac_neg: 0.0 (48s)
+finalist_A wec worst: 7.427711468870987e-06 r: 22.36228605519772 frac_neg: 0.0 (41s)
+finalist_B2 nec worst: 8.592480838450874e-06 r: 22.452197640232956 frac_neg: 0.0 (37s)
+finalist_B2 wec worst: 8.822682004809684e-06 r: 22.456281945457494 frac_neg: 0.0 (39s)
+frontier_b005 nec worst: 0.00010358453897879675 r: 7.57492968715656 frac_neg: 0.0 (41s)
+frontier_b005 wec worst: 0.0002286857797778403 r: 7.573773764085135 frac_neg: 0.0 (43s)
+R1 DONE

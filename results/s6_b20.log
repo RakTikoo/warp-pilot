@@ -1,0 +1,6 @@
+  ADV rd0: train=576 pts, obj=-1.000e+00, arbiter worst=-1.000e+00, bad pts=792 [679s]
+  FINAL seed=555001 h=0.3: worst=-1.0001e+00 tI=0.331
+  FINAL seed=555001 h=0.15: worst=-1.0003e+00 tI=0.322
+  FINAL seed=777001 h=0.3: worst=-1.0001e+00 tI=0.336
+  FINAL seed=777001 h=0.15: worst=-1.0004e+00 tI=0.338
+TrackP-ADV beta=2.0 M=10.0: 1248 evals -> results/trackP_b2.0_M10.0_S6.json

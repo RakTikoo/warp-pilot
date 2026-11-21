@@ -1,0 +1,10 @@
+M=3.0 worst= -3.017e-06 nec= -8.92e-07 typeI= 0.9973544973544973 (1s)
+M=2.7 worst= -8.275e-05 nec= -8.94e-06 typeI= 0.9761904761904762 (1s)
+M=2.4 worst= -1.655e-04 nec= -1.73e-05 typeI= 0.9497354497354498 (1s)
+M=2.1 worst= -2.451e-04 nec= -2.54e-05 typeI= 0.917989417989418 (1s)
+M=1.8 worst= -3.231e-04 nec= -3.33e-05 typeI= 0.8571428571428571 (1s)
+beta=0.03 M=Fuchs worst= -3.982e-04 nec= -4.15e-05 typeI= 0.9391534391534392 (1s)
+beta=0.05 M=Fuchs worst= -1.000e+00 nec= -1.45e-04 typeI= 0.7777777777777778 (1s)
+beta=0.08 M=Fuchs worst= -1.000e+00 nec= -3.07e-04 typeI= 0.6825396825396826 (1s)
+h=0.15 worst= 2.000e-05
+C2 DONE

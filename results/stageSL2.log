@@ -1,0 +1,14 @@
+SL2 M=2.0 b=0.3 worst= -1.000e+00 (dec @r=10.5) nec= -7.87e-04 typeI= 0.402
+SL2 M=2.0 b=0.5 worst= -1.000e+00 (dec @r=10.5) nec= -1.41e-03 typeI= 0.384
+SL2 M=2.0 b=0.9 worst= -1.000e+00 (dec @r=10.5) nec= -2.39e-03 typeI= 0.384
+SL2 M=2.0 b=1.1 worst= -1.000e+00 (dec @r=10.5) nec= -2.75e-03 typeI= 0.371
+SL2 M=2.0 b=1.5 worst= -1.000e+00 (dec @r=11.5) nec= -3.34e-03 typeI= 0.369
+SL2 M=5.0 b=0.1 worst= -1.000e+00 (dec @r=10.5) nec= -1.36e-04 typeI= 0.863
+SL2 M=5.0 b=0.3 worst= -1.000e+00 (dec @r=10.5) nec= -9.39e-04 typeI= 0.414
+SL2 M=5.0 b=0.5 worst= -1.000e+00 (dec @r=10.5) nec= -1.69e-03 typeI= 0.402
+SL2 M=5.0 b=0.9 worst= -1.000e+00 (dec @r=10.5) nec= -2.62e-03 typeI= 0.400
+SL2 M=5.0 b=1.1 worst= -1.000e+00 (dec @r=10.5) nec= -2.88e-03 typeI= 0.394
+SL2 M=5.0 b=1.5 worst= -1.000e+00 (dec @r=10.5) nec= -3.31e-03 typeI= 0.394
+SL2 M=8.0 b=0.5 worst= -1.000e+00 (dec @r=10.5) nec= -2.45e-03 typeI= 0.412
+SL2 M=8.0 b=0.9 worst= -1.000e+00 (dec @r=10.5) nec= -3.01e-03 typeI= 0.400
+SL2 DONE

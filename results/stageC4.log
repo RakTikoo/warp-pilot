@@ -1,0 +1,13 @@
+M=2.7 ep wd=2.0 fl=0.15 worst= -1.178e-07 nec= -1.18e-07 typeI= 0.997 rho_pk= 9.65e-05
+M=2.7 ep wd=2.0 fl=0.2 worst= -2.897e-08 nec= -2.90e-08 typeI= 0.997 rho_pk= 9.48e-05
+M=2.7 ep wd=2.5 fl=0.15 worst= 1.391e-05 nec= 1.39e-05 typeI= 1.000 rho_pk= 9.36e-05
+M=2.7 ep wd=2.5 fl=0.2 worst= 1.400e-05 nec= 1.40e-05 typeI= 1.000 rho_pk= 9.23e-05
+M=2.7 ep wd=3.0 fl=0.15 worst= 1.600e-05 nec= 1.76e-05 typeI= 1.000 rho_pk= 9.12e-05
+M=2.7 ep wd=3.0 fl=0.2 worst= 1.563e-05 nec= 1.73e-05 typeI= 1.000 rho_pk= 9.07e-05
+M=2.4 ep wd=2.0 fl=0.15 worst= -9.209e-05 nec= -9.75e-06 typeI= 0.974 rho_pk= 8.58e-05
+M=2.4 ep wd=2.0 fl=0.2 worst= -8.415e-05 nec= -8.93e-06 typeI= 0.971 rho_pk= 8.42e-05
+M=2.4 ep wd=2.5 fl=0.15 worst= -7.157e-05 nec= -7.65e-06 typeI= 0.976 rho_pk= 8.32e-05
+M=2.4 ep wd=2.5 fl=0.2 worst= -7.243e-05 nec= -7.74e-06 typeI= 0.976 rho_pk= 8.20e-05
+M=2.4 ep wd=3.0 fl=0.15 worst= -6.491e-05 nec= -6.97e-06 typeI= 0.976 rho_pk= 8.11e-05
+M=2.4 ep wd=3.0 fl=0.2 worst= -6.530e-05 nec= -7.02e-06 typeI= 0.976 rho_pk= 8.06e-05
+C4 DONE; passing: [('M=2.7 ep wd=2.5 fl=0.15', 1.391e-05), ('M=2.7 ep wd=2.5 fl=0.2', 1.4e-05), ('M=2.7 ep wd=3.0 fl=0.15', 1.6e-05), ('M=2.7 ep wd=3.0 fl=0.2', 1.563e-05)]

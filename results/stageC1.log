@@ -1,0 +1,9 @@
+BEST-BASE {'M_geom': 3.334274, 'kind': 'smoothbox', 'params': {'edge': 3.0}, 's_rho': 2.0, 's_P': 1.16, 'beta_w': 0.02, 'shift_kind': 'fuchs', 'Rb': 1.0, 'ws': None, 'worst': 1.9988e-05, 'nec': 2.3183e-05, 'wec': 2.317e-05, 'sec': 2.3183e-05, 'dec': 1.9988e-05, 'typeI_frac_sig': 1.0, 'n_sig': 378, 'rho_peak': 0.000111599}
+VAR fuchs Rb=0.5 worst= 1.999e-05 nec= 2.32e-05 (1s)
+VAR fuchs Rb=2.0 worst= -1.000e+00 nec= -3.13e-04 (1s)
+VAR smoothstep Rb=0.5 worst= 1.999e-05 nec= 2.32e-05 (1s)
+VAR smoothstep Rb=2.0 worst= -3.595e-04 nec= -3.75e-05 (1s)
+VAR tanh w=3 worst= 1.979e-05 nec= 2.29e-05 (2s)
+VAR tanh w=4 worst= 1.920e-05 nec= 2.24e-05 (2s)
+VAR tanh w=5 worst= 1.885e-05 nec= 2.20e-05 (2s)
+STAGE C1 DONE

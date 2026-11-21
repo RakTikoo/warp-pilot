@@ -1,0 +1,13 @@
+N3 DE: beta=0.1 M=10.0 (10,30) screen=420 pts
+seed (forward prescription): worst -2.9397e-06 TypeI 1.000 shoot=local-scan
+DE done: screen worst +2.8452e-09 evals 3565 1042s
+  final seed=555001 h=0.3: worst +2.1166e-09 TypeI 1.000
+  final seed=555001 h=0.15: worst +2.1167e-09 TypeI 1.000
+  final seed=777001 h=0.3: worst -1.2389e-05 TypeI 1.000
+  final seed=777001 h=0.15: worst -1.2391e-05 TypeI 1.000
+  sweep beta=0.05: worst -1.2319e-05 TypeI 1.000
+  sweep beta=0.5: worst -1.0000e+00 TypeI 0.720
+  sweep beta=1.1: worst -1.0000e+00 TypeI 0.676
+  sweep beta=1.5: worst -1.0000e+00 TypeI 0.676
+  sweep beta=2.0: worst -1.0000e+00 TypeI 0.679
+N3 DE DONE

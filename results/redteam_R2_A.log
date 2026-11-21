@@ -1,0 +1,9 @@
+[7s] metric inverted
+[39s] Christoffel done
+[40s] dGamma done
+[45s] lambdified
+finalist_A: 21 pts, max |T_sym - T_fd| = 2.266e-05
+  nec: sym min -4.567010e-05 | fd min +1.876906e-07
+  wec: sym min -4.443806e-04 | fd min +1.876906e-07
+  sec: sym min -4.455328e-04 | fd min +1.653059e-07
+  dec: sym min -1.000000e+00 | fd min +1.876906e-07

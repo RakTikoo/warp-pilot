@@ -1,0 +1,7 @@
+{
+ "n_points": 150,
+ "n_sig": 143,
+ "nec_sign_agree_frac": 1.0,
+ "wec_sign_agree_frac": 1.0,
+ "sampled_over_eigen_nec_ratio_median": 0.6874046263806347
+}

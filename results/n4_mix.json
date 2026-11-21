@@ -1,0 +1,24 @@
+{
+ "configs": [
+  {
+   "M": 3.5,
+   "beta": 0.05,
+   "R1": 10.0,
+   "R2": 20.0,
+   "n_points": 40,
+   "n_feasible_splits": 0,
+   "nec_min": -2.1204311635767128e-05
+  },
+  {
+   "M": 10.0,
+   "beta": 1.1,
+   "R1": 10.0,
+   "R2": 30.0,
+   "n_points": 40,
+   "n_feasible_splits": 0,
+   "nec_min": -0.0008700805831746042
+  }
+ ],
+ "elapsed_s": 6.034150123596191,
+ "theorem": "NEC linearity: NEC(T1+T2) = NEC(T1)+NEC(T2); the LP confirms the full-EC split is empty on the actual tensors even under co-diagonal, flux-free, relaxed-scalar assumptions. The only exit is a ghost component (F_X<0), which is phantom matter under the E3 label, not an ordinary source."
+}
