@@ -1,0 +1,18 @@
+{
+ "R1": 10.0,
+ "R2": 20.0,
+ "M_geom": 2.0,
+ "kind": "edgepeaked",
+ "params": {
+  "wd": 3.0,
+  "floor": 0.2
+ },
+ "s_rho": 2.0,
+ "s_P": 1.16,
+ "beta": 0.02,
+ "shift_kind": "cos",
+ "ws": [
+  10.0,
+  20.0
+ ]
+}
