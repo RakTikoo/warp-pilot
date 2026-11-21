@@ -1,0 +1,79 @@
+{
+ "item": "P8-3 gamma-extended GN solve, config B",
+ "environment": "system python3, numpy 2.2.6, scipy 1.14.1; float64",
+ "config": {
+  "M_modes": 7,
+  "K_radial": 12,
+  "dof": 252,
+  "Ns": 81,
+  "Np": 32,
+  "maxiter": 12,
+  "jacobian": "forward FD eps=1e-3",
+  "damping": "Levenberg lam_rel=1e-8 x mean col norm^2, adaptive x10 retries, step cap 0.8, backtracking 1/0.5/0.25"
+ },
+ "bc_set": "centre: alpha,beta,gamma phi-independent at s=0, mode-m amplitude O(s^m) via u^m factor, m=0 part even in s (d_s=0 at s=0); surface: beta(15,phi)=0 and dalpha(15,phi)=0 via (1-u^2) factor (alpha continuous, flat-exterior gauge alpha0(15)=0); p_s(15,phi)=0 prescription-side (P6-4a sigma-shoot); gamma finite, unconstrained at surface (matching stated, not solved)",
+ "bc_verification": {
+  "beta_at_surface_maxabs": 0.0,
+  "dalpha_at_surface_maxabs": 0.0,
+  "centre_phi_spread_max": 0.0,
+  "gamma_minmax": [
+   -0.4480415166386404,
+   0.3027982483311423
+  ],
+  "beta_minmax": [
+   0.0,
+   0.3391309226209571
+  ],
+  "dalpha_minmax": [
+   -0.19069567663807777,
+   0.0
+  ],
+  "alpha_total_minmax": [
+   -0.3476334404065081,
+   4.5467997466368464e-05
+  ],
+  "gamma_finite": true
+ },
+ "trajectory": [
+  {
+   "iter": 0,
+   "rms": 0.0001894457024761836,
+   "max": 0.0004834366335830847
+  },
+  {
+   "iter": 1,
+   "rms": 0.00016509060513347892,
+   "max": 0.0005326471721211271,
+   "lam_mult": 1.0,
+   "scale": 1.0
+  }
+ ],
+ "residual_before_rms": 0.0001894457024761836,
+ "residual_after_rms": 0.00016509060513347892,
+ "rms_reduction_factor": 1.1475256409837078,
+ "residual_after_per_comp": {
+  "tt": {
+   "rms": 0.00014634157690726138,
+   "max": 0.00021744611365864287
+  },
+  "ss": {
+   "rms": 0.00030938458723019075,
+   "max": 0.0005326471721211271
+  },
+  "thth": {
+   "rms": 0.00013562676017597123,
+   "max": 0.00021789658257376275
+  },
+  "psipsi": {
+   "rms": 2.3078180738614845e-05,
+   "max": 5.598284775110813e-05
+  },
+  "sth": {
+   "rms": 1.4582148927961982e-05,
+   "max": 3.1009294509866616e-05
+  }
+ },
+ "bar_rms": 0.000299,
+ "solved": true,
+ "runtime_s": 14.47150707244873
+}

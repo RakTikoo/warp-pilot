@@ -1,0 +1,93 @@
+{
+ "item": "P8-3 gamma-extended GN solve, config A",
+ "environment": "system python3, numpy 2.2.6, scipy 1.14.1; float64",
+ "config": {
+  "M_modes": 6,
+  "K_radial": 10,
+  "dof": 180,
+  "Ns": 81,
+  "Np": 32,
+  "maxiter": 50,
+  "jacobian": "forward FD eps=1e-3",
+  "damping": "Levenberg lam_rel=1e-8 x mean col norm^2, adaptive x10 retries, step cap 0.8, backtracking 1/0.5/0.25"
+ },
+ "bc_set": "centre: alpha,beta,gamma phi-independent at s=0, mode-m amplitude O(s^m) via u^m factor, m=0 part even in s (d_s=0 at s=0); surface: beta(15,phi)=0 and dalpha(15,phi)=0 via (1-u^2) factor (alpha continuous, flat-exterior gauge alpha0(15)=0); p_s(15,phi)=0 prescription-side (P6-4a sigma-shoot); gamma finite, unconstrained at surface (matching stated, not solved)",
+ "bc_verification": {
+  "beta_at_surface_maxabs": 0.0,
+  "dalpha_at_surface_maxabs": 0.0,
+  "centre_phi_spread_max": 0.0,
+  "gamma_minmax": [
+   -0.3362465729468211,
+   0.20134660070695726
+  ],
+  "beta_minmax": [
+   0.0,
+   0.32838844127055006
+  ],
+  "dalpha_minmax": [
+   -0.18389249087078743,
+   0.0
+  ],
+  "alpha_total_minmax": [
+   -0.34080419657795835,
+   4.5467997466368464e-05
+  ],
+  "gamma_finite": true
+ },
+ "trajectory": [
+  {
+   "iter": 0,
+   "rms": 0.0029944438556566153,
+   "max": 0.006807017349082338
+  },
+  {
+   "iter": 1,
+   "rms": 0.0007889027099432112,
+   "max": 0.0022046979558328177,
+   "lam_mult": 1.0,
+   "scale": 1.0
+  },
+  {
+   "iter": 2,
+   "rms": 0.0006166020316385552,
+   "max": 0.0015234299533026822,
+   "lam_mult": 1.0,
+   "scale": 0.5
+  },
+  {
+   "iter": 3,
+   "rms": 0.00018944570247619443,
+   "max": 0.0004834366335840492,
+   "lam_mult": 1.0,
+   "scale": 1.0
+  }
+ ],
+ "residual_before_rms": 0.0029944438556566153,
+ "residual_after_rms": 0.00018944570247619443,
+ "rms_reduction_factor": 15.806343540745635,
+ "residual_after_per_comp": {
+  "tt": {
+   "rms": 0.000277654510018114,
+   "max": 0.0004834366335840492
+  },
+  "ss": {
+   "rms": 0.00026505579213578615,
+   "max": 0.0004823769360859225
+  },
+  "thth": {
+   "rms": 0.00017513314212496764,
+   "max": 0.00029778001623462826
+  },
+  "psipsi": {
+   "rms": 2.7445273768899758e-05,
+   "max": 7.284661544125541e-05
+  },
+  "sth": {
+   "rms": 2.6017504349031456e-05,
+   "max": 9.477630284929501e-05
+  }
+ },
+ "bar_rms": 0.000299,
+ "solved": true,
+ "runtime_s": 43.18907809257507
+}

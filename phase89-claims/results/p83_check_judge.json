@@ -1,0 +1,73 @@
+{
+ "item": "P8-3 solved-slice finer-grid check + sampling judge",
+ "environment": "system python3, numpy 2.2.6, scipy 1.14.1; float64",
+ "finer_grid_check": {
+  "grid": [
+   121,
+   48
+  ],
+  "rms": 0.00018946466785410289,
+  "max": 0.00048763198631810985,
+  "per_comp": {
+   "tt": 0.0002777056732414645,
+   "ss": 0.0002648977450004786,
+   "thth": 0.0001751464644123427,
+   "psipsi": 2.8977567697950566e-05,
+   "sth": 2.6020417803345372e-05
+  },
+  "base_rms_same_grid": 0.002993746095687191,
+  "reduction_factor_same_grid": 15.801078531394165
+ },
+ "judge_solved_metric": {
+  "b0.0_h0.3": {
+   "beta_shift": 0.0,
+   "h": 0.3,
+   "n_points": 972,
+   "inner_eq_nec_min": -0.00033962041260346784,
+   "inner_eq_typeI_frac": 1.0,
+   "all_nec_min": -0.00033962041260346784
+  },
+  "b0.0_h0.15": {
+   "beta_shift": 0.0,
+   "h": 0.15,
+   "n_points": 972,
+   "inner_eq_nec_min": -7.63077095549513e-05,
+   "inner_eq_typeI_frac": 1.0,
+   "all_nec_min": -0.00010491872403934233
+  },
+  "b0.0_h0.075": {
+   "beta_shift": 0.0,
+   "h": 0.075,
+   "n_points": 972,
+   "inner_eq_nec_min": -3.4022811723554394e-05,
+   "inner_eq_typeI_frac": 1.0,
+   "all_nec_min": -3.4022811723554394e-05
+  },
+  "b0.02_h0.3": {
+   "beta_shift": 0.02,
+   "h": 0.3,
+   "n_points": 972,
+   "inner_eq_nec_min": -0.00037790949451680175,
+   "inner_eq_typeI_frac": 0.7888888888888889,
+   "all_nec_min": -0.00037790949451680175
+  },
+  "b0.02_h0.15": {
+   "beta_shift": 0.02,
+   "h": 0.15,
+   "n_points": 972,
+   "inner_eq_nec_min": -0.00021853851861110849,
+   "inner_eq_typeI_frac": 0.7888888888888889,
+   "all_nec_min": -0.00021853851861110849
+  },
+  "b0.02_h0.075": {
+   "beta_shift": 0.02,
+   "h": 0.075,
+   "n_points": 972,
+   "inner_eq_nec_min": -0.00015082473474106452,
+   "inner_eq_typeI_frac": 0.7888888888888889,
+   "all_nec_min": -0.00015082473474106452
+  }
+ },
+ "note": "judge metric: ds2 = -e^{2a}dt2 + e^{2b}(ds2+s2 dphi2) + e^{2g}(R+s cosphi)2 dpsi2 with config-A fields, tapered outside s=15; axial shift g_tz=-S*beta_shift, S cos window [10,15] (p75 pattern)",
+ "runtime_s": 35.96655583381653
+}

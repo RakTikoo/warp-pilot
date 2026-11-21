@@ -1,0 +1,37 @@
+{
+ "item": "P8-3 branch boundary refinement (primary path)",
+ "environment": "system python3, numpy 2.2.6, scipy 1.14.1; float64",
+ "rows": [
+  {
+   "lam_rho_c_s_t2": 0.9,
+   "gelfand_param_rho_c_times_st2": 0.05484562947769891,
+   "max_beta15": -0.1325952355566491,
+   "b0_at_max": 0.5425
+  },
+  {
+   "lam_rho_c_s_t2": 0.8,
+   "gelfand_param_rho_c_times_st2": 0.04875167064684347,
+   "max_beta15": -0.07370369900197933,
+   "b0_at_max": 0.601
+  },
+  {
+   "lam_rho_c_s_t2": 0.7,
+   "gelfand_param_rho_c_times_st2": 0.042657711815988035,
+   "max_beta15": -0.006937994561748612,
+   "b0_at_max": 0.668
+  },
+  {
+   "lam_rho_c_s_t2": 0.6,
+   "gelfand_param_rho_c_times_st2": 0.036563752985132605,
+   "max_beta15": 0.0701373490224263,
+   "b0_at_max": 0.745
+  },
+  {
+   "lam_rho_c_s_t2": 0.55,
+   "gelfand_param_rho_c_times_st2": 0.03351677356970489,
+   "max_beta15": 0.11364303754916381,
+   "b0_at_max": 0.7885
+  }
+ ],
+ "runtime_s": 64.07871675491333
+}
