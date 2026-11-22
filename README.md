@@ -95,6 +95,10 @@ A third claims pack, in `phase1516-claims/`: a breathing warp shell audited lega
 
 Archived release: https://doi.org/10.5281/zenodo.24432779
 
+## Audit note (gate-verified)
+
+An independent audit of a published beyond-Horndeski wormhole (Mironov–Rubakov–Volkova 2019), in `mrv-audit/`: what the audit verified (the background is a genuine solution; the radial and odd sectors are healthy), two certified defects in the paper’s printed stability formulas, and the construction’s trajectory incompleteness — with the audit’s own transcription error disclosed in the same place. The even-sector ghost question is under certification and is not claimed here.
+
 ## Repository layout
 
 - `REPORT.md` — the final internal report: plain-language summary,
