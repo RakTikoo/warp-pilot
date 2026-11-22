@@ -1,0 +1,173 @@
+{
+  "worker": "V3 gate3",
+  "float": "float64 throughout",
+  "task1a_odd_sector": {
+    "V_closed_form_max_dev_vs_-4tau2/J4": 1.3877787807814457e-17,
+    "per_ell": {
+      "ell2": {
+        "Veff_min": 0.0015924032140248357,
+        "Veff_min_r": -60.0,
+        "Veff_positive_everywhere": true
+      },
+      "ell3": {
+        "Veff_min": 0.003214024835646457,
+        "Veff_min_r": -60.0,
+        "Veff_positive_everywhere": true
+      },
+      "ell5": {
+        "Veff_min": 0.008078889700511323,
+        "Veff_min_r": -60.0,
+        "Veff_positive_everywhere": true
+      },
+      "ell10": {
+        "Veff_min": 0.029700511322132944,
+        "Veff_min_r": -60.0,
+        "Veff_positive_everywhere": true
+      }
+    },
+    "ell2_lowest_eigs_two_grids": {
+      "N2401": [
+        0.008254429138996608,
+        0.00831121860127819,
+        0.01813518510460379,
+        0.019486909368100186,
+        0.02761731486054638,
+        0.034166454696644324
+      ],
+      "N4801": [
+        0.008254432498221389,
+        0.008311221901313936,
+        0.018135201808885955,
+        0.019486935396528654,
+        0.027617359624136063,
+        0.034166556825095964
+      ]
+    },
+    "ell2_lowest_om2_grid_change": 3.359224780286052e-09,
+    "no_bound_states_ell2": true,
+    "target": "Veff_min(ell=2) = 0.00159 at r=-60; no bound states",
+    "verdict": "REPRODUCED"
+  },
+  "task1b_ell0_lowest_mode": {
+    "data_source": "phase4/results/p42b_ell0_indep.json profile (31 radii), covariant normalisation; K0>0 at all data points: True",
+    "K0_min_data": 0.00442991890184552,
+    "K0_positive_all_data_points": true,
+    "G0_positive_all_data_points": true,
+    "D_analytic_vs_data_max_rel_dev": 0.0,
+    "qK_min_on_data": 0.01929291605501738,
+    "qG_min_on_data": 0.01466155293479742,
+    "interp_node_max_rel_dev_K0": 1.854868899916953e-16,
+    "interp_node_max_rel_dev_G0": 1.8405460502497222e-16,
+    "interp_node_max_abs_dev_M0": 2.842170943040401e-14,
+    "interp_K0_min_fine_grid": 0.0,
+    "interp_G0_min_fine_grid": 0.0,
+    "interp_K0_positive_fine_grid": false,
+    "interp_G0_positive_fine_grid": false,
+    "interp_diagnostic": {
+      "method": "Liouville V from the interpolated coefficients vs F4-3 V samples",
+      "V_samples_mine": {
+        "r=-5": -0.0011703316886549193,
+        "r=-1": 0.16526101080467814,
+        "r=-0.5": 0.26204837363925804,
+        "r=0.5": 0.8320196134645403,
+        "r=1": 2.2642814963749043,
+        "r=3": 0.75842646721807,
+        "r=5": 0.08396835628721652,
+        "r=20": 0.007256646970444536
+      },
+      "V_samples_F43": {
+        "r=-5": -0.0016685018600028638,
+        "r=-1": 0.17298025481214196,
+        "r=-0.5": 0.2630553123627415,
+        "r=0.5": 0.8412875048441331,
+        "r=1": 2.2694958580197273,
+        "r=3": 0.7562330581548916,
+        "r=5": 0.08398620455463687,
+        "r=20": 0.007429552326386509
+      }
+    },
+    "fem_runs": {
+      "scale1": {
+        "n_nodes": 171,
+        "n_interior": 169,
+        "lowest_om2": [
+          0.004473499365533936,
+          0.010546543912689997,
+          0.018179882663929295,
+          0.032714638867875526,
+          0.03968705239378563,
+          0.05031913014263331
+        ]
+      },
+      "scale2": {
+        "n_nodes": 341,
+        "n_interior": 339,
+        "lowest_om2": [
+          0.004468452807492265,
+          0.010510073755955706,
+          0.017961424592665955,
+          0.032074556014785136,
+          0.0395841376878367,
+          0.048697590255554556
+        ]
+      },
+      "scale3": {
+        "n_nodes": 511,
+        "n_interior": 509,
+        "lowest_om2": [
+          0.004467513255652499,
+          0.010503371079835809,
+          0.017920804166365982,
+          0.031953415658048615,
+          0.03956514797430413,
+          0.04839581254635215
+        ]
+      }
+    },
+    "lowest_om2_change_finest_two": 9.395518397658717e-07,
+    "lowest_om2_rel_change_finest_two": 0.00021030756620075123,
+    "lowest_mode_norm_fractions": {
+      "pocket_0_to_rstar": 3.4725275936368816e-15,
+      "abs_r_lt_2": 3.8709099026100266e-05,
+      "abs_r_gt_10": 0.9810601774824753
+    },
+    "lowest_mode_peak_r": -28.0,
+    "fem_validation_odd_ell2_lowest": 0.008289587985355059,
+    "fem_validation_target": 0.008254,
+    "continuum_threshold_M0_over_K0_at_box_edges": [
+      0.0002609136761938063,
+      0.00026087594640486093
+    ],
+    "anatomy": "The FEM solve is mesh-converged (lowest om2 = +0.004474 / +0.004468 / +0.004468 at scales 1/2/3, rel. change 2e-4 between the finest two) and the solver is validated on the odd sector (0.008290 vs the known 0.008254).  No negative eigenvalue exists in the discretised problem under ANY interpolation of the data tried (PCHIP on q: +0.004486; cubic spline on q: +0.004468; Akima: same continuum edge), so the SIGN content of the claim (no l=0 tachyon; lowest om2 > 0) is consistent with this path.  But the claimed near-zero throat-localised mode at +0.00021 does NOT appear: the lowest mode found is a box-continuum mode (peak at r = -28, 98% of its K0-weighted norm at |r| > 10), at +0.00447 -- coincident with F4-3's SECOND eigenvalue (+0.00445).  The claimed mode is a near-threshold bound state: its om2 = +0.00021 sits only ~5e-5 below the continuum threshold M0/K0 -> ~2.6e-4 at large |r|, so its binding energy (~5e-5) is far below the interpolation uncertainty of the 31-point coefficient data allowed as input here (F4-3's own dense-coefficient solve moved 0.00075 -> 0.00021 between h = 0.02 and h = 0.01).  MISSING PIECE: dense corrected coefficient profiles (K0, G0, M0 on a fine grid from the F4-2b from-action route, or F4-2's dense corrected profiles) -- with those, this same FEM path can settle the value.",
+    "target": "lowest om2 POSITIVE, ~ +0.00021 (accept within factor 2), throat-localised",
+    "verdict": "NOT YET",
+    "verdict_note": "finest-mesh lowest om2 = +0.004468; sign positive: True; within factor 2 of +0.00021: False; the +0.00021 throat-localised mode itself is not reproduced from the 31-point data -- see anatomy (NOT YET, missing piece = dense corrected coefficient profiles)"
+  },
+  "task2_gw_speed": {
+    "pos": {
+      "max_abs_cT_minus_1": 2.220446049250313e-16,
+      "max_abs_cT2_minus_1": 4.440892098500626e-16,
+      "max_abs_calF_minus_1": 1.1102230246251565e-16,
+      "max_abs_calG_minus_1": 4.440892098500626e-16,
+      "cT_at_abs1e4": 1.0,
+      "r_max": 10000.0,
+      "worst_r": 316.2277660168379
+    },
+    "neg": {
+      "max_abs_cT_minus_1": 2.220446049250313e-16,
+      "max_abs_cT2_minus_1": 4.440892098500626e-16,
+      "max_abs_calF_minus_1": 2.220446049250313e-16,
+      "max_abs_calG_minus_1": 4.440892098500626e-16,
+      "cT_at_abs1e4": 1.0,
+      "r_max": 10000.0,
+      "worst_r": -2.0
+    },
+    "target": "max |cT - 1| ~ 7.8e-16 class (<= ~1e-15), F4-5",
+    "verdict": "REPRODUCED"
+  },
+  "verdicts": {
+    "task1a_odd_sector": "REPRODUCED",
+    "task1b_ell0_lowest_mode": "NOT YET",
+    "task2_gw_speed": "REPRODUCED"
+  }
+}
