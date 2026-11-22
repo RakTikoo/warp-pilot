@@ -68,17 +68,32 @@ health: its 𝒦₀ spot values match the from-action derivation to
 ≤ 0.5%, and 𝒦₀ vanishes only at the throat, quadratically, as it
 should.
 
-One qualification, stated exactly: no ℓ=0 tachyon is found by any
-route (three independent eigensolvers agree the lowest ω² is
-positive); the programme's dense flux-form solve finds in addition
-a soft throat-localised near-zero mode at ω² ≈ +2×10⁻⁴, whose
-precise value is at the resolution limit of the available
-coefficient data and is reported as the programme's own result, not
-as gate-reproduced. (The mode's binding energy, ~5×10⁻⁵ below the
-continuum threshold, is smaller than the interpolation uncertainty
-of the 31-radius coefficient data the gate's solver was permitted
-to use; dense corrected coefficient profiles would settle its
-value.)
+The ℓ=0 spectrum is now settled, and the settlement strengthens
+the health conclusion. No ℓ=0 tachyon is found by any route (three
+independent eigensolvers agree the lowest ω² is positive); the
+ℓ=0 spectrum in the box begins at the positive continuum value
+ω² ≈ +0.0045; the D = 0 pole at r* = 1.772437990426927 is a
+parametrisation singularity of the reduced variable, across which
+the physical (Liouville) problem decouples.
+
+One correction to the first version of this note (v1.6.x) belongs
+here. That version reported, as the programme's own
+not-yet-gate-reproduced result, a soft throat-localised near-zero
+mode at ω² ≈ +0.00021. With dense corrected coefficient profiles
+in hand, that mode does not exist: the value +0.00021 was a
+discretisation artefact of a flux-form solve that bridged the
+D = 0 pole at r* = 1.772437990426927 — a trial function constant
+across the pole has a discrete 𝒦₀-norm diverging like 1/h, which
+drives its Rayleigh quotient spuriously toward zero, and under
+refinement and grid offset the bridging solve's lowest eigenvalue
+does not converge. The value is retracted. Solving instead the
+well-posed problem — pole excised, the two sides decoupled — the
+throat-segment ground state is ω² = +0.00445402, obtained by two
+independent routes in agreement: the formula route (identically
+at every excision width δ ∈ [0.01, 0.35] and both grid spacings)
+and the dense from-action profile, independently interpolated and
+solved (+0.00445398 at h = 0.01, +0.00445406 at h = 0.005). The
+sector is cleanly gapped, with no soft mode.
 
 ## 3. Two printed coefficients inconsistent with the action
 
@@ -173,7 +188,8 @@ to ~10⁻⁴³⁴ at |r| = 10⁴.
 
 In this one paper, independent recomputation found errors in the
 printed stability-sector coefficients (the a₂^BH term and the e₁
-J′² pair of §3) and one error of our own in transcribing the paper
+J′² pair of §3) and in the printed no-ghost determinant
+factorisation of §6, and one error of our own in transcribing the paper
 (E_J — the paper was right); the printed coefficients in question
 had been republished unchanged in the authors' sequel. We record
 this as the programme's stated lesson from this audit, offered as
@@ -186,15 +202,55 @@ consequence we draw for our own work is procedural: candidates in
 this class should be audited at the action, not at the printed
 criteria.
 
-## 6. One further item, explicitly uncertified
+## 6. The even sector at ℓ ≥ 2: a certified ghost
 
-The programme's two independent computations find the even sector
-ghostly at ℓ ≥ 2 near the throat; a third, branch-independent
-certification is in progress. This is reported here only for
-completeness, labelled as the programme's **uncertified** result:
-it is not established, it forms no part of the findings above, and
-no conclusion in this note depends on it. It will be published, if
-at all, only when the certification lands.
+The paper's printed no-ghost argument for the even sector rests on
+a printed formula for the kinetic determinant, det 𝒦 ∝
+J′²(j²−2)(2𝒫₁−ℱ), which is non-negative everywhere if the
+factorisation holds. The factorisation does not hold. Computed
+from the covariant action, the sign of det 𝒦 at ℓ = 2 is
+**negative** at r = −5 and at r = +5, and **positive** at r = −20
+and at r = +20: the ghost band around the throat is bracketed by
+settled points at |r| = 5 (negative) and |r| = 20 (positive). At
+r = 0, det 𝒦 degenerates in every presentation — no sign exists
+there, and none is claimed. Only the sign is reported: the sign of
+det 𝒦 is invariant under field redefinitions (which rescale it by
+a squared determinant), while magnitudes are
+presentation-dependent and are not compared across computations.
+(The programme's two original computations also return a negative
+sign at r = +5 for ℓ = 10.)
+
+This result is stated on the strength of three computations
+sharing no deciding formulas. Two were made in the audit itself: a
+variationally exact canonical reduction of the action, and a
+covariant-action jet extraction that tracks its auxiliary block
+explicitly. They agreed on the sign at every settled point except
+r = −20, where the reduction returned negative against the jet
+extraction's positive. The third computation — the gate's
+certification follow-up — is branch-independent by construction:
+it eliminates an auxiliary field by a Schur complement of the
+action's symbol and restricts the resulting kinetic form to the
+Hamiltonian-constraint surface, a congruence, performing no
+equation-of-motion row operation at any step. It returns the
+signs (+, −, −, +) at (r = −20, −5, +5, +20), resolving the
+r = −20 disagreement in favour of the jet extraction. Its
+branch-independence is demonstrated, not assumed: all three
+parametrisations of the constraint surface give the same sign at
+every radius; 18 of 18 random congruences preserving the sector
+structure leave every sign invariant; and a GR +
+canonical-scalar control — healthy, and therefore required to
+come out positive — is positive definite at r = ±5 on the same
+machinery on which an equation-of-motion row elimination had
+flipped its sign between branches.
+
+The scope of the finding is the published example. The
+construction's background is a genuine solution of the stated
+theory and the beyond-Horndeski γ-crossing formalism is
+untouched by every finding here. What closes is the example's
+printed stability argument: with det 𝒦 negative at ℓ ≥ 2 in a
+band around the throat, the example as published has a ghost in
+its even sector, and its no-ghost conclusion does not stand as
+printed.
 
 ## 7. Reproducibility
 
@@ -212,6 +268,12 @@ in this bundle:
   verification (different ansatz and machinery from Phase 4).
 - `gate3/v_g3_3.py` — the gate's independent tachyon and
   on-background gravitational-wave-speed verification.
+- `gate3/v_g3_1_cert.py` — the gate's branch-independent
+  action-level certification of the §6 sign structure.
+- `gate3/g3_ell0_profile_worker.py`, `gate3/g3_ell0_route1.py`,
+  `gate3/g3_ell0_route2.py` (with `gate3/g3_ell0_dense.py`) — the
+  dense ℓ=0 coefficient profiles and the two settlement routes
+  of §2.
 
 Result data for each script sit beside it under `results/`. The
 gate's verdicts, reproduction margins and wording conditions are
@@ -222,4 +284,15 @@ summarised in `GATE3_SUMMARY.md`.
 
 ![What the audit verified: radial and odd sectors](mrv_audit_verified.png)
 
-*Figure 1 — the audit's verified side. Left: the radial (ℓ=0) kinetic coefficient on the corrected coefficients is positive everywhere (two independent from-action routes agree to ≤0.5%), while the printed Appendix-B formula's value goes negative on one side. Right: the odd sector's effective potential is positive everywhere (minimum 0.00159) — no tachyon. The even-sector ℓ≥2 question is under certification and is not shown. Generated by plot_mrv_audit_verified.py from the bundle's result files.*
+*Figure 1 — the audit's verified side. Left: the radial (ℓ=0) kinetic coefficient on the corrected coefficients is positive everywhere (two independent from-action routes agree to ≤0.5%), while the printed Appendix-B formula's value goes negative on one side. Right: the odd sector's effective potential is positive everywhere (minimum 0.00159) — no tachyon. The even-sector ℓ≥2 result is shown in Figure 2. Generated by plot_mrv_audit_verified.py from the bundle's result files.*
+
+![Certified sign structure of the even-sector kinetic determinant](mrv_ghost_certified.png)
+
+*Figure 2 — the certified sign structure of §6, from
+`gate3/results/v_g3_1_cert.json`. Left: det 𝒦_phys at the four
+settled radii in the certification route's normalisation (the sign
+is the content; magnitudes are presentation-dependent). Right:
+eigenvalues of 𝒦_phys at r = ±5 — mixed signs for the designer
+theory (a ghost), both positive for the GR + canonical-scalar
+control (positive definite). Generated by
+plot_mrv_ghost_certified.py.*

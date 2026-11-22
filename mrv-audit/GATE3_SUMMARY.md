@@ -9,19 +9,32 @@ an independent computation path sharing no deciding machinery with
 the original. Six workers: three novelty (N1–N3), three
 verification (V1–V3). Full record: `gate3/GATE3.md` (internal).
 
+**Update (2026-11-22).** The gate's two open items have landed.
+The G3-1 certification follow-up (branch-independent action-level
+congruence reduction) certifies the ghost signs, and the G3-4
+dense-profile settlement resolves the ℓ=0 mode question against
+the mode. G3-1 and G3-4 are now **UPLOAD-READY**, and the ghost
+instance joins G3-5's pattern. This summary reflects both
+conversions; the v1.6.x version of this file recorded the earlier
+state (G3-1 held, G3-4 restated).
+
 ## Verdicts per claim
 
 | Claim | Novelty | Correctness | Gate verdict |
 |---|---|---|---|
-| G3-1 Even-sector ghost at ℓ≥2 | NOVEL (all components) | NOT YET | **NOT YET — held** |
+| G3-1 Even-sector ghost at ℓ≥2 | NOVEL (all components) | REPRODUCED (branch-independent action-level certification, 2026-11-22) | **UPLOAD-READY** |
 | G3-2 Printed defects (a₂^BH; e₁ J′² pair) | NOVEL (both defects) | REPRODUCED | **UPLOAD-READY** |
 | G3-3 Trajectory incompleteness | PARTIALLY KNOWN | REPRODUCED (on-background half; off-trajectory half is a documented full-text fact) | **UPLOAD-READY** |
-| G3-4 Balance (tachyon pass; ℓ=0 health) | ℓ=0 component NOVEL; tachyon pass is a balance item | Odd sector REPRODUCED; ℓ=0 health REPRODUCED; ℓ=0 mode value NOT YET | **UPLOAD-READY AFTER RESTATEMENT** |
+| G3-4 Balance (tachyon pass; ℓ=0 health) | ℓ=0 component NOVEL; tachyon pass is a balance item | Odd sector REPRODUCED; ℓ=0 health REPRODUCED; ℓ=0 mode SETTLED by dense profiles (2026-11-22) | **UPLOAD-READY** |
 | G3-5 Pattern (printed criteria as hiding place) | PARTIALLY KNOWN (instances in print; general statement and audit-as-object NOVEL) | Inherits its instances' | **UPLOAD-READY AFTER RESTATEMENT** |
 
-The published bundle (`AUDIT.md`) contains G3-2, G3-3, G3-4
-(restated) and G3-5 (restated). G3-1 is held: it appears only as a
-single paragraph labelled as the programme's uncertified result.
+The published bundle (`AUDIT.md`, v1.7.0) contains all five
+claims: G3-1 (certified), G3-2, G3-3, G3-4 (with the ℓ=0
+settlement and the retraction of the +0.00021 value), and G3-5
+(restated, now including the ghost instance). In v1.6.x G3-1
+appeared only as a single paragraph labelled as the programme's
+uncertified result; that placeholder is replaced by the full
+claim in §6 of the note.
 
 ## Reproduction numbers (deciding values)
 
@@ -53,43 +66,69 @@ against −4τ²/J⁴: max deviation 1.4×10⁻¹⁷); V_eff > 0 for
 own eigensolver's ℓ=2 lowest ω² = +0.0082544 on both grids (the
 box-continuum value +0.008254).
 
-**G3-4, ℓ=0 mode value — NOT YET:** the gate's FEM eigensolver
-finds no negative eigenvalue under any interpolation of the
-coefficient data (PCHIP, cubic spline, Akima), so the tachyon
-pass's deciding content stands with three eigensolvers in
-agreement; but the claimed +0.00021 throat-localised mode does not
-appear in the gate's solve (its lowest mode is the +0.00447
-box-continuum mode, coincident with Phase 4's second eigenvalue
-+0.00445). The claimed mode's binding energy (~5×10⁻⁵ below the
-continuum threshold ℳ₀/𝒦₀ → 2.61×10⁻⁴) is below the interpolation
-uncertainty of the 31-radius coefficient data. Missing piece:
-dense corrected (𝒦₀, 𝒢₀, ℳ₀) profiles from the from-action route.
+**G3-4, ℓ=0 mode — SETTLED (2026-11-22, dense profiles):** the
+missing piece named by the gate (dense corrected (𝒦₀, 𝒢₀, ℳ₀)
+profiles from the from-action route; 2,499 radii on [−62, 62],
+`gate3/results/g3_ell0_dense_profiles.json`) was produced, and it
+settles the question against the mode. The reduced coefficients
+are parametrisation-singular at the D = 0 pole r* =
+1.772437990426927; the first version's flux-form solve bridged
+that pole, and a trial function constant across it has a discrete
+𝒦₀-norm diverging like 1/h, driving its Rayleigh quotient
+spuriously to ~0 — under refinement and grid offset the bridging
+solve's lowest eigenvalue does not converge ((0.01, 0): +0.00020997;
+(0.005, h/2): −1.29e-6; (0.0025, 0): +2.7e-7). The +0.00021
+throat-localised mode is therefore **retracted** as a
+discretisation artefact (pole-bridging). The well-posed problem
+(pole excised; the Liouville form has a +2/(ρ−ρ*)² repulsive core
+at the pole, above the 3/4 limit-point threshold, so the sides
+decouple) has throat-segment ground state ω² = **+0.00445402** by
+two routes in agreement (formula route at every δ ∈ [0.01, 0.35],
+both h; dense-profile route +0.00445398 / +0.00445406). No route
+finds any eigenvalue below the box continuum. Certified
+statement: "no ℓ=0 tachyon is found by any route (three
+independent eigensolvers agree the lowest ω² is positive); the
+ℓ=0 spectrum in the box begins at the positive continuum value
+ω² ≈ +0.0045; the D=0 pole at r* = 1.7724 is a parametrisation
+singularity of the reduced variable, across which the physical
+(Liouville) problem decouples."
 
 **G3-3, on-background half (worker V3):** ℱ, 𝒢 recomputed fresh
 from the designer functions on log grids to |r| = 10⁴, both signs:
 max |c_T − 1| = 2.2×10⁻¹⁶ per side, max |𝒢 − 1| = 4.4×10⁻¹⁶ —
 the same roundoff-floor class as the audit's own 7.8×10⁻¹⁶.
 
-**G3-1 — why NOT YET (worker V1):** a third route (Regge–Wheeler
-gauge, exact sympy ε-series, equation-of-motion elimination;
-shares no formulas with either Phase 4 route) reproduces the
-claimed signs at all four settled points on its distinguished
-regular elimination branch, and independently re-finds Phase 4's
-antisymmetric Wronskian remnant. However, V1 proved that
+**G3-1 — CERTIFIED (2026-11-22, certification follow-up;
+`gate3/v_g3_1_cert.py`, `gate3/results/v_g3_1_cert.json`):**
+worker V1's third route had reproduced the claimed signs on its
+distinguished regular elimination branch but proved
 equation-of-motion row elimination is branch-dependent in sign in
-general (an exact identity relates the branches, and a
-GR + canonical-scalar control flips sign between them), and the
-branch-independent, action-level congruence certification was not
-completed — the Wronskian sector's skew odd-dimensional block
-makes the naive Schur complement structurally singular. Named
-missing piece: an extended canonicalisation handling jets to
-(2,2) after the auxiliary-field substitution, or a gauge in which
-the auxiliary fields are algebraic from the start. This is
-explicitly not a FAILS: no branch-independent computation
-disagrees with the claim, and the gate record notes the caveat
-does not by itself impeach Phase 4's two routes (one an
-action-level canonical reduction, variationally tested; the other
-tracking its auxiliary determinant explicitly).
+general, leaving the branch-independent action-level
+certification as the named missing piece. The follow-up lands it
+by the stronger of the named routes: the auxiliary field b is
+eliminated by a block Schur complement of the action/EOM symbol
+(exact rational arithmetic), and the physical kinetic matrix is
+the symmetric part of the (iω)² coefficient restricted to the
+Hamiltonian-constraint surface — a congruence, performing no EOM
+row operation at any step. Result (this route's normalisation;
+signs are the content): det 𝒦_phys = +137.96 (r = −20), −67.26
+(r = −5), −17.20 (r = +5), +127.28 (r = +20) — signs
+(+, −, −, +), the claim. Branch-independence is demonstrated:
+all three solved-field parametrisations of the constraint surface
+give the same sign at every radius (decisively at r = −20, where
+the EOM elim-c branch had flipped to −338.26, the action-level
+c-parametrisation gives +185.01); 18/18 random congruences leave
+every sign invariant; the bordered-determinant identity holds to
+≤ 1.5e-15; FD-step variation leaves every sign invariant. The
+GR + canonical-scalar control is positive definite at r = ±5
+(det +7661.64; eigenvalues +69.99, +109.46) on the same substrate
+where V1's row elimination gave +6717.02 / −6817.65 by branch.
+The certification also resolves the Phase 4 routes' r = −20
+disagreement in favour of the jet extraction's positive sign, by
+a route sharing no deciding formulas with either. Scope:
+branch-independence is demonstrated within the Regge–Wheeler-gauge
+presentation all routes used; the reduction performs no EOM row
+operation, which is exactly the gap V1 named.
 
 ## Wording conditions (binding on the publication)
 
@@ -100,14 +139,13 @@ tracking its auxiliary determinant explicitly).
    formalism is untouched by every finding. Register throughout:
    a methods/audit note, non-polemical — "inconsistent with the
    action as printed", never characterisations of the authors.
-2. **G3-1** appears only as: the programme's two independent
-   computations find the even sector ghostly at ℓ≥2 near the
-   throat, a third branch-independent certification in progress —
-   labelled uncertified. (Pre-registered for an eventual certified
-   upload: signs only, magnitudes being presentation-dependent;
-   r = 0 stated as degenerate, carrying no sign; the band
-   "bracketed by settled points at |r| = 5 (negative) and
-   |r| = 20 (positive)", not a mapped interval.)
+2. **G3-1** is stated under its pre-registered conditions:
+   signs only (magnitudes are presentation-dependent and are
+   never compared across routes); r = 0 stated as degenerate,
+   carrying no sign in any presentation; the band "bracketed by
+   settled points at |r| = 5 (negative) and |r| = 20 (positive)",
+   not a mapped interval; the mandatory credit sentence (item 1)
+   included; non-polemical register throughout.
 3. **G3-2** carries: the on-background caveat (the derivation
    fixes the pair's on-background value, zero; a correct general
    form could differ by factors vanishing on this background);
@@ -122,19 +160,22 @@ tracking its auxiliary determinant explicitly).
    stated with its numbers so the claim cannot be read as an
    observational exclusion. Label: (ii) NOT EXCLUDED BUT
    INCOMPLETE.
-5. **G3-4** carries the restated ℓ=0-mode sentence verbatim in
+5. **G3-4** carries the settled ℓ=0 statement verbatim in
    substance: "no ℓ=0 tachyon is found by any route (three
-   independent eigensolvers agree the lowest ω² is positive); the
-   programme's dense flux-form solve finds in addition a soft
-   throat-localised near-zero mode at ω² ≈ +2×10⁻⁴, whose precise
-   value is at the resolution limit of the available coefficient
-   data and is reported as the programme's own result, not as
-   gate-reproduced."
-6. **G3-5** is stated only over the gate-certified instances
-   (a₂^BH; the e₁ J′² pair; the programme's own E_J error), with
-   the general form presented as the programme's stated lesson /
-   hypothesis from this audit. The ghost/factorisation instance
-   joins the pattern only when G3-1 certifies.
+   independent eigensolvers agree the lowest ω² is positive);
+   the ℓ=0 spectrum in the box begins at the positive continuum
+   value ω² ≈ +0.0045; the D=0 pole at r* = 1.7724 is a
+   parametrisation singularity of the reduced variable, across
+   which the physical (Liouville) problem decouples." The
+   v1.6.x soft-mode sentence is deleted, and the retracted
+   +0.00021 value is identified in the note as a discretisation
+   artefact (pole-bridging at r* = 1.772437990426927), with the
+   settled throat-segment ground state +0.00445402 stated.
+6. **G3-5** is stated over the gate-certified instances
+   (a₂^BH; the e₁ J′² pair; the programme's own Eᵢ error; and,
+   since the 2026-11-22 certification, the det 𝒦 factorisation /
+   ghost instance), with the general form presented as the
+   programme's stated lesson / hypothesis from this audit.
 
 ## Citing-list check (the gate's named strengthening, run 2026-11-21)
 
