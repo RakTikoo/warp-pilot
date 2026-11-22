@@ -77,7 +77,7 @@ Three results from the later, origination phase of the programme, published afte
 
 ## Learnings
 
-[LEARNINGS.md](LEARNINGS.md) is the programme's living methods record: the artefacts we now catalogue, the self-corrections (including an internal result retracted over a units error, and a scan signal killed by our own red team before it was ever published), and the standing rules each episode produced. It contains no discovery claims — it exists so others running searches like this can avoid our mistakes.
+[LEARNINGS.md](LEARNINGS.md) is the programme’s living methods record: the artefacts we now catalogue, the self-corrections (including an internal result retracted over a units error, and a scan signal killed by our own red team before it was ever published), and the standing rules each episode produced. It contains no discovery claims — it exists so others running searches like this can avoid our mistakes.
 
 ## Phase 8–9 claims (gate-verified)
 
