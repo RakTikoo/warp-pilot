@@ -11,6 +11,22 @@ re-run an audit, break a result, or extend a search, please see the
 [help-wanted issues](../../issues) — several are scoped as good first
 issues (run a script, compare numbers, report).
 
+## What's new here
+
+Everything below passed this project's verification gate — an independent recomputation on a second code path plus a literature novelty check — before it was published. Archived releases are on Zenodo (all versions: https://doi.org/10.5281/zenodo.24425078).
+
+- **A warp shell that beats the published benchmark, with the maths checked twice** — verified subluminal shells 40% lighter (Finalist A, β = 0.02) and 50% faster (Finalist B2) than the Fuchs et al. baseline, passing all energy conditions. [Release v1.0.0](https://doi.org/10.5281/zenodo.24425079)
+- **A hard floor under every wormhole** — exact formulas for the minimum amount of "exoticity" any throat of a given size must have, whatever it is made of (the H6 floor identities). [Release v1.1.0](https://doi.org/10.5281/zenodo.24425833)
+- **Warp shells inside curved spacetime, not just empty space** — shells re-solved in Schwarzschild and anti-de Sitter backgrounds; they work until a named pressure-amplification mechanism kills them at high background mass (H4). [Release v1.1.0](https://doi.org/10.5281/zenodo.24425833)
+- **A published "stable wormhole" that isn't** — the Mironov–Rubakov–Volkova beyond-Horndeski wormhole of arXiv:1811.05832 carries a hidden instability (an even-parity ghost), certified directly from its action; two misprints in the paper, repeated in its sequel, documented along the way. [Release v1.7.0](https://doi.org/10.5281/zenodo.24434411) (audit trail: [v1.6.0](https://doi.org/10.5281/zenodo.24433260))
+- **How to build a warp shell without breaking the rules on the way** — formation paths that stay legal at every instant exist (grow the wall and the shift together); the obvious "shift first" route is impossible already at β = 0.01. [Release v1.8.0](https://doi.org/10.5281/zenodo.24435291)
+- **In one torsion-based gravity, a legal wormhole *is* an unstable one** — on the f(T) T ≡ 0 background, matter legality and a tensor ghost are the same sign choice (the ghost identity, restated scope). [Release v1.8.0](https://doi.org/10.5281/zenodo.24435291)
+- **Why a leading alternative-gravity wormhole can't be certified, plus an unflagged misprint** — the EiBI throat obstructions (a forced sound speed of −1, a degenerating auxiliary metric), and the Böhmer–Harko–Lobo Eq. (29) misprint, checked against the paper's full citing list. [Release v1.8.0](https://doi.org/10.5281/zenodo.24435291)
+- **The traversable-wormhole loophole, priced in plain numbers** — the Gao–Jafferis–Wall bounds evaluated at human scales: the open-time window falls 73.8 orders of magnitude short, the mass capacity 45.3 orders short. [Release v1.8.0](https://doi.org/10.5281/zenodo.24435291)
+- **Quantum corrections that cancel exactly** — in asymptotic-safety gravity, the running-coupling corrections at a wormhole throat cancel identically (an analytic identity, not a numerical coincidence); three errors in the source paper documented. [Release v1.8.0](https://doi.org/10.5281/zenodo.24435291)
+- **Hiding the exoticity in a second metric doesn't work — measured** — in bimetric gravity the violation relocates into the second sector, which then breaks the null energy condition on 70–100% of the volume in every configuration tried. [Release v1.8.0](https://doi.org/10.5281/zenodo.24435291)
+- **A screen that hides a warp drive from gravity tests — and what it costs** — an environment-dependent coupling construction that switches off outside the shell, with its energy-budget laws; plus a "breathing" shell that stays legal while it pulses, and the exact law for how long a negative-energy pulse may last. [Release v1.5.0](https://doi.org/10.5281/zenodo.24432779)
+
 ## Headline results (all numbers in `REPORT.md` and `CHECKPOINT.md`)
 
 - **Two novel subluminal warp shells, verified.** Shell geometries outside
@@ -77,7 +93,7 @@ Three results from the later, origination phase of the programme, published afte
 
 ## Learnings
 
-[LEARNINGS.md](LEARNINGS.md) is the programme’s living methods record: the artefacts we now catalogue, the self-corrections (including an internal result retracted over a units error, and a scan signal killed by our own red team before it was ever published), and the standing rules each episode produced. It contains no discovery claims — it exists so others running searches like this can avoid our mistakes.
+[LEARNINGS.md](LEARNINGS.md) is the programme's living methods record: the artefacts we now catalogue, the self-corrections (including an internal result retracted over a units error, and a scan signal killed by our own red team before it was ever published), and the standing rules each episode produced. It contains no discovery claims — it exists so others running searches like this can avoid our mistakes.
 
 ## Phase 8–9 claims (gate-verified)
 
@@ -97,7 +113,7 @@ Archived release: https://doi.org/10.5281/zenodo.24432779
 
 ## Audit note (gate-verified)
 
-An independent audit of a published beyond-Horndeski wormhole (Mironov–Rubakov–Volkova 2019), in `mrv-audit/`: what the audit verified (the background is a genuine solution; the radial and odd sectors are healthy), two certified defects in the paper’s printed stability formulas, and the construction’s trajectory incompleteness — with the audit’s own transcription error disclosed in the same place. The even-sector ghost question is under certification and is not claimed here.
+An independent audit of a published beyond-Horndeski wormhole (Mironov–Rubakov–Volkova 2019), in `mrv-audit/`: what the audit verified (the background is a genuine solution; the radial and odd sectors are healthy), two certified defects in the paper's printed stability formulas, and the construction's trajectory incompleteness — with the audit's own transcription error disclosed in the same place. The even-sector ghost question is under certification and is not claimed here.
 
 Archived release: https://doi.org/10.5281/zenodo.24433260
 Update (v1.7.0): the even-sector ghost claim is certified branch-independently at the action level and stated in full in mrv-audit/AUDIT.md §6; the l=0 soft-mode value reported in v1.6.x is retracted as a discretisation artefact (§2).
