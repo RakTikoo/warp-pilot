@@ -1,0 +1,128 @@
+{
+ "item": "P33-5 WALLS + LAMBDA AND MAGNETIC FIELD",
+ "beta": 0.1,
+ "units": "margins/deficits in geometric 1/m^2 (programme audit units); c^4/G = 1.210310e+44 J/m^3 per 1/m^2",
+ "deficit_sources": {
+  "D1": "REPORT.md 1.2 (recorded): closest beta=0.1 near-miss -2.06e-7, named families",
+  "D2": "REPORT.md 1.3/N3 run 2 (recorded): tail DEC -1.8e-6, resolution-independent",
+  "D3": "p335_rerun.py this item: unoptimised profiles at beta=0.1 fail (A-profile worst -1.0; frontier-like (5,10) M=1.915 worst SEC -3.70e-3, DEC -2.17e-6) \u2014 corroborates D2 scale; pricing uses D1/D2, the smallest (most augmentation-friendly) deficits"
+ },
+ "rerun_summary": {
+  "A_profile_M2.0": {
+   "n_pts": 572,
+   "n_sig": 494,
+   "thr": 1e-07,
+   "rho_peak_geom": 6.745167973681646e-05,
+   "min_nec": -0.000175727855449997,
+   "min_wec": -0.0016708579649699275,
+   "min_sec": -0.001720751959113505,
+   "min_dec": -1.0000001563800855,
+   "worst": -1.0000001563800855,
+   "worst_dec_radius_m": 11.0
+  },
+  "frontierlike_5-10_M1.915": {
+   "n_pts": 572,
+   "n_sig": 260,
+   "thr": 5.173755597707999e-07,
+   "rho_peak_geom": 0.0005173755597707998,
+   "min_nec": -0.00037992220391376477,
+   "min_wec": -0.0034122359916818577,
+   "min_sec": -0.0037009491719199087,
+   "min_dec": -2.173907043259432e-06,
+   "worst": -0.0037009491719199087,
+   "worst_dec_radius_m": 6.0
+  }
+ },
+ "lambda": {
+  "Lambda_m-2": 1.09e-52,
+  "rho_Lambda_geom_m-2": 4.336972199254148e-54,
+  "rho_Lambda_SI_J_m-3": 5.249080675008256e-10,
+  "EC_of_Lambda_alone": {
+   "NEC_rho+p": 0.0,
+   "WEC_rho": 4.336972199254148e-54,
+   "SEC_rho+sum_p": -8.673944398508296e-54,
+   "DEC_rho-|p|": 0.0
+  },
+  "note": "Lambda is NEC-neutral and DEC-saturating exactly (rho+p=0, rho-|p|=0); its only nonzero EC shift is SEC-negative (-2 rho_L). It cannot cover an NEC/DEC deficit at any magnitude; priced below on magnitude anyway.",
+  "Lambda_R2_at_R20m": 4.36e-50,
+  "per_deficit": {
+   "D1_record_closest_nearmiss": {
+    "deficit_geom": 2.06e-07,
+    "ratio_rhoL_over_deficit": 2.1053263103175475e-47,
+    "orders_short": 46.67668058211461
+   },
+   "D2_record_tail_DEC": {
+    "deficit_geom": 1.8e-06,
+    "ratio_rhoL_over_deficit": 2.409428999585638e-48,
+    "orders_short": 47.61808586684876
+   },
+   "D3_rerun_frontierlike_DEC": {
+    "deficit_geom": 2.173907043259432e-06,
+    "ratio_rhoL_over_deficit": 1.9950127180928305e-48,
+    "orders_short": 47.70005433136574
+   }
+  }
+ },
+ "magnetic": {
+  "benchmarks_T": {
+   "sustained": 45.0,
+   "pulsed": 1000.0,
+   "Schwinger_Bc": 4400000000.0
+  },
+  "EM_EC_alone": "NEC: 2rho_EM (perp) / 0 (along B); WEC: rho_EM; SEC: >=0; DEC: 0 (saturated). EM alone is EC-legal, but its DEC margin contribution is exactly 0 in its own eigenframe and its NEC contribution along B is exactly 0.",
+  "per_deficit": {
+   "D1_record_closest_nearmiss": {
+    "deficit_geom_m-2": 2.06e-07,
+    "rho_EM_needed_SI_J_m-3": 2.493238529953361e+37,
+    "B_required_T": 7915928170138228.0,
+    "orders_above_pulsed_1e3T": 12.898501844724084,
+    "orders_above_sustained_45T": 14.24528933094874,
+    "ratio_over_Schwinger_Bc": 1799074.5841223246,
+    "orders_above_Schwinger_Bc": 6.255049168237896,
+    "Melvin_length_scale_m_est": 439.4874318810794,
+    "note_Melvin": "uniform B => Melvin asymptotics, not asymptotically flat; flux-tube/curvature scale ~1/B_geom as listed, i.e. only ~10-20x the shell radii."
+   },
+   "D2_record_tail_DEC": {
+    "deficit_geom_m-2": 1.8e-06,
+    "rho_EM_needed_SI_J_m-3": 2.178557938794199e+38,
+    "B_required_T": 2.3399387369648084e+16,
+    "orders_above_pulsed_1e3T": 13.36920448709116,
+    "orders_above_sustained_45T": 14.715991973315816,
+    "ratio_over_Schwinger_Bc": 5318042.584010928,
+    "orders_above_Schwinger_Bc": 6.725751810604972,
+    "Melvin_length_scale_m_est": 148.6770096793976,
+    "note_Melvin": "uniform B => Melvin asymptotics, not asymptotically flat; flux-tube/curvature scale ~1/B_geom as listed, i.e. only ~10-20x the shell radii."
+   },
+   "D3_rerun_frontierlike_DEC": {
+    "deficit_geom_m-2": 2.173907043259432e-06,
+    "rho_EM_needed_SI_J_m-3": 2.631101359607478e+38,
+    "B_required_T": 2.5715129713369864e+16,
+    "orders_above_pulsed_1e3T": 13.41018871934965,
+    "orders_above_sustained_45T": 14.756976205574306,
+    "ratio_over_Schwinger_Bc": 5844347.662129515,
+    "orders_above_Schwinger_Bc": 6.766736042863462,
+    "Melvin_length_scale_m_est": 135.28809619966097,
+    "note_Melvin": "uniform B => Melvin asymptotics, not asymptotically flat; flux-tube/curvature scale ~1/B_geom as listed, i.e. only ~10-20x the shell radii."
+   }
+  },
+  "tail_worked_example": {
+   "site": "conditions-first tail, rho~0, p_r=+1.8e-6 geom, p_t~0",
+   "orientation": "B tension axis along r (locally optimal)",
+   "rho_EM_geom": 1.8e-06,
+   "after": {
+    "rho": 1.8e-06,
+    "p_r": 0.0,
+    "p_t": 1.8e-06,
+    "DEC_r": 1.8e-06,
+    "DEC_t": 0.0,
+    "NEC_r": 1.8e-06,
+    "NEC_t": 3.6e-06
+   },
+   "caveat": "DEC_t saturates at exactly 0 (uncertifiable, same status as the record's +1.3e-9 tiebreak); and a single UNIFORM B cannot be radial everywhere on a spherical shell (radial B = monopole, div B != 0): uniform B is radial only at the poles, tangential at the equator, where its +rho_EM pressure ADDS to the radial pressure and worsens radial DEC there. The priced B is therefore a lower bound for one uniform field."
+  }
+ },
+ "verdicts": {
+  "a_lambda": "AUGMENTED-FAIL \u2014 measured Lambda is NEC/DEC-neutral by identity (rho+p=0) and SEC-negative; on magnitude alone it is 46.7 orders short of the smallest recorded deficit (D1) and 47.6 orders short of D2.",
+  "b_magnetic": "AUGMENTED-FAIL \u2014 covering even the smallest recorded deficit (D1) needs B = 7.92e+15 T (12.9 orders above the 1e3 T pulsed bar, 6.3 orders above Schwinger Bc); D2 needs 2.34e+16 T. Plus Melvin (non-asymptotically-flat) asymptotics and the uniform-B/monopole orientation obstruction."
+ }
+}

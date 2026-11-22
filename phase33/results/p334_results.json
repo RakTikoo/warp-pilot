@@ -1,0 +1,180 @@
+{
+  "item": "P33-4 f(T) + canonical scalar",
+  "units": "r0=1, 4pi-normalised matter (paper units of wa_g5_1)",
+  "throat_field_equations": {
+    "4pi_rho_total_throat": "-f_T(0)/2",
+    "4pi_NEC1_total_throat": "-f_T(0)",
+    "4pi_NEC2_total_throat_at_fT=-1": 0.125,
+    "sign_read": "rho_total>0 AND NEC1_total>0 at the throat  <=>  f_T(0) < 0, for ANY decomposition of the total into components, because the field equations fix the TOTALS."
+  },
+  "scalar_stress_energy": {
+    "K": "(1/2) e^{-b} phi'^2 >= 0",
+    "rho_phi": "K - V",
+    "p_r_phi": "K + V",
+    "p_t_phi": "-K + V",
+    "NEC1_phi_rho+pr": "2*K",
+    "NEC2_phi_rho+pt": "0",
+    "SEC_phi_rho+pr+2pt": "2*V",
+    "WEC": "rho_phi = K - V >= 0 iff K >= V",
+    "DEC_note": "full DEC (rho >= |p_r|) requires V = 0; the V=0 member is used in the spot checks (rho=K, p_r=K, p_t=-K: NEC1=2K, NEC2=0, SEC=0, DEC saturated)."
+  },
+  "scalar_tensor_expansion": {
+    "L_scalar_O(h^2)": "V0*eps(t, z)**2/2 + v**2*eps(t, z)**2/4",
+    "coeff_of_eps_t^2": "0",
+    "coeff_of_eps_z^2": "0",
+    "any_derivative_of_h_in_L2": false,
+    "read": "The O(h^2) scalar density is ALGEBRAIC in eps (proportional to the background scalar stress, v^2 and V0): a mass-like term only. It contains no (d eps)^2 term, so it does NOT renormalise the tensor kinetic or gradient coefficient. By spin decomposition on a spherically symmetric background, delta-phi (a scalar) also cannot mix with TT modes at quadratic order."
+  },
+  "maxwell_same_argument": "F_mn is metric-independent; sqrt(-g) g g F F contains no derivative of the metric/tetrad, hence no (d h)^2 term: Maxwell likewise cannot enter the tensor kinetic coefficient. Identical for any S_m[g, psi] with no metric derivatives and no direct torsion/curvature coupling (fluids included: their action/stress-energy is built from g and matter variables only).",
+  "tensor_sector_conclusion": {
+    "S2_tensor_total": "f_T(0) x S2_tensor[TEGR]  +  (algebraic, non-kinetic matter h^2 terms)",
+    "kinetic_ratio_vs_TEGR": "f_T(0) exactly, scalar fraction-independent",
+    "c_T_squared": 1.0,
+    "ghost_iff": "f_T(0) < 0",
+    "scalar_enters_kinetic_coefficient": false
+  },
+  "spot_check_family": [
+    {
+      "scalar_fraction_of_rho_req": 0.0,
+      "rho_phi_4pi": 0.0,
+      "NEC1_phi_4pi": 0.0,
+      "NEC2_phi_4pi": 0.0,
+      "legal_branch_fT=-1": {
+        "f_T": -1.0,
+        "tensor_kinetic_ratio": -1.0,
+        "ghost": true,
+        "remainder_required": {
+          "rho": 0.5,
+          "NEC1": 1.0,
+          "NEC2": 0.125
+        },
+        "remainder_rho_nonneg": true,
+        "note": "V=0 scalar: NEC1_phi = 2 rho_phi carries the same fraction s of NEC1_req as of rho_req; remainder (rho, NEC1, NEC2) = (0.500, 1.000, 0.125) all >= 0: a legal split exists on the f_T<0 branch at every s. The ghost (kinetic ratio -1) is untouched by s.",
+        "NEC1_phi_fraction_of_req": 0.0
+      },
+      "ghostfree_branch_fT=+1": {
+        "f_T": 1.0,
+        "tensor_kinetic_ratio": 1.0,
+        "ghost": false,
+        "total_rho_required_4pi": -0.5,
+        "total_NEC1_required_4pi": -1.0,
+        "remainder_required_if_scalar_kept_legal": {
+          "rho": -0.5,
+          "NEC1": -1.0,
+          "NEC2": -0.125
+        },
+        "total_matter_EC_legal_possible": false,
+        "deciding": "totals themselves are negative: rho_tot = -0.5, NEC1_tot = -1.0 (4pi units) whatever the split; a sum of EC-legal components has rho >= 0 and NEC >= 0. Contradiction."
+      }
+    },
+    {
+      "scalar_fraction_of_rho_req": 0.25,
+      "rho_phi_4pi": 0.125,
+      "NEC1_phi_4pi": 0.25,
+      "NEC2_phi_4pi": 0.0,
+      "legal_branch_fT=-1": {
+        "f_T": -1.0,
+        "tensor_kinetic_ratio": -1.0,
+        "ghost": true,
+        "remainder_required": {
+          "rho": 0.375,
+          "NEC1": 0.75,
+          "NEC2": 0.125
+        },
+        "remainder_rho_nonneg": true,
+        "note": "V=0 scalar: NEC1_phi = 2 rho_phi carries the same fraction s of NEC1_req as of rho_req; remainder (rho, NEC1, NEC2) = (0.375, 0.750, 0.125) all >= 0: a legal split exists on the f_T<0 branch at every s. The ghost (kinetic ratio -1) is untouched by s.",
+        "NEC1_phi_fraction_of_req": 0.25
+      },
+      "ghostfree_branch_fT=+1": {
+        "f_T": 1.0,
+        "tensor_kinetic_ratio": 1.0,
+        "ghost": false,
+        "total_rho_required_4pi": -0.5,
+        "total_NEC1_required_4pi": -1.0,
+        "remainder_required_if_scalar_kept_legal": {
+          "rho": -0.625,
+          "NEC1": -1.25,
+          "NEC2": -0.125
+        },
+        "total_matter_EC_legal_possible": false,
+        "deciding": "totals themselves are negative: rho_tot = -0.5, NEC1_tot = -1.0 (4pi units) whatever the split; a sum of EC-legal components has rho >= 0 and NEC >= 0. Contradiction."
+      }
+    },
+    {
+      "scalar_fraction_of_rho_req": 0.5,
+      "rho_phi_4pi": 0.25,
+      "NEC1_phi_4pi": 0.5,
+      "NEC2_phi_4pi": 0.0,
+      "legal_branch_fT=-1": {
+        "f_T": -1.0,
+        "tensor_kinetic_ratio": -1.0,
+        "ghost": true,
+        "remainder_required": {
+          "rho": 0.25,
+          "NEC1": 0.5,
+          "NEC2": 0.125
+        },
+        "remainder_rho_nonneg": true,
+        "note": "V=0 scalar: NEC1_phi = 2 rho_phi carries the same fraction s of NEC1_req as of rho_req; remainder (rho, NEC1, NEC2) = (0.250, 0.500, 0.125) all >= 0: a legal split exists on the f_T<0 branch at every s. The ghost (kinetic ratio -1) is untouched by s.",
+        "NEC1_phi_fraction_of_req": 0.5
+      },
+      "ghostfree_branch_fT=+1": {
+        "f_T": 1.0,
+        "tensor_kinetic_ratio": 1.0,
+        "ghost": false,
+        "total_rho_required_4pi": -0.5,
+        "total_NEC1_required_4pi": -1.0,
+        "remainder_required_if_scalar_kept_legal": {
+          "rho": -0.75,
+          "NEC1": -1.5,
+          "NEC2": -0.125
+        },
+        "total_matter_EC_legal_possible": false,
+        "deciding": "totals themselves are negative: rho_tot = -0.5, NEC1_tot = -1.0 (4pi units) whatever the split; a sum of EC-legal components has rho >= 0 and NEC >= 0. Contradiction."
+      }
+    },
+    {
+      "scalar_fraction_of_rho_req": 0.75,
+      "rho_phi_4pi": 0.375,
+      "NEC1_phi_4pi": 0.75,
+      "NEC2_phi_4pi": 0.0,
+      "legal_branch_fT=-1": {
+        "f_T": -1.0,
+        "tensor_kinetic_ratio": -1.0,
+        "ghost": true,
+        "remainder_required": {
+          "rho": 0.125,
+          "NEC1": 0.25,
+          "NEC2": 0.125
+        },
+        "remainder_rho_nonneg": true,
+        "note": "V=0 scalar: NEC1_phi = 2 rho_phi carries the same fraction s of NEC1_req as of rho_req; remainder (rho, NEC1, NEC2) = (0.125, 0.250, 0.125) all >= 0: a legal split exists on the f_T<0 branch at every s. The ghost (kinetic ratio -1) is untouched by s.",
+        "NEC1_phi_fraction_of_req": 0.75
+      },
+      "ghostfree_branch_fT=+1": {
+        "f_T": 1.0,
+        "tensor_kinetic_ratio": 1.0,
+        "ghost": false,
+        "total_rho_required_4pi": -0.5,
+        "total_NEC1_required_4pi": -1.0,
+        "remainder_required_if_scalar_kept_legal": {
+          "rho": -0.875,
+          "NEC1": -1.75,
+          "NEC2": -0.125
+        },
+        "total_matter_EC_legal_possible": false,
+        "deciding": "totals themselves are negative: rho_tot = -0.5, NEC1_tot = -1.0 (4pi units) whatever the split; a sum of EC-legal components has rho >= 0 and NEC >= 0. Contradiction."
+      }
+    }
+  ],
+  "legal_branch_split_check": "For every s in {0, .25, .5, .75} a fully EC-legal split exists on the f_T(0) = -1 branch, and the tensor kinetic ratio is -1.0 in every row: the scalar can carry the matter, it cannot touch the ghost.",
+  "scalar_profile_throat": {
+    "int_{r0}^{2r0} dr/s(r)": 1.7297417831162847,
+    "finite": true,
+    "read": "phi' ~ 1/s is integrable at the throat, so a V=0 scalar with finite phi and any prescribed K(r0) >= 0 exists on the Ellis background."
+  },
+  "verdict": "AUGMENTED-FAIL",
+  "deciding_term": "Throat totals fixed by the field equations: 4pi rho_tot(r0) = -f_T(0)/2 and 4pi NEC1_tot(r0) = -f_T(0) (flare-out factor beta - r beta' = 2 r0 > 0). f_T(0) > 0 forces both totals negative; any sum of EC-legal minimally coupled components has both >= 0. Simultaneously S2_tensor kinetic ratio = f_T(0) with NO matter contribution (minimal coupling is algebraic in h). Legality sign = ghost sign, addition-proof within scope.",
+  "scope_statement": "SCOPE (verbatim-ready): On any T==0-class f(T) wormhole background of the Bohmer-Harko-Lobo type (f(0)=0, flare-out beta - r beta' > 0 at the throat), for ANY matter sector coupled minimally -- i.e. any matter action depending on the tetrad only through the metric, containing no derivatives of the metric/tetrad and no direct coupling to the torsion scalar, the torsion tensor, or curvature -- including a canonical scalar field, Maxwell and Yang-Mills fields, perfect and anisotropic fluids, and a cosmological constant: (i) the tensor quadratic action's kinetic and gradient coefficients equal f_T(0) times their TEGR values, with matter contributing at most algebraic (non-kinetic) h^2 terms; and (ii) the throat field equations fix the TOTAL matter density and NEC combination to -f_T(0) times a positive flare-out factor. Hence total matter is EC-legal at the throat iff f_T(0) < 0 iff the tensor sector is a ghost. No minimally coupled addition, in any proportion, can separate the two signs.",
+  "reopening_condition": "REOPENING CONDITION: an addition that is NOT minimally coupled in the above sense -- one whose action contains derivatives of the tetrad/metric or a direct coupling to torsion/curvature, e.g. a scalar-torsion coupling phi*T or f(T,phi), a phi*TT (trace of stress-energy) coupling of f(T,T)-type, a non-minimal xi phi^2 R / xi phi^2 T coupling, or derivative torsion couplings (d phi . T-tensor). Such terms change the theory, not the matter content: they can enter S2_tensor's coefficient and shift the throat relations. Also outside scope: backgrounds outside the T==0 class (there delta_1 T != 0 for tensor modes in general and f_TT(0) and the background value of f_T enter), and specified-f questions in the scalar/Lorentz perturbation sectors, which need f_TT(0)."
+}
