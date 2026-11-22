@@ -93,6 +93,8 @@ Two of the three are published in gate-restated form: the gate's second path dis
 
 A third claims pack, in `phase1516-claims/`: a breathing warp shell audited legal at every instant of its cycle (with the motion tax measured), an exact transient quantum-inequality pulse law (scaling credited to Pfenning & Ford 1997), and a verified screening construction for Einstein-aether — published with its family closure on its face: screened aether is closed as a superluminal supply route. Each claim passed the programme's novelty + verification gate (Gate-4), two of them in gate-restated form. No superluminal result is claimed anywhere in this pack.
 
+Archived release: https://doi.org/10.5281/zenodo.24432779
+
 ## Repository layout
 
 - `REPORT.md` — the final internal report: plain-language summary,
