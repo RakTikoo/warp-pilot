@@ -1,0 +1,291 @@
+{
+ "variant": "breathing_d1.0_T200",
+ "delta": 1.0,
+ "T": 200.0,
+ "parametrisation": "R1=10-d sin(2 pi t/T), R2=20+d sin, ws=[R1(t),R2(t)], beta=0.02, M=2.0",
+ "instants": [
+  {
+   "label": "breathing_d1.0_T200 dyn",
+   "rho_peak": 6.722298131896858e-05,
+   "sig": {
+    "nec": 2.0759565377231865e-07,
+    "wec": 2.0759565377231865e-07,
+    "sec": 2.064507939639969e-07,
+    "dec": 2.0759565377231865e-07,
+    "worst": 2.064507939639969e-07,
+    "typeI_frac": 1.0,
+    "n": 780
+   },
+   "core": {
+    "nec": 1.2897103906198524e-05,
+    "wec": 1.283501607453114e-05,
+    "sec": 1.2897103906198524e-05,
+    "dec": 1.1942218414927815e-05,
+    "worst": 1.1942218414927815e-05,
+    "typeI_frac": 1.0,
+    "n": 702
+   },
+   "cavity_max_scale": 2.0954618623938615e-07,
+   "shell_max_scale": 6.722298131896858e-05,
+   "cavity_core": null,
+   "E_neg_euler_shell": 0.0,
+   "NEC_neg_int_shell": 0.0,
+   "mean_neg_nec_depth_core": 0.0,
+   "t": 0.0,
+   "h": 0.3,
+   "worst_dec_radius": 8.5,
+   "worst_dec_point": [
+    8.295601460070005,
+    1.8237647100049814,
+    -0.32692307692307837
+   ],
+   "wall_s": 9.993483066558838
+  },
+  {
+   "label": "breathing_d1.0_T200 dyn",
+   "rho_peak": 6.174879348924646e-05,
+   "sig": {
+    "nec": 1.0669310149788312e-06,
+    "wec": 1.0669310149788312e-06,
+    "sec": 1.0669310149788312e-06,
+    "dec": 1.0619855272754111e-06,
+    "worst": 1.0619855272754111e-06,
+    "typeI_frac": 1.0,
+    "n": 780
+   },
+   "core": {
+    "nec": 1.6589975294328774e-05,
+    "wec": 1.6589975294328774e-05,
+    "sec": 1.647145468779531e-05,
+    "dec": 1.5143486722709146e-05,
+    "worst": 1.5143486722709146e-05,
+    "typeI_frac": 1.0,
+    "n": 754
+   },
+   "cavity_max_scale": 1.0682761506435855e-06,
+   "shell_max_scale": 6.174879348924646e-05,
+   "cavity_core": null,
+   "E_neg_euler_shell": 0.0,
+   "NEC_neg_int_shell": 0.0,
+   "mean_neg_nec_depth_core": 0.0,
+   "t": 33.333333333333336,
+   "h": 0.3,
+   "worst_dec_radius": 7.999999999999999,
+   "worst_dec_point": [
+    7.807624903595298,
+    1.7164844329458648,
+    -0.30769230769230904
+   ],
+   "wall_s": 12.49216103553772
+  },
+  {
+   "label": "breathing_d1.0_T200 dyn",
+   "rho_peak": 6.174936806568318e-05,
+   "sig": {
+    "nec": 1.0669782543235503e-06,
+    "wec": 1.0669782543235503e-06,
+    "sec": 1.0669782543235503e-06,
+    "dec": 1.0619948216634611e-06,
+    "worst": 1.0619948216634611e-06,
+    "typeI_frac": 1.0,
+    "n": 780
+   },
+   "core": {
+    "nec": 1.658997529425854e-05,
+    "wec": 1.658997529425854e-05,
+    "sec": 1.647145468763502e-05,
+    "dec": 1.5145066001023872e-05,
+    "worst": 1.5145066001023872e-05,
+    "typeI_frac": 1.0,
+    "n": 754
+   },
+   "cavity_max_scale": 1.068276131622685e-06,
+   "shell_max_scale": 6.174936806568318e-05,
+   "cavity_core": null,
+   "E_neg_euler_shell": 0.0,
+   "NEC_neg_int_shell": 0.0,
+   "mean_neg_nec_depth_core": 0.0,
+   "t": 66.66666666666667,
+   "h": 0.3,
+   "worst_dec_radius": 8.0,
+   "worst_dec_point": [
+    -7.499012878040864,
+    -0.3101077259966883,
+    -2.76923076923077
+   ],
+   "wall_s": 8.292506217956543
+  },
+  {
+   "label": "breathing_d1.0_T200 dyn",
+   "rho_peak": 6.722459625098616e-05,
+   "sig": {
+    "nec": 2.0770043588113018e-07,
+    "wec": 2.0770043588113018e-07,
+    "sec": 2.0639150109197531e-07,
+    "dec": 2.0770043588113018e-07,
+    "worst": 2.0639150109197531e-07,
+    "typeI_frac": 1.0,
+    "n": 780
+   },
+   "core": {
+    "nec": 1.2897103906184492e-05,
+    "wec": 1.2835036840770741e-05,
+    "sec": 1.2897103906184492e-05,
+    "dec": 1.1943657182955484e-05,
+    "worst": 1.1943657182955484e-05,
+    "typeI_frac": 1.0,
+    "n": 702
+   },
+   "cavity_max_scale": 2.095461853234525e-07,
+   "shell_max_scale": 6.722459625098616e-05,
+   "cavity_core": null,
+   "E_neg_euler_shell": 0.0,
+   "NEC_neg_int_shell": 0.0,
+   "mean_neg_nec_depth_core": 0.0,
+   "t": 100.0,
+   "h": 0.3,
+   "worst_dec_radius": 8.5,
+   "worst_dec_point": [
+    -7.967701182918417,
+    -0.3294894588714813,
+    -2.9423076923076934
+   ],
+   "wall_s": 6.40683126449585
+  },
+  {
+   "label": "breathing_d1.0_T200 dyn",
+   "rho_peak": 7.54979244252528e-05,
+   "sig": {
+    "nec": 2.126462553905196e-06,
+    "wec": 2.126462553905196e-06,
+    "sec": 2.076135025138389e-06,
+    "dec": 2.126462553905196e-06,
+    "worst": 2.076135025138389e-06,
+    "typeI_frac": 1.0,
+    "n": 754
+   },
+   "core": {
+    "nec": 1.6932426000748566e-05,
+    "wec": 1.6821810160180767e-05,
+    "sec": 1.6932426000748566e-05,
+    "dec": 1.5439624463364376e-05,
+    "worst": 1.5439624463364376e-05,
+    "typeI_frac": 1.0,
+    "n": 598
+   },
+   "cavity_max_scale": 2.9399924321051094e-08,
+   "shell_max_scale": 7.54979244252528e-05,
+   "cavity_core": null,
+   "E_neg_euler_shell": 0.0,
+   "NEC_neg_int_shell": 0.0,
+   "mean_neg_nec_depth_core": 0.0,
+   "t": 133.33333333333334,
+   "h": 0.3,
+   "worst_dec_radius": 9.5,
+   "worst_dec_point": [
+    -8.905077792673525,
+    -0.36825292462106735,
+    -3.288461538461539
+   ],
+   "wall_s": 4.895448684692383
+  },
+  {
+   "label": "breathing_d1.0_T200 dyn",
+   "rho_peak": 7.549908343345209e-05,
+   "sig": {
+    "nec": 2.1264625539193678e-06,
+    "wec": 2.1264625539193678e-06,
+    "sec": 2.0761350251696927e-06,
+    "dec": 2.1264625539193678e-06,
+    "worst": 2.0761350251696927e-06,
+    "typeI_frac": 1.0,
+    "n": 754
+   },
+   "core": {
+    "nec": 1.6932407128613747e-05,
+    "wec": 1.682179838511383e-05,
+    "sec": 1.6932407128613747e-05,
+    "dec": 1.5437929433563236e-05,
+    "worst": 1.5437929433563236e-05,
+    "typeI_frac": 1.0,
+    "n": 598
+   },
+   "cavity_max_scale": 2.9399924319614073e-08,
+   "shell_max_scale": 7.549908343345209e-05,
+   "cavity_core": null,
+   "E_neg_euler_shell": 0.0,
+   "NEC_neg_int_shell": 0.0,
+   "mean_neg_nec_depth_core": 0.0,
+   "t": 166.66666666666666,
+   "h": 0.3,
+   "worst_dec_radius": 9.5,
+   "worst_dec_point": [
+    9.271554573019417,
+    2.0383252641232144,
+    -0.365384615384617
+   ],
+   "wall_s": 6.7004334926605225
+  }
+ ],
+ "aggregate": {
+  "n_instants": 6,
+  "worst_instant_core": {
+   "nec": 1.2897103906184492e-05,
+   "wec": 1.283501607453114e-05,
+   "sec": 1.2897103906184492e-05,
+   "dec": 1.1942218414927815e-05,
+   "worst": 1.1942218414927815e-05
+  },
+  "worst_instant_sig_worst": 2.0639150109197531e-07,
+  "min_typeI_frac_core": 1.0,
+  "time_avg_E_neg_euler_shell": 0.0,
+  "time_avg_NEC_neg_int_shell": 0.0,
+  "time_avg_mean_neg_nec_depth_core": 0.0,
+  "static_comparison": {
+   "static_E_neg_euler_shell": 0.0,
+   "static_NEC_neg_int_shell": 0.0,
+   "static_mean_neg_nec_depth_core": 0.0,
+   "delta_E_neg": 0.0,
+   "delta_NEC_neg_int": 0.0
+  }
+ },
+ "confirm_h015": {
+  "t_worst": 0.0,
+  "dyn_h015": {
+   "label": "confirm dyn h=0.15",
+   "rho_peak": 6.722644883306967e-05,
+   "sig": {
+    "nec": 2.08569584235939e-07,
+    "wec": 2.08569584235939e-07,
+    "sec": 2.0739207364421772e-07,
+    "dec": 2.08569584235939e-07,
+    "worst": 2.0739207364421772e-07,
+    "typeI_frac": 1.0,
+    "n": 780
+   },
+   "core": {
+    "nec": 1.2894250559007873e-05,
+    "wec": 1.2830695868121703e-05,
+    "sec": 1.2894250559007873e-05,
+    "dec": 1.194213863396714e-05,
+    "worst": 1.194213863396714e-05,
+    "typeI_frac": 1.0,
+    "n": 702
+   },
+   "cavity_max_scale": 2.1010510249091818e-07,
+   "shell_max_scale": 6.722644883306967e-05,
+   "cavity_core": null,
+   "E_neg_euler_shell": 0.0,
+   "NEC_neg_int_shell": 0.0,
+   "mean_neg_nec_depth_core": 0.0,
+   "t": 0.0,
+   "h": 0.15,
+   "worst_dec_radius": 8.5,
+   "worst_dec_point": [
+    8.295601460070005,
+    1.8237647100049814,
+    -0.32692307692307837
+   ]
+  }
+ }
+}
