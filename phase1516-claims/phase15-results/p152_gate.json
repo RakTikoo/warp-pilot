@@ -1,0 +1,101 @@
+{
+ "item": "P15 SA-2 gates",
+ "gates": {
+  "G-T": {
+   "max_rel_diff": 7.613117397928903e-12,
+   "pass_": true,
+   "s0": 0.7,
+   "row": [
+    0.2,
+    1.0,
+    1.0
+   ]
+  },
+  "G-T_volume_spot": {
+   "max_rel_diff": 7.614531137655367e-12,
+   "pass_": true
+  },
+  "G-H_chi0": "exact GR limit: S(0)=0 => all c_i(0)=0; health_ae at zero couplings is GR",
+  "Q_nonneg": true
+ },
+ "Q_crit_info": {
+  "max_Q_p151_set": 7.953734828265919e-10,
+  "max_Q_fib_set": 3.275389335783213e-33,
+  "Q_crit": 2.3861204484797755e-08
+ },
+ "Q_minkowski": {
+  "Q_absmax": 0.10913145752376899,
+  "Q1_absmax": 0.10612953257776223,
+  "Q2_absmax": 0.003001924946006764
+ },
+ "open_fraction": {
+  "0.1": {
+   "binding_S_ge_0p5": 1.0,
+   "binding_S_pos": 1.0,
+   "volume_S_ge_0p5": 1.0,
+   "Q_b_min": 1.4039815132301996e-06,
+   "Q_b_med": 5.305708294355518e-05,
+   "Q_b_max": 0.09093548746919042,
+   "Q_min_overall": 4.6462596042909763e-08,
+   "S_b_max": 0.9999999416895305
+  },
+  "1.1": {
+   "binding_S_ge_0p5": 1.0,
+   "binding_S_pos": 1.0,
+   "volume_S_ge_0p5": 0.9968503937007874,
+   "Q_b_min": 9.557658281956962e-05,
+   "Q_b_med": 0.013066640869863786,
+   "Q_b_max": 0.10118924252682561,
+   "Q_min_overall": 1.1812145910685887e-08,
+   "S_b_max": 0.999999947598275
+  },
+  "1.5": {
+   "binding_S_ge_0p5": 1.0,
+   "binding_S_pos": 1.0,
+   "volume_S_ge_0p5": 0.9960629921259843,
+   "Q_b_min": 0.00013203525472724106,
+   "Q_b_med": 0.021826246532756118,
+   "Q_b_max": 0.11528110351759567,
+   "Q_min_overall": 9.028237313988896e-09,
+   "S_b_max": 0.9999999540038169
+  }
+ },
+ "exterior": {
+  "0.1": {
+   "Q_ext_max": 7.953734828265919e-10,
+   "ratio_to_Qcrit": 0.03333333333333333,
+   "S_ext_max": 0.0
+  },
+  "1.1": {
+   "Q_ext_max": 7.953734828265919e-10,
+   "ratio_to_Qcrit": 0.03333333333333333,
+   "S_ext_max": 0.0
+  },
+  "1.5": {
+   "Q_ext_max": 7.953734828265919e-10,
+   "ratio_to_Qcrit": 0.03333333333333333,
+   "S_ext_max": 0.0
+  }
+ },
+ "G-W": {
+  "S_ext_max_all_beta": 0.0,
+  "bar_S_ext": 0.0001,
+  "closed_outside": true,
+  "open_bar": 0.9,
+  "open_superluminal": true,
+  "note": "chi=0 outside => c_i^eff = 0 => alpha1 = alpha2 = 0, c_T^2 = 1/(1-c13^eff) = 1 exactly on the exterior / GW path (weak-field window)."
+ },
+ "verdict": {
+  "G_T": true,
+  "G_W_closed": true,
+  "G_W_open_superluminal": true,
+  "gate_pass": true,
+  "Q_sanity": true
+ },
+ "runtime_s": 18.18997097015381,
+ "Q_minkowski_corrected": {
+  "Q_minkowski_eulerian_absmax": 0.0,
+  "Q_minkowski_tilted_outside_band_absmax": 0.0,
+  "note": "gate JSON Q_minkowski used the tilted u inside its own band (17<=r<=20): 0.109 is tilt activity. With u covariantly constant Q = 0 to FD precision, as constructed."
+ }
+}

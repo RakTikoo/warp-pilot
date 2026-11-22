@@ -1,0 +1,123 @@
+{
+ "item": "P15 SA-2 EOM/conservation/completeness",
+ "Q_crit": 2.3861204484797755e-08,
+ "betas": [
+  {
+   "beta": 0.1,
+   "best_c0": [
+    0.2,
+    1.0,
+    1.0
+   ],
+   "chi_residual": {
+    "0.3": {
+     "frac_max_open": 3609498.884465615,
+     "frac_med_open": 547.5557913617918,
+     "box_absmax": 16745.706244704794,
+     "box_absmax_open": 16745.706244704794
+    },
+    "0.15": {
+     "frac_max_open": 2170328.8755468763,
+     "frac_med_open": 547.5200275663047,
+     "box_absmax": 15419.38250686517,
+     "box_absmax_open": 15419.38250686517
+    }
+   },
+   "C_extra": {
+    "ratio_max": 629152735.6197058,
+    "ratio_med": 3604755.623486952,
+    "frac_pts_ge_0p25": 1.0,
+    "trigger": true,
+    "note": "explicit-metric part of C_int only; Mdiv-type part not bounded by this diagnostic"
+   },
+   "conservation": {
+    "div_absmax": 0.3820964225643144,
+    "div_med": 3.8416813832744305e-05,
+    "rel_max": 55.563614120742905,
+    "rel_med": 0.8782970951541853,
+    "subset": "binding[::3]",
+    "h": 0.3,
+    "note": "nabla_a Chat^{ab} of the assembled best-row field; the numerical size of the u-EOM open component"
+   },
+   "runtime_s": 23.1856210231781
+  },
+  {
+   "beta": 1.1,
+   "best_c0": [
+    0.5,
+    1.0,
+    1.0
+   ],
+   "chi_residual": {
+    "0.3": {
+     "frac_max_open": 43878.2957083037,
+     "frac_med_open": 4.648054690743168,
+     "box_absmax": 61050.92039654592,
+     "box_absmax_open": 61050.92039654592
+    },
+    "0.15": {
+     "frac_max_open": 26511.47182484827,
+     "frac_med_open": 4.647845965701473,
+     "box_absmax": 85209.47911799696,
+     "box_absmax_open": 85209.47911799696
+    }
+   },
+   "C_extra": {
+    "ratio_max": 629399186.4694747,
+    "ratio_med": 3514226.242192286,
+    "frac_pts_ge_0p25": 1.0,
+    "trigger": true,
+    "note": "explicit-metric part of C_int only; Mdiv-type part not bounded by this diagnostic"
+   },
+   "conservation": {
+    "div_absmax": 0.39040293016866284,
+    "div_med": 0.0012111855563893134,
+    "rel_max": 67.13897525083935,
+    "rel_med": 0.35400833192362713,
+    "subset": "binding[::3]",
+    "h": 0.3,
+    "note": "nabla_a Chat^{ab} of the assembled best-row field; the numerical size of the u-EOM open component"
+   },
+   "runtime_s": 36.81728386878967
+  },
+  {
+   "beta": 1.5,
+   "best_c0": [
+    0.8,
+    1.0,
+    1.0
+   ],
+   "chi_residual": {
+    "0.3": {
+     "frac_max_open": 32307.237701937334,
+     "frac_med_open": 3.0456600632633886,
+     "box_absmax": 52449.87266642637,
+     "box_absmax_open": 52449.87266642637
+    },
+    "0.15": {
+     "frac_max_open": 22147.096049924214,
+     "frac_med_open": 3.045496805555908,
+     "box_absmax": 68119.91093831255,
+     "box_absmax_open": 68119.91093831255
+    }
+   },
+   "C_extra": {
+    "ratio_max": 629907085.801379,
+    "ratio_med": 4293736.42896324,
+    "frac_pts_ge_0p25": 1.0,
+    "trigger": true,
+    "note": "explicit-metric part of C_int only; Mdiv-type part not bounded by this diagnostic"
+   },
+   "conservation": {
+    "div_absmax": 0.4024471713136908,
+    "div_med": 0.0024541779866744085,
+    "rel_max": 85.55331119182551,
+    "rel_med": 0.5298212119089768,
+    "subset": "binding[::3]",
+    "h": 0.3,
+    "note": "nabla_a Chat^{ab} of the assembled best-row field; the numerical size of the u-EOM open component"
+   },
+   "runtime_s": 30.920716047286987
+  }
+ ]
+}
