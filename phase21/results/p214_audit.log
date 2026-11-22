@@ -1,0 +1,24 @@
+floor beta=0.1 B3 par=-20.0 h=0.3: rel_med=0.0000
+floor beta=0.1 B3 par=-20.0 h=0.15: rel_med=0.0000
+floor beta=0.1 B3 par=5.0 h=0.3: rel_med=0.0000
+floor beta=0.1 B3 par=5.0 h=0.15: rel_med=0.0000
+floor beta=1.1 B2 par=(20.0, 1.0) h=0.3: rel_med=0.0523
+floor beta=1.1 B2 par=(20.0, 1.0) h=0.15: rel_med=0.0522
+floor beta=1.1 B3 par=-20.0 h=0.3: rel_med=0.0000
+floor beta=1.1 B3 par=-20.0 h=0.15: rel_med=0.0000
+floor beta=1.5 B2 par=(20.0, 1.0) h=0.3: rel_med=0.0723
+floor beta=1.5 B2 par=(20.0, 1.0) h=0.15: rel_med=0.0718
+floor beta=1.5 B3 par=-20.0 h=0.3: rel_med=0.0000
+floor beta=1.5 B3 par=-20.0 h=0.15: rel_med=0.0000
+cons beta=0.1 B1a par=20.0: rel_med=0.0082
+cons beta=0.1 B1a par=5.0: rel_med=0.0082
+cons beta=0.1 B1b par=-0.2: rel_med=0.0246
+cons beta=0.1 B2 par=(-5.0, 5.0): rel_med=0.0082
+cons beta=0.1 B2 par=(20.0, 1.0): rel_med=0.0073
+cons beta=0.1 B2 par=(20.0, 5.0): rel_med=0.0082
+cons beta=0.1 B2 par=(5.0, 1.0): rel_med=0.0081
+cons beta=0.1 B2 par=(5.0, 5.0): rel_med=0.0082
+cons beta=0.1 B3 par=1.0: rel_med=0.0039
+cons beta=0.1 B3 par=20.0: rel_med=0.0109
+cons beta=0.1 B3 par=5.0: rel_med=0.0056
+audit done

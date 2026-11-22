@@ -1,0 +1,10 @@
+(a) B_sign: {'1.0': {'med_rel_err': 0.0017385474288082402, 'T_med': 5.185398600020091e-05, 'Bb_med': 0.05371421783743191, 'target_med': 0.053645933096648446}, '-1.0': {'med_rel_err': 2.0007179831527546, 'T_med': 5.185398600020091e-05, 'Bb_med': -0.05371421783743191, 'target_med': 0.053645933096648446}} -> chosen 1.0
+(b) Zt vs W: rel_med=0.00e+00
+(c) GR control: max|H-G| = 0.0
+(d) B3 beta=1.1 kappa=-5.0: rel_med=1.521e-16 pass=True
+(d) B3 beta=1.1 kappa=1.0: rel_med=1.531e-16 pass=True
+(d) B3 beta=1.1 kappa=20.0: rel_med=1.656e-16 pass=True
+(d) B3 beta=1.5 kappa=-5.0: rel_med=1.242e-16 pass=True
+(d) B3 beta=1.5 kappa=1.0: rel_med=1.641e-16 pass=True
+(d) B3 beta=1.5 kappa=20.0: rel_med=2.069e-16 pass=True
+gate_passed = True  (14s)

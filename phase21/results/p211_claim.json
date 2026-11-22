@@ -1,0 +1,37 @@
+{
+  "paper": "Lobo, A general class of braneworld wormholes, arXiv:gr-qc/0701133",
+  "claim_sentence": "However, it is the effective total stress energy tensor that violates the latter, and in this work, the stress energy tensor confined on the brane, threading the wormhole, is imposed to satisfy the NEC.",
+  "bulk_caveat_sentence": "However, the question of what 5-dimensional geometry produces this is much more difficult to answer, and shall not be explored here.",
+  "G_throat": [
+    0.0,
+    -1.0,
+    0.5
+  ],
+  "R_scalar_max": 0.0,
+  "dust_rho_lam": {
+    "E_throat": {
+      "Et": -37.69911184307752,
+      "Er": 13.566370614359174,
+      "Eth": 12.066370614359174
+    },
+    "E_t_t_over_pi": -12.0,
+    "E_r_r_const_over_pi": 4.000000000000001,
+    "E_th_const_over_pi": 4.000000000000001,
+    "traceE_max_abs": 7.105427357601002e-15,
+    "E_t_t_at_r1000": -37.69911184307752,
+    "E_t_t_at_r1000_over_pi": -12.0,
+    "decays_at_infinity": false,
+    "brane_EC": {
+      "rho": 1.0,
+      "nec1": 1.0,
+      "nec2": 1.0,
+      "sec": 1.0,
+      "dec": 1.0,
+      "legal": true
+    },
+    "divergence": "dust with Phi=0: (div tau)_r = 0 identically; div E = k5^4 div Pi holds via Bianchi identity residual = k4^2 div tau = 0"
+  },
+  "tidal_match": false,
+  "AF_example_note": "Sec. III.C asymptotically-flat dust example: printed eqs. (45)-(50) in the fetched OCR text are garbled in signs/factors (e.g. eq. (47) as OCR-read contradicts the stated b'(r0) = gamma^2 < 1); not transcribed unambiguously -- logged, not fabricated (Phase-3 Das-Paul precedent). As OCR-read, his sigma_t (eq. 50) carries an r^-3 term -r0(1+gamma^2)/(2 r^3), which is not the tidal r^-4 profile in any case.",
+  "verdict": "PARTIAL -- brane-level claim VERIFIED as stated (it is imposed by construction and the audited dust case obeys all ECs, tracelessness and the divergence identity); full-system claim NOT verified: the one exactly auditable case has E not decaying at infinity (E^t_t -> -12 pi lam), so no Schwarzschild-AdS5 bulk realises it, and the paper provides no bulk geometry (author's own caveat). Open clause: an explicit bulk metric whose Weyl projection is the required E."
+}

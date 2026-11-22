@@ -1,0 +1,11 @@
+{
+  "verdict": "KILL \u2014 TELEPARALLEL CLOSES",
+  "PL2_regression_passed": true,
+  "kill_clause1": true,
+  "floor_move": {
+    "1.1": true,
+    "1.5": true
+  },
+  "n_health_passing": 26,
+  "volume_clean_rows": []
+}

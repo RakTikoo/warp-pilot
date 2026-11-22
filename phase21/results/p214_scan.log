@@ -1,0 +1,112 @@
+beta=0.1 B1a par=-20.0: partial=0.414 full=0.406 health=False volviol0.15=0.840
+beta=0.1 B1a par=-5.0: partial=0.406 full=0.386 health=False volviol0.15=0.827
+beta=0.1 B1a par=-1.0: partial=0.375 full=0.319 health=False volviol0.15=0.725
+beta=0.1 B1a par=-0.2: partial=0.199 full=0.092 health=False volviol0.15=0.489
+beta=0.1 B1a par=0.2: partial=0.247 full=0.016 health=True volviol0.15=0.403
+beta=0.1 B1a par=1.0: partial=0.498 full=0.371 health=True volviol0.15=0.602
+beta=0.1 B1a par=5.0: partial=0.578 full=0.562 health=True volviol0.15=0.690
+beta=0.1 B1a par=20.0: partial=0.586 full=0.582 health=True volviol0.15=0.714
+beta=0.1 B1b par=-5.0: partial=0.825 full=0.821 health=False volviol0.15=0.748
+beta=0.1 B1b par=-1.0: partial=0.793 full=0.737 health=False volviol0.15=0.564
+beta=0.1 B1b par=-0.2: partial=0.637 full=0.434 health=True volviol0.15=0.285
+beta=0.1 B1b par=0.2: partial=0.108 full=0.084 health=False volviol0.15=0.827
+beta=0.1 B1b par=1.0: partial=0.147 full=0.135 health=False volviol0.15=0.884
+beta=0.1 B1b par=5.0: partial=0.163 full=0.151 health=False volviol0.15=0.906
+beta=0.1 B2 par=(-5.0, -5.0): partial=0.398 full=0.386 health=False volviol0.15=0.827
+beta=0.1 B2 par=(-5.0, -1.0): partial=0.375 full=0.323 health=False volviol0.15=0.698
+beta=0.1 B2 par=(-5.0, 0.0): partial=0.000 full=0.000 health=True volviol0.15=0.035
+beta=0.1 B2 par=(-5.0, 1.0): partial=0.486 full=0.371 health=True volviol0.15=0.606
+beta=0.1 B2 par=(-5.0, 5.0): partial=0.578 full=0.562 health=True volviol0.15=0.689
+beta=0.1 B2 par=(5.0, -5.0): partial=0.406 full=0.386 health=False volviol0.15=0.827
+beta=0.1 B2 par=(5.0, -1.0): partial=0.363 full=0.315 health=False volviol0.15=0.723
+beta=0.1 B2 par=(5.0, 0.0): partial=0.000 full=0.000 health=True volviol0.15=0.050
+beta=0.1 B2 par=(5.0, 1.0): partial=0.502 full=0.378 health=True volviol0.15=0.596
+beta=0.1 B2 par=(5.0, 5.0): partial=0.578 full=0.566 health=True volviol0.15=0.688
+beta=0.1 B2 par=(20.0, -5.0): partial=0.410 full=0.390 health=False volviol0.15=0.827
+beta=0.1 B2 par=(20.0, -1.0): partial=0.347 full=0.311 health=False volviol0.15=0.724
+beta=0.1 B2 par=(20.0, 0.0): partial=0.000 full=0.000 health=True volviol0.15=0.096
+beta=0.1 B2 par=(20.0, 1.0): partial=0.526 full=0.375 health=True volviol0.15=0.592
+beta=0.1 B2 par=(20.0, 5.0): partial=0.578 full=0.566 health=True volviol0.15=0.684
+beta=0.1 B3 par=-20.0: partial=0.853 full=0.697 health=False volviol0.15=0.554
+beta=0.1 B3 par=-5.0: partial=0.382 full=0.315 health=False volviol0.15=0.845
+beta=0.1 B3 par=-1.0: partial=0.307 full=0.263 health=False volviol0.15=0.630
+beta=0.1 B3 par=1.0: partial=0.574 full=0.462 health=True volviol0.15=0.635
+beta=0.1 B3 par=5.0: partial=0.657 full=0.657 health=True volviol0.15=0.784
+beta=0.1 B3 par=20.0: partial=0.618 full=0.618 health=True volviol0.15=0.871
+beta=0.1 GR par=None: partial=0.000 full=0.000 health=True volviol0.15=0.038
+beta=0.1 done in 166s
+beta=1.1 B1a par=-20.0: partial=0.431 full=0.431 health=False volviol0.15=0.973
+beta=1.1 B1a par=-5.0: partial=0.427 full=0.413 health=False volviol0.15=0.973
+beta=1.1 B1a par=-1.0: partial=0.387 full=0.361 health=False volviol0.15=0.937
+beta=1.1 B1a par=-0.2: partial=0.339 full=0.302 health=False volviol0.15=0.852
+beta=1.1 B1a par=0.2: partial=0.502 full=0.442 health=False volviol0.15=0.868
+beta=1.1 B1a par=1.0: partial=0.550 full=0.536 health=False volviol0.15=0.939
+beta=1.1 B1a par=5.0: partial=0.565 full=0.565 health=False volviol0.15=0.946
+beta=1.1 B1a par=20.0: partial=0.569 full=0.569 health=False volviol0.15=0.947
+beta=1.1 B1b par=-5.0: partial=0.794 full=0.790 health=False volviol0.15=0.883
+beta=1.1 B1b par=-1.0: partial=0.736 full=0.395 health=False volviol0.15=0.816
+beta=1.1 B1b par=-0.2: partial=0.196 full=0.131 health=False volviol0.15=0.842
+beta=1.1 B1b par=0.2: partial=0.081 full=0.058 health=False volviol0.15=0.924
+beta=1.1 B1b par=1.0: partial=0.196 full=0.149 health=False volviol0.15=0.843
+beta=1.1 B1b par=5.0: partial=0.198 full=0.196 health=False volviol0.15=0.775
+beta=1.1 B2 par=(-5.0, -5.0): partial=0.440 full=0.429 health=False volviol0.15=0.973
+beta=1.1 B2 par=(-5.0, -1.0): partial=0.468 full=0.427 health=False volviol0.15=0.896
+beta=1.1 B2 par=(-5.0, 0.0): partial=0.837 full=0.756 health=False volviol0.15=0.820
+beta=1.1 B2 par=(-5.0, 1.0): partial=0.603 full=0.591 health=False volviol0.15=0.947
+beta=1.1 B2 par=(-5.0, 5.0): partial=0.579 full=0.577 health=False volviol0.15=0.947
+beta=1.1 B2 par=(5.0, -5.0): partial=0.409 full=0.395 health=False volviol0.15=0.973
+beta=1.1 B2 par=(5.0, -1.0): partial=0.339 full=0.306 health=False volviol0.15=0.926
+beta=1.1 B2 par=(5.0, 0.0): partial=0.000 full=0.000 health=True volviol0.15=0.826
+beta=1.1 B2 par=(5.0, 1.0): partial=0.470 full=0.446 health=False volviol0.15=0.935
+beta=1.1 B2 par=(5.0, 5.0): partial=0.556 full=0.554 health=False volviol0.15=0.939
+beta=1.1 B2 par=(20.0, -5.0): partial=0.369 full=0.363 health=False volviol0.15=0.968
+beta=1.1 B2 par=(20.0, -1.0): partial=0.266 full=0.232 health=False volviol0.15=0.934
+beta=1.1 B2 par=(20.0, 0.0): partial=0.000 full=0.000 health=True volviol0.15=0.824
+beta=1.1 B2 par=(20.0, 1.0): partial=0.038 full=0.036 health=True volviol0.15=0.980
+beta=1.1 B2 par=(20.0, 5.0): partial=0.506 full=0.506 health=False volviol0.15=0.935
+beta=1.1 B3 par=-20.0: partial=0.734 full=0.583 health=False volviol0.15=0.745
+beta=1.1 B3 par=-5.0: partial=0.708 full=0.681 health=False volviol0.15=0.777
+beta=1.1 B3 par=-1.0: partial=0.538 full=0.474 health=False volviol0.15=0.756
+beta=1.1 B3 par=1.0: partial=0.313 full=0.268 health=False volviol0.15=0.858
+beta=1.1 B3 par=5.0: partial=0.288 full=0.236 health=False volviol0.15=0.657
+beta=1.1 B3 par=20.0: partial=0.304 full=0.270 health=False volviol0.15=0.571
+beta=1.1 GR par=None: partial=0.000 full=0.000 health=True volviol0.15=0.825
+beta=1.1 done in 196s
+beta=1.5 B1a par=-20.0: partial=0.404 full=0.404 health=False volviol0.15=0.973
+beta=1.5 B1a par=-5.0: partial=0.402 full=0.401 health=False volviol0.15=0.973
+beta=1.5 B1a par=-1.0: partial=0.389 full=0.362 health=False volviol0.15=0.937
+beta=1.5 B1a par=-0.2: partial=0.348 full=0.330 health=False volviol0.15=0.860
+beta=1.5 B1a par=0.2: partial=0.532 full=0.492 health=False volviol0.15=0.888
+beta=1.5 B1a par=1.0: partial=0.581 full=0.557 health=False volviol0.15=0.945
+beta=1.5 B1a par=5.0: partial=0.594 full=0.589 health=False volviol0.15=0.946
+beta=1.5 B1a par=20.0: partial=0.594 full=0.594 health=False volviol0.15=0.947
+beta=1.5 B1b par=-5.0: partial=0.754 full=0.751 health=False volviol0.15=0.885
+beta=1.5 B1b par=-1.0: partial=0.556 full=0.318 health=False volviol0.15=0.825
+beta=1.5 B1b par=-0.2: partial=0.170 full=0.108 health=False volviol0.15=0.859
+beta=1.5 B1b par=0.2: partial=0.069 full=0.045 health=False volviol0.15=0.953
+beta=1.5 B1b par=1.0: partial=0.195 full=0.123 health=False volviol0.15=0.895
+beta=1.5 B1b par=5.0: partial=0.237 full=0.234 health=False volviol0.15=0.788
+beta=1.5 B2 par=(-5.0, -5.0): partial=0.418 full=0.416 health=False volviol0.15=0.973
+beta=1.5 B2 par=(-5.0, -1.0): partial=0.466 full=0.433 health=False volviol0.15=0.899
+beta=1.5 B2 par=(-5.0, 0.0): partial=0.891 full=0.828 health=False volviol0.15=0.816
+beta=1.5 B2 par=(-5.0, 1.0): partial=0.643 full=0.626 health=False volviol0.15=0.949
+beta=1.5 B2 par=(-5.0, 5.0): partial=0.604 full=0.603 health=False volviol0.15=0.949
+beta=1.5 B2 par=(5.0, -5.0): partial=0.391 full=0.389 health=False volviol0.15=0.973
+beta=1.5 B2 par=(5.0, -1.0): partial=0.323 full=0.308 health=False volviol0.15=0.937
+beta=1.5 B2 par=(5.0, 0.0): partial=0.000 full=0.000 health=True volviol0.15=0.826
+beta=1.5 B2 par=(5.0, 1.0): partial=0.485 full=0.471 health=False volviol0.15=0.946
+beta=1.5 B2 par=(5.0, 5.0): partial=0.577 full=0.572 health=False volviol0.15=0.949
+beta=1.5 B2 par=(20.0, -5.0): partial=0.360 full=0.359 health=False volviol0.15=0.973
+beta=1.5 B2 par=(20.0, -1.0): partial=0.232 full=0.224 health=False volviol0.15=0.934
+beta=1.5 B2 par=(20.0, 0.0): partial=0.000 full=0.000 health=True volviol0.15=0.826
+beta=1.5 B2 par=(20.0, 1.0): partial=0.032 full=0.030 health=True volviol0.15=0.990
+beta=1.5 B2 par=(20.0, 5.0): partial=0.532 full=0.529 health=False volviol0.15=0.944
+beta=1.5 B3 par=-20.0: partial=0.662 full=0.522 health=False volviol0.15=0.735
+beta=1.5 B3 par=-5.0: partial=0.648 full=0.625 health=False volviol0.15=0.759
+beta=1.5 B3 par=-1.0: partial=0.535 full=0.481 health=False volviol0.15=0.724
+beta=1.5 B3 par=1.0: partial=0.360 full=0.263 health=False volviol0.15=0.824
+beta=1.5 B3 par=5.0: partial=0.362 full=0.296 health=False volviol0.15=0.619
+beta=1.5 B3 par=20.0: partial=0.362 full=0.310 health=False volviol0.15=0.549
+beta=1.5 GR par=None: partial=0.000 full=0.000 health=True volviol0.15=0.826
+beta=1.5 done in 344s
+scan done

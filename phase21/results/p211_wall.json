@@ -1,0 +1,98 @@
+{
+  "item": "P21-1(b) wall SMS required-E supply, amended beta set {0.1, 1.1, 1.5} DIRECT",
+  "k4sq": 25.132741228718345,
+  "lambda_": 1.0,
+  "k5_4": 150.79644737231007,
+  "betas": [
+    {
+      "beta": 0.1,
+      "n_bind": 251,
+      "maxdef": 0.0001980853861802058,
+      "W0": {
+        "traceE_rel_max": 1.3589614069366733,
+        "traceE_rel_med": 0.9566681804573982,
+        "supply_ratio_min": 0.9999999999999993,
+        "supply_ratio_med": 1.0,
+        "supply_ratio_max": 1.0000000000000004
+      },
+      "W1": {
+        "frac_legal_root": 1.0,
+        "frac_full_supply": 1.0,
+        "frac_partial_supply": 1.0,
+        "traceE1_rel_max_legal": 7.461678789501967e-13,
+        "supply_ratio_med_legal": 1.6179391488704762,
+        "supply_ratio_min_legal": 1.3631726979247853,
+        "pi_kk_frac_negative": 0.0,
+        "pi_kk_over_k4D_med": 5.461348461241893e-05,
+        "rho_med_legal": 8.562500408490156e-05,
+        "div_resid_over_RHS_med": 1946.4719266046184,
+        "div_resid_over_RHS_min": 1639.3512549539605
+      },
+      "volume": {
+        "W0_traceE_rel_med": 0.9264786875526596,
+        "W1_frac_legal_root": 1.0,
+        "W1_frac_legal_root_r2w": 1.0
+      }
+    },
+    {
+      "beta": 1.1,
+      "n_bind": 504,
+      "maxdef": 0.0028247357029716202,
+      "W0": {
+        "traceE_rel_max": 3.053164136191766,
+        "traceE_rel_med": 1.8571487320521216,
+        "supply_ratio_min": 0.9999999999999996,
+        "supply_ratio_med": 1.0,
+        "supply_ratio_max": 1.0000000000000004
+      },
+      "W1": {
+        "frac_legal_root": 1.0,
+        "frac_full_supply": 1.0,
+        "frac_partial_supply": 1.0,
+        "traceE1_rel_max_legal": 6.961885553395554e-13,
+        "supply_ratio_med_legal": 1.7847666040640204,
+        "supply_ratio_min_legal": 1.0003937277606307,
+        "pi_kk_frac_negative": 0.0,
+        "pi_kk_over_k4D_med": 0.0012637558824795643,
+        "rho_med_legal": 0.001686324862537825,
+        "div_resid_over_RHS_med": 98.8342622919,
+        "div_resid_over_RHS_min": 0.16657246497397127
+      },
+      "volume": {
+        "W0_traceE_rel_med": 1.3810475833831783,
+        "W1_frac_legal_root": 1.0,
+        "W1_frac_legal_root_r2w": 1.0
+      }
+    },
+    {
+      "beta": 1.5,
+      "n_bind": 594,
+      "maxdef": 0.0033873681348906984,
+      "W0": {
+        "traceE_rel_max": 2.963651061212412,
+        "traceE_rel_med": 1.7545983161073142,
+        "supply_ratio_min": 0.9999999999999996,
+        "supply_ratio_med": 1.0,
+        "supply_ratio_max": 1.0000000000000004
+      },
+      "W1": {
+        "frac_legal_root": 1.0,
+        "frac_full_supply": 1.0,
+        "frac_partial_supply": 1.0,
+        "traceE1_rel_max_legal": 7.747961842815265e-13,
+        "supply_ratio_med_legal": 1.827394816973881,
+        "supply_ratio_min_legal": 1.004618858356291,
+        "pi_kk_frac_negative": 0.0,
+        "pi_kk_over_k4D_med": 0.0017290003367000017,
+        "rho_med_legal": 0.0022307712439308056,
+        "div_resid_over_RHS_med": 74.71259187070939,
+        "div_resid_over_RHS_min": 0.16642585519683845
+      },
+      "volume": {
+        "W0_traceE_rel_med": 1.4978596642682933,
+        "W1_frac_legal_root": 1.0,
+        "W1_frac_legal_root_r2w": 1.0
+      }
+    }
+  ]
+}

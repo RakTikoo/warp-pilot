@@ -1,0 +1,413 @@
+{
+ "a_palatini_fR_bambi2016": {
+  "zc_derived_fR_zero_alpha1": 0.9457416090031758,
+  "zc_rendered_eq16_alpha1": 0.17082039324993686,
+  "eta_rendered_eq13_at_rendered_zc": 32.314263722522114,
+  "fR_at_zc": 0.0,
+  "c_alpha_fRprime_at_zc": 3.524570878135213,
+  "fR_samples": {
+   "z=0.95": 0.01487845262218812,
+   "z=1.0": 0.1715728752538097,
+   "z=2.0": 0.9384471871911697,
+   "z=5.0": 0.9984006394885112,
+   "z=10.0": 0.9999000024998752
+  },
+  "trace_eq_fR_R_minus_2f": "-R",
+  "G_asymptotic_check": {
+   "z=20.0": {
+    "G_numeric": -0.0029754749893812584,
+    "minus_1_over_16pi_z": -0.0009947183943243459,
+    "ratio_numeric_over_eq15_implied": 2.9912737176257056
+   },
+   "z=50.0": {
+    "G_numeric": -0.0011849752875781442,
+    "minus_1_over_16pi_z": -0.00039788735772973834,
+    "ratio_numeric_over_eq15_implied": 2.9781677265127606
+   },
+   "z=100.0": {
+    "G_numeric": -0.0005881441508353336,
+    "minus_1_over_16pi_z": -0.00019894367886486917,
+    "ratio_numeric_over_eq15_implied": 2.956334949625746
+   }
+  },
+  "G_asymptotic_note": "G(z) from eq.(7) with eqs.(10)/(12) as audited is ~3x the coefficient implied by the paper's own RN expansion eq.(15) (factor 1+eta-coefficient): a normalization inconsistency in the rendered eqs.(7)/(10)/(13) cluster, logged, not repaired.",
+  "A_samples_delta1=delta2=1": {
+   "z=1.0": -1.1583081666908743,
+   "z=2.0": 0.4996036965571313,
+   "z=5.0": 0.8022287073067349,
+   "z=20.0": 0.9501486179639002
+  },
+  "a_alpha_fit_eps_in_1e-3..1e-2": 0.01861172772143191,
+  "throat_areal_radius_over_rc": 0.9457416090031758,
+  "throat_area_over_4pi_rc2": 0.894427190999916,
+  "K_q_near_throat": {
+   "loglog_slope_vs_eps": -2.716176237947462,
+   "K_at_eps_0.01": 135625.17235683382,
+   "K_at_eps_0.001": 1288794097.528128,
+   "note": "paper eq.(20) claims K ~ eps^-2 for the physical metric"
+  },
+  "K_g_near_throat": {
+   "loglog_slope_vs_eps": -0.8089621839338477,
+   "K_at_eps_0.01": 483.95522343260296,
+   "K_at_eps_0.001": 75130.25192276135,
+   "note": "paper eq.(20) claims K ~ eps^-2 for the physical metric"
+  },
+  "fR_at_throat_limit": 0.0,
+  "q_metric_degeneracy": "q = f_R g with f_R(z_c)=0 exactly: the auxiliary metric degenerates (det q -> 0) at the throat surface.",
+  "radial_null_lambda_from_z2.0": [
+   {
+    "eps": 0.1,
+    "Delta_lambda_times_E": 2.1251595865565576,
+    "val_times_sqrt_eps": 0.6720344684860472
+   },
+   {
+    "eps": 0.01,
+    "Delta_lambda_times_E": 5.809061500615912,
+    "val_times_sqrt_eps": 0.5809061500615912
+   },
+   {
+    "eps": 0.001,
+    "Delta_lambda_times_E": 16.775676573017307,
+    "val_times_sqrt_eps": 0.5304934726106266
+   },
+   {
+    "eps": 0.0001,
+    "Delta_lambda_times_E": 51.244405524531594,
+    "val_times_sqrt_eps": 0.512444055245316
+   }
+  ],
+  "radial_null_lambda_from_z5.0": [
+   {
+    "eps": 0.1,
+    "Delta_lambda_times_E": 5.225279086280903,
+    "val_times_sqrt_eps": 1.6523783322691141
+   },
+   {
+    "eps": 0.01,
+    "Delta_lambda_times_E": 8.90918100034026,
+    "val_times_sqrt_eps": 0.890918100034026
+   },
+   {
+    "eps": 0.001,
+    "Delta_lambda_times_E": 19.87579607274061,
+    "val_times_sqrt_eps": 0.6285278589889003
+   },
+   {
+    "eps": 0.0001,
+    "Delta_lambda_times_E": 54.34452502426055,
+    "val_times_sqrt_eps": 0.5434452502426055
+   }
+  ],
+  "lambda_asymptote_expected_zc_over_sqrt_c": 0.503755003176877,
+  "matter_EC_minima_full_domain": {
+   "rho": 1.4999555497078294e-12,
+   "rho+pr": 0.0,
+   "rho+pt": 1.999999999999e-12,
+   "rho+pr+2pt": 1.000088900582341e-12,
+   "rho-|pr|": 0.0,
+   "rho-|pt|": 9.99911099416659e-13,
+   "note": "minima are the infimum 0 approached at infinity; all six combos >= 0 everywhere"
+  },
+  "matter_at_throat": {
+   "rho": 1.332925996904299,
+   "pr": -1.332925996904299,
+   "pt": 0.33325926543228157
+  },
+  "conservation": "nabla^g T = 0 identically for the sourceless BI field (paper Sec.IV: T is conserved w.r.t. the Levi-Civita connection of g)."
+ },
+ "b_hybrid_capozziello2012": {
+  "matter_EC_phi0=3.0": {
+   "throat_values": {
+    "rho": 1.7999999999999998,
+    "rho+pr": 0.5,
+    "rho+pt": 1.9999999999999996,
+    "rho+pr+2pt": 0.8999999999999997,
+    "rho-|pr|": 0.5,
+    "rho-|pt|": 1.6
+   },
+   "minima_full_domain": {
+    "rho": 6.29955e-20,
+    "rho+pr": -0.03307645902220628,
+    "rho+pt": 5.000000899925001e-13,
+    "rho+pr+2pt": 9.899100005743487e-20,
+    "rho-|pr|": -0.03307645902220628,
+    "rho-|pt|": -0.005928526859598436
+   },
+   "rho+pr_first_crossing_r_over_r0": 1.62949492891601,
+   "rho-|pt|_first_crossing_r_over_r0": 2.4383540982688285
+  },
+  "matter_EC_phi0=5.0": {
+   "throat_values": {
+    "rho": 3.0,
+    "rho+pr": 1.5,
+    "rho+pt": 3.0,
+    "rho+pr+2pt": 1.4999999999999996,
+    "rho-|pr|": 1.5,
+    "rho-|pt|": 3.0
+   },
+   "minima_full_domain": {
+    "rho": 1.0499250000000002e-19,
+    "rho+pr": -0.013042902041617732,
+    "rho+pt": 5.000001499875001e-13,
+    "rho+pr+2pt": 1.64984999691828e-19,
+    "rho-|pr|": -0.013042902041617732,
+    "rho-|pt|": -0.0026132156447623463
+   },
+   "rho+pr_first_crossing_r_over_r0": 2.3072293766075522,
+   "rho-|pt|_first_crossing_r_over_r0": 3.2294404584704273
+  },
+  "throat_NEC1_formula_check_phi0=3": {
+   "printed_formula_(phi0-2)/2": 0.5,
+   "computed_rho+pr_at_throat": 0.5
+  },
+  "effective_EC": {
+   "rho_eff": 0.0,
+   "rho_eff+pr_eff_at_throat": -1.0,
+   "rho_eff+pr_eff_min": -1.0,
+   "note": "effective NEC violated everywhere (rho_eff+p_r,eff = -u^3 < 0): the flare-out is carried by the effective sector, as the paper intends"
+  },
+  "closure_eqs15-17_r=1.0": {
+   "eq15_rho": 0.0,
+   "eq16_pr": 0.0,
+   "eq17_pt": 3.3306690738754696e-16,
+   "rhs15": 1.7999999999999998,
+   "rho_printed": 1.7999999999999998,
+   "rhs16": -1.2999999999999998,
+   "pr_printed": -1.2999999999999998,
+   "rhs17": 0.20000000000000018,
+   "pt_printed": 0.19999999999999984
+  },
+  "closure_eqs15-17_r=1.5": {
+   "eq15_rho": 2.220446049250313e-16,
+   "eq16_pr": 1.1102230246251565e-16,
+   "eq17_pt": 1.777777777777778,
+   "rhs15": 0.43456790123456795,
+   "rho_printed": 0.43456790123456773,
+   "rhs16": -0.40164609053497924,
+   "pr_printed": -0.40164609053497935,
+   "rhs17": 2.0181069958847737,
+   "pt_printed": 0.24032921810699584
+  },
+  "closure_eqs15-17_r=2.0": {
+   "eq15_rho": 0.0,
+   "eq16_pr": 0.0,
+   "eq17_pt": 0.6328125,
+   "rhs15": 0.1265625,
+   "rho_printed": 0.1265625,
+   "rhs16": -0.1578125,
+   "pr_printed": -0.1578125,
+   "rhs17": 0.7328125,
+   "pt_printed": 0.1
+  },
+  "closure_eqs15-17_r=5.0": {
+   "eq15_rho": -8.673617379884035e-19,
+   "eq16_pr": 3.469446951953614e-18,
+   "eq17_pt": 0.010368000000000002,
+   "rhs15": 0.0017279999999999995,
+   "rho_printed": 0.0017280000000000004,
+   "rhs16": -0.00848,
+   "pr_printed": -0.008480000000000003,
+   "rhs17": 0.015040000000000005,
+   "pt_printed": 0.004672000000000002
+  },
+  "eq17_residual_anatomy_r=1.5": {
+   "residual": 1.777777777777778,
+   "predicted_2(1-b/r)*3phip2/(4phi)": 1.7777777777777777
+  },
+  "eq17_residual_anatomy_r=2.0": {
+   "residual": 0.6328125,
+   "predicted_2(1-b/r)*3phip2/(4phi)": 0.6328125
+  },
+  "eq17_residual_anatomy_r=5.0": {
+   "residual": 0.010368000000000002,
+   "predicted_2(1-b/r)*3phip2/(4phi)": 0.010368000000000006
+  },
+  "closure_KG_eq11_r=1.5": {
+   "KG_lhs": -0.10534979423868274,
+   "KG_rhs_phi_k2T_over3": -0.10534979423868303,
+   "KG_residual": 2.914335439641036e-16,
+   "KG_residual_using_paper_stated_T": 0.03901844231062365,
+   "T_from_printed_profiles": -0.35555555555555535,
+   "T_paper_stated_formula": -0.48724279835390927
+  },
+  "closure_KG_eq11_r=2.0": {
+   "KG_lhs": -0.010546875000000004,
+   "KG_rhs_phi_k2T_over3": -0.010546874999999997,
+   "KG_residual": -6.938893903907228e-18,
+   "KG_residual_using_paper_stated_T": -0.007910156250000005,
+   "T_from_printed_profiles": -0.08437499999999998,
+   "T_paper_stated_formula": -0.02109374999999999
+  },
+  "closure_KG_eq11_r=5.0": {
+   "KG_lhs": -6.911999999999435e-06,
+   "KG_rhs_phi_k2T_over3": -6.9120000000000034e-06,
+   "KG_residual": 5.683591076076355e-19,
+   "KG_residual_using_paper_stated_T": -2.6542079999999444e-05,
+   "T_from_printed_profiles": -0.0008640000000000002,
+   "T_paper_stated_formula": 0.0024537600000000006
+  },
+  "V31_vs_V32_at_r=2": {
+   "V31": -0.0421875,
+   "V32": -0.04218749999999998
+  },
+  "eq30_check_at_r=3": {
+   "dV31_dr": 0.018518518518518517,
+   "eq30_printed_lhs_2r0^3_Vprime_plus_27phi0_(r/r0)^6(1-2u)": 19683.03703703704,
+   "eq30_with_(r0/r)^6_and_sign_flip": 6.938893903907228e-18,
+   "note": "eq.(30) as printed does not integrate to eq.(31): sign and (r/r0)^6 vs (r0/r)^6 both differ; logged, not repaired"
+  },
+  "conservation_r=1.5": {
+   "pr_prime": 0.8559670784558103,
+   "cons_residual": 2.6651014728429345e-10
+  },
+  "conservation_r=2.0": {
+   "pr_prime": 0.2578125000950171,
+   "cons_residual": 9.501710529491447e-11
+  },
+  "conservation_r=5.0": {
+   "pr_prime": 0.005260800001894578,
+   "cons_residual": 1.894576509564594e-12
+  },
+  "conservation_r=20.0": {
+   "pr_prime": 1.8883593756266622e-05,
+   "cons_residual": 6.266617406198646e-15
+  },
+  "ghost_EF_kinetic_coeff": {
+   "formula": "K_EF(phi) = 3/(2 phi (1+phi)^2), coefficient of (dPhi)^2 in Einstein-frame Lagrangian",
+   "at_phi_throat_phi0=3": 0.03125,
+   "at_phi_r=2_phi0=3": 2.115702479338843,
+   "sign_for_phi>0": "positive => GHOST (negative time-kinetic term)",
+   "healthy_window": "-1 < phi < 0 (with 1+phi > 0), disjoint from the phi0 > 2 throat-NEC branch",
+   "two_omega_plus_3_equivalent": "-3/phi (pointwise, from omega_eff = -3(1+phi)/(2phi))"
+  },
+  "scalar_sector_at_throat": {
+   "rho_matter": 1.7999999999999998,
+   "rho_eff": 0.0,
+   "note": "rho_eff=0 at throat while rho_matter=3phi0/5>0: the scalar/curvature sector supplies -rho_matter/(1+phi) net in the tt equation; its NEC share is what carries the flare-out"
+  }
+ },
+ "c_emsg_ganiyeva2023": {
+  "theta_identification": {
+   "t_comp_L=pbar=(pr+2pt)/3": "IDENTICAL",
+   "t_comp_L=-rho": "pr**2/3 + 4*pr*pt/3 + 4*pr*rho/3 + 4*pt**2/3 + 8*pt*rho/3 + rho**2",
+   "t_comp_L=pr": "-2*pr**2/3 - 2*pr*pt/3 - 2*pr*rho/3 + 4*pt**2/3 + 2*pt*rho/3",
+   "r_comp_L=pbar=(pr+2pt)/3": "IDENTICAL",
+   "r_comp_L=-rho": "pr**2/3 + 4*pr*rho/3 - 4*pt**2/3 - 4*pt*rho/3 + rho**2",
+   "r_comp_L=pr": "-2*pr**2/3 + 2*pr*pt - 2*pr*rho/3 - 4*pt**2/3 + 2*pt*rho/3",
+   "th_comp_L=pbar=(pr+2pt)/3": "IDENTICAL",
+   "th_comp_L=-rho": "-pr**2/3 - 2*pr*pt/3 - 2*pr*rho/3 + 2*pt*rho/3 + rho**2",
+   "th_comp_L=pr": "2*pr**2/3 - 2*pr*pt/3 - 2*pr*rho/3 + 2*pt*rho/3"
+  },
+  "theta_identification_conclusion": "All three printed gamma-brackets are reproduced identically iff L_m = (p_r + 2 p_t)/3 (mean pressure); L_m = -rho and L_m = p_r do NOT reproduce them. The paper states no L_m anywhere in the fetched text.",
+  "throat_root_census": [
+   {
+    "rho": 37.68849926510533,
+    "pr": -37.68702521055303,
+    "pt": 37.691299678215145,
+    "all_ECs_hold": false
+   },
+   {
+    "rho": -7.538051958929217,
+    "pr": -22.598679633876248,
+    "pt": 7.539157853002571,
+    "all_ECs_hold": false
+   },
+   {
+    "rho": 12.561949727843489,
+    "pr": 4.185104676177665,
+    "pt": 4.193728717429564,
+    "all_ECs_hold": true
+   },
+   {
+    "rho": -0.004423991305765242,
+    "pr": -0.0044252168839063934,
+    "pt": 0.0070763241839137654,
+    "all_ECs_hold": false
+   }
+  ],
+  "throat_root_census_note": "Complete census (Groebner degree-8 elimination): exactly 4 real roots at the throat; exactly one satisfies all ECs: (rho, pr, pt) = (12.562, 4.185, 4.194), i.e. rho*r0^2 = 113, a near-constant radiation-like fixed point (branch tends to rho=4pi, pr=pt=4pi/3 as r grows).",
+  "branch_points": 501,
+  "matter_EC_minima_interior_r0_to_rSigma=4.5": {
+   "rho": 12.561949727853428,
+   "rho+pr": 16.74705440403315,
+   "rho+pt": 16.75493293350935,
+   "rho+pr+2pt": 25.133090563459497,
+   "rho-|pr|": 8.376498548479436,
+   "rho-|pt|": 8.368221010424111
+  },
+  "matter_EC_minima_extended_to_30": {
+   "rho": 12.565505220602386,
+   "rho+pr": 16.754227100334592,
+   "rho+pt": 16.754935485050858,
+   "rho+pr+2pt": 25.132741486726886,
+   "rho-|pr|": 8.37678334087018,
+   "rho-|pt|": 8.376074956153913
+  },
+  "matter_at_throat": {
+   "rho": 12.561949727853428,
+   "pr": 4.185104676179723,
+   "pt": 4.193728717429315
+  },
+  "matter_at_rSigma_and_asymptote": {
+   "at_rSigma=4.5": {
+    "rho": 12.56549730789173,
+    "pr": 4.188717423628335,
+    "pt": 4.189437915969717
+   },
+   "at_r=30": {
+    "rho": 12.566370273723724,
+    "pr": 4.188793809277265,
+    "pt": 4.188788701862949
+   },
+   "note": "rho -> 4pi = 12.566, pr,pt -> 4pi/3 = 4.189: the branch does not decay; matching at finite rSigma is mandatory, as the paper states"
+  },
+  "effective_rho_minmax_interior": {
+   "min": -0.004420970641441538,
+   "max": -0.0008732781513958592,
+   "note": "rho_eff < 0 on the whole interior: effective WEC violated, flare-out carried by the gamma sector"
+  },
+  "conservation_interior": {
+   "max_abs_nablaT": 3.351118101536083,
+   "at_throat": 3.351118101536083,
+   "max_relative_to_term_scale": 0.9995701857102215,
+   "dominant_term": "zeta'(rho+pr)/2 = +3.35 at the throat, essentially uncancelled",
+   "note": "nabla T != 0 at O(1) relative size, as eq.(8) of the paper requires; the paper states non-conservation explicitly (eqs.5,8) and no step of the construction (12)-(14) or of the matching assumes conservation"
+  },
+  "matching_check": {
+   "rSigma_eq39": 4.5,
+   "zeta0_eq40": -1.2,
+   "C_from_eq41": 1.2364116269402596,
+   "C_paper_stated_(5/9)e^(4/5)": 1.23641162694026,
+   "C_from_eq42_as_rendered": 0.1591693315889945,
+   "note": "eqs.(39),(40),(41) mutually consistent and reproduce the paper's stated C=(5/9)e^{4/5}; eq.(42) as rendered gives 0.159 instead of 1.237: logged as a rendered-equation discrepancy, not repaired"
+  },
+  "alt_Lm_minus_rho_throat_roots": [
+   {
+    "rho": -0.004423742132836066,
+    "pr": -0.004426299131861848,
+    "pt": 0.0070763242479809025,
+    "all_ECs_hold": false
+   },
+   {
+    "rho": -4.1870203502157715,
+    "pr": -12.554426319493757,
+    "pt": 4.189010391226278,
+    "all_ECs_hold": false
+   },
+   {
+    "rho": -12.569907709811002,
+    "pr": 12.565485961282151,
+    "pt": -12.564160059092435,
+    "all_ECs_hold": false
+   },
+   {
+    "rho": -37.69645891259448,
+    "pr": -12.562391293524213,
+    "pt": -12.565265265719562,
+    "all_ECs_hold": false
+   }
+  ],
+  "alt_Lm_minus_rho_EC_branch_survives_interior": false,
+  "alt_Lm_minus_rho_EC_minima_interior": {}
+ }
+}

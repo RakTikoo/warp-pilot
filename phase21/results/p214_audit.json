@@ -1,0 +1,331 @@
+{
+  "item": "P21-4 Lorentz floor + conservation audit",
+  "pass_bar": 0.02,
+  "floor_P19_3": {
+    "1.1": 0.298,
+    "1.5": 0.33
+  },
+  "rows": [
+    {
+      "beta": 0.1,
+      "family": "B3",
+      "par": -20.0,
+      "kind": "B3 control best",
+      "scan_partial": 0.852589641434263,
+      "scan_full": 0.6972111553784861,
+      "scan_health": false,
+      "antisym": {
+        "0.3": {
+          "h": 0.3,
+          "rel_med": 8.131785765811481e-09,
+          "rel_max": 1.6749421402985062e-07,
+          "rel_p90": 5.0877999761505804e-08
+        },
+        "0.15": {
+          "h": 0.15,
+          "rel_med": 5.020155303495228e-10,
+          "rel_max": 3.97915768565053e-08,
+          "rel_p90": 3.1727741749227795e-09
+        }
+      }
+    },
+    {
+      "beta": 0.1,
+      "family": "B3",
+      "par": 5.0,
+      "kind": "best (health-passing pool)",
+      "scan_partial": 0.6573705179282868,
+      "scan_full": 0.6573705179282868,
+      "scan_health": true,
+      "antisym": {
+        "0.3": {
+          "h": 0.3,
+          "rel_med": 1.874661032332328e-08,
+          "rel_max": 4.309061739597976e-07,
+          "rel_p90": 9.412780551241047e-08
+        },
+        "0.15": {
+          "h": 0.15,
+          "rel_med": 1.0592256966411313e-09,
+          "rel_max": 1.7490047542256887e-07,
+          "rel_p90": 5.860661092357449e-09
+        }
+      }
+    },
+    {
+      "beta": 1.1,
+      "family": "B2",
+      "par": [
+        20.0,
+        1.0
+      ],
+      "kind": "best (health-passing pool)",
+      "scan_partial": 0.037698412698412696,
+      "scan_full": 0.03571428571428571,
+      "scan_health": true,
+      "antisym": {
+        "0.3": {
+          "h": 0.3,
+          "rel_med": 0.05230484909831999,
+          "rel_max": 0.8992989040158428,
+          "rel_p90": 0.19002229822251673
+        },
+        "0.15": {
+          "h": 0.15,
+          "rel_med": 0.05216265939947036,
+          "rel_max": 0.9333036299877918,
+          "rel_p90": 0.18714219320525105
+        }
+      },
+      "floor_P19_3": 0.298,
+      "floor_improvement_rel": 0.8249575187937236,
+      "floor_move_25pct": true,
+      "antisym_le_002": false
+    },
+    {
+      "beta": 1.1,
+      "family": "B3",
+      "par": -20.0,
+      "kind": "B3 control best",
+      "scan_partial": 0.7341269841269841,
+      "scan_full": 0.5833333333333334,
+      "scan_health": false,
+      "antisym": {
+        "0.3": {
+          "h": 0.3,
+          "rel_med": 3.047671667107259e-10,
+          "rel_max": 2.6477468322861798e-05,
+          "rel_p90": 2.089692977272769e-08
+        },
+        "0.15": {
+          "h": 0.15,
+          "rel_med": 2.0136642727930682e-11,
+          "rel_max": 4.2585998661557466e-07,
+          "rel_p90": 5.921762814197795e-10
+        }
+      },
+      "floor_P19_3": 0.298,
+      "floor_improvement_rel": 0.9999999999324274,
+      "floor_move_25pct": true,
+      "antisym_le_002": true
+    },
+    {
+      "beta": 1.5,
+      "family": "B2",
+      "par": [
+        20.0,
+        1.0
+      ],
+      "kind": "best (health-passing pool)",
+      "scan_partial": 0.03198653198653199,
+      "scan_full": 0.030303030303030304,
+      "scan_health": true,
+      "antisym": {
+        "0.3": {
+          "h": 0.3,
+          "rel_med": 0.07233822259742652,
+          "rel_max": 0.6106159656951486,
+          "rel_p90": 0.2134072602416203
+        },
+        "0.15": {
+          "h": 0.15,
+          "rel_med": 0.07180028097399066,
+          "rel_max": 0.5778277347865194,
+          "rel_p90": 0.21093834123151692
+        }
+      },
+      "floor_P19_3": 0.33,
+      "floor_improvement_rel": 0.7824233909879071,
+      "floor_move_25pct": true,
+      "antisym_le_002": false
+    },
+    {
+      "beta": 1.5,
+      "family": "B3",
+      "par": -20.0,
+      "kind": "B3 control best",
+      "scan_partial": 0.6616161616161617,
+      "scan_full": 0.5218855218855218,
+      "scan_health": false,
+      "antisym": {
+        "0.3": {
+          "h": 0.3,
+          "rel_med": 1.6669094962116654e-10,
+          "rel_max": 1.483741710765042e-05,
+          "rel_p90": 7.596984590038307e-09
+        },
+        "0.15": {
+          "h": 0.15,
+          "rel_med": 1.309124030598683e-11,
+          "rel_max": 2.9635538024950537e-07,
+          "rel_p90": 5.516033542596132e-10
+        }
+      },
+      "floor_P19_3": 0.33,
+      "floor_improvement_rel": 0.9999999999603296,
+      "floor_move_25pct": true,
+      "antisym_le_002": true
+    }
+  ],
+  "conservation": [
+    {
+      "beta": 0.1,
+      "family": "B1a",
+      "par": 20.0,
+      "scan_partial": 0.5856573705179283,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.008200430815478069,
+        "rel_max": 0.996891098774549,
+        "rel_p90": 0.38563114698803885
+      },
+      "cons_pass": true
+    },
+    {
+      "beta": 0.1,
+      "family": "B1a",
+      "par": 5.0,
+      "scan_partial": 0.5776892430278885,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.008203018242949413,
+        "rel_max": 0.9968471659281357,
+        "rel_p90": 0.3855440791360669
+      },
+      "cons_pass": true
+    },
+    {
+      "beta": 0.1,
+      "family": "B1b",
+      "par": -0.2,
+      "scan_partial": 0.6374501992031872,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.024600264444945362,
+        "rel_max": 0.9969387476983126,
+        "rel_p90": 0.25362721934805266
+      },
+      "cons_pass": false
+    },
+    {
+      "beta": 0.1,
+      "family": "B2",
+      "par": [
+        -5.0,
+        5.0
+      ],
+      "scan_partial": 0.5776892430278885,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.008203445722274553,
+        "rel_max": 0.9968671177604189,
+        "rel_p90": 0.3855425835466863
+      },
+      "cons_pass": true
+    },
+    {
+      "beta": 0.1,
+      "family": "B2",
+      "par": [
+        20.0,
+        1.0
+      ],
+      "scan_partial": 0.5258964143426295,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.007280730777168197,
+        "rel_max": 0.9963190305936926,
+        "rel_p90": 0.3851104987727509
+      },
+      "cons_pass": true
+    },
+    {
+      "beta": 0.1,
+      "family": "B2",
+      "par": [
+        20.0,
+        5.0
+      ],
+      "scan_partial": 0.5776892430278885,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.008153103514000008,
+        "rel_max": 0.9967656871726329,
+        "rel_p90": 0.3855500617423425
+      },
+      "cons_pass": true
+    },
+    {
+      "beta": 0.1,
+      "family": "B2",
+      "par": [
+        5.0,
+        1.0
+      ],
+      "scan_partial": 0.50199203187251,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.008133485967805675,
+        "rel_max": 0.9965872098837277,
+        "rel_p90": 0.3850881581229606
+      },
+      "cons_pass": true
+    },
+    {
+      "beta": 0.1,
+      "family": "B2",
+      "par": [
+        5.0,
+        5.0
+      ],
+      "scan_partial": 0.5776892430278885,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.008202590809827617,
+        "rel_max": 0.9968270490274607,
+        "rel_p90": 0.38554557475032253
+      },
+      "cons_pass": true
+    },
+    {
+      "beta": 0.1,
+      "family": "B3",
+      "par": 1.0,
+      "scan_partial": 0.5737051792828686,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.00390007024598876,
+        "rel_max": 0.9964752329689589,
+        "rel_p90": 0.395623276849126
+      },
+      "cons_pass": true
+    },
+    {
+      "beta": 0.1,
+      "family": "B3",
+      "par": 20.0,
+      "scan_partial": 0.6175298804780877,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.010902076237981244,
+        "rel_max": 1.0,
+        "rel_p90": 0.483630088584557
+      },
+      "cons_pass": true
+    },
+    {
+      "beta": 0.1,
+      "family": "B3",
+      "par": 5.0,
+      "scan_partial": 0.6573705179282868,
+      "divergence": {
+        "hdiv": 0.15,
+        "rel_med": 0.005635860273110302,
+        "rel_max": 0.9969831493262351,
+        "rel_p90": 0.4493409147920335
+      },
+      "cons_pass": true
+    }
+  ],
+  "runtime_s": 243.68743586540222
+}
