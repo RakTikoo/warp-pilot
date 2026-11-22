@@ -1,0 +1,184 @@
+{
+ "item": "P35-3 counter-rotating shell currents",
+ "prescription_beta0sq": "fixed-v stream family: P = v^2 sigma_s exactly, beta0^2 = v^2 in [0,0.25]",
+ "sympy": {
+  "Q0_check": true,
+  "stream_sigma_s": "-sigma0/(v**2 - 1)",
+  "stream_P_parallel": "-sigma0*v**2/(v**2 - 1)",
+  "ratio_P_over_sigma": "v**2",
+  "v0_limit": {
+   "sigma_s(v=0)": "sigma0",
+   "P(v=0)": "0"
+  },
+  "sigma0_required_symmetric": "(v**2 - 1)*sqrt(-2*M*a + Q**2 + a**2)/(2*pi*a**2)",
+  "v2_required_symmetric": "a*(M - a)/(2*(-2*M*a + Q**2 + a**2))",
+  "v2_required_sign": "P_L>0 and sigma_L<0 on a>r+ (a>M_i both sides, t_i>0) => v2_required = P_L/sigma_L < 0: no real v, at any sigma0 sign"
+ },
+ "grids": {
+  "symmetric_Schwarzschild_Q0": {
+   "grid": "sym Schw",
+   "points": 783,
+   "sigma_L<0": 783,
+   "P_L>0": 783,
+   "ratio_P/sigma<0": 783,
+   "stream_solutions_both_eqs": 0,
+   "ratio_min": -11.985826001955127,
+   "ratio_max": -0.5104166666666666,
+   "min_sigma_L_times_M": -0.030626326433292158,
+   "P_L_times_M_range": [
+    0.001591880969185422,
+    0.1362447728152448
+   ],
+   "M1_theta_inconsistency": "P_theta,Lanczos - 0 = P_L (never 0 on grid; range in P_L_times_M_range)"
+  },
+  "symmetric_RN": {
+   "grid": "sym RN",
+   "points": 314669,
+   "sigma_L<0": 314669,
+   "P_L>0": 314669,
+   "ratio_P/sigma<0": 314669,
+   "stream_solutions_both_eqs": 0,
+   "ratio_min": -25461.341099532972,
+   "ratio_max": -0.5102045064134978,
+   "min_sigma_L_times_M": -0.039744288779040036,
+   "P_L_times_M_range": [
+    0.001591550093457333,
+    6.734222081890242
+   ],
+   "M1_theta_inconsistency": "P_theta,Lanczos - 0 = P_L (never 0 on grid; range in P_L_times_M_range)"
+  },
+  "asym_RN-Schw": {
+   "grid": "RN-Schw",
+   "points": 156600,
+   "sigma_L<0": 156600,
+   "P_L>0": 156600,
+   "ratio_P/sigma<0": 156600,
+   "stream_solutions_both_eqs": 0,
+   "ratio_min": -11.985826001955127,
+   "ratio_max": -0.510311106468526,
+   "min_sigma_L_times_M": -0.03354723159445418,
+   "P_L_times_M_range": [
+    0.0015917163592877662,
+    0.1362447728152448
+   ],
+   "M1_theta_inconsistency": "P_theta,Lanczos - 0 = P_L (never 0 on grid; range in P_L_times_M_range)"
+  },
+  "asym_RN-Mink": {
+   "grid": "RN-Mink",
+   "points": 157330,
+   "sigma_L<0": 157330,
+   "P_L>0": 157330,
+   "ratio_P/sigma<0": 157330,
+   "stream_solutions_both_eqs": 0,
+   "ratio_min": -73.77959357750031,
+   "ratio_max": -0.5050512370611722,
+   "min_sigma_L_times_M": -0.07656052811181538,
+   "P_L_times_M_range": [
+    0.0015915505901545317,
+    3.390018879023015
+   ],
+   "M1_theta_inconsistency": "P_theta,Lanczos - 0 = P_L (never 0 on grid; range in P_L_times_M_range)"
+  },
+  "asym_RN-RNdQ": {
+   "grid": "RN-RN(0.5Q)",
+   "points": 156768,
+   "sigma_L<0": 156768,
+   "P_L>0": 156768,
+   "ratio_P/sigma<0": 156768,
+   "stream_solutions_both_eqs": 0,
+   "ratio_min": -96.01113566578644,
+   "ratio_max": -0.5102847157368748,
+   "min_sigma_L_times_M": -0.03466556588577302,
+   "P_L_times_M_range": [
+    0.0015916751972368665,
+    0.8203649961028948
+   ],
+   "M1_theta_inconsistency": "P_theta,Lanczos - 0 = P_L (never 0 on grid; range in P_L_times_M_range)"
+  }
+ },
+ "v0_control": {
+  "max_abs_err_sigma_vs_P23_identity": 0.0,
+  "sigma0_required_at_v0": "sigma_L < 0 on all 2000 control points (static failure reproduced)",
+  "sigma_L<0_count": 2000,
+  "points": 2000,
+  "P_mismatch_at_v0": "streams give P=0; Lanczos demands P_L>0 on all control points",
+  "P_L>0_count": 2000
+ },
+ "stream_ECs": {
+  "M1": {
+   "all_EC_pass_all_v_in_[0,0.5]_sigma0>0": true,
+   "sample_v=0.5": {
+    "v": 0.5,
+    "sigma_s/sigma0": 1.3333333333333333,
+    "P_parallel/sigma_s": 0.25,
+    "NEC": true,
+    "WEC": true,
+    "SEC": true,
+    "DEC": true
+   }
+  },
+  "M2": {
+   "all_EC_pass_all_v_in_[0,0.5]_sigma0>0": true,
+   "sample_v=0.5": {
+    "v": 0.5,
+    "sigma_s/sigma0": 1.3333333333333333,
+    "P_parallel/sigma_s": 0.25,
+    "NEC": true,
+    "WEC": true,
+    "SEC": true,
+    "DEC": true
+   }
+  }
+ },
+ "lanczos_tensor_ECs": "fail on every grid point: sigma_L<0 violates NEC (sigma>=0 clause), WEC, DEC",
+ "stability_stream_EoS": {
+  "Q0_gate_vs_P23_max_abs_err": 1.7763568394002505e-15,
+  "rows": {
+   "Q/M=0.0": {
+    "a0_rows": 120,
+    "rows_with_Vpp>0_for_some_stream_beta0sq_in_[0,0.25]": 0,
+    "max_a0^2_Vpp_over_stream_betas": -1.7320520304323097
+   },
+   "Q/M=0.5": {
+    "a0_rows": 120,
+    "rows_with_Vpp>0_for_some_stream_beta0sq_in_[0,0.25]": 0,
+    "max_a0^2_Vpp_over_stream_betas": -1.6816180995607066
+   },
+   "Q/M=0.9": {
+    "a0_rows": 120,
+    "rows_with_Vpp>0_for_some_stream_beta0sq_in_[0,0.25]": 0,
+    "max_a0^2_Vpp_over_stream_betas": -1.3614462081364933
+   },
+   "Q/M=0.99": {
+    "a0_rows": 120,
+    "rows_with_Vpp>0_for_some_stream_beta0sq_in_[0,0.25]": 0,
+    "max_a0^2_Vpp_over_stream_betas": -0.7024754533260886
+   }
+  }
+ },
+ "a_eq_1m_rows": {
+  "Q=0": {
+   "a_m": 1.0,
+   "x": 2.0,
+   "sigma_L_geom_per_m": -0.11253953951963827,
+   "P_L_geom_per_m": 0.0844046546397287,
+   "sigma_L_kg_per_m2": -1.5154472222694761e+26,
+   "ratio_P/sigma": -0.7499999999999999,
+   "sigma0_required(v=0.5)_kg_per_m2": -1.1365854167021074e+26,
+   "v2_required": -0.7499999999999999
+  },
+  "Q=0.9": {
+   "a_m": 1.0,
+   "x": 2.0,
+   "sigma_L_geom_per_m": -0.11809950967622838,
+   "P_L_geom_per_m": 0.0804309941041283,
+   "sigma_L_kg_per_m2": -1.590317275636234e+26,
+   "ratio_P/sigma": -0.681044267877412,
+   "sigma0_required(v=0.5)_kg_per_m2": -1.1927379567271756e+26,
+   "v2_required": -0.681044267877412
+  }
+ },
+ "scale_free": "sigma_L*M and P_L*M depend only on (a/M, Q/M): the sign failure (sigma_L<0, P_L/sigma_L<0) is scale-free; a=1 m rows are instances, not a scale effect.",
+ "verdict": "FAIL",
+ "deciding_combination": "BOTH Lanczos equations fail independently, in both models M1 and M2, on every grid point: (1) sigma-equation: sigma_L = -(sqrt(f_+)+sqrt(f_-))/(4 pi a) < 0 demands sigma_s<0, but streams give sigma_s = sigma0 gamma^2 >= 0 for sigma0>0 (sigma0 required = sigma_L(1-v^2) < 0 for all v in [0,0.5]); (2) pressure/ratio equation: streams require P/sigma_s = v^2 >= 0 (and <=0.25), but the throat pair has P_L/sigma_L < 0 on every grid point (P_L>0, sigma_L<0) -- v^2_required is negative, no real v exists even if the sigma sign were waived. M1 additionally fails theta-theta: P_theta,Lanczos = P_L > 0 vs demanded 0. Stream tensor itself is EC-legal for sigma0>0 (all four ECs, both models, all v<=0.5): the failure is purely the Lanczos matching. Stability moot (no solution sequence) and independently empty: Vpp>0 on 0 rows for stream beta0^2=v^2 in [0,0.25]."
+}

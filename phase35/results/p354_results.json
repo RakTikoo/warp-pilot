@@ -1,0 +1,294 @@
+{
+  "item": "P35-4 xi phi^2 T scalar-torsion",
+  "theory": "f(T,phi)=-(1-xi phi^2) T, F=df/dT=xi phi^2-1, canonical scalar",
+  "units": "r0=1, 4pi-normalised matter (P33-4 record)",
+  "background_note": "T==0 with tetrad of record forces a'=(s-1)/r (BHL Eq.25), e^a=(1+s)/2; literal Phi=0 (a=0) gives T!=0, outside class.",
+  "T_verification": {
+    "T_simplified": "0",
+    "T_is_zero": true
+  },
+  "throat_limits_F_coefficients": {
+    "rho_eq13_F_coeff_limit": -0.5,
+    "pr_eq14_F_coeff_limit": -0.5,
+    "pt_eq15_F_coeff_limit": 0.375
+  },
+  "derivative_terms_at_throat": {
+    "F_prime": "2 xi phi phi' (f_{T phi} phi'; T'=0 on background)",
+    "D_rho_4pi": "lim s(1-s)/r * F' = 2 xi phi(r0) L,  L := lim s(r) phi'(r)",
+    "D_pt_4pi": "lim (e^-b/2)(a'/2+1/r-e^{b/2}/r) F' = -xi phi(r0) L = -D_rho/2",
+    "D_pr_4pi": 0.0,
+    "pr_note": "BHL Eq.(14) contains NO T' f_TT term at any r: the pr throat equation receives no S.dF contribution whatsoever.",
+    "finiteness": "coeffs vanish like s, but a throat-regular scalar has phi' ~ L/s (flux J0 != 0), so s F' -> 2 xi phi0 L finite. If J0 = 0 (L=0) the terms vanish and the P33-4 identity is restored."
+  },
+  "limit_numeric_check": {
+    "L=1": {
+      "c13_at_smallest_r": 1.8199974260150895,
+      "D_rho_exact": 1.8199999999999998,
+      "c15_at_smallest_r": -0.9099993565024073,
+      "D_pt_exact": -0.9099999999999999
+    }
+  },
+  "gate_xi0": {
+    "F": -1.0,
+    "tensor_kinetic_ratio_vs_TEGR": -1.0,
+    "c_T_squared": 1.0,
+    "D_rho": 0.0,
+    "4pi_rho_demanded": 0.5,
+    "4pi_NEC1_demanded": 1.0,
+    "4pi_pr_demanded": -0.5,
+    "matches_G5-1_P33-4": true
+  },
+  "tensor_sector": {
+    "coefficient": "F(r) = -(1 - xi phi(r)^2), position-dependent, evaluated on bg profile",
+    "kinetic_eq_gradient_coeff": true,
+    "c_T_squared": 1.0,
+    "healthy_at_throat_iff": "F(r0) > 0  <=>  xi phi(r0)^2 > 1",
+    "xi0_gate_ratio": -1.0
+  },
+  "configuration_scan": [
+    {
+      "xi": 0.1,
+      "V": "V=0",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 0.0008612500000000356,
+      "at_phi0": 3.165,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    },
+    {
+      "xi": 0.1,
+      "V": "V=massive",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 62.94094218871203,
+      "at_phi0": 3.165,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    },
+    {
+      "xi": 0.5,
+      "V": "V=0",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 0.0005562500000000359,
+      "at_phi0": 1.415,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    },
+    {
+      "xi": 0.5,
+      "V": "V=massive",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 12.580906951667648,
+      "at_phi0": 1.415,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    },
+    {
+      "xi": 1.0,
+      "V": "V=0",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 0.005012500000000086,
+      "at_phi0": 1.0050000000000001,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    },
+    {
+      "xi": 1.0,
+      "V": "V=massive",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 6.351186739884063,
+      "at_phi0": 1.0050000000000001,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    },
+    {
+      "xi": 2.0,
+      "V": "V=0",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 0.0040999999999999925,
+      "at_phi0": 0.71,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    },
+    {
+      "xi": 2.0,
+      "V": "V=massive",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 3.171453713349229,
+      "at_phi0": 0.71,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    },
+    {
+      "xi": 5.0,
+      "V": "V=0",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 0.006249999999999978,
+      "at_phi0": 0.45,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    },
+    {
+      "xi": 5.0,
+      "V": "V=massive",
+      "healthy_F0gt0_throat_solutions_found": 0,
+      "min_EqA_residual_over_scan": 1.2785950247038662,
+      "at_phi0": 0.45,
+      "obstruction": "Eq A: 4pi(K+V0) >= 0 > -F0/2 for every F0>0 row"
+    }
+  ],
+  "decoupling_exhibits_V0_flux": [
+    {
+      "xi": 0.1,
+      "phi0": 6.324555320336758,
+      "F_throat": 2.9999999999999996,
+      "tensor_healthy": true,
+      "K_throat": 0.4999999999999999,
+      "L": 1.0,
+      "D_rho_4pi": 1.2649110640673518,
+      "4pi_rho_demanded": -0.235088935932648,
+      "4pi_rho_P33_identity_would_give": -1.4999999999999998,
+      "4pi_NEC1_demanded": -1.7350889359326478,
+      "4pi_NEC1_P33_would_give": -2.9999999999999996,
+      "4pi_pr_demanded": -1.4999999999999998,
+      "4pi_pr_scalar_supplies": 6.2831853071795845,
+      "scalar_EC_min_rho": 2.4999999562499994e-17,
+      "scalar_EC_min_NEC1": 4.999999912499999e-17,
+      "scalar_EC_min_NEC2": 0.0,
+      "DEC_saturated_V0": true,
+      "phi_at_l_1e4": 7.570935092129402,
+      "phi_finite_asymptotically": true,
+      "conservation": "V=0 flux J=const is the integrated EoM; on-bg coupling force propto T dphi = 0, canonical stress conserved."
+    },
+    {
+      "xi": 0.5,
+      "phi0": 2.82842712474619,
+      "F_throat": 2.999999999999999,
+      "tensor_healthy": true,
+      "K_throat": 0.4999999999999999,
+      "L": 1.0,
+      "D_rho_4pi": 2.82842712474619,
+      "4pi_rho_demanded": 1.3284271247461903,
+      "4pi_rho_P33_identity_would_give": -1.4999999999999996,
+      "4pi_NEC1_demanded": -0.17157287525380926,
+      "4pi_NEC1_P33_would_give": -2.999999999999999,
+      "4pi_pr_demanded": -1.4999999999999996,
+      "4pi_pr_scalar_supplies": 6.2831853071795845,
+      "scalar_EC_min_rho": 2.4999999562499994e-17,
+      "scalar_EC_min_NEC1": 4.999999912499999e-17,
+      "scalar_EC_min_NEC2": 0.0,
+      "DEC_saturated_V0": true,
+      "phi_at_l_1e4": 4.074806895578327,
+      "phi_finite_asymptotically": true,
+      "conservation": "V=0 flux J=const is the integrated EoM; on-bg coupling force propto T dphi = 0, canonical stress conserved."
+    },
+    {
+      "xi": 1.0,
+      "phi0": 2.0,
+      "F_throat": 3.0,
+      "tensor_healthy": true,
+      "K_throat": 0.4999999999999999,
+      "L": 1.0,
+      "D_rho_4pi": 4.0,
+      "4pi_rho_demanded": 2.5,
+      "4pi_rho_P33_identity_would_give": -1.5,
+      "4pi_NEC1_demanded": 1.0,
+      "4pi_NEC1_P33_would_give": -3.0,
+      "4pi_pr_demanded": -1.5,
+      "4pi_pr_scalar_supplies": 6.2831853071795845,
+      "scalar_EC_min_rho": 2.4999999562499994e-17,
+      "scalar_EC_min_NEC1": 4.999999912499999e-17,
+      "scalar_EC_min_NEC2": 0.0,
+      "DEC_saturated_V0": true,
+      "phi_at_l_1e4": 3.2463797705881112,
+      "phi_finite_asymptotically": true,
+      "conservation": "V=0 flux J=const is the integrated EoM; on-bg coupling force propto T dphi = 0, canonical stress conserved."
+    },
+    {
+      "xi": 2.0,
+      "phi0": 1.414213562373095,
+      "F_throat": 2.999999999999999,
+      "tensor_healthy": true,
+      "K_throat": 0.4999999999999999,
+      "L": 1.0,
+      "D_rho_4pi": 5.65685424949238,
+      "4pi_rho_demanded": 4.15685424949238,
+      "4pi_rho_P33_identity_would_give": -1.4999999999999996,
+      "4pi_NEC1_demanded": 2.6568542494923806,
+      "4pi_NEC1_P33_would_give": -2.999999999999999,
+      "4pi_pr_demanded": -1.4999999999999996,
+      "4pi_pr_scalar_supplies": 6.2831853071795845,
+      "scalar_EC_min_rho": 2.4999999562499994e-17,
+      "scalar_EC_min_NEC1": 4.999999912499999e-17,
+      "scalar_EC_min_NEC2": 0.0,
+      "DEC_saturated_V0": true,
+      "phi_at_l_1e4": 2.6605933327707696,
+      "phi_finite_asymptotically": true,
+      "conservation": "V=0 flux J=const is the integrated EoM; on-bg coupling force propto T dphi = 0, canonical stress conserved."
+    },
+    {
+      "xi": 5.0,
+      "phi0": 0.8944271909999159,
+      "F_throat": 2.9999999999999996,
+      "tensor_healthy": true,
+      "K_throat": 0.4999999999999999,
+      "L": 1.0,
+      "D_rho_4pi": 8.94427190999916,
+      "4pi_rho_demanded": 7.444271909999159,
+      "4pi_rho_P33_identity_would_give": -1.4999999999999998,
+      "4pi_NEC1_demanded": 5.944271909999159,
+      "4pi_NEC1_P33_would_give": -2.9999999999999996,
+      "4pi_pr_demanded": -1.4999999999999998,
+      "4pi_pr_scalar_supplies": 6.2831853071795845,
+      "scalar_EC_min_rho": 2.4999999562499994e-17,
+      "scalar_EC_min_NEC1": 4.999999912499999e-17,
+      "scalar_EC_min_NEC2": 0.0,
+      "DEC_saturated_V0": true,
+      "phi_at_l_1e4": 2.1408069612514735,
+      "phi_finite_asymptotically": true,
+      "conservation": "V=0 flux J=const is the integrated EoM; on-bg coupling force propto T dphi = 0, canonical stress conserved."
+    }
+  ],
+  "massive_local_EoM": [
+    {
+      "xi": 0.1,
+      "phi0": 6.324555320336758,
+      "J0": 0.7071067811865475,
+      "L": 1.0,
+      "D_rho_4pi": 1.2649110640673518,
+      "rho_min_on_l_[0,5]": -20.472639041985293,
+      "note": "local EoM solution; D at throat nonzero as in V=0 case. Global EC for massive rows not needed: pr-throat kill is algebraic."
+    },
+    {
+      "xi": 0.5,
+      "phi0": 2.82842712474619,
+      "J0": 0.7071067811865475,
+      "L": 1.0,
+      "D_rho_4pi": 2.82842712474619,
+      "rho_min_on_l_[0,5]": -4.439005849287655,
+      "note": "local EoM solution; D at throat nonzero as in V=0 case. Global EC for massive rows not needed: pr-throat kill is algebraic."
+    },
+    {
+      "xi": 1.0,
+      "phi0": 2.0,
+      "J0": 0.7071067811865475,
+      "L": 1.0,
+      "D_rho_4pi": 4.0,
+      "rho_min_on_l_[0,5]": -2.41595079797485,
+      "note": "local EoM solution; D at throat nonzero as in V=0 case. Global EC for massive rows not needed: pr-throat kill is algebraic."
+    },
+    {
+      "xi": 2.0,
+      "phi0": 1.414213562373095,
+      "J0": 0.7071067811865475,
+      "L": 1.0,
+      "D_rho_4pi": 5.65685424949238,
+      "rho_min_on_l_[0,5]": -1.3875670907186166,
+      "note": "local EoM solution; D at throat nonzero as in V=0 case. Global EC for massive rows not needed: pr-throat kill is algebraic."
+    },
+    {
+      "xi": 5.0,
+      "phi0": 0.8944271909999159,
+      "J0": 0.7071067811865475,
+      "L": 1.0,
+      "D_rho_4pi": 8.94427190999916,
+      "rho_min_on_l_[0,5]": -0.7447459453213404,
+      "note": "local EoM solution; D at throat nonzero as in V=0 case. Global EC for massive rows not needed: pr-throat kill is algebraic."
+    }
+  ],
+  "verdict": "IDENTITY BREAKS - DECOUPLING ONLY",
+  "deciding_terms": {
+    "identity_breaks_by": "D_rho = lim_{r->r0} [s(1-s)/r] F' = 2 xi phi(r0) L / r0 (r0=1), finite and generically nonzero for EoM solutions with throat flux L = lim s phi' != 0; moves 4pi rho_tot(r0) to -F(r0)/2 + D_rho and 4pi NEC1_tot(r0) to -F(r0) + D_rho (D_pt = -D_rho/2 in pt eq).",
+    "legality_health_side_fails_by": "BHL Eq.(14) has NO derivative term: 4pi p_r(r0) = -F(r0)/2 exactly, while a canonical scalar supplies 4pi p_{r,phi}(r0) = 4pi(K0 + V0) >= 0. F(r0) > 0 (healthy tensor) demands p_r < 0: impossible for every grid row, any throat data. Marginal F=0 gives K0=V0=0 only (zero kinetic coefficient, not healthy)."
+  }
+}
