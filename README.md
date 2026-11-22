@@ -103,6 +103,12 @@ Archived release: https://doi.org/10.5281/zenodo.24433260
 Update (v1.7.0): the even-sector ghost claim is certified branch-independently at the action level and stated in full in mrv-audit/AUDIT.md §6; the l=0 soft-mode value reported in v1.6.x is retracted as a discretisation artefact (§2).
 Archived release: https://doi.org/10.5281/zenodo.24434411
 
+## Phase 17–23 results (gate-verified)
+
+Gate-5 re-verified the programme's nine ungated results from Phases 17–23 by independent recomputation and literature novelty check: six stand in restated form (an f(T) ghost identity, EiBI throat obstructions and a literature misprint, the evaluated GJW ledger, an asymptotic-safety cancellation identity, legal formation paths, and a bimetric relocation anatomy), and three are labelled independent confirmations of published results. See phase1723-claims/RESULTS.md.
+
+Archived release: https://doi.org/10.5281/zenodo.24435291
+
 ## Repository layout
 
 - `REPORT.md` — the final internal report: plain-language summary,
