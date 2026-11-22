@@ -15,6 +15,7 @@ issues (run a script, compare numbers, report).
 
 Everything below passed this project's verification gate — an independent recomputation on a second code path plus a literature novelty check — before it was published. Archived releases are on Zenodo (all versions: https://doi.org/10.5281/zenodo.24425078).
 
+- **v1.9.0 — Gate-6 claims.** Four gated results (`gate6-claims/`): the (10,30) thick shell verified at β = 0.07 **and β = 0.08** (Gate-6 found the 0.07 "ceiling" was a single-point instrument artefact; β = 0.09 unsettled); the Φ ≠ 0 inertness theorem for scalar-tensor throats; a measured bulk-shortcut gain (0.480) inside an exhibited wormhole-throat bulk lift — effective only, setup leg unavailable; and the component-blindness of the quantum-inequality sampling bound, with the species escape priced at N ≥ 1.06×10⁷². All four stated only in their gate-restated wordings. DOI: 10.5281/zenodo.24439601
 - **A warp shell that beats the published benchmark, with the maths checked twice** — verified subluminal shells 40% lighter (Finalist A, β = 0.02) and 50% faster (Finalist B2) than the Fuchs et al. baseline, passing all energy conditions. [Release v1.0.0](https://doi.org/10.5281/zenodo.24425079)
 - **A hard floor under every wormhole** — exact formulas for the minimum amount of "exoticity" any throat of a given size must have, whatever it is made of (the H6 floor identities). [Release v1.1.0](https://doi.org/10.5281/zenodo.24425833)
 - **Warp shells inside curved spacetime, not just empty space** — shells re-solved in Schwarzschild and anti-de Sitter backgrounds; they work until a named pressure-amplification mechanism kills them at high background mass (H4). [Release v1.1.0](https://doi.org/10.5281/zenodo.24425833)
@@ -39,13 +40,17 @@ Everything below passed this project's verification gate — an independent reco
     Fuchs et al. (2024) baseline mass at the same radius and velocity.
   - *Finalist B2* — β = 0.03c, 3.64×10²⁷ kg, **19% below** that baseline
     at 50% higher velocity.
-  - A β = 0.05c frontier design at compactness M/R₁ = 0.383 (lightest:
-    2.58×10²⁷ kg), with a fitted scale-covariance law for the frontier.
-- **The positive-energy frontier terminates between β = 0.05 and β = 0.1.**
-  At β = 0.1, three independent constructions (named families, free-form
-  machine search, and a conditions-first reverse construction) all land
-  within ~10⁻⁸ of zero worst-margin and none certifies a pass. The
-  boundary is a wall: different energy conditions bind on its two sides.
+  - A β = 0.05c frontier design of the Phase-1 family at compactness
+    M/R₁ = 0.383 (lightest: 2.58×10²⁷ kg), with a fitted scale-covariance
+    law for the frontier.
+- EC-legal subluminal shells are known (Fuchs et al. 2024); this programme's
+  verified rows include Finalist A (β = 0.02) and the Phase-26 (10,30)
+  configuration at β = 0.07–0.08 (Gate-6). In the Phase-1 family, the
+  positive-energy frontier terminates between β = 0.05 and β = 0.1: at
+  β = 0.1, three independent constructions (named families, free-form machine
+  search, and a conditions-first reverse construction) all land within ~10⁻⁸
+  of zero worst-margin and none certifies a pass. The boundary is a wall:
+  different energy conditions bind on its two sides.
 - **No superluminal candidate anywhere.** A per-geometry exclusion map
   (16 rows in `REPORT.md`) covers spherical shells, toroidal shells
   (symmetric and asymmetric), free-form and fully-3D shapes, shells on
@@ -69,7 +74,7 @@ Everything below passed this project's verification gate — an independent reco
 
 ![The positive-energy frontier](frontier.png)
 
-*The mass–velocity frontier (plot script: `plot_frontier.py`). Verified positive-energy designs exist at β = 0.02, 0.03 and 0.05 along a compactness curve; at β = 0.1 three independent constructions land within ~10⁻⁸ of zero worst-margin and none certifies a pass — the frontier terminates between β = 0.05 and β = 0.1.*
+*The mass–velocity frontier (plot script: `plot_frontier.py`). In the Phase-1 family, verified positive-energy designs exist at β = 0.02, 0.03 and 0.05 along a compactness curve; at β = 0.1 three independent constructions land within ~10⁻⁸ of zero worst-margin and none certifies a pass — the Phase-1 family's frontier terminates between β = 0.05 and β = 0.1.*
 
 ## Limits — read these before citing anything
 
