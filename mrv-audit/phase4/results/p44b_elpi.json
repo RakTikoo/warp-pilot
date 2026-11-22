@@ -1,0 +1,17 @@
+{
+  "task": "F4-4 path 3: E_pi from direct action variation (Euler-Lagrange)",
+  "h=0.01": {
+    "absmax": 6.287318341034921e-08,
+    "at_r": 2.079999999991628,
+    "median_abs": 7.361700433364962e-11
+  },
+  "h=0.005": {
+    "absmax": 1.5719040813129027e-08,
+    "at_r": 2.0800000000215277,
+    "median_abs": 1.8430120709146656e-11
+  },
+  "EL_over_J2_at_r1.0": -1.1588457230114959e-08,
+  "EL_over_J2_at_r5.0": -2.4018746245202563e-09,
+  "EL_over_J2_at_r12.0": 4.677422059633936e-10,
+  "note": "EL/J^2 is the scalar equation up to an overall nonzero normalisation (MRV E_pi convention); the test is whether it vanishes at the level of the FD error budget, which is estimated by the h=0.01 vs h=0.005 comparison."
+}
