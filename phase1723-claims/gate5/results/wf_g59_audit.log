@@ -1,0 +1,53 @@
+/home/hatch/workspace/warp-pilot/gate5/wf_g59_audit.py:92: ComplexWarning: Casting complex values to real discards the imaginary part
+  lhs = np.sqrt(-np.linalg.det(g[i])) * float(eS[0] @ b)
+/home/hatch/workspace/warp-pilot/gate5/wf_g59_audit.py:93: ComplexWarning: Casting complex values to real discards the imaginary part
+  rhs = np.sqrt(-np.linalg.det(fp[i])) * float(
+/home/hatch/workspace/warp-pilot/gate5/wf_g59_audit.py:95: ComplexWarning: Casting complex values to real discards the imaginary part
+  rhs_nr = np.sqrt(-np.linalg.det(fp[i])) * float(
+identity worst rel 3.829955860985818e-15 norev 0.7070472931634354
+/home/hatch/workspace/warp-pilot/gate5/wf_g59_audit.py:112: ComplexWarning: Casting complex values to real discards the imaginary part
+  out[i] = np.sqrt(-np.linalg.det(fin[i])) * m2 * float(
+Cf FD max rel 5.0000000810345355
+constraint D1_b1.5_(3.0, 0.0)
+  D1_b1.5_(3.0, 0.0) coll done
+  D1_b1.5_(3.0, 0.0) phase_fresh done
+  D1_b1.5_(3.0, 0.0) my_fresh done
+constraint D1_b1.1_(3.0, 0.0)
+  D1_b1.1_(3.0, 0.0) coll done
+  D1_b1.1_(3.0, 0.0) phase_fresh done
+  D1_b1.1_(3.0, 0.0) my_fresh done
+constraint D1_b1.5_(1.0, 0.0)
+  D1_b1.5_(1.0, 0.0) coll done
+  D1_b1.5_(1.0, 0.0) phase_fresh done
+  D1_b1.5_(1.0, 0.0) my_fresh done
+constraint D1_b1.5_(0.0, 0.0)
+  D1_b1.5_(0.0, 0.0) coll done
+  D1_b1.5_(0.0, 0.0) phase_fresh done
+  D1_b1.5_(0.0, 0.0) my_fresh done
+constraint D1_b0.1_(3.0, 0.0)
+  D1_b0.1_(3.0, 0.0) coll done
+  D1_b0.1_(3.0, 0.0) phase_fresh done
+  D1_b0.1_(3.0, 0.0) my_fresh done
+constraint D0
+  D0 coll done
+  D0 phase_fresh done
+  D0 my_fresh done
+volume D1_b1.5_(3.0, 0.0)
+  G_g beta=1.5 done (8s)
+  G_f h=0.3 done (8s)
+  G_f h=0.15 done (15s)
+volume D1_b1.1_(3.0, 0.0)
+  G_g beta=1.1 done (29s)
+  G_f h=0.3 done (30s)
+  G_f h=0.15 done (35s)
+volume D1_b1.5_(1.0, 0.0)
+  G_f h=0.3 done (40s)
+  G_f h=0.15 done (50s)
+volume D1_b1.5_(0.0, 0.0)
+  G_f h=0.3 done (66s)
+  G_f h=0.15 done (77s)
+volume D1_b0.1_(3.0, 0.0)
+  G_g beta=0.1 done (96s)
+  G_f h=0.3 done (97s)
+  G_f h=0.15 done (98s)
+ALL DONE 100.10981440544128

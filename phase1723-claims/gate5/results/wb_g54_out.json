@@ -1,0 +1,80 @@
+{
+ "ANE_mine_h0.1": {
+  "0.1": -0.0004709657797002777,
+  "0.25": -0.0015403457943154262,
+  "0.5": -0.0025330295910584457,
+  "0.75": -0.0026907334649447683,
+  "0.9": -0.0025760030979766796
+ },
+ "ANE_all_negative_0<D<1": true,
+ "ANE_peak_Delta": 0.6900000000000001,
+ "ANE_linear_in_h_check": true,
+ "phase2_gate_comparison": {
+  "0.1": {
+   "mine": -0.0004709657797002777,
+   "phase2": -0.00047096577970027765,
+   "rel_diff": 1.1510413486681452e-16
+  },
+  "0.25": {
+   "mine": -0.0015403457943154262,
+   "phase2": -0.0015403457943154262,
+   "rel_diff": 0.0
+  },
+  "0.5": {
+   "mine": -0.0025330295910584457,
+   "phase2": -0.0025330295910584457,
+   "rel_diff": 0.0
+  },
+  "0.75": {
+   "mine": -0.0026907334649447683,
+   "phase2": -0.0026907334649447683,
+   "rel_diff": 0.0
+  },
+  "0.9": {
+   "mine": -0.0025760030979766796,
+   "phase2": -0.0025760030979766796,
+   "rel_diff": 0.0
+  }
+ },
+ "phase2_DeltaV_order": 0.001,
+ "send_window_mine": 6.907755278982137,
+ "send_window_phase2": 6.907755278982137,
+ "macro_1m": {
+  "L_m": 1.0,
+  "DeltaV_order": 2.6122802250250006e-71,
+  "open_proper_time_s": 1.7427257793289786e-79,
+  "open_over_planck": 3.232509620369793e-36,
+  "gap_open_orders_vs_10us": 73.75877094444104,
+  "gap_planckcap_orders_vs_10us": 38.26831077051236,
+  "E_thermal_quantum_J": 3.1615267734966903e-26,
+  "capacity_kg_N_O(h)": 3.5176729417461086e-44,
+  "gap_capacity_orders_vs_70kg": 45.29884258186775,
+  "S_BH_nats": 1.2026246738363328e+70,
+  "E_neg_supplied_J_phase_bookkeeping": 8.008240870190649e-30,
+  "E_neg_supplied_J_per_unit_h_coeff": 8.00824087019065e-29,
+  "E_demand_J": 1.2102555643382063e+44,
+  "demand_over_supply_phase_book": 1.5112626904657454e+73,
+  "demand_over_supply_orders_phase_book": 73.17933996076782,
+  "W1W6_ratio_(4pi/3)(L/lP)^2": 1.6034995651151106e+70
+ },
+ "macro_1ly": {
+  "L_m": 9460730472580800.0,
+  "DeltaV_order": 2.918572074915279e-103,
+  "open_proper_time_s": 1.842062602226928e-95,
+  "open_over_planck": 3.416765364723464e-52,
+  "gap_open_orders_vs_10us": 89.7346956144542,
+  "gap_planckcap_orders_vs_10us": 38.26831077051236,
+  "E_thermal_quantum_J": 3.3417364363771534e-42,
+  "capacity_kg_N_O(h)": 3.718183233251459e-60,
+  "gap_capacity_orders_vs_70kg": 61.27476725188091,
+  "S_BH_nats": 1.0764142782668775e+102,
+  "E_neg_supplied_J_phase_bookkeeping": 8.464717278861527e-46,
+  "E_neg_supplied_J_per_unit_h_coeff": 8.464717278861529e-45,
+  "E_demand_J": 1.1449901697144943e+60,
+  "demand_over_supply_phase_book": 1.3526620346480033e+105,
+  "demand_over_supply_orders_phase_book": 105.13118930079413,
+  "W1W6_ratio_(4pi/3)(L/lP)^2": 1.4352190376891697e+102
+ },
+ "antiscaling_ratio_dtau_1m_over_1ly": 9460730472580802.0,
+ "antiscaling_expected_L_ratio": 9460730472580800.0
+}

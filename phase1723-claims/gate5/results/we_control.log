@@ -1,0 +1,11 @@
+== stationary Finalist-A control, beta=0.02, h-scan ==
+  static beta=0.02 t=0.000 h=0.3: core worst=1.2116147914514317e-05 typeI=1.0 (1s)
+  static beta=0.02 t=0.000 h=0.15: core worst=1.1990762164155737e-05 typeI=1.0 (1s)
+  static beta=0.02 t=0.000 h=0.075: core worst=1.1959755915135637e-05 typeI=1.0 (1s)
+== beta=0 static wall control ==
+  static beta=0 t=0.000 h=0.3: core worst=1.2121360091800514e-05 typeI=1.0 (0s)
+  static beta=0 t=0.000 h=0.15: core worst=1.1995923207844271e-05 typeI=1.0 (0s)
+== Minkowski smoke (shift-only beta=0) ==
+  flat beta=0 t=0.000 h=0.3: core worst=None typeI=None (0s)
+wrote we_control.json
+TOTAL 4s

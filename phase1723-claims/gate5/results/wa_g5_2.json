@@ -1,0 +1,172 @@
+{
+  "claim": "G5-2(a,b,c) EiBI obstructions",
+  "source": "arXiv:1807.07941v2, transcribed in-run",
+  "kappa": -1.0,
+  "a_fluid_ct2": {
+    "C0=2.0": {
+      "r0": 1.0,
+      "rho_throat": 1.0,
+      "one_plus_kappa_rho_throat": 0.0,
+      "ct2_throat_analytic": -1.0,
+      "ct2_throat_FD_pt_vs_rho": -0.99993092244732,
+      "ct2_min": -1.0,
+      "ct2_asymptote": 0.999999999996,
+      "ct2_zero_r_numeric": 1.3160730623858758,
+      "ct2_zero_r_analytic_(3C0/2)^(1/4)": 1.3160740129524924,
+      "neg_shell": [
+        1.0,
+        1.3160730623858758
+      ]
+    },
+    "C0=0.5": {
+      "r0": 0.7071067811865476,
+      "rho_throat": 0.9999999999999999,
+      "one_plus_kappa_rho_throat": 1.1102230246251565e-16,
+      "ct2_throat_analytic": -0.9999999999999998,
+      "ct2_throat_FD_pt_vs_rho": -0.9999274567114346,
+      "ct2_min": -0.9999999999999998,
+      "ct2_asymptote": 0.999999999999,
+      "ct2_zero_r_numeric": 0.9306009680868209,
+      "ct2_zero_r_analytic_(3C0/2)^(1/4)": 0.9306048591020996,
+      "neg_shell": [
+        0.7071067811865476,
+        0.9306009680868209
+      ]
+    },
+    "C0=1.0": {
+      "r0": 0.8408964152537145,
+      "rho_throat": 1.0000000000000002,
+      "one_plus_kappa_rho_throat": -2.220446049250313e-16,
+      "ct2_throat_analytic": -1.0000000000000004,
+      "ct2_throat_FD_pt_vs_rho": -0.9999291895793776,
+      "ct2_min": -1.0000000000000004,
+      "ct2_asymptote": 0.999999999998,
+      "ct2_zero_r_numeric": 1.1066654797059416,
+      "ct2_zero_r_analytic_(3C0/2)^(1/4)": 1.1066819197003215,
+      "neg_shell": [
+        0.8408964152537145,
+        1.1066654797059416
+      ]
+    },
+    "C0=5.0": {
+      "r0": 1.2574334296829355,
+      "rho_throat": 0.9999999999999999,
+      "one_plus_kappa_rho_throat": 1.1102230246251565e-16,
+      "ct2_throat_analytic": -0.9999999999999998,
+      "ct2_throat_FD_pt_vs_rho": -0.999933213174139,
+      "ct2_min": -0.9999999999999998,
+      "ct2_asymptote": 0.99999999999,
+      "ct2_zero_r_numeric": 1.6548882844861164,
+      "ct2_zero_r_analytic_(3C0/2)^(1/4)": 1.6548754598234365,
+      "neg_shell": [
+        1.2574334296829355,
+        1.6548882844861164
+      ]
+    }
+  },
+  "b_NLED": {
+    "alpha_e=1.0": {
+      "dpt_drho": 1.0,
+      "beta_from_alpha": 1.0,
+      "EM_mode_c2_phiF/(phiF+2FphiFF)": 1.0,
+      "gradient_unhealthy": false
+    },
+    "alpha_e=0.5": {
+      "dpt_drho": 0.5,
+      "beta_from_alpha": 1.5,
+      "EM_mode_c2_phiF/(phiF+2FphiFF)": 0.5,
+      "gradient_unhealthy": false
+    },
+    "alpha_e=0.0": {
+      "dpt_drho": 0.0,
+      "beta_from_alpha": Infinity,
+      "EM_mode_c2_phiF/(phiF+2FphiFF)": 0.0,
+      "gradient_unhealthy": false
+    },
+    "alpha_e=-0.5": {
+      "dpt_drho": -0.5,
+      "beta_from_alpha": -0.5,
+      "EM_mode_c2_phiF/(phiF+2FphiFF)": -0.5,
+      "gradient_unhealthy": true
+    },
+    "alpha_e=-1.0": {
+      "dpt_drho": -1.0,
+      "beta_from_alpha": -0.0,
+      "EM_mode_c2_phiF/(phiF+2FphiFF)": -1.0,
+      "gradient_unhealthy": true
+    }
+  },
+  "c_Omega": {
+    "maxwell_ae=1_C0=1": {
+      "w_theta_throat": 0.0,
+      "w_t_throat": 2.0,
+      "det_Omega_throat": 0.0,
+      "det_Omega_min_r>r0": 7.632624064314174e-08,
+      "all_eigs_positive_r>r0": true,
+      "H_throat_aux_areal_radius": 0.0,
+      "w_theta_range_r>r0": [
+        0.00013814556260260957,
+        0.999999999999
+      ],
+      "w_t_range": [
+        1.000000000001,
+        2.0
+      ]
+    },
+    "fluid_C0=2": {
+      "w_theta_throat": 0.0,
+      "w_t_throat": 1.0,
+      "det_Omega_throat": 0.0,
+      "det_Omega_min_r>r0": 4.772367497352302e-09,
+      "all_eigs_positive_r>r0": true,
+      "H_throat_aux_areal_radius": 0.0,
+      "w_theta_range_r>r0": [
+        6.907755268004134e-05,
+        0.999999999998
+      ],
+      "w_t_range": [
+        1.0,
+        1.2499999999988263
+      ]
+    },
+    "fluid_genuine_C0=0.5": {
+      "w_theta_throat": 1.1102230246251565e-16,
+      "w_t_throat": 1.0,
+      "det_Omega_throat": 1.232595164407831e-32,
+      "det_Omega_min_r>r0": 5.263292210451321e-09,
+      "all_eigs_positive_r>r0": true,
+      "H_throat_aux_areal_radius": 7.45058059692383e-09,
+      "w_theta_range_r>r0": [
+        7.254328856531878e-05,
+        0.9999999999995
+      ],
+      "w_t_range": [
+        1.0,
+        1.2499999999606646
+      ]
+    },
+    "maxwell_genuine_ae=1_C0=0.25": {
+      "w_theta_throat": 2.220446049250313e-16,
+      "w_t_throat": 1.9999999999999998,
+      "det_Omega_throat": 1.972152263052529e-31,
+      "det_Omega_min_r>r0": 8.417603117155581e-08,
+      "all_eigs_positive_r>r0": true,
+      "H_throat_aux_areal_radius": 1.0536712127723509e-08,
+      "w_theta_range_r>r0": [
+        0.00014507605283675673,
+        0.99999999999975
+      ],
+      "w_t_range": [
+        1.00000000000025,
+        1.9999999999999998
+      ]
+    }
+  },
+  "c_read": "det Omega = (1-kappa p_t)^2 (1+kappa rho)^2 = 0 at r0 identically, because the throat is DEFINED by 1+kappa rho=0; H(r0)=0 as well. The g<->q perturbation map divides by these factors, so throat boundary conditions for the coupled system cannot be fixed in either frame by this map.",
+  "gate": {
+    "conservation_Eq21_fluid_max_abs": 8.881784197001252e-16,
+    "NCC_Eq26_throat_maxwell_ae1": -4.0,
+    "NCC_Eq26_throat_fluid": -2.0,
+    "fluid_pt_throat_is_zero": 0.0
+  }
+}

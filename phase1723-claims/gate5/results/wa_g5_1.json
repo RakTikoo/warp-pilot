@@ -1,0 +1,62 @@
+{
+  "claim": "G5-1 f(T) ghost identity + G5-2(d) BHL misprint",
+  "source": "arXiv:1110.5756v2, transcribed in-run",
+  "T_eq11_max_abs_r>1": 4.668058080421384e-16,
+  "r_a_prime_closed_form": "0",
+  "eq11_second_factor": "0",
+  "throat_sign_bookkeeping": {
+    "beta_prime_throat": -1.0,
+    "flareout_beta_minus_r_beta_prime_throat": 2.0,
+    "rho_throat_sign": "rho ~ (-1)*f_T(0) -> rho>0 iff f_T(0)<0",
+    "NEC1_throat_sign": "NEC1 ~ -(positive)*f_T(0) -> NEC1>0 iff f_T(0)<0"
+  },
+  "pr_from_Eq14_closed_form": "0.5/(r**3*(r + sqrt(r**2 - 1)))",
+  "prB_minus_expected_(1-s)/(2r^2)": "0",
+  "Eq14_vs_BranchB_max_abs": 1.0547118733938987e-15,
+  "Eq14_vs_printedEq29_max_abs_r>1": 0.49040404877061383,
+  "Eq29_vs_Eq14_throat_limit_diff": 0.5,
+  "prB_minus_prA_closed_form": "(r - sqrt(r**2 - 1))/(2*r**4*(r + sqrt(r**2 - 1)))",
+  "throat_limits": {
+    "rho": 0.5,
+    "pr_printed_Eq29": 0.0,
+    "pr_Eq14_branchB": 0.5,
+    "pt": -0.375,
+    "NEC1_printed": 0.5,
+    "NEC1_branchB": 1.0,
+    "NEC2": 0.125
+  },
+  "Eq31_minus_(rho+prB)_max_abs": 8.881784197001252e-16,
+  "Eq31_minus_(rho+prA)_at_throat": 0.5,
+  "conservation": {
+    "branchB_max_abs_r>1": 1.2167156171472016e-11,
+    "branchA_max_abs_r>1": 77.87336046345915,
+    "branchA_max_abs_r>2": 0.004746804151285997,
+    "branchA_at_r=1+1e-7": 1676.7998228998292
+  },
+  "branchB_EC_mins_fT<0": {
+    "rho": 5e-17,
+    "NEC1": 7.50000000625e-17,
+    "NEC2": 2.499999979841263e-17,
+    "DEC_r": 0.0,
+    "DEC_t": 2.499999979841263e-17
+  },
+  "branchB_EC_mins_fT>0_all_negative": {
+    "rho": -0.5,
+    "NEC1": -1.0,
+    "NEC2": -0.15405856777169286,
+    "DEC_r": -1.0,
+    "DEC_t": -0.875
+  },
+  "tensor_T_expansion": "lam_**2*Derivative(eps(t, z), t)**2/2 - lam_**2*Derivative(eps(t, z), z)**2/2",
+  "tensor_T_quadratic": "Derivative(eps(t, z), t)**2/2 - Derivative(eps(t, z), z)**2/2",
+  "tensor_coeff_ed2": "1/2",
+  "tensor_coeff_ez2": "-1/2",
+  "tensor_cT2_from_expansion": "1",
+  "tensor_sector_read": {
+    "delta1_T_for_TT_modes": 0,
+    "S2_ratio_fT=-1_over_TEGR": -1.0,
+    "S2_ratio_general": "f_T(0)",
+    "c_T_squared": 1.0,
+    "ghost_iff": "f_T(0)<0, identical to the EC-legality condition above"
+  }
+}
