@@ -1,0 +1,698 @@
+{
+  "task": "F4-3 even-sector tachyon audit (relaunch, 2026-11-21)",
+  "conventions": "float64; box r in [-60,60] Dirichlet; A=B=1 so r is the tortoise coordinate.",
+  "odd_validation": {
+    "V_formula_max_dev_vs_-4tau2/J4": 1.3877787807814457e-17,
+    "ell2": {
+      "Veff_min": 0.0015924032140248357,
+      "Veff_min_r": -60.0
+    },
+    "ell3": {
+      "Veff_min": 0.003214024835646457,
+      "Veff_min_r": -60.0
+    },
+    "ell5": {
+      "Veff_min": 0.008078889700511323,
+      "Veff_min_r": -60.0
+    },
+    "ell10": {
+      "Veff_min": 0.029700511322132944,
+      "Veff_min_r": -60.0
+    },
+    "ell2_eigenvalues_two_grids": {
+      "N2401": [
+        0.008254429138880609,
+        0.008311218601252477,
+        0.01813518510449089,
+        0.019486909368060704,
+        0.027617314860448456,
+        0.03416645469656277
+      ],
+      "N4801": [
+        0.008254432497815807,
+        0.008311221900851007,
+        0.018135201808895267,
+        0.01948693539585183,
+        0.027617359623805064,
+        0.034166556824615245
+      ]
+    },
+    "passed": true,
+    "note": "Phase 3 target: Veff_min(ell=2) = 0.0015924 at the box edge r=-60; no bound states.  The discretised lowest eigenvalue is a box-continuum value (~(pi/120)^2 + Veff(inf)), positive on both grids."
+  },
+  "ell0": {
+    "grid_h0.02": {
+      "K0_min": 6.039153450210222e-06,
+      "K0_positive_everywhere": true,
+      "K0_at_throat": 6.039153450210222e-06,
+      "lowest_om2": [
+        0.0007526414335490283,
+        0.004454040285690075,
+        0.004702762633121749,
+        0.010498371912991633,
+        0.014942118573103791,
+        0.01791398811488132,
+        0.028311598286301365,
+        0.031844707690743324
+      ]
+    },
+    "grid_h0.01": {
+      "K0_min": 1.5098049894746168e-06,
+      "K0_positive_everywhere": true,
+      "K0_at_throat": 1.5098049894746168e-06,
+      "lowest_om2": [
+        0.00020997491834706672,
+        0.004454029491785638,
+        0.004702643608461399,
+        0.010498092712180496,
+        0.014941632013045991,
+        0.017913691095761353,
+        0.02830971383820935,
+        0.03184427252171251
+      ]
+    },
+    "grid_h0.005": {
+      "K0_min": 3.7745115877285684e-07,
+      "K0_positive_everywhere": true,
+      "K0_at_throat": 3.7745115877285684e-07,
+      "lowest_om2": [
+        0.0002230209027789254,
+        0.004454023843833754,
+        0.004702645079395662,
+        0.010497950719109861,
+        0.014941637978887812,
+        0.017913539277008894,
+        0.02830973060654851,
+        0.0318440430256004
+      ]
+    },
+    "lowest_om2_h0.02": 0.0007526414335490283,
+    "lowest_om2_h0.01": 0.00020997491834706672,
+    "lowest_om2_h0.005": 0.0002230209027789254,
+    "lowest_om2_abs_grid_change": 0.0005426665152019616,
+    "lowest_om2_rel_grid_change": 2.5844349385815226,
+    "lowest_om2_richardson_h2_limit": 0.00021867224130163918,
+    "richardson_note": "The lowest om2 is a near-zero mode: +0.000210 (h=0.01) and +0.000223 (h=0.005) -- stable to 6% between the two finest grids, h^2-extrapolated limit +0.000219, and identical (+0.000210) on the smaller box [-30,30], confirming a localised mode, not a box artefact. It stays POSITIVE on every grid; no grid produces a negative value. Its smallness (not its sign) is the finding to carry forward.",
+    "any_negative_either_grid": false,
+    "lowest_om2_box30_h0.01": 0.0002099960861439154,
+    "lowest_mode": {
+      "om2": 0.00020997491834706672,
+      "peak_r": 0.059999999988050945,
+      "norm_frac_pocket_0_to_rstar": 0.8777481526032719,
+      "norm_frac_abs_r_lt_2": 0.997892239683401,
+      "norm_frac_abs_r_gt_10": 2.39252156032203e-05,
+      "note": "K0-weighted norm fractions; the mode is throat/pocket localised, not a box mode (box modes are the next eigenvalues, peaked at |r|~30)."
+    },
+    "rho_range": [
+      -74.38981507569723,
+      69.85810386770878
+    ],
+    "V_regions": {
+      "r_in_[0.15,1.4]": {
+        "V_min": 0.36718775263705083,
+        "V_min_r": 0.15999999998803105
+      },
+      "r_in_[-60,-0.15]": {
+        "V_min": -0.002685933104343144,
+        "V_min_r": -5.920000000010759
+      },
+      "r_in_[2.15,60]": {
+        "V_min": 0.00027029342477027387,
+        "V_min_r": 59.999999999976126
+      }
+    },
+    "V_samples": {
+      "r=-20": 0.007713562734607219,
+      "r=-5": -0.0016685018600028638,
+      "r=-1": 0.17298025481214196,
+      "r=-0.5": 0.2630553123627415,
+      "r=0.5": 0.8412875048441331,
+      "r=1": 2.2694958580197273,
+      "r=3": 0.7562330581548916,
+      "r=5": 0.08398620455463687,
+      "r=20": 0.007429552326386509,
+      "r=40": 0.0006726170794975411
+    },
+    "V_note": "Liouville V is FD-unreliable for |r| <~ 0.1 (the h ~ r^2 log-derivative cancellation) and diverges to +inf at the D=0 pole r* (a barrier of the chi parametrisation); region minima exclude both. The eigenvalue verdict rests on the flux-form Sturm-Liouville solve, which is regular at the throat and treats the pole through its (finite) flux coefficients.",
+    "M0_over_K0_samples": {
+      "r=-40": 0.0006631762650217435,
+      "r=-5": 0.0072665818308554585,
+      "r=0.5": -2.1803304940328414,
+      "r=0.77": -1.774744955507888,
+      "r=1": -1.7572834962617074,
+      "r=5": 0.05047790891009244,
+      "r=40": 0.0006629767871620597
+    }
+  },
+  "ell_ge1_secondary": {
+    "ell1": {
+      "Sden_zeros": [
+        -6.642024462877898,
+        5.861929514697842
+      ],
+      "K_eigmin_min_valid": -0.39640309150248854,
+      "K_indefinite_fraction_valid": 0.8273381294964028,
+      "detK_negative_fraction_valid": 0.8273381294964028,
+      "segments": [
+        {
+          "r_range": [
+            -60.0,
+            -6.949999999999996
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            1.8071529571367697e-06,
+            1.970302481181033e-06,
+            2.1114731246237694e-06,
+            2.241733722068452e-06
+          ],
+          "n_complex_or_inf_h0.2": 42,
+          "lowest_real_om2_h0.1": [
+            1.7302997370818951e-06,
+            1.8286269260904631e-06,
+            1.912202245091532e-06,
+            1.9883479862256897e-06
+          ],
+          "n_complex_or_inf_h0.1": 44
+        },
+        {
+          "r_range": [
+            -6.299999999999997,
+            1.4000000000000057
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -98.54012614598858,
+            -4.524249548474637,
+            -0.575126461066193,
+            -0.4492679392638776
+          ],
+          "n_complex_or_inf_h0.2": 26,
+          "lowest_real_om2_h0.1": [
+            -341.06110227533406,
+            -8.732791423525287,
+            -7.810492342717002,
+            -1.749734218435769
+          ],
+          "n_complex_or_inf_h0.1": 46
+        },
+        {
+          "r_range": [
+            2.1500000000000057,
+            5.549999999999997
+          ],
+          "K_positive_definite_throughout": true,
+          "lowest_real_om2_h0.2": [
+            -1.617859225020428,
+            -1.2751621790071062,
+            -0.8027971380334478,
+            -0.6972524923783636
+          ],
+          "n_complex_or_inf_h0.2": 0,
+          "lowest_real_om2_h0.1": [
+            -3.7490816749006566,
+            -3.0364585321525177,
+            -1.9586620955522804,
+            -1.6879279988331723
+          ],
+          "n_complex_or_inf_h0.1": 0
+        },
+        {
+          "r_range": [
+            6.200000000000003,
+            60.0
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -30.79029673194248,
+            -13.691809321146545,
+            -4.138266034107738,
+            -2.730721029163331
+          ],
+          "n_complex_or_inf_h0.2": 28,
+          "lowest_real_om2_h0.1": [
+            -148.32889218343647,
+            -10.52844603620683,
+            -4.26392346846324,
+            -3.1193164170863246
+          ],
+          "n_complex_or_inf_h0.1": 38
+        }
+      ],
+      "lowest_om2_all_segments": -341.06110227533406,
+      "segment_solve_note": "Dense generalised solves per regular segment at h=0.2 and h=0.1.  On segments where K is indefinite (the ghost band and, for the uncorrected reduction, much of the negative side) the generalised problem has complex / infinite eigenvalues and its real om2<0 values are the ghost signature, not an independent tachyon read.  Only a segment with K positive-definite throughout can carry a tachyon read, and then only if its negative om2 persists at both resolutions.",
+      "e3_correction_note": "M22 corrected by -2 e3/J^2 (e3 from the F4-2 pi-shift route); segment solves use the corrected M.  The uncorrected matrices were also built; their M22 differs by that term only.",
+      "branch_potential_minima": [
+        {
+          "V_min": -326.9283598309005,
+          "r": -6.199999999999996
+        },
+        {
+          "V_min": -0.001609265892065228,
+          "r": 28.25
+        }
+      ],
+      "branch_note": "Branch-diagonal Liouville potentials (K-eigenbasis projections; inter-branch derivative and Q couplings ignored).  A branch exists only where its k_a>0 and g_a>0; the ghost branch (k_a<0) has no potential and is not listed as None by accident -- see K_indefinite_fraction_valid.",
+      "refinement_anatomy": "Negative real om2 values in K-indefinite segments grow ~1/h_solve^2 between h=0.2 and h=0.1 (grid-scale UV of the indefinite generalised problem): they are not converged bound states. See segment tables."
+    },
+    "ell2": {
+      "Sden_zeros": [
+        -6.050368276869062,
+        5.498367706509279
+      ],
+      "K_eigmin_min_valid": -0.34765609509071527,
+      "K_indefinite_fraction_valid": 0.5611510791366906,
+      "detK_negative_fraction_valid": 0.5611510791366906,
+      "segments": [
+        {
+          "r_range": [
+            -60.0,
+            -6.399999999999999
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -40.64527895352787,
+            -38.37049883332697,
+            -36.310942626662424,
+            -34.446987079838244
+          ],
+          "n_complex_or_inf_h0.2": 18,
+          "lowest_real_om2_h0.1": [
+            -165.25516268405255,
+            -160.55436906036195,
+            -156.07665785387812,
+            -151.81160768640396
+          ],
+          "n_complex_or_inf_h0.1": 18
+        },
+        {
+          "r_range": [
+            -5.75,
+            1.4000000000000057
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -57.9719457865306,
+            -45.83337194711059,
+            -36.160269388570306,
+            -28.390533035755784
+          ],
+          "n_complex_or_inf_h0.2": 18,
+          "lowest_real_om2_h0.1": [
+            -244.1443087176673,
+            -217.55135830703702,
+            -193.85909974617954,
+            -172.7269455335403
+          ],
+          "n_complex_or_inf_h0.1": 20
+        },
+        {
+          "r_range": [
+            2.1500000000000057,
+            5.150000000000006
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -586.8486734434059,
+            -75.63941634719251,
+            -64.80007772114834,
+            -17.93777543777098
+          ],
+          "n_complex_or_inf_h0.2": 8,
+          "lowest_real_om2_h0.1": [
+            -2225.390444002688,
+            -998.3848811714746,
+            -600.744566995059,
+            -286.44247039360556
+          ],
+          "n_complex_or_inf_h0.1": 8
+        },
+        {
+          "r_range": [
+            5.799999999999997,
+            60.0
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -373.96977956146475,
+            -117.86126949341633,
+            -61.46973231539017,
+            -37.29235127220033
+          ],
+          "n_complex_or_inf_h0.2": 12,
+          "lowest_real_om2_h0.1": [
+            -12010.909910878363,
+            -1537.0848885532157,
+            -769.7883750548251,
+            -490.36547457050415
+          ],
+          "n_complex_or_inf_h0.1": 12
+        }
+      ],
+      "lowest_om2_all_segments": -12010.909910878363,
+      "segment_solve_note": "Dense generalised solves per regular segment at h=0.2 and h=0.1.  On segments where K is indefinite (the ghost band and, for the uncorrected reduction, much of the negative side) the generalised problem has complex / infinite eigenvalues and its real om2<0 values are the ghost signature, not an independent tachyon read.  Only a segment with K positive-definite throughout can carry a tachyon read, and then only if its negative om2 persists at both resolutions.",
+      "e3_correction_note": "M22 corrected by -2 e3/J^2 (e3 from the F4-2 pi-shift route); segment solves use the corrected M.  The uncorrected matrices were also built; their M22 differs by that term only.",
+      "branch_potential_minima": [
+        {
+          "V_min": -0.7736137542526886,
+          "r": 10.700000000000003
+        },
+        {
+          "V_min": -0.006419011804323608,
+          "r": 32.35000000000001
+        }
+      ],
+      "branch_note": "Branch-diagonal Liouville potentials (K-eigenbasis projections; inter-branch derivative and Q couplings ignored).  A branch exists only where its k_a>0 and g_a>0; the ghost branch (k_a<0) has no potential and is not listed as None by accident -- see K_indefinite_fraction_valid.",
+      "refinement_anatomy": "Negative real om2 values in K-indefinite segments grow ~1/h_solve^2 between h=0.2 and h=0.1 (grid-scale UV of the indefinite generalised problem): they are not converged bound states. See segment tables."
+    },
+    "ell3": {
+      "Sden_zeros": [
+        -5.926472343460705,
+        5.422673439710432
+      ],
+      "K_eigmin_min_valid": -0.2657806332135984,
+      "K_indefinite_fraction_valid": 0.5674989420228523,
+      "detK_negative_fraction_valid": 0.5674989420228523,
+      "segments": [
+        {
+          "r_range": [
+            -60.0,
+            -6.25
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -47.772675058198125,
+            -44.96958904217239,
+            -42.42950652671247,
+            -40.12995611712913
+          ],
+          "n_complex_or_inf_h0.2": 32,
+          "lowest_real_om2_h0.1": [
+            -194.4554112499396,
+            -188.8573552234026,
+            -183.51374978073224,
+            -178.41356666280961
+          ],
+          "n_complex_or_inf_h0.1": 36
+        },
+        {
+          "r_range": [
+            -5.599999999999994,
+            1.4000000000000057
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -19.425572434660378,
+            -15.138726150099934,
+            -11.511606305725685,
+            -8.423316073959784
+          ],
+          "n_complex_or_inf_h0.2": 26,
+          "lowest_real_om2_h0.1": [
+            -81.0189534874673,
+            -73.24891842565235,
+            -66.13022989813419,
+            -59.611004952605036
+          ],
+          "n_complex_or_inf_h0.1": 34
+        },
+        {
+          "r_range": [
+            2.1500000000000057,
+            5.1000000000000085
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -42.71232183251022,
+            -29.316471629294973,
+            -19.062497836185454,
+            -11.326303600335109
+          ],
+          "n_complex_or_inf_h0.2": 12,
+          "lowest_real_om2_h0.1": [
+            -181.88087951083173,
+            -153.87013991191407,
+            -130.15043795213893,
+            -110.0333555209237
+          ],
+          "n_complex_or_inf_h0.1": 18
+        },
+        {
+          "r_range": [
+            5.75,
+            60.0
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -387.20632026441143,
+            -137.94061141325204,
+            -72.99082201634965,
+            -43.355833628247645
+          ],
+          "n_complex_or_inf_h0.2": 18,
+          "lowest_real_om2_h0.1": [
+            -5721.587737017489,
+            -1620.9802605288655,
+            -894.8011187873674,
+            -593.6127180785737
+          ],
+          "n_complex_or_inf_h0.1": 20
+        }
+      ],
+      "lowest_om2_all_segments": -5721.587737017489,
+      "segment_solve_note": "Dense generalised solves per regular segment at h=0.2 and h=0.1.  On segments where K is indefinite (the ghost band and, for the uncorrected reduction, much of the negative side) the generalised problem has complex / infinite eigenvalues and its real om2<0 values are the ghost signature, not an independent tachyon read.  Only a segment with K positive-definite throughout can carry a tachyon read, and then only if its negative om2 persists at both resolutions.",
+      "e3_correction_note": "M22 corrected by -2 e3/J^2 (e3 from the F4-2 pi-shift route); segment solves use the corrected M.  The uncorrected matrices were also built; their M22 differs by that term only.",
+      "branch_potential_minima": [
+        {
+          "V_min": -2.2224121772191725,
+          "r": 10.100000000000009
+        },
+        {
+          "V_min": -0.028290510944442723,
+          "r": 21.950000000000003
+        }
+      ],
+      "branch_note": "Branch-diagonal Liouville potentials (K-eigenbasis projections; inter-branch derivative and Q couplings ignored).  A branch exists only where its k_a>0 and g_a>0; the ghost branch (k_a<0) has no potential and is not listed as None by accident -- see K_indefinite_fraction_valid.",
+      "refinement_anatomy": "Negative real om2 values in K-indefinite segments grow ~1/h_solve^2 between h=0.2 and h=0.1 (grid-scale UV of the indefinite generalised problem): they are not converged bound states. See segment tables."
+    },
+    "ell5": {
+      "Sden_zeros": [
+        -5.855693217340304,
+        5.379523726780573
+      ],
+      "K_eigmin_min_valid": -0.15538287848271132,
+      "K_indefinite_fraction_valid": 0.5679221328819297,
+      "detK_negative_fraction_valid": 0.5679221328819297,
+      "segments": [
+        {
+          "r_range": [
+            -60.0,
+            -6.199999999999996
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -51.57711664749151,
+            -47.81809524485479,
+            -44.48194718529335,
+            -41.53497079113956
+          ],
+          "n_complex_or_inf_h0.2": 58,
+          "lowest_real_om2_h0.1": [
+            -211.45676985264475,
+            -204.90993398381906,
+            -198.66988488810756,
+            -192.723943379171
+          ],
+          "n_complex_or_inf_h0.1": 74
+        },
+        {
+          "r_range": [
+            -5.549999999999997,
+            1.4000000000000057
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -12.231401332139164,
+            -7.2251354909193966,
+            -3.3692783078934787,
+            -1.6622931278601725
+          ],
+          "n_complex_or_inf_h0.2": 36,
+          "lowest_real_om2_h0.1": [
+            -51.83005999983281,
+            -45.122574742459236,
+            -38.94078959451217,
+            -33.25356519832182
+          ],
+          "n_complex_or_inf_h0.1": 58
+        },
+        {
+          "r_range": [
+            2.1500000000000057,
+            5.049999999999997
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -19.057232265521794,
+            -9.504179674709485,
+            -3.203660504898537,
+            4.021734915779096
+          ],
+          "n_complex_or_inf_h0.2": 18,
+          "lowest_real_om2_h0.1": [
+            -82.32421095695699,
+            -67.97630072522139,
+            -55.2921261462671,
+            -43.91497406928606
+          ],
+          "n_complex_or_inf_h0.1": 30
+        },
+        {
+          "r_range": [
+            5.700000000000003,
+            60.0
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -373.42944126961845,
+            -109.27614716419671,
+            -35.36848884428535,
+            -22.830881123177463
+          ],
+          "n_complex_or_inf_h0.2": 26,
+          "lowest_real_om2_h0.1": [
+            -5411.148472989489,
+            -1724.3291434761647,
+            -966.7979028523107,
+            -640.8920780864937
+          ],
+          "n_complex_or_inf_h0.1": 40
+        }
+      ],
+      "lowest_om2_all_segments": -5411.148472989489,
+      "segment_solve_note": "Dense generalised solves per regular segment at h=0.2 and h=0.1.  On segments where K is indefinite (the ghost band and, for the uncorrected reduction, much of the negative side) the generalised problem has complex / infinite eigenvalues and its real om2<0 values are the ghost signature, not an independent tachyon read.  Only a segment with K positive-definite throughout can carry a tachyon read, and then only if its negative om2 persists at both resolutions.",
+      "e3_correction_note": "M22 corrected by -2 e3/J^2 (e3 from the F4-2 pi-shift route); segment solves use the corrected M.  The uncorrected matrices were also built; their M22 differs by that term only.",
+      "branch_potential_minima": [
+        {
+          "V_min": -6.7917208305716,
+          "r": 9.799999999999997
+        },
+        {
+          "V_min": -0.1562032498514883,
+          "r": 14.299999999999997
+        }
+      ],
+      "branch_note": "Branch-diagonal Liouville potentials (K-eigenbasis projections; inter-branch derivative and Q couplings ignored).  A branch exists only where its k_a>0 and g_a>0; the ghost branch (k_a<0) has no potential and is not listed as None by accident -- see K_indefinite_fraction_valid.",
+      "refinement_anatomy": "Negative real om2 values in K-indefinite segments grow ~1/h_solve^2 between h=0.2 and h=0.1 (grid-scale UV of the indefinite generalised problem): they are not converged bound states. See segment tables."
+    },
+    "ell10": {
+      "Sden_zeros": [
+        -5.822279057213638,
+        5.35916977031112
+      ],
+      "K_eigmin_min_valid": -0.10485624941859259,
+      "K_indefinite_fraction_valid": 0.5679221328819297,
+      "detK_negative_fraction_valid": 0.5679221328819297,
+      "segments": [
+        {
+          "r_range": [
+            -60.0,
+            -6.149999999999999
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -50.65853646751539,
+            -42.56137627364703,
+            -36.89765416487583,
+            -33.11677436268666
+          ],
+          "n_complex_or_inf_h0.2": 104,
+          "lowest_real_om2_h0.1": [
+            -217.1333924426221,
+            -205.7783885893535,
+            -195.27910147894391,
+            -185.61723485761033
+          ],
+          "n_complex_or_inf_h0.1": 156
+        },
+        {
+          "r_range": [
+            -5.5,
+            1.4000000000000057
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -9.062784508204963,
+            -3.997809258445983,
+            -2.2781061723891867,
+            -1.0214226775108972
+          ],
+          "n_complex_or_inf_h0.2": 50,
+          "lowest_real_om2_h0.1": [
+            -42.08599808546917,
+            -27.02099072546332,
+            -14.935812535662176,
+            -6.685110835674179
+          ],
+          "n_complex_or_inf_h0.1": 92
+        },
+        {
+          "r_range": [
+            2.1500000000000057,
+            5.049999999999997
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -11.887240335321081,
+            47.92697508718956
+          ],
+          "n_complex_or_inf_h0.2": 24,
+          "lowest_real_om2_h0.1": [
+            -60.43008493618949,
+            -33.716062554258684,
+            -14.582582527131198,
+            8.528597238978993
+          ],
+          "n_complex_or_inf_h0.1": 46
+        },
+        {
+          "r_range": [
+            5.700000000000003,
+            60.0
+          ],
+          "K_positive_definite_throughout": false,
+          "lowest_real_om2_h0.2": [
+            -338.1399813844393,
+            -208.28201926721468,
+            -162.51738171234925,
+            -135.61683733311
+          ],
+          "n_complex_or_inf_h0.2": 30,
+          "lowest_real_om2_h0.1": [
+            -4883.406460541322,
+            -1216.7225655516509,
+            -493.2591302526872,
+            -349.298436735136
+          ],
+          "n_complex_or_inf_h0.1": 60
+        }
+      ],
+      "lowest_om2_all_segments": -4883.406460541322,
+      "segment_solve_note": "Dense generalised solves per regular segment at h=0.2 and h=0.1.  On segments where K is indefinite (the ghost band and, for the uncorrected reduction, much of the negative side) the generalised problem has complex / infinite eigenvalues and its real om2<0 values are the ghost signature, not an independent tachyon read.  Only a segment with K positive-definite throughout can carry a tachyon read, and then only if its negative om2 persists at both resolutions.",
+      "e3_correction_note": "M22 corrected by -2 e3/J^2 (e3 from the F4-2 pi-shift route); segment solves use the corrected M.  The uncorrected matrices were also built; their M22 differs by that term only.",
+      "branch_potential_minima": [
+        {
+          "V_min": -25.9899109831768,
+          "r": 9.700000000000003
+        },
+        {
+          "V_min": -0.6715677711077636,
+          "r": 13.400000000000006
+        }
+      ],
+      "branch_note": "Branch-diagonal Liouville potentials (K-eigenbasis projections; inter-branch derivative and Q couplings ignored).  A branch exists only where its k_a>0 and g_a>0; the ghost branch (k_a<0) has no potential and is not listed as None by accident -- see K_indefinite_fraction_valid.",
+      "refinement_anatomy": "Negative real om2 values in K-indefinite segments grow ~1/h_solve^2 between h=0.2 and h=0.1 (grid-scale UV of the indefinite generalised problem): they are not converged bound states. See segment tables."
+    }
+  },
+  "runtime_s": 329.2701749801636
+}

@@ -1,0 +1,162 @@
+{
+  "task": "F4-2 l=0 even modes, MRV Appendix B at j^2=0",
+  "convention": "S = int dt dr [K0 chidot^2 - G0 chi^2 - M0 chi^2] with chi^2 -> chi-prime^2 for G0; coefficients include sqrt(-g) as in Appendix B. Normalised values K0/J^2, G0/J^2 also reported.",
+  "structural": {
+    "alpha_drops": "every alpha term in eq. (action_even) carries an explicit j^2 (j^2 a4 alpha', j^2 a9 alpha, j^2 b5 alphadot, j^2 c5 alpha, j^2 d1..d4); at j^2=0 alpha is absent. It also multiplies d_a Y_00 = 0.",
+    "H1_multiplier": "kinetic term j^2 b_1 H_1^2 = 0 at j^2=0; constraint d/dt[b_2 chi' + b_3 chi + b_4 H_2]=0 integrated to Q=0 with vanishing integration constant (localised perturbations).",
+    "b2_b4_proportionality": "b_2 = -2 a_1/A and b_4 = -2 a_3/A hold identically (A=1) by the printed formulas.",
+    "H0_H1_identity_Horndeski_part_max_dev": 7.105427357601002e-15,
+    "H0_H1_identity_printed_mismatch_minus_(-4 pip^3 F4)_max_dev": 8.322173245672859e-15,
+    "finding": "The Horndeski part of a_2 satisfies the H0/H1 constraint identity b_3 = 2(a_1' - a_2) to 7e-15; the printed a_2^BH breaks it by exactly -4 pi'^3 F_4 (agreement to 8e-15). Independent confirmation: the paper's a_5 identity a_5 = -J^2 dE_A/dpi = a_2' - a_1'' holds with a_2^H to 5.9e-6 (FD floor) but fails by 0.213 with printed a_2. As printed the two constraints would over-determine chi; the consistent reduction (used here) eliminates via the H_1 bracket, and a_2 then drops out of the reduced action entirely. Logged as an Appendix B inconsistency, same class as the F4-4 E_J transcription finding."
+  },
+  "D_roots": [
+    1.772437990426927
+  ],
+  "pole": {
+    "location_r": 1.772437990426927,
+    "K0_G0_behaviour": "both ~ +1/D^2, positive on both sides (shared parametrisation singularity of the chi variable at the xi-denominator zero)",
+    "G0_over_K0_limit": 0.6457988469596025,
+    "cs2_limit_from_l_ge_1_P3_formula": 0.6451357737809974
+  },
+  "throat": {
+    "K0_at_0": 6.038991262613536e-08,
+    "G0_at_0": 1.1102230246251565e-16,
+    "fits": {
+      "r=0.02": {
+        "K0_over_r2_plus": 0.9868435439469581,
+        "K0_over_r2_minus": 0.9470377806253261,
+        "G0_over_r2_plus": 0.7788086752369416,
+        "G0_over_r2_minus": 0.746827847380449,
+        "ratio_plus": 0.7891916403709096,
+        "ratio_minus": 0.788593509846377
+      },
+      "r=0.05": {
+        "K0_over_r2_plus": 1.0184696093135768,
+        "K0_over_r2_minus": 0.9187529731692121,
+        "G0_over_r2_plus": 0.8040899983182913,
+        "G0_over_r2_minus": 0.7240490064439163,
+        "ratio_plus": 0.7895080923035376,
+        "ratio_minus": 0.7880780009302499
+      },
+      "r=0.1": {
+        "K0_over_r2_plus": 1.07525735734304,
+        "K0_over_r2_minus": 0.8748336098284513,
+        "G0_over_r2_plus": 0.8489210617085073,
+        "G0_over_r2_minus": 0.6882006327603606,
+        "ratio_plus": 0.7895050016734511,
+        "ratio_minus": 0.7866646011637708
+      }
+    },
+    "note": "K0 and G0 both vanish quadratically at r=0 (K0 ~ 0.97 r^2, G0 ~ 0.76 r^2, ratio -> ~0.789): the J'^2 degeneracy, mirroring det K, det G ~ J'^2 at l>=1. No 1/J' artefact survives at l=0: every 1/J' in Appendix B (d_3, e_4) multiplies j^2. Coefficients are finite (zero, not singular) at the throat."
+  },
+  "convergence": [
+    {
+      "h": 0.004,
+      "K0_min": -74.7603159098146,
+      "K0_min_r": -59.89600000000006,
+      "K0_min_over_J2": -0.02061208392819054,
+      "G0_min": 1.1102230246251565e-16,
+      "K0_neg_rightmost_r_negative_side": -12.320000000026425
+    },
+    {
+      "h": 0.002,
+      "K0_min": -74.76990211390658,
+      "K0_min_r": -59.89999999999988,
+      "K0_min_over_J2": -0.02061208395555805,
+      "G0_min": 1.1102230246251565e-16,
+      "K0_neg_rightmost_r_negative_side": -12.317999999941726
+    },
+    {
+      "h": 0.001,
+      "K0_min": -74.7675055036081,
+      "K0_min_r": -59.899000000000235,
+      "K0_min_over_J2": -0.020612083959781653,
+      "G0_min": -0.0,
+      "K0_neg_rightmost_r_negative_side": -12.318000000111127
+    }
+  ],
+  "K0": {
+    "min": -74.76990211390658,
+    "min_r": -59.89999999999988,
+    "min_over_J2": -0.02061208395555805,
+    "asymptotic_over_J2_minus_inf": -0.02,
+    "negative_region": "r < -12.32 (within [-60,60]); K0/J^2 -> -2/tau^2 = -0.02 as r -> -inf (analytic leading term)",
+    "at_throat": 6.038991262613536e-08,
+    "samples": {
+      "r=-40": -34.913390940199825,
+      "r=-20": -8.975040885739135,
+      "r=-10": 2.584019939899812,
+      "r=0": 6.038991262613536e-08,
+      "r=5": 7.029627406776016,
+      "r=20": 4.86162334172273,
+      "r=40": 27.151733255959268
+    }
+  },
+  "G0": {
+    "min": 1.1102230246251565e-16,
+    "min_r": 0.0,
+    "note": "G0 > 0 everywhere on [-60,60] except the throat point itself, where it vanishes quadratically (see throat fits)",
+    "samples": {
+      "r=-40": 22.99999187323523,
+      "r=-20": 4.99544446467543,
+      "r=-10": 1.8793211958998413,
+      "r=0": 1.1102230246251565e-16,
+      "r=5": 3.1430219085192856,
+      "r=20": 5.003101766323213,
+      "r=40": 23.00000544914546
+    }
+  },
+  "anatomy": {
+    "driver": "K0 < 0 for r < -12.32 as printed. Leading asymptotic K0/J^2 -> -2/tau^2 (r -> -inf) vs +2/tau^2 (r -> +inf): the sign is set by the single parity-odd term of printed e_1, -H B^2 J'^2/(J X A) d/dr(J^2 A/B) = -2 J'^3/X.",
+    "u0_parity_control": {
+      "K0_side_difference_at_abs40": 62.089120012028616,
+      "twice_e1_odd_part_at_40": 62.08912000912271,
+      "K0_even_part_at_abs40": -3.881446304367941,
+      "note": "for u=0 the construction is manifestly r -> -r symmetric, yet K0(40) - K0(-40) = 62.0891 equals exactly twice the odd part of printed e_1 at 40, -J'^3/X = 31.0446: the J'^3 term is the ONLY asymmetry in K0. That term is invisible in Kobayashi's J=r original (J'=1). Its J-general form as printed is therefore suspect \u2014 but see next entry: no variant rescues positivity."
+    },
+    "variant_removed": {
+      "K0_at_-40": -3.868830935588253,
+      "K0_at_+40": -3.892826748886634,
+      "K0_min": -3.99121599458293
+    },
+    "variant_flipped": {
+      "K0_at_-40": 27.17572906902332,
+      "K0_at_+40": -34.93738675373254,
+      "K0_min": -74.76705442829271
+    },
+    "conclusion": "Even part of K0 at |r|=40 is already negative (-3.88, u=0 control); removing the suspect term leaves K0 -> ~ -4 at BOTH infinities, flipping it moves the ghost to r > 0. Within the printed coefficient set no single-term repair of e_1 makes K0 positive everywhere."
+  },
+  "c3_validation": {
+    "minus_J2_dEA_dpi_vs_a5_from_a2H_max_dev_|r|<30": 5.906700880270455e-06,
+    "minus_J2_dEA_dpi_vs_a5_from_printed_a2_max_dev_|r|<30": 0.2134061583012483,
+    "note": "the shifted-pi machinery reproduces the paper's a_5 identity to 5.9e-6 (FD floor) when a_5 is built from the Horndeski part of a_2 \u2014 validating c_3 and confirming independently that printed a_2^BH is the inconsistent piece (dev 0.213 with printed a_2)"
+  },
+  "M0": {
+    "definition": "M0 in S = int [K0 chidot^2 - G0 chi'^2 - M0 chi^2]; singular at the D=0 pole like K0/G0 (same chi-parametrisation); extrema quoted for |r - r*| > 1",
+    "samples": {
+      "r=-40": 0.018655923497764577,
+      "r=-20": 0.027766040701297935,
+      "r=-10": 0.021611944510332548,
+      "r=-5": 0.03173311412610476,
+      "r=-2": 0.16490860522201867,
+      "r=0": 5.076289072425411e-07,
+      "r=5": 0.36878753173998047,
+      "r=10": 0.04909246571935906,
+      "r=20": 0.028176678267463888,
+      "r=40": 0.0186344032900096
+    },
+    "min_|r-r*|>1": -3.0521818839270405,
+    "min_r": 0.7720000000742715,
+    "max_|r-r*|>1": 9.053589805234088,
+    "max_r": 2.774000000076718,
+    "at_throat": 5.076289072425411e-07,
+    "negative_region_|r-r*|>1": [
+      0.0020000000733304546,
+      0.7720000000742715
+    ],
+    "sign_summary": "M0(0) ~ 0 (5e-7) and M0 > 0 at all sampled radii except a negative pocket on the positive side of the throat, 0 <~ r <~ 0.77 (min -3.05 at r = 0.77); at large |r| M0 -> ~ +0.019. This pocket is the l=0 tachyon input for F4-3 (its sign alone is not a verdict here).",
+    "caveat": "e_3 from FD pi-shift of the EL_pi functional (p44b route); absolute normalisation is the reduced-action one (E_pi = EL_pi/J^2)."
+  },
+  "ell_limit_note": "det K and det G (eqs. detK/detG) carry (l-1)(l+2) in the numerator but l(l+1) = j^2 in the denominator, and K_11 carries [j^2 P_1 - F]/j^2: as l -> 0 these diverge or flip sign (K_11 -> -F/j^2). The divergence is manufactured by the l>=1 reduction itself, which divides by j^2 when solving the H_0 constraint for alpha (eq. alpha). At l=0 alpha does not exist, H_1 degenerates to a multiplier, and the constraint structure is different: the l=0 reduction above is independent, not a limit.",
+  "verdict": "FAIL \u2014 K0 < 0 for r in [-60, -12.32] (ghost in the spherically symmetric even sector, negative side, K0/J^2 -> -0.02 at -inf), beyond tolerance by ~4 orders of magnitude. G0 > 0 everywhere (vanishing only quadratically at the throat). Anatomy in res.anatomy: the sign is driven by printed e_1, whose J'^3 term is parity-anomalous (suspected misprint in the J-generalisation), but the even part of K0 is also negative at large |r| and no single-term repair restores positivity. Reopening: a corrected Appendix B e_1 / a_2^BH, or an independent l=0 derivation from the covariant action."
+}
