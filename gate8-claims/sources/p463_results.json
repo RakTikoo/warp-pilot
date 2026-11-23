@@ -1,0 +1,678 @@
+{
+ "item": "P46-3 bulk completion past y*",
+ "units": "r0=1, c=1 unless stated",
+ "t_brane_za1": 6.278421790292845,
+ "gate": {
+  "pass": true,
+  "flat_RS2_zero_exact": true,
+  "gain_nseg48": 0.48055941413811687,
+  "gain_subdivided": 0.480158055399723
+ },
+ "R1_mirror_Z2": {
+  "construction": "Z2 mirror brane at y_c; bulk y in [0,y_c]; bulk matter = Lambda5 only (unchanged); no added matter on the endpoint brane",
+  "k_method_validation_at_y0_rel_err": {
+   "kt_rel_err_max_|z|<=3": 0.005821704256472425,
+   "kz_rel_err_max_|z|<=3": 0.008104802244182436
+  },
+  "rows": {
+   "0.2": {
+    "T_attained_subdivided": 5.858105041596647,
+    "gain_subdivided": 0.06694624266022643,
+    "u_eff_over_c": 1.0717496094234662,
+    "tolman_v_crit_over_c": 0.9976040708815276,
+    "Kretschmann_bound_along_path": 963.9250257132643,
+    "D_throat_at_yc": 1.738226929609591,
+    "cap_touch_z_extent": [
+     -0.6431836512265349,
+     0.6431827613536989
+    ],
+    "mirror_brane_EC_|z|<=3": {
+     "sigma_min": 1.0005020204014228,
+     "sigma_at_throat": 1.1803045306104945,
+     "pz_range": [
+      -0.999601680218788,
+      -0.8876064442046362
+     ],
+     "pth_range": [
+      -1.0423281202643964,
+      -1.0000999727629116
+     ],
+     "NEC_min": 0.00040204763851114933,
+     "WEC_min_sigma": 1.0005020204014228,
+     "SEC_min": -1.9992996053431895,
+     "DEC_min": 0.00040204763851114933
+    },
+    "double_space_crossing_gain_subdivided": null
+   },
+   "0.25": {
+    "T_attained_subdivided": 5.599595320492577,
+    "gain_subdivided": 0.1081205583941192,
+    "u_eff_over_c": 1.1212277728920872,
+    "tolman_v_crit_over_c": 0.9934890628757513,
+    "Kretschmann_bound_along_path": 1303.676137921741,
+    "D_throat_at_yc": 1.473490661049533,
+    "cap_touch_z_extent": [
+     -0.6464565256513598,
+     0.6464552935073034
+    ],
+    "mirror_brane_EC_|z|<=3": {
+     "sigma_min": 1.0007137297022297,
+     "sigma_at_throat": 1.2818556545560398,
+     "pz_range": [
+      -0.9993157617521173,
+      -0.8139284580296419
+     ],
+     "pth_range": [
+      -1.0850125104064643,
+      -1.0001719853000564
+     ],
+     "NEC_min": 0.0005417444021733608,
+     "WEC_min_sigma": 1.0007137297022297,
+     "SEC_min": -1.9989460026500003,
+     "DEC_min": 0.0005417444021733608
+    },
+    "double_space_crossing_gain_subdivided": null
+   },
+   "0.3": {
+    "T_attained_subdivided": 5.2303851976755675,
+    "gain_subdivided": 0.16692675765073023,
+    "u_eff_over_c": 1.2003746479481157,
+    "tolman_v_crit_over_c": 0.9835511446066642,
+    "Kretschmann_bound_along_path": 2213.742752546008,
+    "D_throat_at_yc": 1.1966801030556715,
+    "cap_touch_z_extent": [
+     -0.6246554164805946,
+     0.6246555559782184
+    ],
+    "mirror_brane_EC_|z|<=3": {
+     "sigma_min": 1.0010229766422538,
+     "sigma_at_throat": 1.4720912374086095,
+     "pz_range": [
+      -0.998866078564532,
+      -0.7099598040008542
+     ],
+     "pth_range": [
+      -1.1767147321189624,
+      -1.0002855955372145
+     ],
+     "NEC_min": 0.000737381105039292,
+     "WEC_min_sigma": 1.0010229766422538,
+     "SEC_min": -1.9984142929967061,
+     "DEC_min": 0.000737381105039292
+    },
+    "double_space_crossing_gain_subdivided": 0.16699160112613184
+   },
+   "0.35": {
+    "T_attained_subdivided": 4.726967826444359,
+    "gain_subdivided": 0.24710890979755618,
+    "u_eff_over_c": 1.3282133538479137,
+    "tolman_v_crit_over_c": 0.9610281721889424,
+    "Kretschmann_bound_along_path": 5913.622263819104,
+    "D_throat_at_yc": 0.9005865692673514,
+    "cap_touch_z_extent": [
+     -0.6747148558267424,
+     0.6747143363061637
+    ],
+    "mirror_brane_EC_|z|<=3": {
+     "sigma_min": 1.0014770598405982,
+     "sigma_at_throat": 1.8927547534741305,
+     "pz_range": [
+      -0.9981655714720544,
+      -0.5761059557000694
+     ],
+     "pth_range": [
+      -1.401142526353878,
+      -1.0004633587135159
+     ],
+     "NEC_min": 0.0010137011270823226,
+     "WEC_min_sigma": 1.0014770598405982,
+     "SEC_min": -1.9976152290584896,
+     "DEC_min": 0.0010137011270823226
+    },
+    "double_space_crossing_gain_subdivided": null
+   },
+   "0.4": {
+    "T_attained_subdivided": 4.084170398079336,
+    "gain_subdivided": 0.34949091754333417,
+    "u_eff_over_c": 1.5372575525363488,
+    "tolman_v_crit_over_c": 0.9141742853238028,
+    "Kretschmann_bound_along_path": 45865.91033273404,
+    "D_throat_at_yc": 0.5795270498797803,
+    "cap_touch_z_extent": [
+     -0.6762657781408582,
+     0.6762650619353006
+    ],
+    "mirror_brane_EC_|z|<=3": {
+     "sigma_min": 1.002146967611891,
+     "sigma_at_throat": 3.341541283921195,
+     "pz_range": [
+      -0.9970824045769038,
+      -0.4451405096278813
+     ],
+     "pth_range": [
+      -2.1768142284182725,
+      -1.0007399820494725
+     ],
+     "NEC_min": 0.0014069855624185834,
+     "WEC_min_sigma": 1.002146967611891,
+     "SEC_min": -1.9964154010639596,
+     "DEC_min": 0.0014069855624185834
+    },
+    "double_space_crossing_gain_subdivided": 0.3494360488889002
+   }
+  }
+ },
+ "R2_regular_core": {
+  "floor_d": null,
+  "y_c": 0.3,
+  "blend_L": 0.15,
+  "y_mirror": 0.6,
+  "bulk_matter_EC_slab_control": {
+   "region": "y<=y_c-0.025 (original bulk)",
+   "rho_min": -3.542321491387284e-12,
+   "rho_max": 0.0018412856528492627,
+   "NEC_min": -1.4631111825043978e-05,
+   "WEC_rho_min": -3.542321491387284e-12,
+   "SEC_min": -0.00013308498336810795,
+   "DEC_min": -9.801305903113923e-05
+  },
+  "bulk_matter_EC_transition": {
+   "region": "y_c-0.025<y<=y_c+L+0.025",
+   "rho_min": -19.56861877795004,
+   "rho_max": 10.720607541485837,
+   "NEC_min": -20.08831371392838,
+   "WEC_rho_min": -19.56861877795004,
+   "SEC_min": -20.08831371392838,
+   "DEC_min": -34.66806614249412
+  },
+  "bulk_matter_EC_core": {
+   "region": "y>y_c+L+0.025 (core)",
+   "rho_min": 2.0466534202912063,
+   "rho_max": 2.1223466758839473,
+   "NEC_min": -0.2504298562766616,
+   "WEC_rho_min": 2.0466534202912063,
+   "SEC_min": -6.3676070458271505,
+   "DEC_min": -0.2504298562766616
+  },
+  "Kretschmann_max_completed_domain": 86413.15684150733,
+  "Kretschmann_max_along_path": 42925.6976047041,
+  "Kretschmann_finite_everywhere": true,
+  "T_attained": 5.051750271494518,
+  "T_subdivided_x10": 5.05533966166311,
+  "gain_attained": 0.19537895983587808,
+  "gain_subdivided": 0.19480725721880604,
+  "u_eff_over_c": 1.2419386649535957,
+  "path_ymax": 0.3500707539093753,
+  "path_nodes": [
+   [
+    -1.0,
+    0.0
+   ],
+   [
+    -0.9794979379284598,
+    0.041911063095663496
+   ],
+   [
+    -0.9567849785187447,
+    0.08308519958122716
+   ],
+   [
+    -0.9313208598553903,
+    0.12357519784826539
+   ],
+   [
+    -0.9067984629335645,
+    0.15897388089059822
+   ],
+   [
+    -0.8797073625312927,
+    0.19317368982889396
+   ],
+   [
+    -0.8477024283644571,
+    0.22806197100434858
+   ],
+   [
+    -0.8191408792463355,
+    0.2543159337323131
+   ],
+   [
+    -0.7760118528247214,
+    0.2849496960635616
+   ],
+   [
+    -0.7598173702255927,
+    0.2940819621438976
+   ],
+   [
+    -0.7041097454142297,
+    0.3142443199973244
+   ],
+   [
+    -0.6598501237927895,
+    0.32410829140513664
+   ],
+   [
+    -0.6119453053072902,
+    0.331622678083966
+   ],
+   [
+    -0.5720114942596893,
+    0.3360918313572335
+   ],
+   [
+    -0.49668661592722313,
+    0.3414419223867549
+   ],
+   [
+    -0.4616928551486267,
+    0.3432678311454914
+   ],
+   [
+    -0.44293293995376154,
+    0.3440046416395402
+   ],
+   [
+    -0.346315255276158,
+    0.34703983335633315
+   ],
+   [
+    -0.3448999014899001,
+    0.34713345588333694
+   ],
+   [
+    -0.22541692643717273,
+    0.3488783020958237
+   ],
+   [
+    -0.20421774413351917,
+    0.3496478900744282
+   ],
+   [
+    -0.19859064283263458,
+    0.3495181197245804
+   ],
+   [
+    -0.17299591019399554,
+    0.3500031191501236
+   ],
+   [
+    -0.17299390608523507,
+    0.35000244865664054
+   ],
+   [
+    6.675526836638106e-06,
+    0.3500707539093753
+   ],
+   [
+    0.17332089707460044,
+    0.34939492023820173
+   ],
+   [
+    0.17332830817237493,
+    0.349395958481444
+   ],
+   [
+    0.19970866271558765,
+    0.349179653116221
+   ],
+   [
+    0.20532715775213015,
+    0.3490362534058398
+   ],
+   [
+    0.2246980573700346,
+    0.34885903737378315
+   ],
+   [
+    0.34492520140827465,
+    0.34723228970999875
+   ],
+   [
+    0.346324220270725,
+    0.34713112819547487
+   ],
+   [
+    0.44293960206658467,
+    0.344009462641619
+   ],
+   [
+    0.4616950374394259,
+    0.34326341669585086
+   ],
+   [
+    0.4966953129259857,
+    0.3414170538112994
+   ],
+   [
+    0.5720152194591938,
+    0.33606095389561486
+   ],
+   [
+    0.6119480693441922,
+    0.3315999976530366
+   ],
+   [
+    0.6598504324207757,
+    0.3240859903533256
+   ],
+   [
+    0.7041070308038245,
+    0.31421757372196424
+   ],
+   [
+    0.7598083628305918,
+    0.2940614770175755
+   ],
+   [
+    0.7760000558169342,
+    0.28493231676136266
+   ],
+   [
+    0.8191318377582779,
+    0.2543067826209906
+   ],
+   [
+    0.8476962148344609,
+    0.22805727816987562
+   ],
+   [
+    0.8797040612946206,
+    0.1931728261697718
+   ],
+   [
+    0.9067967563436641,
+    0.15897439530847204
+   ],
+   [
+    0.9313197653082473,
+    0.1235762750501216
+   ],
+   [
+    0.9567841689469011,
+    0.0830864309064529
+   ],
+   [
+    0.9794972152891367,
+    0.04191240430363674
+   ],
+   [
+    1.0,
+    0.0
+   ]
+  ]
+ },
+ "R3_floored_D": {
+  "floor_d": 0.6,
+  "y_c": 0.3,
+  "blend_L": 0.15,
+  "y_mirror": 0.6,
+  "bulk_matter_EC_slab_control": {
+   "region": "y<=y_c-0.025 (original bulk)",
+   "rho_min": 5.9078445639290754e-05,
+   "rho_max": 0.04828740496889968,
+   "NEC_min": -0.27822180093341886,
+   "WEC_rho_min": 5.9078445639290754e-05,
+   "SEC_min": -0.27822180093341886,
+   "DEC_min": -0.27822180093341886
+  },
+  "bulk_matter_EC_transition": {
+   "region": "y_c-0.025<y<=y_c+L+0.025",
+   "rho_min": -16.78890269707621,
+   "rho_max": 9.838743855125955,
+   "NEC_min": -17.608538414013882,
+   "WEC_rho_min": -16.78890269707621,
+   "SEC_min": -18.114954663953068,
+   "DEC_min": -29.25293576902839
+  },
+  "bulk_matter_EC_core": {
+   "region": "y>y_c+L+0.025 (core)",
+   "rho_min": 2.0466534202940765,
+   "rho_max": 2.144692694275492,
+   "NEC_min": -0.20012150166444886,
+   "WEC_rho_min": 2.0466534202940765,
+   "SEC_min": -6.379841854136117,
+   "DEC_min": -0.20012150166444886
+  },
+  "Kretschmann_max_completed_domain": 61251.60015553798,
+  "Kretschmann_max_along_path": 34937.56276190891,
+  "Kretschmann_finite_everywhere": true,
+  "T_attained": 5.430194983974107,
+  "T_subdivided_x10": 5.431822912999071,
+  "gain_attained": 0.13510191488411843,
+  "gain_subdivided": 0.1348426253557402,
+  "u_eff_over_c": 1.155859071780074,
+  "path_ymax": 0.3500611182680783,
+  "path_nodes": [
+   [
+    -1.0,
+    0.0
+   ],
+   [
+    -0.9778054034899009,
+    0.037887442137209716
+   ],
+   [
+    -0.9531129461401067,
+    0.07646458341752957
+   ],
+   [
+    -0.9266532040822266,
+    0.11413050744024293
+   ],
+   [
+    -0.9023467162993563,
+    0.14549237059773573
+   ],
+   [
+    -0.8729731095651297,
+    0.1796666028004299
+   ],
+   [
+    -0.8421900855747345,
+    0.2113081082090688
+   ],
+   [
+    -0.8108829071093985,
+    0.23939828661123158
+   ],
+   [
+    -0.773620483931207,
+    0.2673356828092105
+   ],
+   [
+    -0.7377810535323538,
+    0.2886996571716558
+   ],
+   [
+    -0.7053365979470366,
+    0.3034519086734291
+   ],
+   [
+    -0.661370882137636,
+    0.3177116184489783
+   ],
+   [
+    -0.6087487493264709,
+    0.329041774382983
+   ],
+   [
+    -0.5598177293673888,
+    0.3360316232263094
+   ],
+   [
+    -0.5060193407723009,
+    0.3412822716298351
+   ],
+   [
+    -0.4546120062318345,
+    0.3443524218083792
+   ],
+   [
+    -0.4344347148166282,
+    0.3453583475490606
+   ],
+   [
+    -0.35059736269482294,
+    0.34795183258032436
+   ],
+   [
+    -0.3188040755125733,
+    0.3485806208515348
+   ],
+   [
+    -0.2326512037052738,
+    0.34984424882300175
+   ],
+   [
+    -0.2326505555328549,
+    0.34984443769701534
+   ],
+   [
+    -0.20093357152018868,
+    0.3500611182680783
+   ],
+   [
+    -0.13513025030295076,
+    0.3499915183474661
+   ],
+   [
+    -0.13429817055968962,
+    0.34998066024062885
+   ],
+   [
+    1.2671728525585567e-06,
+    0.3499724026136177
+   ],
+   [
+    0.13413270573969216,
+    0.34994625008454683
+   ],
+   [
+    0.13526331075850814,
+    0.3500368900472142
+   ],
+   [
+    0.20095195193304433,
+    0.3500540152433057
+   ],
+   [
+    0.2326354811742179,
+    0.3498479046040211
+   ],
+   [
+    0.23264507730442952,
+    0.34984509300196087
+   ],
+   [
+    0.31880312220054696,
+    0.34858044200741367
+   ],
+   [
+    0.35059785803265264,
+    0.34794666073242136
+   ],
+   [
+    0.43443467665820223,
+    0.3453544356678299
+   ],
+   [
+    0.45461215107330805,
+    0.34434927510741903
+   ],
+   [
+    0.5060191001359482,
+    0.34128016661092897
+   ],
+   [
+    0.5598177705773033,
+    0.33602999471386896
+   ],
+   [
+    0.6087485212403982,
+    0.3290410657101085
+   ],
+   [
+    0.6613705168435702,
+    0.3177111151084565
+   ],
+   [
+    0.7053359068468348,
+    0.303451131606176
+   ],
+   [
+    0.7377801227543791,
+    0.2886988992087113
+   ],
+   [
+    0.7736196354939874,
+    0.26733520218124285
+   ],
+   [
+    0.810882147114317,
+    0.23939826324425026
+   ],
+   [
+    0.8421894729524037,
+    0.2113082951268466
+   ],
+   [
+    0.8729725737329658,
+    0.17966691352994713
+   ],
+   [
+    0.9023462044331044,
+    0.14549280468818976
+   ],
+   [
+    0.926652855888513,
+    0.11413080871002199
+   ],
+   [
+    0.9531127052354859,
+    0.07646484707690009
+   ],
+   [
+    0.9778051576216072,
+    0.03788779136657683
+   ],
+   [
+    1.0,
+    0.0
+   ]
+  ]
+ },
+ "R2_R3_audit_floor": {
+  "slab_NEC_min_R2_grid": -1.4631111825043978e-05,
+  "note": "the un-extended bulk reads T=0 (vacuum+Lambda5) at this floor on the same jet machinery"
+ },
+ "R3_slicing_clause": "A different GN slicing of the SAME bulk cannot regularise the pinch: Kretschmann is a scalar invariant and the P43-1 track has it diverging at the throat as y->y* (713 at y=0 -> 1.09e7 at y=0.45, grid-converged in P29-3). R3 was therefore attempted as a different bulk ANSATZ (floored D), audited above.",
+ "headline_completion": {
+  "route": "R1",
+  "y_c": 0.3,
+  "T_attained_subdivided": 5.2303851976755675,
+  "gain_subdivided": 0.16692675765073023,
+  "gain_double_space_check": 0.16699160112613184,
+  "u_eff_over_c": 1.2003746479481157,
+  "Kretschmann_bound_along_path": 2213.742752546008,
+  "price": "one additional pre-existing Z2 mirror brane at y_c=0.30 r0, tension-like: sigma in [1.001, 1.472] over |z|<=3 (peak at throat), p_z,p_th ~ -1; NEC/WEC/DEC pass (NEC saturated, min +0.0007, within the k-method's ~0.8% validation error of saturation); SEC fails at -1.998, exactly the positive-tension value (sigma+p_z+2p_th ~ -2 lambda) -- the same SEC status as the RS brane tension itself. NO bulk matter, NO added endpoint-brane matter."
+ },
+ "C12": {
+  "formation_leg": "STATED, NOT WAIVED: Phase 28 -- no classical route to a created handle exists below the quantum level (Geroch, field-equation-free, binds this home); quantum nucleation is Planck-scale only (area law, exponent 1.20e70 at r0=1 m in GR home; ledger radii 1e84-1e86); growth from a foam seed UNCOMPUTED. The throat, its bulk, and (for R1) the mirror brane are PRE-EXISTING structure in the initial data -- that assumption is the price of every number here.",
+  "decision_inclusive_arrival": "At the exhibited row's r0 = 6.802266e6 m: brane light time 6.2784 r0/c = 0.14246 s; R1 (y_c=0.30) attained bulk arrival 5.2304 r0/c = 0.11866 s. The 0.0238 s local win is conditional on the structure pre-existing; a decision whose causal past contains the setup cannot arrive decision-inclusively before 0.14246 s (setup signals travel at <= c and the structure cannot be built by any recorded means). Label: EFFECTIVE ONLY.",
+  "label": "EFFECTIVE ONLY"
+ },
+ "tolman": {
+  "clause": "A CTC would need v > 2u/(1+u^2) AND a second independently moving home. R1 u_eff=1.200c -> v_crit=0.9835c (y_c=0.30); u_eff=1.537c -> v_crit=0.9143c (y_c=0.40). The completion is static in the home's frame and creates NO second moving home; no CTC is created or used. Reported as a finding of absence, per registration."
+ },
+ "verdict": "COMPLETION EXISTS",
+ "verdict_lines": {
+  "gain_line": "COMPLETION EXISTS (R1, mirror/Z2 brane): the maximising cross-throat geodesic is ATTAINED and regular in the completed bulk -- gain 0.167 at y_c=0.30 r0 (T=5.2304 r0/c vs brane 6.2784 r0/c, u_eff=1.200c; subdivided and Z2-double checkers agree to 6e-5), Kretschmann <= 2.21e3/r0^4 along the whole path; deeper mirrors attain more (0.247 @ 0.35, 0.349 @ 0.40, K <= 4.59e4). The 0.480 of P43-1 remains a cap-labelled infimum of the UNcompleted bulk and is NOT claimed as attained. Price: a pre-existing tension-like mirror brane (NEC/WEC/DEC saturated-pass, SEC tension-failing); no bulk matter. R2/R3 also attain gains (0.195 / 0.135) with finite K, but only with strongly NEC-violating bulk matter (transition NEC_min -20.1 / -17.6 vs audit floor -1.5e-5) -- those completions relocate the exoticity into the bulk and are named as such, not used for the headline.",
+  "C12_line": "EFFECTIVE ONLY: formation leg stated (Phase 28: no classical route; pre-existing-structure assumption explicit); decision-inclusive arrival 0.14246 s >= brane light time at r0=6.80e6 m. No transport claim."
+ },
+ "reopening_conditions": [
+  "a formation route for throat+bulk+mirror (would reopen the C12 line, not the geometry verdict)",
+  "a completion attaining gain > 0.349 whose added structure is NEC-clean in the bulk (R2/R3 pattern with legal bulk matter) -- would supersede R1's price, not its existence",
+  "a proof that interface-riding minimisers of a Lipschitz Z2 double are not geodesics in the completed space's metric geometry (would downgrade R1's attainment clause to PARTIAL with that clause named)"
+ ]
+}
