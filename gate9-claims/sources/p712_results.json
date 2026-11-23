@@ -1,0 +1,875 @@
+{
+ "item": "P71-2 formation column, joining member (p=0.1, Phi2, a=0.277734)",
+ "language_lock": "scan signal under attack",
+ "Vb_verbatim": "(V-b) UNDECIDED: Pais\u2013Uhlenbeck spin-2 ghost vs Mannheim PT-symmetric quantisation \u2014 opposed literature positions, B3 NOT COMPUTABLE (Phase 32).",
+ "engine_regate": {
+  "generic_vs_phase32_exact_PASS": true,
+  "MK_max_abs_B_stored_p381": 3.3730734255104583e-19,
+  "MK_pass_1e-12": true,
+  "trace_symbolic": "0"
+ },
+ "gates": {
+  "G1_ledger_reproduction": {
+   "throat_NEC1_mp": "0.00364119103852",
+   "stored_NEC1": 0.003641,
+   "NEC1_rel_err": 5.246869454556573e-05,
+   "throat_DECt_mp": "0.00182059551926",
+   "stored_DECt": 0.00182,
+   "DECt_rel_err": 0.00032720838374740045,
+   "static_radial_tidal": 0.12498029999999999,
+   "stored_tidal": 0.12498,
+   "tidal_rel_err": 2.4003840614078167e-06,
+   "gradient_v0.1c": 1.1232669186508108e+16,
+   "stored_gradient": 1.12e+16,
+   "gradient_rel_err": 0.0029168916525096427,
+   "rstar": 47854411.3571792,
+   "stored_rstar": 47850000.0,
+   "rstar_rel_err": 9.219137260610531e-05
+  },
+  "G1_pass": true,
+  "G2_conservation": {
+   "combination": "pr' + Phi'(rho+pr) + 2(pr-pt)/r",
+   "simplifies_to": "0",
+   "trace": "0",
+   "cleared_form": "0",
+   "exact_zero": true
+  },
+  "G2_pass": true,
+  "G3_GR_control": {
+   "status": "CITED, not re-run: pipeline components identical to P61-4's (same generic engine re-gated in-item, same EC combinations, same Class-B read-off, same pricing instrument); P61-4's passed G3 (GR Ellis: rho_throat=-1, NEC1_throat=-2, increment phantom-like) is the controlling gate per CHECKPOINT71 \u00a7P71-2 (G3).",
+   "P614_G3": {
+    "rho_throat": -1.0,
+    "NEC1_throat": -2.0,
+    "increment_phantom_like": true
+   }
+  },
+  "G3_pass": true
+ },
+ "growth": {
+  "family": "p=0.1, Phi2, a=0.277734 (frozen)",
+  "ladder_m": [
+   1,
+   10,
+   100,
+   1000,
+   10000,
+   100000,
+   1000000,
+   47850000
+  ],
+  "EC_convention": "P61-1 convention: rho=-Bt, pr=Br, pt=Bth (= T/(4 alpha_g)); pricing uses T=4 alpha_g B (P61-4 convention)",
+  "frozen": {
+   "unit_r0=1_minima": {
+    "rho": {
+     "min": 6.275135500078547e-15,
+     "at_x": 999.9999999999998
+    },
+    "NEC1": {
+     "min": 1.2298511317653412e-15,
+     "at_x": 999.9999999999998
+    },
+    "NEC2": {
+     "min": 1.1935345434274428e-14,
+     "at_x": 999.9999999999998
+    },
+    "SEC": {
+     "min": 1.2550271000157101e-14,
+     "at_x": 999.9999999999998
+    },
+    "DECr": {
+     "min": 1.2298511317653412e-15,
+     "at_x": 999.9999999999998
+    },
+    "DECt": {
+     "min": 6.149255658826674e-16,
+     "at_x": 999.9999999999998
+    }
+   },
+   "all_EC_strictly_positive_at_every_ladder_radius": true,
+   "ladder_minima": {
+    "1": {
+     "rho": 6.275135500078547e-15,
+     "NEC1": 1.2298511317653412e-15,
+     "NEC2": 1.1935345434274428e-14,
+     "SEC": 1.2550271000157101e-14,
+     "DECr": 1.2298511317653412e-15,
+     "DECt": 6.149255658826674e-16,
+     "all_EC_strictly_positive": true
+    },
+    "10": {
+     "rho": 6.275135500078547e-19,
+     "NEC1": 1.2298511317653413e-19,
+     "NEC2": 1.1935345434274428e-18,
+     "SEC": 1.25502710001571e-18,
+     "DECr": 1.2298511317653413e-19,
+     "DECt": 6.149255658826674e-20,
+     "all_EC_strictly_positive": true
+    },
+    "100": {
+     "rho": 6.275135500078547e-23,
+     "NEC1": 1.2298511317653411e-23,
+     "NEC2": 1.1935345434274428e-22,
+     "SEC": 1.25502710001571e-22,
+     "DECr": 1.2298511317653411e-23,
+     "DECt": 6.149255658826674e-24,
+     "all_EC_strictly_positive": true
+    },
+    "1000": {
+     "rho": 6.2751355000785475e-27,
+     "NEC1": 1.2298511317653411e-27,
+     "NEC2": 1.1935345434274428e-26,
+     "SEC": 1.25502710001571e-26,
+     "DECr": 1.2298511317653411e-27,
+     "DECt": 6.149255658826674e-28,
+     "all_EC_strictly_positive": true
+    },
+    "10000": {
+     "rho": 6.275135500078547e-31,
+     "NEC1": 1.2298511317653411e-31,
+     "NEC2": 1.1935345434274428e-30,
+     "SEC": 1.2550271000157101e-30,
+     "DECr": 1.2298511317653411e-31,
+     "DECt": 6.149255658826674e-32,
+     "all_EC_strictly_positive": true
+    },
+    "100000": {
+     "rho": 6.275135500078548e-35,
+     "NEC1": 1.2298511317653412e-35,
+     "NEC2": 1.1935345434274428e-34,
+     "SEC": 1.2550271000157102e-34,
+     "DECr": 1.2298511317653412e-35,
+     "DECt": 6.149255658826674e-36,
+     "all_EC_strictly_positive": true
+    },
+    "1e+06": {
+     "rho": 6.275135500078548e-39,
+     "NEC1": 1.2298511317653411e-39,
+     "NEC2": 1.193534543427443e-38,
+     "SEC": 1.25502710001571e-38,
+     "DECr": 1.2298511317653411e-39,
+     "DECt": 6.149255658826675e-40,
+     "all_EC_strictly_positive": true
+    },
+    "4.785e+07": {
+     "rho": 1.197003277648212e-45,
+     "NEC1": 2.34598254607259e-46,
+     "NEC2": 2.2767074279927954e-45,
+     "SEC": 2.3940065552964253e-45,
+     "DECr": 2.34598254607259e-46,
+     "DECt": 1.172991273036289e-46,
+     "all_EC_strictly_positive": true
+    }
+   },
+   "matches_P611_stored_minima": "NEC1 min 1.229851e-15 and DECt min 6.149256e-16 at x=1000 vs P61-1 stored 1.229852e-15 / 6.149260e-16"
+  },
+  "scale_covariance": {
+   "statement": "T(r;r0)=r0^-4 F(r/r0) componentwise (Phi2 a function of r/r0, b=r0(r/r0)^0.1)",
+   "max_rel_dev_direct_vs_scaled": {
+    "r0=10": 0.0,
+    "r0=1000": 0.0
+   },
+   "verified_at_two_radii": true
+  },
+  "increment": {
+   "1->10": {
+    "Ra": 1.0,
+    "Rb": 10.0,
+    "common_domain": {
+     "rho": {
+      "min": 2.589625218331462e-19,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "NEC1": {
+      "min": -1.6679355263678728e-06,
+      "at_r_over_Rb": 1.0
+     },
+     "NEC2": {
+      "min": 4.850255794725743e-19,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "SEC": {
+      "min": 5.179250436662931e-19,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "DECr": {
+      "min": -1.6679355263678728e-06,
+      "at_r_over_Rb": 1.0
+     },
+     "DECt": {
+      "min": -8.339677631838042e-07,
+      "at_r_over_Rb": 1.0
+     }
+    },
+    "common_all_EC_nonnegative": false,
+    "shell_new_slice": {
+     "rho": {
+      "min_on_grid": -233354652643.18445,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "NEC1": {
+      "min_on_grid": -53834010284.63228,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5106972061414549
+     },
+     "NEC2": {
+      "min_on_grid": -439792300144.0529,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.47747294236093635
+     },
+     "SEC": {
+      "min_on_grid": -466709305286.3692,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "DECr": {
+      "min_on_grid": -412875295001.7366,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.534860307072741
+     },
+     "DECt": {
+      "min_on_grid": -439792300144.0529,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5263025421595772
+     },
+     "NEC1_neg_at_x=0.99_Rb_units": -5.000246831807737e-06
+    }
+   },
+   "10->100": {
+    "Ra": 10.0,
+    "Rb": 100.0,
+    "common_domain": {
+     "rho": {
+      "min": 2.5896252183314616e-23,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "NEC1": {
+      "min": -1.6679355263678727e-10,
+      "at_r_over_Rb": 1.0
+     },
+     "NEC2": {
+      "min": 4.850255794725743e-23,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "SEC": {
+      "min": 5.1792504366629315e-23,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "DECr": {
+      "min": -1.6679355263678727e-10,
+      "at_r_over_Rb": 1.0
+     },
+     "DECt": {
+      "min": -8.339677631838041e-11,
+      "at_r_over_Rb": 1.0
+     }
+    },
+    "common_all_EC_nonnegative": false,
+    "shell_new_slice": {
+     "rho": {
+      "min_on_grid": -23335465.264318444,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "NEC1": {
+      "min_on_grid": -5383401.028463228,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5106972061414549
+     },
+     "NEC2": {
+      "min_on_grid": -43979230.01440529,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.47747294236093635
+     },
+     "SEC": {
+      "min_on_grid": -46670930.52863692,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "DECr": {
+      "min_on_grid": -41287529.50017366,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.534860307072741
+     },
+     "DECt": {
+      "min_on_grid": -43979230.01440529,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5263025421595772
+     },
+     "NEC1_neg_at_x=0.99_Rb_units": -5.000246831807736e-10
+    }
+   },
+   "100->1000": {
+    "Ra": 100.0,
+    "Rb": 1000.0,
+    "common_domain": {
+     "rho": {
+      "min": 2.589625218331462e-27,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "NEC1": {
+      "min": -1.6679355263678727e-14,
+      "at_r_over_Rb": 1.0
+     },
+     "NEC2": {
+      "min": 4.8502557947257435e-27,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "SEC": {
+      "min": 5.179250436662931e-27,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "DECr": {
+      "min": -1.6679355263678727e-14,
+      "at_r_over_Rb": 1.0
+     },
+     "DECt": {
+      "min": -8.339677631838043e-15,
+      "at_r_over_Rb": 1.0
+     }
+    },
+    "common_all_EC_nonnegative": false,
+    "shell_new_slice": {
+     "rho": {
+      "min_on_grid": -2333.5465264318445,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "NEC1": {
+      "min_on_grid": -538.3401028463228,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5106972061414549
+     },
+     "NEC2": {
+      "min_on_grid": -4397.923001440529,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.47747294236093635
+     },
+     "SEC": {
+      "min_on_grid": -4667.093052863692,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "DECr": {
+      "min_on_grid": -4128.752950017366,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.534860307072741
+     },
+     "DECt": {
+      "min_on_grid": -4397.923001440529,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5263025421595772
+     },
+     "NEC1_neg_at_x=0.99_Rb_units": -5.000246831807736e-14
+    }
+   },
+   "1000->10000": {
+    "Ra": 1000.0,
+    "Rb": 10000.0,
+    "common_domain": {
+     "rho": {
+      "min": 2.589625218331462e-31,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "NEC1": {
+      "min": -1.6679355263678726e-18,
+      "at_r_over_Rb": 1.0
+     },
+     "NEC2": {
+      "min": 4.850255794725743e-31,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "SEC": {
+      "min": 5.179250436662932e-31,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "DECr": {
+      "min": -1.6679355263678726e-18,
+      "at_r_over_Rb": 1.0
+     },
+     "DECt": {
+      "min": -8.339677631838043e-19,
+      "at_r_over_Rb": 1.0
+     }
+    },
+    "common_all_EC_nonnegative": false,
+    "shell_new_slice": {
+     "rho": {
+      "min_on_grid": -0.23335465264318445,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "NEC1": {
+      "min_on_grid": -0.05383401028463228,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5106972061414549
+     },
+     "NEC2": {
+      "min_on_grid": -0.4397923001440529,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.47747294236093635
+     },
+     "SEC": {
+      "min_on_grid": -0.4667093052863692,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "DECr": {
+      "min_on_grid": -0.4128752950017366,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.534860307072741
+     },
+     "DECt": {
+      "min_on_grid": -0.4397923001440529,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5263025421595772
+     },
+     "NEC1_neg_at_x=0.99_Rb_units": -5.000246831807737e-18
+    }
+   },
+   "10000->100000": {
+    "Ra": 10000.0,
+    "Rb": 100000.0,
+    "common_domain": {
+     "rho": {
+      "min": 2.5896252183314627e-35,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "NEC1": {
+      "min": -1.6679355263678728e-22,
+      "at_r_over_Rb": 1.0
+     },
+     "NEC2": {
+      "min": 4.850255794725744e-35,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "SEC": {
+      "min": 5.179250436662933e-35,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "DECr": {
+      "min": -1.6679355263678728e-22,
+      "at_r_over_Rb": 1.0
+     },
+     "DECt": {
+      "min": -8.339677631838043e-23,
+      "at_r_over_Rb": 1.0
+     }
+    },
+    "common_all_EC_nonnegative": false,
+    "shell_new_slice": {
+     "rho": {
+      "min_on_grid": -2.3335465264318445e-05,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "NEC1": {
+      "min_on_grid": -5.383401028463228e-06,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5106972061414549
+     },
+     "NEC2": {
+      "min_on_grid": -4.397923001440529e-05,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.47747294236093635
+     },
+     "SEC": {
+      "min_on_grid": -4.667093052863692e-05,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "DECr": {
+      "min_on_grid": -4.128752950017366e-05,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.534860307072741
+     },
+     "DECt": {
+      "min_on_grid": -4.397923001440529e-05,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5263025421595772
+     },
+     "NEC1_neg_at_x=0.99_Rb_units": -5.000246831807736e-22
+    }
+   },
+   "100000->1e+06": {
+    "Ra": 100000.0,
+    "Rb": 1000000.0,
+    "common_domain": {
+     "rho": {
+      "min": 2.5896252183314624e-39,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "NEC1": {
+      "min": -1.6679355263678726e-26,
+      "at_r_over_Rb": 1.0
+     },
+     "NEC2": {
+      "min": 4.8502557947257436e-39,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "SEC": {
+      "min": 5.1792504366629313e-39,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "DECr": {
+      "min": -1.6679355263678726e-26,
+      "at_r_over_Rb": 1.0
+     },
+     "DECt": {
+      "min": -8.339677631838041e-27,
+      "at_r_over_Rb": 1.0
+     }
+    },
+    "common_all_EC_nonnegative": false,
+    "shell_new_slice": {
+     "rho": {
+      "min_on_grid": -2.3335465264318445e-09,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "NEC1": {
+      "min_on_grid": -5.383401028463228e-10,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5106972061414549
+     },
+     "NEC2": {
+      "min_on_grid": -4.3979230014405294e-09,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.47747294236093635
+     },
+     "SEC": {
+      "min_on_grid": -4.667093052863692e-09,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.48150012584948404
+     },
+     "DECr": {
+      "min_on_grid": -4.128752950017366e-09,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.534860307072741
+     },
+     "DECt": {
+      "min_on_grid": -4.3979230014405294e-09,
+      "at_x": 0.36415,
+      "neg_fraction_grid": 0.5263025421595772
+     },
+     "NEC1_neg_at_x=0.99_Rb_units": -5.000246831807737e-26
+    }
+   },
+   "1e+06->4.785e+07": {
+    "Ra": 1000000.0,
+    "Rb": 47850000.0,
+    "common_domain": {
+     "rho": {
+      "min": 6.696531600672361e-46,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "NEC1": {
+      "min": -4.0704817674772536e-34,
+      "at_r_over_Rb": 1.0
+     },
+     "NEC2": {
+      "min": 1.2582363899007512e-45,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "SEC": {
+      "min": 1.339306320134474e-45,
+      "at_r_over_Rb": 999.9999999999998
+     },
+     "DECr": {
+      "min": -4.0704817674772536e-34,
+      "at_r_over_Rb": 1.0
+     },
+     "DECt": {
+      "min": -2.035240883736081e-34,
+      "at_r_over_Rb": 1.0
+     }
+    },
+    "common_all_EC_nonnegative": false,
+    "shell_new_slice": {
+     "rho": {
+      "min_on_grid": -3.790389086384569e-16,
+      "at_x": 0.36407366771159866,
+      "neg_fraction_grid": 0.3830695805074102
+     },
+     "NEC1": {
+      "min_on_grid": -8.886236905358736e-17,
+      "at_x": 0.36407366771159866,
+      "neg_fraction_grid": 0.40743531775935693
+     },
+     "NEC2": {
+      "min_on_grid": -7.136466327501203e-16,
+      "at_x": 0.36407366771159866,
+      "neg_fraction_grid": 0.37879929665913087
+     },
+     "SEC": {
+      "min_on_grid": -7.580778172769141e-16,
+      "at_x": 0.36407366771159866,
+      "neg_fraction_grid": 0.3830695805074102
+     },
+     "DECr": {
+      "min_on_grid": -6.692154482233264e-16,
+      "at_x": 0.36407366771159866,
+      "neg_fraction_grid": 0.4255212258226576
+     },
+     "DECt": {
+      "min_on_grid": -7.136466327501203e-16,
+      "at_x": 0.36407366771159866,
+      "neg_fraction_grid": 0.4189902034664657
+     },
+     "NEC1_neg_at_x=0.99_Rb_units": -9.538139609334379e-33
+    }
+   }
+  },
+  "increment_common_domain_anatomy": {
+   "summary": "rho, NEC2, SEC pass on the common domain at every step; NEC1/DECr/DECt fail ONLY at the inner edge xb=1 in a thin layer xb in [1, 1.00348] (decade steps), scale-free: the new slice's throat NEC1 (0.003641 Rb^-4) is smaller than the old slice's NEC1 at that radius (F_NEC1(10)*10^4/Rb^4 scaled = 0.02032), so Delta NEC1(edge) = -0.016680 Rb^-4 (decade steps), -0.002134 Rb^-4 (final partial step).",
+   "edge": {
+    "decade_edge_crossing_xb": 1.0034815202679233,
+    "decade_common_layer_integrated_negative_NEC1_code_per_m": -0.00014461507132539097,
+    "decade_common_layer_ratio_vs_Elegal": 5.828036317520448e+68,
+    "decade_dNEC1_at_edge_scaled_xRb4": -0.016679355263678728,
+    "final_dNEC1_at_edge_scaled_xRb4": -0.0021338976357444675,
+    "note": "computed in-item (bisection + trapezoid over the layer, T=4 alpha_g B convention for the integral); scale-free per decade step"
+   }
+  },
+  "shell_anatomy": {
+   "summary": "The grown shell (new slice's matter on [Ra,Rb], Class-B read-off) violates ALL ECs: NEC1 < 0 already at xb=0.99 (40-digit probe -0.0500024683181, B-convention, Rb=10 step units Rb^-4), rho < 0 at xb=0.9, and the read-off extension contains the Phi2 profile's own pole at xb = exp(-1) = 0.367879 (1+ln(xb)=0, Phi -> -inf from above, +inf from below), where every EC combination diverges: NEC1 = -6.58154461639e21 at xb=e^-1(1-1e-3) and -6.64506547545e42 at e^-1(1-1e-6) (40-digit probes, B-convention) \u2014 pole order ~7 in |1+ln xb|, non-integrable. Grid minima (pole neighbourhood |1+ln xb|<=0.01 excluded) are at the pole-adjacent grid point xb=0.3641 for every EC at every step, scale-free in scaled units.",
+   "probes_40digit": {
+    "throat_1+1e-9": {
+     "rho": "0.301761921381",
+     "NEC1": "0.00364119103852",
+     "NEC2": "0.601703247242",
+     "SEC": "0.603523842761",
+     "DECr": "0.00364119103852",
+     "DECt": "0.00182059551926"
+    },
+    "shell_x=0.99": {
+     "rho": "0.260183955845",
+     "NEC1": "-0.0500024683181",
+     "NEC2": "0.545369145848",
+     "SEC": "0.520367911689",
+     "DECr": "-0.0500024683181",
+     "DECt": "-0.025001234159"
+    },
+    "shell_x=0.9": {
+     "rho": "-1.00227306856",
+     "NEC1": "-1.41540940753",
+     "NEC2": "-1.29684143335",
+     "SEC": "-2.00454613711",
+     "DECr": "-1.41540940753",
+     "DECt": "-1.29684143335"
+    },
+    "shell_x=0.5": {
+     "rho": "-15745.5443488",
+     "NEC1": "-17098.0102261",
+     "NEC2": "-22942.0835846",
+     "SEC": "-31491.0886977",
+     "DECr": "-17098.0102261",
+     "DECt": "-22942.0835846"
+    },
+    "pole_minus_x=e^-1*(1-1e-3)": {
+     "rho": "-2.34619448559e+23",
+     "NEC1": "-6.58154461639e+21",
+     "NEC2": "-4.65948124809e+23",
+     "SEC": "-4.69238897117e+23",
+     "DECr": "-4.62657352501e+23",
+     "DECt": "-4.65948124809e+23"
+    },
+    "pole_minus_x=e^-1*(1-1e-6)": {
+     "rho": "-2.30701278702e+47",
+     "NEC1": "-6.64506547545e+42",
+     "NEC2": "-4.6139923487e+47",
+     "SEC": "-4.61402557403e+47",
+     "DECr": "-4.61395912338e+47",
+     "DECt": "-4.6139923487e+47"
+    },
+    "pole_plus_x=e^-1*(1+1e-3)": {
+     "rho": "-2.26576582338e+23",
+     "NEC1": "6.70711458309e+21",
+     "NEC2": "-4.56506721968e+23",
+     "SEC": "-4.53153164677e+23",
+     "DECr": "-4.5986027926e+23",
+     "DECt": "-4.56506721968e+23"
+    },
+    "tail_1000": {
+     "rho": "6.27513550008e-15",
+     "NEC1": "1.22985113177e-15",
+     "NEC2": "1.19353454343e-14",
+     "SEC": "1.25502710002e-14",
+     "DECr": "1.22985113177e-15",
+     "DECt": "6.14925565883e-16"
+    }
+   }
+  },
+  "dynamic": {
+   "attempted": true,
+   "closed": false,
+   "progress": {
+    "stage": "dynamic_metric_built",
+    "elapsed_s": 0.6743841171264648
+   },
+   "status": "UNCOMPUTED \u2014 the time-extended Bach derivation for (b(r,t), Phi2(r,t)) did not close within the item's compute window: the Phase-32 engine's expression swell with Phi_t != 0 through ln(r/r0(t)) terms (P61-4's saved dynamic expressions are Phi=0-specific and do not transfer). Obstruction named; verdict vocabulary used exactly as registered."
+  },
+  "pricing": {
+   "1->10": {
+    "eps=0.01": {
+     "shell_integrated_negative_NEC1_code_per_m": -1718361742081.878,
+     "shell_negative_NEC1_content_J": 2.0796568599004866e+56,
+     "E_legal_at_Rb_J": 3.00309032448144e-29,
+     "ratio_demand_over_legal_lower_bound": 6.925055976328624e+84
+    },
+    "eps=0.001": {
+     "shell_integrated_negative_NEC1_code_per_m": -1.8179992175447572e+18,
+     "shell_negative_NEC1_content_J": 2.2002436689960476e+62,
+     "E_legal_at_Rb_J": 3.00309032448144e-29,
+     "ratio_demand_over_legal_lower_bound": 7.326598374545978e+90
+    },
+    "eps=0.0001": {
+     "shell_integrated_negative_NEC1_code_per_m": -4.244825081341743e+23,
+     "shell_negative_NEC1_content_J": 5.1373231743362237e+67,
+     "E_legal_at_Rb_J": 3.00309032448144e-29,
+     "ratio_demand_over_legal_lower_bound": 1.7106788738441668e+96
+    }
+   },
+   "10->100": {
+    "eps=0.01": {
+     "shell_integrated_negative_NEC1_code_per_m": -171836174208.18875,
+     "shell_negative_NEC1_content_J": 2.079656859900498e+55,
+     "E_legal_at_Rb_J": 3.0030903244814403e-30,
+     "ratio_demand_over_legal_lower_bound": 6.925055976328662e+84
+    },
+    "eps=0.001": {
+     "shell_integrated_negative_NEC1_code_per_m": -1.817999217544759e+17,
+     "shell_negative_NEC1_content_J": 2.2002436689960497e+61,
+     "E_legal_at_Rb_J": 3.0030903244814403e-30,
+     "ratio_demand_over_legal_lower_bound": 7.326598374545985e+90
+    },
+    "eps=0.0001": {
+     "shell_integrated_negative_NEC1_code_per_m": -4.244825081340988e+22,
+     "shell_negative_NEC1_content_J": 5.1373231743353096e+66,
+     "E_legal_at_Rb_J": 3.0030903244814403e-30,
+     "ratio_demand_over_legal_lower_bound": 1.7106788738438625e+96
+    }
+   },
+   "100->1000": {
+    "eps=0.01": {
+     "shell_integrated_negative_NEC1_code_per_m": -17183617420.8187,
+     "shell_negative_NEC1_content_J": 2.079656859900477e+54,
+     "E_legal_at_Rb_J": 3.0030903244814404e-31,
+     "ratio_demand_over_legal_lower_bound": 6.925055976328592e+84
+    },
+    "eps=0.001": {
+     "shell_integrated_negative_NEC1_code_per_m": -1.81799921754479e+16,
+     "shell_negative_NEC1_content_J": 2.200243668996087e+60,
+     "E_legal_at_Rb_J": 3.0030903244814404e-31,
+     "ratio_demand_over_legal_lower_bound": 7.32659837454611e+90
+    },
+    "eps=0.0001": {
+     "shell_integrated_negative_NEC1_code_per_m": -4.244825081340829e+21,
+     "shell_negative_NEC1_content_J": 5.137323174335117e+65,
+     "E_legal_at_Rb_J": 3.0030903244814404e-31,
+     "ratio_demand_over_legal_lower_bound": 1.7106788738437982e+96
+    }
+   },
+   "1000->10000": {
+    "eps=0.01": {
+     "shell_integrated_negative_NEC1_code_per_m": -1718361742.0818808,
+     "shell_negative_NEC1_content_J": 2.07965685990049e+53,
+     "E_legal_at_Rb_J": 3.0030903244814404e-32,
+     "ratio_demand_over_legal_lower_bound": 6.9250559763286355e+84
+    },
+    "eps=0.001": {
+     "shell_integrated_negative_NEC1_code_per_m": -1817999217544804.8,
+     "shell_negative_NEC1_content_J": 2.200243668996105e+59,
+     "E_legal_at_Rb_J": 3.0030903244814404e-32,
+     "ratio_demand_over_legal_lower_bound": 7.32659837454617e+90
+    },
+    "eps=0.0001": {
+     "shell_integrated_negative_NEC1_code_per_m": -4.244825081342273e+20,
+     "shell_negative_NEC1_content_J": 5.137323174336865e+64,
+     "E_legal_at_Rb_J": 3.0030903244814404e-32,
+     "ratio_demand_over_legal_lower_bound": 1.7106788738443802e+96
+    }
+   },
+   "10000->100000": {
+    "eps=0.01": {
+     "shell_integrated_negative_NEC1_code_per_m": -171836174.20818752,
+     "shell_negative_NEC1_content_J": 2.079656859900483e+52,
+     "E_legal_at_Rb_J": 3.0030903244814403e-33,
+     "ratio_demand_over_legal_lower_bound": 6.925055976328613e+84
+    },
+    "eps=0.001": {
+     "shell_integrated_negative_NEC1_code_per_m": -181799921754483.3,
+     "shell_negative_NEC1_content_J": 2.2002436689961395e+58,
+     "E_legal_at_Rb_J": 3.0030903244814403e-33,
+     "ratio_demand_over_legal_lower_bound": 7.326598374546285e+90
+    },
+    "eps=0.0001": {
+     "shell_integrated_negative_NEC1_code_per_m": -4.2448250813416055e+19,
+     "shell_negative_NEC1_content_J": 5.137323174336057e+63,
+     "E_legal_at_Rb_J": 3.0030903244814403e-33,
+     "ratio_demand_over_legal_lower_bound": 1.7106788738441115e+96
+    }
+   },
+   "100000->1e+06": {
+    "eps=0.01": {
+     "shell_integrated_negative_NEC1_code_per_m": -17183617.420818754,
+     "shell_negative_NEC1_content_J": 2.0796568599004833e+51,
+     "E_legal_at_Rb_J": 3.0030903244814403e-34,
+     "ratio_demand_over_legal_lower_bound": 6.925055976328613e+84
+    },
+    "eps=0.001": {
+     "shell_integrated_negative_NEC1_code_per_m": -18179992175448.766,
+     "shell_negative_NEC1_content_J": 2.200243668996192e+57,
+     "E_legal_at_Rb_J": 3.0030903244814403e-34,
+     "ratio_demand_over_legal_lower_bound": 7.32659837454646e+90
+    },
+    "eps=0.0001": {
+     "shell_integrated_negative_NEC1_code_per_m": -4.2448250813407457e+18,
+     "shell_negative_NEC1_content_J": 5.137323174335017e+62,
+     "E_legal_at_Rb_J": 3.0030903244814403e-34,
+     "ratio_demand_over_legal_lower_bound": 1.710678873843765e+96
+    }
+   },
+   "1e+06->4.785e+07": {
+    "eps=0.01": {
+     "shell_integrated_negative_NEC1_code_per_m": -362182.75511461054,
+     "shell_negative_NEC1_content_J": 4.3833369468479933e+49,
+     "E_legal_at_Rb_J": 6.276050834861944e-36,
+     "ratio_demand_over_legal_lower_bound": 6.984227920047456e+84
+    },
+    "eps=0.001": {
+     "shell_integrated_negative_NEC1_code_per_m": -283051964939.9879,
+     "shell_negative_NEC1_content_J": 3.4256521556548327e+55,
+     "E_legal_at_Rb_J": 6.276050834861944e-36,
+     "ratio_demand_over_legal_lower_bound": 5.458292556564654e+90
+    },
+    "eps=0.0001": {
+     "shell_integrated_negative_NEC1_code_per_m": -2.8059838830255784e+16,
+     "shell_negative_NEC1_content_J": 3.395957607875033e+60,
+     "E_legal_at_Rb_J": 6.276050834861944e-36,
+     "ratio_demand_over_legal_lower_bound": 5.410978491460442e+95
+    }
+   }
+  },
+  "pricing_note": "Shell NEC1 has a non-integrable pole at xb=exp(-1) (the Phi2 profile's own singularity, 1+ln(xb)=0, inside the Class-B read-off extension). Ratios are LOWER BOUNDS at the stated pole-exclusion eps in |1+ln(xb)| and grow without bound as eps->0; the un-excluded integral diverges. T=4 alpha_g B convention for pricing (P61-4 pattern); common-domain increment contributes 0 negative NEC1 content where it passes.",
+  "pricing_summary": "Per decade step the shell's integrated negative-NEC1 content is a LOWER BOUND that diverges at the Phi2 pole: ratio vs E_legal(Rb) >= 6.925e84 at pole-exclusion eps=1e-2, >= 7.327e90 at eps=1e-3, >= 1.711e96 at eps=1e-4 (scale-free, identical at every decade step; final partial step 6.984e84 / 5.458e90 / 5.411e95). The common-domain edge layer adds a finite 5.83e68 x E_legal per decade step. The frozen family's exotic content is 0 by legality (stated, not priced as a demand).",
+  "accretion_law": "NAMED ABSENCE (as P61-4): no conformal-gravity accretion law exists in the sourced literature; the Gonzalez-Diaz/Debnath law is GR-specific and was not borrowed. The in-family increment read stands alone.",
+  "verdict": "GROWABLE-ONLY-EXOTICALLY",
+  "verdict_basis": "Frozen family EC-legal at every ladder radius (all four ECs strict on [r0, 1000 r0], minima at the far tail, positive). Increment NEC-violating somewhere at every step: (1) common-domain Delta NEC1/DECr/DECt fail in the thin inner-edge layer xb in [1,1.00348]; (2) the grown shell violates all ECs on ~half its scaled domain and is singular at the Phi2 pole xb=e^-1 inside the read-off extension, so its integrated negative-NEC1 content per decade step is unbounded (lower-bound price table is part of the verdict). Dynamic clause UNCOMPUTED (obstruction named) \u2014 it neither rescues nor is needed for this verdict form, exactly as in P61-4."
+ },
+ "nucleation": {
+  "audit_type": "INHERITANCE AUDIT (registered): argued, not assumed",
+  "argument": [
+   "P61-4's deciding clause has three components: (1) Strominger-Horowitz-Perry conformal instantons are vacuum-tunneling saddles of the conformal ACTION (topological action, no throat, no S_E(r0)) \u2014 a statement about the action's Euclidean extrema, mentioning no throat family; (2) the Giddings-Strominger class is conformally flat \u2014 a statement about Robertson-Walker GEOMETRY (C=0 for all RW metrics, sourced + verified in-item in P61-4 by the Bach engine on a general RW metric returning B==0), mentioning no (b,Phi) profile; (3) the (H-GR) analogue was rejected because it prices an Einstein-Hilbert bounce on that conformally-flat class \u2014 again a property of the geometry class + the home's action, not of T-b.",
+   "Every premise quantifies over the HOME (the conformal/Weyl action, its Bach equation T=4 alpha_g B, and the conformally-flat Euclidean class) or over RW geometry as such. No premise references T-b's shape b=sqrt(r r0), its Phi=0 profile, or any (p, Phi, a) value. The fork is therefore a property of the conformal HOME, not of the T-b family.",
+   "The joining member lives in the same home: same action, same Bach equation, same scored gauge Omega=1, same normalisation (P61-1/P71-2 G1-G2 run on the same engine). A family-specific escape would require an instanton class that (a) has C != 0, (b) creates a throat, (c) is a Bach solution with its matter, and (d) is specific to the Phi2 family. No such class is sourced: P61-4's sourced search (Strominger-Horowitz-Perry; Giddings-Strominger reviews; Lorentzian Weyl wormholes of Varieschi-Ault / Heydari-Fard et al., which are classical solutions, not bounces) contains no Phi2-specific \u2014 or any-family-specific \u2014 Euclidean throat bounce, and this item's re-examination for family-specificity found none. The Lorentzian Weyl-gravity wormhole solutions in the literature are members of OTHER (b,Phi) families of the same home and are classical solutions, not nucleation saddles; their existence does not price a bounce for any family.",
+   "Therefore the fork covers the (p=0.1, Phi2) family: no class-(A) conformal instanton exists for this home, the GS class's Weyl action vanishes identically and it is not a Bach solution with its axion matter, and the (H-GR) analogue (derivation class (B), C=pi, p=2, stored P28-2) remains indefensible for this home and is not borrowed. No P28-2 pricing run is triggered (no family-specific instanton class sourced)."
+  ],
+  "verdict": "CLOSED",
+  "verdict_form": "CLOSED (conformally-flat fork clause, INHERITED \u2014 stated as inherited, with the home-level argument above)",
+  "derivation_class_note": "The only candidate price on record is the (H-GR) area law, derivation class (B); it is rejected for this home, not quoted as this family's rate."
+ },
+ "formation_clause_replacement": "PRE-EXISTING ONLY. The topology must be in the initial data or the Planck foam; creation is classical topology change, priced by P28-1's E4. Growth: GROWABLE-ONLY-EXOTICALLY (Phase 71 P71-2) \u2014 the frozen joining-member family (p = 0.1, Phi2, a = 0.277734) is EC-legal at every radius from 1 m to its tidal-bar radius r0* = 4.785x10^7 m, but the growth increment is NEC-violating at every step: the common-domain increment fails NEC1/DEC at the new throat's edge in a thin layer (xb in [1, 1.00348], Delta NEC1 = -0.016680 r0_{j+1}^-4, scale-free), and the grown shell at each step carries matter violating all four ECs, singular at the Phi2 profile's own pole xb = e^-1 inside the Class-B read-off extension, so the shell's integrated negative-NEC1 content per decade step is unbounded (lower bounds: >= 6.93x10^84 x E_legal at pole-exclusion 1e-2, growing ~ eps^-6 \u2014 price table in P71-2 memo), so growth from a seed is possible only by accreting exotic matter in the shell layer; the dynamic clause is UNCOMPUTED (time-extended Bach derivation for Phi2(r,t) did not close; obstruction named in P71-2 memo). Nucleation: CLOSED for this home (Phase 71 P71-2, inherited from Phase 61 P61-4 with the home-level argument stated) \u2014 no conformal-gravity instanton creating a throat exists on record for any family of this home, and the Giddings-Strominger Euclidean wormhole class is conformally flat, so its Weyl action vanishes identically and it is not a solution of the Bach system; the (H-GR) area-law analogue (derivation class (B)) is therefore not borrowed. (V-b) UNDECIDED: Pais\u2013Uhlenbeck spin-2 ghost vs Mannheim PT-symmetric quantisation \u2014 opposed literature positions, B3 NOT COMPUTABLE (Phase 32).",
+ "ledger_standing_changes": false,
+ "standing_test": "Tested, not assumed: UNCHANGED. The joining member's standing rests on P61-1's junction verdict (JOINS WITH LEGAL SHELL at r_Sigma=10^3 r0 only), its tidal bar (r0* = 4.785e7 m) and (V-b) UNDECIDED \u2014 none of which the growth or nucleation reads touch. Growth is exotic-only (with an unbounded shell price) and nucleation is closed, so neither supplies a route that could change the standing; formation completes the member's column without rescuing it."
+}

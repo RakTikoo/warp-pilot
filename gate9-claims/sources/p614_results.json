@@ -1,0 +1,964 @@
+{
+ "item": "P61-4 formation completion, conformal row",
+ "language_lock": "scan signal under attack",
+ "Vb_verbatim": "(V-b) UNDECIDED: Pais\u2013Uhlenbeck spin-2 ghost vs Mannheim PT-symmetric quantisation \u2014 opposed literature positions, B3 NOT COMPUTABLE (Phase 32).",
+ "engine_regate": {
+  "generic_vs_phase32_exact": true,
+  "MK_max_abs_B": 3.3730734255104583e-19,
+  "MK_pass_1e-12": true,
+  "trace_zero_symbolic": true
+ },
+ "gates": {
+  "G1_ledger_reproduction": {
+   "tidal_gradient_computed": 226958378468893.34,
+   "stored": 227000000000000.0,
+   "rel_err": 0.00018335476258438878,
+   "rstar_computed": 6802265.894424387,
+   "stored_rstar": 6802000.0,
+   "rstar_rel_err": 3.9090623991069366e-05,
+   "EC_signs_exact": true
+  },
+  "G1_pass": true,
+  "G2_conservation": {
+   "combination_simplifies_to": "0",
+   "exact_zero": true,
+   "trace_exact_zero": true
+  },
+  "G2_pass": true,
+  "G3_GR_control": {
+   "rho_throat": -1.0,
+   "NEC1_throat": -2.0,
+   "rho_negative_at_throat": true,
+   "NEC1_violated_at_throat": true,
+   "increment_rho_max": -9.900000000000001e-11,
+   "increment_NEC1_max": -1.9800000000000001e-10,
+   "increment_phantom_like": true
+  },
+  "G3_pass": true
+ },
+ "growth": {
+  "family": "T-b canonical (p=1/2, Phi=0), T=4 alpha_g B, alpha_g>0 (alpha_g=1 code units)",
+  "ladder_m": [
+   1,
+   10,
+   100,
+   1000,
+   10000,
+   100000,
+   1000000,
+   6802000
+  ],
+  "frozen_Tb": {
+   "1": {
+    "rho": 7.822360817087616e-14,
+    "NEC1": 2.5935647168069835e-14,
+    "NEC2": 1.434793927577174e-13,
+    "SEC": 1.564472163417523e-13,
+    "DECr": 2.5935647168069835e-14,
+    "DECt": 1.2967823584034927e-14,
+    "all_EC_strictly_positive": true
+   },
+   "10": {
+    "rho": 7.822360817087615e-18,
+    "NEC1": 2.593564716806983e-18,
+    "NEC2": 1.4347939275771738e-17,
+    "SEC": 1.564472163417523e-17,
+    "DECr": 2.593564716806983e-18,
+    "DECt": 1.296782358403492e-18,
+    "all_EC_strictly_positive": true
+   },
+   "100": {
+    "rho": 7.822360817087614e-22,
+    "NEC1": 2.593564716806982e-22,
+    "NEC2": 1.4347939275771738e-21,
+    "SEC": 1.5644721634175228e-21,
+    "DECr": 2.593564716806982e-22,
+    "DECt": 1.296782358403491e-22,
+    "all_EC_strictly_positive": true
+   },
+   "1000": {
+    "rho": 7.822360817087615e-26,
+    "NEC1": 2.593564716806982e-26,
+    "NEC2": 1.434793927577174e-25,
+    "SEC": 1.564472163417523e-25,
+    "DECr": 2.593564716806982e-26,
+    "DECt": 1.296782358403491e-26,
+    "all_EC_strictly_positive": true
+   },
+   "10000": {
+    "rho": 7.822360817087615e-30,
+    "NEC1": 2.5935647168069832e-30,
+    "NEC2": 1.434793927577174e-29,
+    "SEC": 1.564472163417523e-29,
+    "DECr": 2.5935647168069832e-30,
+    "DECt": 1.2967823584034912e-30,
+    "all_EC_strictly_positive": true
+   },
+   "100000": {
+    "rho": 7.822360817087614e-34,
+    "NEC1": 2.593564716806982e-34,
+    "NEC2": 1.4347939275771738e-33,
+    "SEC": 1.5644721634175228e-33,
+    "DECr": 2.593564716806982e-34,
+    "DECt": 1.2967823584034906e-34,
+    "all_EC_strictly_positive": true
+   },
+   "1e+06": {
+    "rho": 7.822360817087615e-38,
+    "NEC1": 2.593564716806983e-38,
+    "NEC2": 1.4347939275771738e-37,
+    "SEC": 1.5644721634175232e-37,
+    "DECr": 2.593564716806983e-38,
+    "DECt": 1.296782358403491e-38,
+    "all_EC_strictly_positive": true
+   },
+   "6.802e+06": {
+    "rho": 3.654191761290511e-41,
+    "NEC1": 1.211575768766239e-41,
+    "NEC2": 6.702595638197902e-41,
+    "SEC": 7.308383522581022e-41,
+    "DECr": 1.211575768766239e-41,
+    "DECt": 6.057878843831198e-42,
+    "all_EC_strictly_positive": true
+   }
+  },
+  "scale_covariance": {
+   "statement": "T(r; r0) = r0^-4 F(r/r0) componentwise (Bach tensor of the scale-covariant family b=r0(r/r0)^p, Phi a function of r/r0); verified numerically at r0=1 and 1e3 m, lambda=10, max rel dev < 1e-12.",
+   "max_rel_dev": {
+    "r0=1,r=1.3r0": 1.2473217539619487e-16,
+    "r0=1,r=7r0": 1.9238632031489163e-16,
+    "r0=1,r=100r0": 1.553449167204454e-16,
+    "r0=1000,r=1.3r0": 1.1344325266345085e-16,
+    "r0=1000,r=7r0": 0.0,
+    "r0=1000,r=100r0": 1.1361092308205098e-16
+   }
+  },
+  "context_members_frozen": {
+   "p=0.4_Phi0_a=0.0": {
+    "min_EC_r0=1": {
+     "rho": 3.506771036081565e-14,
+     "NEC1": 1.3134064123501053e-14,
+     "NEC2": 6.356838865988077e-14,
+     "SEC": 7.01354207216313e-14,
+     "DECr": 1.3134064123501053e-14,
+     "DECt": 6.567032061750525e-15
+    },
+    "all_positive_r0=1": true,
+    "scale_check_max_rel_dev": 1.1652068558051308e-14
+   },
+   "p=0.4_Phi1_a=-0.1": {
+    "min_EC_r0=1": {
+     "rho": 3.504629791972514e-14,
+     "NEC1": 1.312040780732565e-14,
+     "NEC2": 6.353239193578745e-14,
+     "SEC": 7.009259583945027e-14,
+     "DECr": 1.312040780732565e-14,
+     "DECt": 6.56020390366283e-15
+    },
+    "all_positive_r0=1": true,
+    "scale_check_max_rel_dev": 1.1062949314702152e-14
+   },
+   "p=0.4_Phi2_a=-0.1": {
+    "min_EC_r0=1": {
+     "rho": 2.6670369384246884e-14,
+     "NEC1": 1.1666668587331852e-14,
+     "NEC2": 4.750740447482784e-14,
+     "SEC": 5.334073876849376e-14,
+     "DECr": 1.1666668587331852e-14,
+     "DECt": 5.833334293665928e-15
+    },
+    "all_positive_r0=1": true,
+    "scale_check_max_rel_dev": 1.4064260680562963e-14
+   },
+   "p=0.6_Phi0_a=0.0": {
+    "min_EC_r0=1": {
+     "rho": 1.6501513959149976e-13,
+     "NEC1": 4.641921534284497e-14,
+     "NEC2": 3.0682067151157704e-13,
+     "SEC": 3.3003027918299956e-13,
+     "DECr": 4.641921534284497e-14,
+     "DECt": 2.3209607671422473e-14
+    },
+    "all_positive_r0=1": true,
+    "scale_check_max_rel_dev": 2.2976259636909273e-14
+   },
+   "p=0.6_Phi1_a=-0.1": {
+    "min_EC_r0=1": {
+     "rho": 1.6496694737817911e-13,
+     "NEC1": 4.638936514082351e-14,
+     "NEC2": 3.0673921218594643e-13,
+     "SEC": 3.2993389475635823e-13,
+     "DECr": 4.638936514082351e-14,
+     "DECt": 2.3194682570411768e-14
+    },
+    "all_positive_r0=1": true,
+    "scale_check_max_rel_dev": 2.176666905480676e-14
+   },
+   "p=0.6_Phi2_a=-0.1": {
+    "min_EC_r0=1": {
+     "rho": 1.5736371076080204e-13,
+     "NEC1": 4.518109964685101e-14,
+     "NEC2": 2.921368716981786e-13,
+     "SEC": 3.1472742152160414e-13,
+     "DECr": 4.518109964685101e-14,
+     "DECt": 2.2590549823425487e-14
+    },
+    "all_positive_r0=1": true,
+    "scale_check_max_rel_dev": 2.2348768989142388e-14
+   }
+  },
+  "increment_Tb": {
+   "1->10": {
+    "rho": {
+     "min": 5.330694150420948e-18,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC1": {
+     "min": 1.7643980501403156e-18,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC2": {
+     "min": 9.779189275771738e-18,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "SEC": {
+     "min": 1.0661388300841895e-17,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECr": {
+     "min": 1.7643980501403156e-18,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECt": {
+     "min": 8.821990250701586e-19,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "all_EC_nonnegative_common_domain": true,
+    "shell_new_slice_EC": {
+     "rho": {
+      "min": -0.42763918291238523,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC1": {
+      "min": -1.5314352831930176,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC2": {
+      "min": -0.08956072422826128,
+      "argmin_r_over_Rb": 0.1
+     },
+     "SEC": {
+      "min": -0.8552783658247697,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECr": {
+      "min": -1.5314352831930176,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECt": {
+      "min": -0.7657176415965092,
+      "argmin_r_over_Rb": 0.1
+     }
+    },
+    "shell_NEC_violating": true,
+    "nec_violating_anywhere": true,
+    "shell_integrated_negative_NEC1_code_per_m": -5.499352871405516
+   },
+   "10->100": {
+    "rho": {
+     "min": 5.330694150420947e-22,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC1": {
+     "min": 1.7643980501403145e-22,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC2": {
+     "min": 9.779189275771736e-22,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "SEC": {
+     "min": 1.0661388300841894e-21,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECr": {
+     "min": 1.7643980501403145e-22,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECt": {
+     "min": 8.821990250701577e-23,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "all_EC_nonnegative_common_domain": true,
+    "shell_new_slice_EC": {
+     "rho": {
+      "min": -4.2763918291238525e-05,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC1": {
+      "min": -0.00015314352831930173,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC2": {
+      "min": -8.956072422826132e-06,
+      "argmin_r_over_Rb": 0.1
+     },
+     "SEC": {
+      "min": -8.552783658247694e-05,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECr": {
+      "min": -0.00015314352831930173,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECt": {
+      "min": -7.657176415965092e-05,
+      "argmin_r_over_Rb": 0.1
+     }
+    },
+    "shell_NEC_violating": true,
+    "nec_violating_anywhere": true,
+    "shell_integrated_negative_NEC1_code_per_m": -0.5499352871405516
+   },
+   "100->1000": {
+    "rho": {
+     "min": 5.330694150420948e-26,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC1": {
+     "min": 1.7643980501403153e-26,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC2": {
+     "min": 9.779189275771739e-26,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "SEC": {
+     "min": 1.0661388300841896e-25,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECr": {
+     "min": 1.7643980501403153e-26,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECt": {
+     "min": 8.821990250701577e-27,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "all_EC_nonnegative_common_domain": true,
+    "shell_new_slice_EC": {
+     "rho": {
+      "min": -4.276391829123852e-09,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC1": {
+      "min": -1.531435283193017e-08,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC2": {
+      "min": -8.956072422826128e-10,
+      "argmin_r_over_Rb": 0.1
+     },
+     "SEC": {
+      "min": -8.552783658247694e-09,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECr": {
+      "min": -1.531435283193017e-08,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECt": {
+      "min": -7.65717641596509e-09,
+      "argmin_r_over_Rb": 0.1
+     }
+    },
+    "shell_NEC_violating": true,
+    "nec_violating_anywhere": true,
+    "shell_integrated_negative_NEC1_code_per_m": -0.05499352871405515
+   },
+   "1000->10000": {
+    "rho": {
+     "min": 5.330694150420949e-30,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC1": {
+     "min": 1.7643980501403163e-30,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC2": {
+     "min": 9.77918927577174e-30,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "SEC": {
+     "min": 1.0661388300841897e-29,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECr": {
+     "min": 1.7643980501403163e-30,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECt": {
+     "min": 8.821990250701578e-31,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "all_EC_nonnegative_common_domain": true,
+    "shell_new_slice_EC": {
+     "rho": {
+      "min": -4.276391829123852e-13,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC1": {
+      "min": -1.5314352831930173e-12,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC2": {
+      "min": -8.956072422826128e-14,
+      "argmin_r_over_Rb": 0.1
+     },
+     "SEC": {
+      "min": -8.552783658247694e-13,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECr": {
+      "min": -1.5314352831930173e-12,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECt": {
+      "min": -7.657176415965091e-13,
+      "argmin_r_over_Rb": 0.1
+     }
+    },
+    "shell_NEC_violating": true,
+    "nec_violating_anywhere": true,
+    "shell_integrated_negative_NEC1_code_per_m": -0.005499352871405515
+   },
+   "10000->100000": {
+    "rho": {
+     "min": 5.3306941504209475e-34,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC1": {
+     "min": 1.7643980501403156e-34,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC2": {
+     "min": 9.779189275771737e-34,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "SEC": {
+     "min": 1.0661388300841897e-33,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECr": {
+     "min": 1.7643980501403156e-34,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECt": {
+     "min": 8.821990250701574e-35,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "all_EC_nonnegative_common_domain": true,
+    "shell_new_slice_EC": {
+     "rho": {
+      "min": -4.276391829123852e-17,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC1": {
+      "min": -1.5314352831930173e-16,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC2": {
+      "min": -8.956072422826132e-18,
+      "argmin_r_over_Rb": 0.1
+     },
+     "SEC": {
+      "min": -8.552783658247695e-17,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECr": {
+      "min": -1.5314352831930173e-16,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECt": {
+      "min": -7.657176415965092e-17,
+      "argmin_r_over_Rb": 0.1
+     }
+    },
+    "shell_NEC_violating": true,
+    "nec_violating_anywhere": true,
+    "shell_integrated_negative_NEC1_code_per_m": -0.0005499352871405516
+   },
+   "100000->1e+06": {
+    "rho": {
+     "min": 5.330694150420948e-38,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC1": {
+     "min": 1.764398050140316e-38,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC2": {
+     "min": 9.77918927577174e-38,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "SEC": {
+     "min": 1.0661388300841896e-37,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECr": {
+     "min": 1.764398050140316e-38,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECt": {
+     "min": 8.821990250701577e-39,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "all_EC_nonnegative_common_domain": true,
+    "shell_new_slice_EC": {
+     "rho": {
+      "min": -4.2763918291238526e-21,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC1": {
+      "min": -1.5314352831930174e-20,
+      "argmin_r_over_Rb": 0.1
+     },
+     "NEC2": {
+      "min": -8.956072422826132e-22,
+      "argmin_r_over_Rb": 0.1
+     },
+     "SEC": {
+      "min": -8.552783658247695e-21,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECr": {
+      "min": -1.5314352831930174e-20,
+      "argmin_r_over_Rb": 0.1
+     },
+     "DECt": {
+      "min": -7.657176415965092e-21,
+      "argmin_r_over_Rb": 0.1
+     }
+    },
+    "shell_NEC_violating": true,
+    "nec_violating_anywhere": true,
+    "shell_integrated_negative_NEC1_code_per_m": -5.4993528714055156e-05
+   },
+   "1e+06->6.802e+06": {
+    "rho": {
+     "min": 2.2438760161901546e-41,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC1": {
+     "min": 7.424243798031484e-42,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "NEC2": {
+     "min": 4.116539842478735e-41,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "SEC": {
+     "min": 4.4877520323803087e-41,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECr": {
+     "min": 7.424243798031484e-42,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "DECt": {
+     "min": 3.7121218990157434e-42,
+     "argmin_r_over_Rb": 1000.0
+    },
+    "all_EC_nonnegative_common_domain": true,
+    "shell_new_slice_EC": {
+     "rho": {
+      "min": 7.78578199671742e-28,
+      "argmin_r_over_Rb": 1.0
+     },
+     "NEC1": {
+      "min": -6.6077965301467745e-25,
+      "argmin_r_over_Rb": 0.1470155836518671
+     },
+     "NEC2": {
+      "min": 1.4598341243845164e-27,
+      "argmin_r_over_Rb": 1.0
+     },
+     "SEC": {
+      "min": 1.5571563993434843e-27,
+      "argmin_r_over_Rb": 1.0
+     },
+     "DECr": {
+      "min": -6.6077965301467745e-25,
+      "argmin_r_over_Rb": 0.1470155836518671
+     },
+     "DECt": {
+      "min": -3.3038982650733836e-25,
+      "argmin_r_over_Rb": 0.1470155836518671
+     }
+    },
+    "shell_NEC_violating": true,
+    "nec_violating_anywhere": true,
+    "shell_integrated_negative_NEC1_code_per_m": -1.6525990527541992e-06
+   }
+  },
+  "increment_summary": "Common-domain increment passes all four ECs at every ladder step (minima at the far tail, positive, -> 0). The grown shell fails: the new slice's matter on [Ra,Rb] violates NEC1 (and DECt) for r < Rb/4 and rho/SEC for r < Rb/9, at every step, scale-free (same u-interval per step).",
+  "probes_40digit": {
+   "throat_r0=1": {
+    "rho": "1.666666666666666666666667",
+    "NEC1": "0.4166666666666666666666667",
+    "DECt": "0.2083333333333333333333333"
+   },
+   "throat_r0=6.802e+06": {
+    "rho": "7.785781996717420076196086e-28",
+    "NEC1": "1.946445499179355019049022e-28",
+    "DECt": "9.732227495896775095245108e-29"
+   },
+   "increment_NEC1_at_r=Rb_1->10": "0.00001948101949859683890000922",
+   "shell_NEC1_min_at_r=Ra_1->10": "-1.531435283193017223334255",
+   "shell_rho_at_r=Ra_1->10": "-0.4276391829123850033360995",
+   "increment_NEC1_at_r=Rb_1e+06->6.802e+06": "7.399672588830743273918543e-29",
+   "shell_NEC1_min_at_r=Ra_1e+06->6.802e+06": "-6.607796530146776456744764e-25",
+   "shell_rho_at_r=Ra_1e+06->6.802e+06": "8.518277076226337296432375e-25"
+  },
+  "dynamic": {
+   "derivation": "CLOSED: time-extended spherical Bach derivation (Phase-32 engine form, arXiv:2505.17171 eq.6) for b(r,t)=sqrt(r*r0(t)), Phi=0, r0(t) log-smoothstep 1->10 m over Ts=1e4; expressions stored in results/p614_dynamic_bach.json",
+   "validations": {
+    "trace_max_rel_sampled": 2.0688971484656605e-12,
+    "B_rtheta": 0.0,
+    "static_agreement_x>=3": "rho/pr/pt agree with static closed forms at instantaneous r0(t) to <=3e-3 relative (quasistatic tax), <=2.5e-5 at x=3"
+   },
+   "bulk_read_x>=3": {
+    "all_EC_pass": true,
+    "min_NEC_radial": 6.407346315268897e-11
+   },
+   "near_throat_layer_x=1.001": {
+    "rho_values": [
+     -162.6827092144314,
+     -59.48983439079265,
+     -6.867948157258744
+    ],
+    "NEC_radial_values": [
+     -168.3720850625013,
+     -65.45722974791079,
+     -8.028061236121115
+    ],
+    "read": "FAILS at all three sampled times (rho<0, NEC<0) in the (1-b/r)-amplified layer at the moving throat"
+   },
+   "far_tail_x=1000": "excluded: absolute values ~1e-16, below the evalf instrument floor",
+   "rate_independence": "UNRESOLVED: single schedule computed; the failing layer's terms carry (1-b/r)^-n amplification of Ts^-2 schedule derivatives, which predicts (not establishes) shrinkage at slower rate. Follow-up registered: second schedule Ts=1e5.",
+   "points": [
+    {
+     "u": 0.25,
+     "x": 1.001,
+     "r0_t": 1.4330125702369627,
+     "rho": -162.6827092144314,
+     "pr": -0.26448324216601227,
+     "pt": -81.2091129862119,
+     "flux_hat": -2.7124463029519332,
+     "NEC_radial": -168.3720850625013,
+     "NEC_tangential": -243.89182220064333,
+     "SEC": -325.36541842902125,
+     "DEC_margin": -243.89182220064333,
+     "trace_rel": 9.738134380111395e-13,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 414.36863103002497,
+     "static_dev_pr": 0.10387380289295997,
+     "static_dev_pt": 236.83503845736777,
+     "DEC_r_diag": -162.94719245659743,
+     "DEC_t_diag": -243.89182220064333
+    },
+    {
+     "u": 0.25,
+     "x": 3.0,
+     "r0_t": 1.4330125702369627,
+     "rho": 0.0034124273434178384,
+     "pr": -0.002410500215871797,
+     "pt": 0.002911463779644891,
+     "flux_hat": 1.7162930703792097e-06,
+     "NEC_radial": 0.0009984945414052832,
+     "NEC_tangential": 0.00632389112306273,
+     "SEC": 0.006824854686835824,
+     "DEC_margin": 0.0,
+     "trace_rel": 4.2955972089129853e-14,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 7.423386286749699e-07,
+     "static_dev_pr": 3.698742708230298e-06,
+     "static_dev_pt": 1.0961180063671296e-06,
+     "DEC_r_diag": 0.0010019271275460415,
+     "DEC_t_diag": 0.0005009635637729473
+    },
+    {
+     "u": 0.25,
+     "x": 30.0,
+     "r0_t": 1.4330125702369627,
+     "rho": 1.254878659236092e-07,
+     "pr": -8.505249176967019e-08,
+     "pt": 1.0527017884664228e-07,
+     "flux_hat": 4.986455041173768e-10,
+     "NEC_radial": 3.943808314570426e-08,
+     "NEC_tangential": 2.3075804477025148e-07,
+     "SEC": 2.509757318472236e-07,
+     "DEC_margin": 0.0,
+     "trace_rel": 4.113231972143843e-14,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 5.4946220980486255e-05,
+     "static_dev_pr": 0.00039917194428408666,
+     "static_dev_pt": 0.00012845533674355514,
+     "DEC_r_diag": 4.043537415393901e-08,
+     "DEC_t_diag": 2.0217687076966925e-08
+    },
+    {
+     "u": 0.25,
+     "x": 1000.0,
+     "r0_t": 1.4330125702369627,
+     "rho": 1.726768495007458e-14,
+     "pr": -1.769882503059928e-14,
+     "pt": 1.7483254990336863e-14,
+     "flux_hat": 2.4985443136855812e-15,
+     "NEC_radial": -5.428228707895863e-15,
+     "NEC_tangential": 3.475093994041144e-14,
+     "SEC": 3.4535369900149026e-14,
+     "DEC_margin": -2.1557004026228409e-16,
+     "trace_rel": 7.674950780044061e-15,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 0.06911448653120265,
+     "static_dev_pr": 0.4273902609813793,
+     "static_dev_pt": 0.12980443720878243,
+     "DEC_r_diag": -4.311400805247007e-16,
+     "DEC_t_diag": -2.1557004026228409e-16
+    },
+    {
+     "u": 0.5,
+     "x": 1.001,
+     "r0_t": 3.1622776601683795,
+     "rho": -59.48983439079265,
+     "pr": -0.14311054263810913,
+     "pt": -29.67336192407141,
+     "flux_hat": -2.912142407240009,
+     "NEC_radial": -65.45722974791079,
+     "NEC_tangential": -89.16319631486407,
+     "SEC": -118.9796687815736,
+     "DEC_margin": -89.16319631486407,
+     "trace_rel": 1.969554938700164e-13,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 3585.5849764187055,
+     "static_dev_pr": 10.498538454246404,
+     "static_dev_pt": 2044.4796459508675,
+     "DEC_r_diag": -59.632944933430764,
+     "DEC_t_diag": -89.16319631486407
+    },
+    {
+     "u": 0.5,
+     "x": 3.0,
+     "r0_t": 3.1622776601683795,
+     "rho": 0.00014390062553887762,
+     "pr": -0.00010165074230180443,
+     "pt": 0.0001227756839203399,
+     "flux_hat": 2.1294892225394198e-07,
+     "NEC_radial": 4.18239853925653e-05,
+     "NEC_tangential": 0.0002666763094592175,
+     "SEC": 0.00028780125107775295,
+     "DEC_margin": 0.0,
+     "trace_rel": 1.582220058942294e-14,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 2.4265069364817717e-06,
+     "static_dev_pr": 1.1480842184862869e-05,
+     "static_dev_pt": 3.3306625312185513e-06,
+     "DEC_r_diag": 4.224988323707318e-05,
+     "DEC_t_diag": 2.1124941618537723e-05
+    },
+    {
+     "u": 0.5,
+     "x": 30.0,
+     "r0_t": 3.1622776601683795,
+     "rho": 5.2914280757861595e-09,
+     "pr": -3.5895633318432524e-09,
+     "pt": 4.440495703814705e-09,
+     "flux_hat": 6.182345626259839e-11,
+     "NEC_radial": 1.5782178314177102e-09,
+     "NEC_tangential": 9.731923779600865e-09,
+     "SEC": 1.0582856151572317e-08,
+     "DEC_margin": 0.0,
+     "trace_rel": 3.126492888897981e-16,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 0.0001213384777226089,
+     "static_dev_pr": 0.001216278632807909,
+     "static_dev_pt": 0.0004188756789472209,
+     "DEC_r_diag": 1.7018647439429071e-09,
+     "DEC_t_diag": 8.509323719714544e-10
+    },
+    {
+     "u": 0.5,
+     "x": 1000.0,
+     "r0_t": 3.1622776601683795,
+     "rho": 6.315689391005375e-16,
+     "pr": -7.785814982015023e-16,
+     "pt": 7.050752186510194e-16,
+     "flux_hat": 1.2770101155805585e-17,
+     "NEC_radial": -1.72552761412576e-16,
+     "NEC_tangential": 1.3366441577515569e-15,
+     "SEC": 1.263137878201074e-15,
+     "DEC_margin": -7.350627955048197e-17,
+     "trace_rel": 1.5613119494612993e-15,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 0.19261083211490038,
+     "static_dev_pr": 0.4890263136474488,
+     "static_dev_pt": 0.08047926036766638,
+     "DEC_r_diag": -1.4701255910096484e-16,
+     "DEC_t_diag": -7.350627955048197e-17
+    },
+    {
+     "u": 0.75,
+     "x": 1.001,
+     "r0_t": 6.978305848598664,
+     "rho": -6.867948157258744,
+     "pr": -0.04774454528038826,
+     "pt": -3.410101805982073,
+     "flux_hat": -0.5561842667909906,
+     "NEC_radial": -8.028061236121115,
+     "NEC_tangential": -10.278049963240818,
+     "SEC": -13.735896314503279,
+     "DEC_margin": -10.278049963240818,
+     "trace_rel": 2.0688971484656605e-12,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 9814.481962432727,
+     "static_dev_pr": 89.9692836827525,
+     "static_dev_pt": 5569.9190796031335,
+     "DEC_r_diag": -6.915692702539133,
+     "DEC_t_diag": -10.278049963240818
+    },
+    {
+     "u": 0.75,
+     "x": 3.0,
+     "r0_t": 6.978305848598664,
+     "rho": 6.068279938317072e-06,
+     "pr": -4.286420613866267e-06,
+     "pt": 5.177350276091669e-06,
+     "flux_hat": 1.485917648364644e-08,
+     "NEC_radial": 1.7521409714835124e-06,
+     "NEC_tangential": 1.124563021440874e-05,
+     "SEC": 1.2136559876634143e-05,
+     "DEC_margin": 0.0,
+     "trace_rel": 2.7916739368131707e-16,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 4.309405148693695e-06,
+     "static_dev_pr": 2.4829693386107604e-05,
+     "static_dev_pt": 7.753190476288488e-06,
+     "DEC_r_diag": 1.7818593244508054e-06,
+     "DEC_t_diag": 8.909296622254036e-07
+    },
+    {
+     "u": 0.75,
+     "x": 30.0,
+     "r0_t": 6.978305848598664,
+     "rho": 2.233070750008894e-10,
+     "pr": -1.5076059073699704e-10,
+     "pt": 1.870338328689417e-10,
+     "flux_hat": 4.2365105556017e-12,
+     "NEC_radial": 6.407346315268897e-11,
+     "NEC_tangential": 4.103409078698311e-10,
+     "SEC": 4.4661415000177575e-10,
+     "DEC_margin": 0.0,
+     "trace_rel": 1.3659345583999704e-14,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 0.0006377564529091438,
+     "static_dev_pr": 0.002818730182595795,
+     "static_dev_pt": 0.0007581908612745427,
+     "DEC_r_diag": 7.254648426389236e-11,
+     "DEC_t_diag": 3.627324213194771e-11
+    },
+    {
+     "u": 0.75,
+     "x": 1000.0,
+     "r0_t": 6.978305848598664,
+     "rho": 5.008242506298619e-17,
+     "pr": 3.6963239983021723e-16,
+     "pt": -1.5977498738361486e-16,
+     "flux_hat": -3.6535098355188506e-16,
+     "NEC_radial": -3.109871422105667e-16,
+     "NEC_tangential": -1.0969256232062867e-16,
+     "SEC": 1.0016485012597369e-16,
+     "DEC_margin": -3.1954997476723105e-16,
+     "trace_rel": 2.658023799538999e-14,
+     "B_rth_rel": 0.0,
+     "static_dev_rho": 0.5182647372990072,
+     "static_dev_pr": 17.763639983417,
+     "static_dev_pt": 6.806170384783468,
+     "DEC_r_diag": -3.1954997476723105e-16,
+     "DEC_t_diag": -1.0969256232062867e-16
+    }
+   ]
+  },
+  "pricing": {
+   "1->10": {
+    "E_legal_at_Rb_J": 3.00309032448144e-29,
+    "shell_negative_NEC1_content_J": 6.655622412877818e+44,
+    "ratio_demand_over_legal": 2.2162578190274978e+73
+   },
+   "10->100": {
+    "E_legal_at_Rb_J": 3.0030903244814403e-30,
+    "shell_negative_NEC1_content_J": 6.655622412877819e+43,
+    "ratio_demand_over_legal": 2.216257819027498e+73
+   },
+   "100->1000": {
+    "E_legal_at_Rb_J": 3.0030903244814404e-31,
+    "shell_negative_NEC1_content_J": 6.655622412877816e+42,
+    "ratio_demand_over_legal": 2.216257819027497e+73
+   },
+   "1000->10000": {
+    "E_legal_at_Rb_J": 3.0030903244814404e-32,
+    "shell_negative_NEC1_content_J": 6.655622412877817e+41,
+    "ratio_demand_over_legal": 2.2162578190274975e+73
+   },
+   "10000->100000": {
+    "E_legal_at_Rb_J": 3.0030903244814403e-33,
+    "shell_negative_NEC1_content_J": 6.655622412877817e+40,
+    "ratio_demand_over_legal": 2.2162578190274978e+73
+   },
+   "100000->1e+06": {
+    "E_legal_at_Rb_J": 3.0030903244814403e-34,
+    "shell_negative_NEC1_content_J": 6.655622412877817e+39,
+    "ratio_demand_over_legal": 2.2162578190274978e+73
+   },
+   "1e+06->6.802e+06": {
+    "E_legal_at_Rb_J": 4.415010768129139e-35,
+    "shell_negative_NEC1_content_J": 2.0000671992158184e+38,
+    "ratio_demand_over_legal": 4.53015248264807e+72
+   }
+  },
+  "pricing_note": "Negative-energy content is the shell's integrated NEC1-violating part (common-domain increment contributes 0). Code-unit integral (1/m) converted at c^4/G J per geometric metre. E_legal(L)=(3/(32 pi^2)) hbar c / L at L=Rb. Frozen family exotic content = 0 by legality.",
+  "accretion_law": "NAMED ABSENCE: no conformal-gravity accretion law exists in the sourced literature; the Gonzalez-Diaz/Debnath law is GR-specific and was not borrowed. The in-family increment read stands alone.",
+  "verdict": "GROWABLE-ONLY-EXOTICALLY",
+  "verdict_basis": "Frozen legal at every ladder radius; common-domain increment passes all four ECs at every step; the grown shell (new slice's matter on [r0_j, r0_{j+1}], Phase-30 Class-B read-off) violates NEC1 (and DECt) for r < r0_{j+1}/4 and rho/SEC for r < r0_{j+1}/9 at every step, scale-free. Price table (pricing) is part of the verdict. Dynamic clause: derivation closed; sampled dynamic read passes for x>=3 and fails in the near-throat layer at the registered quasistatic schedule, rate-independence unresolved (follow-up registered)."
+ },
+ "nucleation": {
+  "sourced_search": {
+   "conformal_instantons_exist": "Strominger-Horowitz-Perry, Nucl. Phys. B238 (1984) 653: asymptotically Euclidean instantons of the conformally invariant action, arbitrary Euler number/signature, tunneling between zero-curvature vacua / flat space and topologically non-trivial zero-energy initial data. NOT a throat-creating bounce: no Morris-Thorne handle, action fixed by topological invariants, no throat-radius scaling.",
+   "euclidean_wormhole_class": "Giddings-Strominger axion wormholes (GR + axion): Euclidean, microscopic; O(4) metric of Robertson-Walker form.",
+   "fork": "RW metrics have C_munu_rhosigma = 0 (sourced; verified in-item: Bach engine on a general RW metric returns B == 0 identically). Hence the GS class carries identically zero Weyl action AND is not a solution of the Bach system with its axion matter (B=0 would force T=0). What prices the bounce in the literature is the GR Einstein-Hilbert + axion matter action -- a different theory's action. No conformal-gravity throat instanton/bounce exists on record (Lorentzian Weyl wormholes, e.g. Varieschi-Ault / Heydari-Fard et al., are classical solutions, not nucleation bounces).",
+   "analogue_defensibility": "INDEFENSIBLE for this home: the (H-GR) area law prices an Einstein-Hilbert bounce; the only Euclidean wormhole geometry on record is one on which this home's action vanishes identically and which is not a Bach solution. Borrowing it would price a different theory's process."
+  },
+  "analogue_rejected": {
+   "source": "P28-2 stored (H-GR) area law, phase28/results/p282_results.json",
+   "derivation_class": "B",
+   "fit_C": 3.1415926535897576,
+   "fit_p": 2.0,
+   "S_over_hbar": {
+    "lP": 3.1415926535897576,
+    "1um": 1.2026246738363191e+58,
+    "1mm": 1.2026246738363191e+64,
+    "1m": 1.2026246738363195e+70,
+    "r0star_6.802e6m": 5.564208111981845e+83
+   },
+   "log10_gamma_at_1m": -5.222932596478174e+69,
+   "log10_gamma_at_r0star": -2.416504879195026e+83,
+   "r_where_S_eq_100_m": 9.118742353569788e-35,
+   "status": "REJECTED AS INDEFENSIBLE FOR THIS HOME (see nucleation fork); quoted only to show what borrowing would have said. It is NOT the basis of the verdict."
+  },
+  "verdict": "CLOSED",
+  "verdict_basis": "No coherent instanton/scaling model exists for the home (P28-2 CLOSED vocabulary, second clause): no conformal-gravity throat bounce on record, and the conformally-flat fork makes the (H-GR) analogue (derivation class (B)) indefensible for this home. Deciding clause: the conformally-flat fork."
+ },
+ "formation_clause_replacement": "PRE-EXISTING ONLY. The topology must be in the initial data or the Planck foam; creation is classical topology change, priced by P28-1's E4. Growth: GROWABLE-ONLY-EXOTICALLY (Phase 61 P61-4) \u2014 the frozen T-b family is EC-legal at every radius from 1 m to the tidal-bar radius r0* = 6.802x10^6 m and the common-domain growth increment is EC-legal at every step, but the grown shell at each step carries NEC-violating matter (NEC1 fails for r < r0_{j+1}/4, scale-free; integrated negative-NEC1 content per decade step = 2.22x10^73 x E_legal at that radius, scale-free \u2014 price table in P61-4 memo), so growth from a seed is possible only by accreting exotic matter in the shell layer; the dynamic read at quasistatic rate passes outside the throat layer and fails inside it, rate-independence unresolved. Nucleation: CLOSED for this home (Phase 61 P61-4) \u2014 no conformal-gravity instanton creating a throat exists on record, and the Giddings-Strominger Euclidean wormhole class is conformally flat, so its Weyl action vanishes identically and it is not a solution of the Bach system; the (H-GR) area-law analogue (derivation class (B)) is therefore not borrowed. (V-b) UNDECIDED: Pais\u2013Uhlenbeck spin-2 ghost vs Mannheim PT-symmetric quantisation \u2014 opposed literature positions, B3 NOT COMPUTABLE (Phase 32).",
+ "ledger_standing_changes": false,
+ "standing_test": "Tested, not assumed: formation completes the column only. The row's standing rests on the junction verdict (DOES NOT JOIN, P38-3), the tidal bar (r0* = 6.802x10^6 m) and (V-b) UNDECIDED \u2014 none of which growth or nucleation reads touch. Growth is exotic-only and nucleation is closed, so neither supplies a route that could change the standing. Standing UNCHANGED."
+}
