@@ -1,0 +1,85 @@
+{
+ "anchors": {
+  "i_minkowski_maxAbsG": 8.673617379884035e-19,
+  "i_pass": true,
+  "ii_max_rho_rel_err": 2.1765195178467046e-05,
+  "ii_max_p_abs_err": 1.3899198973942029e-09,
+  "ii_pass": true,
+  "iii_typeI": 1.0,
+  "iii_worst": 2.5926421714079086e-07,
+  "iii_pass": true
+ },
+ "bars_b0.1": {
+  "mine": {
+   "worst": 2.1551044744281435e-07,
+   "core_worst": 3.275795543806546e-06,
+   "core_sampled": 1.5684238218256098e-06,
+   "gate_floor": 1.3899198973942029e-09
+  },
+  "claimed": {
+   "worst": 1.47e-07,
+   "core_worst": 2.94e-06,
+   "core_sampled": 1.75e-06
+  },
+  "bars": {
+   "a_typeI_eq_1": true,
+   "b_all_margins_pos": true,
+   "c_core_sampled_pos": true,
+   "d_worst_ge_3x_floor": true,
+   "d_worst_factor3_vs_claim": true,
+   "e_core_worst_50pct": true,
+   "e_core_sampled_50pct": true,
+   "all_pass": true
+  }
+ },
+ "bars_b0.09": {
+  "mine": {
+   "worst": 2.1655190615349835e-07,
+   "core_worst": 7.92297960669813e-06,
+   "core_sampled": 6.461476242479771e-06,
+   "gate_floor": 1.3899198973942029e-09
+  },
+  "claimed": {
+   "worst": 1.474e-07,
+   "core_worst": 7.7e-06,
+   "core_sampled": 6.64e-06
+  },
+  "bars": {
+   "a_typeI_eq_1": true,
+   "b_all_margins_pos": true,
+   "c_core_sampled_pos": true,
+   "d_worst_ge_3x_floor": true,
+   "d_worst_factor3_vs_claim": true,
+   "e_core_worst_50pct": true,
+   "e_core_sampled_50pct": true,
+   "all_pass": true
+  }
+ },
+ "robustness_summary": {
+  "b0.10_sig_worst": -1.2897748561213925e-05,
+  "b0.10_sig_worst_site": "DEC at r=10.0 exactly (inside-Spp limit)",
+  "b0.10_layer": "DEC < 0 for 10 < r <~ 10.2 (min -1.33e-05 at r=10.01, -1.12e-05 at 10.02, +8.9e-07 at 10.20)",
+  "b0.09_layer": "DEC < 0 only at r=10.0 (inside limit, -7.54e-07) and r=10.02 (-6.7e-08); positive from r=10.05",
+  "tail": "r>=34.5 margins are nonsignificant-scale (<=3.1e-08) representation-level tail values",
+  "FD_corroboration_b0.10_r10.05_worst_pt": {
+   "h0.15": {
+    "dec": 9.4623604660204e-06,
+    "nec": 4.7662634161030436e-05,
+    "typeI": true,
+    "sampled_nec": 3.366646163889912e-05
+   },
+   "h0.075": {
+    "dec": 6.2546198976876975e-06,
+    "nec": 4.2771464924974395e-05,
+    "typeI": true,
+    "sampled_nec": 2.1900506019397886e-05
+   },
+   "h0.0375": {
+    "dec": -1.0705080062337233e-06,
+    "nec": 3.300456268359137e-05,
+    "typeI": true,
+    "sampled_nec": 7.6933577477606e-06
+   }
+  }
+ }
+}
