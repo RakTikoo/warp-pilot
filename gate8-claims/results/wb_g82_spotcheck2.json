@@ -1,0 +1,21 @@
+{
+ "evolution_gate": {
+  "D_throat_y0": 2.8284271247461903,
+  "D_throat_at_yc_mine": 1.1966801030556726,
+  "D_throat_at_yc_record": 1.1966801030556715,
+  "A_throat_at_yc_mine": 0.6593648485051701,
+  "A_throat_at_yc_record": 0.6593648485051706
+ },
+ "original_fields_slab_dense": {
+  "label": "original-dense",
+  "rho_min": -0.005968926984129782,
+  "NEC_min": -0.008504827623466972,
+  "max_abs_T": 0.005968926984129782
+ },
+ "floored_D_slab_dense": {
+  "label": "floored-D-dense",
+  "rho_min": -0.032273319800078915,
+  "NEC_min": -0.402104575822273,
+  "max_abs_T": 0.3698312560221941
+ }
+}
