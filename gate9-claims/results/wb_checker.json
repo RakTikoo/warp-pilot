@@ -1,0 +1,15 @@
+{
+ "anchor_flat_eq_-2": true,
+ "anchor_Tb_10_within_0.1pct": true,
+ "anchor_Tb_100_within_0.1pct": true,
+ "anchor_phi0_identity_residual_zero": true,
+ "anchor_phi0_jump_formula": true,
+ "beta_within_1pct": true,
+ "k_within_2pct": true,
+ "jump_zero_40digit": true,
+ "Rn_within_2pct": true,
+ "S00_within_2pct": true,
+ "S00_sign_positive": true,
+ "primary_radii_no_join": true,
+ "ALL_PASS": true
+}

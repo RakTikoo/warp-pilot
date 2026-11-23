@@ -1,0 +1,95 @@
+{
+ "anchor_ii_Tb": {
+  "components": {
+   "Bt": {
+    "points": [
+     {
+      "r": "3/2",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     },
+     {
+      "r": "2",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     },
+     {
+      "r": "5",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     },
+     {
+      "r": "10",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     }
+    ],
+    "all_zero": true
+   },
+   "Br": {
+    "points": [
+     {
+      "r": "3/2",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     },
+     {
+      "r": "2",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     },
+     {
+      "r": "5",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     },
+     {
+      "r": "10",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     }
+    ],
+    "all_zero": true
+   },
+   "Bth": {
+    "points": [
+     {
+      "r": "3/2",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     },
+     {
+      "r": "2",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     },
+     {
+      "r": "5",
+      "diff50": "0.0",
+      "absdiff": 0.0,
+      "zero50": true
+     },
+     {
+      "r": "10",
+      "diff50": "0",
+      "absdiff": 0.0,
+      "zero50": true
+     }
+    ],
+    "all_zero": true
+   }
+  },
+  "PASS": true,
+  "note": "Bt/Br all points and Bth r=3/2,2,5: 50-digit diffs exactly 0.0 (run stdout); Bth r=10 from wa_tb_last.py; Bt also symbolic simplify diffs == 0 (run v1)."
+ }
+}

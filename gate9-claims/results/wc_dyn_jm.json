@@ -1,0 +1,704 @@
+{
+ "P1_R10": {
+  "averaged_fit": {
+   "null_rowsum_resid_max_over_scan": 1.1843924682154727e-09,
+   "det_max_abs_over_scan": 2.4456760064838687e-11,
+   "null_eigvec_alignment_min": 0.999999999999997,
+   "smallest_physical_eigenvalue_min": 0.004245411313722145,
+   "smallest_physical_eigenvalue_at_x0": 0.004245411313722145,
+   "smallest_physical_eigenvalue_at_x-5": 0.01647638898242372,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "snapshot_fit": {
+   "null_rowsum_resid_max_over_scan": 7.387807032799287e-09,
+   "det_max_abs_over_scan": 3.1458551957645965e-09,
+   "null_eigvec_alignment_min": 0.9999999999999983,
+   "smallest_physical_eigenvalue_min": 0.008490823616557003,
+   "smallest_physical_eigenvalue_at_x0": 0.008490823616557003,
+   "smallest_physical_eigenvalue_at_x-5": 0.23460359033618197,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "fits": {
+   "A": {
+    "averaged_fit": {
+     "A4": 2.9547976957842067e-16,
+     "A2": -1.477200250854035e-15,
+     "A0": 0.01100434340260268
+    },
+    "snapshot_fit": {
+     "A4": 0.0027510860812671374,
+     "A2": -0.013755430406335686,
+     "A0": 0.022008687727670048
+    },
+    "heldout_rel_resid": {
+     "0.5": 7.550950698216603e-14,
+     "1.5": 1.1329578845099047e-12
+    },
+    "snapshot_over_avgF0_ratio": 2.0000000838273264
+   },
+   "B": {
+    "averaged_fit": {
+     "A4": 0.058850908352957226,
+     "A2": -0.012199151132090103,
+     "A0": 0.002871075141225526
+    },
+    "snapshot_fit": {
+     "A4": 0.05956867737897238,
+     "A2": -0.015787996262165885,
+     "A0": 0.005742151245286153
+    },
+    "heldout_rel_resid": {
+     "0.5": 3.797250969414338e-09,
+     "1.5": 1.8414655464383054e-12
+    },
+    "snapshot_over_avgF0_ratio": 2.0000003353569844
+   },
+   "C": {
+    "averaged_fit": {
+     "A4": 0.05885090835092093,
+     "A2": -0.01255046889707513,
+     "A0": 0.01220015937704025
+    },
+    "snapshot_fit": {
+     "A4": 0.06190094818047297,
+     "A2": -0.027800668044835292,
+     "A0": 0.024400318695248384
+    },
+    "heldout_rel_resid": {
+     "0.5": 5.946453495344873e-10,
+     "1.5": 2.1255566758265814e-10
+    },
+    "snapshot_over_avgF0_ratio": 1.9999999951777583
+   },
+   "AB": {
+    "averaged_fit": {
+     "A4": 0.058850908353524245,
+     "A2": -0.012550468919656763,
+     "A0": 0.012200157167284547
+    },
+    "snapshot_fit": {
+     "A4": 0.06190094801348084,
+     "A2": -0.02780066721943976,
+     "A0": 0.024400315807110946
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.000000120698597
+   },
+   "AC": {
+    "averaged_fit": {
+     "A4": 0.058850908354850365,
+     "A2": -0.012199151159080249,
+     "A0": 0.0028710754258380175
+    },
+    "snapshot_fit": {
+     "A4": 0.059568677413752345,
+     "A2": -0.01578799645359018,
+     "A0": 0.005742151661445967
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.0000002820441165
+   },
+   "BC": {
+    "averaged_fit": {
+     "A4": 3.291839593942965e-12,
+     "A2": -3.877864958769686e-11,
+     "A0": 0.011004343243573448
+    },
+    "snapshot_fit": {
+     "A4": 0.0027510860159875475,
+     "A2": -0.01375543010225719,
+     "A0": 0.02200868729435628
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.0000000733537084
+   }
+  }
+ },
+ "P1_R20": {
+  "averaged_fit": {
+   "null_rowsum_resid_max_over_scan": 8.395899080138047e-10,
+   "det_max_abs_over_scan": 2.2262191453508893e-11,
+   "null_eigvec_alignment_min": 0.9999999999999991,
+   "smallest_physical_eigenvalue_min": 0.004264737164045491,
+   "smallest_physical_eigenvalue_at_x0": 0.004264737164045491,
+   "smallest_physical_eigenvalue_at_x-5": 0.016557349956445973,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "snapshot_fit": {
+   "null_rowsum_resid_max_over_scan": 1.0020695384582723e-08,
+   "det_max_abs_over_scan": 3.9653549647676084e-09,
+   "null_eigvec_alignment_min": 0.9999999999999992,
+   "smallest_physical_eigenvalue_min": 0.008529473876928794,
+   "smallest_physical_eigenvalue_at_x0": 0.008529473876928794,
+   "smallest_physical_eigenvalue_at_x-5": 0.23668348048741136,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "fits": {
+   "A": {
+    "averaged_fit": {
+     "A4": 1.0080281652036985e-15,
+     "A2": -5.039985140451642e-15,
+     "A0": 0.011040272088433327
+    },
+    "snapshot_fit": {
+     "A4": 0.002760068166205133,
+     "A2": -0.013800340831025664,
+     "A0": 0.022080544753249828
+    },
+    "heldout_rel_resid": {
+     "0.5": 2.567453172387687e-13,
+     "1.5": 3.851965392953137e-12
+    },
+    "snapshot_over_avgF0_ratio": 2.000000052207334
+   },
+   "B": {
+    "averaged_fit": {
+     "A4": 0.07292709673642206,
+     "A2": -0.01297161327970242,
+     "A0": 0.002882119041247413
+    },
+    "snapshot_fit": {
+     "A4": 0.07364762633050805,
+     "A2": -0.016574261250132328,
+     "A0": 0.005764237417591341
+    },
+    "heldout_rel_resid": {
+     "0.5": 6.432661876571097e-09,
+     "1.5": 8.467031278407441e-11
+    },
+    "snapshot_over_avgF0_ratio": 1.999999769300478
+   },
+   "C": {
+    "averaged_fit": {
+     "A4": 0.07292709673805867,
+     "A2": -0.0118897206207071,
+     "A0": 0.012209485688322991
+    },
+    "snapshot_fit": {
+     "A4": 0.07597946815368446,
+     "A2": -0.027151577698836162,
+     "A0": 0.024418971350826244
+    },
+    "heldout_rel_resid": {
+     "0.5": 1.0895393323664503e-09,
+     "1.5": 6.327595257434375e-11
+    },
+    "snapshot_over_avgF0_ratio": 1.9999999978852723
+   },
+   "AB": {
+    "averaged_fit": {
+     "A4": 0.07292709673648638,
+     "A2": -0.011889720601063622,
+     "A0": 0.012209484702029288
+    },
+    "snapshot_fit": {
+     "A4": 0.07597946796098905,
+     "A2": -0.027151576723576997,
+     "A0": 0.02441896960003999
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.000000016051571
+   },
+   "AC": {
+    "averaged_fit": {
+     "A4": 0.07292709673605216,
+     "A2": -0.012971613285256579,
+     "A0": 0.002882118467362241
+    },
+    "snapshot_fit": {
+     "A4": 0.07364762647368715,
+     "A2": -0.01657426197343147,
+     "A0": 0.005764237417902159
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.0000001676467094
+   },
+   "BC": {
+    "averaged_fit": {
+     "A4": 4.4931565718205813e-13,
+     "A2": -7.672995568902048e-12,
+     "A0": 0.011040272651028867
+    },
+    "snapshot_fit": {
+     "A4": 0.0027600679961151753,
+     "A2": -0.013800339986002294,
+     "A0": 0.022080544633692304
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 1.9999999394611483
+   }
+  }
+ },
+ "P1_R30": {
+  "averaged_fit": {
+   "null_rowsum_resid_max_over_scan": 5.757287979690773e-10,
+   "det_max_abs_over_scan": 2.6933814310245054e-11,
+   "null_eigvec_alignment_min": 0.9999999999999989,
+   "smallest_physical_eigenvalue_min": 0.00426556018760345,
+   "smallest_physical_eigenvalue_at_x0": 0.00426556018760345,
+   "smallest_physical_eigenvalue_at_x-5": 0.016561312013173363,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "snapshot_fit": {
+   "null_rowsum_resid_max_over_scan": 1.1380979714203932e-08,
+   "det_max_abs_over_scan": 2.1665637538256987e-09,
+   "null_eigvec_alignment_min": 0.9999999999999971,
+   "smallest_physical_eigenvalue_min": 0.008531120215611969,
+   "smallest_physical_eigenvalue_at_x0": 0.008531120215611969,
+   "smallest_physical_eigenvalue_at_x-5": 0.2369910098083403,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "fits": {
+   "A": {
+    "averaged_fit": {
+     "A4": 4.0566458685892616e-17,
+     "A2": -2.0261236258987263e-16,
+     "A0": 0.011041979718281796
+    },
+    "snapshot_fit": {
+     "A4": 0.002760495077656455,
+     "A2": -0.013802475388282274,
+     "A0": 0.022083960028907453
+    },
+    "heldout_rel_resid": {
+     "0.5": 1.0211667546518537e-14,
+     "1.5": 1.5506024412942022e-13
+    },
+    "snapshot_over_avgF0_ratio": 2.000000053644716
+   },
+   "B": {
+    "averaged_fit": {
+     "A4": 0.07804760824379012,
+     "A2": -0.013068247548729641,
+     "A0": 0.002882581924911722
+    },
+    "snapshot_fit": {
+     "A4": 0.07876825363678622,
+     "A2": -0.016671474513710132,
+     "A0": 0.005765163496896116
+    },
+    "heldout_rel_resid": {
+     "0.5": 5.023508759531689e-09,
+     "1.5": 2.998787065236466e-11
+    },
+    "snapshot_over_avgF0_ratio": 1.9999998775655516
+   },
+   "C": {
+    "averaged_fit": {
+     "A4": 0.07804760824547005,
+     "A2": -0.0117989478938677,
+     "A0": 0.012209945286171585
+    },
+    "snapshot_fit": {
+     "A4": 0.08110009456140686,
+     "A2": -0.02706137947355178,
+     "A0": 0.024419890549918853
+    },
+    "heldout_rel_resid": {
+     "0.5": 1.7133050051866663e-09,
+     "1.5": 3.5137147191316344e-11
+    },
+    "snapshot_over_avgF0_ratio": 1.9999999981634384
+   },
+   "AB": {
+    "averaged_fit": {
+     "A4": 0.07804760824382286,
+     "A2": -0.011798947879658885,
+     "A0": 0.012209944450143275
+    },
+    "snapshot_fit": {
+     "A4": 0.08110009445267179,
+     "A2": -0.027061378923903548,
+     "A0": 0.02441988928553901
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.0000000315523514
+   },
+   "AC": {
+    "averaged_fit": {
+     "A4": 0.07804760824186856,
+     "A2": -0.013068247520491757,
+     "A0": 0.002882582056833626
+    },
+    "snapshot_fit": {
+     "A4": 0.07876825393560953,
+     "A2": -0.016671475989196636,
+     "A0": 0.005765164831797529
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.000000249127436
+   },
+   "BC": {
+    "averaged_fit": {
+     "A4": 1.2810779557514038e-12,
+     "A2": -2.049150226946477e-12,
+     "A0": 0.01104197947280435
+    },
+    "snapshot_fit": {
+     "A4": 0.002760494785830927,
+     "A2": -0.013802473924798395,
+     "A0": 0.022083958611003745
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 1.9999999696970134
+   }
+  }
+ },
+ "P2_R10": {
+  "averaged_fit": {
+   "null_rowsum_resid_max_over_scan": 1.227304952111652e-09,
+   "det_max_abs_over_scan": 1.4056509893535311e-12,
+   "null_eigvec_alignment_min": 0.999999999999951,
+   "smallest_physical_eigenvalue_min": 0.0012174053847267233,
+   "smallest_physical_eigenvalue_at_x0": 0.0012174053847267233,
+   "smallest_physical_eigenvalue_at_x-5": 0.00822870872031158,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "snapshot_fit": {
+   "null_rowsum_resid_max_over_scan": 2.1306459069281303e-08,
+   "det_max_abs_over_scan": 2.4850088675381944e-10,
+   "null_eigvec_alignment_min": 0.9999999999999937,
+   "smallest_physical_eigenvalue_min": 0.002434811990295628,
+   "smallest_physical_eigenvalue_at_x0": 0.002434811990295628,
+   "smallest_physical_eigenvalue_at_x-5": 0.1074408879609846,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "fits": {
+   "A": {
+    "averaged_fit": {
+     "A4": 8.251654755083236e-17,
+     "A2": -4.127623469425684e-16,
+     "A0": 0.005728022240520974
+    },
+    "snapshot_fit": {
+     "A4": 0.0014320054163110987,
+     "A2": -0.0071600270815554935,
+     "A0": 0.011456043905765038
+    },
+    "heldout_rel_resid": {
+     "0.5": 4.058171145644217e-14,
+     "1.5": 6.075142774744485e-13
+    },
+    "snapshot_over_avgF0_ratio": 1.9999998995679686
+   },
+   "B": {
+    "averaged_fit": {
+     "A4": 0.005687645867646481,
+     "A2": -0.0013856586341287204,
+     "A0": 0.0008143204007728872
+    },
+    "snapshot_fit": {
+     "A4": 0.005891226400590345,
+     "A2": -0.0024035612988480438,
+     "A0": 0.0016286425325483462
+    },
+    "heldout_rel_resid": {
+     "0.5": 4.2700048972212896e-08,
+     "1.5": 2.778067408085624e-10
+    },
+    "snapshot_over_avgF0_ratio": 2.0000021257020824
+   },
+   "C": {
+    "averaged_fit": {
+     "A4": 0.005687645868440999,
+     "A2": -0.0028630674302124177,
+     "A0": 0.00549957185802566
+    },
+    "snapshot_fit": {
+     "A4": 0.007062538826416519,
+     "A2": -0.009737532220090014,
+     "A0": 0.010999143689927736
+    },
+    "heldout_rel_resid": {
+     "0.5": 1.884447168564125e-09,
+     "1.5": 1.2578434008839345e-10
+    },
+    "snapshot_over_avgF0_ratio": 1.9999999952498877
+   },
+   "AB": {
+    "averaged_fit": {
+     "A4": 0.005687645868019191,
+     "A2": -0.0028630674284824227,
+     "A0": 0.00549957013000043
+    },
+    "snapshot_fit": {
+     "A4": 0.0070625385391188955,
+     "A2": -0.009737530783980953,
+     "A0": 0.010999140814399256
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.000000100807587
+   },
+   "AC": {
+    "averaged_fit": {
+     "A4": 0.00568764587109292,
+     "A2": -0.0013856586823966996,
+     "A0": 0.000814320871761781
+    },
+    "snapshot_fit": {
+     "A4": 0.00589122591935357,
+     "A2": -0.0024035589236999547,
+     "A0": 0.001628641064804385
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 1.9999991665212073
+   },
+   "BC": {
+    "averaged_fit": {
+     "A4": -2.440545299469031e-12,
+     "A2": 2.81385974375198e-11,
+     "A0": 0.005728021734842242
+    },
+    "snapshot_fit": {
+     "A4": 0.001432005871416682,
+     "A2": -0.007160029341147539,
+     "A0": 0.011456045230271151
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.000000307363824
+   }
+  }
+ },
+ "P2_R20": {
+  "averaged_fit": {
+   "null_rowsum_resid_max_over_scan": 9.745194928800771e-10,
+   "det_max_abs_over_scan": 1.7222420556547263e-13,
+   "null_eigvec_alignment_min": 0.9999999999999346,
+   "smallest_physical_eigenvalue_min": 0.0012175805464631508,
+   "smallest_physical_eigenvalue_at_x0": 0.0012175805464631508,
+   "smallest_physical_eigenvalue_at_x-5": 0.008240518590424298,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "snapshot_fit": {
+   "null_rowsum_resid_max_over_scan": 1.1270320426914893e-08,
+   "det_max_abs_over_scan": 2.6699103512194605e-10,
+   "null_eigvec_alignment_min": 0.9999999999999643,
+   "smallest_physical_eigenvalue_min": 0.0024351610820338237,
+   "smallest_physical_eigenvalue_at_x0": 0.0024351610820338237,
+   "smallest_physical_eigenvalue_at_x-5": 0.10775512211687704,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "fits": {
+   "A": {
+    "averaged_fit": {
+     "A4": -2.5967593523322048e-14,
+     "A2": 1.2983782227120291e-13,
+     "A0": 0.005729099119824743
+    },
+    "snapshot_fit": {
+     "A4": 0.0014322751284130688,
+     "A2": -0.007161375642065344,
+     "A0": 0.011458199633580888
+    },
+    "heldout_rel_resid": {
+     "0.5": 1.2747831994746426e-11,
+     "1.5": 1.912183883308675e-10
+    },
+    "snapshot_over_avgF0_ratio": 2.000000243307259
+   },
+   "B": {
+    "averaged_fit": {
+     "A4": 0.0057685276327691,
+     "A2": -0.0013920293481923347,
+     "A0": 0.0008144513299857325
+    },
+    "snapshot_fit": {
+     "A4": 0.005972140465820983,
+     "A2": -0.002410093513451754,
+     "A0": 0.001628902662193268
+    },
+    "heldout_rel_resid": {
+     "0.5": 2.8084355865215124e-08,
+     "1.5": 1.2115126390675243e-09
+    },
+    "snapshot_over_avgF0_ratio": 2.000000002727975
+   },
+   "C": {
+    "averaged_fit": {
+     "A4": 0.00576852762888939,
+     "A2": -0.0028510385041243466,
+     "A0": 0.005500076757951937
+    },
+    "snapshot_fit": {
+     "A4": 0.007143546830895969,
+     "A2": -0.00972613451415724,
+     "A0": 0.011000153565978252
+    },
+    "heldout_rel_resid": {
+     "0.5": 2.29675145292444e-09,
+     "1.5": 1.0769490997452344e-09
+    },
+    "snapshot_over_avgF0_ratio": 2.0000000091043053
+   },
+   "AB": {
+    "averaged_fit": {
+     "A4": 0.005768527632796723,
+     "A2": -0.002851038535809517,
+     "A0": 0.0055000762578006485
+    },
+    "snapshot_fit": {
+     "A4": 0.007143547211185732,
+     "A2": -0.009726136427754564,
+     "A0": 0.011000154571356686
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.0000003737685246
+   },
+   "AC": {
+    "averaged_fit": {
+     "A4": 0.005768527633066365,
+     "A2": -0.0013920293528438688,
+     "A0": 0.0008144498810980359
+    },
+    "snapshot_fit": {
+     "A4": 0.005972140440555958,
+     "A2": -0.0024100933902918343,
+     "A0": 0.0016289011110564087
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.000001656161255
+   },
+   "BC": {
+    "averaged_fit": {
+     "A4": 9.71593175676796e-13,
+     "A2": -1.05370404669497e-11,
+     "A0": 0.005729100507599323
+    },
+    "snapshot_fit": {
+     "A4": 0.0014322751478177357,
+     "A2": -0.007161375744767753,
+     "A0": 0.011458201094983893
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.000000013926313
+   }
+  }
+ },
+ "P2_R30": {
+  "averaged_fit": {
+   "null_rowsum_resid_max_over_scan": 3.789045465189475e-10,
+   "det_max_abs_over_scan": 7.173386451115984e-14,
+   "null_eigvec_alignment_min": 0.9999999999999898,
+   "smallest_physical_eigenvalue_min": 0.0012175837238155118,
+   "smallest_physical_eigenvalue_at_x0": 0.0012175837238155118,
+   "smallest_physical_eigenvalue_at_x-5": 0.008241265311199876,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "snapshot_fit": {
+   "null_rowsum_resid_max_over_scan": 6.203599162146745e-10,
+   "det_max_abs_over_scan": 9.1955627690172e-12,
+   "null_eigvec_alignment_min": 0.9999999999999978,
+   "smallest_physical_eigenvalue_min": 0.0024351678619619114,
+   "smallest_physical_eigenvalue_at_x0": 0.0024351678619619114,
+   "smallest_physical_eigenvalue_at_x-5": 0.1077849596008711,
+   "physical_eigenvalue_zero_crossings_in_[-5,0]": [],
+   "n_scan_points_lambda_phys_negative": 0
+  },
+  "fits": {
+   "A": {
+    "averaged_fit": {
+     "A4": -1.4390983977296712e-16,
+     "A2": 7.196458580381768e-16,
+     "A0": 0.005729123024571458
+    },
+    "snapshot_fit": {
+     "A4": 0.0014322807806445366,
+     "A2": -0.0071614039032226835,
+     "A0": 0.011458246147150181
+    },
+    "heldout_rel_resid": {
+     "0.5": 7.070155936664361e-14,
+     "1.5": 1.0596150192882993e-12
+    },
+    "snapshot_over_avgF0_ratio": 2.000000017106853
+   },
+   "B": {
+    "averaged_fit": {
+     "A4": 0.005777516561897586,
+     "A2": -0.0013922539567724703,
+     "A0": 0.0008144529683079551
+    },
+    "snapshot_fit": {
+     "A4": 0.00598112993047337,
+     "A2": -0.002410320799651391,
+     "A0": 0.0016289064426110922
+    },
+    "heldout_rel_resid": {
+     "0.5": 2.7072995322922376e-08,
+     "1.5": 6.164163248764338e-11
+    },
+    "snapshot_over_avgF0_ratio": 2.000000621269983
+   },
+   "C": {
+    "averaged_fit": {
+     "A4": 0.00577751656180569,
+     "A2": -0.0028506008952122034,
+     "A0": 0.005500095956643647
+    },
+    "snapshot_fit": {
+     "A4": 0.007152540523513178,
+     "A2": -0.00972572070374965,
+     "A0": 0.011000191803473607
+    },
+    "heldout_rel_resid": {
+     "0.5": 6.727517250173784e-09,
+     "1.5": 5.643965245773878e-10
+    },
+    "snapshot_over_avgF0_ratio": 1.9999999800342234
+   },
+   "AB": {
+    "averaged_fit": {
+     "A4": 0.005777516561423993,
+     "A2": -0.0028506008920570983,
+     "A0": 0.005500095553305617
+    },
+    "snapshot_fit": {
+     "A4": 0.0071525405207700475,
+     "A2": -0.009725720688787376,
+     "A0": 0.01100019139068984
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.0000000516497582
+   },
+   "AC": {
+    "averaged_fit": {
+     "A4": 0.005777516562641362,
+     "A2": -0.0013922539627370292,
+     "A0": 0.0008144533284354774
+    },
+    "snapshot_fit": {
+     "A4": 0.0059811299109747175,
+     "A2": -0.002410320704403809,
+     "A0": 0.0016289067217689012
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.0000000796828306
+   },
+   "BC": {
+    "averaged_fit": {
+     "A4": 4.815140310475126e-12,
+     "A2": -4.551585774401714e-11,
+     "A0": 0.005729122670100395
+    },
+    "snapshot_fit": {
+     "A4": 0.0014322807959824867,
+     "A2": -0.0071614040013525905,
+     "A0": 0.011458245834769782
+    },
+    "heldout_rel_resid": {},
+    "snapshot_over_avgF0_ratio": 2.0000000863254326
+   }
+  }
+ }
+}

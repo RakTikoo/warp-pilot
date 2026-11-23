@@ -1,0 +1,6 @@
+{
+ "trig_factor": "-sin(2*th)*tan(th) - cos(2*th) + 1",
+ "fu_reduction": "0",
+ "numeric_at_0.7": -1.1102230246251565e-16,
+ "identically_zero": true
+}

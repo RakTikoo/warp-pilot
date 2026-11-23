@@ -1,0 +1,87 @@
+{
+ "worker": "W-D",
+ "claim": "G9-4",
+ "engine": "W-D fresh wd_derive.py jet formulas",
+ "trace_symbolic_from_derivation": "0",
+ "anchors": {
+  "schwarzschild_max_abs_B": 0.0,
+  "MK_max_abs_B": 8.91494285800339e-17,
+  "MK_scale_r^-4": 0.0016,
+  "Tb_closed_form_max_rel_dev": 2.0466324434301713e-16,
+  "Tb_throat_NEC1_Bconvention": 0.10416666666666663,
+  "PASS": true
+ },
+ "frozen_r0=1_minima_supporting": {
+  "rho": 6.2751355000785765e-15,
+  "NEC1": 1.229851131765379e-15,
+  "NEC2": 1.1935345434274466e-14,
+  "SEC": 1.255027100015716e-14,
+  "DECr": 1.229851131765379e-15,
+  "DECt": 6.149255658826864e-16
+ },
+ "frozen_r0=1_all_positive_supporting": true,
+ "clause_a_covariance_max_rel_dev": {
+  "r0=10": 5.180280268667493e-13,
+  "r0=1000": 1.3061794033803128e-12
+ },
+ "clause_a_PASS": true,
+ "clause_b_delta_minima_Rb^-4": {
+  "rho": 2.5896252183315066e-15,
+  "NEC1": -0.016679355263679,
+  "NEC2": 4.850255794725805e-15,
+  "SEC": 5.179250436663023e-15,
+  "DECr": -0.016679355263679,
+  "DECt": -0.00833967763183816
+ },
+ "clause_b_dNEC1_min_scaled": -0.016679355263679,
+ "clause_b_layer": [
+  1.0,
+  1.0034815202679233
+ ],
+ "clause_b_failing_combos": [
+  "NEC1",
+  "DECr",
+  "DECt"
+ ],
+ "clause_b_layer_integral_code_per_m": -0.00014461507099631675,
+ "clause_b_E_legal_at_10m_J": 3.00309032448144e-29,
+ "clause_b_layer_price_ratio": 5.828036304258646e+68,
+ "clause_b_PASS": true,
+ "clause_c_analytic": "Phi2 = a*L/(1+L), L=ln(xb); denominator 1+L=0 at L=-1, i.e. xb=e^-1 exactly.",
+ "clause_c_NEC1_probes_40digit": {
+  "e^-1(1-1e-3)": "-6.58154461639e+21",
+  "e^-1(1-1e-6)": "-6.64506547545e+42",
+  "0.99": "-0.0500024683181"
+ },
+ "clause_c_pole_order_fit": 7.008632976192536,
+ "clause_c_pole_fit_points": {
+  "0.01": 593508472598936.8,
+  "0.003": 2.949030504042758e+18,
+  "0.001": 6.58154461638516e+21,
+  "0.0003": 3.0298223660197166e+25,
+  "0.0001": 6.638842002370223e+28,
+  "3e-05": 3.0376058801620155e+32,
+  "1e-05": 6.644500352482158e+35
+ },
+ "clause_c_shell_price_lower_bounds": {
+  "eps=0.01": {
+   "integral_code_per_m": -1718361742081.8774,
+   "ratio_lower_bound": 6.925055976328622e+84
+  },
+  "eps=0.001": {
+   "integral_code_per_m": -1.8179992175447575e+18,
+   "ratio_lower_bound": 7.32659837454598e+90
+  },
+  "eps=0.0001": {
+   "integral_code_per_m": -4.2448250813417415e+23,
+   "ratio_lower_bound": 1.7106788738441663e+96
+  }
+ },
+ "clause_c_price_factors_vs_stored": [
+  1.0000080832243496,
+  0.9999451855528839,
+  0.999812316682739
+ ],
+ "clause_c_strictly_increasing": true,
+ "clause_c_PASS": true
+}

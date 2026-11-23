@@ -1,0 +1,358 @@
+{
+ "item": "G9-3 (W-C) \u2014 stability of the conformal joining member interior background",
+ "venv_python": "~/workspace/warp-pilot/venv/bin/python",
+ "checks": {
+  "regate_P1_R10_within_5pct_of_0.00265284": {
+   "pass": true,
+   "detail": 0.0026528417913793652
+  },
+  "regate_P2_R10_within_5pct_of_0.00087671": {
+   "pass": true,
+   "detail": 0.000876709357515032
+  },
+  "regate_Tb_no_zero_crossing": {
+   "pass": true,
+   "detail": {
+    "crossings": 0,
+    "neg_points": 0
+   }
+  },
+  "regate_Tb_gauge_anatomy_structural": {
+   "pass": true,
+   "detail": {
+    "det_max_abs": 3.1446261071065677e-09,
+    "rowsum_resid_max": 1.0430169172792603e-08,
+    "alignment_min": 0.9999999999999337
+   }
+  },
+  "static_trace_zero_numeric_random_jets": {
+   "pass": true,
+   "detail": 1.9984014443252818e-15
+  },
+  "static_Tb_control_vs_closed_forms": {
+   "pass": true,
+   "detail": 9.926167350636332e-15
+  },
+  "static_member_float64_traces": {
+   "pass": true,
+   "detail": {
+    "delta_b": 1.3877787807814457e-11,
+    "delta_P": 2.4147350785597155e-11
+   }
+  },
+  "static_member_mp40_traces_below_1e-25": {
+   "pass": true,
+   "detail": 3.128146588e-34
+  },
+  "static_mp40_at_least_6_radii": {
+   "pass": true,
+   "detail": 6
+  },
+  "static_member_background_B_vs_stored": {
+   "pass": true,
+   "detail": 2.6588141450776812e-14
+  },
+  "dynamic_member_no_zero_crossing_registered_grid": {
+   "pass": true,
+   "detail": {
+    "crossings": 0,
+    "neg_points": 0
+   }
+  },
+  "dynamic_member_P2avg_within_factor2_of_0.00121741": {
+   "pass": true,
+   "detail": 0.0012174053847267233
+  },
+  "dynamic_member_P1avg_within_factor2_of_0.00424541": {
+   "pass": true,
+   "detail": 0.004245411313722145
+  },
+  "dynamic_member_smallest_physical_eigenvalue_positive": {
+   "pass": true,
+   "detail": 0.0012174053847267233
+  },
+  "dynamic_member_gauge_anatomy_structural": {
+   "pass": true,
+   "detail": {
+    "det_max_abs": 3.9653549647676084e-09,
+    "rowsum_resid_max": 2.1306459069281303e-08
+   }
+  },
+  "symbol_gauge_nullspace_exact_5": {
+   "pass": true,
+   "detail": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  "symbol_rank5_off_cone": {
+   "pass": true,
+   "detail": {
+    "w2k1": 5,
+    "w3k1": 5
+   }
+  },
+  "symbol_physical_eigenvalues_proportional_Q2": {
+   "pass": true,
+   "detail": {
+    "w2k1": {
+     "-9/4": 5,
+     "0": 5
+    },
+    "w3k1": {
+     "-16": 5,
+     "0": 5
+    }
+   }
+  },
+  "symbol_on_cone_no_nonzero_eigenvalue": {
+   "pass": true,
+   "detail": {
+    "0": 10
+   }
+  },
+  "symbol_TT_eigenvalue_Q2_factorised": {
+   "pass": true,
+   "detail": {
+    "eigenvalue": "-(-k + w)**2*(k + w)**2/4",
+    "is_eigenvector": true
+   }
+  }
+ },
+ "all_pass": true,
+ "regate_Tb": {
+  "P1_R10_avg": 0.0026528417913793652,
+  "P2_R10_avg": 0.000876709357515032,
+  "blocks": {
+   "P1_R10": {
+    "averaged_fit": {
+     "min_phys": 0.0026528417913793652,
+     "crossings": [],
+     "det_max": 4.160117664225377e-12,
+     "rowsum_max": 5.809016726844585e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.005305682555311943,
+     "crossings": [],
+     "det_max": 1.786279267210791e-09,
+     "rowsum_max": 8.958359387634118e-09
+    }
+   },
+   "P1_R20": {
+    "averaged_fit": {
+     "min_phys": 0.0026671074229840685,
+     "crossings": [],
+     "det_max": 3.067161738664046e-12,
+     "rowsum_max": 6.589722456942781e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.005334215391489086,
+     "crossings": [],
+     "det_max": 8.821033531075438e-10,
+     "rowsum_max": 2.698459233840822e-09
+    }
+   },
+   "P1_R30": {
+    "averaged_fit": {
+     "min_phys": 0.0026678090638160602,
+     "crossings": [],
+     "det_max": 1.8068329593394123e-12,
+     "rowsum_max": 2.3724844311345805e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.005335618516435126,
+     "crossings": [],
+     "det_max": 3.1446261071065677e-09,
+     "rowsum_max": 1.0430169172792603e-08
+    }
+   },
+   "P2_R10": {
+    "averaged_fit": {
+     "min_phys": 0.000876709357515032,
+     "crossings": [],
+     "det_max": 1.991111471512509e-13,
+     "rowsum_max": 5.273831926722039e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.0017534178419358767,
+     "crossings": [],
+     "det_max": 5.678565923057996e-11,
+     "rowsum_max": 6.6451799063393935e-09
+    }
+   },
+   "P2_R20": {
+    "averaged_fit": {
+     "min_phys": 0.000876873300458329,
+     "crossings": [],
+     "det_max": 5.87575217137602e-13,
+     "rowsum_max": 6.902526005197335e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.0017537467001954065,
+     "crossings": [],
+     "det_max": 8.87675415235917e-11,
+     "rowsum_max": 8.259331996107733e-09
+    }
+   },
+   "P2_R30": {
+    "averaged_fit": {
+     "min_phys": 0.0008768767323317112,
+     "crossings": [],
+     "det_max": 1.3729327617235564e-13,
+     "rowsum_max": 3.183734387235404e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.0017537534153499238,
+     "crossings": [],
+     "det_max": 1.8468717062582887e-11,
+     "rowsum_max": 2.7569709848407342e-09
+    }
+   }
+  }
+ },
+ "dynamic_member": {
+  "P1_R10_avg": 0.004245411313722145,
+  "P2_R10_avg": 0.0012174053847267233,
+  "min_all_blocks": 0.0012174053847267233,
+  "blocks": {
+   "P1_R10": {
+    "averaged_fit": {
+     "min_phys": 0.004245411313722145,
+     "crossings": [],
+     "det_max": 2.4456760064838687e-11,
+     "rowsum_max": 1.1843924682154727e-09
+    },
+    "snapshot_fit": {
+     "min_phys": 0.008490823616557003,
+     "crossings": [],
+     "det_max": 3.1458551957645965e-09,
+     "rowsum_max": 7.387807032799287e-09
+    }
+   },
+   "P1_R20": {
+    "averaged_fit": {
+     "min_phys": 0.004264737164045491,
+     "crossings": [],
+     "det_max": 2.2262191453508893e-11,
+     "rowsum_max": 8.395899080138047e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.008529473876928794,
+     "crossings": [],
+     "det_max": 3.9653549647676084e-09,
+     "rowsum_max": 1.0020695384582723e-08
+    }
+   },
+   "P1_R30": {
+    "averaged_fit": {
+     "min_phys": 0.00426556018760345,
+     "crossings": [],
+     "det_max": 2.6933814310245054e-11,
+     "rowsum_max": 5.757287979690773e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.008531120215611969,
+     "crossings": [],
+     "det_max": 2.1665637538256987e-09,
+     "rowsum_max": 1.1380979714203932e-08
+    }
+   },
+   "P2_R10": {
+    "averaged_fit": {
+     "min_phys": 0.0012174053847267233,
+     "crossings": [],
+     "det_max": 1.4056509893535311e-12,
+     "rowsum_max": 1.227304952111652e-09
+    },
+    "snapshot_fit": {
+     "min_phys": 0.002434811990295628,
+     "crossings": [],
+     "det_max": 2.4850088675381944e-10,
+     "rowsum_max": 2.1306459069281303e-08
+    }
+   },
+   "P2_R20": {
+    "averaged_fit": {
+     "min_phys": 0.0012175805464631508,
+     "crossings": [],
+     "det_max": 1.7222420556547263e-13,
+     "rowsum_max": 9.745194928800771e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.0024351610820338237,
+     "crossings": [],
+     "det_max": 2.6699103512194605e-10,
+     "rowsum_max": 1.1270320426914893e-08
+    }
+   },
+   "P2_R30": {
+    "averaged_fit": {
+     "min_phys": 0.0012175837238155118,
+     "crossings": [],
+     "det_max": 7.173386451115984e-14,
+     "rowsum_max": 3.789045465189475e-10
+    },
+    "snapshot_fit": {
+     "min_phys": 0.0024351678619619114,
+     "crossings": [],
+     "det_max": 9.1955627690172e-12,
+     "rowsum_max": 6.203599162146745e-10
+    }
+   }
+  }
+ },
+ "static_member": {
+  "float64_max_trace_delta_b": 1.3877787807814457e-11,
+  "float64_max_trace_delta_P": 2.4147350785597155e-11,
+  "mp40_max_abs_trace": 3.128146588e-34,
+  "mp40_traces": {
+   "1.05": {
+    "delta_b": "-3.128146588e-34",
+    "delta_P": "2.999002921e-34"
+   },
+   "1.5": {
+    "delta_b": "-1.004450739e-35",
+    "delta_P": "4.304788882e-36"
+   },
+   "2": {
+    "delta_b": "-9.865141189e-37",
+    "delta_P": "-1.883345136e-36"
+   },
+   "10": {
+    "delta_b": "-4.182000104e-39",
+    "delta_P": "-2.167633562e-39"
+   },
+   "100": {
+    "delta_b": "7.283283835e-44",
+    "delta_P": "-1.20274412e-44"
+   },
+   "1000": {
+    "delta_b": "1.341765731e-47",
+    "delta_P": "4.690062586e-48"
+   }
+  },
+  "background_B_rel_err_vs_stored": 2.6588141450776812e-14,
+  "normalisation_factor": 1.0,
+  "Tb_control_max_rel_err": 9.926167350636332e-15
+ },
+ "symbol": {
+  "gauge_null_exact": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "rank_off_cone": 5,
+  "physical_eigenvalue_my_normalisation": "-Q^2/4 (x5), Q = w^2 - k^2",
+  "TT_eigenvalue": "-(-k + w)**2*(k + w)**2/4",
+  "scalar_sector_eigenvalues": {
+   "-(-k + w)**2*(k + w)**2/4": 1,
+   "0": 3
+  },
+  "on_cone_rank": 1
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "gauge_null_directions_exact": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "points": {
+  "w2_k1": {
+   "rank": 5,
+   "eigenvalues": {
+    "-9/4": 5,
+    "0": 5
+   },
+   "Q": 3
+  },
+  "w3_k1": {
+   "rank": 5,
+   "eigenvalues": {
+    "-16": 5,
+    "0": 5
+   },
+   "Q": 8
+  },
+  "w2_k2": {
+   "rank": 1,
+   "eigenvalues": {
+    "0": 10
+   },
+   "Q": 0
+  }
+ },
+ "sectors_direct": {
+  "TT_xy": {
+   "eigenvalue": "-(-k + w)**2*(k + w)**2/4",
+   "is_eigenvector": true
+  },
+  "TT_xx-yy": {
+   "eigenvalue": "-(-k + w)**2*(k + w)**2/4",
+   "is_eigenvector": true
+  },
+  "vector_xz": {
+   "eigenvalue": "-w**2*(-k + w)*(k + w)/4",
+   "is_eigenvector": false
+  }
+ },
+ "scalar_sector_matrix": [
+  [
+   "-k**4/6",
+   "-k**3*w/3",
+   "-k**2*w**2/6",
+   "k**2*(-k + w)*(k + w)/6"
+  ],
+  [
+   "k**3*w/6",
+   "k**2*w**2/3",
+   "k*w**3/6",
+   "-k*w*(-k + w)*(k + w)/6"
+  ],
+  [
+   "-k**2*w**2/6",
+   "-k*w**3/3",
+   "-w**4/6",
+   "w**2*(-k + w)*(k + w)/6"
+  ],
+  [
+   "k**2*(-k + w)*(k + w)/12",
+   "k*w*(-k + w)*(k + w)/6",
+   "w**2*(-k + w)*(k + w)/12",
+   "-(-k + w)**2*(k + w)**2/12"
+  ]
+ ],
+ "scalar_sector_eigenvalues": {
+  "-(-k + w)**2*(k + w)**2/4": 1,
+  "0": 3
+ },
+ "scalar_sector_rank_generic_point": 1
+}
