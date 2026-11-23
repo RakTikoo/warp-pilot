@@ -1,0 +1,135 @@
+{
+ "item": "P88-2 checker",
+ "all_pass": true,
+ "verdict_determination": {
+  "best_legal_row": "e0.10_o0.07_i0.06",
+  "best_payload": 0.0955573262914437,
+  "above_0.08745": true
+ },
+ "checks": {
+  "control_a_stencil_clear_positive_998e5_class": {
+   "pass": true,
+   "detail": {
+    "0.15": 0.00016231289701501998,
+    "0.075": 0.0002010382052273915,
+    "0.0375": 0.00019774137900907567
+   }
+  },
+  "control_a_nearedge_raw_sign_unstable": {
+   "pass": true,
+   "detail": {
+    "gate_standard": {
+     "0.15": -0.00020076123917012542,
+     "0.075": -2.0381759703236768e-05,
+     "0.0375": -5.5744687108609146e-05
+    },
+    "gate8_4th": {
+     "0.15": -8.684432678568877e-07,
+     "0.075": -9.130673549450903e-06,
+     "0.0375": -7.95846002860476e-05
+    }
+   }
+  },
+  "control_a_p523_stencil_clear_flips_positive": {
+   "pass": true,
+   "detail": {
+    "0.15": -0.00014969125508903117,
+    "0.075": 9.16133383691266e-05,
+    "0.0375": 0.00015891362566294452
+   }
+  },
+  "control_a_payload_relat_is_00799_class": {
+   "pass": true,
+   "detail": "cosine control payload_relat=0.07988"
+  },
+  "control_b_focused_pattern": {
+   "pass": true,
+   "detail": {
+    "0.15": -0.0001807453839125966,
+    "0.075": 5.042851550148019e-07,
+    "0.0375": 1.213088109723717e-05
+   }
+  },
+  "control_b_stencil_clear_pattern": {
+   "pass": true,
+   "detail": {
+    "0.15": -0.00014961086040908184,
+    "0.075": 9.334221649789104e-05,
+    "0.0375": 0.00016087326722024036
+   }
+  },
+  "control_b_payload": {
+   "pass": true,
+   "detail": "payload_relat=0.0874508116"
+  },
+  "alone_ladder_complete": {
+   "pass": true,
+   "detail": {
+    "e0.30": [
+     "b0.06",
+     "b0.07",
+     "b0.08"
+    ],
+    "e0.20": [
+     "b0.06",
+     "b0.07",
+     "b0.08"
+    ],
+    "e0.15": [
+     "b0.06",
+     "b0.07",
+     "b0.08"
+    ],
+    "e0.10": [
+     "b0.06",
+     "b0.07",
+     "b0.08"
+    ]
+   }
+  },
+  "alone_control_span_reproduces_phase80_ceiling": {
+   "pass": true,
+   "detail": "e0.30 b0.07 typeI=0.646 sn=-5.04e-04"
+  },
+  "economics_frozen_before_composed": {
+   "pass": true,
+   "detail": "frozen_at=1795411002, composed rows=['e0.10_o0.06_i0.05', 'e0.10_o0.06_i0.06', 'e0.10_o0.07_i0.05', 'e0.10_o0.07_i0.06', 'e0.15_o0.06_i0.05', 'e0.15_o0.06_i0.06', 'e0.20_o0.06_i0.05', 'e0.20_o0.06_i0.06', 'e0.30_o0.06_i0.05', 'e0.30_o0.06_i0.06']"
+  },
+  "economics_covers_new_beta_pairs": {
+   "pass": true,
+   "detail": "payloads={'e0.30_o0.06_i0.05': 0.08104, 'e0.30_o0.06_i0.06': 0.08745, 'e0.30_o0.07_i0.05': 0.08915, 'e0.30_o0.07_i0.06': 0.09556, 'e0.30_o0.08_i0.05': 0.09727, 'e0.30_o0.08_i0.06': 0.10366, 'e0.20_o0.06_i0.05': 0.08104, 'e0.20_o0.06_i0.06': 0.08745, 'e0.20_o0.07_i0.05': 0.08915, 'e0.20_o0.07_i0.06': 0.09556, 'e0.20_o0.08_i0.05': 0.09727, 'e0.20_o0.08_i0.06': 0.10366, 'e0.15_o0.06_i0.05': 0.08104, 'e0.15_o0.06_i0.06': 0.08745, 'e0.15_o0.07_i0.05': 0.08915, 'e0.15_o0.07_i0.06': 0.09556, 'e0.15_o0.08_i0.05': 0.09727, 'e0.15_o0.08_i0.06': 0.10366, 'e0.10_o0.06_i0.05': 0.08104, 'e0.10_o0.06_i0.06': 0.08745, 'e0.10_o0.07_i0.05': 0.08915, 'e0.10_o0.07_i0.06': 0.09556, 'e0.10_o0.08_i0.05': 0.09727, 'e0.10_o0.08_i0.06': 0.10366}"
+  },
+  "composed_legality_recomputed": {
+   "pass": true,
+   "detail": "legal={'e0.10_o0.07_i0.06': True, 'e0.10_o0.07_i0.05': True, 'e0.30_o0.06_i0.06': True, 'e0.20_o0.06_i0.06': True, 'e0.15_o0.06_i0.06': True, 'e0.10_o0.06_i0.06': True, 'e0.30_o0.06_i0.05': True, 'e0.20_o0.06_i0.05': True, 'e0.15_o0.06_i0.05': True, 'e0.10_o0.06_i0.05': True} payloads={'e0.10_o0.07_i0.06': 0.0955573262914437, 'e0.10_o0.07_i0.05': 0.08915357126417164, 'e0.30_o0.06_i0.06': 0.0874508116004831, 'e0.20_o0.06_i0.06': 0.0874508116004831, 'e0.15_o0.06_i0.06': 0.0874508116004831, 'e0.10_o0.06_i0.06': 0.0874508116004831, 'e0.30_o0.06_i0.05': 0.08103780466199706, 'e0.20_o0.06_i0.05': 0.08103780466199706, 'e0.15_o0.06_i0.05': 0.08103780466199706, 'e0.10_o0.06_i0.05': 0.08103780466199706}"
+  },
+  "held_W_recompute_best_row": {
+   "pass": true,
+   "detail": "W rel errs 1.7e-16/1.5e-16, W sum=0.17259"
+  },
+  "chain_outer_balanced_monotone_best_row": {
+   "pass": true,
+   "detail": "balance_rel=5.5e-17 mono=0.0 lam=0.9447"
+  },
+  "chain_inner_balanced_monotone_best_row": {
+   "pass": true,
+   "detail": "balance_rel=1.3e-16 mono=0.0 lam=0.7356"
+  },
+  "verdict_determination": {
+   "pass": true,
+   "detail": "best_legal_row=e0.10_o0.07_i0.06 payload=0.0955573262914437 above_0.08745=True"
+  },
+  "second_path_4th_typeI_floor_site_only": {
+   "pass": true,
+   "detail": "4th worst=-2.20e-06 cavity=-2.20e-06"
+  },
+  "second_path_phase1_typeI_floor_site_only": {
+   "pass": true,
+   "detail": "phase1 worst=-2.84e-06 cavity=-2.84e-06"
+  },
+  "second_row_above_mark_corroborates": {
+   "pass": true,
+   "detail": "e0.10_o0.07_i0.05 payload=0.08915 4th cavity=-2.20e-06"
+  }
+ }
+}
