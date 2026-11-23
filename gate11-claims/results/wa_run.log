@@ -1,0 +1,54 @@
+[A i] Minkowski max|G| = 3.469e-18 (bar < 1e-12)
+[A ii] max rho rel err 2.364e-05 (bar 3e-3); max p abs err 2.019e-09 (bar 3e-7)
+[A iii] control-span Type-I 1.0; outer wall +4.8308e-05 (stored +3.2016e-5, factor 1.51); conservation rel_med 0.0133 (stored 0.0115, factor 1.16); cavity site r=4.53 DEC +2.0219e-04 (phase FD raw -1.107e-4)
+[A iv] 0.0799 control Type-I 1.0
+   payload: worst +3.3080e-06
+   inner_wall: worst +9.6784e-04
+   outer_wall: worst +3.7514e-05
+   exterior: worst +2.0874e-06
+[A iv] control region factors vs Gate-8: {'inner_wall': 0.9885985465697394, 'outer_wall': 0.9262786746317269, 'payload': 0.030348822366694266}
+   control cavity ladder h=0.1: shell DEC -1.3303e-06, full cavity -1.3303e-06, Type-I 1.0
+   control cavity ladder h=0.05: shell DEC -1.3303e-06, full cavity -1.3303e-06, Type-I 1.0
+   control cavity ladder h=0.025: shell DEC -1.3303e-06, full cavity -1.3303e-06, Type-I 1.0
+   control cavity ladder h=0.0125: shell DEC -2.0381e-06, full cavity -2.0381e-06, Type-I 1.0
+[E] deciding held payload 0.0955573263 (rel err vs 0.09556: 2.80e-05, bar 1e-4); W sum 0.17259060; held-W err 1.74e-16; beta_o_comp 0.057064, beta_i_comp 0.038704
+[G] rebuilt outer chain e=0.10: lam 0.944661192718 (stored 0.944661192718), k 0.181143059315 (stored 0.181143059315), S_lo-1 -3.9169e-03 (stored -3.9169e-3), S_hi +8.4284e-03 (stored +8.4284e-3), balance 5.52e-17
+[D] deciding Type-I 1.0, sampled-null min +2.2700e-06, conservation rel_med 0.0137
+   payload: worst +3.2742e-06 (nec) at r=1.087805
+   inner_wall: worst +9.7827e-04 (nec) at r=2.9
+   cavity: worst -1.8003e-06 (dec) at r=4.870732
+   outer_wall: worst +4.8516e-05 (dec) at r=5.1
+   exterior: worst +2.0874e-06 (sec) at r=11.74878
+   cavity site_4.526829_26dir: DEC +2.0444e-04, Type-I 1.0, sampled +2.5754e-04
+   cavity site_4.526829_162dir: DEC +2.0380e-04, Type-I 1.0, sampled +2.5318e-04
+   cavity site_4.53_26dir: DEC +2.0009e-04, Type-I 1.0, sampled +2.5461e-04
+   cavity site_4.53_162dir: DEC +1.9944e-04, Type-I 1.0, sampled +2.5052e-04
+   cavity site_4.87_26dir: DEC -1.4562e-06, Type-I 1.0, sampled +2.6392e-04
+   cavity site_4.87_162dir: DEC -2.4741e-06, Type-I 1.0, sampled +2.5868e-04
+   deciding cavity ladder h=0.1: shell DEC -8.3334e-07, full cavity -8.3334e-07, Type-I 1.0
+   deciding cavity ladder h=0.05: shell DEC -8.3334e-07, full cavity -8.3334e-07, Type-I 1.0
+   deciding cavity ladder h=0.025: shell DEC -8.6439e-07, full cavity -8.6439e-07, Type-I 1.0
+   deciding cavity ladder h=0.0125: shell DEC -1.8700e-06, full cavity -1.8700e-06, Type-I 1.0
+[G] residual-corrected audit: Type-I 0.975
+   payload: worst +3.2737e-06 (uncorrected +3.2742e-06)
+   inner_wall: worst +9.7831e-04 (uncorrected +9.7827e-04)
+   cavity: worst -2.0932e-06 (uncorrected -1.8003e-06)
+   outer_wall: worst +4.8401e-05 (uncorrected +4.8516e-05)
+   exterior: worst +2.0874e-06 (uncorrected +2.0874e-06)
+[H] corroboration payload 0.08915357 (claim 0.08915), Type-I 1.0
+   payload: worst +3.2887e-06
+   inner_wall: worst +9.5702e-04
+   cavity: worst -1.8003e-06
+   outer_wall: worst +4.8516e-05
+   exterior: worst +2.0874e-06
+[I] outer alone beta=0.07 e0.30: Type-I 0.6444, worst +8.3830e-06, sampled-null min -5.0330e-04
+   inner_wall: worst +8.3830e-06, Type-I 0.18571428571428572
+   cavity: worst +9.3006e-05, Type-I 1.0
+   outer_wall: worst +1.4600e-04, Type-I 1.0
+   exterior: worst +1.0320e-04, Type-I 0.12980769230769232
+[I] outer alone beta=0.07 e0.10: Type-I 1.0000, worst +5.3336e-07, sampled-null min +6.8176e-07
+   inner_wall: worst +7.8046e-07, Type-I 1.0
+   cavity: worst +9.3166e-05, Type-I 1.0
+   outer_wall: worst +1.3704e-04, Type-I 1.0
+   exterior: worst +5.3336e-07, Type-I 1.0
+[run] DONE in 476s

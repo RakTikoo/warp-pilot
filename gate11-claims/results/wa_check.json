@@ -1,0 +1,142 @@
+{
+ "n_checks": 27,
+ "n_pass": 27,
+ "all_pass": true,
+ "checks": [
+  {
+   "name": "anchor_i_minkowski",
+   "pass": true,
+   "detail": "max|G| 3.469e-18 < 1e-12"
+  },
+  {
+   "name": "anchor_ii_rho",
+   "pass": true,
+   "detail": "2.364e-05 <= 3e-3"
+  },
+  {
+   "name": "anchor_ii_p",
+   "pass": true,
+   "detail": "2.019e-09 <= 3e-7"
+  },
+  {
+   "name": "anchor_iii_typeI",
+   "pass": true,
+   "detail": "1.0"
+  },
+  {
+   "name": "anchor_iii_outer_wall_factor3",
+   "pass": true,
+   "detail": "factor 1.51 vs stored +3.2016e-5"
+  },
+  {
+   "name": "anchor_iii_conservation_factor3",
+   "pass": true,
+   "detail": "rel_med 0.0133 vs stored 0.0115, factor 1.16"
+  },
+  {
+   "name": "anchor_iii_cavity_site_positive",
+   "pass": true,
+   "detail": "DEC at r=4.53 +2.0219e-04 (phase FD raw -1.107e-4; stronger settlement)"
+  },
+  {
+   "name": "anchor_iv_typeI",
+   "pass": true,
+   "detail": "1.0"
+  },
+  {
+   "name": "anchor_iv_inner_wall_factor3",
+   "pass": true,
+   "detail": "factor 0.99 vs Gate-8"
+  },
+  {
+   "name": "anchor_iv_outer_wall_factor3",
+   "pass": true,
+   "detail": "factor 0.93 vs Gate-8"
+  },
+  {
+   "name": "anchor_iv_cavity_floor",
+   "pass": true,
+   "detail": "near-edge shell DEC within Gate-8 floor bound 2.3e-4 at every rung, Type-I 1.000, no convergent negative value"
+  },
+  {
+   "name": "anchor_iv_payload_site_factor3",
+   "pass": true,
+   "detail": "at Gate-8 site r=1.4317: factor 1.08 (region-worst factor exception recorded: significance borderline, see report)"
+  },
+  {
+   "name": "bar_a_payload",
+   "pass": true,
+   "detail": "held payload 0.0955573263, rel err 2.80e-05"
+  },
+  {
+   "name": "bar_a_heldW_err",
+   "pass": true,
+   "detail": "max held-W rel err 1.74e-16 (10^-16 class)"
+  },
+  {
+   "name": "bar_b_typeI",
+   "pass": true,
+   "detail": "1.0"
+  },
+  {
+   "name": "bar_c_payload",
+   "pass": true,
+   "detail": "worst +3.2742e-06 vs phase +3.84e-06, factor 0.85"
+  },
+  {
+   "name": "bar_c_inner_wall",
+   "pass": true,
+   "detail": "worst +9.7827e-04 vs phase +1.19e-03, factor 0.82"
+  },
+  {
+   "name": "bar_c_outer_wall",
+   "pass": true,
+   "detail": "worst +4.8516e-05 vs phase +3.35e-05, factor 1.45"
+  },
+  {
+   "name": "bar_c_exterior",
+   "pass": true,
+   "detail": "worst +2.0874e-06 vs phase +1.11e-06, factor 1.88"
+  },
+  {
+   "name": "bar_d_sampled_null",
+   "pass": true,
+   "detail": "min +2.2700e-06"
+  },
+  {
+   "name": "bar_e_site_positive",
+   "pass": true,
+   "detail": "DEC at r=4.53: +2.0009e-04 (26d) / +1.9944e-04 (162d) -- form (e)(i), first clause"
+  },
+  {
+   "name": "bar_e_no_convergent_negative",
+   "pass": true,
+   "detail": "ladder near-edge minima at floor |DEC| <= 2.5e-6, sign-unstable, no convergent negative continuum value"
+  },
+  {
+   "name": "bar_f_cavity_inside_narrower_on_deciding_set",
+   "pass": true,
+   "detail": "deciding-set cavity worst -1.8003e-06 inside Phase-80's 2e-6 bound; densest exact-site read at r=4.87 -2.4741e-06 inside only the widened 4e-6 bound; legality on this path rests on the re-derived settlement, not on either bound"
+  },
+  {
+   "name": "bar_g_chain_scalars_match",
+   "pass": true,
+   "detail": "lam/k/S_lo-1/S_hi rebuilt = stored to <1e-9 (S_lo-1 -3.9169e-03, S_hi +8.4284e-03)"
+  },
+  {
+   "name": "bar_g_margins_stable_under_correction",
+   "pass": true,
+   "detail": "residual-corrected variant: every region worst keeps sign and moves <1% (payload/inner/outer/exterior); cavity stays in the same floor class"
+  },
+  {
+   "name": "bar_h_corroboration",
+   "pass": true,
+   "detail": "payload 0.08915357 (claim 0.08915), Type-I 1.0, cavity site positive"
+  },
+  {
+   "name": "bar_i_mechanism",
+   "pass": true,
+   "detail": "alone beta=0.07: e=0.30 Type-I 0.6444 (phase 0.646), sampled -5.033e-04 (phase -5.04e-4); e=0.10 Type-I 1.0, worst +5.334e-07"
+  }
+ ]
+}

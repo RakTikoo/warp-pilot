@@ -1,0 +1,9 @@
+[wa_symbolic] inverse check max err 2.220e-16
+[wa_symbolic] dg built (10s)
+[wa_symbolic] d2g built (18s)
+[wa_symbolic] dginv built (20s)
+[wa_symbolic] Gamma built (20s)
+[wa_symbolic] dGamma built (21s)
+[wa_symbolic] Einstein trees built (24s)
+[wa_symbolic] saved wa_g11_expr.pkl in 24s
+EXIT=0
