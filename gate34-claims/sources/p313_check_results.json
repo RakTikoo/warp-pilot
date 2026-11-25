@@ -1,0 +1,55 @@
+{
+ "checks": {
+  "targets_recompute_maxdiff": 0.0,
+  "targets_ok": true,
+  "K_all_pass": true,
+  "CTRL293_pass": true,
+  "CTRL_TGT_pass": true,
+  "verdict_stored": "MATCH AT POSITIVE DENSITY",
+  "verdict_recomputed": "MATCH AT POSITIVE DENSITY",
+  "verdict_agrees": true
+ },
+ "per_site": [
+  {
+   "key": "S1",
+   "R_check": 9.816544100325221e-14,
+   "rho_check": 0.000216849636507142,
+   "tkk_check": -0.0035163382702802066,
+   "dR_vs_driver": 0.0,
+   "drho_vs_driver": 0.0,
+   "dtkk_vs_driver": 0.0,
+   "agree": true
+  },
+  {
+   "key": "S2",
+   "R_check": 2.846735996293551e-13,
+   "rho_check": 0.0001521832486656334,
+   "tkk_check": -0.0031504237899762804,
+   "dR_vs_driver": 0.0,
+   "drho_vs_driver": 0.0,
+   "dtkk_vs_driver": 0.0,
+   "agree": true
+  },
+  {
+   "key": "S3",
+   "R_check": 3.253339860306391e-13,
+   "rho_check": 0.00021614321928687188,
+   "tkk_check": -0.003517020090235685,
+   "dR_vs_driver": 0.0,
+   "drho_vs_driver": 0.0,
+   "dtkk_vs_driver": 0.0,
+   "agree": true
+  },
+  {
+   "key": "S4",
+   "R_check": 7.547124382951456e-14,
+   "rho_check": 6.49802973309542e-05,
+   "tkk_check": -0.0018309985992391445,
+   "dR_vs_driver": 0.0,
+   "drho_vs_driver": 0.0,
+   "dtkk_vs_driver": 0.0,
+   "agree": true
+  }
+ ],
+ "all_pass": true
+}

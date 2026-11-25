@@ -1,0 +1,16 @@
+{
+ "n_neg": 6431,
+ "min_necM_among_neg": -0.0004875689528870187,
+ "min_necM_point": [
+  0.3642231182398438,
+  4.381806179700415,
+  -9.535046728971961
+ ],
+ "min_necM_rho": -2.489424174330747e-07,
+ "a_hits_necM_le_-3.126870e-3": 0,
+ "c_hits_necM_le_-1.180275e-3_and_typeI": 0,
+ "b_hits_fibnec_le_-3.517021e-3": 0,
+ "max_binding_neg_fibnec": -0.0004884589804939642,
+ "neg_typeI_count": 1375,
+ "min_necM_among_neg_typeI": -0.00016161814972455874
+}
