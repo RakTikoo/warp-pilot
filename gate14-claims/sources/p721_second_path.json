@@ -1,0 +1,106 @@
+{
+ "throat_fsolve": {
+  "ellis_mu0.2": {
+   "datum": [
+    0.7158054478411613,
+    0.8731422789155698,
+    -0.09805806756872913
+   ],
+   "max_resid": 5.930909097173753e-10,
+   "diff_vs_main": 2.7949309533426003e-11,
+   "ier": 1
+  },
+  "ellis_mu1.0": {
+   "datum": [
+    0.2275449302814165,
+    0.5493420567334172,
+    -0.3535533905930615
+   ],
+   "max_resid": 8.002709606103053e-12,
+   "diff_vs_main": 4.878319970202938e-13,
+   "ier": 1
+  },
+  "sqrt_mu0.2": {
+   "datum": [
+    0.5317975302198173,
+    -0.5876296564721663,
+    0.09950371903030023
+   ],
+   "max_resid": 8.669021056562087e-11,
+   "diff_vs_main": 1.1404988065066846e-11,
+   "ier": 1
+  },
+  "sqrt_mu1.0": {
+   "datum": [
+    0.19653784443923472,
+    -0.31800491237863515,
+    0.4472135954989699
+   ],
+   "max_resid": 1.7421619702417956e-12,
+   "diff_vs_main": 9.88042980765158e-13,
+   "ier": 1
+  }
+ },
+ "mu0_floor": {
+  "ellis": {
+   "min_max_resid_over_A_C_family": 1.999999999999993,
+   "beta": -1.0
+  },
+  "sqrt": {
+   "min_max_resid_over_A_C_family": 0.9999999999999929,
+   "beta": 0.5
+  }
+ },
+ "extension_rk4": {
+  "ellis_mu0.2": {
+   "breach_R": 1.0000499987500624,
+   "blowup_R": null,
+   "main_breach_R": 1.0000497689608654,
+   "main_blowup_R": 69.663502915002
+  },
+  "ellis_mu1.0": {
+   "breach_R": 1.0000259196640855,
+   "blowup_R": null,
+   "main_breach_R": 1.000025697569011,
+   "main_blowup_R": 11.538573298303508
+  },
+  "sqrt_mu0.2": {
+   "breach_R": 1.0000520186470303,
+   "blowup_R": null,
+   "main_breach_R": 1.0000505778248001,
+   "main_blowup_R": 34.97947449772857
+  },
+  "sqrt_mu1.0": {
+   "breach_R": 1.0001124936725867,
+   "blowup_R": null,
+   "main_breach_R": 1.000110543194972,
+   "main_blowup_R": 5.90222300122779
+  }
+ },
+ "part_i_cross": {
+  "Qe_0.25": {
+   "NEC1_throat_analytic": -0.03730193978716297,
+   "NEC1_min_numeric": -0.037301939787162966,
+   "spinor_inf_analytic": 0.11764705882352941,
+   "spinor_inf_numeric_Q": 0.11764700324415485
+  },
+  "Qe_0.5": {
+   "NEC1_throat_analytic": -0.029841551829730376,
+   "NEC1_min_numeric": -0.02984155182973037,
+   "spinor_inf_analytic": 0.1,
+   "spinor_inf_numeric_Q": 0.0999999575001306
+  },
+  "Qe_0.75": {
+   "NEC1_throat_analytic": -0.017407571900676055,
+   "NEC1_min_numeric": -0.017407571900676048,
+   "spinor_inf_analytic": 0.08,
+   "spinor_inf_numeric_Q": 0.07999996630003993
+  },
+  "Qe_0.9": {
+   "NEC1_throat_analytic": -0.007559859796865027,
+   "NEC1_min_numeric": -0.0075598597968650275,
+   "spinor_inf_analytic": 0.06906077348066299,
+   "spinor_inf_numeric_Q": 0.06906074188631463
+  }
+ }
+}

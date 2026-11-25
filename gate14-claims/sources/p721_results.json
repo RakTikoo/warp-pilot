@@ -1,0 +1,365 @@
+{
+ "gates": {
+  "G1_ellis_transverse_traveller_tidal": -0.010100999999392478,
+  "G1_expected": 0.010101010101010102,
+  "G1_pass": true,
+  "G2": "see p721_validate.py output recorded in memo: max Einstein/Dirac/Maxwell residuals ~1e-14 for l in [0.05,100], Qe in {0.25,0.5}, c0 in {0.5,1,2}",
+  "G3_rho_dem": -0.039788735772973836,
+  "G3_rho_plus_pr_dem": -0.07957747154594767,
+  "G3_pass": true
+ },
+ "part_i": {
+  "Qe_0.25": {
+   "Qe_over_r0": 0.25,
+   "beta_throat": 0.0625,
+   "M_over_r0": 0.11764705882352941,
+   "NEC1_min_fine": -0.037301939787162966,
+   "NEC1_min_coarse": -0.037301939787162966,
+   "NEC1_min_at_R": 1.0,
+   "NEC2_min_fine": 1.6504849030329943e-11,
+   "NEC2_min_coarse": 1.6504849030329943e-11,
+   "NEC2_min_at_R": 1000.0,
+   "WEC_min_fine": 2.4866918861325383e-15,
+   "WEC_min_coarse": 2.4866918861325383e-15,
+   "WEC_min_at_R": 1000.0,
+   "SEC1_min_fine": -1.0887545431439906e-12,
+   "SEC1_min_coarse": -1.0389641037360228e-12,
+   "SEC1_min_at_R": 302.64612443956236,
+   "DEC_r_min_fine": -0.037301939787162966,
+   "DEC_r_min_coarse": -0.037301939787162966,
+   "DEC_r_min_at_R": 1.0,
+   "DEC_t_min_fine": -0.01865099218652519,
+   "DEC_t_min_coarse": -0.01865099218652519,
+   "DEC_t_min_at_R": 1.0,
+   "rho_throat": 0.002486795985810869,
+   "pr_throat": -0.039788735772973836,
+   "pt_throat": 0.02113778817233606,
+   "spinor_at_infinity_P": -0.1176470032437154,
+   "spinor_at_infinity_Q": 0.11764700324415485,
+   "tidal_radial_static_throat_per_r0sq": 0.062499804166695615,
+   "tidal_trans_static_throat": -0.0,
+   "tidal_Rlthlth_throat": -0.468749531221807,
+   "tidal_trans_trav_v01_per_r0sq": -0.004734843749715223,
+   "tidal_trans_trav_vc_per_r0sq": -234374771.77072528,
+   "tidal_coeff_used": 0.062499804166695615,
+   "r0star_m": 33840792.52669707,
+   "crossing": {
+    "r0_1m": {
+     "proper_s": 7.581621759769835e-07,
+     "external_s": 7.929627850335481e-07,
+     "M_kg": 1.5842246135295398e+26,
+     "M_MJ": 0.08345930953163733
+    },
+    "r0star": {
+     "proper_s": 25.656808898826288,
+     "external_s": 26.834489089712186,
+     "M_kg": 5.361141646214e+33,
+     "M_MJ": 2824329.17828153
+    }
+   }
+  },
+  "Qe_0.5": {
+   "Qe_over_r0": 0.5,
+   "beta_throat": 0.25,
+   "M_over_r0": 0.4,
+   "NEC1_min_fine": -0.02984155182973037,
+   "NEC1_min_coarse": -0.02984155182973037,
+   "NEC1_min_at_R": 1.0,
+   "NEC2_min_fine": 8.913009385356805e-12,
+   "NEC2_min_coarse": 8.913009385356805e-12,
+   "NEC2_min_at_R": 1000.0,
+   "WEC_min_fine": 9.94746707973331e-15,
+   "WEC_min_coarse": 9.94746707973331e-15,
+   "WEC_min_at_R": 1000.0,
+   "SEC1_min_fine": -2.696938750643275e-13,
+   "SEC1_min_coarse": -2.0880691864678805e-13,
+   "SEC1_min_at_R": 532.8326437762826,
+   "DEC_r_min_fine": -0.02984155182973037,
+   "DEC_r_min_coarse": -0.02984155182973037,
+   "DEC_r_min_at_R": 1.0,
+   "DEC_t_min_fine": -0.01492077673789886,
+   "DEC_t_min_coarse": -0.01492077673789886,
+   "DEC_t_min_at_R": 1.0,
+   "rho_throat": 0.009947183943243468,
+   "pr_throat": -0.039788735772973836,
+   "pt_throat": 0.024867960681142328,
+   "spinor_at_infinity_P": -0.09999995749984936,
+   "spinor_at_infinity_Q": 0.0999999575001306,
+   "tidal_radial_static_throat_per_r0sq": 0.2499990833099152,
+   "tidal_trans_static_throat": -0.0,
+   "tidal_Rlthlth_throat": -0.37499962497744554,
+   "tidal_trans_trav_v01_per_r0sq": -0.0037878749997721783,
+   "tidal_trans_trav_vc_per_r0sq": -187499817.41658017,
+   "tidal_coeff_used": 0.2499990833099152,
+   "r0star_m": 67681567.00172687,
+   "crossing": {
+    "r0_1m": {
+     "proper_s": 7.840791994539818e-07,
+     "external_s": 9.242793040510766e-07,
+     "M_kg": 5.386363686000436e+26,
+     "M_MJ": 0.28376165240756696
+    },
+    "r0star": {
+     "proper_s": 53.06770887250503,
+     "external_s": 62.55667164544243,
+     "M_kg": 3.64557534709707e+34,
+     "M_MJ": 19205433.28994347
+    }
+   }
+  },
+  "Qe_0.75": {
+   "Qe_over_r0": 0.75,
+   "beta_throat": 0.5625,
+   "M_over_r0": 0.72,
+   "NEC1_min_fine": -0.017407571900676048,
+   "NEC1_min_coarse": -0.017407571900676048,
+   "NEC1_min_at_R": 1.0,
+   "NEC2_min_fine": 2.452657587772748e-12,
+   "NEC2_min_coarse": 2.488431998596502e-12,
+   "NEC2_min_at_R": 999.1367954185688,
+   "WEC_min_fine": 2.2380719523034923e-14,
+   "WEC_min_coarse": 2.2380719523034923e-14,
+   "WEC_min_at_R": 1000.0,
+   "SEC1_min_fine": -1.1775651339877425e-13,
+   "SEC1_min_coarse": -1.086308622894375e-13,
+   "SEC1_min_at_R": 623.518517950556,
+   "DEC_r_min_fine": -0.017407571900676048,
+   "DEC_r_min_coarse": -0.017407571900676048,
+   "DEC_r_min_at_R": 1.0,
+   "DEC_t_min_fine": -0.008703773997673012,
+   "DEC_t_min_coarse": -0.008703773997673012,
+   "DEC_t_min_at_R": 1.0,
+   "rho_throat": 0.02238116387229779,
+   "pr_throat": -0.039788735772973836,
+   "pt_throat": 0.0310849378699708,
+   "spinor_at_infinity_P": -0.07999996629994423,
+   "spinor_at_infinity_Q": 0.07999996630003993,
+   "tidal_radial_static_throat_per_r0sq": 0.5624968660404571,
+   "tidal_trans_static_throat": -0.0,
+   "tidal_Rlthlth_throat": -0.21874978123684327,
+   "tidal_trans_trav_v01_per_r0sq": -0.0022095937498671043,
+   "tidal_trans_trav_vc_per_r0sq": -109374893.49300513,
+   "tidal_coeff_used": 0.5624968660404571,
+   "r0star_m": 101522253.81619687,
+   "crossing": {
+    "r0_1m": {
+     "proper_s": 8.416964287882424e-07,
+     "external_s": 1.2671305221155341e-06,
+     "M_kg": 9.695454634800784e+26,
+     "M_MJ": 0.5107709743336204
+    },
+    "r0star": {
+     "proper_s": 85.45091847962641,
+     "external_s": 128.6419464844633,
+     "M_kg": 9.843044062976674e+34,
+     "M_MJ": 51854620.49824399
+    }
+   }
+  },
+  "Qe_0.9": {
+   "Qe_over_r0": 0.9,
+   "beta_throat": 0.81,
+   "M_over_r0": 0.8950276243093923,
+   "NEC1_min_fine": -0.0075598597968650275,
+   "NEC1_min_coarse": -0.0075598597968650275,
+   "NEC1_min_at_R": 1.0,
+   "NEC2_min_fine": 3.995778966743716e-13,
+   "NEC2_min_coarse": 4.5185506572794873e-13,
+   "NEC2_min_at_R": 997.4126209789619,
+   "WEC_min_fine": 3.222922794581298e-14,
+   "WEC_min_coarse": 3.222922794581298e-14,
+   "WEC_min_at_R": 1000.0,
+   "SEC1_min_fine": -8.750914807908811e-14,
+   "SEC1_min_coarse": -4.741546860830778e-14,
+   "SEC1_min_at_R": 851.6110347235641,
+   "DEC_r_min_fine": -0.0075598597968650275,
+   "DEC_r_min_coarse": -0.0075598597968650275,
+   "DEC_r_min_at_R": 1.0,
+   "DEC_t_min_fine": -0.0037799612784025285,
+   "DEC_t_min_coarse": -0.0037799612784025285,
+   "DEC_t_min_at_R": 1.0,
+   "rho_throat": 0.03222887597610881,
+   "pr_throat": -0.039788735772973836,
+   "pt_throat": 0.03600883725451134,
+   "spinor_at_infinity_P": -0.06906074188629659,
+   "spinor_at_infinity_Q": 0.06906074188631463,
+   "tidal_radial_static_throat_per_r0sq": 0.8099906637470949,
+   "tidal_trans_static_throat": -0.0,
+   "tidal_Rlthlth_throat": -0.09499990499428616,
+   "tidal_trans_trav_v01_per_r0sq": -0.0009595949999422847,
+   "tidal_trans_trav_vc_per_r0sq": -47499953.74553362,
+   "tidal_coeff_used": 0.8099906637470949,
+   "r0star_m": 121826341.8528153,
+   "crossing": {
+    "r0_1m": {
+     "proper_s": 9.19342947917561e-07,
+     "external_s": 2.0609260019943432e-06,
+     "M_kg": 1.2052360733868378e+27,
+     "M_MJ": 0.6349362940611304
+    },
+    "r0star": {
+     "proper_s": 112.00018825297975,
+     "external_s": 251.0750756523188,
+     "M_kg": 1.4682950188976971e+35,
+     "M_MJ": 77351966.01505095
+    }
+   }
+  }
+ },
+ "part_ii": {
+  "ellis_mu0.0": {
+   "beta": -1.0,
+   "mu": 0.0,
+   "closing": false,
+   "eqB_residual_floor": -1.0,
+   "reason": "mu=0: EqB reduces to beta=0 required; residual = beta in Tll-eq units"
+  },
+  "ellis_mu0.2": {
+   "beta": -1.0,
+   "mu": 0.2,
+   "P0": 0.7158054478691106,
+   "Q0": 0.8731422788979457,
+   "w": -0.09805806756909202,
+   "S": 1.2747548783981961,
+   "Pd0": -0.8155998339057294,
+   "Qd0": -0.8202434046752263,
+   "throat_residuals": {
+    "tt": 0.0,
+    "rr": 8.881784197001252e-16,
+    "thth_with_Phi0": 0.0
+   },
+   "closing": true,
+   "extension_status": 0,
+   "extension_message": "The solver successfully reached the end of the integration interval.",
+   "domain_breach_R_over_r0": 1.0000497689608654,
+   "domain_max_rel_residual": 1.0,
+   "spinor_end": [
+    -2.263793238785532e+72,
+    -5.869736218321629e+71
+   ],
+   "blowup": false,
+   "spinor_blowup_R_over_r0": 69.663502915002,
+   "rel_residual_profile_sample": [
+    8.881784197001244e-16,
+    0.00021146212876549676,
+    0.0003039080786548597,
+    0.00152238687297726,
+    0.011338671351521588,
+    0.4099166609203545,
+    1.0
+   ]
+  },
+  "ellis_mu1.0": {
+   "beta": -1.0,
+   "mu": 1.0,
+   "P0": 0.2275449302811137,
+   "Q0": 0.549342056733905,
+   "w": -0.35355339059327373,
+   "S": 0.3535533905932738,
+   "Pd0": -0.516018873206546,
+   "Qd0": -0.6964377054018209,
+   "throat_residuals": {
+    "tt": -2.220446049250313e-16,
+    "rr": 2.220446049250313e-16,
+    "thth_with_Phi0": 0.0
+   },
+   "closing": true,
+   "extension_status": -1,
+   "extension_message": "Required step size is less than spacing between numbers.",
+   "domain_breach_R_over_r0": 1.000025697569011,
+   "domain_max_rel_residual": 1.0,
+   "spinor_end": [
+    NaN,
+    NaN
+   ],
+   "blowup": true,
+   "spinor_blowup_R_over_r0": 11.538573298303508,
+   "rel_residual_profile_sample": [
+    2.2204460492503126e-16,
+    0.00029323737633387217,
+    0.00042142849489451166,
+    0.0021107645382795782,
+    0.01570131436305438,
+    0.5240293234268121,
+    NaN
+   ]
+  },
+  "sqrt_mu0.0": {
+   "beta": 0.5,
+   "mu": 0.0,
+   "closing": false,
+   "eqB_residual_floor": 0.5,
+   "reason": "mu=0: EqB reduces to beta=0 required; residual = beta in Tll-eq units"
+  },
+  "sqrt_mu0.2": {
+   "beta": 0.5,
+   "mu": 0.2,
+   "P0": 0.5317975302312223,
+   "Q0": -0.5876296564674283,
+   "w": 0.09950371902099892,
+   "S": 0.6281172263200556,
+   "Pd0": 1.2710356525762634,
+   "Qd0": -0.9343748619238508,
+   "throat_residuals": {
+    "tt": 0.0,
+    "rr": -2.220446049250313e-16,
+    "thth_with_Phi0": 2.220446049250313e-16
+   },
+   "closing": true,
+   "extension_status": 0,
+   "extension_message": "The solver successfully reached the end of the integration interval.",
+   "domain_breach_R_over_r0": 1.0000505778248001,
+   "domain_max_rel_residual": 1.0,
+   "spinor_end": [
+    1.5704722665643697e+76,
+    -4.226117911200311e+75
+   ],
+   "blowup": false,
+   "spinor_blowup_R_over_r0": 34.97947449772857,
+   "rel_residual_profile_sample": [
+    2.220446049250313e-16,
+    0.0002021687847675951,
+    0.0002905712677383985,
+    0.0014597233773948712,
+    0.0110659815850941,
+    0.7146749725594874,
+    1.0
+   ]
+  },
+  "sqrt_mu1.0": {
+   "beta": 0.5,
+   "mu": 1.0,
+   "P0": 0.19653784443935582,
+   "Q0": -0.31800491237851725,
+   "w": 0.4472135954999579,
+   "S": 0.13975424859373686,
+   "Pd0": 0.7446532731328546,
+   "Qd0": 0.06714534375125147,
+   "throat_residuals": {
+    "tt": 0.0,
+    "rr": 2.220446049250313e-16,
+    "thth_with_Phi0": 0.0
+   },
+   "closing": true,
+   "extension_status": -1,
+   "extension_message": "Required step size is less than spacing between numbers.",
+   "domain_breach_R_over_r0": 1.000110543194972,
+   "domain_max_rel_residual": 1.0,
+   "spinor_end": [
+    NaN,
+    NaN
+   ],
+   "blowup": true,
+   "spinor_blowup_R_over_r0": 5.90222300122779,
+   "rel_residual_profile_sample": [
+    2.2204460492503126e-16,
+    0.00013907129890941488,
+    0.00019987225730453757,
+    0.0010028300457170518,
+    0.007537420045199876,
+    0.694104154443248,
+    NaN
+   ]
+  }
+ }
+}

@@ -1,0 +1,5 @@
+{
+ "Tt_t": "2*w*(P - I*Q)*(P + I*Q)*(-kappa**2 - 1)/F0",
+ "Tl_l": "2*(-P*Qd*kappa**2 - P*Qd + Pd*Q*kappa**2 + Pd*Q)/F1",
+ "Tth_th": "2*kappa*(-P**2 + Q**2)/sqrt(l**2 + r0**2)"
+}
