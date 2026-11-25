@@ -1,0 +1,88 @@
+{
+ "item": "P80-3 checker",
+ "all_pass": true,
+ "checks": {
+  "economics_rows": {
+   "pass": true,
+   "detail": "payloads={'o0.05_i0.05': 0.07291777588078623, 'o0.05_i0.06': 0.0793391894664452, 'o0.06_i0.05': 0.08103780466199706, 'o0.06_i0.06': 0.0874508116004831, 'o0.07_i0.05': 0.08915357126417164, 'o0.07_i0.06': 0.0955573262914437}"
+  },
+  "deciding_payload_beats_mark": {
+   "pass": true,
+   "detail": "o0.06_i0.06 payload_relat=0.08745 vs mark 0.0799"
+  },
+  "calibration_row_reproduces_P52_3": {
+   "pass": true,
+   "detail": "o0.05_i0.05 payload=0.07292 vs P52-3 dual row 0.07292"
+  },
+  "held_W_recompute": {
+   "pass": true,
+   "detail": "W rel errs 1.7e-16/1.7e-16, W sum=0.15931, beta_o=0.04891 beta_i=0.03870"
+  },
+  "chain_outer_balanced_monotone": {
+   "pass": true,
+   "detail": "balance_rel=2.5e-17 mono_viol=0.0 lam=1.0352 k=0.1591 S_lo-1=-1.0e-04 S_hi=+8.9e-05"
+  },
+  "chain_inner_balanced_monotone": {
+   "pass": true,
+   "detail": "balance_rel=1.3e-16 mono_viol=0.0 lam=0.7356 k=1.5202 S_lo-1=-2.2e-06 S_hi=+2.1e-06"
+  },
+  "primary_h015_typeI": {
+   "pass": true,
+   "detail": "typeI=1.0"
+  },
+  "primary_h015_regions_positive_except_cavity_artefact": {
+   "pass": true,
+   "detail": {
+    "payload": 3.852951946993048e-06,
+    "inner_wall": 0.001187633649524097,
+    "cavity": -0.0001106831418255705,
+    "outer_wall": 3.2015660093720174e-05,
+    "exterior": 1.0376600178194425e-06
+   }
+  },
+  "primary_h015_sampled_nec_positive": {
+   "pass": true,
+   "detail": "sn_all=+8.55e-07"
+  },
+  "conservation_class": {
+   "pass": true,
+   "detail": "rel_med=0.0115"
+  },
+  "cavity_artefact_matches_cosine_control": {
+   "pass": true,
+   "detail": "cosine control cavity worst=-1.109e-04 vs deciding row -1.107e-04"
+  },
+  "ladder_focused_flips_positive": {
+   "pass": true,
+   "detail": {
+    "0.15": -0.0001807453839125966,
+    "0.075": 5.042851550148019e-07,
+    "0.0375": 1.213088109723717e-05
+   }
+  },
+  "ladder_stencil_clear_flips_positive": {
+   "pass": true,
+   "detail": {
+    "0.15": -0.00014961086040908184,
+    "0.075": 9.334221649789104e-05,
+    "0.0375": 0.00016087326722024036
+   }
+  },
+  "second_path_4th_typeI_and_floor_site_only": {
+   "pass": true,
+   "detail": "4th worst=-5.93e-07 cavity=-5.93e-07"
+  },
+  "second_path_phase1_typeI_and_floor_site_only": {
+   "pass": true,
+   "detail": "phase1 worst=-1.18e-06 cavity=-1.18e-06"
+  },
+  "second_row_corroborates": {
+   "pass": true,
+   "detail": "o0.06_i0.05 payload=0.08104"
+  },
+  "outer_alone_ceiling_0.06": {
+   "pass": true,
+   "detail": "outer b0.07 alone: typeI=0.646 sn=-5.04e-04 (wall region worst=+1.49e-04)"
+  }
+ }
+}

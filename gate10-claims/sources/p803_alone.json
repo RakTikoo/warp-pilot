@@ -1,0 +1,10 @@
+{
+ "item": "P80-3 stage1 alone",
+ "float": "float64",
+ "anchors": {
+  "minkowski_max_abs_G": 0.0,
+  "finalistA_beta0_h0.3_worst": -2.1058485101264127e-08,
+  "finalistA_beta0_typeI_frac_sig": 1.0,
+  "finalistA_stored_worst": 2.141e-07
+ }
+}
