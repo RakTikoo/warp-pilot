@@ -42,7 +42,44 @@ closed form / stored evaluator code, evaluated by the script.
   no profile was reconstructed by hand; but a reader should know the
   "stored data" for this member is code + parameters, not a data table.
 
-## Inventoried, no figure in the first set (stored data exists)
+## Extension set — produced 2026-11-25 (every published claim set covered)
+
+| Claim set | Figure / model | Stored data drawn from |
+|---|---|---|
+| Gate-12 (Le pin + endowed spectrum) | `fig_gate12_pins.png` | `gate12-claims/results/g12_le_numbers.json` (4 stored anchors + the deciding audit's grid ladder); `gate12-claims/results/g12_endowed_numbers.json` (`spectrum_mp40`: ω² at w = 0 and at w₀, threshold) |
+| Gate-15 (two-mouth pair, restated) | `fig_gate15_tides.png` | `gate15-claims/results/wb2_shell.json` (shell control vs ε); `gate15/G15_2_REJUDGEMENT.md` §3 (corrected tide table — see gap note G-4) |
+| Gate-16/19 (fluid_T adjudication) | `fig_gate16_legality.png` | `gate16-claims/results/g19_g16_results.json` (legality 0.75 hinge / 0.8928571428571429 at `p1281_best`, located by search; machinery rows' grouped scores; full EC minima) |
+| Gate-20 (flipped pose, instrument scope) | `fig_gate20_closure.png` | `gate20-claims/results/g20_verify_out.json` (exact/linearised/floor closures, frozen-instrument contrast 13.70, sub-cut singular values); cap extracted from `gate21-claims/GATE21.md` (see G-5) |
+| Gate-21 (λ = 0.10 hold / 0.1452 fail) | `fig_gate21_lambda.png` | `gate21-claims/results/g21_verify_out.json` + `g21_verify2_out.json` (the site-44 Type-I flip mechanism at λ = 0.1 / 0.11 / 0.1452); cap as G-5 |
+| Gate-22/23/26/27/28/31 combined (v1.22.0) | `fig_gate22_brackets.png` | `gate22-claims/results/g23_verify_results.json` (wound bracket from its stored certificate bars), `g27_verify_results.json` (clamped refined bracket, unclamped stored bracket, trim law + stored a(t) evaluations + crossing), `g31_results.json` (Axis A bracket). Charts only — jet-scope exhibits, no geometry drawn |
+| Gate-25 (spinor sourcing) | `fig_gate25_spinor.png` | `gate25-claims/results/g25_verify_results.json` (single-mode T(k,k) vs the −10.8785 superposition at ρ = +2.2404; Type-IV draw fractions; the six-mode match's residual and negative ρ_unit in annotation) |
+| Gate-34 (312+313 pair) | `fig_gate34_supplier.png` | `gate34-claims/results/g34_item1.json` (four site densities), `g34_item3c.json` (Jacobian singular values, σ_min = 0.027165), `phase312/results/p312_results.json` (36-member trade curve) |
+| Gate-34 member in 3D | `model_gate34_wall_view1.png`, `model_gate34_wall_view2.png`, `model_gate34_wall_shell.png`, `gate34_wall_shell.obj`, `gate34_wall_shell.stl` | stored evaluator `phase312/work/p312_lib.py` (WINNER_SPEC + `rho_split`) with the member profile from `phase312/results/p312_results.json`; provenance check inside the script: its S1 evaluation reproduces the stored ρ_req = 2.1684963651151198×10⁻⁴ to 2.7×10⁻¹⁹; wall surface at r = 14.75 (max angular contrast, computed); mesh 14,016 vertices / 27,648 faces over r ∈ [10, 20]; the cutaway's band minimum −2.4924×10⁻⁷ reproduces Gate-34's stored dense-scan minimum −2.4924104644220976×10⁻⁷ |
+| Gate-36 (Phase 320 mating) | `fig_gate36_census.png` | `gate36-claims/results/g36_item3_results.json` (E1/E2 σ_min censuses; script-computed medians 6.8787×10⁻³ / 1.2587×10⁻² match the gate record) |
+| Gate-37 (identification) | `fig_gate37_collapse.png` | `gate37-claims/results/g37_arithmetic.json` (exact-rational print vs derived H{2,0}(3); gate coefficient 203 → 187; stored family maxima before/after) |
+
+## Full coverage table (published claim sets)
+
+Gate-12 ✓ fig · Gate-13 ✓ fig + 3D · Gate-14 ✓ fig · Gate-15 ✓ fig ·
+Gate-16/19 ✓ fig · Gate-20 ✓ fig · Gate-21 ✓ fig · Gate-22 combined ✓ fig ·
+Gate-25 ✓ fig · Gate-33 ✓ fig · Gate-34 ✓ fig + 3D · Gate-35 ✓ fig + 3D ·
+Gate-36 ✓ fig · Gate-37 ✓ fig · K_pair line (327/328/331) ✓ fig ·
+Phase 309 map ✓ fig. No published claim set is left without a visual;
+the only gaps are the recorded data gaps G-1…G-5 below, none of which
+blocked a figure.
+
+## Gap notes added by the extension
+
+- **G-4 (Gate-15 tides):** the corrected tide table exists only as prose
+  in the stored rejudgement document (`gate15/G15_2_REJUDGEMENT.md` §3);
+  no tide JSON is stored in the bundle. The figure script extracts the
+  table by pattern and asserts exactly 3 rows. Same precedent as G-1.
+- **G-5 (Gate-20/21 cap):** the registered closure cap 0.63 is not stored
+  as a number in either gate's results JSON; both figure scripts extract
+  it from the stored claim text (`gate21-claims/GATE21.md`, "closure
+  0.6233418793559693 ≤ 0.63,") by pattern. Same precedent as G-1.
+
+## Inventoried, no figure in the first set (stored data exists) — ALL DRAWN in the extension above
 
 - **Gate-12** — Le multipole shell confirmed at (0.7, 0.09); endowed shell
   spectrum gate-verified with correction. Stored: `gate12-claims/results/`

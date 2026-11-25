@@ -161,3 +161,189 @@ plain words: what the figure shows, and what it does not.
   as the 2D schematic — a jet-scope held-payload read under the Phase-46
   composition protocol, in the payload-transport category. It is not a
   vehicle, not a standalone shell record, and not superluminal.
+
+---
+
+# Extension set (2026-11-25) — every published claim set now has its visual
+
+## 9. `fig_gate12_pins.png` — the Le pin and the endowed spectrum
+
+- **Script:** `fig_gate12_pins.py`
+- **Sources:** `gate12-claims/results/g12_le_numbers.json`;
+  `gate12-claims/results/g12_endowed_numbers.json`
+- **Caption:** Panel A: the stored pole anchors of Le's multipole shell
+  (dipole poles at x = 0.1/0.3 negative, L6 poles positive) and the grid
+  ladder of the (0.7, 0.09) deciding audit, whose margins hold ~0.0135
+  across refinements. Panel B: the endowed shell's spectrum at 40-digit
+  precision — ω² is negative at w = 0 (unstable) and positive at the
+  stored operating point w₀, with the stored threshold between them.
+  **Fence:** these are audits of other people's published configurations
+  (Le's shell; the P61-1 shell with a surface-fluid action) — verifying a
+  literature design is not a programme design, a speed record, or a drive.
+
+## 10. `fig_gate15_tides.png` — the two-mouth shell, legal; the traveller tide, corrected
+
+- **Script:** `fig_gate15_tides.py`
+- **Sources:** `gate15-claims/results/wb2_shell.json`;
+  `gate15/G15_2_REJUDGEMENT.md` §3 (tide table extracted by pattern —
+  INVENTORY gap G-4)
+- **Caption:** Panel A: the Gate-15 pair's shell read Ŝ⁰⁰/α₀ = +0.02029 at
+  both mouths, converged as the regulator ε shrinks — the shells are legal
+  in the linearised Bach system. Panel B: the traveller tide at β = 0.9
+  three ways: the phase's stored read, the kernel read, and the corrected
+  tensor-component read (1.65–1.75×10⁻⁶ s⁻²), which is the only quotable
+  one and holds the claim's ≤ 2.1×10⁻⁶ bound. **Fence:** linearised
+  Bach/Mannheim–Kazanas gravity, NOT general relativity; a jet-scope
+  exhibit of a pre-existing pair. No wormhole has been constructed, and
+  nothing traverses anything.
+
+## 11. `fig_gate16_legality.png` — the adjudication: a better number, the same wall
+
+- **Script:** `fig_gate16_legality.py`
+- **Sources:** `gate16-claims/results/g19_g16_results.json`
+- **Caption:** Gate-19 found a transpose bug in the programme's fluid_T
+  (A·That·Aᵀ where Aᵀ·That·A was required) and re-judged Gate-16 under the
+  corrected tensor. Panel A: legality under the corrected reads — 0.75 for
+  the hinge candidate, 0.8928571428571429 for the best candidate
+  (G16-1 survives only in this restated wording; G16-2 failed and was
+  withdrawn). Panel B: the grouped EoM score of every machinery row still
+  sits at ~1.0 — Frontier A = 0, no joint pass. Panel C: the hinge
+  candidate's full energy-condition minima remain negative. **Fence:** a
+  legality improvement on a superluminal front candidate is not a front
+  pass and not a drive; the corrected numbers supersede the originals as
+  a class.
+
+## 12. `fig_gate20_closure.png` — an instrument-scope pass, honestly fenced
+
+- **Script:** `fig_gate20_closure.py`
+- **Sources:** `gate20-claims/results/g20_verify_out.json`; the cap from
+  `gate21-claims/GATE21.md` (INVENTORY gap G-5)
+- **Caption:** Panel A: in the enriched diagonal instrument, one exhibited
+  field reads coupled closure 0.6232117059867903 against the registered
+  0.63 cap — G20-1, survived intact, instrument scope only. The same
+  witness under a frozen instrument reads 13.70: the coupling to the
+  instrument is the result. Panel B: the five sub-cut singular values
+  that carry the witness. **Fence:** SPECULATIVE, instrument-scoped; not
+  an untruncated-pose verdict, and the finite-λ question is not decided
+  here (that is Gate-21's figure, next).
+
+## 13. `fig_gate21_lambda.png` — holds at λ = 0.10, dead by λ = 0.1452
+
+- **Script:** `fig_gate21_lambda.py`
+- **Sources:** `gate21-claims/results/g21_verify_out.json`;
+  `gate21-claims/results/g21_verify2_out.json`
+- **Caption:** Panel A: the failure mechanism made visible — at site 44
+  the tensor is not Type-I at λ = 0.10, and is Type-I at λ = 0.11 and
+  0.1452 (the eigenvalue pair goes real); the onset bracket is
+  (0.10, 0.11]. Panel B: the G21-1 witness's exact closure
+  0.6233418793559693 at λ = 0.10, under the 0.63 cap — survived in
+  restated wording, with its fence (the witness is coefficient-large and
+  near-null-carried). G21-2 (the λ = 0.1452 failure) survived intact.
+  **Fence:** SPECULATIVE and instrument-scoped, exactly as Gate-20's.
+
+## 14. `fig_gate22_brackets.png` — the sustainment line at verdict grade
+
+- **Script:** `fig_gate22_brackets.py`
+- **Sources:** `gate22-claims/results/g23_verify_results.json`;
+  `gate22-claims/results/g27_verify_results.json`;
+  `gate22-claims/results/g31_results.json`
+- **Caption:** Panel A: the certified first-crossing brackets of the
+  wormhole sustainment line — the wound pose (0.55625, 0.5625], the Axis A
+  companion (0.575, 0.58125], the combined class clamped (0.65625,
+  0.6625], and the lead, G27-A unclamped (0.675, 0.68125], which carries
+  Gate-28's fence: under the trim coefficient's measured uncertainty the
+  lead over the wound pose survives, while the ordering past the clamped
+  certificate is not claimed. Panel B: Gate-27's stop-free trim law
+  a(t) = −0.5 − c_trim t² with its stored evaluations and the linearised
+  crossing. **Fence:** jet-scope sector-superposition exhibits — an
+  exhibit is not a construction. Programme-level sustainment wording
+  remains gated by the p1592 deciding scan; no traversability is claimed,
+  and no geometry is drawn because none exists on the record.
+
+## 15. `fig_gate25_spinor.png` — interference does what no single mode can
+
+- **Script:** `fig_gate25_spinor.py`
+- **Sources:** `gate25-claims/results/g25_verify_results.json`
+- **Caption:** Panel A: at the drive's β = 1.1 worst site, each of the
+  three Dirac modes alone gives T(k*,k*) ≥ 0, while their superposition
+  reads −10.8785 at positive density ρ = +2.2404 — the negativity is
+  purely multi-mode interference (G25-A, restated; novelty NONE — the
+  mechanism is published prior art in other settings). Panel B: Type-IV
+  tensors are generic in random superpositions (the gate's own draws:
+  13/60), and the six-mode match of a required tensor lands at residual
+  ~1.8×10⁻¹⁶ but at NEGATIVE density (ρ_unit = −0.012431) — the match
+  does not inherit the positive density (G25-C). **Fence:** pointwise
+  scope throughout; no global field, no shell, and no drive is claimed.
+
+## 16. `fig_gate34_supplier.png` — the pair: density at the sites, a supplier that fits
+
+- **Script:** `fig_gate34_supplier.py`
+- **Sources:** `gate34-claims/results/g34_item1.json`;
+  `gate34-claims/results/g34_item3c.json`;
+  `phase312/results/p312_results.json`
+- **Caption:** Panel A: Phase 312's broad-ramp winner (m₀ = +1.0) has
+  required density positive at all four binding sites. Panel B: the
+  six-mode Dirac match of its full required tensor is structural — the
+  Jacobian is full-rank with σ_min = 0.0272, and the fit re-closes under
+  10⁻⁴ perturbations. Panel C: the 36-member trade curve the winner came
+  from — buying site-positive density costs NEC depth. **Fence:** the
+  full-volume density minimum is still −7.561×10⁻⁸ (10⁻⁷ level, in the
+  M ≡ 1 strip) — positivity here is a binding-sites statement, NOT
+  pointwise over the shell; the depth −1.180×10⁻³ is a negative NEC read.
+  No energy-condition pass, no front pass, no drive. (The pointwise,
+  everywhere-positive member is Gate-35's — figure 1 and the 3D wall of
+  entry 7.)
+
+## 17. The Gate-34 winner's wall in 3D — `model_gate34_wall_view1.png`, `model_gate34_wall_view2.png`, `model_gate34_wall_shell.png`, `gate34_wall_shell.obj`, `gate34_wall_shell.stl`
+
+- **Script:** `model_gate34_wall.py`
+- **Sources:** stored evaluator `phase312/work/p312_lib.py` (WINNER_SPEC,
+  `rho_split`); member profile from `phase312/results/p312_results.json`.
+  The script verifies itself against the record first: its S1 density
+  reproduces the stored ρ_req to 2.7×10⁻¹⁹.
+- **Caption:** The Phase 312 winner's bubble wall as a 3D object: the
+  surface at r = 14.75 (radius of maximum angular contrast, computed by
+  the script) coloured by ρ_req — the density piles toward the front
+  (+x) and is positive across this surface (the wall band's interior
+  minimum, −2.4924×10⁻⁷, reproduces Gate-34's stored dense-scan minimum
+  exactly, and sits in the M ≡ 1 strip at the inner edge). The exported
+  mesh (14,016 vertices / 27,648 faces) spans the posed band
+  r ∈ [10, 20]. **Fence:** the required-source geometry of a prescribed
+  configuration — a model of the target, not of a working drive. Density
+  is positive at the binding sites, not pointwise over the volume (see
+  figure 16), and the pressures are NOT legal (NEC depth −1.180×10⁻³ on
+  this member).
+
+## 18. `fig_gate36_census.png` — conditioning belongs to the solution, not the target
+
+- **Script:** `fig_gate36_census.py`
+- **Sources:** `gate36-claims/results/g36_item3_results.json`
+- **Caption:** Gate-36 re-judged Phase 320's spinor mating of the
+  pointwise member: the match and its positive density SURVIVE (G36-A/B).
+  The plot is the gate's own census of independent solutions' Jacobian
+  σ_min on both targets: Phase 320's warm-lineage solution, at
+  3.994×10⁻⁴, is the thinnest found — every other solution, on either
+  target, is at least 9.5× thicker, and the targets' medians
+  (6.879×10⁻³ vs 1.259×10⁻²) differ by only ×1.83. So σ_min is quotable
+  only as a per-solution value (G36-C, restated) — never as a property
+  of a target or of the mating. **Fence:** binding-site scope only; the
+  member's energy-condition violations stand exactly as stored, and no
+  extent, QI, legality or front wording follows.
+
+## 19. `fig_gate37_collapse.png` — one printed number, and everything it was hiding
+
+- **Script:** `fig_gate37_collapse.py`
+- **Sources:** `gate37-claims/results/g37_arithmetic.json`
+- **Caption:** Panel A: Décanini & Folacci's printed H{2,0}(3) against
+  the derived tensor at the Ellis throat — two components agree exactly;
+  T^r_r is printed as 80/3 and derives as 16. Panel B: substituting the
+  derived tensor moves the Ellis gate coefficient from 203 to 187, the
+  target. Panel C: across the wider evaluation set, the ξ⁰ residuals
+  collapse by twelve-plus orders of magnitude (e.g. C: 250 → 5.1×10⁻¹³),
+  and the A-throat core residual closes to (0, 0, 0) exactly, with the
+  derived A-throat tensor (9/4, 3/4, 21/4) confirmed on three independent
+  paths. **Fence:** the identification holds in the registered form only
+  (harness cores Ellis + A, all powers, arbitrated assembly); the
+  "one printed number" statement is exact at the Ellis throat — at the A
+  throat the deciding content is the exact core closure. No wormhole
+  construction, no traversability, and no FTL claim follows from this set.
