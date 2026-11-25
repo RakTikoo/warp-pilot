@@ -1,0 +1,51 @@
+{
+ "sites": {
+  "worst_r12.84_b1.1": {
+   "r": 12.839999999999998,
+   "beta": 1.1,
+   "deficit": -0.0038017605291582623,
+   "T_unit_kk_at_site_kstar": -0.4822065908717317,
+   "s2_site": 0.007884090763432848,
+   "rho_spinor_at_s2": -9.800905387228425e-05
+  },
+  "band_r12.5_b1.1": {
+   "r": 12.5,
+   "beta": 1.1,
+   "deficit": -0.0037557705899683882,
+   "T_unit_kk_at_site_kstar": -0.48220658552667506,
+   "s2_site": 0.007788716916560285,
+   "rho_spinor_at_s2": -9.682343833631217e-05
+  },
+  "band_r15.0_b1.1": {
+   "r": 15.000000000000002,
+   "beta": 1.1,
+   "deficit": -0.0016384261964676222,
+   "T_unit_kk_at_site_kstar": -0.4822036367872198,
+   "s2_site": 0.0033977889660558587,
+   "rho_spinor_at_s2": -4.2238742781269364e-05
+  },
+  "worst_b1.5": {
+   "r": 13.23,
+   "beta": 1.5,
+   "deficit": -0.0048816205920118065,
+   "T_unit_kk_at_site_kstar": -0.48220658171924763,
+   "s2_site": 0.010123504690887866,
+   "rho_spinor_at_s2": -0.00012584775421757512
+  }
+ },
+ "phase253_sign_config": {
+  "s2_worst_site": 0.0003495,
+  "rho_at_s2": 0.000783,
+  "T_unit_kk": -10.8785
+ },
+ "shell_sketch": {
+  "drive_E_neg_b1.1": -2.590291375073908,
+  "statement": "E_spinor(shell-wide = T_req) = E_neg by construction; no additional positive-energy reservoir is priced or required by the pointwise match, and no shell-wide Dirac field is constructed by this phase.",
+  "amplitude_ratio_vs_sign_only": 22.558199609249925
+ },
+ "qi": {
+  "R_diff_bare": 2852.41,
+  "R_diff_after_sourcing": 2852.41,
+  "reason": "R_diff (Phase 66 difference-QEI form) prices the TOTAL stress T_req sampled along the worldline; sourcing changes WHO supplies T_req, not T_req. The combined object's stress is T_req itself, so the QI line is unchanged identically."
+ }
+}

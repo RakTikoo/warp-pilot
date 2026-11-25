@@ -1,0 +1,147 @@
+{
+ "n_checks": 28,
+ "n_pass": 28,
+ "all_pass": true,
+ "checks": [
+  {
+   "name": "control_That_contraction_reproduces_stored_NEC_worst",
+   "pass": true,
+   "detail": "-0.003801760529158262"
+  },
+  {
+   "name": "control_stored_rows_exact",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_00",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_01",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_02",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_03",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_10",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_11",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_12",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_13",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_20",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_21",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_22",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_23",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_30",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_31",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_32",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "clifford_33",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "dirac_resid_weyl",
+   "pass": true,
+   "detail": "5.689893001203927e-16"
+  },
+  {
+   "name": "dirac_resid_weyl",
+   "pass": true,
+   "detail": "4.7489011223430645e-15"
+  },
+  {
+   "name": "dirac_resid_weyl",
+   "pass": true,
+   "detail": "5.535589320155187e-16"
+  },
+  {
+   "name": "Tkk_worst_site_negative",
+   "pass": true,
+   "detail": "-10.8784919016026"
+  },
+  {
+   "name": "Tkk_matches_driver",
+   "pass": true,
+   "detail": "(-10.8784919016026, -10.878491901602604)"
+  },
+  {
+   "name": "rho_positive_and_matches",
+   "pass": true,
+   "detail": "2.240352036231238"
+  },
+  {
+   "name": "single_mode_Tkk_nonnegative",
+   "pass": true,
+   "detail": "1.32792440635002"
+  },
+  {
+   "name": "single_mode_Tkk_nonnegative",
+   "pass": true,
+   "detail": "259.9833336965951"
+  },
+  {
+   "name": "single_mode_Tkk_nonnegative",
+   "pass": true,
+   "detail": "26.60175213012045"
+  },
+  {
+   "name": "C_pair_determinant_negative",
+   "pass": true,
+   "detail": "-28.01876050751726"
+  }
+ ]
+}

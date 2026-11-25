@@ -1,0 +1,13 @@
+{
+ "R_via_bilinear_builder": 1.767689307869179e-16,
+ "R_pass_full_match_bar_1e-9": true,
+ "tkk_fit": -0.0038017605291584965,
+ "tkk_req": -0.003801760529158262,
+ "fit_max_abs_imag_eig": 0.0008201278128046003,
+ "req_max_abs_imag_eig": 0.0008201278128046272,
+ "fit_is_type_IV": true,
+ "s2_recomputed": 0.00788409076343284,
+ "s2_agrees": true,
+ "scaled_diff": 1.8373765011776102e-16,
+ "all_pass": true
+}

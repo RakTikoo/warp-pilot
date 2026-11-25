@@ -1,0 +1,70 @@
+{
+ "config": {
+  "best_key": "N6_constr",
+  "sum_c_sq_fit": 0.007884090763433323,
+  "T_unit_kk": -0.4822065908717317,
+  "s2": 0.007884090763432848,
+  "T_scaled_kk": -0.0038017605291582623,
+  "T_scaled_frob_diff_vs_Treq": 1.7949307021897134e-16,
+  "rho_unit": -0.012431243730330888,
+  "rho_scaled": -9.800905387228425e-05
+ },
+ "site_profiles": {
+  "T_req": {
+   "nec_min": -0.0038017605291582623,
+   "wec_min": -0.18828638212329857,
+   "dec": {
+    "worst_flux_norm_sq": -0.00025558988504281185,
+    "past_directed_flux_seen": true,
+    "dec_satisfied_sampled": false
+   },
+   "rho": -9.800905387216327e-05
+  },
+  "spinor_unit": {
+   "nec_min": -0.4822065908717318,
+   "wec_min": -23.88181310603231,
+   "dec": {
+    "worst_flux_norm_sq": -4.111880001326487,
+    "past_directed_flux_seen": true,
+    "dec_satisfied_sampled": false
+   },
+   "rho": -0.012431243730330888
+  },
+  "spinor_s2": {
+   "nec_min": -0.003801760529158263,
+   "wec_min": -0.18828638212329893,
+   "dec": {
+    "worst_flux_norm_sq": -0.00025558988504277894,
+    "past_directed_flux_seen": true,
+    "dec_satisfied_sampled": false
+   },
+   "rho": -9.800905387228425e-05
+  },
+  "net_sum_registered": {
+   "nec_min": -0.0076035210583165255,
+   "wec_min": -0.37657276424659747,
+   "dec": {
+    "worst_flux_norm_sq": -0.0010223595401711813,
+    "past_directed_flux_seen": true,
+    "dec_satisfied_sampled": false
+   },
+   "rho": -0.00019601810774444754
+  },
+  "remainder_companion": {
+   "nec_min": -2.932925221202116e-17,
+   "wec_min": -1.3603482630326032e-15,
+   "dec": {
+    "worst_flux_norm_sq": 1e+300,
+    "past_directed_flux_seen": true,
+    "dec_satisfied_sampled": false
+   },
+   "rho": 1.2098340992222623e-16
+  }
+ },
+ "patch_s2": {
+  "nec_min": -0.022314545788106002,
+  "rho_min": -9.800905387228425e-05,
+  "rho_max": 0.09208694440704122,
+  "wec_min": -1.0991280795207956
+ }
+}
