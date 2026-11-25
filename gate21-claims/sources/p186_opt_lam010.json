@@ -1,0 +1,206 @@
+{
+ "label": "SPECULATIVE",
+ "lam": 0.1,
+ "QREF": [
+  0.9923385740704013,
+  0.9223100532072909
+ ],
+ "QREF_stage1": [
+  0.9923385740704013,
+  0.9223100532072909
+ ],
+ "D0_maxdiff_vs_gradfile": 0.0,
+ "method": "Mirrored verbatim from phase178/work/p1781_stage3_opt.py with two registered substitutions: (1) spin threaded at LAM=0.10 everywhere (pose_E_coupledIa(gf, C.coeff0, 0.10) and P186.reads_lam(gf, 0.10)); (2) Delta-q reference is the same-lambda unresponded pose QREF = q(0; 0.10) recomputed via reads_lam (asserted equal <=1e-12 to the Stage-1 values and D0 asserted equal <=1e-12 to the gradient file), replacing the original vs-STORED_Q form. Otherwise: SLSQP analytic Jacobians, multi-start (LS / equality-LS / zero); selection rule: minimum linearised coupled closure subject to |dq|<=5e-4 both sites and linearised count-preserving sign constraints; correction loop <=13 iterations against exact reads, as the original.",
+ "H_grad": 0.001,
+ "trust_cap_field_value": 0.25,
+ "final_witness_stats": {
+  "norm": 4.407427402148757,
+  "max_coeff": 3.547358374106746,
+  "max_field_value": 0.042537246320521915,
+  "frac_below_sigcut": 0.9997605765139753,
+  "lin_closure": 0.6252383846938673,
+  "lin_dq41": 0.00025703511070690157,
+  "lin_dq44": 0.002751512217372438,
+  "lin_count_ok": false,
+  "lin_count_min_margin": -8.771348698590943e-08
+ },
+ "final_witness_max_field_value_vs_trust_cap": {
+  "max_field_value": 0.042537246320521915,
+  "trust_cap": 0.25,
+  "within_cap": true
+ },
+ "linearised_candidates": {
+  "from_ls": {
+   "success": false,
+   "message": "Positive directional derivative for linesearch",
+   "norm": 4.642528285145211,
+   "max_coeff": 3.751937205309378,
+   "max_field_value": 0.03870831689792833,
+   "frac_below_sigcut": 0.9997912707700035,
+   "lin_closure": 0.6229815888296493,
+   "lin_dq41": -0.0004999986026002634,
+   "lin_dq44": 0.0005000039214448932,
+   "lin_count_ok": true,
+   "lin_count_min_margin": 4.8044026405619136e-17
+  },
+  "from_eqLS": {
+   "success": false,
+   "message": "Positive directional derivative for linesearch",
+   "norm": 4.548753146522862,
+   "max_coeff": 3.673058853581394,
+   "max_field_value": 0.03822163403379807,
+   "frac_below_sigcut": 0.9997825871085563,
+   "lin_closure": 0.6229816306285766,
+   "lin_dq41": -0.000499587163859053,
+   "lin_dq44": 0.0005011732771109259,
+   "lin_count_ok": true,
+   "lin_count_min_margin": 1.2943351223740088e-12
+  },
+  "from_zero": {
+   "success": false,
+   "message": "Positive directional derivative for linesearch",
+   "norm": 4.649806306035044,
+   "max_coeff": 3.758082567178834,
+   "max_field_value": 0.03874635622365098,
+   "frac_below_sigcut": 0.9997919227604906,
+   "lin_closure": 0.6229814438458013,
+   "lin_dq41": -0.0004964936878436976,
+   "lin_dq44": 0.0005098284246062831,
+   "lin_count_ok": true,
+   "lin_count_min_margin": 1.0585015364611169e-11
+  }
+ },
+ "linearised_best": null,
+ "min_t_at_caps": {
+  "0.63": {
+   "success": false,
+   "t": 7.703701401187714e-16,
+   "norm": 1.5117897062489871,
+   "max_coeff": 1.2037125958423716,
+   "max_field_value": 0.03485090272366361,
+   "frac_below_sigcut": 0.9977467304254657,
+   "lin_closure": 0.6300000000004269,
+   "lin_dq41": 1.3460519938765559e-14,
+   "lin_dq44": -1.7485358805483729e-15,
+   "lin_count_ok": true,
+   "lin_count_min_margin": 8.847323778964242e-09
+  },
+  "0.625": {
+   "success": false,
+   "t": 4.158812235892832e-16,
+   "norm": 1.5096545202800482,
+   "max_coeff": 1.1956319604396792,
+   "max_field_value": 0.03341827406348924,
+   "frac_below_sigcut": 0.997827558910532,
+   "lin_closure": 0.6249999999999968,
+   "lin_dq41": 9.292930060002374e-14,
+   "lin_dq44": 1.2242187290008983e-13,
+   "lin_count_ok": true,
+   "lin_count_min_margin": 8.61204645792096e-09
+  },
+  "0.62": {
+   "success": false,
+   "t": 0.0032640051433232144,
+   "norm": 4.9006247307505095,
+   "max_coeff": 3.9016846287987144,
+   "max_field_value": 0.08406024628971531,
+   "frac_below_sigcut": 0.999813518070332,
+   "lin_closure": 0.6244431116106041,
+   "lin_dq41": 0.0003948583116633786,
+   "lin_dq44": 0.003264005333866783,
+   "lin_count_ok": true,
+   "lin_count_min_margin": 8.57184441735566e-09
+  }
+ },
+ "iterations": [
+  {
+   "iteration": 0,
+   "closure": 0.6302835602173782,
+   "q41": 0.9924700565586434,
+   "q44": 0.9213937573695429,
+   "dq41": 0.0001314824882421295,
+   "dq44": -0.0009162958377479935,
+   "typeI": [
+    false,
+    false
+   ],
+   "count": 52,
+   "clauses": {
+    "closure_ok": false,
+    "dq_ok": false,
+    "typeI_ok": true,
+    "count_ok": true
+   },
+   "all_ok": false,
+   "norm": 1.5117897062489871,
+   "max_coeff": 1.2037125958423716,
+   "max_field_value": 0.03485090272366361,
+   "frac_below_sigcut": 0.9977467304254657,
+   "lin_closure": 0.6300000000004269,
+   "lin_dq41": 1.3460519938765559e-14,
+   "lin_dq44": -1.7485358805483729e-15,
+   "lin_count_ok": true,
+   "lin_count_min_margin": 8.847323778964242e-09
+  },
+  {
+   "iteration": 1,
+   "closure": 0.6264191966232877,
+   "q41": 0.9919500564714656,
+   "q44": 0.9204748368276647,
+   "dq41": -0.00038851759893565596,
+   "dq44": -0.0018352163796261367,
+   "typeI": [
+    false,
+    false
+   ],
+   "count": 52,
+   "clauses": {
+    "closure_ok": true,
+    "dq_ok": false,
+    "typeI_ok": true,
+    "count_ok": true
+   },
+   "all_ok": false,
+   "norm": 4.378692861838295,
+   "max_coeff": 3.505969731159893,
+   "max_field_value": 0.035275987266991424,
+   "frac_below_sigcut": 0.9997633862283867,
+   "lin_closure": 0.6245650115977635,
+   "lin_dq41": -0.00013148248822877372,
+   "lin_dq44": 0.0009162958377462831,
+   "lin_count_ok": false,
+   "lin_count_min_margin": -2.485836582361071e-08
+  },
+  {
+   "iteration": 2,
+   "closure": 0.6233418793559693,
+   "q41": 0.9923674977779767,
+   "q44": 0.9225404112782403,
+   "dq41": 2.8923707575456703e-05,
+   "dq44": 0.00023035807094939909,
+   "typeI": [
+    false,
+    false
+   ],
+   "count": 52,
+   "clauses": {
+    "closure_ok": true,
+    "dq_ok": true,
+    "typeI_ok": true,
+    "count_ok": true
+   },
+   "all_ok": true,
+   "norm": 4.407427402148757,
+   "max_coeff": 3.547358374106746,
+   "max_field_value": 0.042537246320521915,
+   "frac_below_sigcut": 0.9997605765139753,
+   "lin_closure": 0.6252383846938673,
+   "lin_dq41": 0.00025703511070690157,
+   "lin_dq44": 0.002751512217372438,
+   "lin_count_ok": false,
+   "lin_count_min_margin": -8.771348698590943e-08
+  }
+ ],
+ "witness_found": true,
+ "seconds": 62.76973795890808
+}
