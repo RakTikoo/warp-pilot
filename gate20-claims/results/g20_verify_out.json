@@ -1,0 +1,127 @@
+{
+ "A1 d npz-vs-json maxdiff": 0.0,
+ "A2 norm_d": 0.18087836878121485,
+ "A2 max_coeff": 0.14320434982453112,
+ "A2 norm_expected": 0.18087836878121485,
+ "A3 sigma_cut recomputed": 23.491427444171965,
+ "A3 sigma_cut claimed": 23.491427444171965,
+ "A4 coupled LS floor (own SVD)": 0.6197514399668285,
+ "A5 witness linearised closure (own)": 0.6227068127601647,
+ "A6 frac ||d||^2 below sigma_cut (own SVD)": 0.9971746120746057,
+ "A6 frac claimed": 0.9971746120746057,
+ "A7 n singular values below cut": 5,
+ "A7 sub-cut sigmas": [
+  18.43841112294795,
+  14.73914126608308,
+  10.67309533002836,
+  6.157218005611914,
+  0.8976173802239834
+ ],
+ "A8 dq41 from stored q": -4.992381943624835e-06,
+ "A8 dq44 from stored q": -0.00013211411370428472,
+ "A9 T9 c2[41] stored": 0.0009028647947471692,
+ "A9 claim c2[41]": 0.0009028647947471692,
+ "A9 T9 survival[41] stored": 0.013652955217293665,
+ "A9 claim survival[41]": 0.013652955217293665,
+ "A9 T9 c2[44] stored": -0.0011544294511897568,
+ "A9 claim c2[44]": -0.0011544294511897568,
+ "A9 T9 survival[44] stored": 0.14058890317097553,
+ "A9 claim survival[44]": 0.14058890317097553,
+ "B1 d=0 q": [
+  1.0032717740717199,
+  1.1029635664194024
+ ],
+ "B1 d=0 count": 52,
+ "B2 exact closure at d=0": 1.0000000000000422,
+ "B2 RMS(res0) from state": 1.0000000000000422,
+ "B3 witness EXACT coupled closure": 0.6232117059867903,
+ "B3 claimed": 0.6232117059867903,
+ "B4 witness closure under FROZEN Ia (contrast)": 13.7020152011858,
+ "B5 witness q41": 1.0032667816897762,
+ "B5 witness q44": 1.1028314523056981,
+ "B5 witness dq41": -4.992381943624835e-06,
+ "B5 witness dq44": -0.00013211411370428472,
+ "B5 witness TypeI sites": [
+  false,
+  false
+ ],
+ "B5 witness count": 52,
+ "B6 witness D_r[44]": -1.0402801601087723e-08,
+ "B6 witness D_r[41]": -2.25653450192831e-08,
+ "B6 min |D_r| over subset": 1.0402801601087723e-08,
+ "B6 argmin |D_r|": 44,
+ "B6 five smallest |D_r|": [
+  1.0402801601087723e-08,
+  2.25653450192831e-08,
+  2.7964535793177906e-07,
+  2.883785127841196e-07,
+  2.942328369931448e-07
+ ],
+ "B7 P176-3 floor witness exact closure": 0.6196571998307678,
+ "B7 claimed": 0.6196571998307678,
+ "B7 floor witness dq": [
+  0.019929411948893305,
+  0.020785147728896503
+ ],
+ "B7 floor witness count": 52,
+ "B8 max field value at subset points": 0.0013184603821767068,
+ "B8 claimed": 0.0013184603821767068,
+ "B9 perturb 1e-06 #0 count": 52,
+ "B9 perturb 1e-06 #0 TypeI sites": [
+  false,
+  false
+ ],
+ "B9 perturb 1e-06 #0 dq": [
+  -6.88725090158826e-06,
+  -0.00012204599212739531
+ ],
+ "B9 perturb 1e-06 #1 count": 52,
+ "B9 perturb 1e-06 #1 TypeI sites": [
+  false,
+  false
+ ],
+ "B9 perturb 1e-06 #1 dq": [
+  1.3637912888775361e-05,
+  -0.00010149047379193199
+ ],
+ "B9 perturb 1e-05 #0 count": 52,
+ "B9 perturb 1e-05 #0 TypeI sites": [
+  false,
+  false
+ ],
+ "B9 perturb 1e-05 #0 dq": [
+  3.7552288246534005e-05,
+  -0.0001025805196337437
+ ],
+ "B9 perturb 1e-05 #1 count": 52,
+ "B9 perturb 1e-05 #1 TypeI sites": [
+  false,
+  false
+ ],
+ "B9 perturb 1e-05 #1 dq": [
+  -7.674724674666678e-06,
+  -0.00018232788644922948
+ ],
+ "B10 directed D_r44-flip probe: ||delta||": 0.061910489115999105,
+ "B10 directed probe count": 49,
+ "B10 directed probe TypeI[44]": true,
+ "C1 metric maxdiff old-vs-enriched (P4=0 embedding)": 0.0,
+ "C2 embedded P171-1 witness exact closure via enriched path": 0.6327322436277067,
+ "C2 P171-1 stored exact closure of its coupled witness": 0.632732,
+ "C3 embedded witness dq via enriched path": [
+  0.0070625170978857454,
+  0.018359943505659393
+ ],
+ "C3 P171-1 stored exact dq of floor field": [
+  0.00706,
+  0.0184
+ ],
+ "D gate(a) site 41 c2 own": 0.0009028647947471692,
+ "D gate(a) site 41 c2 reldiff vs T9": 0.0,
+ "D gate(a) site 41 survival own": 0.013652955217293665,
+ "D gate(a) site 41 survival reldiff vs T9": 0.0,
+ "D gate(a) site 44 c2 own": -0.0011544294511897568,
+ "D gate(a) site 44 c2 reldiff vs T9": 0.0,
+ "D gate(a) site 44 survival own": 0.14058890317097553,
+ "D gate(a) site 44 survival reldiff vs T9": 0.0
+}
