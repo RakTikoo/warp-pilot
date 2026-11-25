@@ -1,0 +1,315 @@
+{
+ "cal_ellis_l1_L2": {
+  "point": "ellis_l1",
+  "scalar": "L2",
+  "E_mixed_diag": [
+   "47/8",
+   "1/8",
+   "55/8",
+   "55/8"
+  ],
+  "Ric_mixed": [
+   "0",
+   "-1/2",
+   "0",
+   "0"
+  ],
+  "div": [
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "offdiag_max": "0",
+  "trace": "79/4",
+  "L0": "-5/4",
+  "wall_s": 13.1,
+  "target_diag": [
+   "47/8",
+   "1/8",
+   "55/8",
+   "55/8"
+  ],
+  "diag_match": true,
+  "target_Ric": [
+   "0",
+   "-1/2",
+   "0",
+   "0"
+  ],
+  "ric_match": true,
+  "div_zero": true,
+  "offdiag_zero": true
+ },
+ "cal_ellis_throat_Ric3": {
+  "point": "ellis_throat",
+  "scalar": "Ric3",
+  "E_mixed_diag": [
+   "-32",
+   "-8",
+   "-44",
+   "-44"
+  ],
+  "Ric_mixed": [
+   "0",
+   "-2",
+   "0",
+   "0"
+  ],
+  "div": [
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "offdiag_max": "0",
+  "trace": "-128",
+  "L0": "-8",
+  "wall_s": 8.7,
+  "target_diag": [
+   "-32",
+   "-8",
+   "-44",
+   "-44"
+  ],
+  "diag_match": true,
+  "target_Ric": [
+   "0",
+   "-2",
+   "0",
+   "0"
+  ],
+  "ric_match": true,
+  "div_zero": true,
+  "offdiag_zero": true
+ },
+ "cal_ellis_throat_RiemRic": {
+  "point": "ellis_throat",
+  "scalar": "RiemRic",
+  "E_mixed_diag": [
+   "-4",
+   "-4",
+   "-16",
+   "-16"
+  ],
+  "Ric_mixed": [
+   "0",
+   "-2",
+   "0",
+   "0"
+  ],
+  "div": [
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "offdiag_max": "0",
+  "trace": "-40",
+  "L0": 0,
+  "wall_s": 4.2,
+  "target_diag": [
+   "-4",
+   "-4",
+   "-16",
+   "-16"
+  ],
+  "diag_match": true,
+  "target_Ric": [
+   "0",
+   "-2",
+   "0",
+   "0"
+  ],
+  "ric_match": true,
+  "div_zero": true,
+  "offdiag_zero": true
+ },
+ "cal_ellis_R15_float_L2": {
+  "point": "ellis_R15_float",
+  "scalar": "L2",
+  "E_mixed_diag": [
+   2.909523352545251,
+   0.6281487502845773,
+   2.8941086592867893,
+   2.8941086592867973
+  ],
+  "target_diag": [
+   2.9095233525452513,
+   0.6281487502846053,
+   2.8941086592867307,
+   2.8941086592867307
+  ],
+  "max_dev": 6.661338147750939e-14,
+  "div_max": 1.9695356456850277e-13,
+  "wall_s": 2.3
+ },
+ "dec_ellis_throat_L2": {
+  "point": "ellis_throat",
+  "scalar": "L2",
+  "E_mixed_diag": [
+   "-80",
+   "-16",
+   "-112",
+   "-112"
+  ],
+  "Ric_mixed": [
+   "0",
+   "-2",
+   "0",
+   "0"
+  ],
+  "div": [
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "offdiag_max": "0",
+  "trace": "-320",
+  "L0": 0,
+  "wall_s": 1.8,
+  "target_diag": [
+   "-80",
+   "-16",
+   "-112",
+   "-112"
+  ],
+  "diag_match": true,
+  "target_Ric": [
+   "0",
+   "-2",
+   "0",
+   "0"
+  ],
+  "ric_match": true,
+  "div_zero": true,
+  "offdiag_zero": true
+ },
+ "dec_A_throat_L2": {
+  "point": "A_throat",
+  "scalar": "L2",
+  "E_mixed_diag": [
+   "-9/4",
+   "-3/4",
+   "-21/4",
+   "-21/4"
+  ],
+  "Ric_mixed": [
+   "0",
+   "-1",
+   "1/2",
+   "1/2"
+  ],
+  "div": [
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "offdiag_max": "0",
+  "trace": "-27/2",
+  "L0": 0,
+  "wall_s": 4.0,
+  "target_diag": [
+   "-9/4",
+   "-3/4",
+   "-21/4",
+   "-21/4"
+  ],
+  "diag_match": true,
+  "target_Ric": [
+   "0",
+   "-1",
+   "1/2",
+   "1/2"
+  ],
+  "ric_match": true,
+  "div_zero": true,
+  "offdiag_zero": true
+ },
+ "dec_C12_L2": {
+  "point": "C_1_2",
+  "scalar": "L2",
+  "E_mixed_diag": [
+   "-5645/4",
+   "-1375/4",
+   "-7705/4",
+   "-7705/4"
+  ],
+  "Ric_mixed": [
+   "0",
+   "-5",
+   "-3/2",
+   "-3/2"
+  ],
+  "div": [
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "offdiag_max": "0",
+  "trace": "-11215/2",
+  "L0": 0,
+  "wall_s": 5.2,
+  "target_diag": [
+   "-5645/4",
+   "-1375/4",
+   "-7705/4",
+   "-7705/4"
+  ],
+  "diag_match": true,
+  "target_Ric": [
+   "0",
+   "-5",
+   "-3/2",
+   "-3/2"
+  ],
+  "ric_match": true,
+  "div_zero": true,
+  "offdiag_zero": true
+ },
+ "dec_E110_L2": {
+  "point": "E_1_10",
+  "scalar": "L2",
+  "E_mixed_diag": [
+   "-1591",
+   "-110",
+   "-3005/4",
+   "-3005/4"
+  ],
+  "Ric_mixed": [
+   "-2",
+   "-3",
+   "1/2",
+   "1/2"
+  ],
+  "div": [
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "offdiag_max": "0",
+  "trace": "-6407/2",
+  "L0": 0,
+  "wall_s": 3.8,
+  "target_diag": [
+   "-1591",
+   "-110",
+   "-3005/4",
+   "-3005/4"
+  ],
+  "diag_match": true,
+  "target_Ric": [
+   "-2",
+   "-3",
+   "1/2",
+   "1/2"
+  ],
+  "ric_match": true,
+  "div_zero": true,
+  "offdiag_zero": true
+ }
+}

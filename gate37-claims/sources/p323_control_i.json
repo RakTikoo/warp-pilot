@@ -1,0 +1,33 @@
+{
+ "REST_derived_throat": [
+  "44/135",
+  "68/945",
+  "100/189"
+ ],
+ "REST_print_throat": [
+  "44/135",
+  "4/27",
+  "100/189"
+ ],
+ "substitution_delta_bracket": [
+  "0",
+  "-16",
+  "0"
+ ],
+ "phase259_FULL_throat_xi0_residual": [
+  "0",
+  "16",
+  "0"
+ ],
+ "substituted_throat_xi0_residual": [
+  "0",
+  "0",
+  "0"
+ ],
+ "P_xi0_coefficient": {
+  "stored": 203,
+  "after_substitution": 187,
+  "target": 187
+ },
+ "pass": true
+}

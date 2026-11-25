@@ -1,0 +1,227 @@
+{
+ "weights": {
+  "H3": "-8/945",
+  "H4": "2/315",
+  "H20_3": "1/140"
+ },
+ "points": {
+  "Ellis R=1.0": {
+   "Tt": {
+    "H3_derived_print_units": "32",
+    "H4_derived_print_units": "4",
+    "weighted_derived_DFsum_xi0": "-232/945",
+    "weighted_derived_bracket_xi0": "-464/9",
+    "REST_print_joint_DFsum": "8256599316845941/25332747903959040",
+    "REST_print_joint_bracket": "57796195217921587/844424930131968",
+    "implied_H20_3_print_if_H34_agree_DFsum": "303992974847509145/3799912185593856",
+    "implied_H20_3_print_if_H34_agree_bracket": "10639754119662820075/633318697598976"
+   },
+   "Tr": {
+    "H3_derived_print_units": "8",
+    "H4_derived_print_units": "4",
+    "weighted_derived_DFsum_xi0": "-8/189",
+    "weighted_derived_bracket_xi0": "-80/9",
+    "REST_print_joint_DFsum": "1751399855088529/11821949021847552",
+    "REST_print_joint_bracket": "8756999275442645/281474976710656",
+    "implied_H20_3_print_if_H34_agree_DFsum": "101330991615836285/3799912185593856",
+    "implied_H20_3_print_if_H34_agree_bracket": "3546584706554269975/633318697598976"
+   },
+   "Tth": {
+    "H3_derived_print_units": "44",
+    "H4_derived_print_units": "16",
+    "weighted_derived_DFsum_xi0": "-256/945",
+    "weighted_derived_bracket_xi0": "-512/9",
+    "REST_print_joint_DFsum": "23456248059221363/44332308831928320",
+    "REST_print_joint_bracket": "23456248059221363/211106232532992",
+    "implied_H20_3_print_if_H34_agree_DFsum": "106397541196628057/949978046398464",
+    "implied_H20_3_print_if_H34_agree_bracket": "3723913941881981995/158329674399744"
+   }
+  },
+  "Ellis R=1.5": {
+   "Tt": {
+    "H3_derived_print_units": "-2455789341083867/1125899906842624",
+    "H4_derived_print_units": "-2152069811267839/9007199254740992",
+    "weighted_derived_DFsum_xi0": "72129049480880227/4255901647865118720",
+    "weighted_derived_bracket_xi0": "72129049480880227/20266198323167232",
+    "REST_print_joint_DFsum": "-1424387386290824243/363170273951156797440",
+    "REST_print_joint_bracket": "-1424387386290824243/1729382256910270464",
+    "implied_H20_3_print_if_H34_agree_DFsum": "-22738198825977810841/7782220156096217088",
+    "implied_H20_3_print_if_H34_agree_bracket": "-795836958909223379435/1297036692682702848"
+   },
+   "Tr": {
+    "H3_derived_print_units": "7844641570105343/9007199254740992",
+    "H4_derived_print_units": "6803317467878981/18014398509481984",
+    "weighted_derived_DFsum_xi0": "-42347180157205801/8511803295730237440",
+    "weighted_derived_bracket_xi0": "-42347180157205801/40532396646334464",
+    "REST_print_joint_DFsum": "-2529236054290589/270215977642229760",
+    "REST_print_joint_bracket": "-17704652380034123/9007199254740992",
+    "implied_H20_3_print_if_H34_agree_DFsum": "-74647511105895505/121597189939003392",
+    "implied_H20_3_print_if_H34_agree_bracket": "-2612662888706342675/20266198323167232"
+   },
+   "Tth": {
+    "H3_derived_print_units": "-6525631040618613/2251799813685248",
+    "H4_derived_print_units": "-5692571758837511/4503599627370496",
+    "weighted_derived_DFsum_xi0": "1301012335127273/78812993478983680",
+    "weighted_derived_bracket_xi0": "3903037005381819/1125899906842624",
+    "REST_print_joint_DFsum": "-47259723028357417/8511803295730237440",
+    "REST_print_joint_bracket": "-47259723028357417/40532396646334464",
+    "implied_H20_3_print_if_H34_agree_DFsum": "-187769055222102901/60798594969501696",
+    "implied_H20_3_print_if_H34_agree_bracket": "-6571916932773601535/10133099161583616"
+   }
+  },
+  "Ellis R=2.0": {
+   "Tt": {
+    "H3_derived_print_units": "-181/1024",
+    "H4_derived_print_units": "-5629499534213119/288230376151711744",
+    "weighted_derived_DFsum_xi0": "186899384535875587/136188852731683799040",
+    "weighted_derived_bracket_xi0": "186899384535875587/648518346341351424",
+    "REST_print_joint_DFsum": "2090327002045571353/726340547902313594880",
+    "REST_print_joint_bracket": "2090327002045571353/3458764513820540928",
+    "implied_H20_3_print_if_H34_agree_DFsum": "3280590853562704667/15564440312192434176",
+    "implied_H20_3_print_if_H34_agree_bracket": "114820679874694663345/2594073385365405696"
+   },
+   "Tr": {
+    "H3_derived_print_units": "2286984185774081/36028797018963968",
+    "H4_derived_print_units": "1970324836974593/72057594037927936",
+    "weighted_derived_DFsum_xi0": "-1769271282181267/4863887597560135680",
+    "weighted_derived_bracket_xi0": "-12384898975268869/162129586585337856",
+    "REST_print_joint_DFsum": "-2940991294161282239/1089510821853470392320",
+    "REST_print_joint_bracket": "-2940991294161282239/5188146770730811392",
+    "implied_H20_3_print_if_H34_agree_DFsum": "-94247204701951053/288230376151711744",
+    "implied_H20_3_print_if_H34_agree_bracket": "-9895956493704860565/144115188075855872"
+   },
+   "Tth": {
+    "H3_derived_print_units": "-241/1024",
+    "H4_derived_print_units": "-13/128",
+    "weighted_derived_DFsum_xi0": "163/120960",
+    "weighted_derived_bracket_xi0": "163/576",
+    "REST_print_joint_DFsum": "705851280660104543/136188852731683799040",
+    "REST_print_joint_bracket": "705851280660104543/648518346341351424",
+    "implied_H20_3_print_if_H34_agree_DFsum": "522329595844756831/972777519512027136",
+    "implied_H20_3_print_if_H34_agree_bracket": "18281535854566489085/162129586585337856"
+   }
+  },
+  "Ellis R=3.0": {
+   "Tt": {
+    "H3_derived_print_units": "-2152069811267843/576460752303423488",
+    "H4_derived_print_units": "-3818188374830053/9223372036854775808",
+    "weighted_derived_DFsum_xi0": "126277902796651793/4358043287413881569280",
+    "weighted_derived_bracket_xi0": "126277902796651793/20752587082923245568",
+    "REST_print_joint_DFsum": "140120324363201757427/557829540788976840867840",
+    "REST_print_joint_bracket": "140120324363201757427/2656331146614175432704",
+    "implied_H20_3_print_if_H34_agree_DFsum": "41318917601743442641/1328165573307087716352",
+    "implied_H20_3_print_if_H34_agree_bracket": "1446162116061020492435/221360928884514619392"
+   },
+   "Tr": {
+    "H3_derived_print_units": "5900836579282803/4611686018427387904",
+    "H4_derived_print_units": "5067777297501703/9223372036854775808",
+    "weighted_derived_DFsum_xi0": "-2133557382783821/290536219160925437952",
+    "weighted_derived_bracket_xi0": "-10667786913919105/6917529027641081856",
+    "REST_print_joint_DFsum": "-184874559893504231/1089510821853470392320",
+    "REST_print_joint_bracket": "-184874559893504231/5188146770730811392",
+    "implied_H20_3_print_if_H34_agree_DFsum": "-707494878832259609/31128880624384868352",
+    "implied_H20_3_print_if_H34_agree_bracket": "-24762320759129086315/5188146770730811392"
+   },
+   "Tth": {
+    "H3_derived_print_units": "-1433990065774239/288230376151711744",
+    "H4_derived_print_units": "-2464467041935757/1152921504606846976",
+    "weighted_derived_DFsum_xi0": "5183479975526851/181585136975578398720",
+    "weighted_derived_bracket_xi0": "5183479975526851/864691128455135232",
+    "REST_print_joint_DFsum": "10092427225260319/22698142121947299840",
+    "REST_print_joint_bracket": "10092427225260319/108086391056891904",
+    "implied_H20_3_print_if_H34_agree_DFsum": "75555937826555701/1297036692682702848",
+    "implied_H20_3_print_if_H34_agree_bracket": "2644457823929449535/216172782113783808"
+   }
+  },
+  "A_throat": {
+   "Tt": {
+    "H3_derived_print_units": "3",
+    "H4_derived_print_units": "3/4",
+    "weighted_derived_DFsum_xi0": "-13/630",
+    "weighted_derived_bracket_xi0": "-13/3",
+    "REST_print_joint_DFsum": "-23/5040",
+    "REST_print_joint_bracket": "-23/24",
+    "implied_H20_3_print_if_H34_agree_DFsum": "9/4",
+    "implied_H20_3_print_if_H34_agree_bracket": "945/2"
+   },
+   "Tr": {
+    "H3_derived_print_units": "3/2",
+    "H4_derived_print_units": "3/4",
+    "weighted_derived_DFsum_xi0": "-1/126",
+    "weighted_derived_bracket_xi0": "-5/3",
+    "REST_print_joint_DFsum": "9851624184872941/1418633882621706240",
+    "REST_print_joint_bracket": "9851624184872941/6755399441055744",
+    "implied_H20_3_print_if_H34_agree_DFsum": "21110623253299181/10133099161583616",
+    "implied_H20_3_print_if_H34_agree_bracket": "738871813865471335/1688849860263936"
+   },
+   "Tth": {
+    "H3_derived_print_units": "39/8",
+    "H4_derived_print_units": "-3/8",
+    "weighted_derived_DFsum_xi0": "-11/252",
+    "weighted_derived_bracket_xi0": "-55/6",
+    "REST_print_joint_DFsum": "-3734234691028033/94575592174780416",
+    "REST_print_joint_bracket": "-18671173455140165/2251799813685248",
+    "implied_H20_3_print_if_H34_agree_DFsum": "5910974510923825/10133099161583616",
+    "implied_H20_3_print_if_H34_agree_bracket": "206884107882333875/1688849860263936"
+   }
+  }
+ },
+ "arbitration": {
+  "print_isolation": "Print H(6,3)(3) and H(6,3)(4) are NOT individually isolated anywhere in the preserved Phase 241/259 record: in the printed totals they enter only through the xi^0 joint aggregate REST = (1/140)H{2,0}(3) - (8/945)H(3) + (2/315)H(4) (DF-sum), backed out in Stage 4 style. Individual AGREES/DIFFERS is therefore underdetermined by the preserved record (same underdetermination the Phase 259 harness documented at xi^0).",
+  "joint_verdict": "JOINTLY CONSISTENT at both SSS throat points: if print (3),(4) equal the derived tensors, the implied print H{2,0}(3) values are the clean rationals (Tt,Tr,Tth) = (80, 80/3, 112) at the Ellis throat and (9/4, 25/12, 7/12) at the A throat. No aggregate-level discrepancy is seen; a discrepancy in print (3)/(4) exactly compensated by print H{2,0}(3) cannot be excluded from the totals alone.",
+  "phase241_record": "Phase 241 memo: print H(6,3)(3) and H(6,3)(4) are among the seven H-tensors conserved to machine precision as printed (S <= 1e-14) -- consistent with the derived tensors, which are exactly conserved.",
+  "delta_to_plus16_throat_residual": {
+   "explanation": "Phase 259 FULL assembly throat xi0 residuals: (Tt,Tr,Tth) = (0, +16, 0) bracket. Substituting derived H(3),H(4) AND derived H{2,0}(3) (Task A/B sector) for the whole print REST aggregate changes component c by delta_c = 210*((1/140)*H203_derived_c + weighted_derived_H34_c - REST_c) bracket. Substituting ONLY H(3),H(4) while keeping print H{2,0}(3): delta_c = 210*(weighted_derived_H34_c - weighted_print_H34_c), with weighted_print_H34_c = REST_c - (1/140)*H203_print_c.",
+   "per_component": {
+    "Ellis_throat_R1": {
+     "Tt": {
+      "REST_print_joint_DFsum_exact_rationalised": "44/135",
+      "derived_H3H4_weighted_DFsum": "-232/945",
+      "derived_H3H4_weighted_bracket": "-464/9",
+      "implied_H203_print_value_if_H34_agree": "80",
+      "substitution_delta_bracket_formula": "210*((1/140)*H203_print_or_derived - REST + derived_H3H4_weighted) ; at this point = (3/2)*H203 - 120"
+     },
+     "Tr": {
+      "REST_print_joint_DFsum_exact_rationalised": "4/27",
+      "derived_H3H4_weighted_DFsum": "-8/189",
+      "derived_H3H4_weighted_bracket": "-80/9",
+      "implied_H203_print_value_if_H34_agree": "80/3",
+      "substitution_delta_bracket_formula": "210*((1/140)*H203_print_or_derived - REST + derived_H3H4_weighted) ; at this point = (3/2)*H203 - 40"
+     },
+     "Tth": {
+      "REST_print_joint_DFsum_exact_rationalised": "100/189",
+      "derived_H3H4_weighted_DFsum": "-256/945",
+      "derived_H3H4_weighted_bracket": "-512/9",
+      "implied_H203_print_value_if_H34_agree": "112",
+      "substitution_delta_bracket_formula": "210*((1/140)*H203_print_or_derived - REST + derived_H3H4_weighted) ; at this point = (3/2)*H203 - 168"
+     }
+    },
+    "A_throat": {
+     "Tt": {
+      "REST_print_joint_DFsum_exact_rationalised": "-23/5040",
+      "derived_H3H4_weighted_DFsum": "-13/630",
+      "derived_H3H4_weighted_bracket": "-13/3",
+      "implied_H203_print_value_if_H34_agree": "9/4",
+      "substitution_delta_bracket_formula": "210*((1/140)*H203_print_or_derived - REST + derived_H3H4_weighted) ; at this point = (3/2)*H203 - 27/8"
+     },
+     "Tr": {
+      "REST_print_joint_DFsum_exact_rationalised": "1/144",
+      "derived_H3H4_weighted_DFsum": "-1/126",
+      "derived_H3H4_weighted_bracket": "-5/3",
+      "implied_H203_print_value_if_H34_agree": "25/12",
+      "substitution_delta_bracket_formula": "210*((1/140)*H203_print_or_derived - REST + derived_H3H4_weighted) ; at this point = (3/2)*H203 - 25/8"
+     },
+     "Tth": {
+      "REST_print_joint_DFsum_exact_rationalised": "-199/5040",
+      "derived_H3H4_weighted_DFsum": "-11/252",
+      "derived_H3H4_weighted_bracket": "-55/6",
+      "implied_H203_print_value_if_H34_agree": "7/12",
+      "substitution_delta_bracket_formula": "210*((1/140)*H203_print_or_derived - REST + derived_H3H4_weighted) ; at this point = (3/2)*H203 - 7/8"
+     }
+    }
+   },
+   "headline_Tr": "delta_Tr (both substitutions) = (3/2)*H203_derived_Tr(throat) - 40 bracket; new Tr residual = (3/2)*H203_derived_Tr(throat) - 24. It vanishes iff H{2,0}(3) derived Tr at the Ellis throat = 16. (Agree-case check: with implied print H203 Tr = 80/3 and print=derived for (3),(4), delta = 0.)",
+   "headline_Tt_Tth": "delta_Tt = (3/2)*H203_derived_Tt - 120 (vanishes iff = 80); delta_Tth = (3/2)*H203_derived_Tth - 168 (vanishes iff = 112). The implied print values are exactly (80, 80/3, 112)."
+  }
+ }
+}
