@@ -1,0 +1,1381 @@
+{
+ "n": 275,
+ "n_pass": 273,
+ "checks": [
+  {
+   "name": "gate_seven_configs",
+   "pass_": true,
+   "detail": "worst err 8.549e-12"
+  },
+  {
+   "name": "gate_hinge_alignment_44",
+   "pass_": true,
+   "detail": "set=[44]"
+  },
+  {
+   "name": "gate_record_matches",
+   "pass_": true,
+   "detail": "stored worst 8.549e-12"
+  },
+  {
+   "name": "run0_legal",
+   "pass_": true,
+   "detail": "indep=0.517857 stored=0.517857"
+  },
+  {
+   "name": "run0_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999996 stored=0.999999999996"
+  },
+  {
+   "name": "run0_emed",
+   "pass_": true,
+   "detail": "indep=0.189770990937 stored=0.189770990937"
+  },
+  {
+   "name": "run0_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run0_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=7 stored set=[] pt=7"
+  },
+  {
+   "name": "run0_health_frontier",
+   "pass_": true,
+   "detail": "health True/True frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run0_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run0_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run0_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=0.7235 pi0=0.0811 |bc|=0.1173 guards_ok=True"
+  },
+  {
+   "name": "run1_legal",
+   "pass_": true,
+   "detail": "indep=0.625000 stored=0.625000"
+  },
+  {
+   "name": "run1_emax",
+   "pass_": true,
+   "detail": "indep=0.999988627687 stored=0.999988627687"
+  },
+  {
+   "name": "run1_emed",
+   "pass_": true,
+   "detail": "indep=0.212594804436 stored=0.212594804436"
+  },
+  {
+   "name": "run1_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run1_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=47 stored set=[] pt=47"
+  },
+  {
+   "name": "run1_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run1_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run1_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run1_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=0.6496 pi0=0.4919 |bc|=0.6391 guards_ok=True"
+  },
+  {
+   "name": "run2_legal",
+   "pass_": false,
+   "detail": "indep=0.946429 stored=0.928571"
+  },
+  {
+   "name": "run2_emax",
+   "pass_": true,
+   "detail": "indep=0.999981215380 stored=0.999981215380"
+  },
+  {
+   "name": "run2_emed",
+   "pass_": true,
+   "detail": "indep=0.479638968797 stored=0.479638968797"
+  },
+  {
+   "name": "run2_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run2_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=44 stored set=[] pt=44"
+  },
+  {
+   "name": "run2_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run2_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run2_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run2_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=0.3981 pi0=0.6899 |bc|=0.5493 guards_ok=True"
+  },
+  {
+   "name": "run3_legal",
+   "pass_": true,
+   "detail": "indep=0.517857 stored=0.517857"
+  },
+  {
+   "name": "run3_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999998 stored=0.999999999998"
+  },
+  {
+   "name": "run3_emed",
+   "pass_": true,
+   "detail": "indep=0.303699282333 stored=0.303699282333"
+  },
+  {
+   "name": "run3_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run3_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=51 stored set=[] pt=51"
+  },
+  {
+   "name": "run3_health_frontier",
+   "pass_": true,
+   "detail": "health True/True frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run3_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run3_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run3_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=1.9341 pi0=0.0617 |bc|=0.2387 guards_ok=True"
+  },
+  {
+   "name": "run4_legal",
+   "pass_": true,
+   "detail": "indep=0.660714 stored=0.660714"
+  },
+  {
+   "name": "run4_emax",
+   "pass_": true,
+   "detail": "indep=0.999981929546 stored=0.999981929546"
+  },
+  {
+   "name": "run4_emed",
+   "pass_": true,
+   "detail": "indep=0.964892187163 stored=0.964892187163"
+  },
+  {
+   "name": "run4_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run4_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=46 stored set=[] pt=46"
+  },
+  {
+   "name": "run4_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run4_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run4_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run4_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=1.0526 pi0=0.3944 |bc|=0.8302 guards_ok=True"
+  },
+  {
+   "name": "run5_legal",
+   "pass_": true,
+   "detail": "indep=0.196429 stored=0.196429"
+  },
+  {
+   "name": "run5_emax",
+   "pass_": true,
+   "detail": "indep=0.999997624418 stored=0.999997624418"
+  },
+  {
+   "name": "run5_emed",
+   "pass_": true,
+   "detail": "indep=0.919010811595 stored=0.919010811595"
+  },
+  {
+   "name": "run5_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run5_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=19 stored set=[] pt=19"
+  },
+  {
+   "name": "run5_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run5_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run5_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run5_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=3.6163 pi0=0.3389 |bc|=2.4513 guards_ok=True"
+  },
+  {
+   "name": "run6_legal",
+   "pass_": true,
+   "detail": "indep=0.196429 stored=0.196429"
+  },
+  {
+   "name": "run6_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999986 stored=0.999999999986"
+  },
+  {
+   "name": "run6_emed",
+   "pass_": true,
+   "detail": "indep=0.979239754356 stored=0.979239754356"
+  },
+  {
+   "name": "run6_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run6_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=12 stored set=[] pt=12"
+  },
+  {
+   "name": "run6_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run6_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run6_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run6_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=3.6143 pi0=0.3391 |bc|=2.4513 guards_ok=True"
+  },
+  {
+   "name": "run7_legal",
+   "pass_": true,
+   "detail": "indep=0.392857 stored=0.392857"
+  },
+  {
+   "name": "run7_emax",
+   "pass_": true,
+   "detail": "indep=0.999988277039 stored=0.999988277039"
+  },
+  {
+   "name": "run7_emed",
+   "pass_": true,
+   "detail": "indep=0.976950222407 stored=0.976950222407"
+  },
+  {
+   "name": "run7_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run7_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=35 stored set=[] pt=35"
+  },
+  {
+   "name": "run7_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run7_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run7_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run7_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=3.1530 pi0=0.2328 |bc|=1.4683 guards_ok=True"
+  },
+  {
+   "name": "run8_legal",
+   "pass_": true,
+   "detail": "indep=0.500000 stored=0.500000"
+  },
+  {
+   "name": "run8_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999999 stored=0.999999999999"
+  },
+  {
+   "name": "run8_emed",
+   "pass_": true,
+   "detail": "indep=0.276467636123 stored=0.276467636123"
+  },
+  {
+   "name": "run8_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run8_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=2 stored set=[] pt=2"
+  },
+  {
+   "name": "run8_health_frontier",
+   "pass_": true,
+   "detail": "health True/True frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run8_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run8_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run8_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=0.5750 pi0=0.0462 |bc|=0.0531 guards_ok=True"
+  },
+  {
+   "name": "run9_legal",
+   "pass_": true,
+   "detail": "indep=0.571429 stored=0.571429"
+  },
+  {
+   "name": "run9_emax",
+   "pass_": true,
+   "detail": "indep=0.999997719059 stored=0.999997719059"
+  },
+  {
+   "name": "run9_emed",
+   "pass_": true,
+   "detail": "indep=0.574575801070 stored=0.574575801070"
+  },
+  {
+   "name": "run9_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run9_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=25 stored set=[] pt=25"
+  },
+  {
+   "name": "run9_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run9_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run9_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run9_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=5.0315 pi0=0.1047 |bc|=1.0534 guards_ok=True"
+  },
+  {
+   "name": "run10_legal",
+   "pass_": true,
+   "detail": "indep=0.000000 stored=0.000000"
+  },
+  {
+   "name": "run10_emax",
+   "pass_": true,
+   "detail": "indep=1.000000000000 stored=1.000000000000"
+  },
+  {
+   "name": "run10_emed",
+   "pass_": true,
+   "detail": "indep=0.863273334415 stored=0.863273334457"
+  },
+  {
+   "name": "run10_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run10_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=33 stored set=[] pt=33"
+  },
+  {
+   "name": "run10_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run10_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run10_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run10_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=2.9910 pi0=0.4615 |bc|=2.7605 guards_ok=True"
+  },
+  {
+   "name": "run11_legal",
+   "pass_": true,
+   "detail": "indep=0.357143 stored=0.357143"
+  },
+  {
+   "name": "run11_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999999 stored=0.999999999999"
+  },
+  {
+   "name": "run11_emed",
+   "pass_": true,
+   "detail": "indep=0.998335400343 stored=0.998335400343"
+  },
+  {
+   "name": "run11_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run11_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=43 stored set=[] pt=43"
+  },
+  {
+   "name": "run11_health_frontier",
+   "pass_": true,
+   "detail": "health True/True frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run11_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run11_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run11_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=2.5034 pi0=0.2756 |bc|=1.3797 guards_ok=True"
+  },
+  {
+   "name": "run12_legal",
+   "pass_": true,
+   "detail": "indep=0.107143 stored=0.107143"
+  },
+  {
+   "name": "run12_emax",
+   "pass_": true,
+   "detail": "indep=0.999758107098 stored=0.999758107098"
+  },
+  {
+   "name": "run12_emed",
+   "pass_": true,
+   "detail": "indep=0.941720350848 stored=0.941720350845"
+  },
+  {
+   "name": "run12_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run12_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=0 stored set=[] pt=0"
+  },
+  {
+   "name": "run12_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run12_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run12_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run12_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=3.6466 pi0=0.0954 |bc|=0.6957 guards_ok=True"
+  },
+  {
+   "name": "run13_legal",
+   "pass_": true,
+   "detail": "indep=0.000000 stored=0.000000"
+  },
+  {
+   "name": "run13_emax",
+   "pass_": true,
+   "detail": "indep=0.999999419474 stored=0.999999419474"
+  },
+  {
+   "name": "run13_emed",
+   "pass_": true,
+   "detail": "indep=0.994532044894 stored=0.994532044890"
+  },
+  {
+   "name": "run13_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run13_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=44 stored set=[] pt=44"
+  },
+  {
+   "name": "run13_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run13_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run13_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run13_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=3.1407 pi0=0.3353 |bc|=2.1061 guards_ok=True"
+  },
+  {
+   "name": "run14_legal",
+   "pass_": true,
+   "detail": "indep=0.464286 stored=0.464286"
+  },
+  {
+   "name": "run14_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999998 stored=0.999999999998"
+  },
+  {
+   "name": "run14_emed",
+   "pass_": true,
+   "detail": "indep=0.879220182693 stored=0.879220182693"
+  },
+  {
+   "name": "run14_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run14_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=7 stored set=[] pt=7"
+  },
+  {
+   "name": "run14_health_frontier",
+   "pass_": true,
+   "detail": "health True/True frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run14_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run14_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run14_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=2.8073 pi0=0.3144 |bc|=1.7654 guards_ok=True"
+  },
+  {
+   "name": "run15_legal",
+   "pass_": true,
+   "detail": "indep=0.517857 stored=0.517857"
+  },
+  {
+   "name": "run15_emax",
+   "pass_": true,
+   "detail": "indep=0.999996227727 stored=0.999996227727"
+  },
+  {
+   "name": "run15_emed",
+   "pass_": true,
+   "detail": "indep=0.296231082982 stored=0.296231082982"
+  },
+  {
+   "name": "run15_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "run15_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=46 stored set=[] pt=46"
+  },
+  {
+   "name": "run15_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "run15_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "run15_constraint",
+   "pass_": true,
+   "detail": "pi0 err 0.00e+00"
+  },
+  {
+   "name": "run15_guards_fence",
+   "pass_": true,
+   "detail": "|2xi+b2|=0.9496 pi0=0.2646 |bc|=0.5025 guards_ok=True"
+  },
+  {
+   "name": "seed0_legal",
+   "pass_": true,
+   "detail": "indep=0.517857 stored=0.517857"
+  },
+  {
+   "name": "seed0_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999995 stored=0.999999999995"
+  },
+  {
+   "name": "seed0_emed",
+   "pass_": true,
+   "detail": "indep=0.647888422249 stored=0.647888422249"
+  },
+  {
+   "name": "seed0_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed0_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=7 stored set=[] pt=7"
+  },
+  {
+   "name": "seed0_health_frontier",
+   "pass_": true,
+   "detail": "health True/True frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed0_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed1_legal",
+   "pass_": true,
+   "detail": "indep=0.839286 stored=0.839286"
+  },
+  {
+   "name": "seed1_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999989 stored=0.999999999989"
+  },
+  {
+   "name": "seed1_emed",
+   "pass_": true,
+   "detail": "indep=0.879934526188 stored=0.879934526188"
+  },
+  {
+   "name": "seed1_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed1_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=26 stored set=[] pt=26"
+  },
+  {
+   "name": "seed1_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed1_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed2_legal",
+   "pass_": false,
+   "detail": "indep=0.928571 stored=0.910714"
+  },
+  {
+   "name": "seed2_emax",
+   "pass_": true,
+   "detail": "indep=0.999993882635 stored=0.999993882635"
+  },
+  {
+   "name": "seed2_emed",
+   "pass_": true,
+   "detail": "indep=0.507271129257 stored=0.507271129257"
+  },
+  {
+   "name": "seed2_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed2_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=44 stored set=[] pt=44"
+  },
+  {
+   "name": "seed2_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed2_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed3_legal",
+   "pass_": true,
+   "detail": "indep=0.767857 stored=0.767857"
+  },
+  {
+   "name": "seed3_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999989 stored=0.999999999989"
+  },
+  {
+   "name": "seed3_emed",
+   "pass_": true,
+   "detail": "indep=0.994291182518 stored=0.994291182518"
+  },
+  {
+   "name": "seed3_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed3_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=43 stored set=[] pt=43"
+  },
+  {
+   "name": "seed3_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed3_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed4_legal",
+   "pass_": true,
+   "detail": "indep=0.714286 stored=0.714286"
+  },
+  {
+   "name": "seed4_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999989 stored=0.999999999989"
+  },
+  {
+   "name": "seed4_emed",
+   "pass_": true,
+   "detail": "indep=0.993768267118 stored=0.993768267118"
+  },
+  {
+   "name": "seed4_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed4_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=43 stored set=[] pt=43"
+  },
+  {
+   "name": "seed4_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed4_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed5_legal",
+   "pass_": true,
+   "detail": "indep=0.196429 stored=0.196429"
+  },
+  {
+   "name": "seed5_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999998 stored=0.999999999998"
+  },
+  {
+   "name": "seed5_emed",
+   "pass_": true,
+   "detail": "indep=0.923458719063 stored=0.923458719063"
+  },
+  {
+   "name": "seed5_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed5_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=20 stored set=[] pt=20"
+  },
+  {
+   "name": "seed5_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed5_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed6_legal",
+   "pass_": true,
+   "detail": "indep=0.142857 stored=0.142857"
+  },
+  {
+   "name": "seed6_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999998 stored=0.999999999998"
+  },
+  {
+   "name": "seed6_emed",
+   "pass_": true,
+   "detail": "indep=0.977735065073 stored=0.977735065073"
+  },
+  {
+   "name": "seed6_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed6_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=34 stored set=[] pt=34"
+  },
+  {
+   "name": "seed6_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed6_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed7_legal",
+   "pass_": true,
+   "detail": "indep=0.178571 stored=0.178571"
+  },
+  {
+   "name": "seed7_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999997 stored=0.999999999997"
+  },
+  {
+   "name": "seed7_emed",
+   "pass_": true,
+   "detail": "indep=0.971479875399 stored=0.971479875399"
+  },
+  {
+   "name": "seed7_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed7_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=34 stored set=[] pt=34"
+  },
+  {
+   "name": "seed7_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed7_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed8_legal",
+   "pass_": true,
+   "detail": "indep=0.553571 stored=0.553571"
+  },
+  {
+   "name": "seed8_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999999 stored=0.999999999999"
+  },
+  {
+   "name": "seed8_emed",
+   "pass_": true,
+   "detail": "indep=0.874469636594 stored=0.874469636594"
+  },
+  {
+   "name": "seed8_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed8_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=22 stored set=[] pt=22"
+  },
+  {
+   "name": "seed8_health_frontier",
+   "pass_": true,
+   "detail": "health True/True frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed8_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed9_legal",
+   "pass_": true,
+   "detail": "indep=0.571429 stored=0.571429"
+  },
+  {
+   "name": "seed9_emax",
+   "pass_": true,
+   "detail": "indep=0.998968646511 stored=0.998968646511"
+  },
+  {
+   "name": "seed9_emed",
+   "pass_": true,
+   "detail": "indep=0.826604604658 stored=0.826604604658"
+  },
+  {
+   "name": "seed9_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed9_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=28 stored set=[] pt=28"
+  },
+  {
+   "name": "seed9_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed9_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed10_legal",
+   "pass_": true,
+   "detail": "indep=0.000000 stored=0.000000"
+  },
+  {
+   "name": "seed10_emax",
+   "pass_": true,
+   "detail": "indep=1.000000000000 stored=1.000000000000"
+  },
+  {
+   "name": "seed10_emed",
+   "pass_": true,
+   "detail": "indep=0.862320782010 stored=0.862320782010"
+  },
+  {
+   "name": "seed10_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed10_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=33 stored set=[] pt=33"
+  },
+  {
+   "name": "seed10_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed10_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed11_legal",
+   "pass_": true,
+   "detail": "indep=0.053571 stored=0.053571"
+  },
+  {
+   "name": "seed11_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999999 stored=0.999999999999"
+  },
+  {
+   "name": "seed11_emed",
+   "pass_": true,
+   "detail": "indep=0.999457179616 stored=0.999457179616"
+  },
+  {
+   "name": "seed11_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed11_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=2 stored set=[] pt=2"
+  },
+  {
+   "name": "seed11_health_frontier",
+   "pass_": true,
+   "detail": "health True/True frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed11_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed12_legal",
+   "pass_": true,
+   "detail": "indep=0.017857 stored=0.017857"
+  },
+  {
+   "name": "seed12_emax",
+   "pass_": true,
+   "detail": "indep=0.999985074002 stored=0.999985074002"
+  },
+  {
+   "name": "seed12_emed",
+   "pass_": true,
+   "detail": "indep=0.973495506796 stored=0.973495506796"
+  },
+  {
+   "name": "seed12_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed12_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=0 stored set=[] pt=0"
+  },
+  {
+   "name": "seed12_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed12_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed13_legal",
+   "pass_": true,
+   "detail": "indep=0.000000 stored=0.000000"
+  },
+  {
+   "name": "seed13_emax",
+   "pass_": true,
+   "detail": "indep=1.000000000000 stored=1.000000000000"
+  },
+  {
+   "name": "seed13_emed",
+   "pass_": true,
+   "detail": "indep=0.999167388821 stored=0.999167388821"
+  },
+  {
+   "name": "seed13_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed13_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=49 stored set=[] pt=49"
+  },
+  {
+   "name": "seed13_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed13_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed14_legal",
+   "pass_": true,
+   "detail": "indep=0.428571 stored=0.428571"
+  },
+  {
+   "name": "seed14_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999998 stored=0.999999999998"
+  },
+  {
+   "name": "seed14_emed",
+   "pass_": true,
+   "detail": "indep=0.890808449537 stored=0.890808449537"
+  },
+  {
+   "name": "seed14_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed14_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=7 stored set=[] pt=7"
+  },
+  {
+   "name": "seed14_health_frontier",
+   "pass_": true,
+   "detail": "health True/True frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed14_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "seed15_legal",
+   "pass_": true,
+   "detail": "indep=0.232143 stored=0.232143"
+  },
+  {
+   "name": "seed15_emax",
+   "pass_": true,
+   "detail": "indep=0.999999999998 stored=0.999999999998"
+  },
+  {
+   "name": "seed15_emed",
+   "pass_": true,
+   "detail": "indep=0.799562976302 stored=0.799562976302"
+  },
+  {
+   "name": "seed15_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "seed15_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=44 stored set=[] pt=44"
+  },
+  {
+   "name": "seed15_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "seed15_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "familyA_at_best_legal",
+   "pass_": true,
+   "detail": "indep=0.000000 stored=0.000000"
+  },
+  {
+   "name": "familyA_at_best_emax",
+   "pass_": true,
+   "detail": "indep=0.999981215380 stored=0.999981215380"
+  },
+  {
+   "name": "familyA_at_best_emed",
+   "pass_": true,
+   "detail": "indep=0.479638968797 stored=0.479638968797"
+  },
+  {
+   "name": "familyA_at_best_counts",
+   "pass_": true,
+   "detail": "indep 56/0 stored 56/0"
+  },
+  {
+   "name": "familyA_at_best_align",
+   "pass_": true,
+   "detail": "indep set=[] pt=44 stored set=[] pt=44"
+  },
+  {
+   "name": "familyA_at_best_health_frontier",
+   "pass_": true,
+   "detail": "health False/False frontier 0.0/0.0 trap False/False"
+  },
+  {
+   "name": "familyA_at_best_kinlive",
+   "pass_": true,
+   "detail": "indep=44 stored=44"
+  },
+  {
+   "name": "best_is_key_max",
+   "pass_": true,
+   "detail": "best start=2"
+  },
+  {
+   "name": "best_decomp_matches_indep",
+   "pass_": true,
+   "detail": "indep dec={'t_kin': 0.009274, 't_pxx': -1e-06, 't_FA': 2e-06, 't_FB': 0.06926, 'D_can': 0.078537}"
+  },
+  {
+   "name": "best_kin_opposition_flag",
+   "pass_": true,
+   "detail": "t_kin=0.00927356 t_FB=0.0692604 opposes=False"
+  },
+  {
+   "name": "best_tFA_posed_zero",
+   "pass_": true,
+   "detail": "H_,phi(pi0)=0.000e+00, max|t_FA| plateau (indep)=7.330e-04"
+  },
+  {
+   "name": "nonflat_majority_at_best",
+   "pass_": true,
+   "detail": "kin live 44/44"
+  },
+  {
+   "name": "verdict_flags",
+   "pass_": true,
+   "detail": "pass=False pareto=True"
+  },
+  {
+   "name": "verdict_form",
+   "pass_": true,
+   "detail": "stored=JOINT (i)+(ii) IMPROVEMENT recomputed=JOINT (i)+(ii) IMPROVEMENT"
+  },
+  {
+   "name": "boundary",
+   "pass_": true,
+   "detail": "min |bc| = 0.0531"
+  },
+  {
+   "name": "n_starts",
+   "pass_": true,
+   "detail": "n=16"
+  }
+ ]
+}
