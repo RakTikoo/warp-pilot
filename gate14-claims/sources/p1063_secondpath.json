@@ -1,0 +1,408 @@
+{
+  "path": "independent second path (no eval-script functions used)",
+  "source_phase72_json": "/home/hatch/workspace/warp-pilot/phase72/results/p722_results.json",
+  "deciding_lines": [
+    {
+      "kind": "per_sector",
+      "r": 0.5,
+      "E_net_B": 0.3746408196267366,
+      "net_delivered": -0.3746408196267366,
+      "R_net": 0.0
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 0.5,
+      "M": 1,
+      "aggregate_net_delivered": -0.3746408196267366,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 15.577400132448947,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 0.8944271909999159
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 0.5,
+      "M": 2,
+      "aggregate_net_delivered": -0.7492816392534732,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 15.577400132448947,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 1.7888543819998317
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 0.5,
+      "M": 4,
+      "aggregate_net_delivered": -1.4985632785069465,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 15.577400132448947,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 3.5777087639996634
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 0.5,
+      "M": 8,
+      "aggregate_net_delivered": -2.997126557013893,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 15.577400132448947,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 7.155417527999327
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 0.5,
+      "M": 16,
+      "aggregate_net_delivered": -5.994253114027786,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 15.577400132448947,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 14.310835055998654
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 0.5,
+      "M": 64,
+      "aggregate_net_delivered": -23.97701245611118,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 15.577400132448947,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 57.243340223994615
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 0.5,
+      "M": 1024,
+      "aggregate_net_delivered": -383.6321992977789,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 15.577400132448947,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 915.8934435839138
+    },
+    {
+      "kind": "V3_final",
+      "r": 0.5,
+      "L": 2,
+      "final_E_net_B": 0.3746408196267366,
+      "final_R_net": 0.0,
+      "price_per_unit_at_final_sep": 31.154800264897894,
+      "price_per_unit_at_final_marg": 36.973665961010234
+    },
+    {
+      "kind": "V3_final",
+      "r": 0.5,
+      "L": 4,
+      "final_E_net_B": 0.3746408196267366,
+      "final_R_net": 0.0,
+      "price_per_unit_at_final_sep": 62.30960052979579,
+      "price_per_unit_at_final_marg": 73.94733192202047
+    },
+    {
+      "kind": "V3_final",
+      "r": 0.5,
+      "L": 8,
+      "final_E_net_B": 0.3746408196267366,
+      "final_R_net": 0.0,
+      "price_per_unit_at_final_sep": 124.61920105959157,
+      "price_per_unit_at_final_marg": 147.89466384404093
+    },
+    {
+      "kind": "per_sector",
+      "r": 1.0,
+      "E_net_B": 1.2994659284329477,
+      "net_delivered": -1.2994659284329477,
+      "R_net": 0.0
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 1.0,
+      "M": 1,
+      "aggregate_net_delivered": -1.2994659284329477,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 9.024446695544727,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 0.7071067811865475
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 1.0,
+      "M": 2,
+      "aggregate_net_delivered": -2.5989318568658955,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 9.024446695544727,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 1.414213562373095
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 1.0,
+      "M": 4,
+      "aggregate_net_delivered": -5.197863713731791,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 9.024446695544727,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 2.82842712474619
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 1.0,
+      "M": 8,
+      "aggregate_net_delivered": -10.395727427463582,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 9.024446695544727,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 5.65685424949238
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 1.0,
+      "M": 16,
+      "aggregate_net_delivered": -20.791454854927164,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 9.024446695544727,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 11.31370849898476
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 1.0,
+      "M": 64,
+      "aggregate_net_delivered": -83.16581941970863,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 9.024446695544727,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 45.25483399593904
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 1.0,
+      "M": 1024,
+      "aggregate_net_delivered": -1330.6531107153382,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 9.024446695544727,
+      "price_per_unit_marg": 18.486832980505117,
+      "alice_aggregate_injection_V2": 724.0773439350246
+    },
+    {
+      "kind": "V3_final",
+      "r": 1.0,
+      "L": 2,
+      "final_E_net_B": 1.2994659284329477,
+      "final_R_net": 0.0,
+      "price_per_unit_at_final_sep": 18.048893391089454,
+      "price_per_unit_at_final_marg": 36.973665961010234
+    },
+    {
+      "kind": "V3_final",
+      "r": 1.0,
+      "L": 4,
+      "final_E_net_B": 1.2994659284329477,
+      "final_R_net": 0.0,
+      "price_per_unit_at_final_sep": 36.09778678217891,
+      "price_per_unit_at_final_marg": 73.94733192202047
+    },
+    {
+      "kind": "V3_final",
+      "r": 1.0,
+      "L": 8,
+      "final_E_net_B": 1.2994659284329477,
+      "final_R_net": 0.0,
+      "price_per_unit_at_final_sep": 72.19557356435782,
+      "price_per_unit_at_final_marg": 147.89466384404093
+    },
+    {
+      "kind": "per_sector",
+      "r": 2.0,
+      "E_net_B": 3.479525497881624,
+      "net_delivered": -3.479525497881624,
+      "R_net": 0.0
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 2.0,
+      "M": 1,
+      "aggregate_net_delivered": -3.479525497881624,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 6.817348586619854,
+      "price_per_unit_marg": 40.993975028908835,
+      "alice_aggregate_injection_V2": 0.4472135954999579
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 2.0,
+      "M": 2,
+      "aggregate_net_delivered": -6.959050995763248,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 6.817348586619854,
+      "price_per_unit_marg": 40.993975028908835,
+      "alice_aggregate_injection_V2": 0.8944271909999159
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 2.0,
+      "M": 4,
+      "aggregate_net_delivered": -13.918101991526497,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 6.817348586619854,
+      "price_per_unit_marg": 40.993975028908835,
+      "alice_aggregate_injection_V2": 1.7888543819998317
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 2.0,
+      "M": 8,
+      "aggregate_net_delivered": -27.836203983052993,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 6.817348586619854,
+      "price_per_unit_marg": 40.993975028908835,
+      "alice_aggregate_injection_V2": 3.5777087639996634
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 2.0,
+      "M": 16,
+      "aggregate_net_delivered": -55.672407966105986,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 6.817348586619854,
+      "price_per_unit_marg": 40.993975028908835,
+      "alice_aggregate_injection_V2": 7.155417527999327
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 2.0,
+      "M": 64,
+      "aggregate_net_delivered": -222.68963186442357,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 6.817348586619854,
+      "price_per_unit_marg": 40.993975028908835,
+      "alice_aggregate_injection_V2": 28.621670111997307
+    },
+    {
+      "kind": "V1_V2_aggregate_net",
+      "r": 2.0,
+      "M": 1024,
+      "aggregate_net_delivered": -3563.0341098307767,
+      "aggregate_R_net": 0.0,
+      "price_per_unit_sep": 6.817348586619854,
+      "price_per_unit_marg": 40.993975028908835,
+      "alice_aggregate_injection_V2": 457.9467217919569
+    },
+    {
+      "kind": "V3_final",
+      "r": 2.0,
+      "L": 2,
+      "final_E_net_B": 3.479525497881624,
+      "final_R_net": 0.0,
+      "price_per_unit_at_final_sep": 13.634697173239708,
+      "price_per_unit_at_final_marg": 81.98795005781767
+    },
+    {
+      "kind": "V3_final",
+      "r": 2.0,
+      "L": 4,
+      "final_E_net_B": 3.479525497881624,
+      "final_R_net": 0.0,
+      "price_per_unit_at_final_sep": 27.269394346479416,
+      "price_per_unit_at_final_marg": 163.97590011563534
+    },
+    {
+      "kind": "V3_final",
+      "r": 2.0,
+      "L": 8,
+      "final_E_net_B": 3.479525497881624,
+      "final_R_net": 0.0,
+      "price_per_unit_at_final_sep": 54.53878869295883,
+      "price_per_unit_at_final_marg": 327.9518002312707
+    }
+  ],
+  "V4_crossings": [
+    {
+      "r": 0.5,
+      "reference": "sep",
+      "read": "sector_prep_only",
+      "crossing_M": 4,
+      "granted_net_at_crossing": 0.05422312599309548
+    },
+    {
+      "r": 0.5,
+      "reference": "sep",
+      "read": "total_prep_plus_injection",
+      "crossing_M": 16,
+      "granted_net_at_crossing": 0.030669245471835582
+    },
+    {
+      "r": 0.5,
+      "reference": "marg",
+      "read": "sector_prep_only",
+      "crossing_M": 7,
+      "granted_net_at_crossing": 0.06079583561259133
+    },
+    {
+      "r": 0.5,
+      "reference": "marg",
+      "read": "total_prep_plus_injection",
+      "crossing_M": 19,
+      "granted_net_at_crossing": 0.037241955091331214
+    },
+    {
+      "r": 1.0,
+      "reference": "sep",
+      "read": "sector_prep_only",
+      "crossing_M": 3,
+      "granted_net_at_crossing": 0.01581577707425147
+    },
+    {
+      "r": 1.0,
+      "reference": "sep",
+      "read": "total_prep_plus_injection",
+      "crossing_M": 10,
+      "granted_net_at_crossing": 0.11194243346873467
+    },
+    {
+      "r": 1.0,
+      "reference": "marg",
+      "read": "sector_prep_only",
+      "crossing_M": 13,
+      "granted_net_at_crossing": 0.07750567884881931
+    },
+    {
+      "r": 1.0,
+      "reference": "marg",
+      "read": "total_prep_plus_injection",
+      "crossing_M": 19,
+      "granted_net_at_crossing": 0.058884701303155484
+    },
+    {
+      "r": 2.0,
+      "reference": "sep",
+      "read": "sector_prep_only",
+      "crossing_M": 3,
+      "granted_net_at_crossing": 0.07241384335453882
+    },
+    {
+      "r": 2.0,
+      "reference": "sep",
+      "read": "total_prep_plus_injection",
+      "crossing_M": 7,
+      "granted_net_at_crossing": 0.017933312326738893
+    },
+    {
+      "r": 2.0,
+      "reference": "marg",
+      "read": "sector_prep_only",
+      "crossing_M": 37,
+      "granted_net_at_crossing": 0.05507208236779748
+    },
+    {
+      "r": 2.0,
+      "reference": "marg",
+      "read": "total_prep_plus_injection",
+      "crossing_M": 41,
+      "granted_net_at_crossing": 0.0005915513399976646
+    }
+  ],
+  "worst_per_sector_net_delivered": -0.3746408196267366,
+  "worst_R_net_V1_V3": 0.0,
+  "reopening_bar_met": false,
+  "all_V1_V3_net_non_positive": true
+}
