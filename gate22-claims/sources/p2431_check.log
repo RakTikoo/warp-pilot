@@ -1,0 +1,18 @@
+PASS protected byte identity (live vs results before/after) 
+PASS CTRL-2 stage gates recomputed == stored A 3.4339573895536546e-07 B 3.4498744435396134e-05
+PASS tail first exceedance == 0.775 got 0.775
+PASS tail max past 0.65 == stored pricing 
+PASS stored G3-G4 disagreement on (0.5,0.65] <= 6.26e-7 (P234 price) max 6.25625901307103e-07
+PASS CTRL-1 recorded outcome consistent with recorded diffs {'threech_G4_sampled_max_abs_diff': 0.0, 'threech_G3_sampled_max_abs_diff': 0.0, 'threech_G4_refined_max_abs_diff': 0.0, 'director_G4_sampled_max_abs_diff_vs_P214': 0.0, 'director_G4_refined_t0.50625_max_abs_diff_vs_P214': 0.0}
+PASS fresh G4 spot diff 0.0 (threech) max diff 0.0
+PASS fresh G4 spot diff 0.0 (dir) max diff 0.0
+PASS fresh G5 spot diff 0.0 (threech) max diff 0.0
+PASS fresh G5 spot diff 0.0 (dir) max diff 0.0
+PASS CTRL-3 recorded values <= bar and pass {'G5_vs_G4stored_director_t0.25_max_abs_diff': 1.4235054024425153e-08, 'G5_vs_G4stored_director_t0.5_max_abs_diff': 5.694021876223587e-08, 'pass': True}
+PASS Phase 210 stored director t=0.5 NEC_ph anchor 
+PASS new bracket Richardson arithmetic reproduces 
+PASS new bracket CERT booleans reproduce recomputed C1=True C2=True C3=True C4sign=True bars=True vs stored True/True/True/True
+PASS t* Richardson arithmetic reproduces 
+PASS t* CERT booleans reproduce recomputed C1=True C2=True C3=True C4sign=True bars=True vs stored True/True/True/True
+PASS verdict form consistent with sec.6 decision order form 1 expected 1 (disposition 'T-A')
+CHECKER: 17/17 PASS

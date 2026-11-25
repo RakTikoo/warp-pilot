@@ -1,0 +1,602 @@
+{
+ "params": {
+  "mr": 2.0,
+  "xi": 0.16666666666666666,
+  "h": 0.05,
+  "L": 12.0,
+  "omega_max": 30.0,
+  "ell_range": [
+   0,
+   32
+  ],
+  "substep": 8,
+  "h_fine": 0.00625,
+  "construction": "parity sectors outward from throat, mirrored"
+ },
+ "tha": {
+  "NEC_rho": 3.3505682421407874e-05,
+  "NEC_phi": 0.0001440744344120542
+ },
+ "counts_by_value": {
+  "0": 258,
+  "1": 258,
+  "2": 258,
+  "3": 258,
+  "4": 257,
+  "5": 257,
+  "6": 257,
+  "7": 257,
+  "8": 256,
+  "9": 256,
+  "10": 255,
+  "11": 255,
+  "12": 254,
+  "13": 254,
+  "14": 253,
+  "15": 252,
+  "16": 251,
+  "17": 251,
+  "18": 250,
+  "19": 249,
+  "20": 248,
+  "21": 247,
+  "22": 246,
+  "23": 245,
+  "24": 243,
+  "25": 242,
+  "26": 241,
+  "27": 239,
+  "28": 237,
+  "29": 236,
+  "30": 233,
+  "31": 232,
+  "32": 230
+ },
+ "controls": {
+  "K1": {
+   "count_ell0": 258,
+   "count_ell16": 251,
+   "pass": true
+  },
+  "K2": {
+   "V0_D_ren": {
+    "8": -467.09590320096555,
+    "16": -18847.939076552324,
+    "24": -126566.65035008395,
+    "32": -426296.6708632074
+   },
+   "targets_full_precision": {
+    "8": -467.09590320096555,
+    "16": -18847.939076552324,
+    "24": -126566.65035008395,
+    "32": -426296.6708632074
+   },
+   "rel_err": {
+    "8": 0.0,
+    "16": 0.0,
+    "24": 0.0,
+    "32": 0.0
+   },
+   "monotone_growth_8_32": true,
+   "pass": true
+  },
+  "K3a": {
+   "records": [
+    {
+     "ell": 0,
+     "m": 1,
+     "omega": 2.1642091850210945,
+     "parity": "even",
+     "L2_rel": 5.442848932183423e-11,
+     "throat_abs": 7.572942273270655e-12,
+     "rightBC_resid": 8.211283790355292e-11,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 2,
+     "omega": 2.176052753523838,
+     "parity": "odd",
+     "L2_rel": 1.910273470242304e-11,
+     "throat_abs": 3.53525079574969e-17,
+     "rightBC_resid": 3.194649693350417e-11,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 3,
+     "omega": 2.1956500712621962,
+     "parity": "even",
+     "L2_rel": 1.1581664540646377e-11,
+     "throat_abs": 6.539768726554485e-13,
+     "rightBC_resid": 1.9470427941803336e-11,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 4,
+     "omega": 2.222796064526547,
+     "parity": "odd",
+     "L2_rel": 3.4180812715012314e-12,
+     "throat_abs": 7.07050159149938e-17,
+     "rightBC_resid": 5.7935474741522564e-12,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 5,
+     "omega": 2.2572184017595034,
+     "parity": "even",
+     "L2_rel": 1.1450908931929315e-11,
+     "throat_abs": 4.18332035678759e-13,
+     "rightBC_resid": 1.9521459033235522e-11,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 6,
+     "omega": 2.2985902074390623,
+     "parity": "odd",
+     "L2_rel": 4.1005501379767295e-12,
+     "throat_abs": 1.0605752387249069e-16,
+     "rightBC_resid": 6.907798753781063e-12,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 7,
+     "omega": 2.3465439330968816,
+     "parity": "even",
+     "L2_rel": 1.1210905408660659e-11,
+     "throat_abs": 2.615685446016869e-13,
+     "rightBC_resid": 1.935303810925545e-11,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 8,
+     "omega": 2.400685189253022,
+     "parity": "odd",
+     "L2_rel": 3.217209992235861e-11,
+     "throat_abs": 1.414100318299876e-16,
+     "rightBC_resid": 5.521502903318281e-11,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 9,
+     "omega": 2.460605572937251,
+     "parity": "even",
+     "L2_rel": 4.977936832463408e-11,
+     "throat_abs": 8.878453527927377e-13,
+     "rightBC_resid": 8.562283557405783e-11,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 10,
+     "omega": 2.525893832481267,
+     "parity": "odd",
+     "L2_rel": 8.672546959498844e-11,
+     "throat_abs": 6.89552589489768e-16,
+     "rightBC_resid": 1.490660632172299e-10,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 11,
+     "omega": 2.596145022931106,
+     "parity": "even",
+     "L2_rel": 1.3202995863665915e-10,
+     "throat_abs": 1.8507972932013672e-12,
+     "rightBC_resid": 2.2707229236199838e-10,
+     "pass": true
+    },
+    {
+     "ell": 0,
+     "m": 12,
+     "omega": 2.6709675713005216,
+     "parity": "odd",
+     "L2_rel": 2.06060906485904e-10,
+     "throat_abs": 2.1211504774498138e-16,
+     "rightBC_resid": 3.541962747310292e-10,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "m": 1,
+     "omega": 16.633814998265724,
+     "parity": "even",
+     "L2_rel": 5.193898657627972e-11,
+     "throat_abs": 7.203182494919247e-12,
+     "rightBC_resid": 7.844369615755023e-11,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "m": 2,
+     "omega": 16.635360097879417,
+     "parity": "odd",
+     "L2_rel": 1.910273470242304e-11,
+     "throat_abs": 3.53525079574969e-17,
+     "rightBC_resid": 3.194649693350417e-11,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "m": 3,
+     "omega": 16.63793494504152,
+     "parity": "even",
+     "L2_rel": 1.1716107594131103e-11,
+     "throat_abs": 6.422640197456531e-13,
+     "rightBC_resid": 1.973359258606559e-11,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "m": 4,
+     "omega": 16.64153906177174,
+     "parity": "odd",
+     "L2_rel": 3.1274878492179254e-12,
+     "throat_abs": 7.07050159149938e-17,
+     "rightBC_resid": 5.33112191016166e-12,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "m": 5,
+     "omega": 16.64617177951861,
+     "parity": "even",
+     "L2_rel": 1.1526935934234298e-11,
+     "throat_abs": 4.3287595730134854e-13,
+     "rightBC_resid": 1.9679460205506666e-11,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "m": 6,
+     "omega": 16.651832239778745,
+     "parity": "odd",
+     "L2_rel": 4.262526277079476e-12,
+     "throat_abs": 1.0605752387249069e-16,
+     "rightBC_resid": 7.133274474703246e-12,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "m": 7,
+     "omega": 16.658519394890828,
+     "parity": "even",
+     "L2_rel": 1.1477111492096265e-11,
+     "throat_abs": 2.871036741680655e-13,
+     "rightBC_resid": 1.9781887590544766e-11,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "m": 8,
+     "omega": 16.66623200900248,
+     "parity": "odd",
+     "L2_rel": 3.240687736727889e-11,
+     "throat_abs": 1.414100318299876e-16,
+     "rightBC_resid": 5.561449455650962e-11,
+     "pass": true
+    }
+   ],
+   "pass": true
+  },
+  "K3_successor": {
+   "records": [
+    {
+     "ell": 8,
+     "n": 0,
+     "omega": 2.2639654925546218,
+     "parity": "even",
+     "group": [
+      0,
+      1
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 1.3028293362732242e-10,
+     "u_disc_reg_throat": 1.3670989655851103e-10,
+     "abs_diff": 6.426962931188611e-12,
+     "rel_agreement": 0.04701168747090602,
+     "rel_denominator": 1.3670989655851103e-10,
+     "N_tgt": 1.274012373741578,
+     "S_over_2_n0": 21.056662418638563,
+     "pass": true
+    },
+    {
+     "ell": 8,
+     "n": 1,
+     "omega": 2.2639654925546218,
+     "parity": "odd",
+     "group": [
+      0,
+      1
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 0.0,
+     "u_disc_reg_throat": 8.883527845569682e-24,
+     "abs_diff": 8.883527845569682e-24,
+     "rel_agreement": 1.6476527556666624e-23,
+     "rel_denominator": 0.5391626248320319,
+     "N_tgt": 1.274012373741578,
+     "S_over_2_n0": 21.056662418638563,
+     "pass": true
+    },
+    {
+     "ell": 8,
+     "n": 2,
+     "omega": 2.429132269133784,
+     "parity": "even",
+     "group": [
+      2,
+      3
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 1.3228720762325217e-09,
+     "u_disc_reg_throat": 1.384976092312273e-09,
+     "abs_diff": 6.210401607975134e-11,
+     "rel_agreement": 0.044841218866143895,
+     "rel_denominator": 1.384976092312273e-09,
+     "N_tgt": 1.223853522239363,
+     "S_over_2_n0": 21.056662418638563,
+     "pass": true
+    },
+    {
+     "ell": 8,
+     "n": 3,
+     "omega": 2.429132269133784,
+     "parity": "odd",
+     "group": [
+      2,
+      3
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 0.0,
+     "u_disc_reg_throat": 4.4290220896299734e-23,
+     "abs_diff": 4.4290220896299734e-23,
+     "rel_agreement": 9.142599157626976e-23,
+     "rel_denominator": 0.48443796050439075,
+     "N_tgt": 1.223853522239363,
+     "S_over_2_n0": 21.056662418638563,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "n": 0,
+     "omega": 2.6872869851941825,
+     "parity": "even",
+     "group": [
+      0,
+      1
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 2.994757113908314e-20,
+     "u_disc_reg_throat": 4.39113357532779e-20,
+     "abs_diff": 1.3963764614194762e-20,
+     "rel_agreement": 0.31799908553572964,
+     "rel_denominator": 4.39113357532779e-20,
+     "N_tgt": 0.9888293751233714,
+     "S_over_2_n0": 43.205231605012706,
+     "pass": false
+    },
+    {
+     "ell": 16,
+     "n": 1,
+     "omega": 2.6872869851941825,
+     "parity": "odd",
+     "group": [
+      0,
+      1
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 0.0,
+     "u_disc_reg_throat": 1.6157780377622224e-33,
+     "abs_diff": 1.6157780377622224e-33,
+     "rel_agreement": 3.277925573973724e-33,
+     "rel_denominator": 0.49292700560112673,
+     "N_tgt": 0.9888293751233714,
+     "S_over_2_n0": 43.205231605012706,
+     "pass": true
+    },
+    {
+     "ell": 16,
+     "n": 2,
+     "omega": 2.9401918904053526,
+     "parity": "even",
+     "group": [
+      2,
+      3
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 6.912414670204539e-19,
+     "u_disc_reg_throat": 1.004827011487613e-18,
+     "abs_diff": 3.1358554446715906e-19,
+     "rel_agreement": 0.3120791348979623,
+     "rel_denominator": 1.004827011487613e-18,
+     "N_tgt": 1.0378128668341993,
+     "S_over_2_n0": 43.205231605012706,
+     "pass": false
+    },
+    {
+     "ell": 16,
+     "n": 3,
+     "omega": 2.9401918904053526,
+     "parity": "odd",
+     "group": [
+      2,
+      3
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 0.0,
+     "u_disc_reg_throat": 6.845735453404239e-33,
+     "abs_diff": 6.845735453404239e-33,
+     "rel_agreement": 1.4413591822570213e-32,
+     "rel_denominator": 0.47495000119848796,
+     "N_tgt": 1.0378128668341993,
+     "S_over_2_n0": 43.205231605012706,
+     "pass": true
+    },
+    {
+     "ell": 24,
+     "n": 0,
+     "omega": 3.209590063026553,
+     "parity": "even",
+     "group": [
+      0,
+      1
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 5.613784341160618e-30,
+     "u_disc_reg_throat": 1.9322242440650547e-29,
+     "abs_diff": 1.3708458099489928e-29,
+     "rel_agreement": 0.7094651742206578,
+     "rel_denominator": 1.9322242440650547e-29,
+     "N_tgt": 0.8319842537929649,
+     "S_over_2_n0": 65.65137853495773,
+     "pass": false
+    },
+    {
+     "ell": 24,
+     "n": 1,
+     "omega": 3.209590063026553,
+     "parity": "odd",
+     "group": [
+      0,
+      1
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 0.0,
+     "u_disc_reg_throat": -3.194451624680079e-43,
+     "abs_diff": 3.194451624680079e-43,
+     "rel_agreement": 6.92226748909582e-43,
+     "rel_denominator": 0.4614747450473537,
+     "N_tgt": 0.8319842537929649,
+     "S_over_2_n0": 65.65137853495773,
+     "pass": true
+    },
+    {
+     "ell": 24,
+     "n": 2,
+     "omega": 3.525877780897211,
+     "parity": "even",
+     "group": [
+      2,
+      3
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 2.310744082553094e-28,
+     "u_disc_reg_throat": 7.803043173399281e-28,
+     "abs_diff": 5.492299090846187e-28,
+     "rel_agreement": 0.7038662953409686,
+     "rel_denominator": 7.803043173399281e-28,
+     "N_tgt": 0.9232086611809386,
+     "S_over_2_n0": 65.65137853495773,
+     "pass": false
+    },
+    {
+     "ell": 24,
+     "n": 3,
+     "omega": 3.525877780897211,
+     "parity": "odd",
+     "group": [
+      2,
+      3
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 0.0,
+     "u_disc_reg_throat": 1.0763508114646306e-42,
+     "abs_diff": 1.0763508114646306e-42,
+     "rel_agreement": 2.3118966600474278e-42,
+     "rel_denominator": 0.46557046863961027,
+     "N_tgt": 0.9232086611809386,
+     "S_over_2_n0": 65.65137853495773,
+     "pass": true
+    },
+    {
+     "ell": 32,
+     "n": 0,
+     "omega": 3.787268730345268,
+     "parity": "even",
+     "group": [
+      0,
+      1
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 9.95191344118265e-40,
+     "u_disc_reg_throat": 1.566645887962678e-38,
+     "abs_diff": 1.4671267535508514e-38,
+     "rel_agreement": 0.9364763057328515,
+     "rel_denominator": 1.566645887962678e-38,
+     "N_tgt": 0.7642103663983082,
+     "S_over_2_n0": 88.23967679819931,
+     "pass": false
+    },
+    {
+     "ell": 32,
+     "n": 1,
+     "omega": 3.787268730345268,
+     "parity": "odd",
+     "group": [
+      0,
+      1
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 0.0,
+     "u_disc_reg_throat": -2.277727521209395e-49,
+     "abs_diff": 2.277727521209395e-49,
+     "rel_agreement": 4.9627302342845334e-49,
+     "rel_denominator": 0.45896661992101423,
+     "N_tgt": 0.7642103663983082,
+     "S_over_2_n0": 88.23967679819931,
+     "pass": true
+    },
+    {
+     "ell": 32,
+     "n": 2,
+     "omega": 4.150940961222912,
+     "parity": "even",
+     "group": [
+      2,
+      3
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 6.372220132554407e-38,
+     "u_disc_reg_throat": 9.70316840873785e-37,
+     "abs_diff": 9.065946395482409e-37,
+     "rel_agreement": 0.9343284598995919,
+     "rel_denominator": 9.70316840873785e-37,
+     "N_tgt": 0.8687293031120219,
+     "S_over_2_n0": 88.23967679819931,
+     "pass": false
+    },
+    {
+     "ell": 32,
+     "n": 3,
+     "omega": 4.150940961222912,
+     "parity": "odd",
+     "group": [
+      2,
+      3
+     ],
+     "form": "eigenspace-projection",
+     "u_two_reg_throat": 0.0,
+     "u_disc_reg_throat": 1.1823559828223723e-47,
+     "abs_diff": 1.1823559828223723e-47,
+     "rel_agreement": 2.508125963164705e-47,
+     "rel_denominator": 0.47141012859278336,
+     "N_tgt": 0.8687293031120219,
+     "S_over_2_n0": 88.23967679819931,
+     "pass": true
+    }
+   ],
+   "pass": false
+  },
+  "all_pass": false
+ },
+ "per_ell": [],
+ "verdict": "TWO-SIDED CONSTRUCTION FAILS ITS OWN CONTROL",
+ "verdict_form": 3
+}

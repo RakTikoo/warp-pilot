@@ -1,0 +1,15 @@
+CTRL-2 PASS: True | A 3.4339573895536546e-07 | B 3.4498744435396134e-05
+tail: first exceed B 0.775 | max past 0.65 3.4498744435396134e-05 at 1.0
+=== G3 march T=1.0 ===
+=== G4 march T=1.0 ===
+CTRL-1 PASS: True {'threech_G4_sampled_max_abs_diff': 0.0, 'threech_G3_sampled_max_abs_diff': 0.0, 'threech_G4_refined_max_abs_diff': 0.0, 'director_G4_sampled_max_abs_diff_vs_P214': 0.0, 'director_G4_refined_t0.50625_max_abs_diff_vs_P214': 0.0, 'pass': True}
+=== G5 probe march T=0.05 ===
+G5 probe: 21.2s -> projected 424.6s; fires=False
+=== G5 march T=1.0 ===
+G5 march wall 466.7s
+CTRL-3 PASS: True {'G5_vs_G4stored_director_t0.25_max_abs_diff': 1.4235054024425153e-08, 'G5_vs_G4stored_director_t0.5_max_abs_diff': 5.694021876223587e-08, 'pass': True}
+CERT new:  {'CERT1': True, 'CERT2': True, 'CERT3': True, 'CERT4': True, 'all': True}
+CERT t*:  {'CERT1': True, 'CERT2': True, 'CERT3': True, 'CERT4': True, 'all': True}
+VERDICT FORM 1 - BRACKET CERTIFIED
+The three-channel first crossing (0.55625, 0.5625] on NEC_ph = DEC_ph is CERTIFIED under the p2401 registration: CERT-1..4 hold (per-instant Richardson limits on NEC_ph/DEC_ph over (0.5, 0.65] meet the 1e-6 bar; the limit straddles zero at the bracket with no earlier in-window crossing). Phase 214's t* bracket, re-read under the SAME certificate, certifies as posed (0.5, 0.50625] (disposition T-A) — the comparison is in one frame and the sustainment interval's extension is a finding in the certified scope, fenced by the tail limitation (tail_pricing_stored: Stage B reads past the window are NOT certified), pose scope, jet scope, and the p1592 gate on programme-level wording. Named successor: a Gate registration on the certified claim set.
+WROTE /home/hatch/workspace/warp-pilot/phase243/results/p2431_results.json elapsed 772.5s

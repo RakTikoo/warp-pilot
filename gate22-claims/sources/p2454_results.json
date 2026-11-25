@@ -1,0 +1,636 @@
+{
+ "item": "P245-4 COMPANION-DRIVE FLUX CANCELLATION",
+ "beta": 1.1,
+ "d_deciding": 8.0,
+ "controls": {
+  "C0a_a0_reproduces_D2": {
+   "median_q": 38.05700115420225,
+   "median_q_D2": 38.05700115420225,
+   "median_q_rel_diff": 0.0,
+   "typeI_fraction": 0.0003788835564536499,
+   "typeI_fraction_D2": 0.0003788835564536499,
+   "nec_min": -0.00378336198802795,
+   "nec_min_D2": -0.00378336198802795,
+   "wec_min": -0.036210271834070086,
+   "wec_min_D2": -0.036210271834070086,
+   "pass": true
+  },
+  "C0b_flat_limits": {
+   "n_points": 22,
+   "max_abs_T": 0.0,
+   "pass": true
+  },
+  "C_OPP_equal_opposite_null": {
+   "max_abs_T_sample": 0.0,
+   "v_eff_coarse": 1.0,
+   "v_eff_fine": 1.0,
+   "pass": true
+  },
+  "C_T_translation": {
+   "median_q_rel_diff_vs_primary": 8.294225635806994e-16,
+   "typeI_abs_diff_vs_primary": 0.001175778953556736,
+   "pass": true
+  }
+ },
+ "reads": {
+  "dial_scan_d8": {
+   "a0.0": {
+    "n_points": 6804,
+    "typeI_fraction": 0.23515579071134626,
+    "flux_q": {
+     "median_where_denom_pos": 33.51300587178173,
+     "max_where_denom_pos": 37850010.32030225,
+     "frac_denom_nonpos": 0.7304526748971193,
+     "frac_q_le_1_where_defined": 0.0
+    },
+    "dist_Re_over_F": {
+     "median": 0.36527201136967846,
+     "max": 0.7071067811865477,
+     "frac_real_spectrum_1e-6": 0.23515579071134626
+    },
+    "frac_crack_points": 0.0,
+    "nec": {
+     "min": -0.0037816550257406146,
+     "median": -0.001271561054324302,
+     "max": 0.0,
+     "violating_point_share": 0.7649911816578483
+    },
+    "wec": {
+     "min": -0.03618490780109874,
+     "median": -0.012350228581566997,
+     "max": 0.0,
+     "violating_point_share": 0.7649911816578483
+    },
+    "dec": {
+     "min": -1.0000517204609998,
+     "median": -1.0000067130348167,
+     "max": 0.0,
+     "violating_point_share": 0.7649911816578483
+    },
+    "rho_euler": {
+     "min": -0.0003386320632783907,
+     "median": -1.8759696683577325e-05,
+     "max": 3.851859888774472e-34
+    },
+    "transport": {
+     "v_eff_coarse": 1.4736627426242535,
+     "v_eff_fine": 1.4736627426242535,
+     "quad_rel_diff": 0.0,
+     "rel_vs_single": 0.0,
+     "in_band_ge_0.99_single": true
+    },
+    "interference_covariant": {
+     "fro_median": 0.0,
+     "fro_max": 0.0,
+     "rel_to_pair_median": 0.0,
+     "rel_to_pair_max": 0.0
+    },
+    "crack_localisation": {}
+   },
+   "a0.25": {
+    "n_points": 6804,
+    "typeI_fraction": 0.04027042915931805,
+    "flux_q": {
+     "median_where_denom_pos": 17.651913955249835,
+     "max_where_denom_pos": 8173632.689334677,
+     "frac_denom_nonpos": 0.6597589653145208,
+     "frac_q_le_1_where_defined": 0.00043196544276457883
+    },
+    "dist_Re_over_F": {
+     "median": 0.4075716655185839,
+     "max": 0.7071067811865477,
+     "frac_real_spectrum_1e-6": 0.04027042915931805
+    },
+    "frac_crack_points": 0.0,
+    "nec": {
+     "min": -0.00446979300525051,
+     "median": -0.0011679827674554567,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "wec": {
+     "min": -0.04276498903401487,
+     "median": -0.011429098252764754,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "dec": {
+     "min": -1.0000743057763037,
+     "median": -1.0000068542470124,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "rho_euler": {
+     "min": -0.0004634530218379697,
+     "median": -2.7218305056431914e-05,
+     "max": 3.851859888774472e-34
+    },
+    "transport": {
+     "v_eff_coarse": 1.5363071614159491,
+     "v_eff_fine": 1.5363071614159491,
+     "quad_rel_diff": 0.0,
+     "rel_vs_single": 0.04250933200641316,
+     "in_band_ge_0.99_single": true
+    },
+    "interference_covariant": {
+     "fro_median": 0.0002562118870341729,
+     "fro_max": 0.0010775028566997358,
+     "rel_to_pair_median": 0.2398457387497122,
+     "rel_to_pair_max": 5.1154147489159385
+    },
+    "crack_localisation": {}
+   },
+   "a0.5": {
+    "n_points": 6804,
+    "typeI_fraction": 0.041740152851263965,
+    "flux_q": {
+     "median_where_denom_pos": 15.941318122446528,
+     "max_where_denom_pos": 8173632.689334677,
+     "frac_denom_nonpos": 0.6843033509700176,
+     "frac_q_le_1_where_defined": 0.004189944134078212
+    },
+    "dist_Re_over_F": {
+     "median": 0.3518845673350978,
+     "max": 0.7071067811865477,
+     "frac_real_spectrum_1e-6": 0.041740152851263965
+    },
+    "frac_crack_points": 0.0007348618459729571,
+    "nec": {
+     "min": -0.005063396953926077,
+     "median": -0.0012277728446407005,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "wec": {
+     "min": -0.04841247476945642,
+     "median": -0.011870903327302416,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "dec": {
+     "min": -1.00009577936284,
+     "median": -1.0000072237295496,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "rho_euler": {
+     "min": -0.0005984118377360396,
+     "median": -5.034772846052131e-05,
+     "max": 1.925929944387236e-34
+    },
+    "transport": {
+     "v_eff_coarse": 1.58877348399224,
+     "v_eff_fine": 1.58877348399224,
+     "quad_rel_diff": 0.0,
+     "rel_vs_single": 0.07811199811091174,
+     "in_band_ge_0.99_single": true
+    },
+    "interference_covariant": {
+     "fro_median": 0.00047759842302183477,
+     "fro_max": 0.0018350957692988051,
+     "rel_to_pair_median": 0.4196505096074203,
+     "rel_to_pair_max": 18.60905420064632
+    },
+    "crack_localisation": {
+     "n_crack": 5,
+     "from_primary_centre_set": 4,
+     "from_companion_centre_set": 1,
+     "r1_median": 10.5,
+     "r1_min": 10.499999999999998,
+     "r1_max": 17.13558954979153,
+     "nec_median_at_crack": -0.000133398131914454,
+     "wec_median_at_crack": -0.000133398131914454,
+     "rho_median_at_crack": -1.6150008737862474e-05
+    }
+   },
+   "a0.75": {
+    "n_points": 6804,
+    "typeI_fraction": 0.04365079365079365,
+    "flux_q": {
+     "median_where_denom_pos": 15.096652551374596,
+     "max_where_denom_pos": 8173632.689334677,
+     "frac_denom_nonpos": 0.7113462669018225,
+     "frac_q_le_1_where_defined": 0.02189409368635438
+    },
+    "dist_Re_over_F": {
+     "median": 0.3074026870679,
+     "max": 0.7071067811865477,
+     "frac_real_spectrum_1e-6": 0.04365079365079365
+    },
+    "frac_crack_points": 0.0,
+    "nec": {
+     "min": -0.005604046124580691,
+     "median": -0.0014151009288464848,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "wec": {
+     "min": -0.053669870152687586,
+     "median": -0.013757103810337297,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "dec": {
+     "min": -1.0001164366473367,
+     "median": -1.0000083088647986,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "rho_euler": {
+     "min": -0.0007516072620264198,
+     "median": -6.70436639236616e-05,
+     "max": 5.7777898331617076e-34
+    },
+    "transport": {
+     "v_eff_coarse": 1.6332702237619394,
+     "v_eff_fine": 1.6332702237619394,
+     "quad_rel_diff": 0.0,
+     "rel_vs_single": 0.10830665424401098,
+     "in_band_ge_0.99_single": true
+    },
+    "interference_covariant": {
+     "fro_median": 0.0006521672558716358,
+     "fro_max": 0.0023549142040711008,
+     "rel_to_pair_median": 0.5396916089838065,
+     "rel_to_pair_max": 9.393401108863456
+    },
+    "crack_localisation": {}
+   },
+   "a1.0": {
+    "n_points": 6804,
+    "typeI_fraction": 0.0411522633744856,
+    "flux_q": {
+     "median_where_denom_pos": 15.844125090109683,
+     "max_where_denom_pos": 8173632.689334677,
+     "frac_denom_nonpos": 0.725896531452087,
+     "frac_q_le_1_where_defined": 0.024664879356568366
+    },
+    "dist_Re_over_F": {
+     "median": 0.28049957101049,
+     "max": 0.7071067811865477,
+     "frac_real_spectrum_1e-6": 0.0411522633744856
+    },
+    "frac_crack_points": 0.0,
+    "nec": {
+     "min": -0.006098200056148086,
+     "median": -0.0015945912194484076,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "wec": {
+     "min": -0.05838013985090666,
+     "median": -0.015476731606743448,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "dec": {
+     "min": -1.0001359926862607,
+     "median": -1.0000106285564316,
+     "max": 0.0,
+     "violating_point_share": 0.9607583774250441
+    },
+    "rho_euler": {
+     "min": -0.0009058502992831607,
+     "median": -7.98711422047039e-05,
+     "max": 3.851859888774472e-34
+    },
+    "transport": {
+     "v_eff_coarse": 1.6714974590968361,
+     "v_eff_fine": 1.6714974590968361,
+     "quad_rel_diff": 0.0,
+     "rel_vs_single": 0.1342469418208163,
+     "in_band_ge_0.99_single": true
+    },
+    "interference_covariant": {
+     "fro_median": 0.0008050151096163514,
+     "fro_max": 0.0027503803145399806,
+     "rel_to_pair_median": 0.5883574242012248,
+     "rel_to_pair_max": 16.416015633883536
+    },
+    "crack_localisation": {}
+   }
+  },
+  "robustness_a1": {
+   "d4.0": {
+    "n_points": 6804,
+    "typeI_fraction": 0.04262198706643151,
+    "flux_q": {
+     "median_where_denom_pos": 15.8553624849614,
+     "max_where_denom_pos": 14239608.879149798,
+     "frac_denom_nonpos": 0.7110523221634333,
+     "frac_q_le_1_where_defined": 0.0
+    },
+    "dist_Re_over_F": {
+     "median": 0.2681173122572973,
+     "max": 0.7071067811865477,
+     "frac_real_spectrum_1e-6": 0.04262198706643151
+    },
+    "frac_crack_points": 0.0,
+    "nec": {
+     "min": -0.00624531209276222,
+     "median": -0.0021518573453061405,
+     "max": 0.0,
+     "violating_point_share": 0.9587007642563198
+    },
+    "wec": {
+     "min": -0.05983241761049805,
+     "median": -0.020914727811622277,
+     "max": 0.0,
+     "violating_point_share": 0.9587007642563198
+    },
+    "dec": {
+     "min": -1.000139849987684,
+     "median": -1.000022576964851,
+     "max": 0.0,
+     "violating_point_share": 0.9587007642563198
+    },
+    "rho_euler": {
+     "min": -0.0009316623278523654,
+     "median": -0.00010368060756156972,
+     "max": 3.851859888774472e-34
+    },
+    "transport": {
+     "v_eff_fine": 1.7200805409559854,
+     "rel_vs_single": 0.1672145133376437,
+     "in_band_ge_0.99_single": true
+    }
+   },
+   "d12.0": {
+    "n_points": 6804,
+    "typeI_fraction": 0.05291005291005291,
+    "flux_q": {
+     "median_where_denom_pos": 10.973285468242581,
+     "max_where_denom_pos": 524034.5623549306,
+     "frac_denom_nonpos": 0.6832745443856555,
+     "frac_q_le_1_where_defined": 0.01716937354988399
+    },
+    "dist_Re_over_F": {
+     "median": 0.2979259030554144,
+     "max": 0.7071067811865477,
+     "frac_real_spectrum_1e-6": 0.05291005291005291
+    },
+    "frac_crack_points": 0.0011757789535567313,
+    "nec": {
+     "min": -0.005766123839779951,
+     "median": -0.0015145763611637297,
+     "max": 0.0,
+     "violating_point_share": 0.9538506760728983
+    },
+    "wec": {
+     "min": -0.055113802701286525,
+     "median": -0.01467682605583065,
+     "max": 0.0,
+     "violating_point_share": 0.9538506760728983
+    },
+    "dec": {
+     "min": -1.0001273428103523,
+     "median": -1.000010304983706,
+     "max": 0.0,
+     "violating_point_share": 0.9538506760728983
+    },
+    "rho_euler": {
+     "min": -0.0008192676495304464,
+     "median": -5.607553281439955e-05,
+     "max": 3.851859888774472e-34
+    },
+    "transport": {
+     "v_eff_fine": 1.6024441890595253,
+     "rel_vs_single": 0.087388683116153,
+     "in_band_ge_0.99_single": true
+    }
+   }
+  },
+  "counter_arm_cocentred": {
+   "a-0.25": {
+    "n_points": 3402,
+    "typeI_fraction": 0.08759553203997648,
+    "flux_q": {
+     "median_where_denom_pos": 45.56134648360808,
+     "max_where_denom_pos": 56315.04568514624,
+     "frac_denom_nonpos": 0.696061140505585,
+     "frac_q_le_1_where_defined": 0.0
+    },
+    "dist_Re_over_F": {
+     "median": 0.48089365210720025,
+     "max": 0.7071067811865477,
+     "frac_real_spectrum_1e-6": 0.08759553203997648
+    },
+    "frac_crack_points": 0.0,
+    "nec": {
+     "min": -0.0028930459062068963,
+     "median": -0.0011162444727475754,
+     "max": 0.0,
+     "violating_point_share": 0.9124044679600235
+    },
+    "wec": {
+     "min": -0.027710609172012207,
+     "median": -0.010972016793259147,
+     "max": 0.0,
+     "violating_point_share": 0.9124044679600235
+    },
+    "dec": {
+     "min": -1.000028187478335,
+     "median": -1.0000043349669423,
+     "max": 0.0,
+     "violating_point_share": 0.9124044679600235
+    },
+    "rho_euler": {
+     "min": -0.0002054830439806764,
+     "median": -2.419871168044827e-05,
+     "max": 2.8888949165808538e-34
+    },
+    "transport": {
+     "v_eff_fine": 1.3771544912100562,
+     "rel_vs_single": -0.06548869603796748,
+     "in_band_ge_0.99_single": false
+    }
+   },
+   "a-0.5": {
+    "n_points": 3402,
+    "typeI_fraction": 0.08759553203997648,
+    "flux_q": {
+     "median_where_denom_pos": 65.338019662694,
+     "max_where_denom_pos": 84471.86014316921,
+     "frac_denom_nonpos": 0.6925338036449148,
+     "frac_q_le_1_where_defined": 0.0
+    },
+    "dist_Re_over_F": {
+     "median": 0.5754845489921907,
+     "max": 0.7071067811865476,
+     "frac_real_spectrum_1e-6": 0.08759553203997648
+    },
+    "frac_crack_points": 0.0,
+    "nec": {
+     "min": -0.0018902705653686285,
+     "median": -0.0007589534983731385,
+     "max": 0.0,
+     "violating_point_share": 0.9124044679600235
+    },
+    "wec": {
+     "min": -0.018162420237562045,
+     "median": -0.0073679907335578165,
+     "max": 0.0,
+     "violating_point_share": 0.9124044679600235
+    },
+    "dec": {
+     "min": -1.0000102745755717,
+     "median": -1.0000016247897028,
+     "max": 0.0,
+     "violating_point_share": 0.9124044679600235
+    },
+    "rho_euler": {
+     "min": -9.834674002064722e-05,
+     "median": -1.2520507949640014e-05,
+     "max": 3.611118645726067e-35
+    },
+    "transport": {
+     "v_eff_fine": 1.26451949746468,
+     "rel_vs_single": -0.14192069807447094,
+     "in_band_ge_0.99_single": false
+    }
+   },
+   "a-0.75": {
+    "n_points": 3402,
+    "typeI_fraction": 0.08759553203997648,
+    "flux_q": {
+     "median_where_denom_pos": 117.32693617063063,
+     "max_where_denom_pos": 168942.87023629626,
+     "frac_denom_nonpos": 0.6860670194003528,
+     "frac_q_le_1_where_defined": 0.0
+    },
+    "dist_Re_over_F": {
+     "median": 0.6651248923697096,
+     "max": 0.7071067811865477,
+     "frac_real_spectrum_1e-6": 0.08759553203997648
+    },
+    "frac_crack_points": 0.0,
+    "nec": {
+     "min": -0.0008566822336911958,
+     "median": -0.00035177543082507345,
+     "max": 0.0,
+     "violating_point_share": 0.9124044679600235
+    },
+    "wec": {
+     "min": -0.008274395108035596,
+     "median": -0.0034221569879333853,
+     "max": 0.0,
+     "violating_point_share": 0.9124044679600235
+    },
+    "dec": {
+     "min": -1.0000016680856014,
+     "median": -1.0000003091460488,
+     "max": 0.0,
+     "violating_point_share": 0.9124044679600235
+    },
+    "rho_euler": {
+     "min": -2.595533500621589e-05,
+     "median": -3.4835063347905944e-06,
+     "max": 4.2129717533470784e-35
+    },
+    "transport": {
+     "v_eff_fine": 1.1366963794297804,
+     "rel_vs_single": -0.22865907744563974,
+     "in_band_ge_0.99_single": false
+    }
+   }
+  },
+  "E_neg_quadrature": {
+   "a0.0": {
+    "E_neg_main": -2.5902910092826392,
+    "E_neg_twin": -2.5902682946185718,
+    "twin_rel_diff": 8.769155274849826e-06
+   },
+   "a0.5": {
+    "E_neg_main": -3.425304668968323,
+    "E_neg_twin": -3.425319841848032,
+    "twin_rel_diff": 4.429643834766107e-06
+   },
+   "a1.0": {
+    "E_neg_main": -4.919968740882616,
+    "E_neg_twin": -4.920046502817721,
+    "twin_rel_diff": 1.5805371781973143e-05
+   }
+  }
+ },
+ "controls_pass": true,
+ "members": {
+  "primary_alone_on_own_set": {
+   "n_points": 3402,
+   "typeI_fraction": 0.08759553203997648,
+   "flux_q": {
+    "median_where_denom_pos": 34.26686309051525,
+    "max_where_denom_pos": 42236.780143036354,
+    "frac_denom_nonpos": 0.7039976484420929,
+    "frac_q_le_1_where_defined": 0.0
+   },
+   "dist_Re_over_F": {
+    "median": 0.40489588107292973,
+    "max": 0.7071067811865477,
+    "frac_real_spectrum_1e-6": 0.08759553203997648
+   },
+   "frac_crack_points": 0.0,
+   "nec": {
+    "min": -0.00377057064253636,
+    "median": -0.001540888511226722,
+    "max": 0.0,
+    "violating_point_share": 0.9124044679600235
+   },
+   "wec": {
+    "min": -0.03611003858243919,
+    "median": -0.014947032191045314,
+    "max": 0.0,
+    "violating_point_share": 0.9124044679600235
+   },
+   "dec": {
+    "min": -1.0000517204609998,
+    "median": -1.0000086939555142,
+    "max": 0.0,
+    "violating_point_share": 0.9124044679600235
+   },
+   "rho_euler": {
+    "min": -0.0003386320632783907,
+    "median": -3.62165150199042e-05,
+    "max": 3.851859888774472e-34
+   }
+  },
+  "companion_alone_a1_on_own_set": {
+   "n_points": 3402,
+   "typeI_fraction": 0.08641975308641975,
+   "flux_q": {
+    "median_where_denom_pos": 34.26686309051528,
+    "max_where_denom_pos": 42236.780143036354,
+    "frac_denom_nonpos": 0.7039976484420929,
+    "frac_q_le_1_where_defined": 0.0
+   },
+   "dist_Re_over_F": {
+    "median": 0.4050578653387784,
+    "max": 0.7071067811865477,
+    "frac_real_spectrum_1e-6": 0.08641975308641975
+   },
+   "frac_crack_points": 0.0,
+   "nec": {
+    "min": -0.00377057064253636,
+    "median": -0.001540888511226722,
+    "max": 0.0,
+    "violating_point_share": 0.9135802469135802
+   },
+   "wec": {
+    "min": -0.03611003858243919,
+    "median": -0.014947032191045314,
+    "max": 0.0,
+    "violating_point_share": 0.9135802469135802
+   },
+   "dec": {
+    "min": -1.0000517204609998,
+    "median": -1.0000086939555142,
+    "max": 0.0,
+    "violating_point_share": 0.9135802469135802
+   },
+   "rho_euler": {
+    "min": -0.00033863206327839056,
+    "median": -3.62165150199042e-05,
+    "max": 3.851859888774472e-34
+   }
+  }
+ }
+}

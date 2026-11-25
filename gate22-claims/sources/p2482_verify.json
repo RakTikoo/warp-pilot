@@ -1,0 +1,123 @@
+{
+ "item": "P248-2",
+ "checks": [
+  {
+   "check": "md5 protected files unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "A1 decomposition max deviation",
+   "pass": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "headline full-fit coefficients match",
+   "pass": true,
+   "detail": "{'c0': 0.5851283392583361, 'c1': 0.2805881732503184, 'c2': -4.629047030296676}"
+  },
+  {
+   "check": "headline full-fit RMS match",
+   "pass": true,
+   "detail": "0.0057090817341376"
+  },
+  {
+   "check": "headline forced-fit coefficients match",
+   "pass": true,
+   "detail": "{'c0': 0.6040140816886457, 'c2': -3.932798461437323}"
+  },
+  {
+   "check": "headline forced root in (0.375,0.400]",
+   "pass": true,
+   "detail": "0.39189767429822037"
+  },
+  {
+   "check": "composed q2 matches",
+   "pass": true,
+   "detail": "-6.062834985645177"
+  },
+  {
+   "check": "sbar matches",
+   "pass": true,
+   "detail": "1.1540830919809508"
+  },
+  {
+   "check": "c_trim formula",
+   "pass": true,
+   "detail": "5.253378225339471"
+  },
+  {
+   "check": "clamp instant",
+   "pass": true,
+   "detail": "0.2389688494100157"
+  },
+  {
+   "check": "rotation effect on drift trajectory = 0.0",
+   "pass": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "CTRL(i) c_trim=0 reproduction pass",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "CTRL(iii) static pin pass",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "CTRL(ii) support MU/U bit-identical",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "trimmed PR-phi pass",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "a at bracket ends = -0.8 (clamped)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "peak |a| = cap, headroom 0",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "descriptive a* matches, outside cap",
+   "pass": true,
+   "detail": "-1.517512644649436"
+  },
+  {
+   "check": "three-bracket table",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "verdict form 1",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "fresh 0.525 margins diff 0.0",
+   "pass": true,
+   "detail": "{'NEC_rho': 0.0, 'NEC_th': 0.0, 'NEC_ph': 0.0, 'WEC': 0.0, 'DEC_rho': 0.0, 'DEC_th': 0.0, 'DEC_ph': 0.0}"
+  },
+  {
+   "check": "fresh 0.53125 margins diff 0.0",
+   "pass": true,
+   "detail": "{'NEC_rho': 0.0, 'NEC_th': 0.0, 'NEC_ph': 0.0, 'WEC': 0.0, 'DEC_rho': 0.0, 'DEC_th': 0.0, 'DEC_ph': 0.0}"
+  },
+  {
+   "check": "bracket signs: lo holds, hi fails on NEC_ph/DEC_ph",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "pass_count": 23,
+ "total": 23,
+ "all_pass": true
+}
