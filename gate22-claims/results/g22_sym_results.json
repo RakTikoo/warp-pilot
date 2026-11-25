@@ -1,0 +1,70 @@
+{
+ "1": {
+  "grad2": "(-A(th)**2 - 2*A(th)**2*cos(th)/sin(th)**2 + 2*A(th)**2/sin(th)**2 + 2*A(th)*Derivative(A(th), th)/tan(th) - 2*A(th)*Derivative(A(th), th)/sin(th) + Derivative(A(th), th)**2)/A(th)**4",
+  "dphi_grad2": "0",
+  "diff_vs_T2": "0",
+  "diff_vs_T1_zero": false,
+  "nabla_rho_n_zero_at_throat": true,
+  "nabla_th_n_zero_at_throat": true,
+  "Gavg": [
+   [
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "(-A(th)**2 - 2*A(th)**2*cos(th)/sin(th)**2 + 2*A(th)**2/sin(th)**2 + 2*A(th)*Derivative(A(th), th)/tan(th) - 2*A(th)*Derivative(A(th), th)/sin(th) + Derivative(A(th), th)**2)/A(th)**4"
+   ]
+  ],
+  "Gavg_diag": [
+   "0",
+   "0",
+   "(-A(th)**2 - 2*A(th)**2*cos(th)/sin(th)**2 + 2*A(th)**2/sin(th)**2 + 2*A(th)*Derivative(A(th), th)/tan(th) - 2*A(th)*Derivative(A(th), th)/sin(th) + Derivative(A(th), th)**2)/A(th)**4"
+  ],
+  "Gavg_offdiag_all_zero": true,
+  "Gavg_phph_equals_grad2": true,
+  "Gavg_rhorho_zero": true,
+  "Gavg_thth_zero": true
+ },
+ "2": {
+  "grad2": "(-A(th)**2 - 4*A(th)**2*cos(th)/sin(th)**2 + 5*A(th)**2/sin(th)**2 + 2*A(th)*Derivative(A(th), th)/tan(th) - 4*A(th)*Derivative(A(th), th)/sin(th) + Derivative(A(th), th)**2)/A(th)**4",
+  "dphi_grad2": "0",
+  "diff_vs_T2": "0",
+  "diff_vs_T1_zero": false,
+  "nabla_rho_n_zero_at_throat": true,
+  "nabla_th_n_zero_at_throat": true,
+  "Gavg": [
+   [
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "(-A(th)**2 - 4*A(th)**2*cos(th)/sin(th)**2 + 5*A(th)**2/sin(th)**2 + 2*A(th)*Derivative(A(th), th)/tan(th) - 4*A(th)*Derivative(A(th), th)/sin(th) + Derivative(A(th), th)**2)/A(th)**4"
+   ]
+  ],
+  "Gavg_diag": [
+   "0",
+   "0",
+   "(-A(th)**2 - 4*A(th)**2*cos(th)/sin(th)**2 + 5*A(th)**2/sin(th)**2 + 2*A(th)*Derivative(A(th), th)/tan(th) - 4*A(th)*Derivative(A(th), th)/sin(th) + Derivative(A(th), th)**2)/A(th)**4"
+  ],
+  "Gavg_offdiag_all_zero": true,
+  "Gavg_phph_equals_grad2": true,
+  "Gavg_rhorho_zero": true,
+  "Gavg_thth_zero": true
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "checker": "g31_check.py (independent)",
+ "richardson_recomputed_max_abs_diff_vs_stored": 0.0,
+ "cert_recomputed": {
+  "CERT-1": true,
+  "CERT-2": true,
+  "CERT-3": true,
+  "CERT-4": true
+ },
+ "cert_match_stored": true,
+ "ctrl3_recomputed_pass": true,
+ "ctrl3_match_stored": true,
+ "spot_recompute_bracket_g4": {
+  "0.575": {
+   "march_index": 920,
+   "max_abs_diff": 0.0
+  },
+  "0.58125": {
+   "march_index": 930,
+   "max_abs_diff": 0.0
+  }
+ },
+ "spot_recompute_max_abs_diff": 0.0,
+ "spot_recompute_pass_diff0": true,
+ "verdict_expected_form": "SURVIVES",
+ "verdict_recorded": "SURVIVES (INTACT vs IN RESTATED WORDING reserved to the gate, sec.5)",
+ "verdict_consistent": true,
+ "md5_current": {
+  "/home/hatch/workspace/warp-pilot/phase169/work/p1692_engine.py": "1781b544920052bcc9b919574561acb2",
+  "/home/hatch/workspace/warp-pilot/phase167/work/p167_engine.py": "9db35c0b82635409e0bddf17251ba53f",
+  "/home/hatch/workspace/warp-pilot/phase162/work/p1621_engine.py": "1f12ec29c2693ca00a19da365abeccf4"
+ },
+ "md5_identity_pass": true,
+ "all_pass": true
+}

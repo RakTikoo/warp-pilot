@@ -1,0 +1,4 @@
+CTRL-1 clause diff 0.0 mom diff 0.0
+CTRL-2 {'MU': 0.0, 'U': 0.0, 'MTT': 0.0}
+PROBE wall 9.77s projected 195.37s fires False
+WROTE stage_controls, wall 83.7s
