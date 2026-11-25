@@ -1,0 +1,114 @@
+{
+ "worker": "W-B1",
+ "total": 21,
+ "passed": 18,
+ "all_pass": false,
+ "note": "claim_match_dim_ell1/2/3 FAIL by design of the comparison: W-B1 settled dimensions differ from Phase 122 claims; the discrepancy is the result (see wb1_memo.md).",
+ "checks": [
+  {
+   "name": "A_background_B_zero_MK_7pts",
+   "pass": true,
+   "detail": "max|B| = 1.952e-18 over 7 (r,theta) points; flat/Schwarzschild controls {'flat': 4.844920158781954e-18, 'schw': 2.3464904093012453e-18}"
+  },
+  {
+   "name": "A_tangents_linearised_floor",
+   "pass": true,
+   "detail": "{'dbeta': 6.322605987477593e-20, 'dgamma': 1.6731332052653877e-25, 'dk': 6.762606390400666e-19}"
+  },
+  {
+   "name": "A_mode_decoupling_ell2",
+   "pass": true,
+   "detail": "{'tt': 2.6787153147140917e-14, 'rr': 4.494013498090805e-15, 'ang_trace': 1.2098070075916678e-14, 'ang_diff': 1.1204587103503752e-15, 'rth': 7.145907927190989e-16}"
+  },
+  {
+   "name": "A_linearisation_channels_vs_finite",
+   "pass": true,
+   "detail": "{'r1000.0_th1.1': 5.951103361561898e-11, 'r980.0_th2.0': 3.9638822565515115e-12}"
+  },
+  {
+   "name": "settled_dim_ell0_internal_stability",
+   "pass": true,
+   "detail": "primary P4 reads give 7 at both radii; full table in results"
+  },
+  {
+   "name": "claim_match_dim_ell0",
+   "pass": true,
+   "detail": "W-B1 settled 7 vs Phase-122 claimed 7"
+  },
+  {
+   "name": "settled_dim_ell1_internal_stability",
+   "pass": true,
+   "detail": "primary P4 reads give 10 at both radii; full table in results"
+  },
+  {
+   "name": "claim_match_dim_ell1",
+   "pass": false,
+   "detail": "W-B1 settled 10 vs Phase-122 claimed 9 - DISCREPANCY (see memo anatomy)"
+  },
+  {
+   "name": "settled_dim_ell2_internal_stability",
+   "pass": true,
+   "detail": "primary P4 reads give 8 at both radii; full table in results"
+  },
+  {
+   "name": "claim_match_dim_ell2",
+   "pass": false,
+   "detail": "W-B1 settled 8 vs Phase-122 claimed 7 - DISCREPANCY (see memo anatomy)"
+  },
+  {
+   "name": "settled_dim_ell3_internal_stability",
+   "pass": true,
+   "detail": "primary P4 reads give 8 at both radii; full table in results"
+  },
+  {
+   "name": "claim_match_dim_ell3",
+   "pass": false,
+   "detail": "W-B1 settled 8 vs Phase-122 claimed 7 - DISCREPANCY (see memo anatomy)"
+  },
+  {
+   "name": "gauge_formulas_symbolic_zero",
+   "pass": true,
+   "detail": "all five Lie-action residuals simplify to 0 (sympy, ell=2, generic X,Y)"
+  },
+  {
+   "name": "named_ell0_in_settled_span",
+   "pass": true,
+   "detail": "{'dbeta': 7.028549427658001e-12, 'dgamma': 0.002429747434691476, 'dk': 1.4186445281951402e-15, 'rescaling': 4.435857219783162e-14}"
+  },
+  {
+   "name": "kappa_full_within_5pct",
+   "pass": true,
+   "detail": "recomputed -2.764309e-05 vs stored -2.764306e-05, rel diff 9.41e-07"
+  },
+  {
+   "name": "kappa_enlarged_zero",
+   "pass": true,
+   "detail": "exact 3x3 residual [-8.470329472543003e-22, 0.0, 0.0], amplitudes {'dbeta': -0.0033948682324458955, 'dk': 1.290663714533918e-11, 'e0': 2.2398252559388538e-05}"
+  },
+  {
+   "name": "enlarged_response_rank3",
+   "pass": true,
+   "detail": "rank 3"
+  },
+  {
+   "name": "propagation_ell1",
+   "pass": true,
+   "detail": "basis 7.781e-24 vs control 8.758e-10 at Sigma"
+  },
+  {
+   "name": "propagation_ell2",
+   "pass": true,
+   "detail": "basis 1.830e-22 vs control 1.933e-09 at Sigma"
+  },
+  {
+   "name": "propagation_ell3",
+   "pass": true,
+   "detail": "basis 9.387e-22 vs control 2.259e-09 at Sigma"
+  },
+  {
+   "name": "propagation_ell0_e",
+   "pass": true,
+   "detail": "basis 3.704e-21 vs control 4.045e-12 at Sigma"
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "checks": [
+  {
+   "name": "functionals LK_U_U1_V match home checkpoint",
+   "pass": true,
+   "detail": "max rel diff 0.000e+00"
+  },
+  {
+   "name": "functionals LR_U_U1_U2_V_V1 match home checkpoint",
+   "pass": true,
+   "detail": "max rel diff 0.000e+00"
+  },
+  {
+   "name": "functionals LRn_U_U1_U2_U3_V_V1_V2 match home checkpoint",
+   "pass": true,
+   "detail": "max rel diff 0.000e+00"
+  },
+  {
+   "name": "A1 jump_Rn == corrected member control",
+   "pass": true,
+   "detail": "fresh -0.0152185839536870 vs control -0.015218583953687024"
+  },
+  {
+   "name": "A1 S00/a0 == corrected member control",
+   "pass": true,
+   "detail": "fresh 0.0202914452715827 vs control 0.0202914452715827"
+  },
+  {
+   "name": "A1 jump_R == home control, within stored-member floor",
+   "pass": true,
+   "detail": "jump_R 0.0000000033617694518376954105565534120486498773929070783924 vs home stored 0.0000000033617694518376954105565534120486498773929070783924 (floor 3.4e-9: rounded stored beta_MK; amended bound 1e-8)"
+  },
+  {
+   "name": "A3 diagnosis: true-A3 jump == A1 control",
+   "pass": true,
+   "detail": "-0.015218583953687024618419185732434425876475125939797"
+  },
+  {
+   "name": "A3 diagnosis: W-A-A3 jump reproduces W-A's erroneous value",
+   "pass": true,
+   "detail": "-0.015317149904396515199495154868698851555849516283573 vs W-A stated -0.01531714654192940335 (W-A's +0.0204228620559 shell value was a W-A machinery error; corrected control stands)"
+  },
+  {
+   "name": "A2 [B] c ell0 within 5% of 4.302e-3",
+   "pass": true,
+   "detail": "4.3023735970e-03"
+  },
+  {
+   "name": "A2 [B] c ell1 within 5% of 4.302e-3",
+   "pass": true,
+   "detail": "4.3023735970e-03"
+  },
+  {
+   "name": "A2 [B] c ell2 within 5% of 4.302e-3",
+   "pass": true,
+   "detail": "4.3023735970e-03"
+  },
+  {
+   "name": "A2 [B] c ell3 within 5% of 4.302e-3",
+   "pass": true,
+   "detail": "4.3023735970e-03"
+  },
+  {
+   "name": "A2 D3 [K]1 within 5%",
+   "pass": true,
+   "detail": "-0.0000042704519368392488691716760438477306896586555124959"
+  },
+  {
+   "name": "A2 D3 [Rtn]1 within 5%",
+   "pass": true,
+   "detail": "0.000055144424023875882177079036211197013610415445256393"
+  },
+  {
+   "name": "A2 [Rt]3 within 5%",
+   "pass": true,
+   "detail": "0.0085704439999999999999999999972455308616073999999996"
+  },
+  {
+   "name": "A2 S identity S0=-2,S1=0,S2=0,S3=-2 within 1%",
+   "pass": true,
+   "detail": "{\"S0\": \"-1.9999999999999999999999999999999999999999999999998\", \"S1\": \"5.7475132325822575174606096189625466322041993709779e-50\", \"S2\": \"3.0828566215145975560322050832378154888165762721283e-50\", \"S3\": \"-1.9999999999999999999999999999999999999999999999999\"}"
+  },
+  {
+   "name": "primary source matches home checkpoint (all modes/eps/channels)",
+   "pass": true,
+   "detail": "max rel diff 0.000e+00 at None"
+  },
+  {
+   "name": "source B l=1 main coeff vs Phase-122 literal +6.014537e-03",
+   "pass": true,
+   "detail": "gate +6.0145368205e-03 (rel diff 2.984e-08, bar 5%)"
+  },
+  {
+   "name": "source K l=1 main coeff vs Phase-122 literal -4.254506e-06",
+   "pass": true,
+   "detail": "gate -4.2545059852e-06 (rel diff 3.483e-09, bar 5%)"
+  },
+  {
+   "name": "source Rtn l=1 main coeff vs Phase-122 literal +1.622818e-03",
+   "pass": true,
+   "detail": "gate +1.6228184576e-03 (rel diff 2.820e-07, bar 5%)"
+  },
+  {
+   "name": "source Rt l=1 main coeff vs Phase-122 literal +1.552938e-03",
+   "pass": true,
+   "detail": "gate +1.5529383458e-03 (rel diff 2.226e-07, bar 5%)"
+  },
+  {
+   "name": "source Rt l=2 main coeff vs Phase-122 literal -1.213920e-04",
+   "pass": false,
+   "detail": "gate -2.2601172287e-04 (rel diff 8.618e-01, bar 5%)"
+  },
+  {
+   "name": "source [B]2 tail coeff vs Phase-122 extracted -1.268835e-5",
+   "pass": false,
+   "detail": "gate -5.2101581519e-04"
+  },
+  {
+   "name": "blindness: [Rt] l=1 decided nonzero in full system",
+   "pass": true,
+   "detail": "|coeff| 1.552938e-03 vs 1e3*floor 3.4e-06 \u2014 (t,r) identity does NOT extend"
+  },
+  {
+   "name": "blindness: [Rt] l=2 decided nonzero in full system",
+   "pass": true,
+   "detail": "|coeff| 2.260117e-04 vs 1e3*floor 3.4e-06 \u2014 (t,r) identity does NOT extend"
+  },
+  {
+   "name": "second path (GL-200) source agreement within 5% on deciding coefficients",
+   "pass": false,
+   "detail": "max rel diff 8.764e-02"
+  },
+  {
+   "name": "response rank ell1_full10 == 6 (full)",
+   "pass": true,
+   "detail": "rank 6, svals ['8.70e+00', '3.73e+00', '1.31e+00', '1.10e+00', '1.24e-03', '5.04e-04']"
+  },
+  {
+   "name": "response rank ell1_e6 == 6 (full)",
+   "pass": true,
+   "detail": "rank 6, svals ['8.42e+00', '2.87e+00', '9.41e-01', '1.03e-03', '3.23e-04', '8.48e-07']"
+  },
+  {
+   "name": "response rank ell2_e8 == 6 (full)",
+   "pass": true,
+   "detail": "rank 6, svals ['1.04e+01', '3.27e+00', '1.58e+00', '9.49e-01', '1.58e-03', '7.43e-04']"
+  },
+  {
+   "name": "response rank ell3_e8 == 6 (full)",
+   "pass": true,
+   "detail": "rank 6, svals ['1.02e+01', '3.56e+00', '1.38e+00', '1.64e-01', '1.53e-03', '7.21e-04']"
+  },
+  {
+   "name": "CLOSE (ell1_e6, main): residual <= 1e-5 and amplitudes <= 1e2",
+   "pass": false,
+   "detail": "max|resid| 5.712e-13, max|amp| 6.949e+03"
+  },
+  {
+   "name": "CLOSE (ell2_e8, main): residual <= 1e-5 and amplitudes <= 1e2",
+   "pass": true,
+   "detail": "max|resid| 7.156e-18, max|amp| 6.210e-03"
+  },
+  {
+   "name": "CLOSE (ell2_e8, tail): residual <= 1e-5 and amplitudes <= 1e2",
+   "pass": true,
+   "detail": "max|resid| 1.169e-18, max|amp| 5.611e-04"
+  },
+  {
+   "name": "CLOSE (ell3_e8, main): residual <= 1e-5 and amplitudes <= 1e2",
+   "pass": true,
+   "detail": "max|resid| 1.214e-17, max|amp| 2.127e-02"
+  },
+  {
+   "name": "CLOSE (ell3_e8, tail): residual <= 1e-5 and amplitudes <= 1e2",
+   "pass": true,
+   "detail": "max|resid| 3.036e-18, max|amp| 2.592e-03"
+  },
+  {
+   "name": "shell sign > 0 (corrected control, eps=0.1, mouth A)",
+   "pass": true,
+   "detail": "min 0.0202914453, after tail bound 0.0202881661"
+  },
+  {
+   "name": "shell sign > 0 (corrected control, eps=0.1, mouth B)",
+   "pass": true,
+   "detail": "min 0.0202914453, after tail bound 0.0202881661"
+  },
+  {
+   "name": "shell sign > 0 (corrected control, eps=0.03333333333333333, mouth A)",
+   "pass": true,
+   "detail": "min 0.0202914453, after tail bound 0.0202914129"
+  },
+  {
+   "name": "shell sign > 0 (corrected control, eps=0.03333333333333333, mouth B)",
+   "pass": true,
+   "detail": "min 0.0202914453, after tail bound 0.0202914129"
+  },
+  {
+   "name": "shell sign > 0 (corrected control, eps=0.01, mouth A)",
+   "pass": true,
+   "detail": "min 0.0202914453, after tail bound 0.0202914447"
+  },
+  {
+   "name": "shell sign > 0 (corrected control, eps=0.01, mouth B)",
+   "pass": true,
+   "detail": "min 0.0202914453, after tail bound 0.0202914447"
+  },
+  {
+   "name": "shell minimum vs Phase-122 claimed +0.0202914453 (5% confrontation)",
+   "pass": true,
+   "detail": "gate min 0.0202914453"
+  }
+ ],
+ "n_pass": 38,
+ "n_fail": 4,
+ "verdict": "38/42 PASS"
+}
