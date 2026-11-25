@@ -1,0 +1,90 @@
+{
+ "checks": [
+  {
+   "name": "fd_floor_flat",
+   "pass": true,
+   "detail": "max|T| flat = 0.0 / 0.0"
+  },
+  {
+   "name": "reeq_held_A_cal_payload0.04",
+   "pass": true,
+   "detail": "W_target=0.02282 W_reeq=0.02282 beta_i 0.02 -> 0.01695, a_comp_mid=-0.2975 vs alone -0.1320"
+  },
+  {
+   "name": "reeq_held_F_payload0.06",
+   "pass": true,
+   "detail": "W_target=0.06638 W_reeq=0.06638 beta_i 0.05 -> 0.03225, a_comp_mid=-0.7218 vs alone -0.2834"
+  },
+  {
+   "name": "reeq_held_F_payload0.08",
+   "pass": true,
+   "detail": "W_target=0.06638 W_reeq=0.06638 beta_i 0.05 -> 0.03225, a_comp_mid=-0.7218 vs alone -0.2834"
+  },
+  {
+   "name": "reeq_held_F_payload0.0998",
+   "pass": true,
+   "detail": "W_target=0.06638 W_reeq=0.06638 beta_i 0.05 -> 0.03225, a_comp_mid=-0.7218 vs alone -0.2834"
+  },
+  {
+   "name": "gate_finalistA_calibration",
+   "pass": true,
+   "detail": "worst +5.479e-07 / +5.496e-07 (P41-3 record +5.48e-07 / +5.50e-07), TypeI 1.000"
+  },
+  {
+   "name": "cavity_dip_is_stencil_artefact",
+   "pass": true,
+   "detail": "interior cavity (r<=4.6, stencil clear of wall) worst +1.133e-04 / +1.153e-04, TypeI 1.0; dip only at stencil-crossing r=4.87 at floor level"
+  },
+  {
+   "name": "row_F_payload0.06",
+   "pass": true,
+   "detail": "payload_relat=0.0599 pass=True inner=+9.738e-04 outer=+4.356e-05"
+  },
+  {
+   "name": "row_F_payload0.08",
+   "pass": true,
+   "detail": "payload_relat=0.0799 pass=True inner=+9.786e-04 outer=+4.049e-05"
+  },
+  {
+   "name": "row_F_payload0.0998",
+   "pass": true,
+   "detail": "payload_relat=0.0998 pass=False inner=+9.860e-04 outer=-2.728e-04"
+  },
+  {
+   "name": "row_00998_outerwall_fail_hconverged",
+   "pass": true,
+   "detail": "outer wall focused worst -2.424e-04 (h=0.15) / -2.434e-04 (h=0.075)"
+  },
+  {
+   "name": "verdict",
+   "pass": true,
+   "detail": "COMPOSITION BEATS FRONTIER \u2014 best passing payload 0.0799; P22-3 trigger fired: False (0.0998 row fails at the outer wall, so no superluminal extension rows are run)"
+  }
+ ],
+ "best_passing_payload_relat": 0.07987698999436565,
+ "p22_3_trigger_fired": false,
+ "verdict": "COMPOSITION BEATS FRONTIER",
+ "row_verdicts": {
+  "F_payload0.06": {
+   "payload_relat": 0.059946352727897244,
+   "pass": true,
+   "worst_h015": -4.673774900665838e-07,
+   "inner_wall_h015": 0.0009737526283018606,
+   "outer_wall_h015": 4.356196416856835e-05
+  },
+  "F_payload0.08": {
+   "payload_relat": 0.07987698999436565,
+   "pass": true,
+   "worst_h015": -1.4946239523355416e-06,
+   "inner_wall_h015": 0.0009785539805105606,
+   "outer_wall_h015": 4.0485949222614725e-05
+  },
+  "F_payload0.0998": {
+   "payload_relat": 0.09978196994629238,
+   "pass": false,
+   "worst_h015": -0.0002728271599072547,
+   "inner_wall_h015": 0.000986003602005912,
+   "outer_wall_h015": -0.0002728271599072547
+  }
+ }
+}

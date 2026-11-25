@@ -1,0 +1,381 @@
+{
+ "n": 75,
+ "total": 75,
+ "checks": [
+  {
+   "name": "x0.1_L4 stored rows recompute",
+   "pass_": true,
+   "detail": "bad=0"
+  },
+  {
+   "name": "x0.1_L4 worst margin recompute",
+   "pass_": true,
+   "detail": "+1.725530e-03 vs +1.725530e-03"
+  },
+  {
+   "name": "x0.1_L4 pole endpoint present+recompute",
+   "pass_": true,
+   "detail": "pole=0.0017255297899633525"
+  },
+  {
+   "name": "x0.1_L4 front pole endpoint present",
+   "pass_": true,
+   "detail": "front=0.0017475525666838317"
+  },
+  {
+   "name": "x0.1_L4 Type-I recompute",
+   "pass_": true,
+   "detail": "True"
+  },
+  {
+   "name": "x0.1_L4 BAR worst>0",
+   "pass_": true,
+   "detail": "0.0017255297899633525"
+  },
+  {
+   "name": "x0.1_L4 BAR pole>0",
+   "pass_": true,
+   "detail": "0.0017255297899633525"
+  },
+  {
+   "name": "x0.1_L4 BAR Type-I everywhere",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "x0.1_L4 BAR eig margins>=0",
+   "pass_": true,
+   "detail": "0.0017255297899633525"
+  },
+  {
+   "name": "x0.1_L4 BAR sampled>=0",
+   "pass_": true,
+   "detail": "0.0018332949279296058"
+  },
+  {
+   "name": "x0.1_L4 BAR ladder all>0",
+   "pass_": true,
+   "detail": "{'h0.02_o2': 0.00171912, 'h0.01_o2': 0.00172553, 'h0.005_o2': 0.00172713, 'h0.01_o4': 0.00172767}"
+  },
+  {
+   "name": "x0.1_L4 ladder spread < 2e-5",
+   "pass_": true,
+   "detail": "spread 8.55e-06"
+  },
+  {
+   "name": "x0.1_L4 vs paper margin (factor 2)",
+   "pass_": true,
+   "detail": "audit +1.7255e-03 paper 1.8e-03"
+  },
+  {
+   "name": "x0.1_L6 stored rows recompute",
+   "pass_": true,
+   "detail": "bad=0"
+  },
+  {
+   "name": "x0.1_L6 worst margin recompute",
+   "pass_": true,
+   "detail": "+1.728328e-03 vs +1.728328e-03"
+  },
+  {
+   "name": "x0.1_L6 pole endpoint present+recompute",
+   "pass_": true,
+   "detail": "pole=0.0017283275181852096"
+  },
+  {
+   "name": "x0.1_L6 front pole endpoint present",
+   "pass_": true,
+   "detail": "front=0.0017464434448527066"
+  },
+  {
+   "name": "x0.1_L6 Type-I recompute",
+   "pass_": true,
+   "detail": "True"
+  },
+  {
+   "name": "x0.1_L6 BAR worst>0",
+   "pass_": true,
+   "detail": "0.0017283275181852096"
+  },
+  {
+   "name": "x0.1_L6 BAR pole>0",
+   "pass_": true,
+   "detail": "0.0017283275181852096"
+  },
+  {
+   "name": "x0.1_L6 BAR Type-I everywhere",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "x0.1_L6 BAR eig margins>=0",
+   "pass_": true,
+   "detail": "0.0017283275181852096"
+  },
+  {
+   "name": "x0.1_L6 BAR sampled>=0",
+   "pass_": true,
+   "detail": "0.001835953608827031"
+  },
+  {
+   "name": "x0.1_L6 BAR ladder all>0",
+   "pass_": true,
+   "detail": "{'h0.02_o2': 0.00172192, 'h0.01_o2': 0.00172833, 'h0.005_o2': 0.00172992, 'h0.01_o4': 0.00173046}"
+  },
+  {
+   "name": "x0.1_L6 ladder spread < 2e-5",
+   "pass_": true,
+   "detail": "spread 8.54e-06"
+  },
+  {
+   "name": "x0.1_L6 vs paper margin (factor 2)",
+   "pass_": true,
+   "detail": "audit +1.7283e-03 paper 1.8e-03"
+  },
+  {
+   "name": "x0.2_L4 stored rows recompute",
+   "pass_": true,
+   "detail": "bad=0"
+  },
+  {
+   "name": "x0.2_L4 worst margin recompute",
+   "pass_": true,
+   "detail": "+5.143323e-03 vs +5.143323e-03"
+  },
+  {
+   "name": "x0.2_L4 pole endpoint present+recompute",
+   "pass_": true,
+   "detail": "pole=0.005643648886158703"
+  },
+  {
+   "name": "x0.2_L4 front pole endpoint present",
+   "pass_": true,
+   "detail": "front=0.005143322941089646"
+  },
+  {
+   "name": "x0.2_L4 Type-I recompute",
+   "pass_": true,
+   "detail": "True"
+  },
+  {
+   "name": "x0.2_L4 BAR worst>0",
+   "pass_": true,
+   "detail": "0.005143322941089646"
+  },
+  {
+   "name": "x0.2_L4 BAR pole>0",
+   "pass_": true,
+   "detail": "0.005643648886158703"
+  },
+  {
+   "name": "x0.2_L4 BAR Type-I everywhere",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "x0.2_L4 BAR eig margins>=0",
+   "pass_": true,
+   "detail": "0.005143322941089646"
+  },
+  {
+   "name": "x0.2_L4 BAR sampled>=0",
+   "pass_": true,
+   "detail": "0.005286661969804197"
+  },
+  {
+   "name": "x0.2_L4 BAR ladder all>0",
+   "pass_": true,
+   "detail": "{'h0.02_o2': 0.00513883, 'h0.01_o2': 0.00514332, 'h0.005_o2': 0.00514446, 'h0.01_o4': 0.00514482}"
+  },
+  {
+   "name": "x0.2_L4 ladder spread < 2e-5",
+   "pass_": true,
+   "detail": "spread 5.99e-06"
+  },
+  {
+   "name": "x0.3_L4 stored rows recompute",
+   "pass_": true,
+   "detail": "bad=0"
+  },
+  {
+   "name": "x0.3_L4 worst margin recompute",
+   "pass_": true,
+   "detail": "+9.110482e-03 vs +9.110482e-03"
+  },
+  {
+   "name": "x0.3_L4 pole endpoint present+recompute",
+   "pass_": true,
+   "detail": "pole=0.009829616623447212"
+  },
+  {
+   "name": "x0.3_L4 front pole endpoint present",
+   "pass_": true,
+   "detail": "front=0.009110481895096337"
+  },
+  {
+   "name": "x0.3_L4 Type-I recompute",
+   "pass_": true,
+   "detail": "True"
+  },
+  {
+   "name": "x0.3_L4 BAR worst>0",
+   "pass_": true,
+   "detail": "0.009110481895096337"
+  },
+  {
+   "name": "x0.3_L4 BAR pole>0",
+   "pass_": true,
+   "detail": "0.009829616623447212"
+  },
+  {
+   "name": "x0.3_L4 BAR Type-I everywhere",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "x0.3_L4 BAR eig margins>=0",
+   "pass_": true,
+   "detail": "0.009110481895096337"
+  },
+  {
+   "name": "x0.3_L4 BAR sampled>=0",
+   "pass_": true,
+   "detail": "0.00928024468583968"
+  },
+  {
+   "name": "x0.3_L4 BAR ladder all>0",
+   "pass_": true,
+   "detail": "{'h0.02_o2': 0.00910178, 'h0.01_o2': 0.00911048, 'h0.005_o2': 0.00911266, 'h0.01_o4': 0.00911338}"
+  },
+  {
+   "name": "x0.3_L4 ladder spread < 2e-5",
+   "pass_": true,
+   "detail": "spread 1.16e-05"
+  },
+  {
+   "name": "x0.3_L4 vs paper margin (factor 2)",
+   "pass_": true,
+   "detail": "audit +9.1105e-03 paper 9.1e-03"
+  },
+  {
+   "name": "x0.3_L6 stored rows recompute",
+   "pass_": true,
+   "detail": "bad=0"
+  },
+  {
+   "name": "x0.3_L6 worst margin recompute",
+   "pass_": true,
+   "detail": "+9.102104e-03 vs +9.102104e-03"
+  },
+  {
+   "name": "x0.3_L6 pole endpoint present+recompute",
+   "pass_": true,
+   "detail": "pole=0.009854661219388187"
+  },
+  {
+   "name": "x0.3_L6 front pole endpoint present",
+   "pass_": true,
+   "detail": "front=0.009102104296889738"
+  },
+  {
+   "name": "x0.3_L6 Type-I recompute",
+   "pass_": true,
+   "detail": "True"
+  },
+  {
+   "name": "x0.3_L6 BAR worst>0",
+   "pass_": true,
+   "detail": "0.009102104296889738"
+  },
+  {
+   "name": "x0.3_L6 BAR pole>0",
+   "pass_": true,
+   "detail": "0.009854661219388187"
+  },
+  {
+   "name": "x0.3_L6 BAR Type-I everywhere",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "x0.3_L6 BAR eig margins>=0",
+   "pass_": true,
+   "detail": "0.009102104296889738"
+  },
+  {
+   "name": "x0.3_L6 BAR sampled>=0",
+   "pass_": true,
+   "detail": "0.009272237013671842"
+  },
+  {
+   "name": "x0.3_L6 BAR ladder all>0",
+   "pass_": true,
+   "detail": "{'h0.02_o2': 0.00909343, 'h0.01_o2': 0.0091021, 'h0.005_o2': 0.00910428, 'h0.01_o4': 0.009105}"
+  },
+  {
+   "name": "x0.3_L6 ladder spread < 2e-5",
+   "pass_": true,
+   "detail": "spread 1.16e-05"
+  },
+  {
+   "name": "x0.3_L6 vs paper margin (factor 2)",
+   "pass_": true,
+   "detail": "audit +9.1021e-03 paper 9.1e-03"
+  },
+  {
+   "name": "x0.1 L4-vs-L6 pole margin agreement < 1e-4",
+   "pass_": true,
+   "detail": "L4 +1.7255e-03 L6 +1.7283e-03"
+  },
+  {
+   "name": "x0.1 closure improves/stays small with L",
+   "pass_": true,
+   "detail": "L6 max_h 1.49e-07"
+  },
+  {
+   "name": "x0.3 L4-vs-L6 pole margin agreement < 1e-4",
+   "pass_": true,
+   "detail": "L4 +9.8296e-03 L6 +9.8547e-03"
+  },
+  {
+   "name": "x0.3 closure improves/stays small with L",
+   "pass_": true,
+   "detail": "L6 max_h 2.60e-06"
+  },
+  {
+   "name": "x0.1_lam0.19_L4 solve-read vs audit worst margin",
+   "pass_": true,
+   "detail": "+1.725530e-03 vs +1.725530e-03"
+  },
+  {
+   "name": "x0.3_lam0.19_L4 solve-read vs audit worst margin",
+   "pass_": true,
+   "detail": "+9.110482e-03 vs +9.110482e-03"
+  },
+  {
+   "name": "x0.2_lam0.2_L4 solve-read vs audit worst margin",
+   "pass_": true,
+   "detail": "+5.143323e-03 vs +5.143323e-03"
+  },
+  {
+   "name": "x0.1_lam0.19_L6 solve-read vs audit worst margin",
+   "pass_": true,
+   "detail": "+1.728328e-03 vs +1.728328e-03"
+  },
+  {
+   "name": "x0.3_lam0.19_L6 solve-read vs audit worst margin",
+   "pass_": true,
+   "detail": "+9.102104e-03 vs +9.102104e-03"
+  },
+  {
+   "name": "author x0.1_L6 frame_ok",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "author x0.1_L6 residual below dipole (0.0139 at x=0.1 scale)",
+   "pass_": true,
+   "detail": "max_h 1.40e-07"
+  }
+ ]
+}

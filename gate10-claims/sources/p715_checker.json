@@ -1,0 +1,286 @@
+{
+ "n_pass": 48,
+ "n_total": 56,
+ "checks": [
+  {
+   "name": "anchor_dec_window_24/25",
+   "pass_": true,
+   "detail": "below_pass=True above_fail=True margin(0.96)=4.163e-17"
+  },
+  {
+   "name": "anchor_fd_vs_closed_x0.1",
+   "pass_": true,
+   "detail": "fd=0.00402826 closed=0.00402843"
+  },
+  {
+   "name": "anchor_fd_vs_closed_x0.3",
+   "pass_": true,
+   "detail": "fd=0.0123633 closed=0.0123638"
+  },
+  {
+   "name": "anchor_fd_vs_closed_x0.7",
+   "pass_": true,
+   "detail": "fd=0.0285583 closed=0.0285613"
+  },
+  {
+   "name": "lambdaDEC_below_ceiling_x0.1",
+   "pass_": true,
+   "detail": "lamDEC=0.0326516 ceil=0.45 ratio=0.0726"
+  },
+  {
+   "name": "lambdaDEC_below_ceiling_x0.2",
+   "pass_": true,
+   "detail": "lamDEC=0.0639755 ceil=0.4 ratio=0.1599"
+  },
+  {
+   "name": "lambdaDEC_below_ceiling_x0.3",
+   "pass_": true,
+   "detail": "lamDEC=0.0939936 ceil=0.35 ratio=0.2686"
+  },
+  {
+   "name": "lambdaDEC_below_ceiling_x0.5",
+   "pass_": true,
+   "detail": "lamDEC=0.149981 ceil=0.25 ratio=0.5999"
+  },
+  {
+   "name": "lambdaDEC_below_ceiling_x0.63",
+   "pass_": true,
+   "detail": "lamDEC=0.183156 ceil=0.185 ratio=0.9900"
+  },
+  {
+   "name": "lambdaDEC_below_ceiling_x0.7",
+   "pass_": true,
+   "detail": "lamDEC=0.146933 ceil=0.15 ratio=0.9796"
+  },
+  {
+   "name": "lambdaDEC_below_ceiling_x0.9",
+   "pass_": true,
+   "detail": "lamDEC=0.0357918 ceil=0.05 ratio=0.7158"
+  },
+  {
+   "name": "lambdaDEC_ratio_0.63_vs_paper_0.9931",
+   "pass_": true,
+   "detail": "ratio=0.9900"
+  },
+  {
+   "name": "bulk_law_mdot-3.0_a1.0",
+   "pass_": true,
+   "detail": "min4pin2=0 pass=True"
+  },
+  {
+   "name": "bulk_law_mdot-2.999_a1.0",
+   "pass_": true,
+   "detail": "min4pin2=-0.001 pass=False"
+  },
+  {
+   "name": "bulk_law_mdot-3.001_a1.0",
+   "pass_": true,
+   "detail": "min4pin2=0.001 pass=True"
+  },
+  {
+   "name": "bulk_law_mdot0.0_a0.0",
+   "pass_": true,
+   "detail": "min4pin2=0 pass=True"
+  },
+  {
+   "name": "bulk_law_mdot-1.0_a0.0",
+   "pass_": true,
+   "detail": "min4pin2=1 pass=True"
+  },
+  {
+   "name": "darmois_w1_closedform_x0.1",
+   "pass_": true,
+   "detail": "w1=0.0527046 closed=0.0527046 err=7.76e-08"
+  },
+  {
+   "name": "pin_dec_h0.02_x0.1",
+   "pass_": false,
+   "detail": "margin=-0.000177817 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.01_x0.1",
+   "pass_": false,
+   "detail": "margin=-0.000173058 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.005_x0.1",
+   "pass_": false,
+   "detail": "margin=-0.000171869 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_ord4_h0.01_x0.1",
+   "pass_": false,
+   "detail": "margin=-0.000171472 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_sampled_dec_x0.1",
+   "pass_": true,
+   "detail": "sampled=9.55087e-05"
+  },
+  {
+   "name": "bracket_x0.1",
+   "pass_": true,
+   "detail": "pin=0.19 lam*=0.18673511207103732 ceiling=0.45"
+  },
+  {
+   "name": "darmois_w1_closedform_x0.2",
+   "pass_": true,
+   "detail": "w1=0.111803 closed=0.111803 err=1.85e-07"
+  },
+  {
+   "name": "pin_dec_h0.02_x0.2",
+   "pass_": true,
+   "detail": "margin=0.000340559 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.01_x0.2",
+   "pass_": true,
+   "detail": "margin=0.000344852 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.005_x0.2",
+   "pass_": true,
+   "detail": "margin=0.000345936 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_ord4_h0.01_x0.2",
+   "pass_": true,
+   "detail": "margin=0.000346283 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_sampled_dec_x0.2",
+   "pass_": true,
+   "detail": "sampled=0.000825786"
+  },
+  {
+   "name": "bracket_x0.2",
+   "pass_": true,
+   "detail": "pin=0.2 lam*=0.2033335357904434 ceiling=0.4"
+  },
+  {
+   "name": "darmois_w1_closedform_x0.3",
+   "pass_": true,
+   "detail": "w1=0.179284 closed=0.179284 err=3.39e-07"
+  },
+  {
+   "name": "pin_dec_h0.02_x0.3",
+   "pass_": false,
+   "detail": "margin=-3.87253e-05 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.01_x0.3",
+   "pass_": false,
+   "detail": "margin=-3.73196e-05 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.005_x0.3",
+   "pass_": false,
+   "detail": "margin=-3.69539e-05 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_ord4_h0.01_x0.3",
+   "pass_": false,
+   "detail": "margin=-3.68511e-05 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_sampled_dec_x0.3",
+   "pass_": true,
+   "detail": "sampled=0.000804114"
+  },
+  {
+   "name": "bracket_x0.3",
+   "pass_": true,
+   "detail": "pin=0.19 lam*=0.18976007521152494 ceiling=0.35"
+  },
+  {
+   "name": "darmois_w1_closedform_x0.5",
+   "pass_": true,
+   "detail": "w1=0.353553 closed=0.353553 err=8.42e-07"
+  },
+  {
+   "name": "pin_dec_h0.02_x0.5",
+   "pass_": true,
+   "detail": "margin=0.000224335 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.01_x0.5",
+   "pass_": true,
+   "detail": "margin=0.000217732 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.005_x0.5",
+   "pass_": true,
+   "detail": "margin=0.000216095 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_ord4_h0.01_x0.5",
+   "pass_": true,
+   "detail": "margin=0.000215531 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_sampled_dec_x0.5",
+   "pass_": true,
+   "detail": "sampled=0.00206169"
+  },
+  {
+   "name": "bracket_x0.5",
+   "pass_": true,
+   "detail": "pin=0.14 lam*=0.14079822242259982 ceiling=0.25"
+  },
+  {
+   "name": "darmois_w1_closedform_x0.7",
+   "pass_": true,
+   "detail": "w1=0.639008 closed=0.63901 err=1.62e-06"
+  },
+  {
+   "name": "pin_dec_h0.02_x0.7",
+   "pass_": true,
+   "detail": "margin=0.000483863 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.01_x0.7",
+   "pass_": true,
+   "detail": "margin=0.000458149 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_h0.005_x0.7",
+   "pass_": true,
+   "detail": "margin=0.000451741 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_dec_ord4_h0.01_x0.7",
+   "pass_": true,
+   "detail": "margin=0.000449578 binding=3.0915926535897933"
+  },
+  {
+   "name": "pin_sampled_dec_x0.7",
+   "pass_": true,
+   "detail": "sampled=0.00383372"
+  },
+  {
+   "name": "bracket_x0.7",
+   "pass_": true,
+   "detail": "pin=0.09 lam*=0.09108472406864167 ceiling=0.15000000000000002"
+  },
+  {
+   "name": "volume_radial_tension_fails",
+   "pass_": true,
+   "detail": "d=0.2: -0.8952; d=0.1: -3.581; d=0.05: -14.32"
+  },
+  {
+   "name": "volume_edge_law_1/delta2_scaling",
+   "pass_": true,
+   "detail": "ratios=[0.25, 0.25] (expect 0.25 per halving = x4 in |margin|)"
+  },
+  {
+   "name": "volume_tangential_typeI",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "volume_tangential_window_4/5",
+   "pass_": true,
+   "detail": "{0.5: True, 0.79: True, 0.8: False, 0.81: False, 0.9: False}"
+  }
+ ]
+}
