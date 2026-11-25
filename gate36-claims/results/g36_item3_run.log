@@ -1,0 +1,73 @@
+E1 ...
+  warm0: smin=3.994302e-04 maxR=1.128e-13
+  rand2: smin=6.878744e-03 maxR=2.654e-13
+  rand0: smin=4.940592e-02 maxR=2.117e-12
+  extra rand0: maxR=1.964e-03 nfev=900
+[ckpt E1-progress]
+  extra rand1: maxR=1.854e-03 nfev=900
+[ckpt E1-progress]
+  extra rand2: maxR=1.911e-04 nfev=900
+[ckpt E1-progress]
+  extra rand3: maxR=1.968e-03 nfev=900
+[ckpt E1-progress]
+  extra rand4: maxR=8.533e-05 nfev=900
+[ckpt E1-progress]
+  extra rand5: maxR=1.815e-05 nfev=534
+[ckpt E1-progress]
+  extra rand6: maxR=1.622e-12 nfev=268
+    SUCCESS smin=4.617597e-02
+[ckpt E1-progress]
+  extra rand7: maxR=3.591e-14 nfev=681
+    SUCCESS smin=3.813789e-03
+[ckpt E1-progress]
+  extra rand8: maxR=2.468e-05 nfev=900
+[ckpt E1-progress]
+  extra rand9: maxR=6.550e-05 nfev=900
+[ckpt E1-progress]
+  extra rand10: maxR=1.179e-04 nfev=900
+[ckpt E1-progress]
+  extra rand11: maxR=4.770e-06 nfev=838
+[ckpt E1-progress]
+[ckpt E1]
+E2 ...
+  warm0: maxR=1.567e-12 nfev=507
+    SUCCESS smin=1.895872e-02
+[ckpt E2-progress]
+  rand0: maxR=1.871e-13 nfev=582
+    SUCCESS smin=2.846123e-02
+[ckpt E2-progress]
+  rand1: maxR=6.068e-12 nfev=252
+    SUCCESS smin=1.431816e-03
+[ckpt E2-progress]
+  rand2: maxR=6.144e-05 nfev=900
+[ckpt E2-progress]
+  rand3: maxR=2.132e-12 nfev=277
+    SUCCESS smin=1.696000e-02
+[ckpt E2-progress]
+  rand4: maxR=1.465e-12 nfev=477
+    SUCCESS smin=1.258714e-02
+[ckpt E2-progress]
+  rand5: maxR=1.006e-12 nfev=175
+    SUCCESS smin=5.292055e-03
+[ckpt E2-progress]
+  rand6: maxR=4.972e-13 nfev=463
+    SUCCESS smin=7.233890e-03
+[ckpt E2-progress]
+  rand7: maxR=1.831e-03 nfev=900
+[ckpt E2-progress]
+[ckpt E2]
+E3 ...
+  polish: {'sigma_min_before': 0.0003994300112181778, 'sigma_min_after': 0.0003994299965922211, 'theta_displacement': 1.1287472668632149e-07, 'maxR_after_direct': 3.6246638370041883e-17, 'nfev': 38}
+  dogbox: {'success': True, 'maxR_direct': 8.669476942346137e-15, 'nfev': 2, 'sigma_min': 0.006878745117672097}
+  h-stab weaker: {'h=1e-05': 0.028461178308173626, 'h=1e-06': 0.02846123128493037, 'h=1e-07': 0.028461263586570158}
+[ckpt E3]
+E4 ...
+[ckpt E4]
+  E4 done
+E5 ...
+  warm scaled exact: maxR=4.512e-13 smin=3.994063e-04
+  rand0: maxR=7.486e-05 nfev=900
+  rand1: maxR=3.504e-12 nfev=197
+[ckpt E5]
+[ckpt DONE]
+DONE in 3575.081979751587

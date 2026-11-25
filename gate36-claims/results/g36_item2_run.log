@@ -1,0 +1,46 @@
+CTRL-S3 ...
+ CTRL-S3: {'random_sets_max_abs_diff': 1.4222576611466537e-13, 'random_sets_max_rel_diff': 9.564887385048054e-16, 'p320_winner_max_abs_diff': 2.789927944162805e-17, 'p313_winner_max_abs_diff': 2.467213474849492e-16}
+[saved arm ctrl_s3]
+CTRL-S1 ...
+ CTRL-S1 Rs: [7.0115436303192264e-15, 7.801776409152642e-14, 8.230813708013984e-14, 1.2959098518061706e-15] jac smin/smax/rank: 0.0003994300112181778 3909.267342933624 40
+[saved arm ctrl_s1]
+CTRL-S2 ...
+ CTRL-S2 maxR: 3.253339860306391e-13 sigma_min: 0.0347527502565207
+[saved arm ctrl_s2]
+  N=4 rand0: maxR=1.055e-03 nfev=900
+  N=4 rand1: maxR=5.523e-04 nfev=900
+  N=4 rand2: maxR=1.977e-03 nfev=900
+  N=4 rand3: maxR=1.986e-03 nfev=900
+  N=4 rand4: maxR=1.863e-03 nfev=900
+  N=4 rand5: maxR=1.804e-03 nfev=900
+[saved arm ladder_N4]
+  N=5 rand0: maxR=7.216e-05 nfev=764
+  N=5 rand1: maxR=5.570e-04 nfev=900
+  N=5 rand2: maxR=5.806e-05 nfev=436
+  N=5 rand3: maxR=1.910e-03 nfev=900
+  N=5 rand4: maxR=1.722e-03 nfev=900
+  N=5 rand5: maxR=1.066e-04 nfev=692
+[saved arm ladder_N5]
+  N=6 warm0: maxR=1.128e-13 nfev=509
+  N=6 rand0: maxR=2.117e-12 nfev=152
+  N=6 rand1: maxR=6.930e-04 nfev=900
+  N=6 rand2: maxR=2.654e-13 nfev=318
+  N=6 rand3: maxR=4.014e-05 nfev=900
+  N=6 rand4: maxR=4.506e-05 nfev=900
+  N=6 rand5: maxR=8.402e-05 nfev=900
+  N=6 rand6: maxR=4.087e-05 nfev=900
+  N=6 rand7: maxR=1.552e-03 nfev=900
+[saved arm ladder_N6]
+  N=8 warm0: maxR=4.054e-12 nfev=77
+  N=8 rand0: maxR=2.679e-10 nfev=73
+  N=8 rand1: maxR=2.193e-10 nfev=50
+  N=8 rand2: maxR=2.370e-11 nfev=252
+[saved arm ladder_N8]
+Best N=6 from start warm0 maxR direct 1.1280156070442304e-13
+Diagnostics at best N=6 ...
+[saved arm diagnostics]
+Jacobian at best N=6 ...
+ jac smin: 0.00039943022089238066 h1e-5: 0.0003994302678219512 h1e-7: 0.00039942998775121147
+[saved arm jacobian]
+Perturbation ladder ...
+  eps=1e-12 draw=0: best maxR=1.122e-13
