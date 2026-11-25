@@ -1,0 +1,117 @@
+{
+ "item": "P116-1 checker",
+ "n_checks": 22,
+ "n_pass": 22,
+ "checks": [
+  {
+   "check": "control_a_stencil_clear_dec_class",
+   "pass": true,
+   "detail": "{'0.15': 0.00016231289701501998, '0.075': 0.0002010382052273915, '0.0375': 0.00019774137900907567}"
+  },
+  {
+   "check": "control_a_raw_nearedge_unstable",
+   "pass": true,
+   "detail": "[-0.00020076123917012542, -2.0381759703236768e-05, -5.5744687108609146e-05]"
+  },
+  {
+   "check": "control_minkowski",
+   "pass": true,
+   "detail": "0.0"
+  },
+  {
+   "check": "control_b_p88_regions",
+   "pass": true,
+   "detail": "{'payload': 3.839748225364425e-06, 'inner_wall': 0.0011900189897077213, 'outer_wall': 3.3512188927564105e-05, 'exterior': 1.1068561355841285e-06}"
+  },
+  {
+   "check": "control_b_payload",
+   "pass": true,
+   "detail": "0.0955573262914437"
+  },
+  {
+   "check": "control_b_settlement_ladder",
+   "pass": true,
+   "detail": "{'focused': {'0.15': -0.0001843240166481278, '0.075': 1.448415659057443e-06, '0.0375': 1.3832720742937147e-05}, 'stencil_clear': {'0.15': -0.00015266721032456543, '0.075': 9.496172015224078e-05, '0.0375': 0.00016309032251257991}}"
+  },
+  {
+   "check": "control_c_b007_legal",
+   "pass": true,
+   "detail": "True"
+  },
+  {
+   "check": "control_c_b0075_fails_numbers",
+   "pass": true,
+   "detail": "TI=0.7719869706840391 sn=-9.907740511506442e-05"
+  },
+  {
+   "check": "alone_cells_2_present",
+   "pass": true,
+   "detail": "[('e0.075', 'b0.0725'), ('e0.10', 'b0.0725')]"
+  },
+  {
+   "check": "alone_legality_pattern",
+   "pass": true,
+   "detail": "{'e0.10': True, 'e0.075': False}"
+  },
+  {
+   "check": "alone_e010_h015_clean",
+   "pass": true,
+   "detail": "TI=1.0 sn=-2.1702568901381724e-07"
+  },
+  {
+   "check": "alone_e0075_fringe_hi_failure",
+   "pass": true,
+   "detail": "h0.15 TI=0.9038461538461539 sn=-8.85909621607753e-06; h0.075 TI=0.8653846153846154 sn=-1.0213156421652725e-05"
+  },
+  {
+   "check": "alone_interior_clean_both_spans",
+   "pass": true,
+   "detail": "interior TI/worst at h=0.15"
+  },
+  {
+   "check": "alone_chains_clean",
+   "pass": true,
+   "detail": "{('e0.10', 'b0.0725'): 2.1437707718455156e-16, ('e0.075', 'b0.0725'): 5.4502304059423624e-17}"
+  },
+  {
+   "check": "economics_vectors_exact",
+   "pass": true,
+   "detail": "x_outer == alone vectors; x_inner == Phase-80 vectors"
+  },
+  {
+   "check": "economics_freeze_carried",
+   "pass": true,
+   "detail": "frozen_at=1795432892.0549617"
+  },
+  {
+   "check": "prize_row_economics",
+   "pass": true,
+   "detail": "prize=0.0975831574914493"
+  },
+  {
+   "check": "composed_rows_all_legal",
+   "pass": true,
+   "detail": "{'e0.10_o0.0725_i0.06': True, 'e0.10_o0.0725_i0.05': True}"
+  },
+  {
+   "check": "best_legal_payload_is_009758",
+   "pass": true,
+   "detail": "0.0975831574914493"
+  },
+  {
+   "check": "deciding_row_regions_positive",
+   "pass": true,
+   "detail": "{'payload': 3.835984135833631e-06, 'inner_wall': 0.0011906331457253617, 'cavity': -0.00011310454755615343, 'outer_wall': 3.3942977774622954e-05, 'exterior': 1.1068561355841268e-06}"
+  },
+  {
+   "check": "deciding_row_conservation_class",
+   "pass": true,
+   "detail": "0.011706962077152236"
+  },
+  {
+   "check": "verify_deciding_row_second_path",
+   "pass": true,
+   "detail": "4th=-2.588158777706894e-06 p1=-3.2415421436912326e-06"
+  }
+ ]
+}
