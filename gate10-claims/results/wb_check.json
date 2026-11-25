@@ -1,0 +1,232 @@
+{
+ "n": 45,
+ "n_pass": 45,
+ "all_pass": true,
+ "checks": [
+  {
+   "name": "regate dipole pole x=0.1 within 5%",
+   "pass_": true,
+   "detail": "got -2.009572e-04 vs target -2.009600e-04 (rel 1.38e-05)"
+  },
+  {
+   "name": "regate dipole pole x=0.3 within 5%",
+   "pass_": true,
+   "detail": "got -1.226338e-04 vs target -1.226300e-04 (rel 3.08e-05)"
+  },
+  {
+   "name": "fast path V1 grad identity < 1e-8",
+   "pass_": true,
+   "detail": "2.73e-10"
+  },
+  {
+   "name": "fast path V3 grid margins < 1e-7",
+   "pass_": true,
+   "detail": "4.73e-09"
+  },
+  {
+   "name": "(a) Type-I everywhere x=0.1 L=4",
+   "pass_": true,
+   "detail": "min_disc 9.537e-06, n_grid 221"
+  },
+  {
+   "name": "(b) worst DEC x=0.1 L=4",
+   "pass_": true,
+   "detail": "got +1.725523e-03, phase +1.728000e-03, tol 3.0e-04"
+  },
+  {
+   "name": "(b-FD) FD binding read x=0.1 L=4",
+   "pass_": true,
+   "detail": "FD bind margin +1.725527e-03"
+  },
+  {
+   "name": "(c) binding site x=0.1 L=4",
+   "pass_": true,
+   "detail": "theta_bind 3.141593, expected 3.141593"
+  },
+  {
+   "name": "sampled-null > 0 x=0.1 L=4",
+   "pass_": true,
+   "detail": "min_null +1.855664e-03"
+  },
+  {
+   "name": "ladder all > 0 x=0.1 L=4",
+   "pass_": true,
+   "detail": "ladder margins ['+1.719e-03', '+1.726e-03', '+1.727e-03', '+1.728e-03']"
+  },
+  {
+   "name": "(a) Type-I everywhere x=0.1 L=6",
+   "pass_": true,
+   "detail": "min_disc 9.544e-06, n_grid 221"
+  },
+  {
+   "name": "(b) worst DEC x=0.1 L=6",
+   "pass_": true,
+   "detail": "got +1.728335e-03, phase +1.728000e-03, tol 3.0e-04"
+  },
+  {
+   "name": "(b-FD) FD binding read x=0.1 L=6",
+   "pass_": true,
+   "detail": "FD bind margin +1.728332e-03"
+  },
+  {
+   "name": "(c) binding site x=0.1 L=6",
+   "pass_": true,
+   "detail": "theta_bind 3.141593, expected 3.141593"
+  },
+  {
+   "name": "sampled-null > 0 x=0.1 L=6",
+   "pass_": true,
+   "detail": "min_null +1.847644e-03"
+  },
+  {
+   "name": "ladder all > 0 x=0.1 L=6",
+   "pass_": true,
+   "detail": "ladder margins ['+1.722e-03', '+1.728e-03', '+1.730e-03', '+1.730e-03']"
+  },
+  {
+   "name": "(a) Type-I everywhere x=0.2 L=4",
+   "pass_": true,
+   "detail": "min_disc 4.399e-05, n_grid 221"
+  },
+  {
+   "name": "(b) worst DEC x=0.2 L=4",
+   "pass_": true,
+   "detail": "got +5.143324e-03, phase +5.143000e-03, tol 7.7e-04"
+  },
+  {
+   "name": "(b-FD) FD binding read x=0.2 L=4",
+   "pass_": true,
+   "detail": "FD bind margin +5.143322e-03"
+  },
+  {
+   "name": "(c) binding site x=0.2 L=4",
+   "pass_": true,
+   "detail": "theta_bind 0.000000, expected 0.000000"
+  },
+  {
+   "name": "sampled-null > 0 x=0.2 L=4",
+   "pass_": true,
+   "detail": "min_null +3.824969e-03"
+  },
+  {
+   "name": "ladder all > 0 x=0.2 L=4",
+   "pass_": true,
+   "detail": "ladder margins ['+5.139e-03', '+5.143e-03', '+5.144e-03', '+5.145e-03']"
+  },
+  {
+   "name": "(a) Type-I everywhere x=0.2 L=6",
+   "pass_": true,
+   "detail": "min_disc 4.393e-05, n_grid 221"
+  },
+  {
+   "name": "(b) worst DEC x=0.2 L=6",
+   "pass_": true,
+   "detail": "got +5.139024e-03, phase +5.143000e-03, tol 7.7e-04"
+  },
+  {
+   "name": "(b-FD) FD binding read x=0.2 L=6",
+   "pass_": true,
+   "detail": "FD bind margin +5.139029e-03"
+  },
+  {
+   "name": "(c) binding site x=0.2 L=6",
+   "pass_": true,
+   "detail": "theta_bind 0.000000, expected 0.000000"
+  },
+  {
+   "name": "sampled-null > 0 x=0.2 L=6",
+   "pass_": true,
+   "detail": "min_null +2.695441e-03"
+  },
+  {
+   "name": "ladder all > 0 x=0.2 L=6",
+   "pass_": true,
+   "detail": "ladder margins ['+5.135e-03', '+5.139e-03', '+5.140e-03', '+5.141e-03']"
+  },
+  {
+   "name": "(a) Type-I everywhere x=0.3 L=4",
+   "pass_": true,
+   "detail": "min_disc 9.498e-05, n_grid 221"
+  },
+  {
+   "name": "(b) worst DEC x=0.3 L=4",
+   "pass_": true,
+   "detail": "got +9.110611e-03, phase +9.102000e-03, tol 1.4e-03"
+  },
+  {
+   "name": "(b-FD) FD binding read x=0.3 L=4",
+   "pass_": true,
+   "detail": "FD bind margin +9.110610e-03"
+  },
+  {
+   "name": "(c) binding site x=0.3 L=4",
+   "pass_": true,
+   "detail": "theta_bind 0.000000, expected 0.000000"
+  },
+  {
+   "name": "sampled-null > 0 x=0.3 L=4",
+   "pass_": true,
+   "detail": "min_null +9.616931e-04"
+  },
+  {
+   "name": "ladder all > 0 x=0.3 L=4",
+   "pass_": true,
+   "detail": "ladder margins ['+9.102e-03', '+9.111e-03', '+9.113e-03', '+9.114e-03']"
+  },
+  {
+   "name": "(a) Type-I everywhere x=0.3 L=6",
+   "pass_": true,
+   "detail": "min_disc 9.476e-05, n_grid 221"
+  },
+  {
+   "name": "(b) worst DEC x=0.3 L=6",
+   "pass_": true,
+   "detail": "got +9.102202e-03, phase +9.102000e-03, tol 1.4e-03"
+  },
+  {
+   "name": "(b-FD) FD binding read x=0.3 L=6",
+   "pass_": true,
+   "detail": "FD bind margin +9.102204e-03"
+  },
+  {
+   "name": "(c) binding site x=0.3 L=6",
+   "pass_": true,
+   "detail": "theta_bind 0.000000, expected 0.000000"
+  },
+  {
+   "name": "sampled-null > 0 x=0.3 L=6",
+   "pass_": true,
+   "detail": "min_null +9.666408e-04"
+  },
+  {
+   "name": "ladder all > 0 x=0.3 L=6",
+   "pass_": true,
+   "detail": "ladder margins ['+9.094e-03', '+9.102e-03', '+9.104e-03', '+9.105e-03']"
+  },
+  {
+   "name": "(e) L4/L6 sign agreement x=0.1",
+   "pass_": true,
+   "detail": "L4 +1.725523e-03 vs L6 +1.728335e-03"
+  },
+  {
+   "name": "(e) L4/L6 sign agreement x=0.2",
+   "pass_": true,
+   "detail": "L4 +5.143324e-03 vs L6 +5.139024e-03"
+  },
+  {
+   "name": "(e) L4/L6 sign agreement x=0.3",
+   "pass_": true,
+   "detail": "L4 +9.110611e-03 vs L6 +9.102202e-03"
+  },
+  {
+   "name": "(d) closure x=0.1 L=6 [fd_closure_61] within factor 2 of 1.5e-7",
+   "pass_": true,
+   "detail": "1.395e-07"
+  },
+  {
+   "name": "(d) closure x=0.1 L=6 [max_h_audit_grid] within factor 2 of 1.5e-7",
+   "pass_": true,
+   "detail": "1.395e-07"
+  }
+ ]
+}

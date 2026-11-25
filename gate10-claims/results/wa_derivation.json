@@ -1,0 +1,8 @@
+{
+ "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+ "sympy": "1.14.0",
+ "run_with": "~/workspace/warp-pilot/venv/bin/python",
+ "ginv_numeric_check_max_err": 2.220446049250313e-16,
+ "minkowski_check": "deferred to wa_run.py lambdified evaluation (a=b=V=0, all radial derivatives 0, generic (r,n) points)",
+ "elapsed_s": 90.4059431552887
+}

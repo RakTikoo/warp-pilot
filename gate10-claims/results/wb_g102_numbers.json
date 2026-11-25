@@ -1,0 +1,231 @@
+{
+ "claim": "G10-2 \u2014 independent confirmation of Le arXiv:2606.22531 (v3) multipole (Darmois) shell",
+ "category": "subluminal accelerating shell, Bobrick-Martire class",
+ "interpreter": "/home/hatch/workspace/warp-pilot/venv/bin/python (float64)",
+ "regate": {
+  "pass_": true,
+  "dipole_pole": {
+   "0.1": {
+    "got": -0.00020095723466816422,
+    "target": -0.00020096,
+    "rel_agreement": 1.3760608259251508e-05
+   },
+   "0.3": {
+    "got": -0.00012263377887949782,
+    "target": -0.00012263,
+    "rel_agreement": 3.081529395588835e-05
+   }
+  },
+  "static_anchor_err_max": 1.7600294807476602e-06,
+  "dipole_residual": {
+   "max_h": 0.013877873668307505,
+   "frac_of_lam": 0.07304144035951318
+  },
+  "rerun_by_finisher": "wb_regate.py re-run 2026-11-23; pole values bit-identical to W-B's stored file"
+ },
+ "validate_fast": {
+  "V1_grad_ra_max_err": 2.727966186277797e-10,
+  "V2_dipole_pole_fast": {
+   "0.1": {
+    "fast_pole_margin": -0.00020095472304906196
+   },
+   "0.3": {
+    "fast_pole_margin": -0.00012263701614436935
+   }
+  },
+  "V3_grid_margin_agreement": {
+   "max_abs_margin_diff": 4.725413589611906e-09,
+   "grid_n": 25
+  },
+  "V4_closure_test_point": {
+   "max_h_FD": 4.104679630301256e-06,
+   "max_h_fast": 4.104703603236004e-06,
+   "phase80_stored_max_h": 5.286926906045153e-06
+  },
+  "seconds": 17.595356225967407
+ },
+ "pins": {
+  "0.1": {
+   "lam": 0.19,
+   "phase_worst_dec": 0.001728,
+   "L4": {
+    "worst_dec": 0.0017255226837787044,
+    "theta_bind": 3.141592653589793,
+    "rear_pole_margin": 0.0017255226837787044,
+    "front_pole_margin": 0.0017475446302035419,
+    "all_type_I": true,
+    "n_grid": 221,
+    "min_disc": 9.537267531159666e-06,
+    "min_eig_margin": 0.0017255226837787044,
+    "min_null": 0.0018556640123617548,
+    "sampled_dec_at_bind": 0.001840889214761888,
+    "max_h_audit_grid": 4.415181798500534e-06,
+    "fd_closure_61": 4.419947499001431e-06,
+    "ladder_margins": {
+     "h0.02_o2": 0.0017191101056065233,
+     "h0.01_o2": 0.001725527277685193,
+     "h0.005_o2": 0.0017271206870324493,
+     "h0.01_o4": 0.0017276663350447594
+    },
+    "fd_bind_margin": 0.001725527277685193,
+    "solve_max_h_solvegrid": 4.107221926452631e-06,
+    "solve_max_h_dense": 4.429034755948358e-06,
+    "solve_nfev": 172
+   },
+   "L6": {
+    "worst_dec": 0.001728334889001812,
+    "theta_bind": 3.141592653589793,
+    "rear_pole_margin": 0.001728334889001812,
+    "front_pole_margin": 0.0017464345810192846,
+    "all_type_I": true,
+    "n_grid": 221,
+    "min_disc": 9.543701694068615e-06,
+    "min_eig_margin": 0.001728334889001812,
+    "min_null": 0.0018476441630677276,
+    "sampled_dec_at_bind": 0.0018435515178340809,
+    "max_h_audit_grid": 1.3947771249078755e-07,
+    "fd_closure_61": 1.3952773891823256e-07,
+    "ladder_margins": {
+     "h0.02_o2": 0.0017219229993744624,
+     "h0.01_o2": 0.0017283323544762517,
+     "h0.005_o2": 0.001729934834064216,
+     "h0.01_o4": 0.001730468806176734
+    },
+    "fd_bind_margin": 0.0017283323544762517,
+    "solve_max_h_solvegrid": 1.3739788362610028e-07,
+    "solve_max_h_dense": 1.395371187484784e-07,
+    "solve_nfev": 24
+   }
+  },
+  "0.2": {
+   "lam": 0.2,
+   "phase_worst_dec": 0.005143,
+   "L4": {
+    "worst_dec": 0.005143324177342304,
+    "theta_bind": 0.0,
+    "rear_pole_margin": 0.005643660122390274,
+    "front_pole_margin": 0.005143324177342304,
+    "all_type_I": true,
+    "n_grid": 221,
+    "min_disc": 4.39939307869018e-05,
+    "min_eig_margin": 0.005143324177342304,
+    "min_null": 0.003824968633173179,
+    "sampled_dec_at_bind": 0.005296773022016901,
+    "max_h_audit_grid": 1.0499648221751201e-05,
+    "fd_closure_61": 1.0418742522277924e-05,
+    "ladder_margins": {
+     "h0.02_o2": 0.0051388181388410436,
+     "h0.01_o2": 0.005143322120909154,
+     "h0.005_o2": 0.0051444549095249915,
+     "h0.01_o4": 0.00514482344826519
+    },
+    "fd_bind_margin": 0.005143322120909154,
+    "solve_max_h_solvegrid": 9.908956691395687e-06,
+    "solve_max_h_dense": 1.0474637115120977e-05,
+    "solve_nfev": 107
+   },
+   "L6": {
+    "worst_dec": 0.005139024026491135,
+    "theta_bind": 0.0,
+    "rear_pole_margin": 0.005656039481141654,
+    "front_pole_margin": 0.005139024026491135,
+    "all_type_I": true,
+    "n_grid": 221,
+    "min_disc": 4.392816076380528e-05,
+    "min_eig_margin": 0.005139024026491135,
+    "min_null": 0.002695440752541689,
+    "sampled_dec_at_bind": 0.005292678168054304,
+    "max_h_audit_grid": 4.3882412259499404e-07,
+    "fd_closure_61": 4.3949959926958826e-07,
+    "ladder_margins": {
+     "h0.02_o2": 0.005134537933478514,
+     "h0.01_o2": 0.00513902897032,
+     "h0.005_o2": 0.005140144919242358,
+     "h0.01_o4": 0.0051405259826003075
+    },
+    "fd_bind_margin": 0.00513902897032,
+    "solve_max_h_solvegrid": 4.2909633712895356e-07,
+    "solve_max_h_dense": 4.3961033646677805e-07,
+    "solve_nfev": 40
+   }
+  },
+  "0.3": {
+   "lam": 0.19,
+   "phase_worst_dec": 0.009102,
+   "L4": {
+    "worst_dec": 0.009110610791848325,
+    "theta_bind": 0.0,
+    "rear_pole_margin": 0.009829384313398358,
+    "front_pole_margin": 0.009110610791848325,
+    "all_type_I": true,
+    "n_grid": 221,
+    "min_disc": 9.49789049701842e-05,
+    "min_eig_margin": 0.009110610791848325,
+    "min_null": 0.0009616930714335566,
+    "sampled_dec_at_bind": 0.009292341927531762,
+    "max_h_audit_grid": 1.393400097982056e-05,
+    "fd_closure_61": 1.3779890355780644e-05,
+    "ladder_margins": {
+     "h0.02_o2": 0.00910190960892255,
+     "h0.01_o2": 0.009110610349525677,
+     "h0.005_o2": 0.009112784699666076,
+     "h0.01_o4": 0.009113510596393495
+    },
+    "fd_bind_margin": 0.009110610349525677,
+    "solve_max_h_solvegrid": 1.3236506284819427e-05,
+    "solve_max_h_dense": 1.3858766322649707e-05,
+    "solve_nfev": 60
+   },
+   "L6": {
+    "worst_dec": 0.009102202157042685,
+    "theta_bind": 0.0,
+    "rear_pole_margin": 0.00985464517565956,
+    "front_pole_margin": 0.009102202157042685,
+    "all_type_I": true,
+    "n_grid": 221,
+    "min_disc": 9.475935610421635e-05,
+    "min_eig_margin": 0.009102202157042685,
+    "min_null": 0.0009666408121214061,
+    "sampled_dec_at_bind": 0.009284329811850742,
+    "max_h_audit_grid": 6.301881669834586e-07,
+    "fd_closure_61": 6.315723963812303e-07,
+    "ladder_margins": {
+     "h0.02_o2": 0.009093522721953753,
+     "h0.01_o2": 0.009102204250107496,
+     "h0.005_o2": 0.009104367608499883,
+     "h0.01_o4": 0.009105098092825429
+    },
+    "fd_bind_margin": 0.009102204250107496,
+    "solve_max_h_solvegrid": 6.136843008208714e-07,
+    "solve_max_h_dense": 6.318229831547839e-07,
+    "solve_nfev": 40
+   }
+  }
+ },
+ "closure_x0p1_L6": {
+  "gate_fd_closure_61": 1.3952773891823256e-07,
+  "gate_max_h_audit_grid": 1.3947771249078755e-07,
+  "phase80": 1.5e-07,
+  "paper_printed": 1.4e-07,
+  "bar": "within factor 2 of 1.5e-7",
+  "pass_": true
+ },
+ "L4_L6_worst_dec_abs_diff": {
+  "0.1": 2.812205223107645e-06,
+  "0.2": 4.300150851169714e-06,
+  "0.3": 8.408634805640025e-06
+ },
+ "paper_text_verification": {
+  "version": "arXiv:2606.22531v3, Supplement S ('Numerical frontier: the finite-amplitude bracket')",
+  "item_i_pi_minus_0p12": "NOT in the paper text (sole '0.12' in text is lambda_max=0.12 of the worked maneuver). Carried ONLY by the published code: reproduce/multipole_frontier.py, surface_stress_over_theta uses theta in [0.12, pi-0.12] (also dense residual grid [0.12, pi-0.12]). Demoted per GATE10 registration.",
+  "item_ii_margins": "Text prints converged margins {1.8, 9.1, 18, 21}e-3 at x = {0.1, 0.3, 0.5, 0.7}. So 1.8e-3 at x=0.1 CONFIRMED in text; 9.1e-3 at x=0.3 CONFIRMED in text; x=0.2: NO multipole margin printed (text gives only the pin g(0.2)=0.20 in Eq. S1).",
+  "item_iii_closure": "Text prints max|[h_ab]| = 1.4e-7 at x=0.1 in the same sentence. CONFIRMED in text."
+ },
+ "checker": {
+  "file": "wb_check.json",
+  "n": 45,
+  "n_pass": 45,
+  "all_pass": true
+ },
+ "verdict": "CONFIRMED AT OUR BARS"
+}

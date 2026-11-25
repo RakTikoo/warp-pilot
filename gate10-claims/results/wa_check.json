@@ -1,0 +1,102 @@
+{
+ "n_checks": 19,
+ "n_pass": 19,
+ "all_pass": true,
+ "checks": [
+  {
+   "check": "anchor_i_minkowski",
+   "pass": true,
+   "detail": "max|G| = 3.469e-18 (bar < 1e-12)"
+  },
+  {
+   "check": "anchor_ii_rho",
+   "pass": true,
+   "detail": "max rho rel err 2.364e-05 (bar 3e-3)"
+  },
+  {
+   "check": "anchor_ii_p",
+   "pass": true,
+   "detail": "max p abs err 2.019e-09 (bar 3e-7)"
+  },
+  {
+   "check": "anchor_iii_calibration",
+   "pass": true,
+   "detail": "held payload 0.07291778 vs 0.07292, rel err 3.05e-05 (bar 1e-4)"
+  },
+  {
+   "check": "anchor_iv_typeI",
+   "pass": true,
+   "detail": "control Type-I 1.0"
+  },
+  {
+   "check": "anchor_iv_inner_factor3",
+   "pass": true,
+   "detail": "inner factor 0.99 vs Gate-8 +9.79e-4"
+  },
+  {
+   "check": "anchor_iv_outer_factor3",
+   "pass": true,
+   "detail": "outer factor 0.93 vs Gate-8 +4.05e-5"
+  },
+  {
+   "check": "anchor_iv_payload_at_gate8_site_factor3",
+   "pass": true,
+   "detail": "payload SEC at Gate-8 site r=1.4317: +1.1721e-04 (factor 1.08 vs +1.09e-4); region worst +3.3080e-06 vs gate-standard control read +3.86e-6 \u2014 significance-borderline exception, see report"
+  },
+  {
+   "check": "anchor_iv_cavity_floor",
+   "pass": true,
+   "detail": "control cavity shell |DEC| max 2.04e-06 across ladder (Gate-8 floor bound 2.3e-4), Type-I 1.000"
+  },
+  {
+   "check": "bar_a_economics",
+   "pass": true,
+   "detail": "payload rel err 9.28e-06 (bar 1e-4); W sum rel err 2.76e-05; held-W err 1.7e-16"
+  },
+  {
+   "check": "bar_b_typeI",
+   "pass": true,
+   "detail": "deciding Type-I 1.0"
+  },
+  {
+   "check": "bar_c_payload",
+   "pass": true,
+   "detail": "payload worst +3.2924e-06 vs phase +3.85e-06 (factor 0.86)"
+  },
+  {
+   "check": "bar_c_inner_wall",
+   "pass": true,
+   "detail": "inner_wall worst +9.7702e-04 vs phase +1.19e-03 (factor 0.82)"
+  },
+  {
+   "check": "bar_c_outer_wall",
+   "pass": true,
+   "detail": "outer_wall worst +4.8308e-05 vs phase +3.20e-05 (factor 1.51)"
+  },
+  {
+   "check": "bar_c_exterior",
+   "pass": true,
+   "detail": "exterior worst +1.9553e-06 vs phase +1.04e-06 (factor 1.88)"
+  },
+  {
+   "check": "bar_d_sampled_null",
+   "pass": true,
+   "detail": "sampled-null min +2.3537e-06"
+  },
+  {
+   "check": "bar_e_cavity_site_clean",
+   "pass": true,
+   "detail": "analytic DEC at r=4.53 (162 dirs) +2.0201e-04 >= 0 \u2014 stronger settlement form (i)"
+  },
+  {
+   "check": "bar_e_cavity_no_convergent_negative",
+   "pass": true,
+   "detail": "deciding cavity ladder shell |DEC| max 4.76e-07 (floor level; no convergent negative value)"
+  },
+  {
+   "check": "bar_f_corroboration",
+   "pass": true,
+   "detail": "0.08104 row: Type-I 1.0, payload 0.08103780, non-cavity region worsts > 0: True"
+  }
+ ]
+}

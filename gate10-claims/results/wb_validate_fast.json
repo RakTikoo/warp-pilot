@@ -1,0 +1,21 @@
+{
+ "V1_grad_ra_max_err": 2.727966186277797e-10,
+ "V2_dipole_pole_fast": {
+  "0.1": {
+   "fast_pole_margin": -0.00020095472304906196
+  },
+  "0.3": {
+   "fast_pole_margin": -0.00012263701614436935
+  }
+ },
+ "V3_grid_margin_agreement": {
+  "max_abs_margin_diff": 4.725413589611906e-09,
+  "grid_n": 25
+ },
+ "V4_closure_test_point": {
+  "max_h_FD": 4.104679630301256e-06,
+  "max_h_fast": 4.104703603236004e-06,
+  "phase80_stored_max_h": 5.286926906045153e-06
+ },
+ "seconds": 17.595356225967407
+}
