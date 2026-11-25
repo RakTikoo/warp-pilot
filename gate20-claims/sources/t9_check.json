@@ -1,0 +1,157 @@
+{
+ "n_pass": 30,
+ "n_total": 30,
+ "checks": [
+  {
+   "name": "C1_R0_recovery",
+   "passed": true,
+   "detail": "cost exact"
+  },
+  {
+   "name": "C2_total_site41",
+   "passed": true,
+   "detail": "t9=4.429879e-03 stored=4.429879e-03"
+  },
+  {
+   "name": "C2_stored_survival_le2pct_site41",
+   "passed": true,
+   "detail": "varpi+admdiag over |varpi|"
+  },
+  {
+   "name": "C2_total_site44",
+   "passed": true,
+   "detail": "t9=-9.034292e-05 stored=-9.034292e-05"
+  },
+  {
+   "name": "C2_stored_survival_le2pct_site44",
+   "passed": true,
+   "detail": "varpi+admdiag over |varpi|"
+  },
+  {
+   "name": "C3_species_base_gate",
+   "passed": true,
+   "detail": "rebuild rel diff 8.454e-16"
+  },
+  {
+   "name": "C4_counter_eq_matter_site41",
+   "passed": true,
+   "detail": "counter=9.0286479475e-04 matter=9.0286479475e-04 reldiff=7.00e-12"
+  },
+  {
+   "name": "C4_counter_eq_matter_site44",
+   "passed": true,
+   "detail": "counter=-1.1544294512e-03 matter=-1.1544294512e-03 reldiff=5.02e-12"
+  },
+  {
+   "name": "C5_species_sum_site41",
+   "passed": true,
+   "detail": "sum=9.0286479473e-04 counter=9.0286479475e-04"
+  },
+  {
+   "name": "C5_species_sum_site44",
+   "passed": true,
+   "detail": "sum=-1.1544294512e-03 counter=-1.1544294512e-03"
+  },
+  {
+   "name": "C6_co_path_site41",
+   "passed": true,
+   "detail": "pred=7.957284e-03 got=7.956904e-03"
+  },
+  {
+   "name": "C6_singlerot_path_site41",
+   "passed": true,
+   "detail": "pred=2.215037e-03 got=2.214942e-03"
+  },
+  {
+   "name": "C6_co_path_site44",
+   "passed": true,
+   "detail": "pred=9.768288e-04 got=9.736820e-04"
+  },
+  {
+   "name": "C6_singlerot_path_site44",
+   "passed": true,
+   "detail": "pred=-4.440016e-05 got=-4.518687e-05"
+  },
+  {
+   "name": "C7_survival_rigid_site41",
+   "passed": true,
+   "detail": "survival=0.013653"
+  },
+  {
+   "name": "C7_survival_diff_site41",
+   "passed": true,
+   "detail": "survival_diff=0.037909"
+  },
+  {
+   "name": "C7_survival_rigid_site44",
+   "passed": true,
+   "detail": "survival=0.140589"
+  },
+  {
+   "name": "C7_survival_diff_site44",
+   "passed": true,
+   "detail": "survival_diff=0.360558"
+  },
+  {
+   "name": "C8_lambda_needed_site41",
+   "passed": true,
+   "detail": "lam_needed=0.087568 metric=0.029326 kepler=0.043635 breach_metric=2.986"
+  },
+  {
+   "name": "C8_lambda_needed_site44",
+   "passed": true,
+   "detail": "lam_needed=0.145240 metric=0.019992 kepler=0.028077 breach_metric=7.265"
+  },
+  {
+   "name": "C9_typeI_not_worsened_at_validity",
+   "passed": true,
+   "detail": "n_typeI 52 vs base 52; lam=0.019992 <= metric bound"
+  },
+  {
+   "name": "C10_rerun_counter_rigid_site41",
+   "passed": true,
+   "detail": "first=9.0286479475e-04 rebuild=9.0286479475e-04"
+  },
+  {
+   "name": "C10_rerun_counter_rigid_site44",
+   "passed": true,
+   "detail": "first=-1.1544294512e-03 rebuild=-1.1544294512e-03"
+  },
+  {
+   "name": "C10_rerun_co_rigid_site41",
+   "passed": true,
+   "detail": "first=7.9569042550e-03 rebuild=7.9569042550e-03"
+  },
+  {
+   "name": "C10_rerun_co_rigid_site44",
+   "passed": true,
+   "detail": "first=9.7368197930e-04 rebuild=9.7368197930e-04"
+  },
+  {
+   "name": "C10_rerun_counter_diff_site41",
+   "passed": true,
+   "detail": "first=2.6738884648e-03 rebuild=2.6738884648e-03"
+  },
+  {
+   "name": "C10_rerun_counter_diff_site44",
+   "passed": true,
+   "detail": "first=-3.5319884832e-03 rebuild=-3.5319884832e-03"
+  },
+  {
+   "name": "C11_beta01_survival_site41",
+   "passed": true,
+   "detail": "survival_beta01=0.000091"
+  },
+  {
+   "name": "C11_beta01_survival_site44",
+   "passed": true,
+   "detail": "survival_beta01=-0.000077"
+  },
+  {
+   "name": "C12_verdict_classification",
+   "passed": true,
+   "detail": "SPECULATIVE -- REGISTERED SUCCESS at site 44 (survival 0.1406 >= 0.10, Type-I not worsened at validity-legal spin); site 41 in the registered KILL class (survival 0.0137 <= 0.04)"
+  }
+ ],
+ "verdict": "SPECULATIVE -- REGISTERED SUCCESS at site 44 (survival 0.1406 >= 0.10, Type-I not worsened at validity-legal spin); site 41 in the registered KILL class (survival 0.0137 <= 0.04)"
+}

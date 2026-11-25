@@ -1,0 +1,16 @@
+PASS K1 coupled LS floor floor=0.6197514399668285
+PASS K2 d=0 reads control q=[1.0032717740717199, 1.1029635664194024] count=52
+PASS K2b D0 stored in grad file matches d=0 reads maxdiff=0.0
+PASS K3 linearised closure of witness <= 0.63 and matches results lin_closure=0.6227068127601647
+PASS K3b linearised dq within tol dq=(2.393e-16,9.347e-18)
+PASS K3c linearised count-preserving min_margin=1.040e-08
+PASS K4 exact coupled closure <= 0.63 closure=0.6232117059867903
+PASS K4b exact closure matches results diff=0.000e+00
+PASS K5 exact |dq| <= 5e-4 both sites dq=(-4.992e-06,-1.321e-04)
+PASS K5b exact Type-I [F,F] and count 52 typeI=[False, False] count=52
+PASS K6 gate (a) fixed path reldiff <= 1e-6 {"41": {"c2_reldiff": 0.0, "survival": 0.013652955217293665, "survival_reldiff": 0.0}, "44": {"c2_reldiff": 0.0, "survival": 0.14058890317097553, "survival_reldiff": 0.0}}
+PASS K6b survivals match registered stored values 0.013652955217293665 / 0.14058890317097553
+PASS K7 response sizes: max field <= 0.25 trust cap norm=0.18087836878121485 max_coeff=0.14320434982453112 max_field=0.0013184603821767068 frac_below_sigcut=0.9971746120746057
+PASS K7b sizes match results 
+PASS K8 verdict consistency verdict=GATE PASSES (SPECULATIVE)
+CHECKER 15/15 PASS
