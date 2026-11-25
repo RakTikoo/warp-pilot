@@ -1,0 +1,36 @@
+    \nonumber s &= \frac{5}{21} \mathcal{C} \left(-3\a_{1} + 2\a_{2}\right) \\
+    \nonumber& + 5\left(\frac{573\a_1^{3} + \a_1^{2}(67669 - 764 \a_{2})+ 96416\a_{2}^{2} + 68\a_{1}\a_{2}(-2632 + 9\a_{2})}{252252 \a_{1}}\right) \mathcal{C}^{2}\\
+    \nonumber &+ \frac{1}{1801079280 c_{\omega} \a_1^{2}} \Big\{(4 \a_{1})^2 (8 + \a_{1}) (36773030 \a_1^2 - 39543679 \a_{1} \a_{2} \\
+   	\nonumber& +11403314\a_2^2) + c_{\omega}\left[-1970100 \a_1^5 + 13995878400 \a_{2}^3 \right.\\
+   	\nonumber& + 640 \a_1 \a_{2}^2 (-49528371 + 345040\a_2) + 5\a_1^4(-19596941 + 788040\a_{2})\\
+   	\nonumber& + \a_1^3(-2699192440 + 440184934\a_2 -5974000 \a_{2}^2)\\
+   	&\left. 16\a_1^2 \a_2 (1294533212 - 29152855\a_2 +212350\a_2^2 )\right]\Big\}\mathcal{C}^{3} + \mathcal{O}(\mathcal{C}^4)\,.
+\end{align}
+Note that the above expression is not regular in the limit of $\a_1 \to 0$ while keeping $\a_2$ finite or $c_\omega \to 0$ while keeping $\a_1$ or $\a_2$ finite. This is a known feature of Einstein-\ae ther theory, which recovers GR only when a certain combination of coupling constants is taken to zero at a specific rate. 
+
+With this EoS, the compactness can be expressed as a function on $\Omega/M_{\star}$ as 
+\begin{equation}
+\mathcal{C}= -\frac{7 \Omega}{5 M_\star}+\frac{35819 \a_1 \Omega^3}{85800
+   M_\star^3} + \mathcal{O}\left(  
+  \frac{\Omega^4}{M_\star^4} \right)\,.
+\end{equation}
+Here $\mathcal{C}$ and $M_{\star}$ are the observed values with \ae ther corrections included.
+With this at hand, we can rewrite the sensitivity as a function of $\Omega$ to find
+\begin{align}\label{tolman_sens_be}
+    \nonumber s &= \frac{(3\a_{1} + 2\a_{2})}{3}\frac{\Omega}{M_{\star}} \\
+    \nonumber& + \left(\frac{ 573\a_1^3 + \a_1^2(67669 - 764\a_{2}) + 96416\a_{2}^2 + 68 \a_{1}\a_{2}(9\a_{2} - 2632)}{25740 \a_{1}}\right)\frac{\Omega^2}{M_{\star}^2}\\
+    \nonumber& + \frac{1}{656370000 c_{\omega}\a_1^2}\Big\{ -4\a_{1}^2(\a_{1}+8)\left[36773030\a_1^2 - 39543679\a_{1}\a_{2} \right.\\
+    \nonumber&\left.+ 11403314\a_{2}^2\right] + c_{\omega}\left[1970100\a_1^5 - 13995878400 \a_{2}^3\right. \\
+    \nonumber& - 640 \a_1 \a_{2}^2(-49528371 + 345040 \a_2) - 5\a_1^4(19548109 + 788040\a_2)\\
+    \nonumber& - 16 \a_1^2 \a_2 (1294533212 - 29152855 \a_2 + 212350 \a_{2}^2)\\
+    & \left.+ \a_1^3(2699192440 - 309701434 \a_2 + 5974000 \a_{2}^2)\right]\Big\}\frac{\Omega^3}{M_{\star}^3} +\mathcal{O}\left(\frac{\Omega^4}{M_\star^4}\right) \,.
+\end{align}
+Note that this expression matches identically to that of~\cite{foster:2007gr} when working to leading order in the binding energy. 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale = 0.43]{universal.pdf}
+    \caption{ 
+    Top panel shows the plot of sensitivity as a function of binding energy for different EoS including Tolman VII (Eq.~\eqref{tolman_sens_be}) valid to $\mathcal{O}(\mathcal{C}^3)$. The bottom panel shows the relative fractional difference between the EoS from data and the Tolman case, which represents the EoS variation in the relations. Observe that the universality holds to better than 3\%.}
+    \label{fig:universal_eos}
+\end{figure}
