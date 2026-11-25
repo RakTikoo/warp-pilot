@@ -1,0 +1,133 @@
+{
+ "item": "P141-1 checker",
+ "n_checks": 25,
+ "n_pass": 25,
+ "all_pass": true,
+ "checks": [
+  {
+   "name": "A1_chat_exact",
+   "pass": true,
+   "detail": "0.0"
+  },
+  {
+   "name": "A1_LJ_within_5pct",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "A1_resid_le_1e-20",
+   "pass": true,
+   "detail": "6.442983467071658e-21"
+  },
+  {
+   "name": "A1_resid_matches_stored",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "A2_Shat_within_5pct",
+   "pass": true,
+   "detail": "-162.64802149771168"
+  },
+  {
+   "name": "A2_kappa_zero",
+   "pass": true,
+   "detail": "0.0"
+  },
+  {
+   "name": "A2_amps_within_5pct",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "A2_shell_rows_within_5pct",
+   "pass": true,
+   "detail": "{'0.1': -1.6061914696771171, '0.03333333333333333': -0.16043127858634632, '0.01': 0.00402394315022883}"
+  },
+  {
+   "name": "S1_shares_sum_to_LJp2",
+   "pass": true,
+   "detail": "2.1316282072803006e-14"
+  },
+  {
+   "name": "S1_comp8_dominates",
+   "pass": true,
+   "detail": "(94.39972540659144, 1.0802978693581144e-07)"
+  },
+  {
+   "name": "S1_spectrum_stated_12",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "S1_leftnull_matches_resid",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "S2_comp8_reduction_gt_floor",
+   "pass": true,
+   "detail": "94.39972539934573"
+  },
+  {
+   "name": "S2_comp8_resid_breaks_bar",
+   "pass": true,
+   "detail": "1.0014121008348743e-19"
+  },
+  {
+   "name": "S2_no_single_or_prefix_bar_met",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "S3_reread_trigger_nowhere_met",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "S3_P4_resid_breaks_bar",
+   "pass": true,
+   "detail": "9.561517099168877e-20"
+  },
+  {
+   "name": "kappa_never_moves",
+   "pass": true,
+   "detail": "4.440892098500626e-16"
+  },
+  {
+   "name": "SP_spectrum_head_agrees_5pct",
+   "pass": true,
+   "detail": "1.603186819713433e-11"
+  },
+  {
+   "name": "SP_s8_discrepancy_reported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "SP_removal_decision_agrees",
+   "pass": true,
+   "detail": "1.3216223458903705e-20"
+  },
+  {
+   "name": "SP_kappa_zero",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "SP_single_carrier",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "verdict_form_registered",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Vb_sentence_verbatim_in_results",
+   "pass": true,
+   "detail": ""
+  }
+ ]
+}

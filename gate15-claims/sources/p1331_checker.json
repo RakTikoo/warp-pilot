@@ -1,0 +1,136 @@
+{
+ "n": 18,
+ "passed": 18,
+ "checks": [
+  {
+   "name": "A1 threshold 3056.88 within 0.1%",
+   "pass": true,
+   "detail": 1.2435189395606454e-06
+  },
+  {
+   "name": "A1 threshold 158043.78 within 0.1%",
+   "pass": true,
+   "detail": 1.8073536356400044e-07
+  },
+  {
+   "name": "A1 D=2500 no precedence",
+   "pass": true,
+   "detail": {
+    "gamma_beta_D": 1443.3756729740646,
+    "Delta_id_09": 1764.8882962056318,
+    "stored_gamma_beta_D": 1443.376,
+    "stored_Delta_id": 1764.889,
+    "precedence": false
+   }
+  },
+  {
+   "name": "A2 route data within 1e-9",
+   "pass": true,
+   "detail": 0.0
+  },
+  {
+   "name": "A2 integrals re-agree within 5% (Simpson second path)",
+   "pass": true,
+   "detail": {
+    "10000": {
+     "rel_L": 5.689851782083614e-14,
+     "rel_E": 5.687055965870732e-14
+    },
+    "30000": {
+     "rel_L": 1.6384414303997924e-14,
+     "rel_E": 1.645049034429797e-14
+    },
+    "100000": {
+     "rel_L": 1.5727026930134659e-16,
+     "rel_E": 1.3229121219271684e-16
+    }
+   }
+  },
+  {
+   "name": "A3 sympy derivation matches stored",
+   "pass": true,
+   "detail": "gamma_m*beta_m*D > 2*T1/beta_tr (approaching)"
+  },
+  {
+   "name": "Second path thresholds within 1%",
+   "pass": true,
+   "detail": 3.3063312067674365e-16
+  },
+  {
+   "name": "E_ext/D falling over rows",
+   "pass": true,
+   "detail": [
+    0.7516411169479822,
+    0.6265835488402925,
+    0.27499776793881386
+   ]
+  },
+  {
+   "name": "E_ext local exponent < 1 both spans",
+   "pass": true,
+   "detail": [
+    0.8343575342441917,
+    0.31599855119373027
+   ]
+  },
+  {
+   "name": "A_ax > 0 at all rows (audit iv)",
+   "pass": true,
+   "detail": {
+    "10000": 0.9975286022222222,
+    "30000": 0.9978569717241379,
+    "100000": 0.997961452929293
+   }
+  },
+  {
+   "name": "Part2 shell envelope below margin beta_m=0.1",
+   "pass": true,
+   "detail": 0.00041023562181002486
+  },
+  {
+   "name": "Part2 shell envelope below margin beta_m=0.5",
+   "pass": true,
+   "detail": 0.002707555103946164
+  },
+  {
+   "name": "Part2 shell envelope below margin beta_m=0.9",
+   "pass": true,
+   "detail": 0.019237891528038537
+  },
+  {
+   "name": "Part2 second-path boost agreement 5% beta_m=0.1",
+   "pass": true,
+   "detail": 2.213057819709686e-16
+  },
+  {
+   "name": "Part2 second-path boost agreement 5% beta_m=0.5",
+   "pass": true,
+   "detail": 4.0237414903812465e-16
+  },
+  {
+   "name": "Part2 second-path boost agreement 5% beta_m=0.9",
+   "pass": true,
+   "detail": 0.0
+  },
+  {
+   "name": "Part2(iii) no deciding cell flips under dE_ext bound (per-cell)",
+   "pass": true,
+   "detail": {
+    "worst_dmargin_over_margin": 0.0052874965139487065,
+    "cell": [
+     "10000",
+     "0.9,0.1"
+    ]
+   }
+  },
+  {
+   "name": "Precedence occurs at registered rows (primary and variant)",
+   "pass": true,
+   "detail": [
+    true,
+    true
+   ]
+  }
+ ],
+ "verdict": "PROTECTION IS POSTURE ONLY"
+}

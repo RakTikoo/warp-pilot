@@ -1,0 +1,227 @@
+{
+  "schema": "p1413_results v1",
+  "item": "P141-3 - THE eps <= 0.01 RE-PRICING",
+  "dependency": {
+    "P141-1_verdict": "LOAD IRREDUCIBLE IN THE REGISTERED BASIS",
+    "price_reread_triggered": false,
+    "Shat00_2_per_eps2_used": -162.64802149771168,
+    "amps2_per_eps2_used": [
+      -2714.4828262295855,
+      2.6094584913725335e-05,
+      -274.0041153566436
+    ],
+    "amps1_per_eps": [
+      -0.003112889383893048,
+      8.89452072900706e-12,
+      7.564462410634833e-05
+    ],
+    "kappa2_carried": 0.0,
+    "scope": "l = 0 sector only; P141-4 (parallel) prices l >= 1; coordinator reconciles if its summed correction moves the eps=0.01 shell read."
+  },
+  "anchors": {
+    "A1": {
+      "value_recomputed": 0.00402394315022883,
+      "registered_target": 0.00402,
+      "rel_diff_vs_registered": 0.0009808831414998885,
+      "stored_full_precision": 0.00402394315022883,
+      "rel_diff_vs_stored": 0.0,
+      "bar": 0.05,
+      "pass": true
+    },
+    "A2": {
+      "G_tau_interval_recomputed": [
+        23.008376218009435,
+        23.00844039507715
+      ],
+      "G_tau_interval_stored": [
+        23.008376218009435,
+        23.00844039507715
+      ],
+      "G_t_interval_recomputed": [
+        17.31287838395996,
+        17.312896577556845
+      ],
+      "G_t_interval_stored": [
+        17.31287838395996,
+        17.312896577556845
+      ],
+      "G_tau_centre_recomputed": 23.008397979877827,
+      "G_t_centre_recomputed": 17.312884681964604,
+      "dL_interval_stored": [
+        -0.04375758334615855,
+        0.08528617975694568
+      ],
+      "dE_interval_stored": [
+        -0.01000374722142901,
+        0.018894952368574625
+      ],
+      "max_rel_diff_gains": 0.0,
+      "tolerance_gains": 1e-09,
+      "tail_validation": {
+        "0.1": {
+          "tail_shell_recomputed": 2.1781866117463593e-06,
+          "stored": 2.1781866117463593e-06,
+          "rel_diff": 0.0
+        },
+        "0.03333333333333333": {
+          "tail_shell_recomputed": 1.7566911054896512e-08,
+          "stored": 1.7566911054896512e-08,
+          "rel_diff": 0.0
+        },
+        "0.01": {
+          "tail_shell_recomputed": 3.0715305595312153e-10,
+          "stored": 3.0715305595312153e-10,
+          "rel_diff": 0.0
+        }
+      },
+      "tail_validation_max_rel_diff": 0.0,
+      "tail_validation_bar": 0.05,
+      "reaches_G1": false,
+      "pass": true
+    },
+    "all_pass": true
+  },
+  "rows": {
+    "0.01": {
+      "eps": 0.01,
+      "D_over_rSigma": 100.0,
+      "registered_row": true,
+      "tail": {
+        "A4": 2.2506592472717042e-10,
+        "A5": 5.176982318699495e-12,
+        "q": 0.02300207072649998,
+        "tail_Rtn_sum_bound": 2.3036479196484115e-10,
+        "tail_shell": 3.0715305595312153e-10
+      },
+      "shell_Shat00_over_alpha0_measured_tail": 0.004026642843075774,
+      "shell_second_order_term": -0.01626480214977117,
+      "shell_flat_carry_comparison": 0.00402394315022883,
+      "shell_positive": true,
+      "perturbativity": {
+        "dbeta2_excursion": 0.27144828262295856,
+        "dbeta2_ratio_to_betaMK": 0.1266904177300306,
+        "dk2_excursion": 2.6094584913725337e-09,
+        "ae2_excursion": 0.02740041153566436,
+        "ae2_ratio_to_1": 0.02740041153566436,
+        "dbeta1_excursion": 3.112889383893048e-05,
+        "dk1_excursion": 8.89452072900706e-14,
+        "ae1_excursion": 7.564462410634833e-07,
+        "bar_dbeta2_lt_betaMK": true,
+        "bar_ae2_lt_1": true,
+        "bar_met": true
+      }
+    },
+    "0.003": {
+      "eps": 0.003,
+      "D_over_rSigma": 333.3333333333333,
+      "registered_row": false,
+      "tail": {
+        "A4": 5.827449594199678e-12,
+        "A5": 4.0055116586052186e-14,
+        "q": 0.006873524333169838,
+        "tail_Rtn_sum_bound": 5.867781936119328e-12,
+        "tail_shell": 7.823709248159104e-12
+      },
+      "shell_Shat00_over_alpha0_measured_tail": 0.018827613098696884,
+      "shell_second_order_term": -0.0014638321934794052,
+      "shell_flat_carry_comparison": 0.018824913106520593,
+      "shell_positive": true,
+      "perturbativity": {
+        "dbeta2_excursion": 0.02443034543606627,
+        "dbeta2_ratio_to_betaMK": 0.011402137595702752,
+        "dk2_excursion": 2.34851264223528e-10,
+        "ae2_excursion": 0.0024660370382097925,
+        "ae2_ratio_to_1": 0.0024660370382097925,
+        "dbeta1_excursion": 9.338668151679145e-06,
+        "dk1_excursion": 2.6683562187021183e-14,
+        "ae1_excursion": 2.26933872319045e-07,
+        "bar_dbeta2_lt_betaMK": true,
+        "bar_ae2_lt_1": true,
+        "bar_met": true
+      }
+    },
+    "0.001": {
+      "eps": 0.001,
+      "D_over_rSigma": 1000.0,
+      "registered_row": false,
+      "tail": {
+        "A4": 2.1501964594411859e-13,
+        "A5": 4.924688763759922e-16,
+        "q": 0.0022903436298280385,
+        "tail_Rtn_sum_bound": 2.1551324533270992e-13,
+        "tail_shell": 2.8735099377694653e-13
+      },
+      "shell_Shat00_over_alpha0_measured_tail": 0.020128797278214938,
+      "shell_second_order_term": -0.00016264802149771167,
+      "shell_flat_carry_comparison": 0.020126097278502286,
+      "shell_positive": true,
+      "perturbativity": {
+        "dbeta2_excursion": 0.0027144828262295854,
+        "dbeta2_ratio_to_betaMK": 0.0012669041773003059,
+        "dk2_excursion": 2.6094584913725334e-11,
+        "ae2_excursion": 0.00027400411535664356,
+        "ae2_ratio_to_1": 0.00027400411535664356,
+        "dbeta1_excursion": 3.1128893838930484e-06,
+        "dk1_excursion": 8.894520729007061e-15,
+        "ae1_excursion": 7.564462410634833e-08,
+        "bar_dbeta2_lt_betaMK": true,
+        "bar_ae2_lt_1": true,
+        "bar_met": true
+      }
+    }
+  },
+  "deciding_row_eps_0.01": {
+    "shell_Shat00_over_alpha0": 0.004026642843075774,
+    "gains_with_remainders": {
+      "G_tau_centre": 23.008397979877827,
+      "G_tau_interval": [
+        23.008376218009435,
+        23.00844039507715
+      ],
+      "G_t_centre": 17.312884681964604,
+      "G_t_interval": [
+        17.31287838395996,
+        17.312896577556845
+      ],
+      "dL_interval": [
+        -0.04375758334615855,
+        0.08528617975694568
+      ],
+      "dE_interval": [
+        -0.01000374722142901,
+        0.018894952368574625
+      ],
+      "G_tau_interval_excludes_1": true,
+      "G_t_interval_excludes_1": true
+    },
+    "thresholds_formal": {
+      "Dstar_tau_r0": 4016.022745843766,
+      "Dstar_tau_formal_interval_sorted": [
+        4016.0051847409195,
+        4016.034070720703
+      ],
+      "Dstar_t_r0": 3592.719349638163,
+      "Dstar_t_formal_interval_sorted": [
+        3592.692431687301,
+        3592.7405422245474
+      ],
+      "formal": true,
+      "note": "FORMAL break-evens below the construction domain D >= 1e4 r0."
+    },
+    "perturbativity": {
+      "dbeta2_excursion": 0.27144828262295856,
+      "dbeta2_ratio_to_betaMK": 0.1266904177300306,
+      "dk2_excursion": 2.6094584913725337e-09,
+      "ae2_excursion": 0.02740041153566436,
+      "ae2_ratio_to_1": 0.02740041153566436,
+      "dbeta1_excursion": 3.112889383893048e-05,
+      "dk1_excursion": 8.89452072900706e-14,
+      "ae1_excursion": 7.564462410634833e-07,
+      "bar_dbeta2_lt_betaMK": true,
+      "bar_ae2_lt_1": true,
+      "bar_met": true
+    }
+  },
+  "verdict": "POSE STANDS AT SECOND ORDER AT D/r_Sigma = 100",
+  "scope": "Second order in amplitude, l = 0 sector price only. Formation PRE-EXISTING ONLY. EFFECTIVE transit accounting (C12) for all transit numbers. Phase 122 milestones cited only as scan signals under attack (Gate-15 pending). (V-b) UNDECIDED."
+}

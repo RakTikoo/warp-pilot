@@ -1,0 +1,138 @@
+{
+ "schema": "p1332_checker v1",
+ "n_checks": 26,
+ "n_pass": 26,
+ "all_pass": true,
+ "checks": [
+  {
+   "check": "A1_V0_areal_within_5pct",
+   "pass": true,
+   "detail": "areal 3.501113980607638e-06"
+  },
+  {
+   "check": "A1_V0_full_within_5pct",
+   "pass": true,
+   "detail": "full 0.0014284073333333334"
+  },
+  {
+   "check": "A1_kappa_full_within_5pct",
+   "pass": true,
+   "detail": "rel 1.1410154951576267e-07"
+  },
+  {
+   "check": "A1_enlarged_resid",
+   "pass": true,
+   "detail": "[4.235164736271502e-22, 0.0, 0.0]"
+  },
+  {
+   "check": "A2_beta_resid_floor",
+   "pass": true,
+   "detail": "9.039e-27"
+  },
+  {
+   "check": "A2_k_resid_floor",
+   "pass": true,
+   "detail": "1.667e-12"
+  },
+  {
+   "check": "A3_polarisation",
+   "pass": true,
+   "detail": "max diff 2.290e-23 on scale 6.699e-18"
+  },
+  {
+   "check": "J2_total_matches_stage3",
+   "pass": true,
+   "detail": "[-43.1358163241652, 0.019072083617807236, -33.237454793981826, 77.10953705729692]"
+  },
+  {
+   "check": "kappa2_recomputed_zero",
+   "pass": true,
+   "detail": "kappa2 recomputed 0.0, stored 0.0"
+  },
+  {
+   "check": "amps_recomputed",
+   "pass": true,
+   "detail": "[-2714.4828262295855, 2.6094584913725335e-05, -274.0041153566436]"
+  },
+  {
+   "check": "amp_price_flag",
+   "pass": true,
+   "detail": "max amp 2714.4828262295855 > 1e2 bar -> CLOSES AT A PRICE"
+  },
+  {
+   "check": "Shat2_recomputed",
+   "pass": true,
+   "detail": "Shat2 recomputed -162.64802149771168, stored -162.64802149771168"
+  },
+  {
+   "check": "shell_pricing_eps_0.1",
+   "pass": true,
+   "detail": "Shat00/alpha0 at eps=0.1: -1.6061914696771171"
+  },
+  {
+   "check": "shell_pricing_eps_0.03333333333333333",
+   "pass": true,
+   "detail": "Shat00/alpha0 at eps=0.03333333333333333: -0.16043127858634632"
+  },
+  {
+   "check": "shell_pricing_eps_0.01",
+   "pass": true,
+   "detail": "Shat00/alpha0 at eps=0.01: 0.00402394315022883"
+  },
+  {
+   "check": "kappa2_not_decided_nonzero",
+   "pass": true,
+   "detail": "|kappa2| 0.0 vs 1e3*floor 3240.886364760159"
+  },
+  {
+   "check": "lstsq_kappa2",
+   "pass": true,
+   "detail": "2.1316282072803006e-14"
+  },
+  {
+   "check": "p2_invariance",
+   "pass": true,
+   "detail": "diff 0.0"
+  },
+  {
+   "check": "B2_two_engines",
+   "pass": true,
+   "detail": "[1.0553661030676881e-27, 1.5496127004033528e-27, 9.58310787945605e-28]"
+  },
+  {
+   "check": "sec8ii_source_agreement_5pct",
+   "pass": true,
+   "detail": "max rel 0.002475159428782027"
+  },
+  {
+   "check": "sec8iii_kappa2_agrees",
+   "pass": true,
+   "detail": "2p kappa2 0.0"
+  },
+  {
+   "check": "sec8iii_Shat2_agrees_5pct",
+   "pass": true,
+   "detail": "2p Shat2 -162.64801735811312 vs -162.64802149771168"
+  },
+  {
+   "check": "pattern_areal_cancels",
+   "pass": true,
+   "detail": "slaved 1.8528e-05 -> raw 6.1210e-06 -> areal 4.2532e-09"
+  },
+  {
+   "check": "crosscheck_p1333_axis_5pct",
+   "pass": true,
+   "detail": "mine 2.2670527888004937e-05 vs p1333 2.268132727941015e-05, rel 4.76e-04"
+  },
+  {
+   "check": "crosscheck_p1333_dgtt_zero",
+   "pass": true,
+   "detail": "both 0"
+  },
+  {
+   "check": "verdict_form",
+   "pass": true,
+   "detail": "SECOND-ORDER CLOSES AT A PRICE"
+  }
+ ]
+}

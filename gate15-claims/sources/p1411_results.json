@@ -1,0 +1,806 @@
+{
+ "schema": "p1411_results v1",
+ "item": "P141-1 \u2014 THE p2-FIELD ANATOMY (Phase 141; Phase 133 follow-up experiment 1)",
+ "verdict": "LOAD IRREDUCIBLE IN THE REGISTERED BASIS",
+ "verdict_detail": {
+  "headline": "The whole second-order load of p2 is one singular component (i=8, s=1.481e-21, amplitude +82.81) of the prolonged matrix. Removing it would erase the load (|L_J| reduction 94.40, >> floor_J2 = 3.241; Shat00^(2) would go from -162.648 to -6.3e-8) but the prolonged row residual rises from 6.44e-21 to 1.00e-19, ten times the registered 1e-20 bar. Every other removal or truncation that cuts the load by more than floor_J2 likewise breaks the residual bar (truncations at P=3: residual 1.00e-19; at P=4: 8.61e-19; the P=4 untruncated solve: 9.56e-20). The PRICE RE-READ trigger is therefore NOT met at any swept setting (its residual condition fails everywhere), and P133-2's price stands as computed, now with its irreducibility in the registered basis stated.",
+  "price_reread_triggered": false,
+  "kappa2_moves": false,
+  "second_path_discrepancy": "Reported, not averaged: the load-carrying direction sits at s8 = 1.481e-21, BELOW the inter-engine assembly difference ||M_bachfloat - M_bachgen||_F = 2.40e-20. On the bachfloat assembly s8 = 7.80e-21 (factor 5.3), its L_J share is 4.52 (vs 94.40), the total L_J[p2] is (-1.577, +0.00049, -3.286, +2.674) and Shat00^(2) = -1.275, and |v8_prim . v8_sec| = 0.553. The DECIDING features agree on both paths: exactly one near-null component carries ~100% of the load (all others <= 1.1e-7), its removal breaks the 1e-20 residual bar on both (1.00e-19 primary; 1.32e-20 second), the well-conditioned spectrum s0..s7 agrees to <= 1.6e-11 relative, and kappa^(2) = 0 on both."
+ },
+ "anchors": {
+  "A1": {
+   "pass": true,
+   "chat_rel_diff_2norm": 0.0,
+   "LJ_rel_diff_per_channel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "row_resid_max": 6.442983467071658e-21,
+   "bar_resid": 1e-20,
+   "stored_row_resid_max": 6.442983467071658e-21,
+   "note": "In-item bachgen rebuild reproduces the stored p2 chat vector and L_J[p2] EXACTLY (0.0 difference); B2 stencil values reproduce Phase 133's stored stencil at all 7 radii."
+  },
+  "A2": {
+   "pass": true,
+   "chain_from_stored_LJp2": {
+    "J2tot": [
+     -43.1358163241652,
+     0.019072083617807236,
+     -33.237454793981826,
+     77.10953705729692
+    ],
+    "amps": [
+     -2714.4828262295855,
+     2.6094584913725335e-05,
+     -274.0041153566436
+    ],
+    "kappa2": 0.0,
+    "solve_resid": [
+     -7.105427357601002e-15,
+     6.938893903907228e-18,
+     0.0
+    ],
+    "kappa_restricted": 100.1302227986843,
+    "Rtn_after": 121.98601612328376,
+    "Shat00_2": -162.64802149771168,
+    "shell_minus_tail": {
+     "0.1": -1.6061914696771171,
+     "0.03333333333333333": -0.16043127858634632,
+     "0.01": 0.00402394315022883
+    }
+   },
+   "targets": {
+    "kappa2": 0.0,
+    "Shat00_2": -162.648,
+    "amps": [
+     -2714.48,
+     2.61e-05,
+     -274.0
+    ],
+    "shell": {
+     "0.1": -1.60619,
+     "0.03333333333333333": -0.16043,
+     "0.01": 0.00402
+    }
+   },
+   "note": "kappa^(2) = 0.0, Shat00^(2) = -162.64802149771168, amps (-2714.4828262295855, +2.6094584913725335e-05, -274.0041153566436) reproduced exactly from the stored components."
+  }
+ },
+ "S1_svd_P3": {
+  "spectrum_all_12": [
+   1.0397801854009343e-07,
+   2.0759923884765195e-08,
+   5.182144364939375e-09,
+   1.7261244671401617e-09,
+   4.366454246748431e-10,
+   3.1089827568603445e-11,
+   3.235127839696182e-12,
+   8.068024623554855e-13,
+   1.4812152730066087e-21,
+   2.2087773731429173e-22,
+   4.319053729049358e-25,
+   5.39034105871373e-26
+  ],
+  "spectrum_read": "Eight values from 1.040e-7 down to 8.068e-13, then a gap of ~5e8 to s8 = 1.481e-21, then 2.209e-22, 4.319e-25, 5.390e-26. Rank 8 at relative tolerance 1e-12; the lstsq solve keeps i=8 (and a whisper of i=9, a=5e-14).",
+  "components": [
+   {
+    "i": 0,
+    "s": 1.0397801854009343e-07,
+    "a_i": -7.978834676292124e-10,
+    "u_rhs_i": -8.296317665419069e-17,
+    "LJ_share_vec": [
+     8.865387316901596e-13,
+     2.0347490140311624e-16,
+     3.4866834568941075e-12,
+     -6.061354614578357e-12
+    ],
+    "LJ_share_norm": 7.048612080150121e-12,
+    "dominant_chat_idx": [
+     5
+    ]
+   },
+   {
+    "i": 1,
+    "s": 2.0759923884765195e-08,
+    "a_i": 6.889567388812523e-10,
+    "u_rhs_i": 1.4303075540178064e-17,
+    "LJ_share_vec": [
+     6.373393175235216e-13,
+     2.1891386432537802e-16,
+     2.7034985363009527e-12,
+     -6.804293756224024e-12
+    ],
+    "LJ_share_norm": 7.349389043339267e-12,
+    "dominant_chat_idx": [
+     4
+    ]
+   },
+   {
+    "i": 2,
+    "s": 5.182144364939375e-09,
+    "a_i": 3.275895527066197e-11,
+    "u_rhs_i": 1.6974346969038789e-19,
+    "LJ_share_vec": [
+     3.2120814495090535e-14,
+     1.813687633904386e-17,
+     1.735520976647937e-13,
+     -1.9624630174065506e-10
+    ],
+    "LJ_share_norm": 1.9624638111048542e-10,
+    "dominant_chat_idx": [
+     3
+    ]
+   },
+   {
+    "i": 3,
+    "s": 1.7261244671401617e-09,
+    "a_i": 7.403383461834778e-11,
+    "u_rhs_i": 1.2776920607541785e-19,
+    "LJ_share_vec": [
+     -1.905108864448284e-13,
+     -8.668459248078775e-17,
+     -1.4850127694448665e-10,
+     -1.4797920544740753e-10
+    ],
+    "LJ_share_norm": 2.096437711771913e-10,
+    "dominant_chat_idx": [
+     2
+    ]
+   },
+   {
+    "i": 4,
+    "s": 4.366454246748431e-10,
+    "a_i": -7.442746863262073e-09,
+    "u_rhs_i": -3.249837407663435e-18,
+    "LJ_share_vec": [
+     -1.2747612473293616e-09,
+     -5.898134200890063e-13,
+     -3.2553126579197866e-09,
+     -1.2046774325215356e-09
+    ],
+    "LJ_share_norm": 3.697745908362559e-09,
+    "dominant_chat_idx": [
+     6,
+     7
+    ]
+   },
+   {
+    "i": 5,
+    "s": 3.1089827568603445e-11,
+    "a_i": -4.2011431666821863e-08,
+    "u_rhs_i": -1.3061278933475996e-18,
+    "LJ_share_vec": [
+     -2.1797785948877643e-08,
+     -1.0885281992931187e-11,
+     -5.579349047671344e-08,
+     -3.691021967976497e-08
+    ],
+    "LJ_share_norm": 7.035923171230676e-08,
+    "dominant_chat_idx": [
+     8,
+     11,
+     6,
+     12,
+     10
+    ]
+   },
+   {
+    "i": 6,
+    "s": 3.235127839696182e-12,
+    "a_i": 7.436067583910244e-08,
+    "u_rhs_i": 2.405662853141498e-19,
+    "LJ_share_vec": [
+     1.9116030931571772e-08,
+     9.887530331854877e-12,
+     2.5688144335835412e-08,
+     1.031752459150839e-07
+    ],
+    "LJ_share_norm": 1.0802978693581144e-07,
+    "dominant_chat_idx": [
+     12,
+     10,
+     7
+    ]
+   },
+   {
+    "i": 7,
+    "s": 8.068024623554855e-13,
+    "a_i": 4.4286174727403704e-09,
+    "u_rhs_i": 3.573012188114723e-21,
+    "LJ_share_vec": [
+     8.970808892892675e-10,
+     3.0239500689101514e-13,
+     3.421714660360889e-10,
+     5.063135690298483e-09
+    ],
+    "LJ_share_norm": 5.1533657490919805e-09,
+    "dominant_chat_idx": [
+     11,
+     9,
+     10,
+     12
+    ]
+   },
+   {
+    "i": 8,
+    "s": 1.4812152730066087e-21,
+    "a_i": 82.80614814714602,
+    "u_rhs_i": 1.2265373133440388e-19,
+    "LJ_share_vec": [
+     -43.13581632536041,
+     0.019072083625594743,
+     -33.23745491959146,
+     77.10953724091715
+    ],
+    "LJ_share_norm": 94.39972540659144,
+    "dominant_chat_idx": [
+     10,
+     8,
+     0,
+     9
+    ]
+   },
+   {
+    "i": 9,
+    "s": 2.2087773731429173e-22,
+    "a_i": 4.973799150320701e-14,
+    "u_rhs_i": 7.812725803022555e-21,
+    "LJ_share_vec": [
+     2.824781148002832e-14,
+     -7.27536910064796e-18,
+     7.752065119491256e-14,
+     -4.676358171756665e-14
+    ],
+    "LJ_share_norm": 9.48378766268048e-14,
+    "dominant_chat_idx": [
+     9,
+     8,
+     0,
+     11
+    ]
+   },
+   {
+    "i": 10,
+    "s": 4.319053729049358e-25,
+    "a_i": -2.1316282072803006e-14,
+    "u_rhs_i": -1.5364155002196467e-22,
+    "LJ_share_vec": [
+     4.154216903856928e-16,
+     -3.1719230266079717e-18,
+     -1.2838007156406872e-14,
+     -2.0496141411941585e-15
+    ],
+    "LJ_share_norm": 1.300722611157643e-14,
+    "dominant_chat_idx": [
+     0,
+     9
+    ]
+   },
+   {
+    "i": 11,
+    "s": 5.39034105871373e-26,
+    "a_i": 0.0,
+    "u_rhs_i": 5.901907150428004e-22,
+    "LJ_share_vec": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "LJ_share_norm": 0.0,
+    "dominant_chat_idx": [
+     1,
+     10,
+     12
+    ]
+   },
+   {
+    "i": 12,
+    "s": 0.0,
+    "a_i": 4.440892098500626e-15,
+    "u_rhs_i": null,
+    "LJ_share_vec": [
+     -1.3599364059927291e-17,
+     -1.8872861156896375e-18,
+     -2.0176352344529903e-15,
+     -7.766489243222538e-16
+    ],
+    "LJ_share_norm": 2.161995373609482e-15,
+    "dominant_chat_idx": [
+     7,
+     12,
+     1
+    ]
+   },
+   {
+    "i": 13,
+    "s": 0.0,
+    "a_i": 3.1086244689504383e-15,
+    "u_rhs_i": null,
+    "LJ_share_vec": [
+     -3.1793987881165017e-18,
+     -4.624408460872884e-19,
+     -4.3404452290248943e-16,
+     -2.4120455268304612e-17
+    ],
+    "LJ_share_norm": 4.3472608232332916e-16,
+    "dominant_chat_idx": [
+     13
+    ]
+   },
+   {
+    "i": 14,
+    "s": 0.0,
+    "a_i": -1.3322676295501878e-15,
+    "u_rhs_i": null,
+    "LJ_share_vec": [
+     -1.1735802641701949e-18,
+     -1.0606102524469856e-19,
+     -8.728122670843903e-17,
+     2.772618940229533e-18
+    ],
+    "LJ_share_norm": 8.733320382932929e-17,
+    "dominant_chat_idx": [
+     14
+    ]
+   },
+   {
+    "i": 15,
+    "s": 0.0,
+    "a_i": 0.0,
+    "u_rhs_i": null,
+    "LJ_share_vec": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "LJ_share_norm": 0.0,
+    "dominant_chat_idx": [
+     15
+    ]
+   }
+  ],
+  "LJ_sum_check_abs_diff": [
+   2.1316282072803006e-14,
+   3.469446951953614e-18,
+   0.0,
+   1.4210854715202004e-14
+  ],
+  "load_carrier": {
+   "i": 8,
+   "s": 1.4812152730066087e-21,
+   "a_i": 82.80614814714602,
+   "u_rhs_i": 1.2265373133440388e-19,
+   "LJ_share_vec": [
+    -43.13581632536041,
+    0.019072083625594743,
+    -33.23745491959146,
+    77.10953724091715
+   ],
+   "LJ_share_norm": 94.39972540659144,
+   "share_of_total_LJ_norm": 0.9999999992578271,
+   "identification_chat_entries_ge_0.2": [
+    {
+     "chat_idx": 10,
+     "name": "B2",
+     "value": -0.561787733398906
+    },
+    {
+     "chat_idx": 8,
+     "name": "B0",
+     "value": -0.5209252850248308
+    },
+    {
+     "chat_idx": 0,
+     "name": "A0",
+     "value": -0.44943752600146586
+    },
+    {
+     "chat_idx": 9,
+     "name": "B1",
+     "value": -0.39157956925162957
+    },
+    {
+     "chat_idx": 1,
+     "name": "A1",
+     "value": 0.22379545661702424
+    }
+   ],
+   "jet_of_a8v8_U": [
+    -37.21619036096417,
+    0.0185316397352875,
+    -1.2792807310981447e-07,
+    -2.693726438373762e-11,
+    -1.0259045924293144e-12
+   ],
+   "jet_of_a8v8_V": [
+    -43.13581632536041,
+    -0.032425195822846066,
+    -9.303895655815837e-05,
+    -2.236657667664471e-08,
+    -6.97941695591153e-11
+   ],
+   "note": "v8 is dominated by the Bm Taylor coefficients B2 (-0.562), B0 (-0.521), B1 (-0.392) and the A coefficients A0 (-0.449), A1 (+0.224) at Sigma. a8*v8's jet equals the stored p2 jet to ~1e-9 relative: p2 IS this component, to the precision of every other component's share (<=1.1e-7 in L_J)."
+  },
+  "left_null_RHS": {
+   "unanswerable_content_i_ge_9_u_rhs": [
+    7.812725803022555e-21,
+    -1.5364155002196467e-22,
+    5.901907150428004e-22
+   ],
+   "norm": 7.836492536794143e-21,
+   "row_resid_norm": 7.916769979731328e-21,
+   "row_resid_max": 6.442983467071658e-21,
+   "note": "The part of the RHS no p2 can answer is the i>=9 left-null content, norm 7.84e-21, matching the row residual (norm 7.92e-21, max 6.44e-21, the stored value). The i=8 content u8.rhs = 1.2265e-19 IS answered by p2, at amplitude a8 = +82.81 through s8 = 1.481e-21; 1.2265e-19 is exactly the residual cost of removing component 8."
+  }
+ },
+ "S2_removals_primary": {
+  "order_desc_LJshare": [
+   8,
+   6,
+   5,
+   7,
+   4,
+   3,
+   2,
+   1,
+   0,
+   9,
+   10,
+   12,
+   13,
+   14
+  ],
+  "single_comp8": {
+   "row_resid_max": 1.0014121008348743e-19,
+   "row_resid_norm": 1.229042883583102e-19,
+   "LJ": [
+    -3.058019615309604e-09,
+    -1.2848352405022497e-12,
+    -3.316055348941964e-08,
+    6.976634018502572e-08
+   ],
+   "LJ_norm": 7.730663630087534e-08,
+   "LJ_norm_reduction": 94.39972539934573,
+   "Shat00_2": -6.329743916836423e-08,
+   "Shat_abs_reduction": 162.64802143441423,
+   "bar_met": false,
+   "chain": {
+    "amps": [
+     -1.793926712123014e-05,
+     4.308865642301993e-15,
+     -3.73304537556499e-07
+    ],
+    "kappa2": 0.0,
+    "kappa_restricted": 1.3641790185756692e-07,
+    "Shat00_2": -6.329743916836423e-08,
+    "shell_minus_tail": {
+     "0.1": 0.020288744667025606,
+     "0.03333333333333333": 0.02028874522966951,
+     "0.01": 0.020288745293670255
+    }
+   }
+  },
+  "singles_other_max_LJ_reduction": 6.649807460235024e-08,
+  "any_single_bar_met": false,
+  "any_prefix_bar_met": false,
+  "prefix_comp8_only": {
+   "removed_set": [
+    8
+   ],
+   "row_resid_max": 1.0014121008348743e-19,
+   "LJ_norm_reduction": 94.39972539934573,
+   "Shat00_2": -6.329743916836423e-08,
+   "bar_met": false
+  },
+  "breaking_point": "Removing component 8 alone: |L_J| reduction 94.40 (> floor 3.241) and Shat00^(2) -162.648 -> -6.33e-8, but row residual max 6.44e-21 -> 1.001e-19 > 1e-20 bar. No single removal and no joint prefix meets the bar."
+ },
+ "S3_regularisation": {
+  "P3_truncations": {
+   "P3_t1e-06": {
+    "kept": 8,
+    "row_resid_max": 1.0004677065957623e-19,
+    "LJ": [
+     -3.058066130652553e-09,
+     -1.2848141340919484e-12,
+     -3.316058459344926e-08,
+     6.976643576953136e-08
+    ],
+    "LJ_norm": 7.730673774434956e-08,
+    "Shat00_2": -6.329764122455783e-08,
+    "kappa2": 0.0
+   },
+   "P3_t1e-08": {
+    "kept": 8,
+    "row_resid_max": 1.0004677065957623e-19,
+    "LJ": [
+     -3.058066130652553e-09,
+     -1.2848141340919484e-12,
+     -3.316058459344926e-08,
+     6.976643576953136e-08
+    ],
+    "LJ_norm": 7.730673774434956e-08,
+    "Shat00_2": -6.329764122455783e-08,
+    "kappa2": 0.0
+   },
+   "P3_t1e-10": {
+    "kept": 8,
+    "row_resid_max": 1.0004677065957623e-19,
+    "LJ": [
+     -3.058066130652553e-09,
+     -1.2848141340919484e-12,
+     -3.316058459344926e-08,
+     6.976643576953136e-08
+    ],
+    "LJ_norm": 7.730673774434956e-08,
+    "Shat00_2": -6.329764122455783e-08,
+    "kappa2": 0.0
+   },
+   "P3_t1e-12": {
+    "kept": 8,
+    "row_resid_max": 1.0004677065957623e-19,
+    "LJ": [
+     -3.058066130652553e-09,
+     -1.2848141340919484e-12,
+     -3.316058459344926e-08,
+     6.976643576953136e-08
+    ],
+    "LJ_norm": 7.730673774434956e-08,
+    "Shat00_2": -6.329764122455783e-08,
+    "kappa2": 0.0
+   }
+  },
+  "P4_untruncated": {
+   "LJ_p2": [
+    -4.068402754690692,
+    0.001598069491090207,
+    -7.354697351371555,
+    7.104474371802844
+   ],
+   "row_resid_max": 9.561517099168877e-20,
+   "row_resid_norm": 1.1736805881766594e-19,
+   "chain": {
+    "J2tot": [
+     -4.068402750437461,
+     0.001598069484587534,
+     -7.3546971926013605,
+     7.104474118416279
+    ],
+    "amps": [
+     304.7972281612,
+     2.1899239277927293e-06,
+     -15.392945422940137
+    ],
+    "kappa2": 0.0,
+    "solve_resid": [
+     0.0,
+     1.0842021724855044e-18,
+     0.0
+    ],
+    "kappa_restricted": 5.625094545462678,
+    "Rtn_after": 4.164608206931968,
+    "Shat00_2": -5.552810942575957,
+    "shell_minus_tail": {
+     "0.1": -0.035239364125759585,
+     "0.03333333333333333": 0.01411895536380449,
+     "0.01": 0.0197334642057424
+    }
+   },
+   "spectrum_all_15": [
+    6.24940485372156e-07,
+    1.0396916756962478e-07,
+    2.076342855298053e-08,
+    5.230316015482158e-09,
+    3.1643221592660073e-09,
+    1.7030464238651228e-09,
+    1.994812166170117e-10,
+    1.5585953983057226e-11,
+    2.739891381465899e-12,
+    8.036290590380747e-13,
+    1.9157418132367834e-19,
+    1.0728089110643327e-21,
+    3.6638516610957157e-23,
+    3.304935807004809e-23,
+    6.540611524969902e-25
+   ],
+   "top_LJ_share_component": {
+    "i": 10,
+    "s": 1.9157418132367834e-19,
+    "a_i": -5.509810937827334,
+    "u_rhs_i": -1.0555375196625319e-18,
+    "LJ_share_norm": 11.005318335802336,
+    "LJ_share_vec": [
+     -4.068402757011266,
+     0.001598069493933505,
+     -7.354697329296947,
+     7.104474316914409
+    ]
+   },
+   "note": "P=4 moves the price (Shat00^(2) = -5.553, amps (304.80, +2.19e-6, -15.39), shell rows (-0.03524, +0.01412, +0.01973)) and its load again sits in one near-null tail component (i=10, s = 1.916e-19, share 11.01 of |L_J| = 11.01), BUT its row residual is 9.56e-20 > 1e-20: the re-read trigger's residual condition fails, so these swept values are recorded, NOT adopted."
+  },
+  "P4_truncations": {
+   "P4_t1e-06": {
+    "kept": 10,
+    "row_resid_max": 8.613284028535107e-19,
+    "LJ": [
+     2.320572717701856e-09,
+     -2.8432970949191115e-12,
+     -2.2074609829189138e-08,
+     5.488843514785132e-08
+    ],
+    "LJ_norm": 5.920653492574358e-08,
+    "Shat00_2": -5.072117043366164e-08,
+    "kappa2": 0.0
+   },
+   "P4_t1e-08": {
+    "kept": 10,
+    "row_resid_max": 8.613284028535107e-19,
+    "LJ": [
+     2.320572717701856e-09,
+     -2.8432970949191115e-12,
+     -2.2074609829189138e-08,
+     5.488843514785132e-08
+    ],
+    "LJ_norm": 5.920653492574358e-08,
+    "Shat00_2": -5.072117043366164e-08,
+    "kappa2": 0.0
+   },
+   "P4_t1e-10": {
+    "kept": 10,
+    "row_resid_max": 8.613284028535107e-19,
+    "LJ": [
+     2.320572717701856e-09,
+     -2.8432970949191115e-12,
+     -2.2074609829189138e-08,
+     5.488843514785132e-08
+    ],
+    "LJ_norm": 5.920653492574358e-08,
+    "Shat00_2": -5.072117043366164e-08,
+    "kappa2": 0.0
+   },
+   "P4_t1e-12": {
+    "kept": 10,
+    "row_resid_max": 8.613284028535107e-19,
+    "LJ": [
+     2.320572717701856e-09,
+     -2.8432970949191115e-12,
+     -2.2074609829189138e-08,
+     5.488843514785132e-08
+    ],
+    "LJ_norm": 5.920653492574358e-08,
+    "Shat00_2": -5.072117043366164e-08,
+    "kappa2": 0.0
+   }
+  },
+  "reread_trigger_evaluation": "At every swept setting that moves L_J[p2] by more than floor_J2 (all four P=3 truncations, all four P=4 truncations, the P=4 untruncated solve), the row residual exceeds 1e-20 (1.00e-19 / 8.61e-19 / 9.56e-20). Trigger NOT met anywhere; no price is re-read."
+ },
+ "kappa_audit": {
+  "max_abs_kappa2_over_all_arm_settings": 4.440892098500626e-16,
+  "n_settings": 68,
+  "note": "kappa^(2) (full-solve [Rt] residual) stays at 0 (<= 4.5e-16) under every removal, truncation, P=4, and on the second path. No machinery alarm on kappa."
+ },
+ "second_path": {
+  "engine": "bachfloat (roles exchanged per Phase 133's amendment pattern)",
+  "spectrum_P3": [
+   1.0397801854009345e-07,
+   2.075992388476518e-08,
+   5.182144364939384e-09,
+   1.7261244671400502e-09,
+   4.366454246725665e-10,
+   3.1089827569101873e-11,
+   3.235127839695714e-12,
+   8.068024623538712e-13,
+   7.799378718828975e-21,
+   1.3620801725536094e-22,
+   5.951947885570549e-25,
+   3.026853741740033e-26
+  ],
+  "spectrum_rel_diff_vs_primary": [
+   2.5457091771267275e-16,
+   7.969013924565104e-16,
+   1.7558342835147457e-15,
+   6.457389931225029e-14,
+   5.2138593747876616e-12,
+   1.603186819713433e-11,
+   1.4469795174751177e-13,
+   2.000829874308289e-12,
+   4.2655268015145404,
+   0.38333297456072907,
+   0.3780675719634074,
+   0.43846711946974354
+  ],
+  "LJ_p2": [
+   -1.577129232057186,
+   0.0004942421634723888,
+   -3.286406608031504,
+   2.673914791094231
+  ],
+  "row_resid_max": 1.262920307957584e-21,
+  "chain": {
+   "amps": [
+    164.57036101753914,
+    7.97316400807579e-07,
+    -5.460668573670341
+   ],
+   "kappa2": 0.0,
+   "Shat00_2": -1.2747563928375265,
+   "shell_minus_tail": {
+    "0.1": 0.007541181371624732,
+    "0.03333333333333333": 0.0188723493079583,
+    "0.01": 0.020161269660716245
+   }
+  },
+  "comp8": {
+   "s": 7.799378718828975e-21,
+   "a_i": 2.090402698806324,
+   "identification_chat_entries_ge_0.2": [
+    {
+     "chat_idx": 8,
+     "name": "B0",
+     "value": -0.7544619177302864
+    },
+    {
+     "chat_idx": 10,
+     "name": "B2",
+     "value": -0.3911027671367281
+    },
+    {
+     "chat_idx": 9,
+     "name": "B1",
+     "value": 0.3288638327559503
+    },
+    {
+     "chat_idx": 11,
+     "name": "B3",
+     "value": 0.24736260972591723
+    },
+    {
+     "chat_idx": 1,
+     "name": "A1",
+     "value": 0.2326396229847344
+    }
+   ],
+   "removal": {
+    "row_resid_max": 1.3216223458903705e-20,
+    "LJ_norm_reduction": 4.520799139798971,
+    "Shat00_2": -6.332266194492243e-08,
+    "bar_met": false
+   }
+  },
+  "M_diff_Frobenius": 2.395540925794273e-20,
+  "M_norm_Frobenius": 1.0617169369489048e-07,
+  "v8_alignment_abs_dot": 0.5532413567528169,
+  "agreement": "s0..s7 agree to <= 1.6e-11 relative; B2 stencil agrees with the primary's at all 7 radii to <= ~2e-3 relative (worst entry); in both assemblies one near-null component carries ~100% of the load, all others <= 1.1e-7; removal of that component breaks the residual bar on both paths; kappa^(2) = 0 on both.",
+  "discrepancy": "s8: 1.481e-21 (bachgen) vs 7.799e-21 (bachfloat), rel diff 4.27; comp-8 L_J share 94.40 vs 4.52; total L_J[p2] and Shat00^(2) differ accordingly (-162.648 vs -1.275); |v8 alignment| = 0.553. s8 lies below ||Delta M||_F = 2.40e-20, so the direction's exact content is assembly-dependent at float64 FD precision. Reported as a machinery discrepancy attached to the verdict, not averaged; the removal DECISION (the registered deciding feature) agrees on both paths."
+ },
+ "registered_basis_price_standing": {
+  "LJ_p2_per_eps2": [
+   -43.13581632841843,
+   0.01907208362430991,
+   -33.23745495275202,
+   77.10953731068348
+  ],
+  "Shat00_2_per_eps2": -162.64802149771168,
+  "amps_per_eps2": [
+   -2714.4828262295855,
+   2.6094584913725335e-05,
+   -274.0041153566436
+  ],
+  "shell_minus_tail": {
+   "0.1": -1.6061914696771171,
+   "0.03333333333333333": -0.16043127858634632,
+   "0.01": 0.00402394315022883
+  },
+  "note": "P133-2's price stands as computed in the registered basis (bachgen assembly, chat coordinates, P=3, min-norm rule), now with irreducibility at the 1e-20 residual standard stated."
+ },
+ "follow_up_experiments": [
+  "F1 (aimed at the mechanism): assemble the prolonged matrix M at 40-digit mpmath precision (Gate-9-standard reads) and recompute s8 and v8: decides whether the load-carrying direction at s ~ 1.5e-21 is a genuine feature of the exact prolonged system or an artefact of float64 finite-difference/polyfit assembly (the two float engines already disagree on it by a factor 5.3, and it lies below their mutual difference 2.40e-20).",
+  "F2 (already registered as P141-2): the radial-ODE construction of h2, which reads the join load from a profile with no jet algebra at all \u2014 the basis-independent counterpart of this item's question.",
+  "F3 (registration question for the coordinator): any future removal sweep on this system needs its residual bar set against the assembly's own reproducibility scale (here ||Delta M|| between engines), since the registered 1e-20 bar sits below that scale for the deciding direction; this item applied the bar as registered and does not re-set it."
+ ],
+ "scope": "Registered basis only (chat coordinates, P=3 primary with P=4 swept, min-norm rule, bachgen assembly as primary). The verdict is a statement about p2's representation of the second-order field IN THIS BASIS; the basis-independent question is P141-2's. l=0, second order only. INTERNAL only; nothing uploaded; nobody contacted. (V-b) UNDECIDED: Pais\u2013Uhlenbeck spin-2 ghost vs Mannheim PT-symmetric quantisation \u2014 opposed literature positions, B3 NOT COMPUTABLE (Phase 32)."
+}

@@ -1,0 +1,294 @@
+{
+ "item": "P122-1 checker",
+ "n_checks": 57,
+ "n_pass": 57,
+ "all_pass": true,
+ "checks": [
+  {
+   "check": "A1_restricted_kappa_within_5pct",
+   "pass": true,
+   "detail": "kappa mine -2.764306e-05 vs stored -2.764306e-05, rel 1.84e-15"
+  },
+  {
+   "check": "A1_dimension_7",
+   "pass": true,
+   "detail": "id_rank 7, svals tail 3.5e-05 -> 1.5e-17"
+  },
+  {
+   "check": "A1_enlarged_kappa_zero",
+   "pass": true,
+   "detail": "enlarged solve residual norm 8.63e-21 (floor 3.4e-9)"
+  },
+  {
+   "check": "A2_B_coefficient",
+   "pass": true,
+   "detail": "{\"l0\": 0.004302373597043583, \"l1\": 0.004302373597043582, \"l2\": 0.004302373597043581, \"l3\": 0.004302373597043583}"
+  },
+  {
+   "check": "A2_dipole_triple",
+   "pass": true,
+   "detail": "{\"B\": 8.585289812063991e-05, \"K\": 2.1323555517712094e-05, \"Rtn\": 2.150626539598693e-05}"
+  },
+  {
+   "check": "A2_Rt3",
+   "pass": true,
+   "detail": "mine 8.570444e-03 vs stored 8.570444e-03"
+  },
+  {
+   "check": "A2_S_identity",
+   "pass": true,
+   "detail": "S0=-2.0, S1=0.0, S2=-4.66e-16"
+  },
+  {
+   "check": "A3_background",
+   "pass": true,
+   "detail": "max |B| on background 7.94e-19 (r=11 point; <=1e-24 at Sigma)"
+  },
+  {
+   "check": "A3_xcheck_exact",
+   "pass": true,
+   "detail": "generic engine == reference engine at tested points"
+  },
+  {
+   "check": "l1_response_rank_6",
+   "pass": true,
+   "detail": "rank 6, svals ['6.0e+06', '8.6e+04', '1.5e+00', '1.4e+00', '1.4e+00', '7.0e-01']"
+  },
+  {
+   "check": "l1_p2_residuals_close",
+   "pass": true,
+   "detail": "max residual 3.21e-13 <= 1e-5"
+  },
+  {
+   "check": "l1_p2_amplitudes",
+   "pass": true,
+   "detail": "max amplitude 4.09e-03 <= 1e2"
+  },
+  {
+   "check": "l1_p2_route2_residuals_close",
+   "pass": true,
+   "detail": "route-2 max residual 5.60e-10 <= 1e-5"
+  },
+  {
+   "check": "l2_response_rank_6",
+   "pass": true,
+   "detail": "rank 6, svals ['3.8e+06', '7.0e+02', '1.3e+00', '1.2e+00', '8.0e-01', '5.2e-01']"
+  },
+  {
+   "check": "l2_p1_residuals_close",
+   "pass": true,
+   "detail": "max residual 6.28e-15 <= 1e-5"
+  },
+  {
+   "check": "l2_p1_amplitudes",
+   "pass": true,
+   "detail": "max amplitude 7.82e-06 <= 1e2"
+  },
+  {
+   "check": "l2_p1_route2_residuals_close",
+   "pass": true,
+   "detail": "route-2 max residual 1.14e-13 <= 1e-5"
+  },
+  {
+   "check": "l2_p3_residuals_close",
+   "pass": true,
+   "detail": "max residual 1.37e-12 <= 1e-5"
+  },
+  {
+   "check": "l2_p3_amplitudes",
+   "pass": true,
+   "detail": "max amplitude 3.96e-03 <= 1e2"
+  },
+  {
+   "check": "l2_p3_route2_residuals_close",
+   "pass": true,
+   "detail": "route-2 max residual 6.76e-11 <= 1e-5"
+  },
+  {
+   "check": "l3_response_rank_6",
+   "pass": true,
+   "detail": "rank 6, svals ['3.9e+06', '1.4e+03', '1.6e+00', '1.3e+00', '1.2e+00', '5.6e-01']"
+  },
+  {
+   "check": "l3_p2_residuals_close",
+   "pass": true,
+   "detail": "max residual 5.47e-16 <= 1e-5"
+  },
+  {
+   "check": "l3_p2_amplitudes",
+   "pass": true,
+   "detail": "max amplitude 8.01e-06 <= 1e2"
+  },
+  {
+   "check": "l3_p2_route2_residuals_close",
+   "pass": true,
+   "detail": "route-2 max residual 4.85e-13 <= 1e-5"
+  },
+  {
+   "check": "l3_p4_residuals_close",
+   "pass": true,
+   "detail": "max residual 8.87e-13 <= 1e-5"
+  },
+  {
+   "check": "l3_p4_amplitudes",
+   "pass": true,
+   "detail": "max amplitude 4.42e-03 <= 1e2"
+  },
+  {
+   "check": "l3_p4_route2_residuals_close",
+   "pass": true,
+   "detail": "route-2 max residual 5.13e-10 <= 1e-5"
+  },
+  {
+   "check": "shell_eps0.1_A",
+   "pass": true,
+   "detail": "min Shat00/alpha0 0.02029145, tail 2.1e-06"
+  },
+  {
+   "check": "shell_eps0.1_B",
+   "pass": true,
+   "detail": "min Shat00/alpha0 0.02029145, tail 2.1e-06"
+  },
+  {
+   "check": "shell_eps0.03333333333333333_A",
+   "pass": true,
+   "detail": "min Shat00/alpha0 0.02029145, tail 8.5e-09"
+  },
+  {
+   "check": "shell_eps0.03333333333333333_B",
+   "pass": true,
+   "detail": "min Shat00/alpha0 0.02029145, tail 8.5e-09"
+  },
+  {
+   "check": "shell_eps0.01_A",
+   "pass": true,
+   "detail": "min Shat00/alpha0 0.02029145, tail 2.1e-11"
+  },
+  {
+   "check": "shell_eps0.01_B",
+   "pass": true,
+   "detail": "min Shat00/alpha0 0.02029145, tail 2.1e-11"
+  },
+  {
+   "check": "secondpath_l1_B_p2",
+   "pass": true,
+   "detail": "primary 6.014537e-03 second 6.014537e-03 rel 1.48e-12"
+  },
+  {
+   "check": "secondpath_l1_K_p2",
+   "pass": true,
+   "detail": "primary -4.254506e-06 second -4.254506e-06 rel 1.99e-16"
+  },
+  {
+   "check": "secondpath_l1_Rt_p2",
+   "pass": true,
+   "detail": "primary 1.552938e-03 second 1.552938e-03 rel 6.65e-08"
+  },
+  {
+   "check": "secondpath_l1_hth_p2",
+   "pass": true,
+   "detail": "primary 5.992471e-03 second 5.992471e-03 rel 1.74e-15"
+  },
+  {
+   "check": "secondpath_l2_B_p1",
+   "pass": true,
+   "detail": "primary -1.268835e-05 second -1.268835e-05 rel 9.62e-09"
+  },
+  {
+   "check": "secondpath_l2_B_p3",
+   "pass": true,
+   "detail": "primary 4.296098e-03 second 4.296098e-03 rel 6.07e-08"
+  },
+  {
+   "check": "secondpath_l2_K_p3",
+   "pass": true,
+   "detail": "primary -8.532279e-06 second -8.532279e-06 rel 3.61e-14"
+  },
+  {
+   "check": "secondpath_l2_Rt_p3",
+   "pass": true,
+   "detail": "primary -1.213920e-04 second -1.212282e-04 rel 1.35e-03"
+  },
+  {
+   "check": "secondpath_l2_hth_p1",
+   "pass": true,
+   "detail": "primary 5.700094e-06 second 5.700094e-06 rel 4.69e-11"
+  },
+  {
+   "check": "secondpath_l2_hth_p3",
+   "pass": true,
+   "detail": "primary 4.280336e-03 second 4.280336e-03 rel 3.36e-11"
+  },
+  {
+   "check": "secondpath_l3_B_p2",
+   "pass": true,
+   "detail": "primary -1.141952e-05 second -1.141953e-05 rel 1.65e-06"
+  },
+  {
+   "check": "secondpath_l3_B_p4",
+   "pass": true,
+   "detail": "primary 4.295796e-03 second 4.295789e-03 rel 1.57e-06"
+  },
+  {
+   "check": "secondpath_l3_K_p4",
+   "pass": true,
+   "detail": "primary -1.281201e-05 second -1.281201e-05 rel 4.07e-12"
+  },
+  {
+   "check": "secondpath_l3_Rt_p2",
+   "pass": true,
+   "detail": "primary 1.291242e-05 second 1.290675e-05 rel 4.39e-04"
+  },
+  {
+   "check": "secondpath_l3_Rt_p4",
+   "pass": true,
+   "detail": "primary 8.413535e-03 second 8.412319e-03 rel 1.45e-04"
+  },
+  {
+   "check": "secondpath_l3_hth_p2",
+   "pass": true,
+   "detail": "primary 5.130084e-06 second 5.130084e-06 rel 3.84e-09"
+  },
+  {
+   "check": "secondpath_l3_hth_p4",
+   "pass": true,
+   "detail": "primary 4.280472e-03 second 4.280472e-03 rel 6.04e-09"
+  },
+  {
+   "check": "secondpath_l3_kth_p4",
+   "pass": true,
+   "detail": "primary 4.283369e-06 second 4.283369e-06 rel 2.01e-08"
+  },
+  {
+   "check": "secondpath_Rtn_l1_p2",
+   "pass": true,
+   "detail": "primary 1.622818e-03 second 1.545733e-03 rel 4.75e-02"
+  },
+  {
+   "check": "secondpath_Rtn_l3_p2",
+   "pass": true,
+   "detail": "primary 7.125451e-05 second 7.140112e-05 rel 2.06e-03"
+  },
+  {
+   "check": "secondpath_Rtn_l3_p4",
+   "pass": true,
+   "detail": "primary 2.495529e-02 second 2.490040e-02 rel 2.20e-03"
+  },
+  {
+   "check": "secondpath_Rtn_l2_eps0.1",
+   "pass": true,
+   "detail": "third -3.325126e-07 primary -3.325126e-07 rel 1.58e-11"
+  },
+  {
+   "check": "secondpath_Rtn_l2_eps0.01",
+   "pass": true,
+   "detail": "third 1.720409e-09 primary 1.720409e-09 rel 3.06e-10"
+  },
+  {
+   "check": "secondpath_Rtn_l2_eps0.001",
+   "pass": true,
+   "detail": "third 2.070125e-10 primary 2.070125e-10 rel 2.54e-10"
+  }
+ ],
+ "failed": []
+}
