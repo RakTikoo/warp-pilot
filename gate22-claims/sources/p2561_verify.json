@@ -1,0 +1,109 @@
+{
+ "item": "P256-1 checker",
+ "checks": [
+  {
+   "name": "protected_files_live_eq_results_before",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "protected_files_results_before_eq_after",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_sampled_bracket_recomputed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_refined_bracket_and_margins_recomputed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_decomposition_identity_recomputed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_stop_instant_recomputed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_recorded_pass_consistent",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL1_recorded_pass_consistent_with_diffs",
+   "pass": true,
+   "detail": "[0.0, 0.0, 0.0]"
+  },
+  {
+   "name": "CTRL1_profile_diff_recorded",
+   "pass": true,
+   "detail": "0.0"
+  },
+  {
+   "name": "P210_stored_director_t0p5_anchor_present",
+   "pass": true,
+   "detail": "0.0045418770853060675"
+  },
+  {
+   "name": "CTRL3_recorded_pass_consistent",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "probe_projection_arithmetic",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "fresh_G4_bracket_ends_diff_0p0",
+   "pass": true,
+   "detail": "{'0.65625': 0.0, '0.6625': 0.0}"
+  },
+  {
+   "name": "fresh_G5_bracket_ends_diff_0p0",
+   "pass": true,
+   "detail": "{'0.65625': 0.0, '0.6625': 0.0}"
+  },
+  {
+   "name": "fresh_G5_director_t0p5_diff_eq_CTRL3_recorded",
+   "pass": true,
+   "detail": "5.694021876223587e-08"
+  },
+  {
+   "name": "richardson_arithmetic_recomputed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "per_instant_values_eq_window_rows",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CERT_booleans_recomputed",
+   "pass": true,
+   "detail": "{'CERT1': True, 'CERT2': True, 'CERT3': True, 'CERT4': True}"
+  },
+  {
+   "name": "tail_pricing_recomputed",
+   "pass": true,
+   "detail": "{'first_exceed': 0.775, 'max': 1.6326915963205124e-05}"
+  },
+  {
+   "name": "verdict_form_consistent_with_decision_order",
+   "pass": true,
+   "detail": "{'recorded': 1, 'expected': 1, 'ctrl_fail': False, 'probe_fires': False}"
+  }
+ ],
+ "passed": 20,
+ "failed": 0,
+ "total": 20,
+ "elapsed_s": 708.6750752925873
+}

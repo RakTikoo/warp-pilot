@@ -1,0 +1,42 @@
+{
+ "checks": {
+  "n_records_1991": true,
+  "median_recomputed_matches": true,
+  "max_recomputed_matches": true,
+  "per_instant_matches": true,
+  "verdict_refired": true,
+  "n_le_matches": true,
+  "companion_below_bar_false": true,
+  "sensitivity_verdicts_agree": true,
+  "spot_recompute_t0_t1_diff0": true,
+  "worst_point_recomputed": true,
+  "records_distinct_from_J1": true,
+  "table_rows_in_expected_bands": true,
+  "controls_all_pass": true,
+  "md5_protected_now": true
+ },
+ "six_row_table": {
+  "prescribed_J1_throat": [
+   0.16762395022464124,
+   715629.9865333225
+  ],
+  "projected_theta_flat_throat": [
+   0.20335610883083352,
+   658563.2673166347
+  ],
+  "successor_att1_throat": [
+   0.19648455045061905,
+   750246.0213909098
+  ],
+  "projected_successor_throat": [
+   0.2423210414457235,
+   633905.8226189312
+  ],
+  "axisA_member_throat": [
+   0.16917676136946494,
+   808773.4788442705
+  ]
+ },
+ "n_pass": 14,
+ "n_total": 14
+}

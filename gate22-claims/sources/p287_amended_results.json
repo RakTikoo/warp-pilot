@@ -1,0 +1,363 @@
+{
+ "item": "P287 amended build (Amendment A1): Newton on the audit oracle; gate + smoothness guard; Item 2 if clean",
+ "date": "2026-11-24",
+ "amendment": "phase287/work/p287_registration.md A1",
+ "md5_protected_before": {
+  "/home/hatch/workspace/warp-pilot/phase169/work/p1692_engine.py": "1781b544920052bcc9b919574561acb2",
+  "/home/hatch/workspace/warp-pilot/phase167/work/p167_engine.py": "9db35c0b82635409e0bddf17251ba53f",
+  "/home/hatch/workspace/warp-pilot/phase162/work/p1621_engine.py": "1f12ec29c2693ca00a19da365abeccf4"
+ },
+ "guard": {
+  "max_err_incumbent_audit": 1.2676519482437623,
+  "guard_limit_10x": 12.676519482437623
+ },
+ "jacobian": {
+  "fd_step": 0.01,
+  "cond": 12891.238196304628,
+  "build_seconds": 4.473644495010376
+ },
+ "newton_trace": [
+  {
+   "iter": 0,
+   "max_abs_dP2": 1.164789360345793,
+   "n_above": 181,
+   "max_err": 0.3263655771182054
+  },
+  {
+   "iter": 1,
+   "accepted": true,
+   "halvings": 0,
+   "step_max_abs": 0.543805893566037,
+   "max_abs_dP2": 0.0030252631333951285,
+   "n_above": 4,
+   "max_err": 0.31876108801547315
+  },
+  {
+   "iter": 2,
+   "accepted": true,
+   "halvings": 0,
+   "step_max_abs": 0.00018831541691716257,
+   "max_abs_dP2": 1.047228352035745e-06,
+   "n_above": 0,
+   "max_err": 0.318005291817182
+  }
+ ],
+ "item1_amended": {
+  "verdict": "MEMBER BUILT AND AUDIT-CLEAN",
+  "gate": {
+   "n_above_floor": 0,
+   "max_abs_dP2": 1.047228352035745e-06,
+   "argmax_theta": 3.121592653589793,
+   "ctrlT": {
+    "prho_max_abs_diff": 0.0,
+    "rho_max_abs_diff": 0.0,
+    "pass": true
+   },
+   "m_at_rho0_max_abs_dev_from_0.4": 0.0,
+   "max_err": 0.318005291817182,
+   "guard_ok": true
+  },
+  "J_derived_range": [
+   -0.8893828104188174,
+   -0.5302647726893274
+  ],
+  "max_abs_J_departure_from_posed": 0.5436175781491198
+ },
+ "gate_passed": true,
+ "item2_pose_test": {
+  "pose_minima": {
+   "NEC_rho": 1.613596992176713,
+   "NEC_th": 1.5621310235442611,
+   "NEC_ph": 1.0154216858733955,
+   "WEC": 1.7901543713928072,
+   "DEC_rho": 1.4785772359002307,
+   "DEC_th": 1.5063061704591583,
+   "DEC_ph": 1.0154216858733955
+  },
+  "pose_argmin_theta": {
+   "NEC_rho": 1.5707963267948963,
+   "NEC_th": 1.5535652564971754,
+   "NEC_ph": 1.3984856238176857,
+   "WEC": 0.02,
+   "DEC_rho": 0.02,
+   "DEC_th": 0.02,
+   "DEC_ph": 1.3984856238176857
+  },
+  "all_seven_positive": true,
+  "worst_clause": "NEC_ph",
+  "incumbent_row_stored": {
+   "NEC_rho": 1.386147994784475,
+   "NEC_th": 1.3559004940354429,
+   "NEC_ph": 0.8141638620472562,
+   "WEC": 2.0174214338470633,
+   "DEC_rho": 1.386147994784475,
+   "DEC_th": 1.3559004940354429,
+   "DEC_ph": 0.8141638620472562
+  },
+  "departure_vs_incumbent": {
+   "NEC_rho": 0.227448997392238,
+   "NEC_th": 0.20623052950881826,
+   "NEC_ph": 0.20125782382613933,
+   "WEC": -0.2272670624542561,
+   "DEC_rho": 0.09242924111575568,
+   "DEC_th": 0.15040567642371538,
+   "DEC_ph": 0.20125782382613933
+  },
+  "G2_dmu_lock": {
+   "compat_Mhh_minus_fd4D2_dM_max_abs": 0.0,
+   "compat_Mh_minus_fd4D_dM_max_abs": 0.0,
+   "analytic_residual_max_abs": 0.0,
+   "lock_Mht_joint_max_abs": 0.0,
+   "residual_headline": 0.0
+  },
+  "G3_momentum": {
+   "mom_max_abs_joint": {
+    "mom_rho": 0.0,
+    "mom_th": 0.0,
+    "mom_ph": 0.0
+   },
+   "residual_headline": 0.0
+  },
+  "crossterm_diagnostic": {
+   "per_clause": {
+    "NEC_rho": {
+     "RxPhi": {
+      "min": -0.6393876779669707,
+      "max": -0.34440369781559776,
+      "median": -0.49478749868062777,
+      "max_abs_dev_from_median": 0.15038380086503
+     },
+     "DxR": {
+      "min": -1.4144241333724494e-13,
+      "max": 6.661338147750939e-16,
+      "median": 0.0,
+      "max_abs_dev_from_median": 1.4144241333724494e-13
+     },
+     "DxPhi": {
+      "min": -1.9384494009955233e-13,
+      "max": 4.951594689828198e-14,
+      "median": 0.0,
+      "max_abs_dev_from_median": 1.9384494009955233e-13
+     },
+     "triple": {
+      "min": -1.7985612998927536e-14,
+      "max": 2.7422508708241367e-13,
+      "median": 0.0,
+      "max_abs_dev_from_median": 2.7422508708241367e-13
+     }
+    },
+    "NEC_th": {
+     "RxPhi": {
+      "min": -0.3876068941666071,
+      "max": -0.28932487465242174,
+      "median": -0.3736907162760046,
+      "max_abs_dev_from_median": 0.08436584162358285
+     },
+     "DxR": {
+      "min": -2.7355895326763857e-13,
+      "max": 1.9095836023552692e-14,
+      "median": 0.0,
+      "max_abs_dev_from_median": 2.7355895326763857e-13
+     },
+     "DxPhi": {
+      "min": -4.218847493575595e-14,
+      "max": 2.1760371282653068e-14,
+      "median": 0.0,
+      "max_abs_dev_from_median": 4.218847493575595e-14
+     },
+     "triple": {
+      "min": -1.4654943925052066e-14,
+      "max": 1.1945999744966684e-13,
+      "median": 0.0,
+      "max_abs_dev_from_median": 1.1945999744966684e-13
+     }
+    },
+    "NEC_ph": {
+     "RxPhi": {
+      "min": -0.3876068941666071,
+      "max": -0.28932487465242174,
+      "median": -0.3736907162760046,
+      "max_abs_dev_from_median": 0.08436584162358285
+     },
+     "DxR": {
+      "min": -2.7355895326763857e-13,
+      "max": 4.773959005888173e-14,
+      "median": 0.0,
+      "max_abs_dev_from_median": 2.7355895326763857e-13
+     },
+     "DxPhi": {
+      "min": -1.3571366253017914e-12,
+      "max": 7.127631818093505e-14,
+      "median": 0.0,
+      "max_abs_dev_from_median": 1.3571366253017914e-12
+     },
+     "triple": {
+      "min": -4.596323321948148e-14,
+      "max": 1.9166890297128703e-12,
+      "median": 0.0,
+      "max_abs_dev_from_median": 1.9166890297128703e-12
+     }
+    },
+    "WEC": {
+     "RxPhi": {
+      "min": -0.6393876779669709,
+      "max": -0.34440369781559754,
+      "median": -0.49478749868062777,
+      "max_abs_dev_from_median": 0.15038380086503023
+     },
+     "DxR": {
+      "min": -1.4144241333724494e-13,
+      "max": 6.661338147750939e-16,
+      "median": 0.0,
+      "max_abs_dev_from_median": 1.4144241333724494e-13
+     },
+     "DxPhi": {
+      "min": -1.9384494009955233e-13,
+      "max": 4.951594689828198e-14,
+      "median": 0.0,
+      "max_abs_dev_from_median": 1.9384494009955233e-13
+     },
+     "triple": {
+      "min": -2.19824158875781e-14,
+      "max": 3.3506530883187224e-13,
+      "median": 2.220446049250313e-16,
+      "max_abs_dev_from_median": 3.348432642269472e-13
+     }
+    },
+    "DEC_rho": {
+     "RxPhi": {
+      "min": -0.6393876779669707,
+      "max": -0.34440369781559754,
+      "median": -0.49478749868062777,
+      "max_abs_dev_from_median": 0.15038380086503023
+     },
+     "DxR": {
+      "min": -1.4144241333724494e-13,
+      "max": 6.661338147750939e-16,
+      "median": 0.0,
+      "max_abs_dev_from_median": 1.4144241333724494e-13
+     },
+     "DxPhi": {
+      "min": -1.9384494009955233e-13,
+      "max": 4.951594689828198e-14,
+      "median": 0.0,
+      "max_abs_dev_from_median": 1.9384494009955233e-13
+     },
+     "triple": {
+      "min": -1.7985612998927536e-14,
+      "max": 2.7422508708241367e-13,
+      "median": 0.0,
+      "max_abs_dev_from_median": 2.7422508708241367e-13
+     }
+    },
+    "DEC_th": {
+     "RxPhi": {
+      "min": -0.3876068941666071,
+      "max": 0.08507796498518028,
+      "median": -0.32997974069831026,
+      "max_abs_dev_from_median": 0.41505770568349054
+     },
+     "DxR": {
+      "min": -3.3306690738754696e-16,
+      "max": 0.7374011167021216,
+      "median": 2.220446049250313e-16,
+      "max_abs_dev_from_median": 0.7374011167021214
+     },
+     "DxPhi": {
+      "min": -0.011665394443622024,
+      "max": 0.21193519629611357,
+      "median": 0.0,
+      "max_abs_dev_from_median": 0.21193519629611357
+     },
+     "triple": {
+      "min": -0.29166429531788685,
+      "max": 0.011665394443622024,
+      "median": -2.220446049250313e-16,
+      "max_abs_dev_from_median": 0.2916642953178866
+     }
+    },
+    "DEC_ph": {
+     "RxPhi": {
+      "min": -0.4049987183576771,
+      "max": 0.025323301113399643,
+      "median": -0.3637075500930669,
+      "max_abs_dev_from_median": 0.3890308512064665
+     },
+     "DxR": {
+      "min": -0.5313432481102411,
+      "max": 2.220446049250313e-16,
+      "median": -0.0009278860513055598,
+      "max_abs_dev_from_median": 0.5304153620589356
+     },
+     "DxPhi": {
+      "min": -0.0501254695340847,
+      "max": 0.7031030632460846,
+      "median": 0.0,
+      "max_abs_dev_from_median": 0.7031030632460846
+     },
+     "triple": {
+      "min": -0.2766494984494634,
+      "max": 0.4422078191900224,
+      "median": 0.0,
+      "max_abs_dev_from_median": 0.4422078191900224
+     }
+    }
+   },
+   "vs_closed_form_prediction": {
+    "NEC_rho": {
+     "max_abs_dev_from_prediction": 6.661338147750939e-16,
+     "median_dev_from_prediction": 1.6653345369377348e-16
+    },
+    "NEC_th": {
+     "max_abs_dev_from_prediction": 0.21389684984295002,
+     "median_dev_from_prediction": -0.09799457926224486
+    },
+    "NEC_ph": {
+     "max_abs_dev_from_prediction": 0.21389684984295002,
+     "median_dev_from_prediction": -0.0979945792622452
+    },
+    "WEC": {
+     "max_abs_dev_from_prediction": 5.551115123125783e-16,
+     "median_dev_from_prediction": 1.6653345369377348e-16
+    }
+   },
+   "director_pairings_worst_abs_pointwise_linear_clauses": 1.9166890297128703e-12,
+   "prediction_formula": "cross_pred(theta) = (Auu(theta) - 0.2) * (-2/A) * (e^{-2M} - 1) on NEC_rho/WEC, half on NEC_th/NEC_ph; A = 0.8, M = 0.25"
+  },
+  "J_attribution_swap": {
+   "row_with_posed_J_on_member_background": {
+    "NEC_rho": 1.613596992176713,
+    "NEC_th": 1.4696249927315623,
+    "NEC_ph": 0.9215331075483231,
+    "WEC": 1.7901543713928072,
+    "DEC_rho": 1.4785772359002307,
+    "DEC_th": 1.4696249927315623,
+    "DEC_ph": 0.9215331075483231
+   },
+   "note": "diagnostic, not a pose: isolates the J-derivation share of any departure"
+  },
+  "G1_director_tau": {
+   "evaluator": "p2621 tau(n) evaluator reused verbatim (via p264b), as registered",
+   "symbolic_tau_max_abs_sampled": 0.0,
+   "symbolic_bochner_trace_max_abs_sampled": 104.71323767974197,
+   "FD_tau_norm_at_theta_star": 0.004578038814043931,
+   "FD_tau_norm_interior_median": 0.0065017644698327414,
+   "FD_tau_norm_interior_max": 0.05241886964475684,
+   "residual_headline_symbolic": 0.0
+  },
+  "onshell_forms": {
+   "G1_symbolic_zero": true,
+   "G2_analytic_zero": true,
+   "G3_within_bar_0.02": true
+  }
+ },
+ "verdict_item2": "POSE HOLDS AT t = 0",
+ "verdict_item1": "MEMBER BUILT AND AUDIT-CLEAN",
+ "md5_protected_after": {
+  "/home/hatch/workspace/warp-pilot/phase169/work/p1692_engine.py": "1781b544920052bcc9b919574561acb2",
+  "/home/hatch/workspace/warp-pilot/phase167/work/p167_engine.py": "9db35c0b82635409e0bddf17251ba53f",
+  "/home/hatch/workspace/warp-pilot/phase162/work/p1621_engine.py": "1f12ec29c2693ca00a19da365abeccf4"
+ },
+ "control_C_MD5_identical": true,
+ "elapsed_s": 24.406973600387573
+}

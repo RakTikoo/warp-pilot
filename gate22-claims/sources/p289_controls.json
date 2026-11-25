@@ -1,0 +1,85 @@
+{
+ "phase": 289,
+ "run": "controls",
+ "registration": "phase289/work/p289_registration.md",
+ "md5_before": {
+  "/home/hatch/workspace/warp-pilot/phase169/work/p1692_engine.py": "1781b544920052bcc9b919574561acb2",
+  "/home/hatch/workspace/warp-pilot/phase167/work/p167_engine.py": "9db35c0b82635409e0bddf17251ba53f",
+  "/home/hatch/workspace/warp-pilot/phase162/work/p1621_engine.py": "1f12ec29c2693ca00a19da365abeccf4"
+ },
+ "control_C_PROF_M": {
+  "theta_grid_matches_audit": true,
+  "A_formula_vs_saved_Auu_new_max_abs_diff": 5.551115123125783e-17,
+  "A_formula_d0_vs_saved_Auu_inc_max_abs_diff": 0.0,
+  "A_formula_d0_exactly_minus0p3": true,
+  "J_derived_finite_all": true,
+  "J_derived_range": [
+   -0.8893828104188174,
+   -0.5302647726893274
+  ],
+  "pchip_node_reproduction_max_abs_diff": 0.0,
+  "Auu_new_range": [
+   -0.45,
+   -0.1501199840008533
+  ],
+  "pass": true
+ },
+ "control_C_STATE_M": {
+  "shapes": {
+   "MU": [
+    1601,
+    11521
+   ],
+   "U": [
+    1601,
+    11521
+   ],
+   "MTT": [
+    1601,
+    11521
+   ]
+  },
+  "times_first_last": [
+   0.0,
+   1.0
+  ],
+  "th_f_first_last": [
+   0.0,
+   3.141592653589793
+  ],
+  "n_times": 1601,
+  "pass": true
+ },
+ "C_S4B_J1_elapsed_s": 19.815406322479248,
+ "control_C_S4B_J1": {
+  "relc_median": 0.16762395022464124,
+  "relc_max": 715629.9865333225,
+  "diff_median_vs_p268": 0.0,
+  "diff_max_vs_p268": 0.0,
+  "n_le_0p02": 39,
+  "term_decomp": {
+   "deriv_t": 8.463682978665089e-07,
+   "deriv_u": 0.03492124113536448,
+   "deriv_th": 0.03520934999878432,
+   "deriv_phi_director": 0.0003202951650666136,
+   "gamma_trace": 0.04035147331359777,
+   "gamma_second": 0.0469991436184895
+  },
+  "pass": true
+ },
+ "C_S4B_M0_elapsed_s": 16.820755004882812,
+ "control_C_S4B_M0": {
+  "relc_median": 0.16762395022464124,
+  "relc_max": 715629.9865333225,
+  "per_point_max_abs_diff": 0.0,
+  "n_points": 1991,
+  "pass": true
+ },
+ "md5_after": {
+  "/home/hatch/workspace/warp-pilot/phase169/work/p1692_engine.py": "1781b544920052bcc9b919574561acb2",
+  "/home/hatch/workspace/warp-pilot/phase167/work/p167_engine.py": "9db35c0b82635409e0bddf17251ba53f",
+  "/home/hatch/workspace/warp-pilot/phase162/work/p1621_engine.py": "1f12ec29c2693ca00a19da365abeccf4"
+ },
+ "md5_stable": true,
+ "wall_s": 52.07861018180847
+}

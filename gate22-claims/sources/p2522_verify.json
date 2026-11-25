@@ -1,0 +1,193 @@
+{
+ "checker": "p2522_check",
+ "n_checks": 37,
+ "n_pass": 37,
+ "all_pass": true,
+ "checks": [
+  {
+   "name": "protected_md5_live_identity",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL_C_S_theta_star",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL_C_NEC_rho_min",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL_C_pass_stored",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "c_trim_stored",
+   "pass": true,
+   "detail": "5.253378225339471"
+  },
+  {
+   "name": "bracket_A_lo_margins_diff0",
+   "pass": true,
+   "detail": "0.4875"
+  },
+  {
+   "name": "bracket_A_hi_margins_diff0",
+   "pass": true,
+   "detail": "0.49375"
+  },
+  {
+   "name": "bracket_B_lo_margins_diff0",
+   "pass": true,
+   "detail": "0.525"
+  },
+  {
+   "name": "bracket_B_hi_margins_diff0",
+   "pass": true,
+   "detail": "0.53125"
+  },
+  {
+   "name": "bracket_R_lo_margins_diff0",
+   "pass": true,
+   "detail": "0.65625"
+  },
+  {
+   "name": "bracket_R_hi_margins_diff0",
+   "pass": true,
+   "detail": "0.6625"
+  },
+  {
+   "name": "CTRL_A_bracket_values",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL_B_bracket_values",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL_B_clamp_instant",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL_A_pass_stored",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL_B_pass_stored",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "law_at_wound_far",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "law_stop_time",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "law_at_bracket_ends_is_stop",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "PR_flat_peak@t=0.0",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "PR_flat_peak@t=0.25",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "PR_flat_peak@t=0.47500000000000003",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "PR_flat_peak@t=0.5625",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "pose_refusal_pass_stored",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "pose_refusal_law_all_pass",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "sampled_bracket_values",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "reposed_sampled_NEC_ph_diff0@t=0.65",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "reposed_sampled_NEC_ph_diff0@t=0.675",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "holds_at_wound_far_end",
+   "pass": true,
+   "detail": "NEC_ph 1.126925"
+  },
+  {
+   "name": "decomp_identity_lo",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "decomp_identity_hi",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "carrier_is_NEC_ph_DEC_ph",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "no_argmin_migration",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "worst_clause_always_NEC_ph",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "a_equiv_arithmetic",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "verdict_form_1",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "verdict_bracket_entirely_past_wound",
+   "pass": true,
+   "detail": "0.65625"
+  }
+ ]
+}

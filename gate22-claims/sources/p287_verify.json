@@ -1,0 +1,47 @@
+{
+ "md5": {
+  "p1692": true,
+  "p167": true,
+  "p1621": true
+ },
+ "md5_pass": true,
+ "incumbent_row": {
+  "max_abs_diff": 0.0,
+  "pass": true
+ },
+ "saved_Auu_matches_family": true,
+ "gate_rerun": {
+  "n_above": 0,
+  "max_abs_dP2": 1.047228352035745e-06,
+  "max_err": 0.318005291817182,
+  "ctrlT_pass": true,
+  "matches_results": true,
+  "pass": true
+ },
+ "pose_row": {
+  "recomputed": {
+   "NEC_rho": 1.613596992176713,
+   "NEC_th": 1.5621310235442611,
+   "NEC_ph": 1.0154216858733955,
+   "WEC": 1.7901543713928072,
+   "DEC_rho": 1.4785772359002307,
+   "DEC_th": 1.5063061704591583,
+   "DEC_ph": 1.0154216858733955
+  },
+  "max_abs_diff_vs_results": 0.0,
+  "all_positive": true,
+  "pass": true
+ },
+ "G2_analytic_zero": true,
+ "G3_headline": 0.0,
+ "G3_pass": true,
+ "factorial_prediction_NEC_rho": {
+  "max_abs_dev": 6.661338147750939e-16,
+  "pass": true
+ },
+ "swap_row": {
+  "max_abs_diff_vs_results": 0.0,
+  "pass": true
+ },
+ "ALL_PASS": true
+}

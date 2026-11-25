@@ -1,0 +1,310 @@
+{
+ "item": "P265-1-VERIFY",
+ "checker": "phase265/work/p2651_check.py",
+ "c_trim": 5.253378225339471,
+ "main_march_wall_s": 15.801743745803833,
+ "aux_march_wall_s": 33.298978328704834,
+ "checks": {
+  "C1": {
+   "bracket_stored": [
+    0.65625,
+    0.6625
+   ],
+   "fresh_lo_NEC_ph": 0.05279917238250764,
+   "fresh_hi_NEC_ph": -0.07369468042669158,
+   "driver_lo": 0.05279917238250764,
+   "driver_hi": -0.07369468042669158,
+   "p2522_lo": 0.05279917238250764,
+   "p2522_hi": -0.07369468042669158,
+   "diff_lo_vs_driver": 0.0,
+   "diff_hi_vs_driver": 0.0,
+   "diff_lo_vs_p2522": 0.0,
+   "diff_hi_vs_p2522": 0.0,
+   "pass": true
+  },
+  "C2": {
+   "arms": {
+    "3.0": {
+     "fresh_lo_NEC_ph": 0.051321249458261775,
+     "fresh_hi_NEC_ph": -0.04804452588981167,
+     "driver_lo": 0.051321249458261775,
+     "driver_hi": -0.04804452588981167,
+     "diff_lo_vs_driver": 0.0,
+     "diff_hi_vs_driver": 0.0,
+     "bracket_stored": [
+      0.675,
+      0.68125
+     ],
+     "sampled_first_fail_t": 0.7000000000000001,
+     "sampled_first_fail_carriers": [
+      "NEC_ph",
+      "DEC_ph"
+     ],
+     "sampled_last_pass_t": 0.675
+    },
+    "3.5": {
+     "fresh_lo_NEC_ph": 0.051321249458261775,
+     "fresh_hi_NEC_ph": -0.04804452588981167,
+     "driver_lo": 0.051321249458261775,
+     "driver_hi": -0.04804452588981167,
+     "diff_lo_vs_driver": 0.0,
+     "diff_hi_vs_driver": 0.0,
+     "bracket_stored": [
+      0.675,
+      0.68125
+     ],
+     "sampled_first_fail_t": 0.7000000000000001,
+     "sampled_first_fail_carriers": [
+      "NEC_ph",
+      "DEC_ph"
+     ],
+     "sampled_last_pass_t": 0.675
+    }
+   },
+   "diff_lo_3p0_vs_3p5": 0.0,
+   "diff_hi_3p0_vs_3p5": 0.0,
+   "pass": true
+  },
+  "C3": {
+   "arms": {
+    "1.5": {
+     "bracket_stored": [
+      0.59375,
+      0.6
+     ],
+     "fresh_lo_NEC_ph": 0.04444979106278524,
+     "fresh_hi_NEC_ph": -0.039778537628649246,
+     "driver_lo": 0.04444979106278524,
+     "driver_hi": -0.039778537628649246,
+     "diff_lo_vs_driver": 0.0,
+     "diff_hi_vs_driver": 0.0
+    },
+    "2.0": {
+     "bracket_stored": [
+      0.63125,
+      0.6375
+     ],
+     "fresh_lo_NEC_ph": 0.0013636084937767023,
+     "fresh_hi_NEC_ph": -0.10561892076459589,
+     "driver_lo": 0.0013636084937767023,
+     "driver_hi": -0.10561892076459589,
+     "diff_lo_vs_driver": 0.0,
+     "diff_hi_vs_driver": 0.0
+    }
+   },
+   "pass": true
+  },
+  "C4": {
+   "rows": {
+    "1.5": {
+     "fresh_t_clamp": 0.4362954312097357,
+     "driver_t_clamp": 0.4362954312097357,
+     "abs_diff": 0.0
+    },
+    "2.0": {
+     "fresh_t_clamp": 0.5343505917857057,
+     "driver_t_clamp": 0.5343505917857057,
+     "abs_diff": 0.0
+    },
+    "2.5": {
+     "fresh_t_clamp": 0.617014916018226,
+     "driver_t_clamp": 0.617014916018226,
+     "abs_diff": 0.0
+    },
+    "3.0": {
+     "fresh_t_clamp": 0.6898436476740386,
+     "driver_t_clamp": 0.6898436476740386,
+     "abs_diff": 0.0
+    },
+    "3.5": {
+     "fresh_t_clamp": 0.7556858539654343,
+     "driver_t_clamp": 0.7556858539654343,
+     "abs_diff": 0.0
+    }
+   },
+   "t_clamp_3p0_ge_0p68125": true,
+   "pass": true
+  },
+  "C5": {
+   "rows": {
+    "1.5": {
+     "0.65": {
+      "fresh_NEC_ph": -0.8388200651965452,
+      "driver_NEC_ph": -0.8388200651965452,
+      "diff_vs_driver": 0.0
+     },
+     "0.7": {
+      "fresh_NEC_ph": -1.9330733268624476,
+      "driver_NEC_ph": -1.9330733268624476,
+      "diff_vs_driver": 0.0
+     }
+    },
+    "2.0": {
+     "0.65": {
+      "fresh_NEC_ph": -0.33214969742977907,
+      "driver_NEC_ph": -0.33214969742977907,
+      "diff_vs_driver": 0.0
+     },
+     "0.7": {
+      "fresh_NEC_ph": -1.4403706755891683,
+      "driver_NEC_ph": -1.4403706755891683,
+      "diff_vs_driver": 0.0
+     }
+    },
+    "2.5": {
+     "0.65": {
+      "fresh_NEC_ph": 0.17452067033698704,
+      "driver_NEC_ph": 0.17452067033698704,
+      "diff_vs_driver": 0.0
+     },
+     "0.7": {
+      "fresh_NEC_ph": -0.9476680243158864,
+      "driver_NEC_ph": -0.9476680243158864,
+      "diff_vs_driver": 0.0
+     }
+    },
+    "3.0": {
+     "0.65": {
+      "fresh_NEC_ph": 0.39700195971574104,
+      "driver_NEC_ph": 0.39700195971574104,
+      "diff_vs_driver": 0.0
+     },
+     "0.7": {
+      "fresh_NEC_ph": -0.4549653730426062,
+      "driver_NEC_ph": -0.4549653730426062,
+      "diff_vs_driver": 0.0
+     }
+    },
+    "3.5": {
+     "0.65": {
+      "fresh_NEC_ph": 0.39700195971574104,
+      "driver_NEC_ph": 0.39700195971574104,
+      "diff_vs_driver": 0.0
+     },
+     "0.7": {
+      "fresh_NEC_ph": -0.38189231723825223,
+      "driver_NEC_ph": -0.38189231723825223,
+      "diff_vs_driver": 0.0
+     }
+    }
+   },
+   "equality_3p0_vs_3p5": {
+    "0.5625": {
+     "fresh_3p0": 1.1269254234362824,
+     "fresh_3p5": 1.1269254234362824,
+     "fresh_diff": 0.0,
+     "diff_3p0_vs_driver": 0.0,
+     "diff_3p5_vs_driver": 0.0
+    },
+    "0.6": {
+     "fresh_3p0": 0.8882615146791197,
+     "fresh_3p5": 0.8882615146791197,
+     "fresh_diff": 0.0,
+     "diff_3p0_vs_driver": 0.0,
+     "diff_3p5_vs_driver": 0.0
+    },
+    "0.65": {
+     "fresh_3p0": 0.39700195971574104,
+     "fresh_3p5": 0.39700195971574104,
+     "fresh_diff": 0.0,
+     "diff_3p0_vs_driver": 0.0,
+     "diff_3p5_vs_driver": 0.0
+    },
+    "0.65625": {
+     "fresh_3p0": 0.3178225144508442,
+     "fresh_3p5": 0.3178225144508442,
+     "fresh_diff": 0.0,
+     "diff_3p0_vs_driver": 0.0,
+     "diff_3p5_vs_driver": 0.0
+    },
+    "0.6625": {
+     "fresh_3p0": 0.23398378063097613,
+     "fresh_3p5": 0.23398378063097613,
+     "fresh_diff": 0.0,
+     "diff_3p0_vs_driver": 0.0,
+     "diff_3p5_vs_driver": 0.0
+    },
+    "0.66875": {
+     "fresh_3p0": 0.1452376904664927,
+     "fresh_3p5": 0.1452376904664927,
+     "fresh_diff": 0.0,
+     "diff_3p0_vs_driver": 0.0,
+     "diff_3p5_vs_driver": 0.0
+    },
+    "0.675": {
+     "fresh_3p0": 0.051321249458261775,
+     "fresh_3p5": 0.051321249458261775,
+     "fresh_diff": 0.0,
+     "diff_3p0_vs_driver": 0.0,
+     "diff_3p5_vs_driver": 0.0
+    }
+   },
+   "t0p7_3p0_vs_3p5_diff": 0.07307305580435397,
+   "t0p7_values_differ": true,
+   "pass": true
+  },
+  "C6": {
+   "t": 0.475,
+   "a_flat": -3.5,
+   "fresh_base_NEC_ph_min": -0.4614123481043306,
+   "fresh_argmin_index": 90,
+   "fresh_s_at_argmin": -1.1090035914040897,
+   "fresh_measured_NEC_ph_min": 3.420100221824649,
+   "fresh_linear_prediction": 3.4201002218099834,
+   "fresh_abs_dev": 1.4665602066088468e-11,
+   "driver_measured": 3.420100221824649,
+   "driver_linear": 3.4201002218099834,
+   "driver_abs_dev": 1.4665602066088468e-11,
+   "diff_dev_vs_driver": 0.0,
+   "diff_measured_vs_driver": 0.0,
+   "pass": true
+  },
+  "C7": {
+   "form1_conditions": {
+    "gates_pass_3p0": true,
+    "gates_pass_3p5": true,
+    "brackets_coincide_exactly": true,
+    "hi_carriers_3p0_exact": true,
+    "hi_carriers_3p5_exact": true,
+    "t_clamp_3p0": 0.6898436476740386,
+    "coincident_hi": 0.68125,
+    "t_clamp_3p0_ge_hi": true
+   },
+   "structural_pass_stored": true,
+   "form1_fires": true,
+   "form2_would_fire": false,
+   "form3_would_fire": false,
+   "stored_verdict_form": 1,
+   "stored_verdict_name": "THE STOP RETIRES",
+   "pass": true
+  },
+  "C8": {
+   "before_equals_after_stored": true,
+   "live_matches_before": true,
+   "live_matches_after": true,
+   "n_files": 15,
+   "live_md5": {
+    "phase129/work/p1296_derive_raw.json": "d89f6a8646e4a96d7733c0b1827b5fcd",
+    "phase150/work/p1501_families.py": "9738b6267ec51a10f62db9f495b06b40",
+    "phase162/work/p1621_engine.py": "1f12ec29c2693ca00a19da365abeccf4",
+    "phase167/work/p167_engine.py": "9db35c0b82635409e0bddf17251ba53f",
+    "phase169/work/p1692_engine.py": "1781b544920052bcc9b919574561acb2",
+    "phase202/work/p2022_wound.py": "24f0d69cd099b89cd42abef59d378b3d",
+    "phase246/work/p2462_run.py": "a1a1d5875adeb727895cd59315601b37",
+    "phase246/results/p2462_results.json": "b5a95afb71e723391eecf5080a74761a",
+    "phase248/work/p2481_run.py": "723bc38cea2829e329bd10579b39b860",
+    "phase248/results/p2481_results.json": "7945d441e3149d8595f51917e7a4518b",
+    "phase248/results/p2482_results.json": "a33d3dc69c420adb4da0226dbdc3f628",
+    "phase252/work/p252_registration.md": "d4aa00fa7620708c4596aa3359d86d3a",
+    "phase252/results/p2521_results.json": "aab0f234f7152cdbb36226ca06a21ef7",
+    "phase252/results/p2522_results.json": "e8fc99bfc5b971394519d75ed05b18b1",
+    "phase265/work/p265_registration.md": "623c39c6ede2657ae250857385388a41"
+   },
+   "mismatches": [],
+   "pass": true
+  }
+ },
+ "all_pass": true,
+ "independent_verdict_form": 1,
+ "elapsed_s": 64.11465454101562
+}

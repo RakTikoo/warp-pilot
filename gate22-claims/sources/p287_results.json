@@ -1,0 +1,246 @@
+{
+ "item": "P287 Axis A (theta-dependent deformation family, built through the TOV identity, audit-gated, pose-tested)",
+ "date": "2026-11-24",
+ "frame": "Phase 166 pin, Gate-19-corrected tensor",
+ "registration": "phase287/work/p287_registration.md",
+ "md5_protected_before": {
+  "/home/hatch/workspace/warp-pilot/phase169/work/p1692_engine.py": "1781b544920052bcc9b919574561acb2",
+  "/home/hatch/workspace/warp-pilot/phase167/work/p167_engine.py": "9db35c0b82635409e0bddf17251ba53f",
+  "/home/hatch/workspace/warp-pilot/phase162/work/p1621_engine.py": "1f12ec29c2693ca00a19da365abeccf4"
+ },
+ "machinery_fact_no_Auuuu_jet": true,
+ "control_C_273": {
+  "orig": {
+   "static_c3": {
+    "c3_min": -1.7217247234081e-08,
+    "c3_min_r": 39.375,
+    "all_nonneg": false
+   },
+   "target_c3_min": -1.7217e-08,
+   "target_r": 39.375,
+   "sign_exact": true,
+   "value_within_5pct": true,
+   "r_exact": true,
+   "deltaP_tail": {
+    "max_abs_on_r>=35": 5.913206017847564e-08,
+    "at_r39": 2.390678160225183e-09,
+    "P_posed_at_32": 6.962284468340843e-07,
+    "nonzero": true
+   },
+   "verdict_reproduced": "FAILS"
+  },
+  "rb2": {
+   "static_c3": {
+    "c3_min": 1.7334122513911153e-11,
+    "c3_min_r": 44.0,
+    "all_nonneg": true
+   },
+   "target_c3_min": 1.733e-11,
+   "nonneg": true,
+   "within_10x": true,
+   "rho_bitwise": true,
+   "m_bitwise": true,
+   "b_bitwise": true,
+   "Pprime_minus_PTOV_max_abs_35_44": 0.0,
+   "verdict_reproduced": "PASSES",
+   "info": {
+    "a_splice_shift": -0.00023132883890952805,
+    "P_inw_at_39": 4.5360255394625056e-10,
+    "P_orig_at_39": 2.8442807141714335e-09,
+    "max_abs_dP_tail": 1.130988409777323e-07
+   }
+  },
+  "pass": true
+ },
+ "control_C_INC_ROW": {
+  "rebuilt_minima": {
+   "NEC_rho": 1.386147994784475,
+   "NEC_th": 1.3559004940354429,
+   "NEC_ph": 0.8141638620472562,
+   "WEC": 2.0174214338470633,
+   "DEC_rho": 1.386147994784475,
+   "DEC_th": 1.3559004940354429,
+   "DEC_ph": 0.8141638620472562
+  },
+  "stored_minima": {
+   "NEC_rho": 1.386147994784475,
+   "NEC_th": 1.3559004940354429,
+   "NEC_ph": 0.8141638620472562,
+   "WEC": 2.0174214338470633,
+   "DEC_rho": 1.386147994784475,
+   "DEC_th": 1.3559004940354429,
+   "DEC_ph": 0.8141638620472562
+  },
+  "per_clause_abs_diff": {
+   "NEC_rho": 0.0,
+   "NEC_th": 0.0,
+   "NEC_ph": 0.0,
+   "WEC": 0.0,
+   "DEC_rho": 0.0,
+   "DEC_th": 0.0,
+   "DEC_ph": 0.0
+  },
+  "max_abs_diff": 0.0,
+  "tolerance": 5e-07,
+  "grid_mean_Auu_new_member": -0.3010950325075936,
+  "grid_mean_Auu_incumbent": -0.3,
+  "new_member_Auu_range": [
+   -0.45,
+   -0.1501199840008533
+  ],
+  "pass": true
+ },
+ "derivation_PATH_S": {
+  "O_rho1_coefficient": "(R0*(J(theta)*e0(theta) + J(theta)*p0(theta) + P2(theta)) - Auu(theta)*f0(theta) + 2*Auu(theta)*p0(theta) - Auu(theta)*t0(theta))/R0",
+  "matches_registered_form_with_Auu(theta)": true,
+  "Auu_prime_terms_present": false,
+  "coefficients": {
+   "alpha_on_P2": 1,
+   "beta_on_(rho+p_rho)*J": 1,
+   "gamma_on_(Auu(theta)/R0)*(2p_rho-p_th-p_ph)": 1,
+   "extra_terms": "none"
+  },
+  "separable_in_P2": true
+ },
+ "derivation_PATH_F": {
+  "grid": "theta = AUDIT_TH[0,45,90,135,180]; rho line step 2e-3 on [-0.06,0.5]; c1 by linear fit on [0.02,0.30]; T prescribed independently of the metric; Aux = the new member Auu(theta) at the sampled theta (the FD path is at fixed theta, so Auu-prime cannot enter it \u2014 PATH-S carries that question)",
+  "per_theta": {
+   "0": {
+    "theta": 0.02,
+    "Auu_local": -0.1501199840008533,
+    "c1_base_FD": 0.5368620301310915,
+    "c1_base_PATHS_prediction": 0.5368407871085408,
+    "alpha_FD": 1.000033912883615,
+    "d_c1_dJ_FD": 0.5899999999999995,
+    "beta_times_(e0+p0)_expected": 0.5900000000000001,
+    "d_c1_dAuu_FD": -2.712341321027488,
+    "gamma_over_R0_times_(2p0-t0-f0)_expected": -2.7125,
+    "d_c1_de0_FD": -1.187050287277585,
+    "J_times_1_expected": -1.1870502872775823
+   },
+   "45": {
+    "theta": 0.7953981633974482,
+    "Auu_local": -0.3029998000039999,
+    "c1_base_FD": 1.1405971568271722,
+    "c1_base_PATHS_prediction": 1.1405386219456053,
+    "alpha_FD": 1.0001396825454578,
+    "d_c1_dJ_FD": 0.5899999999999992,
+    "beta_times_(e0+p0)_expected": 0.5900000000000001,
+    "d_c1_dAuu_FD": -2.7126416477915027,
+    "gamma_over_R0_times_(2p0-t0-f0)_expected": -2.7125,
+    "d_c1_de0_FD": -0.8666920941783806,
+    "J_times_1_expected": -0.8666920941783801
+   },
+   "90": {
+    "theta": 1.5707963267948963,
+    "Auu_local": -0.45,
+    "c1_base_FD": 1.6284746578036122,
+    "c1_base_PATHS_prediction": 1.6284062499999998,
+    "alpha_FD": 1.00031138687278,
+    "d_c1_dJ_FD": 0.5900000000000011,
+    "beta_times_(e0+p0)_expected": 0.5900000000000001,
+    "d_c1_dAuu_FD": -2.7126661995564874,
+    "gamma_over_R0_times_(2p0-t0-f0)_expected": -2.7125,
+    "d_c1_de0_FD": -0.7156250000000012,
+    "J_times_1_expected": -0.7156250000000002
+   },
+   "135": {
+    "theta": 2.3461944901923446,
+    "Auu_local": -0.302999800004,
+    "c1_base_FD": 1.1405971568271738,
+    "c1_base_PATHS_prediction": 1.1405386219456055,
+    "alpha_FD": 1.0001396825454585,
+    "d_c1_dJ_FD": 0.5900000000000004,
+    "beta_times_(e0+p0)_expected": 0.5900000000000001,
+    "d_c1_dAuu_FD": -2.712641647791506,
+    "gamma_over_R0_times_(2p0-t0-f0)_expected": -2.7125,
+    "d_c1_de0_FD": -0.8666920941783811,
+    "J_times_1_expected": -0.86669209417838
+   },
+   "180": {
+    "theta": 3.121592653589793,
+    "Auu_local": -0.1501199840008533,
+    "c1_base_FD": 0.5368620301310915,
+    "c1_base_PATHS_prediction": 0.5368407871085408,
+    "alpha_FD": 1.000033912883615,
+    "d_c1_dJ_FD": 0.5899999999999995,
+    "beta_times_(e0+p0)_expected": 0.5900000000000001,
+    "d_c1_dAuu_FD": -2.712341321027488,
+    "gamma_over_R0_times_(2p0-t0-f0)_expected": -2.7125,
+    "d_c1_de0_FD": -1.187050287277585,
+    "J_times_1_expected": -1.1870502872775823
+   }
+  }
+ },
+ "control_C_INC_AUDIT": {
+  "dP2_max_abs_diff_vs_p285": 2.398081733190338e-13,
+  "err_max_abs_diff_vs_p285": 5.861977570020827e-14,
+  "n_above_floor_mine": 181,
+  "n_above_floor_p285": 181,
+  "max_abs_dP2_mine": 1.9849877114874115,
+  "max_abs_dP2_p285": 1.9849877114876513,
+  "ctrlT": {
+   "prho_max_abs_diff": 0.0,
+   "rho_max_abs_diff": 0.0,
+   "pass": true
+  },
+  "tolerance": 1e-09,
+  "pass": true
+ },
+ "item1_build_and_gate": {
+  "n_evaluations": 6,
+  "maxabs_trace": [
+   1.164789360345793,
+   1.258383089316709,
+   4694.133861871684,
+   3115.296696752961,
+   1014.1416829106645,
+   361.5888722374917
+  ],
+  "n_above_trace": [
+   181,
+   181,
+   171,
+   172,
+   164,
+   145
+  ],
+  "J_derived_range": [
+   -7.379359550382683,
+   0.6812467556496173
+  ],
+  "J_posed_range": [
+   -1.1870502872775823,
+   -0.7156250000000002
+  ],
+  "max_abs_J_departure_from_posed": 6.6129556398995835,
+  "gate": {
+   "n_above_floor": 145,
+   "max_abs_dP2": 361.5888722374917,
+   "argmax_theta": 1.1572506396495907,
+   "ctrlT": {
+    "prho_max_abs_diff": 0.0,
+    "rho_max_abs_diff": 0.0,
+    "pass": true
+   },
+   "m_at_rho0_max_abs_dev_from_0.4": 0.0,
+   "passes": false
+  },
+  "slope_at_build": {
+   "min_abs_slope_where_needed": 0.014417458280353568,
+   "median_abs_slope": 1.6263605495246791
+  },
+  "diverged": false,
+  "verdict": "MEMBER AUDIT-DEAD"
+ },
+ "item2_pose_test": null,
+ "verdict_item1": "MEMBER AUDIT-DEAD",
+ "verdict_item2": "NOT RUN (Item 1 gate)",
+ "md5_protected_after": {
+  "/home/hatch/workspace/warp-pilot/phase169/work/p1692_engine.py": "1781b544920052bcc9b919574561acb2",
+  "/home/hatch/workspace/warp-pilot/phase167/work/p167_engine.py": "9db35c0b82635409e0bddf17251ba53f",
+  "/home/hatch/workspace/warp-pilot/phase162/work/p1621_engine.py": "1f12ec29c2693ca00a19da365abeccf4"
+ },
+ "control_C_MD5_identical": true,
+ "elapsed_s": 13.534655570983887
+}

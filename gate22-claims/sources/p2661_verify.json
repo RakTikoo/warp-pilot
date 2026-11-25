@@ -1,0 +1,134 @@
+{
+ "item": "P266-1 checker",
+ "checks": [
+  {
+   "name": "protected_files_live_eq_results_before",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "protected_files_results_before_eq_after",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_arm3.0_sampled_bracket_recomputed",
+   "pass": true,
+   "detail": "{'last_pass': 0.675, 'first_fail': 0.7000000000000001, 'carriers': ['DEC_ph', 'NEC_ph']}"
+  },
+  {
+   "name": "CTRL2_arm3.0_refined_bracket_recomputed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_arm3.5_sampled_bracket_recomputed",
+   "pass": true,
+   "detail": "{'last_pass': 0.675, 'first_fail': 0.7000000000000001, 'carriers': ['DEC_ph', 'NEC_ph']}"
+  },
+  {
+   "name": "CTRL2_arm3.5_refined_bracket_recomputed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_refined_brackets_identical_between_arms",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_clamp_arithmetic_recomputed",
+   "pass": true,
+   "detail": "{'t_clamp_3.0': 0.6898436476740386, 't_clamp_3.5': 0.7556858539654343}"
+  },
+  {
+   "name": "CTRL2_arm3.0_ladder_and_fixed_t_unclamped_exact",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_arm3.5_ladder_and_fixed_t_unclamped_exact",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL2_recorded_pass_consistent",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CTRL1_recorded_pass_consistent_with_diffs",
+   "pass": true,
+   "detail": "{'diffs': [0.0, 0.0, 0.0, 0.0], 'flags': [True, True]}"
+  },
+  {
+   "name": "P210_stored_director_t0p5_anchor_present",
+   "pass": true,
+   "detail": "0.0045418770853060675"
+  },
+  {
+   "name": "CTRL3_recorded_pass_consistent",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "probe_projection_arithmetic",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "fresh_G4_bracket_ends_diff_0p0",
+   "pass": true,
+   "detail": "{'0.675': 0.0, '0.68125': 0.0}"
+  },
+  {
+   "name": "fresh_G5_bracket_ends_diff_0p0",
+   "pass": true,
+   "detail": "{'0.675': 0.0, '0.68125': 0.0}"
+  },
+  {
+   "name": "fresh_G5_director_t0p5_diff_eq_CTRL3_recorded",
+   "pass": true,
+   "detail": "5.694021876223587e-08"
+  },
+  {
+   "name": "richardson_arithmetic_recomputed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "per_instant_values_eq_window_rows",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "CERT_booleans_recomputed",
+   "pass": true,
+   "detail": "{'CERT1': True, 'CERT2': True, 'CERT3': True, 'CERT4': True}"
+  },
+  {
+   "name": "NEC_DEC_pointwise_identity_window_rows",
+   "pass": true,
+   "detail": "{'G3': 0.0, 'G4': 0.0, 'G5': 0.0}"
+  },
+  {
+   "name": "tail_pricing_recomputed",
+   "pass": true,
+   "detail": "{'first_exceed': 0.775, 'max': 1.6326921098652747e-05}"
+  },
+  {
+   "name": "no_stop_parameter_record",
+   "pass": true,
+   "detail": "a(t) = -0.5 - c_trim*t^2, UNCLAMPED (no stop parameter)"
+  },
+  {
+   "name": "verdict_form_consistent_with_decision_order",
+   "pass": true,
+   "detail": "{'recorded': 1, 'expected': 1, 'ctrl_fail': False, 'probe_fires': False}"
+  }
+ ],
+ "passed": 25,
+ "failed": 0,
+ "total": 25,
+ "elapsed_s": 671.7751748561859
+}

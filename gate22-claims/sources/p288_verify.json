@@ -1,0 +1,65 @@
+{
+ "checker": "p288_check.py (independent recompute from the on-disk checkpoint)",
+ "n_pass": 11,
+ "n_total": 11,
+ "all_pass": true,
+ "checks": {
+  "checkpoint_keys": {
+   "pass": true,
+   "detail": "['MTT', 'MU', 'U', 'th_f', 'times']"
+  },
+  "checkpoint_shapes": {
+   "pass": true,
+   "detail": "MU (1601, 11521) U (1601, 11521) MTT (1601, 11521)"
+  },
+  "MU_sub40_vs_p2691_diff0": {
+   "pass": true,
+   "detail": "diff 0.000e+00"
+  },
+  "control_bracket": {
+   "pass": true,
+   "detail": "[0.55, 0.55625]"
+  },
+  "control_rows_vs_results_diff0": {
+   "pass": true,
+   "detail": "max diff 0.000e+00"
+  },
+  "member_bracket": {
+   "pass": true,
+   "detail": "[0.5750000000000001, 0.58125]"
+  },
+  "member_rows_vs_results_diff0": {
+   "pass": true,
+   "detail": "max diff 0.000e+00"
+  },
+  "member_refinement_vs_results_diff0": {
+   "pass": true,
+   "detail": "max diff 0.000e+00"
+  },
+  "t0_swaps_vs_results_diff0": {
+   "pass": true,
+   "detail": "max diff 0.000e+00; NEC_ph Auu-only 1.426287 J-only 1.557146"
+  },
+  "tau_window_maxima_vs_results_diff0": {
+   "pass": true,
+   "detail": "max diff 0.000e+00; wm(1.0) 1.245852"
+  },
+  "protected_md5_identical": {
+   "pass": true,
+   "detail": "['1781b544', '9db35c0b', '1f12ec29']"
+  }
+ },
+ "member_bracket_recomputed": [
+  0.5750000000000001,
+  0.58125
+ ],
+ "control_bracket_recomputed": [
+  0.55,
+  0.55625
+ ],
+ "tau_window_maxima_recomputed": {
+  "0.5": 0.02761208834655333,
+  "0.55": 0.042164266937732876,
+  "1.0": 1.245852094753944
+ }
+}
