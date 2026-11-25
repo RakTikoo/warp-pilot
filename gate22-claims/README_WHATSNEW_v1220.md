@@ -1,0 +1,13 @@
+# Prepared README update for v1.22.0 (apply at Stage 2 to the repo README's "What's new here" section)
+
+## Insert at the TOP of the "What's new here" list
+
+- **v1.22.0 — the sustainment line at verdict grade (Gates 22/23/26/27/28 + Gate-31 companion).** One coherent release (`gate22-claims/`), novelty **NONE** throughout. **Lead — G27-A:** the combined-class pose, unclamped, is certified to a first crossing at t ∈ (0.675, 0.68125] on NEC_φ = DEC_φ (grid-stability certificate, 1×10⁻⁶ bar), with Gate-28's fence on its face: the fitted trim coefficient's measured uncertainty δc_trim ∈ [−1.159, +0.441] — under it the lead over the wound pose's certified bracket (0.55625, 0.5625] survives the full range, while the ordering past the pose's own clamped certificate (0.65625, 0.6625] is a property of the stored coefficient and is not claimed under refit. G27-A replaces the clamped G26-A as lead (the clamped certificate remains of record). Behind it: **Gate-22** (director arm meets every clause bar at the 21 sampled instants of [0, 0.5], worst +0.0045418770853060675; the Phase 207 refinement gate is a grid artefact — Richardson limit 3.108629483945071×10⁻⁷ ≤ the 1×10⁻⁶ bar), **Gate-23** (three-channel pose certified, first crossing (0.55625, 0.5625]; Phase 214's (0.5, 0.50625] certified under the same certificate), **Gate-26** (the lead changes hands at verdict grade; fences), and **companion G31-A** (Axis A member certified to (0.575, 0.58125] on a background TOV-consistent at the audit order by construction — a programme-internal distinction, stated exactly; it does not replace the lead). All claims are jet-scope sector-superposition exhibits — exhibit ≠ construction; programme-level sustainment wording remains gated by the p1592 deciding scan; no traversability claim is made. DOI: [version DOI minted at release — fill in at Stage 2].
+
+## Framing checks (Stage 2, on the live README text)
+
+1. G27-A is the only lead; G26-A appears only as superseded-as-lead / of record, never as a co-lead with its own bracket presented as current.
+2. Gate-28's c_trim caveat travels with every statement of the (0.675, 0.68125] bracket: the bracket is a statement about the pose with the stored coefficient; the clamped-ordering is never claimed as robust to refit.
+3. Every bracket is labelled with its evidence class (sampled read vs grid-stability certificate vs convergence certificate); no continuum claim between instants anywhere.
+4. G31-A's distinction is stated as programme-internal ("within the programme's own record…"); no "first" wording against the literature; novelty NONE for the whole release.
+5. Report every README line changed, verbatim before/after, in the Stage-2 report.
