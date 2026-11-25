@@ -1,0 +1,322 @@
+{
+ "control_CG1": {
+  "sites": [
+   {
+    "key": "S1",
+    "r": 12.3134870420811,
+    "n_xhat": -1.5022956753748945e-07,
+    "R1": {
+     "got": 9.747348897234099e-05,
+     "stored": 9.747348897234099e-05,
+     "rel_diff": 0.0
+    },
+    "R2": {
+     "got": 0.0005604453690840112,
+     "stored": 0.0005604453690840112,
+     "rel_diff": 0.0
+    },
+    "QK": {
+     "got": -3.160063905618184e-05,
+     "stored": -3.160063905618184e-05,
+     "rel_diff": 0.0
+    },
+    "rho": {
+     "got": 0.0006263182190001704,
+     "stored": 0.0006263182190001702,
+     "rel_diff": 3.462144767930533e-16
+    },
+    "M_got": 1.5909376185915285,
+    "Mp_got": 0.43899594080707127,
+    "M_stored": 1.5909376185915285,
+    "Mp_stored": 0.4389959408070712
+   },
+   {
+    "key": "S2",
+    "r": 11.829268292682926,
+    "n_xhat": -0.0269050392086119,
+    "R1": {
+     "got": 8.087264604012924e-05,
+     "stored": 8.087264604012916e-05,
+     "rel_diff": 1.0054717746722928e-15
+    },
+    "R2": {
+     "got": 0.0006184046153478981,
+     "stored": 0.0006184046153478985,
+     "rel_diff": 7.012898323053816e-16
+    },
+    "QK": {
+     "got": -1.739645478027424e-05,
+     "stored": -1.7396454780274218e-05,
+     "rel_diff": 1.3633192982522479e-15
+    },
+    "rho": {
+     "got": 0.0006818808066077531,
+     "stored": 0.0006818808066077532,
+     "rel_diff": 1.5900171437281467e-16
+    },
+    "M_got": 1.3974641359359499,
+    "Mp_got": 0.35904741637307624,
+    "M_stored": 1.397464135935949,
+    "Mp_stored": 0.35904741637307597
+   },
+   {
+    "key": "S3",
+    "r": 12.317073170731705,
+    "n_xhat": 0.00407614615498066,
+    "R1": {
+     "got": 9.757980855651541e-05,
+     "stored": 9.757980855651541e-05,
+     "rel_diff": 0.0
+    },
+    "R2": {
+     "got": 0.0005598944578025172,
+     "stored": 0.0005598944578025173,
+     "rel_diff": 1.9364402654400234e-16
+    },
+    "QK": {
+     "got": -3.171126496823474e-05,
+     "stored": -3.171126496823474e-05,
+     "rel_diff": 0.0
+    },
+    "rho": {
+     "got": 0.0006257630013907978,
+     "stored": 0.000625763001390798,
+     "rel_diff": 1.7326083039038683e-16
+    },
+    "M_got": 1.5925129284396173,
+    "Mp_got": 0.43956133442609013,
+    "M_stored": 1.5925129284396173,
+    "Mp_stored": 0.4395613344260902
+   },
+   {
+    "key": "S4",
+    "r": 17.68292682926829,
+    "n_xhat": -0.10189403157358629,
+    "R1": {
+     "got": 9.962703452638792e-05,
+     "stored": 9.962703452638792e-05,
+     "rel_diff": 0.0
+    },
+    "R2": {
+     "got": 3.7845013786616564e-05,
+     "stored": 3.7845013786616496e-05,
+     "rel_diff": 1.7905300857442835e-15
+    },
+    "QK": {
+     "got": -2.0244297143203344e-05,
+     "stored": -2.0244297143203344e-05,
+     "rel_diff": 0.0
+    },
+    "rho": {
+     "got": 0.00011722775116980115,
+     "stored": 0.00011722775116980106,
+     "rel_diff": 6.936511374224873e-16
+    },
+    "M_got": 4.606901770756711,
+    "Mp_got": 0.3569608456551144,
+    "M_stored": 4.606901770756711,
+    "Mp_stored": 0.35696084565511377
+   }
+  ],
+  "max_rel_diff": 1.7905300857442835e-15,
+  "set_min": {
+   "r_node": 19.878048780487802,
+   "n_xhat_memo": 0.0041,
+   "rho_at_memo_locus": 8.27245516281973e-05,
+   "split_at_memo_locus": {
+    "R1": 8.053338645194557e-05,
+    "R2": 2.19162189134204e-06,
+    "QK": -4.56715090310499e-10
+   },
+   "rho_star_at_node": 8.272455162041828e-05,
+   "u_star_at_node": 0.0,
+   "stored_set_min": 8.272455162810697e-05,
+   "rel_diff_at_memo_locus": 1.0920717519085329e-12,
+   "rel_diff_rho_star": 9.29432353212584e-11
+  },
+  "pass_1e-9_sites": true
+ },
+ "structural_b": {
+  "n_samples": 50,
+  "max_affine_dev_rel (QK numerator & alpha2 in u)": 2.495365661934778e-16,
+  "nonmonotone_samples": 0,
+  "statement": "rho depends on the direction only through u = n_xhat^2: R1, R2 are functions of (r, M, M') only; the Q_K numerator pieces carry (1-u) in term 1 and u in terms 2-4 and nothing else directional; alpha^2 carries u linearly and nothing else directional. Hence rho(u) at fixed r is a ratio of affine functions of u (monotonic), and rho*(r) = min over u in [0,1] is the exact angular minimum; rotation about the x-axis at fixed n_xhat leaves the evaluator input (r, u) unchanged."
+ },
+ "search_c": {
+  "mesh": {
+   "n": 1001,
+   "dr": 0.01,
+   "min_rho_star": 8.100316627373573e-05,
+   "argmin_r": 20.0
+  },
+  "rim_mesh": {
+   "n": 501,
+   "dr": 0.001,
+   "min_rho_star": 8.100316627373573e-05,
+   "argmin_r": 20.0
+  },
+  "polished": [
+   {
+    "r": 15.049999631598531,
+    "rho_star": 0.00019707432101814104,
+    "u_star": 0.0,
+    "seed": "Sprime extremum window"
+   },
+   {
+    "r": 14.799999631598531,
+    "rho_star": 0.00022017847157220296,
+    "u_star": 0.0,
+    "seed": "Mpp sign-change window"
+   },
+   {
+    "r": 19.999999635578654,
+    "rho_star": 8.100317117784346e-05,
+    "u_star": 0.0004999999999623711,
+    "seed": "rim approach window [19.99, 20]"
+   },
+   {
+    "r": 10.000000252506124,
+    "rho_star": 0.0002590272309144972,
+    "u_star": 0.0,
+    "seed": "inner boundary window [10, 10.01]"
+   }
+  ],
+  "seeds": {
+   "r=10 boundary": [
+    0.00025902712521867435,
+    0.0
+   ],
+   "r=20 boundary": [
+    8.100316627373573e-05,
+    0.0004999999999623711
+   ],
+   "Sprime extremum r (numeric)": 15.0,
+   "rho at Sprime extremum, u=0": 0.00020137279362294263,
+   "rho* at Sprime extremum": [
+    0.00020137279362294263,
+    0.0
+   ],
+   "Mpp sign-change r": 14.75,
+   "rho* at Mpp sign-change": [
+    0.00022528963973785312,
+    0.0
+   ]
+  },
+  "global_min": {
+   "rho": 8.100316627373573e-05,
+   "r": 20.0,
+   "u": 0.0,
+   "n_xhat_abs": 0.0,
+   "source": "mesh",
+   "split": {
+    "R1": 7.956522140130846e-05,
+    "R2": 1.4379448724272686e-06,
+    "QK": 0.0
+   },
+   "M": 4.996923097479424,
+   "Mp": 0.01804751549132789
+  },
+  "any_negative": false
+ },
+ "floors_d": {
+  "safety_factor": 2.0,
+  "mesh_half_spacing": 0.005,
+  "fd_h": 1e-05,
+  "regions": {
+   "inner": {
+    "range": [
+     10.0,
+     12.5
+    ],
+    "found_min": 0.00025902712521867435,
+    "found_r": 10.0,
+    "found_u": 0.0,
+    "found_source": "mesh",
+    "max_abs_drho_dr_at_ustar": 0.0004256579765933186,
+    "floor_first_order": 4.256579765933186e-06,
+    "certified_bound_first_order": 0.00025477054545274116,
+    "max_abs_d2rho_dr2_mesh": 0.0003869761323535559,
+    "floor_second_order": 9.674403308838897e-09,
+    "certified_bound_second_order": 0.0002590174508153655,
+    "regional_min_is_polished_stationary": false,
+    "any_negative_in_region": false
+   },
+   "mid": {
+    "range": [
+     12.5,
+     17.5
+    ],
+    "found_min": 0.00011872055175270253,
+    "found_r": 17.5,
+    "found_u": 0.0,
+    "found_source": "mesh",
+    "max_abs_drho_dr_at_ustar": 0.00019444667201254717,
+    "floor_first_order": 1.9444667201254716e-06,
+    "certified_bound_first_order": 0.00011677608503257706,
+    "max_abs_d2rho_dr2_mesh": 8.446482280309933e-05,
+    "floor_second_order": 2.1116205700774833e-09,
+    "certified_bound_second_order": 0.00011871844013213245,
+    "regional_min_is_polished_stationary": false,
+    "any_negative_in_region": false
+   },
+   "rim": {
+    "range": [
+     17.5,
+     20.0
+    ],
+    "found_min": 8.100316627373573e-05,
+    "found_r": 20.0,
+    "found_u": 0.0,
+    "found_source": "mesh",
+    "max_abs_drho_dr_at_ustar": 1.8394665193713182e-05,
+    "floor_first_order": 1.8394665193713182e-07,
+    "certified_bound_first_order": 8.08192196217986e-05,
+    "max_abs_d2rho_dr2_mesh": 1.0972667405489533e-05,
+    "floor_second_order": 2.743166851372383e-10,
+    "certified_bound_second_order": 8.100289195705059e-05,
+    "regional_min_is_polished_stationary": false,
+    "any_negative_in_region": false
+   }
+  }
+ },
+ "verdict_input": {
+  "global_min": {
+   "rho": 8.100316627373573e-05,
+   "r": 20.0,
+   "u": 0.0,
+   "n_xhat_abs": 0.0,
+   "source": "mesh",
+   "split": {
+    "R1": 7.956522140130846e-05,
+    "R2": 1.4379448724272686e-06,
+    "QK": 0.0
+   },
+   "M": 4.996923097479424,
+   "Mp": 0.01804751549132789
+  },
+  "any_negative_anywhere": false,
+  "per_region": {
+   "inner": {
+    "found_min": 0.00025902712521867435,
+    "floor_first_order": 4.256579765933186e-06,
+    "certified_bound_first_order": 0.00025477054545274116,
+    "floor_second_order": 9.674403308838897e-09,
+    "certified_bound_second_order": 0.0002590174508153655
+   },
+   "mid": {
+    "found_min": 0.00011872055175270253,
+    "floor_first_order": 1.9444667201254716e-06,
+    "certified_bound_first_order": 0.00011677608503257706,
+    "floor_second_order": 2.1116205700774833e-09,
+    "certified_bound_second_order": 0.00011871844013213245
+   },
+   "rim": {
+    "found_min": 8.100316627373573e-05,
+    "floor_first_order": 1.8394665193713182e-07,
+    "certified_bound_first_order": 8.08192196217986e-05,
+    "floor_second_order": 2.743166851372383e-10,
+    "certified_bound_second_order": 8.100289195705059e-05
+   }
+  }
+ }
+}
