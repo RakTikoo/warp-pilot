@@ -1,0 +1,32 @@
+{
+ "sector": "shell (perturbed joined surface at r_Sigma = 1000 r0)",
+ "background_shell_datum_from_P61_1": {
+  "S00_over_alpha0": 0.02029144078829105,
+  "jump_tR": 4.440892098500626e-16,
+  "jump_tRn": -0.015218580591218289,
+  "beta_MK": 2.142610719852532,
+  "k": -2.2899591247362377e-09,
+  "check_S00_eq_minus_4over3_jump_tRn": 0.0
+ },
+ "perturbed_system_counting": {
+  "unknown_functions": [
+   "xi(t,angles) \u2014 surface displacement of Sigma",
+   "delta Shat0^0 \u2014 perturbed shell surface energy density",
+   "delta Shat2^2 (= delta Shat_theta^theta = delta Shat_phi^phi) \u2014 perturbed tangential surface stress",
+   "bulk perturbations delta g^- , delta g^+ (each satisfying its own linearised Bach system)"
+  ],
+  "equations": [
+   "perturbed Darmois (J1): links delta g^-, delta g^+, xi \u2014 constrains bulks+xi, contains no shell matter function",
+   "[delta Rtilde] = 0 (J2): one scalar constraint on bulks+xi, no shell matter function",
+   "-[delta Rtilde_,n] = (3/(4 alpha0)) delta Shat0^0 (J3): DEFINES delta Shat0^0 from the bulk jump \u2014 a read-off, not a dynamical equation",
+   "shell worldvolume conservation (J4, BDE eq.(67) lines 1,3 perturbed): the only equation governing xi's time evolution; its perturbed form contains delta Shat2^2"
+  ],
+  "deficit": "exactly ONE unknown function: delta Shat2^2 has no determining equation anywhere in the joined configuration. Background level: BDE eqs.(64)-(67) contain Shat2^2 nowhere (p611_runrecord S.4); the joined configuration fixes Shat0^0 only, plus Shat_0n = Shat_nn = 0. Perturbed level: no constitutive law delta Shat2^2 = F(delta Shat0^0, surface strain) is part of the object.",
+  "consequence": "the shell eigenvalue problem has no determined operator: for any candidate growth rate, a choice of the missing constitutive law realises it (BDE, abstract: shell dynamics 'can not be derived from the matching conditions and, thus, is completely arbitrary'). The conditional traceless value Shat2^2 = -Shat0^0/2 is an extra assumption about shell matter, explicitly NOT part of the joined configuration (p611_runrecord S.4), and may not be invented here.",
+  "missing_datum_named_exactly": "the shell's tangential surface stress Shat2^2 (= Shat_theta^theta = Shat_phi^phi) as a constitutive datum of the shell matter \u2014 at background level its value, at perturbed level its response law delta Shat2^2 in terms of delta Shat0^0 and the surface strain (equivalently the shell equation of state / surface sound speed).",
+  "frame_check": "counting performed in the programme frame and in BDE's conformal frame ghat = r^-2 g: BDE eqs.(64)-(67) are written in the hatted frame and contain no Shat2^2 there either \u2014 the deficit is frame-independent, hence not a conformal-gauge artefact (Phase 38 artefact pattern 2 does not apply).",
+  "gauge_check": "the deficit is a MATTER function, not a gauge direction: diffeomorphism/conformal gauge directions act on (delta g^-, delta g^+, xi) and are already quotiented by (J1)-(J2); no gauge choice creates or removes a shell-matter response law. The S''+S'[delta2 g] pattern (Phase 38 artefact 1) does not apply: the count is of equations vs unknown functions in the full perturbed system, not a bare second-variation read along a linear path.",
+  "verdict_sector": "SECTOR UNPOSABLE (obstruction named exactly, above)"
+ },
+ "Vb_clause": "(V-b) UNDECIDED: Pais\u2013Uhlenbeck spin-2 ghost vs Mannheim PT-symmetric quantisation \u2014 opposed literature positions, B3 NOT COMPUTABLE (Phase 32)."
+}

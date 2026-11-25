@@ -1,0 +1,92 @@
+{
+ "object": "joined conformal member (p=0.1, Phi2, a=0.27773424114865775), r_Sigma=1000 r0, MK exterior registered gamma",
+ "Vb_clause": "(V-b) UNDECIDED: Pais\u2013Uhlenbeck spin-2 ghost vs Mannheim PT-symmetric quantisation \u2014 opposed literature positions, B3 NOT COMPUTABLE (Phase 32).",
+ "regate": {
+  "gate_abs_tR_vs_stored": 0.0,
+  "gate_abs_tRn_vs_stored": 0.0,
+  "tR_at_Sigma": 4.440892098500626e-16,
+  "tRn_at_Sigma": -0.015218580591218289,
+  "D_R": -1.5233785879079279e-05,
+  "D_Rn": 1.8844230755847662e-05
+ },
+ "a_endowed": {
+  "label": "the P61-1 shell endowed with the Brown-Gladush surface perfect-fluid action",
+  "K_in": {
+   "Ktt": 4.436998542787459e-06,
+   "Kth": 0.0009990018707114773,
+   "dKtt": -5.5551958775992496e-09,
+   "dKth": -9.98103105585946e-07
+  },
+  "K_ex": {
+   "Ktt": 4.436998542787459e-06,
+   "Kth": 0.0009990018707114773,
+   "dKtt": -2.016962460343044e-09,
+   "dKth": -9.945648721686898e-07
+  },
+  "Kbar": {
+   "Ktt0": 4.436998542787459e-06,
+   "Kth0": 0.0009990018707114773,
+   "dKtt": -3.786079168971147e-09,
+   "dKth": -9.96333988877318e-07,
+   "Ktt0_mp40": "0.00000443699854278745745182472442688205594529",
+   "Kth0_mp40": "0.0009990018707114772700010957364932666109344",
+   "dKtt_mp40": "-0.000000003786079168971142881835734881040840407117",
+   "dKth_mp40": "-0.000000996333988877317894977929939095706918458"
+  },
+  "C_xiddot": {
+   "C_in": 0.6161737181988891,
+   "C_ex": 1.0030003753969203,
+   "C_avg": 0.8095870467979047,
+   "C_avg_mp40": "0.809587046797904703885585426081493901601"
+  },
+  "admissibility": {
+   "w0_p0_over_sigma0": 0.002220715832908041,
+   "w0_mp40": "0.002220715832908040390021232048664427680534",
+   "p0_over_alpha0": 4.506152383107396e-05,
+   "dust_EOM_residual_over_sigma0": -4.436998542787459e-06,
+   "dust_background_admissible": false
+  },
+  "strain_consistency": {
+   "strain_J3_dsigma_per_xi_over_alpha0": -2.512564100779688e-05,
+   "strain_C1_dsigma_per_xi_over_alpha0": -4.0673004624244254e-05,
+   "ratio_J3_over_C1": 0.6177473545394297
+  },
+  "spectrum_fixed_bulk_l0": {
+   "law": "omega^2(beta^2) = -rest(beta^2)/(sigma0*C_avg), rest linear in beta^2; units r0^-2, tau = shell proper time",
+   "omega2_at_beta2_eq_w0_linear_EoS": 7.893779445769102e-10,
+   "omega2_at_beta2_eq_0": -1.0196103785374912e-08,
+   "beta2_stability_threshold": 0.0020611430310261847,
+   "omega_at_linear_EoS_per_r0": 2.809587059652913e-05
+  },
+  "sectors": "l=0 posed in full (fixed-bulk sector); l>=1 NOT closed by this action (no tangential displacement variable, no surface shear modulus)"
+ },
+ "b_coupled": {
+  "datum_order": [
+   "traceless",
+   "barotropic family"
+  ],
+  "count": {
+   "unknowns": [
+    "delta g- (2 physical quotient components per profile)",
+    "delta g+ (2 physical quotient components per profile)",
+    "xi (1 scalar boundary value)",
+    "omega^2 (1 eigenvalue)"
+   ],
+   "sigma_conditions": [
+    "perturbed Darmois: 2",
+    "[delta Rtilde]=0: 1",
+    "strain-law condition (named datum): 1"
+   ],
+   "net_constraint_on_omega2": 0,
+   "reason": "the strain-law condition is one scalar equation whose only new unknown is xi itself; for any omega^2 and any bulk quotient amplitudes it is satisfied by choosing xi = -(4a0/3)[dRtilde_,n] / (strain coefficient) whenever the strain coefficient is nonzero (traceless: -sigma0/rSigma != 0; barotropic: -2(sigma0+p0)/rSigma, nonzero except on the measure-zero datum slice p0 = -sigma0). Hence the condition selects xi, never omega^2: no coupled eigenvalue is selected by the coupling."
+  },
+  "stored_interior_min_physical_eigenvalue_P71_1": 0.00121741,
+  "stored_exterior_min_physical_eigenvalue_P80_2": 8.3166e-05
+ },
+ "c_route2_new_candidates": "documentary premise table in memo/run record; no candidate passed all premises, so no S2^2 value is computed",
+ "verdicts": {
+  "a": "SPECTRUM EXISTS (NEW OBJECT)",
+  "b": "COUPLED SPECTRUM UNPOSABLE",
+  "c": "CONDITION NOT FOUND"
+ }
+}

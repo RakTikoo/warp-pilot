@@ -1,0 +1,94 @@
+{
+ "checks": [
+  {
+   "name": "Ktt0 FD vs main",
+   "pass_": true,
+   "detail": "4.436998563924402e-06 vs 4.436998542787459e-06"
+  },
+  {
+   "name": "Kth0 FD vs main",
+   "pass_": true,
+   "detail": "0.0009990018707114773 vs 0.0009990018707114773"
+  },
+  {
+   "name": "dKtt FD vs main",
+   "pass_": true,
+   "detail": "-3.786086875719835e-09 vs -3.786079168971147e-09"
+  },
+  {
+   "name": "dKth FD vs main",
+   "pass_": true,
+   "detail": "-9.9633498279331e-07 vs -9.96333988877318e-07"
+  },
+  {
+   "name": "C_avg FD vs main",
+   "pass_": true,
+   "detail": "0.8095870467979047 vs 0.8095870467979047"
+  },
+  {
+   "name": "w0 FD vs main",
+   "pass_": true,
+   "detail": "0.0022207158434870717"
+  },
+  {
+   "name": "dust inadmissible (residual nonzero)",
+   "pass_": true,
+   "detail": "Ktt0=4.436998563924402e-06"
+  },
+  {
+   "name": "D_Rn FD vs main (loose, nested FD)",
+   "pass_": true,
+   "detail": "1.8930855676547315e-05 vs 1.8844230755847662e-05"
+  },
+  {
+   "name": "gates exact in main",
+   "pass_": true,
+   "detail": "both 0.0"
+  },
+  {
+   "name": "strain ratio",
+   "pass_": true,
+   "detail": "ratio 0.6177473545394297"
+  },
+  {
+   "name": "omega2 linear-EoS mp40 sign + value",
+   "pass_": true,
+   "detail": "mp40 0.0000000007893779445769136737086015495152246216454 vs main 7.893779445769102e-10"
+  },
+  {
+   "name": "omega2 beta2=0 mp40 sign + value",
+   "pass_": true,
+   "detail": "mp40 -0.00000001019610378537490595680825493749687692171"
+  },
+  {
+   "name": "threshold mp40",
+   "pass_": true,
+   "detail": "mp40 0.002061143031026183719715351787858446959414"
+  },
+  {
+   "name": "w0 mp40 vs main",
+   "pass_": true,
+   "detail": "0.002220715832908040390021232048664427680534"
+  },
+  {
+   "name": "traceless strain coeff nonzero",
+   "pass_": true,
+   "detail": "-2.0291440788291053e-05"
+  },
+  {
+   "name": "barotropic strain coeff at endowed p0 nonzero",
+   "pass_": true,
+   "detail": "-4.0673004624244254e-05"
+  },
+  {
+   "name": "Vb verbatim in results",
+   "pass_": true,
+   "detail": "(V-b) UNDECIDED: Pais\u2013Uhlenbec"
+  }
+ ],
+ "n_pass": 17,
+ "n_total": 17,
+ "omega2_lin_mp40": "0.0000000007893779445769136737086015495152246216454",
+ "omega2_zero_mp40": "-0.00000001019610378537490595680825493749687692171",
+ "threshold_mp40": "0.002061143031026183719715351787858446959414"
+}

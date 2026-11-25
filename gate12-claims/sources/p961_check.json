@@ -1,0 +1,125 @@
+{
+ "regate_dipole_pole_x0.1": {
+  "pass_": true,
+  "detail": "diff=+2.77e-09 target=-0.00020096"
+ },
+ "regate_dipole_pole_x0.3": {
+  "pass_": true,
+  "detail": "diff=-3.78e-09 target=-0.00012263"
+ },
+ "regate_x0.1_L6_rear_pole": {
+  "pass_": true,
+  "detail": "diff=+2.75e-08 target=0.0017283"
+ },
+ "regate_x0.3_L6_front_pole": {
+  "pass_": true,
+  "detail": "diff=+4.30e-09 target=0.0091021"
+ },
+ "xcheck_spot_x0.5_lam0.14_L6": {
+  "pass_": true,
+  "detail": "JAX-vs-FD hP00 max|diff|=4.96e-05 (FD h=0.01 trunc scale)"
+ },
+ "xcheck_poles_finite_x0.5_lam0.14_L6": {
+  "pass_": true,
+  "detail": "fm at poles=[0.019098859321308392, 0.019058358200669978, 0.000953871074269298, 0.0030201078388663355]"
+ },
+ "xcheck_spot_x0.7_lam0.09_L6": {
+  "pass_": true,
+  "detail": "JAX-vs-FD hP00 max|diff|=4.82e-05 (FD h=0.01 trunc scale)"
+ },
+ "xcheck_poles_finite_x0.7_lam0.09_L6": {
+  "pass_": true,
+  "detail": "fm at poles=[1.11081680991479, 1.1106488500168208, 0.09256473642403383, 0.09240477765106632]"
+ },
+ "B_x0.7_own_residual": {
+  "pass_": true,
+  "detail": "JAX dense61 max|[h]| recomputed=1.989277e-03 (bar 2.0e-3)"
+ },
+ "B_x0.7_constraint": {
+  "pass_": true,
+  "detail": "JAX fm_min on registered constraint grid recomputed=+4.287696e-03 (delta=1e-3)"
+ },
+ "B_x0.7_FD_residual": {
+  "pass_": true,
+  "detail": "FD audit max|[h]|=1.989087e-03"
+ },
+ "B_x0.7_finiteness": {
+  "pass_": true,
+  "detail": "nonfinite rows=0 of 221 (own clause)"
+ },
+ "B_x0.7_typeI": {
+  "pass_": true,
+  "detail": "Type-I at every grid point, finiteness included"
+ },
+ "B_x0.7_margins": {
+  "pass_": true,
+  "detail": "worst DEC=+1.345981e-02 @ th=2.4775; min eig=+1.345981e-02; min disc=+1.307e-03"
+ },
+ "B_x0.7_frame_FD": {
+  "pass_": true,
+  "detail": "FD fm_min=+4.287696e-03"
+ },
+ "B_x0.7_sampled": {
+  "pass_": true,
+  "detail": "sampled DEC at bind=+1.086810e-02"
+ },
+ "B_x0.7_ladder": {
+  "pass_": true,
+  "detail": "ladder margins=[0.013239, 0.01346, 0.013515, 0.013533] spread=2.95e-04"
+ },
+ "B_x0.7_fromA_finiteness_fails": {
+  "pass_": true,
+  "detail": "fromA set: nonfinite rows=1, FD fm_min=-5.69e-05 -> not auditable, not the confirming set"
+ },
+ "B_x0.5_floor_above_bar": {
+  "pass_": true,
+  "detail": "best strictly-feasible dense61 across x0.5 strategies=1.6061e-02 > bar; per-strategy={'x0.5_L6_fromA': {'best_feasible_iterate': None, 'final_dense61': 0.03248214622809313, 'final_fm_min': 0.0009990943457624211}, 'x0.5_L6_fromZeros': {'best_feasible_iterate': 0.01757489916231357, 'final_dense61': 0.015362159216708813, 'final_fm_min': 0.000999807471405766}, 'x0.5_L6_lam0.08_cont': {'best_feasible_iterate': 0.020593984193082435, 'final_dense61': 0.020593984193082435, 'final_fm_min': 0.0009999999666157181}, 'x0.5_L6_fromCont': {'best_feasible_iterate': 0.018640626912192596, 'final_dense61': 0.01734947622631968, 'final_fm_min': 0.0009994844534184624}, 'x0.5_L8_fromZeros': {'best_feasible_iterate': 0.016061428007274302, 'final_dense61': 0.02390285079666754, 'final_fm_min': 0.0009882549329836455}}"
+ },
+ "C_probe3_depth_grows_L6_to_L8_x0.5": {
+  "pass_": true,
+  "detail": "L8 fm_min=-1.1000 < L6 A fm_min=-0.5487 at better closure (L8 dense 1.23e-04)"
+ },
+ "C_probe2_F1_null_x0.5_lam0.14_L6": {
+  "pass_": true,
+  "detail": "F1 fm_min=+6.63e-07 (null within 1e-5); F0 fm_min=-0.5487"
+ },
+ "C_probe2_F1_null_x0.7_lam0.09_L6": {
+  "pass_": true,
+  "detail": "F1 fm_min=+3.86e-07 (null within 1e-5); F0 fm_min=-0.1981"
+ },
+ "C_probe1_no_single_mode_L6": {
+  "pass_": true,
+  "detail": "L6 leave-one-mode-out fm_min all < 0: [-0.143, -0.347, -0.533, -0.477, -0.388, -0.255]"
+ },
+ "_summary": {
+  "pass_": 23,
+  "total": 23,
+  "floors_x05": {
+   "x0.5_L6_fromA": {
+    "best_feasible_iterate": null,
+    "final_dense61": 0.03248214622809313,
+    "final_fm_min": 0.0009990943457624211
+   },
+   "x0.5_L6_fromZeros": {
+    "best_feasible_iterate": 0.01757489916231357,
+    "final_dense61": 0.015362159216708813,
+    "final_fm_min": 0.000999807471405766
+   },
+   "x0.5_L6_lam0.08_cont": {
+    "best_feasible_iterate": 0.020593984193082435,
+    "final_dense61": 0.020593984193082435,
+    "final_fm_min": 0.0009999999666157181
+   },
+   "x0.5_L6_fromCont": {
+    "best_feasible_iterate": 0.018640626912192596,
+    "final_dense61": 0.01734947622631968,
+    "final_fm_min": 0.0009994844534184624
+   },
+   "x0.5_L8_fromZeros": {
+    "best_feasible_iterate": 0.016061428007274302,
+    "final_dense61": 0.02390285079666754,
+    "final_fm_min": 0.0009882549329836455
+   }
+  }
+ }
+}
