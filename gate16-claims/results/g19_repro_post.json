@@ -1,0 +1,20 @@
+{
+ "mode": "post",
+ "synthetic": {
+  "max_coded_vs_basisfree": 3.3306690738754696e-16,
+  "rho": 1.3,
+  "p": 0.481,
+  "max_AThatA_vs_basisfree": 3.3306690738754696e-16,
+  "max_codedform_vs_basisfree": 0.7368628163383721,
+  "max_coded_vs_codedform": 0.736862816338372
+ },
+ "degenerate": {
+  "coded_rotation_move": 0.13975220335342817,
+  "correct_rotation_move": 1.1102230246251565e-16
+ },
+ "p1282_bed": {
+  "max_coded_vs_basisfree": 5.551115123125783e-17,
+  "mean_abs_diff": 6.094527786947799e-18,
+  "fluid_scale_max": 0.14261358815963177
+ }
+}

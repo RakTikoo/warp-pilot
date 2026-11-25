@@ -1,0 +1,356 @@
+{
+ "n_checks": 70,
+ "n_pass": 70,
+ "checks": [
+  {
+   "name": "machinery_pass",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "machinery_worst_err<=1e-6",
+   "pass_": true,
+   "detail": "8.54938342342848e-12"
+  },
+  {
+   "name": "machinery_7of7_rows",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "hinge_alignment_is_{44}",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "hinge_SF_eq_1",
+   "pass_": true,
+   "detail": "1.0"
+  },
+  {
+   "name": "hinge_subset_legal",
+   "pass_": true,
+   "detail": "0.5892857142857143"
+  },
+  {
+   "name": "hinge_subset_legal_full",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "hinge_eom_max",
+   "pass_": true,
+   "detail": "0.9999999999784565"
+  },
+  {
+   "name": "hinge_eom_med",
+   "pass_": true,
+   "detail": "0.22437629566157347"
+  },
+  {
+   "name": "hinge_health_False",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "hinge_frontier_0",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "hinge_n_nondeg_56",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "hinge_max_point_44",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "hinge_health_fails_on_cr2_only",
+   "pass_": true,
+   "detail": "(0.38544508978367353, 1.2217760388878274, 1.000848801768969)"
+  },
+  {
+   "name": "g161_z_matches_stored",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_subset_legal",
+   "pass_": true,
+   "detail": "0.9285714285714286"
+  },
+  {
+   "name": "g161_subset_legal_full",
+   "pass_": true,
+   "detail": "0.9464285714285714"
+  },
+  {
+   "name": "g161_eom_max_vs_phase",
+   "pass_": true,
+   "detail": "0.999981215379503"
+  },
+  {
+   "name": "g161_eom_max_strictly_below_hinge",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_eom_max_move_size",
+   "pass_": true,
+   "detail": "1.8784598953436316e-05"
+  },
+  {
+   "name": "g161_median_worsened",
+   "pass_": true,
+   "detail": "0.47963896879690177"
+  },
+  {
+   "name": "g161_pareto_clause1",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_pareto_clause2",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_frontier_0",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_not_a_pass",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_health_False",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_health_fails_on_cr2_only",
+   "pass_": true,
+   "detail": "(0.905272964672985, 1.7678627884603475, 1.0009867195074533)"
+  },
+  {
+   "name": "g161_alignment_empty",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_trap_not_firing",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_max_point_44",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_Hphi_at_pi0_exact_zero",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_tFB_share_0.882",
+   "pass_": true,
+   "detail": "0.8818823902228511"
+  },
+  {
+   "name": "g161_tkin_share_0.118",
+   "pass_": true,
+   "detail": "0.1180787733023159"
+  },
+  {
+   "name": "g161_tFA_at_44_tiny",
+   "pass_": true,
+   "detail": "2.3124581666039688e-06"
+  },
+  {
+   "name": "g161_kin_same_sign_as_FB_at_44",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_n_nondeg_56",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g161_Fsum_matches_phase",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_z_matches_stored",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_subset_legal",
+   "pass_": true,
+   "detail": "0.7857142857142857"
+  },
+  {
+   "name": "g162_eom_max_vs_phase",
+   "pass_": true,
+   "detail": "0.9980625645571286"
+  },
+  {
+   "name": "g162_eom_max_move",
+   "pass_": true,
+   "detail": "0.0019374354213278489"
+  },
+  {
+   "name": "g162_median_improved",
+   "pass_": true,
+   "detail": "0.14496119326202822"
+  },
+  {
+   "name": "g162_all_three_coordinates",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_pareto_clause1",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_pareto_clause2",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_frontier_0",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_health_False",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_health_fails_on_cr2_only",
+   "pass_": true,
+   "detail": "(0.46910595068097516, 2.7835171974271176, 1.0027937778741982)"
+  },
+  {
+   "name": "g162_cr2_max_value",
+   "pass_": true,
+   "detail": "1.0027937778741982"
+  },
+  {
+   "name": "g162_p2_positive",
+   "pass_": true,
+   "detail": "0.06174935270709549"
+  },
+  {
+   "name": "g162_alignment_empty",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_trap_not_firing",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_best_not_targeted_named_1of4",
+   "pass_": true,
+   "detail": "1"
+  },
+  {
+   "name": "g162_best_opposed_point_is_44",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_best_max_point_52",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162_kin_pin_at_52_shares",
+   "pass_": true,
+   "detail": "(0.8426424869192455, 0.15587591770959405)"
+  },
+  {
+   "name": "g162_kin_same_sign_FB_at_52",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162t_z_matches_stored",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162t_subset_legal",
+   "pass_": true,
+   "detail": "0.5357142857142857"
+  },
+  {
+   "name": "g162t_eom_max_vs_phase",
+   "pass_": true,
+   "detail": "0.9996997984797714"
+  },
+  {
+   "name": "g162t_opposed_exactly_50_51_52",
+   "pass_": true,
+   "detail": "{50, 51, 52}"
+  },
+  {
+   "name": "g162t_44_not_opposed",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162t_worst_point_migrated_to_44",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "g162t_FB_pin_at_44_shares",
+   "pass_": true,
+   "detail": "(0.8536814800989888, 0.06434742623247551)"
+  },
+  {
+   "name": "g162t_frontier_0",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "hinge_named_opposed_50_51_52",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "hinge_44_uncovered_kin_dead",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "verdict_g161_joint_improvement",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "verdict_g162_joint_improvement",
+   "pass_": true,
+   "detail": ""
+  },
+  {
+   "name": "verdict_no_joint_pass_anywhere",
+   "pass_": true,
+   "detail": ""
+  }
+ ]
+}
