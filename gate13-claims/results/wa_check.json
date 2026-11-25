@@ -1,0 +1,176 @@
+{
+ "n_checks": 34,
+ "n_pass": 34,
+ "checks": [
+  {
+   "check": "anchor_i_minkowski",
+   "pass": true,
+   "detail": "3.469e-18"
+  },
+  {
+   "check": "anchor_ii_rho",
+   "pass": true,
+   "detail": "2.364e-05"
+  },
+  {
+   "check": "anchor_ii_p",
+   "pass": true,
+   "detail": "2.019e-09"
+  },
+  {
+   "check": "anchor_iii_typeI",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "anchor_iii_outer_wall_factor3",
+   "pass": true,
+   "detail": "1.509"
+  },
+  {
+   "check": "anchor_iii_conservation_factor3",
+   "pass": true,
+   "detail": "1.155"
+  },
+  {
+   "check": "anchor_iii_cavity_site_positive",
+   "pass": true,
+   "detail": "+2.0219e-04"
+  },
+  {
+   "check": "anchor_iv_typeI",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "anchor_iv_inner_factor3",
+   "pass": true,
+   "detail": "0.989"
+  },
+  {
+   "check": "anchor_iv_outer_factor3",
+   "pass": true,
+   "detail": "0.926"
+  },
+  {
+   "check": "anchor_iv_cavity_floor_class",
+   "pass": true,
+   "detail": "ladder |DEC| <= 2.3e-4, Type-I 1.0 all rungs"
+  },
+  {
+   "check": "anchor_v_payload",
+   "pass": true,
+   "detail": "0.0955573263"
+  },
+  {
+   "check": "anchor_v_typeI",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "anchor_v_region_factors3",
+   "pass": true,
+   "detail": "{\"payload\": 1.0, \"inner_wall\": 1.0, \"outer_wall\": 1.0, \"exterior\": 1.0}"
+  },
+  {
+   "check": "anchor_v_sampled_positive",
+   "pass": true,
+   "detail": "+2.2700e-06"
+  },
+  {
+   "check": "anchor_v_cavity_site",
+   "pass": true,
+   "detail": "+1.9944e-04"
+  },
+  {
+   "check": "bar_a_payload_rel_err",
+   "pass": true,
+   "detail": "4.27e-16"
+  },
+  {
+   "check": "bar_a_Wsum",
+   "pass": true,
+   "detail": "0.00e+00"
+  },
+  {
+   "check": "bar_a_heldW_err_class",
+   "pass": true,
+   "detail": "1.74e-16"
+  },
+  {
+   "check": "bar_b_typeI",
+   "pass": true,
+   "detail": "1.0"
+  },
+  {
+   "check": "bar_c_region_signs",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "bar_c_region_factors3",
+   "pass": true,
+   "detail": "{\"payload\": 0.851, \"inner_wall\": 0.822, \"outer_wall\": 1.433, \"exterior\": 1.886}"
+  },
+  {
+   "check": "bar_d_sampled_null",
+   "pass": true,
+   "detail": "+2.2495e-06 (162 dirs)"
+  },
+  {
+   "check": "bar_e_flagged_site_positive",
+   "pass": true,
+   "detail": "+2.0309e-04"
+  },
+  {
+   "check": "bar_e_ladder_no_convergent_negative",
+   "pass": true,
+   "detail": "ladder minima floor class, Type-I 1.0 all rungs"
+  },
+  {
+   "check": "bar_f_floor_statement_data",
+   "pass": true,
+   "detail": "deciding-set cavity worst -2.1947e-06: outside 2e-6, inside 4e-6 and Gate-8 -3.7e-6 class"
+  },
+  {
+   "check": "bar_f2_chain_scalars_match",
+   "pass": true,
+   "detail": "S_lo-1 -4.3353e-03, S_hi +9.4326e-03"
+  },
+  {
+   "check": "bar_f2_margins_stable",
+   "pass": true,
+   "detail": "{\"payload\": 0.9998, \"inner_wall\": 1.0001, \"outer_wall\": 0.997, \"exterior\": 1.0}"
+  },
+  {
+   "check": "bar_g_payload",
+   "pass": true,
+   "detail": "0.09118184734"
+  },
+  {
+   "check": "bar_g_typeI_regions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "bar_g_cavity_site",
+   "pass": true,
+   "detail": "+1.9871e-04"
+  },
+  {
+   "check": "bar_h_e010_legal",
+   "pass": true,
+   "detail": "Type-I 1.0, worst +5.3336e-07, sampled +5.8426e-07"
+  },
+  {
+   "check": "bar_h_e0075_fringe_fails",
+   "pass": true,
+   "detail": "fringe_hi Type-I 0.846, sampled -1.1474e-05"
+  },
+  {
+   "check": "bar_h_e0075_interior_clean",
+   "pass": true,
+   "detail": ""
+  }
+ ]
+}

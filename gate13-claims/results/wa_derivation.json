@@ -1,0 +1,8 @@
+{
+ "run_with": "~/workspace/warp-pilot/venv/bin/python",
+ "sympy_version": "1.14.0",
+ "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+ "inverse_check_max_err": 3.3306690738754696e-16,
+ "elapsed_s": 33.30298590660095,
+ "minkowski": "checked numerically on the lambdified expressions in wa_run.py (all atoms except r, n set to zero)"
+}
