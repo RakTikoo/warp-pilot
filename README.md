@@ -46,6 +46,10 @@ Everything below passed this project's verification gate — an independent reco
 - **Hiding the exoticity in a second metric doesn't work — measured** — in bimetric gravity the violation relocates into the second sector, which then breaks the null energy condition on 70–100% of the volume in every configuration tried. [Release v1.8.0](https://doi.org/10.5281/zenodo.24435291)
 - **A screen that hides a warp drive from gravity tests — and what it costs** — an environment-dependent coupling construction that switches off outside the shell, with its energy-budget laws; plus a "breathing" shell that stays legal while it pulses, and the exact law for how long a negative-energy pulse may last. [Release v1.5.0](https://doi.org/10.5281/zenodo.24432779)
 
+
+## Figures and 3D models
+
+Every headline claim set has a visual in [`figures/`](figures/FIGURES.md) — charts and plots drawn by code from the stored result files, each captioned with its claim's fence. The two 3D models (downloadable meshes): the Gate-35 bubble wall ([`bubble_wall_shell.obj`](figures/bubble_wall_shell.obj) / [`.stl`](figures/bubble_wall_shell.stl)) and the Gate-13 payload shells ([`payload_shells.obj`](figures/payload_shells.obj) / [`.stl`](figures/payload_shells.stl)) — required-source geometry of prescribed configurations: the density is legal, the pressures are not; a model of the target configuration, not of a working drive.
 ## Headline results (all numbers in `REPORT.md` and `CHECKPOINT.md`)
 
 - **Two novel subluminal warp shells, verified.** Shell geometries outside
