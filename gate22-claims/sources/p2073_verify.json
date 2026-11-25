@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "A_NEC_rho_ratio": true,
+    "A_NEC_rho_overtarget": true,
+    "A_NEC_rho_sign_fail": true,
+    "A_NEC_phi_ratio": true,
+    "A_NEC_phi_overtarget": true,
+    "A_NEC_phi_sign_fail": true,
+    "B_NEC_rho_ratio": true,
+    "B_NEC_rho_overtarget": true,
+    "B_NEC_rho_sign_fail": true,
+    "B_NEC_phi_ratio": true,
+    "B_NEC_phi_overtarget": true,
+    "B_NEC_phi_sign_fail": true,
+    "A_renD_increments_grow_ell8_to_64": true,
+    "B_renB_increments_grow_ell0_to_24": true,
+    "App_spike_identity": true,
+    "kmax_headroom_zero_ell0_16": true,
+    "pw_node_modes_vanish": true,
+    "kmax_undercounts_ell0": true,
+    "kmax_undercounts_ell16": true
+  },
+  "all_pass": true,
+  "kmax_full_counts_le_omax2": {
+    "0": 258,
+    "16": 251
+  },
+  "kmax_kernel_kept": 230
+}
