@@ -49,7 +49,32 @@ Everything below passed this project's verification gate — an independent reco
 
 ## Figures and 3D models
 
-Every headline claim set has a visual in [`figures/`](figures/FIGURES.md) — charts and plots drawn by code from the stored result files, each captioned with its claim's fence. The two 3D models (downloadable meshes): the Gate-35 bubble wall ([`bubble_wall_shell.obj`](figures/bubble_wall_shell.obj) / [`.stl`](figures/bubble_wall_shell.stl)) and the Gate-13 payload shells ([`payload_shells.obj`](figures/payload_shells.obj) / [`.stl`](figures/payload_shells.stl)) — required-source geometry of prescribed configurations: the density is legal, the pressures are not; a model of the target configuration, not of a working drive.
+Every headline claim set has a visual in the [gallery index](figures/FIGURES.md) — charts and plots drawn by code from the stored result files, each captioned with its claim's fence. The headline ones:
+
+**The density that works (Gate-35)** — the pointwise member's required density is positive throughout the volume; the pressures are not legal (that fight is the programme's live one):
+
+![Gate-35 density figure](figures/fig_gate35_density.png)
+
+**The bubble wall, 3D** — required-source geometry of that same prescribed configuration (density legal, pressures not; a model of the target configuration, not of a working drive). Downloadable meshes: [`bubble_wall_shell.obj`](figures/bubble_wall_shell.obj) / [`.stl`](figures/bubble_wall_shell.stl):
+
+![Bubble wall 3D view](figures/model_bubble_wall_view1.png)
+
+**The Gate-34 winner's wall, 3D** — the earlier member whose density is positive at its binding sites (not pointwise). Meshes: [`gate34_wall_shell.obj`](figures/gate34_wall_shell.obj) / [`.stl`](figures/gate34_wall_shell.stl):
+
+![Gate-34 wall 3D view](figures/model_gate34_wall_view1.png)
+
+**The payload shells, 3D** — the gate-verified subluminal payload configuration (0.09758c, Gate-13). Meshes: [`payload_shells.obj`](figures/payload_shells.obj) / [`.stl`](figures/payload_shells.stl):
+
+![Payload shells 3D view](figures/model_payload_shells_view1.png)
+
+**The wormhole-coupling line** — the measured sign of the mouth-coupling, its zero at ξ = 1/4, and the quantum-inequality price of crossing (Phases 327/328/331):
+
+![Mouth-coupling figure](figures/fig_kpair.png)
+
+**The design-space map (Phase 309)** — the exhaustion classification the guidebook is built from, at compile time:
+
+![Phase 309 design-space map](figures/fig_phase309_map.png)
+
 ## Headline results (all numbers in `REPORT.md` and `CHECKPOINT.md`)
 
 - **Two novel subluminal warp shells, verified.** Shell geometries outside
