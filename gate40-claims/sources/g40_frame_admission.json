@@ -1,0 +1,5 @@
+{"frame": "VM (frame of record)", "laptop_admitted": false,
+ "laptop_anchor_diffs": {"nec": -1.0547423246722249e-06, "wec": -8.312892148093585e-06,
+ "dec": 2.439454888092385e-19, "sec": -5.735592757188587e-07, "rho": 1.2197274440461925e-19},
+ "laptop_max_abs_diff": 8.312892148093585e-06,
+ "note": "Laptop pool ran the gate's stationary anchor and did NOT reproduce it at diff 0.0 (max diff 8.31e-6, WEC) -- the 344/348/349/364/374 pattern a sixth time. Not admitted; every deciding read is a VM read."}
