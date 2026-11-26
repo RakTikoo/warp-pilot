@@ -1,0 +1,20 @@
+--- phase241/work/p2411_driver.py	2026-11-24 09:26:58.923146132 +0000
++++ phase365/work/p2411_driver_v2.py	2026-11-26 00:52:04.224155561 +0000
+@@ -688,8 +688,15 @@
+     return contract([(G['Ric'], ('p', 'q')), (R3a, ('p', 'r', 's', 'a')), (R1b, ('q', 'r', 's', 'b'))], ('a', 'b'))
+ mono('c3', ('const', F(-1, 315)), m38)
+ def m39(G, P):
+-    R1 = raise_idx(G['Riem'], 0, G['ginv'])  # R^t_{rsb}
+-    return contract([(P['RiemU'], ('p', 'q', 'r', 's')), (G['Riem'], ('p', 'q', 't', 'a')), (R1, ('t', 'r', 's', 'b'))], ('a', 'b'))
++    # PHASE 365 REPAIR (this v2 copy only; the stored p2411_driver.py
++    # is unchanged): N40 = R^{pqrs} R_{pqt a} R_{rs}{}^t{}_{b} -- the
++    # third factor's raised index sits in Riemann slot 2, not slot 0.
++    # The stored driver formed R^t{}_{rsb} (slot 0 raised) and
++    # contracted it in the slot-2 position (Phase 363: raw (0, +4, 0)
++    # vs verbatim (0, -8, 0) at the Ellis throat; +16 bracket in the
++    # xi^0 T^r_r total). Here R2 = R_{rs}{}^t{}_{b} keyed (r, s, t, b).
++    R2 = raise_idx(G['Riem'], 2, G['ginv'])  # R_{rs}{}^t{}_{b}
++    return contract([(P['RiemU'], ('p', 'q', 'r', 's')), (G['Riem'], ('p', 'q', 't', 'a')), (R2, ('r', 's', 't', 'b'))], ('a', 'b'))
+ mono('c3', ('const', F(2, 315)), m39)
+ def m40(G, P):
+     R1 = raise_idx(G['Riem'], 0, G['ginv'])

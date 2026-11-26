@@ -1,0 +1,12 @@
+# Prepared README update for v1.29.0 (apply at Stage 2 to the repo README's "What's new here" section)
+
+## Insert at the TOP of the "What's new here" list
+
+- **v1.29.0 — Gate-38 correction to the v1.27.0 identification set.** The Gate-37 set, re-adjudicated by Gate-38 and finalised by its Addendum on the record of Phases 355, 361, 363 and 365 (`gate38-claims/`). **G37-A FAILS and the misprint attribution is withdrawn:** the Phase 259 ξ⁰ residual was never carried by a printed number in Décanini & Folacci (2007) — its origin was this programme's own Phase 241 driver, whose monomial function m39 computed the (3.15) monomial N40 with an index raised from the wrong Riemann slot, worth exactly +16 in the stored ξ⁰ T^r_r total, which the Stage-4 back-out faithfully converted into the published "misprint". Print Eq. (2.23) is the derived tensor (80, 16, 112) at the Ellis throat, verified by direct exact evaluation. **G38-B survives verbatim** (derived H{2,0}(3) at the A-family throat = (9/4, 3/4, 21/4), exact). **G38-C is the only quotable form of the identification claim** — under the derived assembly both harness cores close exactly and the Ellis gate coefficient is 187 exactly; the stored print-side coefficient 203 is withdrawn as a comparator (it differs from 187 by exactly the corrupted +16 and was never a faithful print value). Phase 241's H(6,3)(5), (6), (8) non-conservation result is a separate result about separate tensors and stands untouched; the m39 defect is in this programme's code and in nothing of Décanini & Folacci's. No other claim set is affected. DOI: [version DOI minted at release — fill in at Stage 2].
+
+## Framing checks (Stage 2, on the live README text)
+
+1. The identification is always stated in its registered form (harness cores Ellis + A and the Ellis gate, all powers, derived assembly) and only in G38-C's final wording — never as a general identification of the semiclassical source, and the v1.27.0 set is never quoted in its Gate-37 form.
+2. No attribution of the ξ⁰ residual to any printed number in Décanini & Folacci (2007) appears anywhere; print Eq. (2.23) is stated as the derived tensor, and the stored print-side coefficient 203 is never used as a comparator.
+3. Defect separation is kept: the m39 mechanism (this programme's own driver defect) is never merged with Phase 241's separate H(6,3)(5), (6), (8) non-conservation result, which stands exactly as recorded.
+4. Report every README line changed, verbatim before/after, in the Stage-2 report.

@@ -1,0 +1,245 @@
+{
+ "control": {
+  "REST_print": [
+   "44/135",
+   "4/27",
+   "100/189"
+  ],
+  "REST_derived": [
+   "44/135",
+   "68/945",
+   "100/189"
+  ],
+  "diff": [
+   "0",
+   "8/105",
+   "0"
+  ],
+  "verdict": "PASS (original route)"
+ },
+ "R1_evals": {
+  "2.22": {
+   "tensor": "H{2,0}(1)",
+   "print": [
+    "224",
+    "32",
+    "224"
+   ],
+   "used": [
+    "224",
+    "32",
+    "224"
+   ],
+   "agree": true
+  },
+  "2.24": {
+   "tensor": "H(6,3)(1)",
+   "print": [
+    "92",
+    "20",
+    "92"
+   ],
+   "used": [
+    "92",
+    "20",
+    "92"
+   ],
+   "agree": true
+  },
+  "2.25": {
+   "tensor": "H(6,3)(2)",
+   "print": [
+    "52",
+    "12",
+    "60"
+   ],
+   "used": [
+    "52",
+    "12",
+    "60"
+   ],
+   "agree": true
+  },
+  "2.28": {
+   "tensor": "H(6,3)(5)",
+   "print": [
+    "20",
+    "-36",
+    "84"
+   ],
+   "used": [
+    "20",
+    "-36",
+    "84"
+   ],
+   "agree": true
+  },
+  "2.29": {
+   "tensor": "H(6,3)(6)",
+   "print": [
+    "4",
+    "-4",
+    "52"
+   ],
+   "used": [
+    "4",
+    "-4",
+    "52"
+   ],
+   "agree": true
+  },
+  "2.30": {
+   "tensor": "H(6,3)(7)",
+   "print": [
+    "-4",
+    "20",
+    "92"
+   ],
+   "used": [
+    "-4",
+    "20",
+    "92"
+   ],
+   "agree": true
+  },
+  "2.31": {
+   "tensor": "H(6,3)(8)",
+   "print": [
+    "-1",
+    "5",
+    "-25"
+   ],
+   "used": [
+    "-1",
+    "5",
+    "-25"
+   ],
+   "agree": true
+  }
+ },
+ "R2_totals": {
+  "xi0": {
+   "Tt": {
+    "independent_bracket": "8641/9",
+    "stored_bracket": "8641/9",
+    "diff": "0"
+   },
+   "Tr": {
+    "independent_bracket": "931/9",
+    "stored_bracket": "1075/9",
+    "diff": "-16"
+   },
+   "Tth": {
+    "independent_bracket": "10261/9",
+    "stored_bracket": "10261/9",
+    "diff": "0"
+   }
+  },
+  "xi1": {
+   "Tt": {
+    "independent_bracket": "-10794",
+    "stored_bracket": "-10794",
+    "diff": "0"
+   },
+   "Tr": {
+    "independent_bracket": "-1358",
+    "stored_bracket": "-1358",
+    "diff": "0"
+   },
+   "Tth": {
+    "independent_bracket": "-11186",
+    "stored_bracket": "-11186",
+    "diff": "0"
+   }
+  },
+  "xi2": {
+   "Tt": {
+    "independent_bracket": "33180",
+    "stored_bracket": "33180",
+    "diff": "0"
+   },
+   "Tr": {
+    "independent_bracket": "5460",
+    "stored_bracket": "5460",
+    "diff": "0"
+   },
+   "Tth": {
+    "independent_bracket": "33180",
+    "stored_bracket": "33180",
+    "diff": "0"
+   }
+  },
+  "xi3": {
+   "Tt": {
+    "independent_bracket": "-19320",
+    "stored_bracket": "-19320",
+    "diff": "0"
+   },
+   "Tr": {
+    "independent_bracket": "-4200",
+    "stored_bracket": "-4200",
+    "diff": "0"
+   },
+   "Tth": {
+    "independent_bracket": "-19320",
+    "stored_bracket": "-19320",
+    "diff": "0"
+   }
+  }
+ },
+ "R2_localisation": {
+  "group": "c3",
+  "monomial": "N40",
+  "verbatim": "R^{pqrs} R_{pqt a} R_{rs}{}^t{}_{b}",
+  "xi0_coef": "2/315",
+  "driver_raw_mixed": [
+   "0",
+   "4",
+   "0"
+  ],
+  "exact_raw_mixed": [
+   "0",
+   "-8",
+   "0"
+  ],
+  "contribution_diff_bracket_Tr": "16",
+  "driver_function": "p2411_driver.py m39 (MONO position 38): raises Riem slot 0 (R^t_{rsb}) where the monomial needs the raised index in slot 2 (R_{rs}{}^t{}_{b})",
+  "from_scratch_verbatim": [
+   "0",
+   "-8",
+   "0",
+   "0"
+  ],
+  "from_scratch_driver_variant": [
+   "0",
+   "4",
+   "0",
+   "0"
+  ]
+ },
+ "R3_tha": {
+  "Tt": [
+   "1033.0",
+   "-11242.0",
+   "33180.0",
+   "-19320.0"
+  ],
+  "Tr": [
+   "187.0",
+   "-1806.0",
+   "5460.0",
+   "-4200.0"
+  ],
+  "Tth": [
+   "1213.0",
+   "-11634.0",
+   "33180.0",
+   "-19320.0"
+  ]
+ },
+ "R3_implied_xi0": {
+  "Tt": "1033",
+  "Tr": "187",
+  "Tth": "1213"
+ }
+}
