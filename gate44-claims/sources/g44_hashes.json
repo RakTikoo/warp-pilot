@@ -1,0 +1,26 @@
+{
+ "E2-1": {
+  "hash_match": true,
+  "sha256": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066"
+ },
+ "E1-4": {
+  "hash_match": true,
+  "sha256": "2732e3be5229fe2393887ec20b6bbdf982ce8243863443f5825235853bb14c0d"
+ },
+ "H3": {
+  "hash_match": true,
+  "sha256": "29aa162b3b213ef1f45f77ebaca2fd671a6d081d236971c08ba755779c8a490c"
+ },
+ "H4": {
+  "hash_match": true,
+  "sha256": "08773ac65a1318bee342edfdac16956854fb552798313753c83791a48c1ced41"
+ },
+ "H5": {
+  "hash_match": true,
+  "sha256": "2c64fb21fd6c5ff6900db7b812f2a05b0833a5ea0d37cc598a2a7a004b52ac16"
+ },
+ "H6": {
+  "hash_match": true,
+  "sha256": "0d965624f4256526b00e7d540a8360e07a0b0ed0456c9b4cc58b1f9dc63d218f"
+ }
+}
