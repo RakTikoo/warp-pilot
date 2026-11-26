@@ -1,0 +1,29 @@
+{
+ "probe": "gate A2 anchor SET read (gate41 machinery) on the laptop pool",
+ "vm_frame_of_record": {
+  "nec": -0.0002319453132752996,
+  "dec": -0.00022336932044559818,
+  "wec": -0.0021092144017509297,
+  "sec": -0.002379031965576834,
+  "rho": 8.638077678074035e-05,
+  "typeI_count": 3535
+ },
+ "laptop": {
+  "nec": -0.00023300005559997176,
+  "dec": -0.0002233693204455977,
+  "wec": -0.002117527293899023,
+  "sec": -0.0023796055248525524,
+  "rho": 8.638077678074057e-05,
+  "typeI_count": 3535
+ },
+ "diffs_laptop_minus_vm": {
+  "nec": -1.0547423246721436e-06,
+  "dec": 4.87890977618477e-19,
+  "wec": -8.312892148093151e-06,
+  "sec": -5.73559275718425e-07,
+  "rho": 2.168404344971009e-19
+ },
+ "max_abs_diff": 8.312892148093151e-06,
+ "admitted": false,
+ "note": "Laptop does not reproduce the anchor at diff 0.0 (max diff 8.31e-6, WEC \u2014 the lineage pattern a seventh time). DEC and rho reproduce at roundoff; the drift is confined to the sampled-margin statistics (NEC/WEC/SEC minima at non-Type-I points). NOT ADMITTED: every deciding read is a VM read."
+}

@@ -1,0 +1,13 @@
+# Prepared README update for v1.32.0 (apply at upload to the repo README's "What's new here" section)
+
+## Insert at the TOP of the "What's new here" list
+
+- **v1.32.0 — Gate-41: the harvested centres' stationary improvement survives independent re-judgement.** Phase 379's claim set, re-judged by Gate-41 with machinery built for the gate alone (`gate41-claims/`): re-centring the stationary search on the dwelling pose's harvested bottom configurations improves the stationary level at both centres — H2 (μ = 1.15) joint level −1.942246×10⁻⁴ (NEC min at r = 16.220; DEC −1.898259×10⁻⁴; ρ min +8.789654×10⁻⁵), +8.957×10⁻⁶ above its centre bar and +1.571×10⁻⁵ above Phase 374's Gate-40-verified dwelling ceiling; H1 (μ = 1.1125) joint level −2.014605×10⁻⁴, +8.478×10⁻⁶ above its centre bar — every deciding value reproduced by the gate at float64 roundoff (max |gate − stored| 3.9×10⁻¹⁸). **(a)/(b)/(c)/(d) SURVIVE; (e) SURVIVES RESTATED with a mandatory rider (G41-E): end-clamped, H2 reads −2.087299×10⁻⁴ — below its centre bar by −5.549×10⁻⁶ (that margin does not survive end-clamping) but still above the dwelling ceiling by +1.208577×10⁻⁶ (the classification margin survives clamping in reduced form); band-edge freedom is a standing feature of this family's registered reads (Phase 344's incumbent included), not a device of this phase.** **Fence: these are stationary level improvements on the A2 lineage in the band pose [10, 20] only — every level remains negative and every configuration still violates NEC and DEC at its binding site; no energy-condition pass, no member in the energy-condition sense; Phase 356's full-extent caveats travel; no sustainment, transport or drive implication. The stationary pressure wall is moved (−2.319453×10⁻⁴ at the A2 centre → −1.942246×10⁻⁴ at H2), not broken.** DOI: [version DOI minted at release — fill in at upload].
+
+## Framing checks (at upload, on the live README text)
+
+1. The set is always stated as stationary level improvements on the A2 lineage in the band pose, in Gate-41 §5's wording (G41-A/B/C/D/E) — never as an energy-condition pass, a member, or a sustainment/transport/drive result.
+2. G41-A's and G41-D's margins are never quoted without the G41-E rider: end-clamped, the margin over the centre bar does not survive (−5.549×10⁻⁶) and the margin over the dwelling ceiling survives in reduced form (+1.208577×10⁻⁶).
+3. Phase 344's incumbent is described only as the best stationary level AT THE A2 CENTRE; Gate-40's set stands for its pose.
+4. Full-extent figures for the lineage are quoted only with Phase 356's caveats (≈ −1.44×10⁻³ over [10, 60]); no extent audit was run by Phase 379 or Gate-41.
+5. Report every README line changed, verbatim before/after, in the upload report.
