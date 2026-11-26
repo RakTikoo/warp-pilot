@@ -1,0 +1,94 @@
+{
+ "centre_111": {
+  "set_nec_min": -0.00019495321561300316,
+  "set_nec_argmin_typeI": false,
+  "set_nec_argmin_r": 17.682926829268293,
+  "set_nec_argmin_point": [
+   -1.3368819114004906,
+   10.316625442085504,
+   14.299156880457694
+  ],
+  "typeI_nec_min": -0.00013040089482455953,
+  "joint_raw": -0.00019495321561300316,
+  "joint_typeI_nec_dec": -0.0001898258508046158,
+  "at_stored_argmin": {
+   "nec_gate": -0.00019422459891767235,
+   "typeI_gate": false,
+   "nec_diff": -8.131516293641283e-20,
+   "worst_null_gate": -0.0001943288196279468,
+   "worst_null_diff": 2.710505431213761e-19
+  }
+ },
+ "mix_383pt": {
+  "set_nec_min": -0.00019971527734957792,
+  "set_nec_argmin_typeI": false,
+  "set_nec_argmin_r": 12.317073170731707,
+  "set_nec_argmin_point": [
+   1.3565831502698005,
+   -4.640183062122025,
+   -11.328666064438423
+  ],
+  "typeI_nec_min": -4.790455496957567e-05,
+  "joint_raw": -0.00019971527734957792,
+  "joint_typeI_nec_dec": -0.0001287489042939162
+ },
+ "mixed": {
+  "set_nec_min": -0.00017566884547028593,
+  "set_nec_argmin_typeI": false,
+  "set_nec_argmin_r": 12.560975609756097,
+  "set_nec_argmin_point": [
+   3.0402976317485852,
+   9.069329795803597,
+   -8.14137308039747
+  ],
+  "typeI_nec_min": -9.50878738368991e-05,
+  "joint_raw": -0.00017566884547028593,
+  "joint_typeI_nec_dec": -0.00015670690855768764,
+  "at_stored_argmin": {
+   "nec_gate": -0.00017570735537945236,
+   "typeI_gate": false,
+   "nec_diff": 5.421010862427522e-20,
+   "worst_null_gate": -0.00017703703917379299,
+   "worst_null_diff": 8.131516293641283e-20
+  }
+ },
+ "centre_111_clamped": {
+  "set_nec_min": -0.0001952837233266241,
+  "set_nec_argmin_typeI": false,
+  "set_nec_argmin_r": 17.682926829268293,
+  "set_nec_argmin_point": [
+   0.7822091980419736,
+   -11.481226548209252,
+   -13.42592592592593
+  ],
+  "typeI_nec_min": -0.00013037198567382772,
+  "joint_raw": -0.0002087299309761313,
+  "joint_typeI_nec_dec": -0.0002087299309761313
+ },
+ "mixed_clamped": {
+  "set_nec_min": -0.00017669632754376664,
+  "set_nec_argmin_typeI": false,
+  "set_nec_argmin_r": 12.560975609756097,
+  "set_nec_argmin_point": [
+   -1.487292001126529,
+   -9.949847067282292,
+   -7.521077988557663
+  ],
+  "typeI_nec_min": -9.50810076301913e-05,
+  "joint_raw": -0.00017669632754376664,
+  "joint_typeI_nec_dec": -0.00016608234692851046
+ },
+ "lineage_cmp_111_argmin": {
+  "point": [
+   -1.3368819114004906,
+   10.316625442085504,
+   14.299156880457694
+  ],
+  "That_max_abs_diff": 2.710505431213761e-19,
+  "nec_sampled_lineage": -0.00019363612314512378,
+  "nec_sampled_gate": -0.00019363612314512383,
+  "typeI_lineage": false,
+  "worst_null_lineage_That": -0.00019511981961721183,
+  "worst_null_gate_That": -0.00019511981961721186
+ }
+}
