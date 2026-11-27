@@ -1,0 +1,48 @@
+{
+ "best": {
+  "triple": [
+   0.4003528067864536,
+   1.9863455070489624,
+   6.715383396291902
+  ],
+  "set_nec_min": -7.4318921690925e-06,
+  "set_dec_min": -1.0979323923912478e-06,
+  "set_rho_min": 9.858014400881535e-05,
+  "J_band": -7.4318921690925e-06,
+  "reproduce_diffs": {
+   "nec": 0.0,
+   "dec": 0.0,
+   "rho": 0.0
+  },
+  "nec_argmin_r": 16.46341463414634,
+  "dec_argmin_r": 18.902439024390244,
+  "typeI_fraction": 0.7160493827160493,
+  "polished_depth_SAMPLER-M": -1.1320458817887675e-06,
+  "polish_source": "polished",
+  "worst_null_at_set_nec_argmin": -8.706718841221561e-06,
+  "worst_null_fib": -8.169245569707068e-06,
+  "margin_over_anchor_joint": 2.2377958108656506e-05,
+  "worst_null_margin_over_anchor": 2.2189491254456514e-05
+ },
+ "anchor_joint": -2.9809850277749006e-05,
+ "anchor_worst_null": -3.0896210095678075e-05,
+ "anchor_record": {
+  "triple": [
+   0.601180962300002,
+   1.5934531363763935,
+   4.887238651223381
+  ],
+  "stage": "RAY3",
+  "nec_min": -2.9809850277749006e-05,
+  "dec_min": -1.7766846142506707e-06,
+  "wec_min": -0.00012604578745184045,
+  "sec_min": -0.00046317591386364136,
+  "rho_min": 9.780857711542179e-05,
+  "nec_argmin_r": 15.73170731707317,
+  "dec_argmin_r": 18.65853658536585,
+  "typeI_fraction": 0.6123155676001204,
+  "floors_ok": true,
+  "feasible": true,
+  "joint": -2.9809850277749006e-05
+ }
+}

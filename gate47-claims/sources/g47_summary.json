@@ -1,0 +1,123 @@
+{
+ "calibrations": {
+  "trivial_limit_max_abs_T": 0.0,
+  "vector_agreement": {
+   "A2": {
+    "vS": 0.0,
+    "vN": 0.0,
+    "vM": 0.0,
+    "all_zero": true
+   },
+   "H2": {
+    "vS": 0.0,
+    "vN": 0.0,
+    "vM": 0.0,
+    "all_zero": true
+   }
+  },
+  "fd_cross_path": {
+   "centre_nec_argmin": {
+    "point": [
+     16.158003891492058,
+     -3.020989248027475,
+     0.9146341463414641
+    ],
+    "rows": [
+     {
+      "h": 0.1,
+      "max_abs_diff_T": 2.120009732260123e-06,
+      "max_abs_diff_That": 3.9325872897581277e-07,
+      "scale_T": 0.005421994717578909
+     },
+     {
+      "h": 0.05,
+      "max_abs_diff_T": 2.032720569694526e-07,
+      "max_abs_diff_That": 3.422893867865653e-08,
+      "scale_T": 0.005421994717578909
+     },
+     {
+      "h": 0.025,
+      "max_abs_diff_T": 1.5225155337861285e-11,
+      "max_abs_diff_That": 3.972487215477688e-13,
+      "scale_T": 0.005421994717578909
+     },
+     {
+      "h": 0.0125,
+      "max_abs_diff_T": 3.871867236548976e-12,
+      "max_abs_diff_That": 1.027660216038756e-13,
+      "scale_T": 0.005421994717578909
+     }
+    ]
+   },
+   "H2_nec_argmin_control": {
+    "point": [
+     12.330081871976182,
+     -2.9640809161871493,
+     -10.112165010538996
+    ],
+    "rows": [
+     {
+      "h": 0.1,
+      "max_abs_diff_T": 1.5828511126359619e-06,
+      "max_abs_diff_That": 1.0149853423579189e-06,
+      "scale_T": 0.0005289649041871179
+     },
+     {
+      "h": 0.05,
+      "max_abs_diff_T": 9.821749585864218e-07,
+      "max_abs_diff_That": 5.502715614697493e-07,
+      "scale_T": 0.0005289649041871179
+     },
+     {
+      "h": 0.025,
+      "max_abs_diff_T": 3.995362735804411e-07,
+      "max_abs_diff_That": 2.0392005213002058e-07,
+      "scale_T": 0.0005289649041871179
+     },
+     {
+      "h": 0.0125,
+      "max_abs_diff_T": 1.116037114123631e-08,
+      "max_abs_diff_That": 3.4584641767716924e-09,
+      "scale_T": 0.0005289649041871179
+     }
+    ]
+   }
+  }
+ },
+ "md5_registry": {
+  "phase396/CHECKPOINT396.md": "447b42f2fdea53f6653210190cb31098",
+  "phase396/results/p396_memo.md": "2d6aef13d18ce6274f10691eaf948adb",
+  "phase396/results/p396_confirmation.json": "0da43dc00af7cd0a4194b9e1235f66c9",
+  "phase396/results/p396_clamp.json": "c3bc4d30448abf28785635c4d36a3f75",
+  "phase396/results/p396_controls.json": "3eac238d67e681fc2821cc99f8a53179",
+  "phase396/results/p396_anatomy.json": "7507dfa0b8ee3c228b69daa09151c749",
+  "phase396/results/p396_physicality.json": "651b4900f1d3cfa1a95dbf3dbaa16695",
+  "phase396/results/p396_search_summary.json": "e609508c4c03c85c7749e44104b98dd9",
+  "phase396/results/p396_screens.jsonl": "d3a71a0d225726d7d989406191f126ff",
+  "phase395/results/p395_confirmation.json": "6d3e2c209ffbcd36ff2f59bdee09a0bb",
+  "phase395/results/p395_clamp.json": "2eb334e7a12e55753fc894d1793f8df6",
+  "phase395/results/p395_search_summary.json": "62993b28d0ea5f6dbb000fef530053ff",
+  "phase394/results/p394_confirmation.json": "611424f0c0ac49ead895e2ed2b3a9172",
+  "phase379/results/p379_confirmation.json": "1bcb8b3900026cc78e6aacb33654ad72",
+  "phase379/results/p379_state_H2.json": "66adf3797e6e105c71f89ca8fe5be4fe",
+  "phase344/results/p344_confirmation.json": "bca93c039daf9c8baf68f4e567abe873",
+  "phase344/results/p344_state_A2.json": "eec813ee4d1c94de6ac21829304d5ebd"
+ },
+ "vector_agreement": {
+  "A2": {
+   "vS": 0.0,
+   "vN": 0.0,
+   "vM": 0.0,
+   "all_zero": true
+  },
+  "H2": {
+   "vS": 0.0,
+   "vN": 0.0,
+   "vM": 0.0,
+   "all_zero": true
+  }
+ },
+ "tensor_path": "sympy Cartesian symbolic first/second spatial derivatives of the registered metric, radial symbols substituted, numpy lambdify (cse=True); own vectorised Christoffel/Ricci/Einstein assembly",
+ "scoping_note": "adversary-polish depth not run (per tasking); controls judged on five minima + worst-nulls",
+ "wall_time_s_part2": 30.42536687850952
+}

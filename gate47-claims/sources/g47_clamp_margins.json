@@ -1,0 +1,9 @@
+{
+ "clamped_centre_joint": -7.644643599300465e-06,
+ "anchor_unclamped_joint_mine": -2.980985027774925e-05,
+ "clamped_centre_minus_anchor_unclamped": 2.2165206678448785e-05,
+ "L_stat_H2_stored_nec": -0.00019422459891767227,
+ "H2_joint_mine": -0.00019422459891767238,
+ "clamped_centre_minus_LstatH2_stored": 0.0001865799553183718,
+ "clamped_centre_minus_H2_joint_mine": 0.0001865799553183719
+}

@@ -1,0 +1,48 @@
+{
+ "reads": [
+  {
+   "name": "best",
+   "triple": [
+    0.4003528067864536,
+    1.9863455070489624,
+    6.715383396291902
+   ],
+   "clamped": {
+    "joint": -7.644643599300465e-06,
+    "nec_min": -7.644643599300465e-06,
+    "dec_min": -1.0999871338545134e-06,
+    "rho_min": 9.858005002779685e-05,
+    "nec_argmin_r": 16.21951219512195,
+    "dec_argmin_r": 18.902439024390244,
+    "floors_ok_clamped": true,
+    "feasible": true
+   },
+   "unclamped_joint": -7.4318921690925e-06,
+   "clamp_cost": 2.1275143020796448e-07
+  },
+  {
+   "name": "anchor",
+   "triple": [
+    0.601180962300002,
+    1.5934531363763935,
+    4.887238651223381
+   ],
+   "clamped": {
+    "joint": -3.0189206094012074e-05,
+    "nec_min": -3.0189206094012074e-05,
+    "dec_min": -1.7417010050539813e-06,
+    "rho_min": 9.780939577475905e-05,
+    "nec_argmin_r": 15.73170731707317,
+    "dec_argmin_r": 18.902439024390244,
+    "floors_ok_clamped": true,
+    "feasible": true
+   },
+   "unclamped_joint": -2.9809850277749006e-05,
+   "clamp_cost": 3.7935581626306804e-07
+  }
+ ],
+ "anchor_clamped_joint_stored_395": -3.0189206094012074e-05,
+ "c394_clamped_joint_stored_395": -6.968822658140883e-05,
+ "mixed_centre_clamped_joint_gate43": -0.00017669632754376664,
+ "note": "clamp construction per registration SS5; CTL-396-CLAMP validates it at diff 0.0 (H2 leg), inside the C-10 band (mixed leg vs Gate-43), and diff 0.0 (C394 and anchor legs vs 395)."
+}
