@@ -1,0 +1,63 @@
+{
+ "gate": "Gate-48",
+ "charge": "ledger entry 1041 \u2014 Phase 400 claim set",
+ "organisation": "forward-mode second-order Taylor jets of the metric in spherical coordinates (t, r, theta, phi); loop Christoffel/Ricci contractions in the spherical basis; spherical orthonormal Eulerian frame; Hawking-Ellis eigenvalue margins; exact worst-nulls at named points",
+ "rulings": {
+  "a": "SURVIVES",
+  "b": "SURVIVES",
+  "c": "SURVIVES",
+  "d": "SURVIVES",
+  "e": "SURVIVES AS RIDER G48-E"
+ },
+ "deciding": {
+  "winner_joint_gate": 1.3977194851287427e-06,
+  "winner_joint_stored": 1.3977194851281464e-06,
+  "winner_joint_diff": 5.963111948670274e-19,
+  "winner_worst_null_diff": 5.963111948670274e-19,
+  "winner_typeI_count": 6642,
+  "winner_rho_diff": 5.353248226647178e-17,
+  "winner_sec_gate": -0.0002050291598674923,
+  "winner_sec_stored": -0.00020502915986749415,
+  "winner_sec_diff": 1.8431436932253575e-18,
+  "S_max_abs_on_grid": 0.0,
+  "polished_depth_gate": 1.3761826609474655e-06,
+  "polished_depth_diff": 1.8365842700818202e-15,
+  "tight_polish_depth": 1.3761826576426817e-06,
+  "anchor_diff": 2.168404344971009e-19,
+  "endpoint_A_diff": 3.6591823321385775e-19,
+  "endpoint_B_diff": 2.710505431213761e-19,
+  "H2_rho_diff": 9.486769009248164e-20,
+  "H2_worst_null_diff_vs_gate46": -2.710505431213761e-19,
+  "C395_rho_diff": -6.938893903907228e-18,
+  "C395_dec_diff": -1.0842021724855044e-19,
+  "C395_worst_null_diff": -3.1170812458958252e-19,
+  "C395_typeI_count": 4067,
+  "screens": 981,
+  "stage_counts": {
+   "A": 328,
+   "B": 22,
+   "C": 432,
+   "D": 182,
+   "E": 17
+  },
+  "stage_reread_diffs": {
+   "A": 5.149960319306146e-19,
+   "B": 1.0842021724855044e-19,
+   "C": 5.963111948670274e-19,
+   "D": 6.505213034913027e-19
+  },
+  "crossing_first_positive_A_index": 15,
+  "incumbent_at_A200": 9.219392729314463e-07,
+  "penalty_max_screen_diff": 0.0,
+  "pen341_max_screen_diff": 0.0,
+  "stakes_muS_gate_m": {
+   "A": 0.27133544952746425,
+   "B": 0.2821084953619449
+  },
+  "stakes_shortfall_gate_m": {
+   "A": 3.8219574447711695e-06,
+   "B": 3.4054892222235607e-06
+  }
+ },
+ "quotable_set": "gate48/GATE48.md \u00a76 (G48-A..G48-E), fence verbatim"
+}

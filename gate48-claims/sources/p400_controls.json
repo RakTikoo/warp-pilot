@@ -1,0 +1,184 @@
+{
+ "wp": "/home/hatch/workspace/warp-pilot",
+ "controls": {
+  "CTL-400-A": {
+   "triple": [
+    0.0,
+    2.386698313835416,
+    10.718911464156438
+   ],
+   "nec_min": -6.587071568730905e-07,
+   "dec_min": -6.587071568730905e-07,
+   "wec_min": -6.587071568730905e-07,
+   "sec_min": -0.00022216793442105583,
+   "rho_min": 9.936047786433927e-05,
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "nec_argmin_r": 18.902439024390244,
+   "dec_argmin_r": 18.902439024390244,
+   "typeI_fraction": 1.0,
+   "worst_null_at_set_nec_argmin": -6.587071568730905e-07,
+   "worst_null_fib": -2.76536448828207e-07,
+   "worst_null_diff": 0.0,
+   "pass": true
+  },
+  "CTL-400-B": {
+   "triple": [
+    0.0,
+    2.633929922196695,
+    9.76391679857471
+   ],
+   "nec_min": -7.229718758606569e-07,
+   "dec_min": -7.229718758606569e-07,
+   "wec_min": -7.229718758606569e-07,
+   "sec_min": -0.00024179720889569109,
+   "rho_min": 9.92317425767731e-05,
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "nec_argmin_r": 18.902439024390244,
+   "dec_argmin_r": 18.902439024390244,
+   "typeI_fraction": 1.0,
+   "worst_null_at_set_nec_argmin": -7.229718758606569e-07,
+   "worst_null_fib": -3.373766179654878e-07,
+   "worst_null_diff": 0.0,
+   "pass": true
+  },
+  "CTL-400-ZERO-A": {
+   "seed": "A",
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "max_abs_S_Sp_Spp_on_SET": 0.0,
+   "nec_argmin_r": 18.902439024390244,
+   "pass": true
+  },
+  "CTL-400-ZERO-B": {
+   "seed": "B",
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "max_abs_S_Sp_Spp_on_SET": 0.0,
+   "nec_argmin_r": 18.902439024390244,
+   "pass": true
+  },
+  "CTL-400-ANCHOR": {
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "nec_min": -2.5991706000781927e-07,
+   "dec_min": -2.5991706000781927e-07,
+   "rho_min": 9.949830702927364e-05,
+   "nec_argmin_r": 18.902439024390244,
+   "typeI_fraction": 1.0,
+   "worst_null_at_set_nec_argmin": -2.5991706000781927e-07,
+   "worst_null_fib": 1.0727189572943359e-07,
+   "worst_null_diff": 0.0,
+   "max_abs_S_Sp_Spp_on_SET": 0.0,
+   "pass": true
+  },
+  "CTL-400-PEN": {
+   "pen341_on_anchor": 2.4000000000000004e-05,
+   "pen341_target": 2.4e-05,
+   "pen341_diff": 3.3881317890172014e-21,
+   "pen400_on_anchor": 2.4000000000000003e-08,
+   "pen400_target": 2.4e-08,
+   "pen400_diff": 3.308722450212111e-24,
+   "pen400_over_pen341": 0.001,
+   "lam400": 1e-05,
+   "lam_reg": 0.01,
+   "lam_ratio_exact": true,
+   "rough_anchor": 0.0024000000000000002,
+   "rough_diff_vs_0.0024": 4.336808689942018e-19,
+   "pass": true
+  },
+  "CTL-400-H2S": {
+   "triple": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "nec_min": -0.00019422459891767227,
+   "dec_min": -0.00018982585080461558,
+   "wec_min": -0.0017768467393179327,
+   "sec_min": -0.0020943799294291577,
+   "rho_min": 8.789653555683182e-05,
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "nec_argmin_r": 16.21951219512195,
+   "dec_argmin_r": 19.634146341463413,
+   "typeI_fraction": 0.49111713339355617,
+   "depth": -0.00014402430840320638,
+   "depth_diff": 0.0,
+   "pass": true
+  },
+  "CTL-400-C395": {
+   "triple": [
+    0.601180962300002,
+    1.5934531363763935,
+    4.887238651223381
+   ],
+   "nec_min": -2.9809850277749006e-05,
+   "dec_min": -1.7766846142506707e-06,
+   "wec_min": -0.00012604578745184045,
+   "sec_min": -0.00046317591386364136,
+   "rho_min": 9.780857711542179e-05,
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "nec_argmin_r": 15.73170731707317,
+   "dec_argmin_r": 18.65853658536585,
+   "typeI_fraction": 0.6123155676001204,
+   "depth": -1.8442187815114126e-06,
+   "depth_diff": 0.0,
+   "worst_null_at_set_nec_argmin": -3.0896210095678075e-05,
+   "worst_null_fib": -3.0129222953886082e-05,
+   "worst_null_diff": 0.0,
+   "pass": true
+  },
+  "FLOORS-EP-A": {
+   "floors_ok": true,
+   "pass": true
+  },
+  "FLOORS-EP-B": {
+   "floors_ok": true,
+   "pass": true
+  },
+  "FLOORS-ANCHOR": {
+   "positivity_ok": true,
+   "pass": true
+  }
+ },
+ "all_pass": true,
+ "t_controls_s": 76.46574831008911
+}

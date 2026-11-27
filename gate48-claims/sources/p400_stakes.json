@@ -1,0 +1,25 @@
+{
+ "L_new": 1.3977194851281464e-06,
+ "anchor_bar": -2.5991706000781927e-07,
+ "margin_over_anchor": 1.6576365451359656e-06,
+ "ss7_muS_min": 0.5,
+ "per_trace": {
+  "A": {
+   "A_c": 2.3255901039892218e-05,
+   "p": 2.15556441798475,
+   "m_req_for_muS_star_0.5": 5.219676929899912e-06,
+   "margin": 1.3977194851281464e-06,
+   "break_even_muS": 0.27133544952741057,
+   "clears_SS7": false
+  },
+  "B": {
+   "A_c": 2.1420515201850943e-05,
+   "p": 2.1569227773790267,
+   "m_req_for_muS_star_0.5": 4.803208707352303e-06,
+   "margin": 1.3977194851281464e-06,
+   "break_even_muS": 0.28210849536188903,
+   "clears_SS7": false
+  }
+ },
+ "caveat": "The carried law was fitted along the ridge on the endpoints' uncorrected N/M bases; on a corrected base the coefficient may differ. The break-even is the law's estimate, not a measurement."
+}
