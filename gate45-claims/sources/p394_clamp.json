@@ -1,0 +1,46 @@
+{
+ "reads": [
+  {
+   "name": "best",
+   "triple": [
+    0.8015689430763502,
+    1.3179449338854314,
+    3.574968377899082
+   ],
+   "clamped": {
+    "joint": -6.968822658140883e-05,
+    "nec_min": -6.968822658140883e-05,
+    "dec_min": -4.827335644719917e-06,
+    "rho_min": 9.678542130126859e-05,
+    "nec_argmin_r": 15.487804878048781,
+    "dec_argmin_r": 18.170731707317074,
+    "floors_ok_clamped": true,
+    "feasible": true
+   },
+   "unclamped_joint": -6.812652656191736e-05,
+   "clamp_cost": 1.5617000194914637e-06
+  },
+  {
+   "name": "seed",
+   "triple": [
+    0.9323593026620368,
+    1.1444417317708335,
+    2.289013671875
+   ],
+   "clamped": {
+    "joint": -0.0001247663063840762,
+    "nec_min": -0.0001247663063840762,
+    "dec_min": -3.7861837710613004e-05,
+    "rho_min": 9.470788137034253e-05,
+    "nec_argmin_r": 12.317073170731707,
+    "dec_argmin_r": 19.634146341463413,
+    "floors_ok_clamped": true,
+    "feasible": true
+   },
+   "unclamped_joint": -0.00012413718983790085,
+   "clamp_cost": 6.291165461753631e-07
+  }
+ ],
+ "mixed_centre_clamped_joint_gate43": -0.00017669632754376664,
+ "note": "clamp construction per registration SS5; CTL-394-CLAMP validates it at diff 0.0 (H2 leg) and 2.2e-19 (mixed leg vs Gate-43)."
+}

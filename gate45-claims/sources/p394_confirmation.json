@@ -1,0 +1,48 @@
+{
+ "best": {
+  "triple": [
+   0.8015689430763502,
+   1.3179449338854314,
+   3.574968377899082
+  ],
+  "set_nec_min": -6.812652656191736e-05,
+  "set_dec_min": -4.611098054060287e-06,
+  "set_rho_min": 9.678145350055573e-05,
+  "J_band": -6.812652656191736e-05,
+  "reproduce_diffs": {
+   "nec": 0.0,
+   "dec": 0.0,
+   "rho": 0.0
+  },
+  "nec_argmin_r": 15.487804878048781,
+  "dec_argmin_r": 18.170731707317074,
+  "typeI_fraction": 0.49849442938873834,
+  "polished_depth_SAMPLER-M": -4.7301819317490616e-06,
+  "polish_source": "polished",
+  "worst_null_at_set_nec_argmin": -7.173153284502476e-05,
+  "worst_null_fib": -7.05304027831463e-05,
+  "margin_over_seed_joint": 5.601066327598348e-05,
+  "worst_null_margin_over_seed": 5.304123021270031e-05
+ },
+ "seed_joint": -0.00012413718983790085,
+ "seed_worst_null": -0.00012477276305772507,
+ "seed_record": {
+  "triple": [
+   0.9323593026620368,
+   1.1444417317708335,
+   2.289013671875
+  ],
+  "stage": "RAY",
+  "nec_min": -0.00012413718983790085,
+  "dec_min": -3.4350860761739224e-05,
+  "wec_min": -0.0009443823050476109,
+  "sec_min": -0.0015236814797256301,
+  "rho_min": 9.46961652955672e-05,
+  "nec_argmin_r": 12.317073170731707,
+  "dec_argmin_r": 19.634146341463413,
+  "typeI_fraction": 0.47395362842517313,
+  "floors_ok": true,
+  "feasible": true,
+  "joint": -0.00012413718983790085
+ }
+}
