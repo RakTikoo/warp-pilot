@@ -1,0 +1,30 @@
+{
+ "admitted": true,
+ "control": "CTL-418-ADM (registration SS2): Trace-A endpoint SET read on the laptop pool mirror /home/spark/work/p390root, p389_lib.set_read389, pool venv -- run 2026-11-27 for Phase 418 (p418_admission.py form, executed on the pool).",
+ "laptop": {
+  "wp": "/home/spark/work/p390root",
+  "nec_min": -6.587071568730498e-07,
+  "dec_min": -6.587071568730498e-07,
+  "wec_min": -6.587071568730498e-07,
+  "sec_min": -0.00022216793442105638,
+  "rho_min": 9.936047786433913e-05,
+  "nec_argmin_r": 18.902439024390244,
+  "dec_argmin_r": 18.902439024390244
+ },
+ "vm_endpoint": {
+  "nec": -6.587071568730905e-07,
+  "dec": -6.587071568730905e-07,
+  "wec": -6.587071568730905e-07,
+  "sec": -0.00022216793442105583,
+  "rho": 9.936047786433927e-05
+ },
+ "diffs_vs_VM_endpoint": {
+  "nec": 4.0657581468206416e-20,
+  "dec": 4.0657581468206416e-20,
+  "wec": 4.0657581468206416e-20,
+  "sec": -5.421010862427522e-19,
+  "rho": -1.3552527156068805e-19
+ },
+ "argmin_radii_identical": true,
+ "note": "The laptop read is digit-identical to the Phase 405/406/412/414 admission reads; diffs vs the VM endpoint record are at roundoff (<= 5.5e-19) -- ADMITTED. Deciding reads are nevertheless all VM reads per registration SS2."
+}

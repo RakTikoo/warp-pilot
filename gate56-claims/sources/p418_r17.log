@@ -1,0 +1,6 @@
+R K9 incumbent: screen 1648 joint -3.05568504581619e-05
+R17 incumbent: (1788, -3.055685517891921e-05, -3.063021612981043e-05)
+K17 gate did not beat the K9 2x incumbent; twice_best stands (screen 1648)
+criterion pure-joint max: screen 1347 stage B joint 3.6526207343841256e-06 score 3.545203313655311e-06
+CONFIRM pure-joint max joint 3.6526207343841256e-06 diff vs screen 0.0
+total screens now 1884

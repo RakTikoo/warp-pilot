@@ -1,0 +1,13 @@
+{
+ "joint": 3.6526207343842205e-06,
+ "nec_min": 3.6526207343842205e-06,
+ "dec_min": 3.6526207343842205e-06,
+ "wec_min": 3.6526207343842205e-06,
+ "sec_min": -0.0005294468643886865,
+ "rho_min": 9.821776799966701e-05,
+ "nec_argmin_r": 18.17073170731707,
+ "typeI_fraction": 1.0,
+ "worst_null_exact": 3.5127967556114958e-06,
+ "peak_dense20001": {"peak": 0.4426742490267404, "radius": 10.0},
+ "frame": "laptop pool (RTGaming WSL, g39venv numpy 2.5.5 / scipy 1.18.1), mirror ~/work/gate56"
+}
