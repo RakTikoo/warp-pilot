@@ -1,0 +1,37 @@
+{
+ "targets_max_diff": 0.0,
+ "targets_pass": true,
+ "primaries": {
+  "fitA": {
+   "N": 6,
+   "Rs": [
+    8.146052146768652e-15,
+    2.763444156047428e-13,
+    2.9659839407219894e-12
+   ],
+   "maxR": 2.9659839407219894e-12,
+   "maxR_stored": 2.9659878908312287e-12,
+   "dmaxR": 3.950109239396462e-18
+  },
+  "fitB": {
+   "N": 12,
+   "Rs": [
+    9.109868894798182e-15,
+    1.6916314839656413e-14,
+    2.3054719412020823e-14,
+    2.0951114940442494e-14,
+    7.928112143435169e-15
+   ],
+   "maxR": 2.3054719412020823e-14,
+   "maxR_stored": 2.3051650590783883e-14,
+   "dmaxR": 3.0688212369398987e-18
+  }
+ },
+ "primaries_pass": true,
+ "decomposition_max_diff": 0.0,
+ "decomposition_pass": true,
+ "verdict_stored": "SUPPLIES AT THE SITES",
+ "verdict_expected": "SUPPLIES AT THE SITES",
+ "verdict_pass": true,
+ "all_pass": true
+}

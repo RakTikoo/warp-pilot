@@ -1,0 +1,25 @@
+{
+ "frame": "laptop pool venv numpy 2.5.5 / scipy 1.18.1 (same as VM frame of record)",
+ "staged_root": "/home/spark/work/g54root",
+ "fitA": {
+  "Rs_max_abs_diff_vm_vs_laptop": 1.1417645204502059e-18,
+  "sigma_min_vm": 0.3857618160623069,
+  "sigma_min_laptop": 0.3857618165948743,
+  "sigma_rel_diff": 1.380560120029279e-09,
+  "rhos_max_abs_diff": 6.505213034913027e-19,
+  "max_channel_diff_vm": 1.3366521431357192e-12,
+  "max_channel_diff_laptop": 1.3366523599761537e-12,
+  "rank_laptop": 30
+ },
+ "fitB": {
+  "Rs_max_abs_diff_vm_vs_laptop": 2.7136066969405254e-18,
+  "sigma_min_vm": 0.015432480949901446,
+  "sigma_min_laptop": 0.015432480700342604,
+  "sigma_rel_diff": 1.6171012499635004e-08,
+  "rhos_max_abs_diff": 2.8324781756183803e-18,
+  "max_channel_diff_vm": 3.7099419673489176e-14,
+  "max_channel_diff_laptop": 3.709811863088219e-14,
+  "rank_laptop": 50
+ },
+ "verdict": "ADMITTED for claims (a) and (b) deciding reads: residuals agree at <=2e-16 absolute, sigma_min at <=8e-8 relative, channel diffs at the same 1e-12 class; deciding reads remain the VM reads."
+}
