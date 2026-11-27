@@ -1,0 +1,22 @@
+{
+ "admitted": true,
+ "control": "CTL-405-ADM (registration SS2): Trace-A endpoint SET read on the laptop pool mirror /home/spark/work/p390root, p389_lib.set_read389, pool venv",
+ "diffs": {
+  "nec": 4.0657581468206416e-20,
+  "dec": 4.0657581468206416e-20,
+  "wec": 4.0657581468206416e-20,
+  "sec": -5.421010862427522e-19,
+  "rho": -1.3552527156068805e-19
+ },
+ "laptop": {
+  "nec_min": -6.587071568730498e-07,
+  "dec_min": -6.587071568730498e-07,
+  "wec_min": -6.587071568730498e-07,
+  "sec_min": -0.00022216793442105638,
+  "rho_min": 9.936047786433913e-05,
+  "nec_argmin_r": 18.902439024390244,
+  "dec_argmin_r": 18.902439024390244
+ },
+ "argmin_radii_identical": true,
+ "note": "ADMITTED at roundoff (the 398/400/401 admission diffs exactly). Deciding reads are nevertheless all VM reads per registration SS2."
+}

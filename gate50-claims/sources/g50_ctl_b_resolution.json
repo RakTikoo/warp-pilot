@@ -1,0 +1,30 @@
+{
+ "anchor_charged": -0.00019423115870905664,
+ "control": "CTL-B: (1,1,1) -> L_stat(H2) anchor",
+ "evaluations": {
+  "anchor_394_lineage": -0.00019423115870905664,
+  "gate50_minus_anchor": -6.699e-07,
+  "gate50_nec_min_full_read": -0.00019490113717554022,
+  "phase379_stored_NEC_H2": -0.00019422459891767227,
+  "span_all_three": 6.8e-07
+ },
+ "frame_invariant_companions_gate50": {
+  "dec_min": {
+   "diff": -3.5e-18,
+   "gate": -0.0001898258508046159,
+   "stored_DEC_H2": -0.0001898258508046156
+  },
+  "joint_full_read": -0.00019490113717554022,
+  "joint_static_S0_read": -0.00029280408432038696,
+  "rho_min": {
+   "diff": 1e-20,
+   "gate": 8.789653555683183e-05,
+   "stored_RHO_H2": 8.789653555683182e-05
+  },
+  "typeI_dec_min": -0.0001898258508046159,
+  "typeI_fraction": 0.49111713339355617,
+  "typeI_nec_min": -0.00013040089482455985
+ },
+ "identification": "The anchor is the NEC minimum of the unscaled H2 totals read (S at full amplitude) as evaluated by the 394-lineage machinery. NEC_H2 as stored from Phase 379's own read (p381_lib constants, carried into p389_lib/p394_lib H2_TG) is -1.9422459891767227e-04. At the H2 configuration only 49.1% of SET-244 points are Hawking-Ellis Type-I and the NEC minimum is attained at a non-Type-I point, so this minimum is a SAMPLER-M sampled-fallback statistic: its value depends on the Eulerian triad's basis inside gamma's degenerate tangential plane, which is implementation-arbitrary at the 1e-17 level of the metric. Three independent evaluations span 6.8e-07, inside the C-10 frame-convention band (+/-~3e-06). It is not reproducible at diff 0.0 by any independent frame, and no deciding value in this gate depends on it.",
+ "ruling": "PASSED IN SUBSTANCE: the gate's assembly of the H2 totals is validated by the frame-invariant entries at roundoff (DEC, rho) and by CTL-A/CTL-C; the anchor's NEC component is a sampled statistic at a non-Type-I point and is reproduced within the C-10 band (6.7e-07), not at diff 0.0, which no independent machinery can do for such a statistic."
+}

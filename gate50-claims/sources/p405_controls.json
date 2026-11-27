@@ -1,0 +1,114 @@
+{
+ "controls": {
+  "CTL-405-WIN": {
+   "K9": {
+    "five_diffs": {
+     "nec": 0.0,
+     "dec": 0.0,
+     "wec": 0.0,
+     "sec": 0.0,
+     "rho": 0.0
+    },
+    "five_pass": true,
+    "joint": 1.3977194851281464e-06,
+    "joint_diff": 0.0,
+    "worst_null": 1.3977194851281464e-06,
+    "worst_null_diff": 0.0,
+    "nec_argmin_r": 17.682926829268293,
+    "typeI_fraction": 1.0,
+    "max_abs_S_Sp_Spp_on_SET_grid": 0.0,
+    "S_identically_zero": true
+   },
+   "K17": {
+    "five_diffs": {
+     "nec": 0.0,
+     "dec": 0.0,
+     "wec": 0.0,
+     "sec": 0.0,
+     "rho": 0.0
+    },
+    "five_pass": true,
+    "joint": 1.3977194851281464e-06,
+    "joint_diff": 0.0,
+    "worst_null": 1.3977194851281464e-06,
+    "worst_null_diff": 0.0,
+    "nec_argmin_r": 17.682926829268293,
+    "typeI_fraction": 1.0,
+    "max_abs_S_Sp_Spp_on_SET_grid": 0.0,
+    "S_identically_zero": true
+   },
+   "floors_ok_winner": true,
+   "pass": true
+  },
+  "CTL-405-H2S": {
+   "five_diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "pass": true
+  },
+  "CTL-405-C395": {
+   "five_diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "five_pass": true,
+   "worst_null": -3.0896210095678075e-05,
+   "worst_null_diff": 0.0,
+   "pass": true
+  },
+  "CTL-405-FIX": {
+   "0.171875": {
+    "values": {
+     "joint": 1.4352780045877611e-08,
+     "nec": 5.8582528922768596e-08,
+     "dec": 1.4352780045877611e-08,
+     "wec": 9.984072117457613e-08,
+     "sec": -0.00020547689452441717,
+     "rho": 9.943374749820732e-05,
+     "peak_abs_beta_S": 0.152169273102942
+    },
+    "diffs_vs_ladder": {
+     "joint": 0.0,
+     "nec": 0.0,
+     "dec": 0.0,
+     "wec": 0.0,
+     "sec": 0.0,
+     "rho": 0.0,
+     "peak_abs_beta_S": 0.0
+    },
+    "pass": true
+   },
+   "0.5": {
+    "values": {
+     "joint": -9.1860984150769e-06,
+     "nec": -9.1860984150769e-06,
+     "dec": -5.254835834176482e-09,
+     "wec": 7.298133884579188e-08,
+     "sec": -0.0002087584612032542,
+     "rho": 9.943330090213743e-05,
+     "peak_abs_beta_S": 0.4426742490267404
+    },
+    "diffs_vs_ladder": {
+     "joint": 0.0,
+     "nec": 0.0,
+     "dec": 0.0,
+     "wec": 0.0,
+     "sec": 0.0,
+     "rho": 0.0,
+     "peak_abs_beta_S": 0.0
+    },
+    "pass": true
+   },
+   "P_fix_achievable_peak": 0.152169273102942,
+   "pass": true
+  }
+ },
+ "all_pass": true
+}
