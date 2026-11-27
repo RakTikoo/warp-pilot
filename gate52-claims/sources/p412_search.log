@@ -1,0 +1,4 @@
+rung m=2 peak=0.885348 K9=6.69929e-07 K17=None legal=True screens=280
+rung m=2 peak=0.885348 K9=6.69929e-07 K17=None legal=True screens=696
+rung m=5 peak=2.21337 K9=-6.5078079e-05 K17=-6.506282e-05 legal=False screens=760
+ladder outcome: {"kind": "bracketed", "last_legal": {"mult": 2, "target_peak": 0.8853484980534808, "joint": 6.699288757141148e-07}, "first_illegal": {"mult": 5, "target_peak": 2.213371245133702, "joint": -6.506282041938063e-05}, "total_screens": 760}

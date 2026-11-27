@@ -1,0 +1,22 @@
+{
+ "admitted": true,
+ "control": "CTL-412-ADM (registration SS2): Trace-A endpoint SET read on the laptop pool mirror /home/spark/work/p390root, p389_lib.set_read389, pool venv -- run 2026-11-26 for Phase 412.",
+ "laptop": {
+  "nec_min": -6.587071568730498e-07,
+  "dec_min": -6.587071568730498e-07,
+  "wec_min": -6.587071568730498e-07,
+  "sec_min": -0.00022216793442105638,
+  "rho_min": 9.936047786433913e-05,
+  "nec_argmin_r": 18.902439024390244,
+  "dec_argmin_r": 18.902439024390244
+ },
+ "diffs_vs_VM_endpoint": {
+  "nec": 4.0657581468206416e-20,
+  "dec": 4.0657581468206416e-20,
+  "wec": 4.0657581468206416e-20,
+  "sec": -5.421010862427522e-19,
+  "rho": -1.3552527156068805e-19
+ },
+ "argmin_radii_identical": true,
+ "note": "The laptop read reproduces the Phase 405 admission read digit-for-digit (identical printed values), hence the same diffs vs the VM endpoint record as recorded in phase405/results/p405_controls_laptop.json -- ADMITTED at roundoff (the 398/400/401/405 admission values exactly). Deciding reads are nevertheless all VM reads per registration SS2."
+}

@@ -1,0 +1,56 @@
+{
+ "M0": 1.3977194851281464e-06,
+ "rows": [
+  {
+   "label": "criterion (control CTL-412-CRIT)",
+   "peak": 0.4426742490267404,
+   "joint": 1.2273852081052888e-06,
+   "legal": true,
+   "spend": 1.7033427702285763e-07
+  },
+  {
+   "label": "m=2 (K9)",
+   "peak": 0.8853484980534808,
+   "joint": 6.699288757141148e-07,
+   "legal": true,
+   "spend": 7.277906094140316e-07
+  },
+  {
+   "label": "m=5 (K17)",
+   "peak": 2.213371245133702,
+   "joint": -6.506282041938063e-05,
+   "legal": false,
+   "spend": 6.646053990450878e-05
+  }
+ ],
+ "fit_points": [
+  "criterion (control CTL-412-CRIT)",
+  "m=2 (K9)",
+  "m=5 (K17)"
+ ],
+ "fit": {
+  "A": 2.4149465900647952e-06,
+  "p": 3.7710234936542064,
+  "implied_zero_crossing_peak": 0.8650138528482604,
+  "implied_zero_crossing_mult": 1.9540640883224447
+ },
+ "prior_gate50": {
+  "A": 8.69e-07,
+  "p": 2.1,
+  "implied_zero_crossing_peak": 1.2539661987883854
+ },
+ "ladder_outcome": {
+  "kind": "bracketed",
+  "last_legal": {
+   "mult": 2,
+   "target_peak": 0.8853484980534808,
+   "joint": 6.699288757141148e-07
+  },
+  "first_illegal": {
+   "mult": 5,
+   "target_peak": 2.213371245133702,
+   "joint": -6.506282041938063e-05
+  },
+  "total_screens": 760
+ }
+}

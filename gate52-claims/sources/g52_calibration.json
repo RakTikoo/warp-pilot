@@ -1,0 +1,63 @@
+{
+ "CAL-1_spline_vs_scipy": {
+  "v": 4.440892098500626e-16,
+  "d1": 2.220446049250313e-16,
+  "d2": 1.3183898417423734e-15
+ },
+ "CAL-2_jet_algebra": {
+  "v": 0.0,
+  "g": 0.0,
+  "H": 0.0
+ },
+ "CAL-3_minkowski_max_abs_That": 2.070673620744477e-18,
+ "CAL-4_schwarzschild_max_abs_That": 2.105184847756885e-18,
+ "CAL-5_duality_max_dev": 4.274358644806853e-15,
+ "CAL-5_orthonormality_max_dev": 7.105427357601002e-15,
+ "CAL-6_rho_closed_form_max_diff": 2.656295322589486e-18,
+ "CAL-7_diag": {
+  "value": 0.2,
+  "expect": 0.2,
+  "diff": 0.0,
+  "certified": true
+ },
+ "CAL-7_random_vs_dense_scan": {
+  "max_abs_diff": 6.541766742640398e-06,
+  "certified_all": true
+ },
+ "CAL-8_profile_locals_screen217": {
+  "S": 0.0,
+  "Sp": 0.0,
+  "Spp": -3.7947076036992655e-18,
+  "N": 0.0,
+  "Np": -1.3877787807814457e-17,
+  "Npp": -6.938893903907228e-17,
+  "M": 0.0,
+  "Mp": 0.0,
+  "Mpp": 0.0
+ },
+ "CAL-8_base_locals_screen217": {
+  "N": 0.0,
+  "Np": -1.3877787807814457e-17,
+  "Npp": -6.938893903907228e-17,
+  "M": 0.0,
+  "Mp": 0.0,
+  "Mpp": 0.0
+ },
+ "CAL-9_H2_betaS_at_10": {
+  "value": 0.8853484980534808,
+  "stored": 0.8853484980534808,
+  "diff": 0.0
+ },
+ "CAL-9_criterion_peak": {
+  "gate_fine": 0.44267424902674035,
+  "stored": 0.44267424902674035,
+  "diff": 0.0
+ },
+ "CAL-10_rotation_orthogonality": 2.2426505097428162e-14,
+ "CAL-10_margin_invariance_typeI": {
+  "n_typeI_both": 48,
+  "nec_max_diff": 1.8431436932253575e-18,
+  "dec_max_diff": 1.8431436932253575e-18
+ },
+ "ALL_PASS": true
+}

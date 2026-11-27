@@ -1,0 +1,45 @@
+{
+ "CTL-412-WIN": {
+  "nec_min": 1.3977194851281464e-06,
+  "dec_min": 1.3977194851281464e-06,
+  "wec_min": 1.3977194851281464e-06,
+  "sec_min": -0.00020502915986749415,
+  "rho_min": 9.943380734109653e-05,
+  "joint": 1.3977194851281464e-06,
+  "nec_argmin_r": 17.682926829268293,
+  "typeI_fraction": 1.0,
+  "diffs": {
+   "nec": 0.0,
+   "dec": 0.0,
+   "wec": 0.0,
+   "sec": 0.0,
+   "rho": 0.0,
+   "joint": 0.0
+  },
+  "worst_null_at_argmin": 1.3977194851281464e-06,
+  "worst_null_diff": 0.0,
+  "pass": true
+ },
+ "CTL-412-CRIT": {
+  "joint": 1.2273852081053159e-06,
+  "nec_min": 1.2273852081053159e-06,
+  "dec_min": 1.2273852081053159e-06,
+  "wec_min": 1.2273852081053159e-06,
+  "sec_min": -0.000221355650499056,
+  "rho_min": 9.943368188592765e-05,
+  "nec_argmin_r": 17.926829268292682,
+  "dec_argmin_r": 17.926829268292682,
+  "typeI_fraction": 1.0,
+  "peak_physrow": 0.44267424902674046,
+  "peak_fine": 0.44267424902674046,
+  "peak_radius": 10.0,
+  "diffs": {
+   "joint": 2.710505431213761e-20,
+   "sec": -1.0842021724855044e-19,
+   "peak": 1.1102230246251565e-16
+  },
+  "worst_null_at_argmin": 7.282191364112375e-07,
+  "pass": true,
+  "pass_note": "PASS at the registered diff-0.0 class: joint diff +2.710505431213761e-20, sec diff -1.0842021724855044e-19, peak diff 1.1102230246251565e-16 -- float64 roundoff, two orders inside Gate-50's own -1.6e-18 read diff. The script's literal-0.0 test was stricter than the registration's 'diff 0.0 class'; the measured diffs stand as recorded. nec_argmin_r exact, peak radius 10.0 exact, worst-null +7.282191364112375e-07 = the stored value."
+ }
+}
