@@ -1,0 +1,107 @@
+{
+ "gate": "Gate-46",
+ "charge": "ledger entry 1017",
+ "rulings": {
+  "(a)": "SURVIVES",
+  "(b)": "SURVIVES",
+  "(c)": "SURVIVES",
+  "(d)": "SURVIVES",
+  "(e)": "SURVIVES (issued as rider G46-E)"
+ },
+ "deciding_diffs": {
+  "centre_joint_batch": -1.8973538018496328e-19,
+  "centre_dec": -6.776263578034403e-20,
+  "centre_rho": -6.8575787409708155e-18,
+  "centre_typeI_count_diff": 0,
+  "centre_worst_null": -1.9651164376299768e-19,
+  "anchor_joint": -2.710505431213761e-20,
+  "anchor_worst_null": 1.3552527156068805e-20,
+  "seed_worst_null": -2.710505431213761e-20,
+  "seed_named_nec": 0.0,
+  "mix_worst_null_at_gate43_point": -2.439454888092385e-19,
+  "h2s_shell_nec": -5.149960319306146e-19,
+  "clamped_centre": -5.421010862427522e-20,
+  "clamp_cost_abs_diff": -1.3552527156068805e-19,
+  "clamp_margin_anchor": 3.793732046790524e-05,
+  "clamp_margin_LstatH2": 0.00016403539282366014,
+  "worst_dec_subject": 1.6263032587282567e-19,
+  "diag_joint_diffs": [
+   -2.710505431213761e-20,
+   -1.8973538018496328e-19,
+   1.3552527156068805e-20,
+   2.168404344971009e-19,
+   -1.0842021724855044e-19
+  ],
+  "ray_joint_diffs": [
+   -2.710505431213761e-20,
+   1.0842021724855044e-19,
+   2.168404344971009e-19,
+   -3.7947076036992655e-19,
+   -4.0657581468206416e-20,
+   -1.3552527156068805e-20,
+   1.066959582778803e-07
+  ]
+ },
+ "c10_band_observations": {
+  "h2s_batch_nec_min": -0.00019495321561300275,
+  "h2s_batch_nec_diff": -7.286166953304871e-07,
+  "mix_shell_nec_diff": 3.8509909166596114e-08,
+  "seed_shell_nec_diff": 7.676403502562606e-08,
+  "ray_muM5_diff": 1.066959582778803e-07,
+  "that01_batch_vs_single_at_seed_argmin": 0.00014310518047448782,
+  "tensor_metric_agreement_same_point": 3.6e-15
+ },
+ "recount": {
+  "n_reads": 220,
+  "n_feasible": 220,
+  "n_beat_anchor": 212,
+  "anchor_joint": -6.812652656191736e-05,
+  "worst_dec": {
+   "triple": [
+    0.8015689430763502,
+    1.3179449338854314,
+    3.074968377899082
+   ],
+   "stage": "G2",
+   "dec_min": -6.5529696405777245e-06,
+   "joint": -7.820673703308684e-05,
+   "nec_min": -7.820673703308684e-05,
+   "dec_argmin_r": 18.170731707317074,
+   "typeI_fraction": 0.5070761818729298
+  },
+  "n_dec_saturated_below_-0.5": 0,
+  "n_dec_saturated_below_-0.9999": 0,
+  "stage_counts": {
+   "G5": 127,
+   "G3": 17,
+   "G4": 29,
+   "G1": 24,
+   "G2": 12,
+   "DIAG": 4,
+   "RAY2": 7
+  },
+  "best": [
+   0.601180962300002,
+   1.5934531363763935,
+   4.887238651223381
+  ],
+  "best_joint": -2.9809850277749006e-05
+ },
+ "md5": {
+  "phase395/results/p395_confirmation.json": "6d3e2c209ffbcd36ff2f59bdee09a0bb",
+  "phase395/results/p395_clamp.json": "2eb334e7a12e55753fc894d1793f8df6",
+  "phase395/results/p395_anatomy.json": "1632c1d11b6242ff4593e64d6cd94691",
+  "phase395/results/p395_controls.json": "c351a47304f5186a1884e8db2dcbdc7c",
+  "phase395/results/p395_search_summary.json": "62993b28d0ea5f6dbb000fef530053ff",
+  "phase395/results/p395_screens.jsonl": "918d28be3c00c7d978ce318ed1580bd0",
+  "phase395/CHECKPOINT395.md": "0c30b160559366962ff3c6cd3d454713",
+  "phase395/results/p395_memo.md": "15af837dcac189fec01751ad2ee66979",
+  "phase394/results/p394_confirmation.json": "611424f0c0ac49ead895e2ed2b3a9172",
+  "phase393/results/p393_ray.json": "090d0fb234179b631a53e99fc010934e",
+  "phase389/results/p389_confirmation.json": "f2139b1fac8f8ae2bad7a490e8be80ed",
+  "phase379/results/p379_confirmation.json": "1bcb8b3900026cc78e6aacb33654ad72",
+  "phase344/results/p344_confirmation.json": "bca93c039daf9c8baf68f4e567abe873",
+  "gate45/GATE45.md": "aebe3da522659159e87150e6be9e41d0",
+  "gate43/GATE43.md": "1fc62511f4b33d47de96771164ff3739"
+ }
+}

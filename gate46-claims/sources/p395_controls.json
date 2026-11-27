@@ -1,0 +1,165 @@
+{
+ "wp": "/home/hatch/workspace/warp-pilot",
+ "controls": {
+  "CTL-395-H2S": {
+   "triple": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "clamp": false,
+   "nec_min": -0.00019422459891767227,
+   "dec_min": -0.00018982585080461558,
+   "wec_min": -0.0017768467393179327,
+   "sec_min": -0.0020943799294291577,
+   "rho_min": 8.789653555683182e-05,
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "nec_argmin_r": 16.21951219512195,
+   "dec_argmin_r": 19.634146341463413,
+   "depth": -0.00014402430840320638,
+   "depth_diff": 0.0,
+   "pass": true
+  },
+  "CTL-395-MIX": {
+   "triple": [
+    0.9323593026620368,
+    1.1444417317708335,
+    1.1445068359375
+   ],
+   "clamp": false,
+   "nec_min": -0.00017570735537945242,
+   "dec_min": -0.00015670690855768682,
+   "wec_min": -0.001176749370558998,
+   "sec_min": -0.0021496503801466693,
+   "rho_min": 8.936712674433238e-05,
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "nec_argmin_r": 12.560975609756097,
+   "dec_argmin_r": 19.634146341463413,
+   "depth": -9.660225437141954e-05,
+   "depth_diff": 0.0,
+   "pass": true
+  },
+  "CTL-395-SEED": {
+   "triple": [
+    0.9323593026620368,
+    1.1444417317708335,
+    2.289013671875
+   ],
+   "clamp": false,
+   "nec_min": -0.00012413718983790085,
+   "dec_min": -3.4350860761739224e-05,
+   "wec_min": -0.0009443823050476109,
+   "sec_min": -0.0015236814797256301,
+   "rho_min": 9.46961652955672e-05,
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "nec_argmin_r": 12.317073170731707,
+   "dec_argmin_r": 19.634146341463413,
+   "pass": true,
+   "worst_null_at_set_nec_argmin": -0.00012477276305772507,
+   "worst_null_fib": -0.00012385379131817981,
+   "worst_null_diff": 0.0,
+   "worst_null_pass": true
+  },
+  "CTL-395-ANCHOR": {
+   "triple": [
+    0.8015689430763502,
+    1.3179449338854314,
+    3.574968377899082
+   ],
+   "clamp": false,
+   "nec_min": -6.812652656191736e-05,
+   "dec_min": -4.611098054060287e-06,
+   "wec_min": -0.0004876872626344858,
+   "sec_min": -0.000824703941166269,
+   "rho_min": 9.678145350055573e-05,
+   "diffs": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "nec_argmin_r": 15.487804878048781,
+   "dec_argmin_r": 18.170731707317074,
+   "depth": -4.7301819317490616e-06,
+   "depth_diff": 0.0,
+   "pass": true,
+   "worst_null_at_set_nec_argmin": -7.173153284502476e-05,
+   "worst_null_fib": -7.05304027831463e-05,
+   "worst_null_diff": 0.0,
+   "worst_null_pass": true
+  },
+  "CTL-395-CLAMP": {
+   "H2_leg": {
+    "triple": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "clamp": true,
+    "nec_min": -0.00019562414497796698,
+    "dec_min": -0.0002087299309761311,
+    "wec_min": -0.001790600214934961,
+    "sec_min": -0.0021009257125772563,
+    "rho_min": 8.793529206482093e-05,
+    "diffs": {
+     "nec": 0.0,
+     "dec": 0.0,
+     "rho": 0.0
+    },
+    "nec_argmin_r": 17.682926829268293,
+    "dec_argmin_r": 19.634146341463413,
+    "pass": true
+   },
+   "mixed_leg": {
+    "clamped_joint_lineage": -0.00017669632754376685,
+    "gate43_clamped_joint": -0.00017669632754376664,
+    "diff": 2.168404344971009e-19,
+    "c10_band": 3e-06,
+    "pass": true
+   },
+   "anchor_leg": {
+    "clamped_joint": -6.968822658140883e-05,
+    "stored_394_clamped_joint": -6.968822658140883e-05,
+    "diff": 0.0,
+    "nec_min": -6.968822658140883e-05,
+    "dec_min": -4.827335644719917e-06,
+    "rho_min": 9.678542130126859e-05,
+    "pass": true
+   },
+   "pass": true
+  },
+  "FLOORS-SEED": {
+   "floors_ok": true,
+   "pass": true
+  },
+  "FLOORS-CENTRE": {
+   "floors_ok": true,
+   "pass": true
+  },
+  "FLOORS-ANCHOR": {
+   "floors_ok": true,
+   "pass": true
+  }
+ },
+ "all_pass": true,
+ "t_controls_s": 104.86503982543945
+}
