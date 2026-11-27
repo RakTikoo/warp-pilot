@@ -1,0 +1,388 @@
+{
+ "hashes": {
+  "RW-5": {
+   "computed": "44719b508ba733bb257281f994f90340b1ac25b33684bbe8ac9c4da5f10535c2",
+   "stored": "44719b508ba733bb257281f994f90340b1ac25b33684bbe8ac9c4da5f10535c2",
+   "match": true
+  },
+  "RW-1": {
+   "computed": "afcde914a800b43195a8dd9452a553457ddd2eb2fae55d061174f8fefcbea8bc",
+   "stored": "afcde914a800b43195a8dd9452a553457ddd2eb2fae55d061174f8fefcbea8bc",
+   "match": true
+  },
+  "T-4": {
+   "computed": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+   "stored": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+   "match": true
+  },
+  "E2-1": {
+   "computed": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+   "stored": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+   "match": true
+  }
+ },
+ "rw5_interiority": {
+  "all_strictly_inside": true,
+  "any_on_edge": false,
+  "min_edge_distance": 0.04265366989385244,
+  "min_edge_coord": "c10",
+  "c1": {
+   "coord": "c1",
+   "value": 2.4765790247713886,
+   "lo": -3.375,
+   "hi": 3.375,
+   "dist_lo": 5.851579024771389,
+   "dist_hi": 0.8984209752286114,
+   "min_dist": 0.8984209752286114,
+   "on_edge": false,
+   "inside": true
+  },
+  "c9": {
+   "coord": "c9",
+   "value": -2.1921383948477016,
+   "lo": -3.375,
+   "hi": 3.375,
+   "dist_lo": 1.1828616051522984,
+   "dist_hi": 5.567138394847701,
+   "min_dist": 1.1828616051522984,
+   "on_edge": false,
+   "inside": true
+  },
+  "c1_beyond_old_box": true,
+  "phase_stored_box_edges": [],
+  "rows": [
+   {
+    "coord": "c1",
+    "value": 2.4765790247713886,
+    "lo": -3.375,
+    "hi": 3.375,
+    "dist_lo": 5.851579024771389,
+    "dist_hi": 0.8984209752286114,
+    "min_dist": 0.8984209752286114,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c2",
+    "value": 0.6201274229303678,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 2.8701274229303677,
+    "dist_hi": 1.6298725770696323,
+    "min_dist": 1.6298725770696323,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c3",
+    "value": -0.901265898731609,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 1.3487341012683909,
+    "dist_hi": 3.151265898731609,
+    "min_dist": 1.3487341012683909,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c4",
+    "value": -2.1330121530758737,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 0.11698784692412634,
+    "dist_hi": 4.383012153075874,
+    "min_dist": 0.11698784692412634,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c5",
+    "value": -2.1102214957943977,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 0.13977850420560234,
+    "dist_hi": 4.360221495794398,
+    "min_dist": 0.13977850420560234,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c6",
+    "value": -1.211501748918377,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 1.038498251081623,
+    "dist_hi": 3.4615017489183773,
+    "min_dist": 1.038498251081623,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c7",
+    "value": -0.4893664864716912,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 1.7606335135283089,
+    "dist_hi": 2.7393664864716913,
+    "min_dist": 1.7606335135283089,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c8",
+    "value": -1.3760473509137492,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 0.8739526490862508,
+    "dist_hi": 3.6260473509137494,
+    "min_dist": 0.8739526490862508,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c9",
+    "value": -2.1921383948477016,
+    "lo": -3.375,
+    "hi": 3.375,
+    "dist_lo": 1.1828616051522984,
+    "dist_hi": 5.567138394847701,
+    "min_dist": 1.1828616051522984,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c10",
+    "value": -2.2073463301061476,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 0.04265366989385244,
+    "dist_hi": 4.457346330106148,
+    "min_dist": 0.04265366989385244,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c11",
+    "value": -2.0698925553450835,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 0.18010744465491646,
+    "dist_hi": 4.319892555345083,
+    "min_dist": 0.18010744465491646,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "c12",
+    "value": 1.0237452381524075,
+    "lo": -2.25,
+    "hi": 2.25,
+    "dist_lo": 3.2737452381524075,
+    "dist_hi": 1.2262547618475925,
+    "min_dist": 1.2262547618475925,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a1",
+    "value": 3.767424883681122,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 11.767424883681123,
+    "dist_hi": 4.232575116318878,
+    "min_dist": 4.232575116318878,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a2",
+    "value": 2.5978095880585235,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 10.597809588058524,
+    "dist_hi": 5.4021904119414765,
+    "min_dist": 5.4021904119414765,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a3",
+    "value": 1.5193255733961266,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 9.519325573396127,
+    "dist_hi": 6.480674426603874,
+    "min_dist": 6.480674426603874,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a4",
+    "value": 0.12846929356988254,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 8.128469293569882,
+    "dist_hi": 7.871530706430118,
+    "min_dist": 7.871530706430118,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a5",
+    "value": 0.5584574899194508,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 8.558457489919451,
+    "dist_hi": 7.4415425100805495,
+    "min_dist": 7.4415425100805495,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a6",
+    "value": 0.7225456863852057,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 8.722545686385205,
+    "dist_hi": 7.277454313614794,
+    "min_dist": 7.277454313614794,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a7",
+    "value": 0.1607373359208354,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 8.160737335920835,
+    "dist_hi": 7.839262664079165,
+    "min_dist": 7.839262664079165,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a8",
+    "value": 1.771907918477156,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 9.771907918477156,
+    "dist_hi": 6.228092081522844,
+    "min_dist": 6.228092081522844,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a9",
+    "value": 2.4704375399476506,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 10.47043753994765,
+    "dist_hi": 5.529562460052349,
+    "min_dist": 5.529562460052349,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a10",
+    "value": 3.804169706276466,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 11.804169706276467,
+    "dist_hi": 4.195830293723533,
+    "min_dist": 4.195830293723533,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a11",
+    "value": 5.403335507207231,
+    "lo": -8.0,
+    "hi": 8.0,
+    "dist_lo": 13.403335507207231,
+    "dist_hi": 2.596664492792769,
+    "min_dist": 2.596664492792769,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "a12",
+    "value": 8.358634898182853,
+    "lo": -12.0,
+    "hi": 12.0,
+    "dist_lo": 20.358634898182853,
+    "dist_hi": 3.641365101817147,
+    "min_dist": 3.641365101817147,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "q",
+    "value": 1.6681638067393412,
+    "lo": 0.25,
+    "hi": 3.0,
+    "dist_lo": 1.4181638067393412,
+    "dist_hi": 1.3318361932606588,
+    "min_dist": 1.3318361932606588,
+    "on_edge": false,
+    "inside": true
+   },
+   {
+    "coord": "r_m",
+    "value": 16.17148847124908,
+    "lo": 11.0,
+    "hi": 23.0,
+    "dist_lo": 5.171488471249081,
+    "dist_hi": 6.828511528750919,
+    "min_dist": 5.171488471249081,
+    "on_edge": false,
+    "inside": true
+   }
+  ]
+ },
+ "arm_t": {
+  "gen_final": 118,
+  "done": true,
+  "n_evals": 7616,
+  "elapsed_s": 7229.556597471237,
+  "best_hist_n": 119,
+  "best_hist_gens": [
+   0,
+   118
+  ],
+  "best_hist_all_equal": true,
+  "best_hist_max": 0.191796875,
+  "best_hist_min": 0.191796875,
+  "best_beta_crit": 0.191796875,
+  "lineage_de": {
+   "generations_completed": 118,
+   "beta_crit_evals": 7616,
+   "done_flag": true,
+   "stop": "ran to the registered 120-min cap (done=True, gens=118, wall=7230s)",
+   "best_beta_crit_screening_union_set": 0.191796875
+  },
+  "t4_is_e2_1_by_hash": true,
+  "t4_ceiling": 0.191796875,
+  "t2_ceiling": 0.191796875
+ },
+ "arm_r16": {
+  "gen_final": 106,
+  "done": false,
+  "n_evals": 6848,
+  "elapsed_s": 5113.665158510208,
+  "best_beta_crit": 0.191015625,
+  "best_hist_all_equal_gen0_level": true,
+  "best_hist_gen0": 0.191015625,
+  "final_population_n": 64,
+  "final_population_beta_crit_mean_recomputed": 0.17786865234375002,
+  "lineage_de": {
+   "generations_completed": 106,
+   "beta_crit_evals": 6848,
+   "cap_min": 120,
+   "done_flag": false,
+   "stop": "stopped by Worker B at gen 106 (5,114 s) because the registered 6 h total pool budget bound before the 120-min cap; population still rising (mean 0.102 -> 0.178 over gens 39-106, best static at the gen-0 level 0.191015625) - the E2-style late lift had not arrived; state staged in results/p392_pool_r16_de_state.json (done=False)",
+   "best_beta_crit_screening_union_set": 0.191015625
+  },
+  "registered_cap_min": 120,
+  "stopped_before_cap": true
+ }
+}

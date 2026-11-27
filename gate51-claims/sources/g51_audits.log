@@ -1,0 +1,13 @@
+/home/hatch/workspace/warp-pilot/gate51/work/g51_lib.py:188: RuntimeWarning: invalid value encountered in log
+  0.5 * np.log(1.0 - 2.0 * self.M / np.maximum(r, 1e-300)),
+y_his 0.1363 legal: True worst h0.0375: 3.4041776408044866e-07 sec sp_sign_agree: True
+y_his 0.1364 legal: True worst h0.0375: 3.3866484599951316e-07 sec sp_sign_agree: True
+y_his DONE 24.42376184463501
+E2-1 0.191796875 legal: True worst h0.0375: 7.075488047566495e-08 sec sp_sign_agree: True
+E2-1 DONE 14.97466230392456
+RW-5 0.192578125 legal: True worst h0.0375: 6.055585575219655e-07 sec sp_sign_agree: True
+RW-5 0.195078125 legal: False worst h0.0375: -1.0315856810266588e-05 sec sp_sign_agree: False
+RW-5 DONE 20.297393798828125
+RW-1 0.192578125 legal: True worst h0.0375: 5.792297639657704e-07 sec sp_sign_agree: True
+RW-1 DONE 19.580158948898315
+ALL DONE

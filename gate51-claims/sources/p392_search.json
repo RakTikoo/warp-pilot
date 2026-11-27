@@ -1,0 +1,2364 @@
+{
+ "item": "Phase 392 Worker B: THE GRADED SHELL, THIRD PUSH - pool search (Arm T resumption, Arm RW widened box, Arm R16 16-mode basis), laptop-pool GPU-DE search with Powell polish and harvest.",
+ "note": "ALL numbers in this file are SCREENING numbers (hybrid GPU evaluator / CPU clone algebra on screening point sets, EXTENDED mask [2.234381, 27.265413]). Screening is never a verdict. No home re-judgement was performed by this worker (Worker C scope).",
+ "seed_vectors": {
+  "source": "phase392/work/p392_pool_vectors.json (staged to pool; md5 f0f13442ad46cde19bd8ed85e90ab5ea, verified pool-side)",
+  "sha256": {
+   "y_his8_sha256": "d4eb224779778f58308abbb28c4832562dcad02d40e90b2b8055ce29990eddd7",
+   "artefact8_sha256": "2c14cbca6a98a2949d21669e8326237445c98e9499b8e7b8777590fe054bdbed",
+   "E2-1_sha256": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+   "artefact_emb12_sha256": "dc22bcf24adf2a5ba0c023829ef7cf9d77183654264400789dfa4020e1b50e8a",
+   "y_his_equiv30_sha256": "6db0afbf6ace25a2c950920b17db07ec7d0da59227b094defc3f008b57f1c559",
+   "E2-1_emb16_sha256": "249bd90cffcd6cb0db91fb2c75475761cbf1958751ad135f531d7e168439ce41",
+   "artefact_emb16_sha256": "8501b2006993d29d8a9887878491749faf9d205cec620d083c12c5144cabf954"
+  },
+  "y_his_equiv12_sha256": "201714dc0123173b57f12ca85fecd9eceac895d5ad88a19bcba7a58b90ddcd3d",
+  "embedding_hashes_from_workerA_controls": {
+   "E2-1_emb16": "249bd90cffcd6cb0db91fb2c75475761cbf1958751ad135f531d7e168439ce41",
+   "artefact_emb12": "dc22bcf24adf2a5ba0c023829ef7cf9d77183654264400789dfa4020e1b50e8a",
+   "artefact_emb16": "8501b2006993d29d8a9887878491749faf9d205cec620d083c12c5144cabf954"
+  }
+ },
+ "lib16_pool_copy_diff": {
+  "method": "diff of phase392/work/p392_lib16.py vs phase392/work/p392_pool_p392_lib16.py excluding sys.path lines",
+  "result": "only the header docstring lines differ; all numerics-bearing code identical (sys.path entries replaced by dual home/pool paths, the p391_pool_p391_lib12.py pattern)"
+ },
+ "gpu_validation": {
+  "p391_12_spot_revalidation": {
+   "n_candidates": 6,
+   "candidates": [
+    "y_his_equiv12",
+    "E2-1",
+    "artefact_emb12",
+    "rand0",
+    "rand1",
+    "rand2"
+   ],
+   "max_abs_diff_worst_margins": 2.2120865794499067e-13,
+   "per_beta": [
+    {
+     "beta": 0.13,
+     "max_abs_diff": 1.4725088099842734e-14
+    },
+    {
+     "beta": 0.145,
+     "max_abs_diff": 2.2120865794499067e-13
+    }
+   ],
+   "beta_crit_agreement": [
+    {
+     "name": "y_his_equiv12",
+     "gpu_bc": 0.13632812500000002,
+     "gpu_bracket": [
+      0.13593750000000002,
+      0.13671875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_bc": 0.13632812500000002,
+     "cpu_record": {
+      "beta_crit": 0.13632812500000002,
+      "bracket": [
+       0.13593750000000002,
+       0.13671875
+      ],
+      "flag": "bisected"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 0.9788112640380859
+    },
+    {
+     "name": "E2-1",
+     "gpu_bc": 0.191796875,
+     "gpu_bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_bc": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 1.0065488815307617
+    },
+    {
+     "name": "artefact_emb12",
+     "gpu_bc": 0.120703125,
+     "gpu_bracket": [
+      0.12031249999999999,
+      0.12109375
+     ],
+     "gpu_flag": "bisected",
+     "cpu_bc": 0.120703125,
+     "cpu_record": {
+      "beta_crit": 0.120703125,
+      "bracket": [
+       0.12031249999999999,
+       0.12109375
+      ],
+      "flag": "bisected"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 1.0127301216125488
+    },
+    {
+     "name": "rand0",
+     "gpu_bc": 0.1,
+     "gpu_bracket": [
+      null,
+      0.1
+     ],
+     "gpu_flag": "at_or_below_lo",
+     "cpu_bc": 0.1,
+     "cpu_record": {
+      "beta_crit": 0.1,
+      "bracket": [
+       null,
+       0.1
+      ],
+      "flag": "at_or_below_lo"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 0.26225996017456055
+    },
+    {
+     "name": "rand1",
+     "gpu_bc": 0.1,
+     "gpu_bracket": [
+      null,
+      0.1
+     ],
+     "gpu_flag": "at_or_below_lo",
+     "cpu_bc": 0.1,
+     "cpu_record": {
+      "beta_crit": 0.1,
+      "bracket": [
+       null,
+       0.1
+      ],
+      "flag": "at_or_below_lo"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 0.3075242042541504
+    }
+   ],
+   "pass": true,
+   "pool_file": "results/p392_pool_validate_p391_12.json"
+  },
+  "p392_16_C-392-4c": {
+   "n_candidates": 20,
+   "candidates": [
+    "y_his_equiv30",
+    "E2-1_emb16",
+    "artefact_emb16",
+    "rand0",
+    "rand1",
+    "rand2",
+    "rand3",
+    "rand4",
+    "rand5",
+    "rand6",
+    "rand7",
+    "rand8",
+    "rand9",
+    "rand10",
+    "rand11",
+    "rand12",
+    "rand13",
+    "rand14",
+    "rand15",
+    "rand16"
+   ],
+   "max_abs_diff_worst_margins": 3.0735078382099906e-13,
+   "per_beta": [
+    {
+     "beta": 0.13,
+     "max_abs_diff": 4.415937536433603e-14
+    },
+    {
+     "beta": 0.145,
+     "max_abs_diff": 3.0735078382099906e-13
+    }
+   ],
+   "beta_crit_agreement": [
+    {
+     "name": "y_his_equiv30",
+     "gpu_bc": 0.13632812500000002,
+     "gpu_bracket": [
+      0.13593750000000002,
+      0.13671875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_bc": 0.13632812500000002,
+     "cpu_record": {
+      "beta_crit": 0.13632812500000002,
+      "bracket": [
+       0.13593750000000002,
+       0.13671875
+      ],
+      "flag": "bisected"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 1.8340539932250977
+    },
+    {
+     "name": "E2-1_emb16",
+     "gpu_bc": 0.191796875,
+     "gpu_bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_bc": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 1.8202285766601562
+    },
+    {
+     "name": "artefact_emb16",
+     "gpu_bc": 0.120703125,
+     "gpu_bracket": [
+      0.12031249999999999,
+      0.12109375
+     ],
+     "gpu_flag": "bisected",
+     "cpu_bc": 0.120703125,
+     "cpu_record": {
+      "beta_crit": 0.120703125,
+      "bracket": [
+       0.12031249999999999,
+       0.12109375
+      ],
+      "flag": "bisected"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 2.0037693977355957
+    },
+    {
+     "name": "rand0",
+     "gpu_bc": 0.1,
+     "gpu_bracket": [
+      null,
+      0.1
+     ],
+     "gpu_flag": "at_or_below_lo",
+     "cpu_bc": 0.1,
+     "cpu_record": {
+      "beta_crit": 0.1,
+      "bracket": [
+       null,
+       0.1
+      ],
+      "flag": "at_or_below_lo"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 0.4162890911102295
+    },
+    {
+     "name": "rand1",
+     "gpu_bc": 0.1,
+     "gpu_bracket": [
+      null,
+      0.1
+     ],
+     "gpu_flag": "at_or_below_lo",
+     "cpu_bc": 0.1,
+     "cpu_record": {
+      "beta_crit": 0.1,
+      "bracket": [
+       null,
+       0.1
+      ],
+      "flag": "at_or_below_lo"
+     },
+     "agree_within_0.001": true,
+     "wall_s": 0.5103764533996582
+    }
+   ],
+   "pass": true,
+   "pool_file": "results/p392_pool_validate_p392_16.json"
+  },
+  "bar": "worst margins agree <= 1e-7 absolute; beta_crit brackets agree (centres <= 0.001)",
+  "fallback_used": false
+ },
+ "recalibration_C-392-3": {
+  "t": {
+   "reads": {
+    "y_his_equiv12": {
+     "lib_builder": "p391_12",
+     "sha256": "201714dc0123173b57f12ca85fecd9eceac895d5ad88a19bcba7a58b90ddcd3d",
+     "gpu_union_beta_crit": 0.13632812500000002,
+     "gpu_bracket": [
+      0.13593750000000002,
+      0.13671875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.13632812500000002,
+     "cpu_record": {
+      "beta_crit": 0.13632812500000002,
+      "bracket": [
+       0.13593750000000002,
+       0.13671875
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 1.1187193393707275
+    },
+    "y_his8_native": {
+     "lib_builder": "p386",
+     "sha256": "d4eb224779778f58308abbb28c4832562dcad02d40e90b2b8055ce29990eddd7",
+     "gpu_union_beta_crit": 0.13632812500000002,
+     "gpu_bracket": [
+      0.13593750000000002,
+      0.13671875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.13632812500000002,
+     "cpu_record": {
+      "beta_crit": 0.13632812500000002,
+      "bracket": [
+       0.13593750000000002,
+       0.13671875
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 1.003471851348877
+    },
+    "artefact8_native": {
+     "lib_builder": "p386",
+     "sha256": "2c14cbca6a98a2949d21669e8326237445c98e9499b8e7b8777590fe054bdbed",
+     "gpu_union_beta_crit": 0.120703125,
+     "gpu_bracket": [
+      0.12031249999999999,
+      0.12109375
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.120703125,
+     "cpu_record": {
+      "beta_crit": 0.120703125,
+      "bracket": [
+       0.12031249999999999,
+       0.12109375
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 1.0377087593078613
+    },
+    "E2-1": {
+     "lib_builder": "p391_12",
+     "sha256": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+     "gpu_union_beta_crit": 0.191796875,
+     "gpu_bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 1.0012743473052979
+    }
+   },
+   "y_his_class_pass": true,
+   "artefact_class_pass": true,
+   "pass": true,
+   "bar": "y_his-equivalent 0.136328125-class (bracket containing 0.1363, width <= 0.001); artefact native 0.120703125-class",
+   "pool_file": "results/p392_pool_recalib_t.json"
+  },
+  "rw": {
+   "reads": {
+    "y_his_equiv12": {
+     "lib_builder": "p391_12",
+     "sha256": "201714dc0123173b57f12ca85fecd9eceac895d5ad88a19bcba7a58b90ddcd3d",
+     "gpu_union_beta_crit": 0.13632812500000002,
+     "gpu_bracket": [
+      0.13593750000000002,
+      0.13671875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.13632812500000002,
+     "cpu_record": {
+      "beta_crit": 0.13632812500000002,
+      "bracket": [
+       0.13593750000000002,
+       0.13671875
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 0.9744069576263428
+    },
+    "y_his8_native": {
+     "lib_builder": "p386",
+     "sha256": "d4eb224779778f58308abbb28c4832562dcad02d40e90b2b8055ce29990eddd7",
+     "gpu_union_beta_crit": 0.13632812500000002,
+     "gpu_bracket": [
+      0.13593750000000002,
+      0.13671875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.13632812500000002,
+     "cpu_record": {
+      "beta_crit": 0.13632812500000002,
+      "bracket": [
+       0.13593750000000002,
+       0.13671875
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 0.9801442623138428
+    },
+    "artefact8_native": {
+     "lib_builder": "p386",
+     "sha256": "2c14cbca6a98a2949d21669e8326237445c98e9499b8e7b8777590fe054bdbed",
+     "gpu_union_beta_crit": 0.120703125,
+     "gpu_bracket": [
+      0.12031249999999999,
+      0.12109375
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.120703125,
+     "cpu_record": {
+      "beta_crit": 0.120703125,
+      "bracket": [
+       0.12031249999999999,
+       0.12109375
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 1.071401596069336
+    },
+    "E2-1": {
+     "lib_builder": "p391_12",
+     "sha256": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+     "gpu_union_beta_crit": 0.191796875,
+     "gpu_bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 1.0486466884613037
+    }
+   },
+   "y_his_class_pass": true,
+   "artefact_class_pass": true,
+   "pass": true,
+   "bar": "y_his-equivalent 0.136328125-class (bracket containing 0.1363, width <= 0.001); artefact native 0.120703125-class",
+   "pool_file": "results/p392_pool_recalib_rw.json"
+  },
+  "r16": {
+   "reads": {
+    "y_his_equiv30": {
+     "lib_builder": "p392_16",
+     "sha256": "6db0afbf6ace25a2c950920b17db07ec7d0da59227b094defc3f008b57f1c559",
+     "gpu_union_beta_crit": 0.13632812500000002,
+     "gpu_bracket": [
+      0.13593750000000002,
+      0.13671875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.13632812500000002,
+     "cpu_record": {
+      "beta_crit": 0.13632812500000002,
+      "bracket": [
+       0.13593750000000002,
+       0.13671875
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 0.8797123432159424
+    },
+    "artefact_emb16": {
+     "lib_builder": "p392_16",
+     "sha256": "8501b2006993d29d8a9887878491749faf9d205cec620d083c12c5144cabf954",
+     "gpu_union_beta_crit": 0.120703125,
+     "gpu_bracket": [
+      0.12031249999999999,
+      0.12109375
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.120703125,
+     "cpu_record": {
+      "beta_crit": 0.120703125,
+      "bracket": [
+       0.12031249999999999,
+       0.12109375
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 0.781282901763916
+    },
+    "E2-1_emb16": {
+     "lib_builder": "p392_16",
+     "sha256": "249bd90cffcd6cb0db91fb2c75475761cbf1958751ad135f531d7e168439ce41",
+     "gpu_union_beta_crit": 0.191796875,
+     "gpu_bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "gpu_flag": "bisected",
+     "cpu_extended_beta_crit": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     },
+     "wall_s": 0.6647036075592041
+    }
+   },
+   "y_his_class_pass": true,
+   "artefact_class_pass": true,
+   "pass": true,
+   "bar": "y_his-equivalent 0.136328125-class (bracket containing 0.1363, width <= 0.001); artefact LS-embedded read in [0.115, 0.127]",
+   "pool_file": "results/p392_pool_recalib_r16.json"
+  }
+ },
+ "C-392-4b_completion": {
+  "subject": "E2-1 embedded onto 16-mode basis (Worker A LS embedding)",
+  "embedded_sha256": "249bd90cffcd6cb0db91fb2c75475761cbf1958751ad135f531d7e168439ce41",
+  "screening_beta_crit_gpu_union": 0.191796875,
+  "screening_bracket_gpu_union": [
+   0.19140625,
+   0.1921875
+  ],
+  "screening_beta_crit_cpu_extended": 0.191796875,
+  "against_E2-1_own": 0.191796875
+ },
+ "t_lineage": {
+  "method": "GPU DE best/1/bin F=0.7 CR=0.9 pop 64 on the arm's DE union extended set; spec p392_spec_t_de.json",
+  "box": {
+   "lo": [
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -12.0,
+    0.25,
+    11.0
+   ],
+   "hi": [
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    12.0,
+    3.0,
+    23.0
+   ],
+   "lib": "p391_12"
+  },
+  "seeds": {
+   "n_seed_ys": 64,
+   "seed_names": [
+    "E2_final_population_member_00_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_01_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_02_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_03_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_04_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_05_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_06_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_07_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_08_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_09_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_10_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_11_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_12_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_13_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_14_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_15_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_16_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_17_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_18_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_19_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_20_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_21_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_22_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_23_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_24_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_25_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_26_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_27_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_28_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_29_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_30_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_31_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_32_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_33_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_34_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_35_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_36_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_37_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_38_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_39_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_40_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_41_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_42_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_43_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_44_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_45_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_46_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_47_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_48_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_49_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_50_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_51_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_52_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_53_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_54_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_55_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_56_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_57_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_58_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_59_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_60_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_61_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_62_resumed_from_p391_pool_e2_de_state_gen142",
+    "E2_final_population_member_63_resumed_from_p391_pool_e2_de_state_gen142"
+   ],
+   "seed_sha256": [
+    "9c88da43dd9d16c83299a643ffa9d5dfa7371817e3928eaa478a92f7a58d871d",
+    "063e16a331bb352a44b59dc8fbebad5b2d4ac58ec3d4df931ee1fdb8ca2903c5",
+    "babb48c6ac7af63556cb384c85f64464ebe659f93e6fabdfd4d9ff5f792071a8",
+    "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+    "f07e489b5d37e957e864381bf10efe384c1337d58a857c9c07eb63f73aadf775",
+    "bbe96d1fced21070c21a12a7354e7ced1907f50aec0491fc218934eb2210eb5b",
+    "58be884a3263da5d23f8c4fa65a965a6712c0d94c07b66aa46b52cc0840163b0",
+    "6e07f160b45f30a8e972c0b35d4f7ce39b4ced0bdb69c528cbdd5243cb0bb909",
+    "1dfdf02002d8247b6d32e9a4aa30c733ca5790236acda0a53c5597e47c165e04",
+    "6536cd39b7f9647c90e69478ae752feba3d4c7abb8b62c0e5e859a85a7c96ef3",
+    "38a6a29b1f61b7327d5bc2d6d5fe3a87278fddc93e3d80a717775dcd59850ac8",
+    "b95c8b80907f3d76721f5f7e270db5543e8de43c8bbdce01312a64e52d0388f3",
+    "1a5e7b17fab601488edaafd2e358bb44bf2b0e16a1ce14f6fc25f334ff2ddf93",
+    "bb35930e846034a6e430da0a7b72542098cfc07e957bc00c59eaeb37bb4a1112",
+    "1a7c8d0c5abf73dcddcd1ef1acd4060a5629026ab99350ce9329683e9b18f17c",
+    "e3b580e753aa072f1b0effec590db7d32b62c7e8458ed567d769cf98c043afcd",
+    "ab8c5b825c2effc075f53d9fdb32a788126b882fb6db05efd86784de2a0fa3f7",
+    "e39034591e12a3f866ba3279b6b4c74fb6f73f8db75c130c4977b4e4da27e177",
+    "4e66114beb8cef35fe30d9c24fb68abb16f689dab0d8f50c834a53713273ce68",
+    "956172d62f15699e011799f55f6cf909f459968e8cbbf9090f60890432296aa2",
+    "ba28bab75fc236f46abcfaccd2ff3a56766f55aa511f62b6d7ab242c412625fb",
+    "e84730ec5b516bae14c4c8ef90d6d362983cb52f0aea37316220f309631e0584",
+    "37b8dc6bf7aa1d5b8ea91ef36eed20a847c26e73b80ae7567b9c359d985c6633",
+    "3037b31609731c286bb41de2a30f04f5d628ee70d3145eeb17020505aa8ecc7e",
+    "2b4f20ff93b97c6838c6b6a2f9387289f0968e223937b9f1336b1e97860369d8",
+    "114ed396d4c30ec811f5efc5976a2951a36482953adcb4035f5880c21dfff518",
+    "d3b290954ce6b964970f77a39f360d2037de2b35598739640bf56233a785da8e",
+    "9096e9cc8e8dfee7057141c150beac09c905aa0b380064aedba0f0b31eeef575",
+    "f0477f707bf7cbb28e70ee5c14c8aed09bbb617ee25c8b6b3b56bb78b641730b",
+    "d11aca657b3da586be6fa0a024a78c449010ceaa0116a215884df68af5cbb12d",
+    "e1fa3a775a9cdca19f110d8a7ac65668c9c5645381d0bf66d26523072d9ebf42",
+    "aa0040b4367bc399784fe367c76ef619f0f4d2b741381aa96990091d36ca70f7",
+    "82dbd040194e2c385f87944d81730573e1c0e8fe36f6c4c1487ff9ff2076bbcd",
+    "81273c8d9c383eb47b2982a6ab774ae5cf36f4bca6b10d629f4519b7a9def9cc",
+    "d1b48ff0c3e28ca0bb460df2e34dfa1b1863e44968a14a2e76a3eeee7cc21ee8",
+    "6fa4209dfd08a69ec7503d8a28543d66c013456913b0c0eb5d7bff4663dd7a62",
+    "30c468d68caef52c5faa142345b11d963b2d6aa19d97ad642b314b0f1fcf4d90",
+    "7919355e224e6de896eab75d3a3841cc4ae1f46217f4e44b5cb54048411e49c6",
+    "6589a519a7cadd511fa855b447faf799c27f5fcc6bd972c58f880bfa6138b321",
+    "3b7f89ea32058561a713d78a7df020d744fe3e36648affd0c55caaeb369a4089",
+    "eac47398321467eac1ba5f2bb423ef19c424d157895d28674ca1beef76c6e798",
+    "0424eefe4a4ccb9ad1ff8804f3e18b5610a5438b1cd1e595fea860e71153d394",
+    "d039fd523547c74c7720edad598e061684eb1db7e65c8997a308276d16e3b12c",
+    "d013b21238e0007d8d570d9fbf3a1f528822132a48138c21ce8f9b9c62d07464",
+    "79c8097b56ad6f72cc171fbc1accfb371971f7f09250671b948867df39691123",
+    "b5afd464cef4ae33f33357e71db1822e4299c7a202faf76a252581ea99efcf98",
+    "89247b885042a9dc83927ad43aa4736530c371ed539fe46e4f809bb6440674b8",
+    "9543ae4d6f46618e6899883dfb48ad0d22922de897a35c2bdd4def44afa8c3df",
+    "c64c2bb5ec70f43ec3bd7faa2034e31ef389d275ee77989f74025a31f35bde3f",
+    "7ff004248efd6c5c597890840255ff34fe8ecdb935833b19e5bcc9561304c136",
+    "e22c5580fce5470c6083df6fa6a69b8175ec665d3678dbd39d474135d46b8c7e",
+    "7fdbe456ef3b47ca3f1e7e5540d8707757c924079f2b0162e7a823eb550ef051",
+    "d3a5bf764e024603c76a4dafbf6b25b31c22ee205a2b2092f28ea9434d1263d9",
+    "25132b921e4a65871dd673933b29c05666a5fc06d8ded57dfd45222e994b32cd",
+    "8ad480ed5e844a00505190e9dde5e4def4274e0c93e2acadcbf3220ac2e775aa",
+    "d11f8bad7a53f519e8f5c85bfc9a59bb84dbd52b134c16ee19d566e24246ca26",
+    "2a924418ffaa48fcc48afc77d15911edb601b59eb05495e52161ba29a7b4a7e0",
+    "72bd1a206786906698ffe77af6fb8e28c2404720f3e7121216caf36af74680bc",
+    "138d59a4de4b3ca4236c71b8893466a3c39c904657adffa37f6c6d20fc983dbc",
+    "ca0413b536e80732386b1db4c2a494b965fe8ca252999f17f5ee4ae3614aedbb",
+    "9a889de195ad7b849b4848242ab635b070b4c7998c2701547620bdeff3fdc0a4",
+    "1eb222dba0b5a5606c20ee9f661182e19aca236f1313fe333d9b3de44ba1c8bb",
+    "7da5c7bf7155aa3e4243ecc5fa127c465a2bf67fb549737a9ad73e0bc5399f55",
+    "f2171e2e8495209e21ab1be137171850450ac75cec43b63c2043166780ee07f8"
+   ]
+  },
+  "y_ref_on_de_union_set": {
+   "y_ref_beta_crit_on_de_set": 0.191796875,
+   "bracket": [
+    0.19140625,
+    0.1921875
+   ],
+   "flag": "bisected",
+   "n_pts": 3640,
+   "lib": "p391_12",
+   "note": "SCREENING ONLY"
+  },
+  "de": {
+   "generations_completed": 118,
+   "wall_s": 7229.556597471237,
+   "beta_crit_evals": 7616,
+   "cap_min": 120,
+   "done_flag": true,
+   "stop": "ran to the registered 120-min cap (done=True, gens=118, wall=7230s)",
+   "best_beta_crit_screening_union_set": 0.191796875,
+   "best_bracket": [
+    0.19140625,
+    0.1921875
+   ],
+   "best_y": [
+    2.25,
+    0.5999621734700179,
+    -1.094802510851004,
+    -2.021413979006036,
+    -2.1145667923107836,
+    -1.1983970724423942,
+    -1.1245227209572795,
+    -1.1275102705986462,
+    -2.25,
+    -2.119743654081386,
+    -2.0526537461764853,
+    0.72798755686034,
+    3.729373606871664,
+    3.2737932068292843,
+    1.4577107601266237,
+    0.14319765397457737,
+    0.5378364804163186,
+    0.7204372677379273,
+    0.09237127739028794,
+    1.699103696851401,
+    2.4376657699322983,
+    3.84284815421295,
+    5.368206378490712,
+    8.381125080970913,
+    1.6761152386162466,
+    16.312213885189685
+   ],
+   "best_y_sha256": "e2d02cd90aaa37d1ce6638a269fa388694e4e174b9b6463bcc36e69e71d4b6fa",
+   "best_hist_change_points": [
+    {
+     "gen": 0,
+     "best": 0.191796875,
+     "elapsed_s": 86.45125722885132
+    }
+   ],
+   "best_hist_tail": [
+    {
+     "gen": 116,
+     "best": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "elapsed_s": 7051.250389814377
+    },
+    {
+     "gen": 117,
+     "best": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "elapsed_s": 7129.091357707977
+    },
+    {
+     "gen": 118,
+     "best": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "elapsed_s": 7229.550132989883
+    }
+   ],
+   "bound_sitting_best": {
+    "coord_0": {
+     "value": 2.25,
+     "lo": -2.25,
+     "hi": 2.25
+    },
+    "coord_8": {
+     "value": -2.25,
+     "lo": -2.25,
+     "hi": 2.25
+    }
+   }
+  },
+  "powell_top3": [
+   {
+    "start": "de0",
+    "start_beta_crit_screening": null,
+    "beta_crit_screening": 0.191796875,
+    "record": {
+     "beta_crit": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "flag": "bisected"
+    },
+    "nfev_obj": 434,
+    "powell_nfev": 434,
+    "source": "incumbent",
+    "wall_s": 531.6490051746368,
+    "y_opt_sha256": "e2d02cd90aaa37d1ce6638a269fa388694e4e174b9b6463bcc36e69e71d4b6fa"
+   },
+   {
+    "start": "de1",
+    "start_beta_crit_screening": null,
+    "beta_crit_screening": 0.191796875,
+    "record": {
+     "beta_crit": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "flag": "bisected"
+    },
+    "nfev_obj": 450,
+    "powell_nfev": 450,
+    "source": "incumbent",
+    "wall_s": 539.2949934005737,
+    "y_opt_sha256": "8d3d0e6e534e404a296669681ab82360c3f1eb249c4646223617b924b7c02000"
+   },
+   {
+    "start": "de2",
+    "start_beta_crit_screening": null,
+    "beta_crit_screening": 0.191796875,
+    "record": {
+     "beta_crit": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "flag": "bisected"
+    },
+    "nfev_obj": 436,
+    "powell_nfev": 436,
+    "source": "incumbent",
+    "wall_s": 525.9684808254242,
+    "y_opt_sha256": "81f3996133ffbe1da2074e1a8a15d55f4a201054d1b4c7a90a48a24ec4ccd847"
+   }
+  ],
+  "harvest": {
+   "rule": "SCREENING ONLY (extended set, CPU per-candidate-r_m ranking)",
+   "top6": [
+    {
+     "provenance": "t GPU DE best (union set)",
+     "y": [
+      2.25,
+      0.5999621734700179,
+      -1.094802510851004,
+      -2.021413979006036,
+      -2.1145667923107836,
+      -1.1983970724423942,
+      -1.1245227209572795,
+      -1.1275102705986462,
+      -2.25,
+      -2.119743654081386,
+      -2.0526537461764853,
+      0.72798755686034,
+      3.729373606871664,
+      3.2737932068292843,
+      1.4577107601266237,
+      0.14319765397457737,
+      0.5378364804163186,
+      0.7204372677379273,
+      0.09237127739028794,
+      1.699103696851401,
+      2.4376657699322983,
+      3.84284815421295,
+      5.368206378490712,
+      8.381125080970913,
+      1.6761152386162466,
+      16.312213885189685
+     ],
+     "source_beta_crit_screening": 0.191796875,
+     "sha256": "e2d02cd90aaa37d1ce6638a269fa388694e4e174b9b6463bcc36e69e71d4b6fa",
+     "cpu_beta_crit_screening": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "t GPU DE pop member rank1 (union-set bc 0.191796875)",
+     "y": [
+      2.249358327914081,
+      0.6362503052606424,
+      -1.0376986062282048,
+      -2.048302842314447,
+      -2.078389820499649,
+      -1.210869095032918,
+      -0.9186782771095735,
+      -1.1519197286740395,
+      -2.243952922379391,
+      -2.1845254562355185,
+      -2.0544461990497784,
+      0.8510019069555271,
+      3.731288425689431,
+      3.0338563722536014,
+      1.459298336188436,
+      0.10906434587197392,
+      0.5206756149936184,
+      0.7474347707554692,
+      0.10374188509874277,
+      1.7015143784990587,
+      2.4642755286478972,
+      3.815268626694499,
+      5.370695025346336,
+      8.371636778913006,
+      1.6700137026748287,
+      16.239096609155396
+     ],
+     "source_beta_crit_screening": 0.191796875,
+     "sha256": "8d3d0e6e534e404a296669681ab82360c3f1eb249c4646223617b924b7c02000",
+     "cpu_beta_crit_screening": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "t GPU DE pop member rank2 (union-set bc 0.191796875)",
+     "y": [
+      2.25,
+      0.6883732439709362,
+      -1.1375680329440865,
+      -2.091267755773305,
+      -2.056730110550034,
+      -1.2348555643716788,
+      -0.8177977827057177,
+      -1.4279810269650106,
+      -2.2413613176848437,
+      -2.1944539421356324,
+      -2.112260507759239,
+      0.8902526411006868,
+      3.8874377084253626,
+      3.0940546825649693,
+      1.514819957357408,
+      0.1066071839218142,
+      0.5740945053419761,
+      0.6974700210236607,
+      0.10927617607459895,
+      1.7191546260143682,
+      2.4649518829046184,
+      3.820531928614792,
+      5.401205822353081,
+      8.519791804323042,
+      1.6724968024590705,
+      16.269747622220997
+     ],
+     "source_beta_crit_screening": 0.191796875,
+     "sha256": "81f3996133ffbe1da2074e1a8a15d55f4a201054d1b4c7a90a48a24ec4ccd847",
+     "cpu_beta_crit_screening": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "t GPU DE pop member rank3 (union-set bc 0.191796875)",
+     "y": [
+      2.25,
+      0.6006259237231515,
+      -1.0260467363489643,
+      -2.1033471370852337,
+      -2.106919671498228,
+      -1.2636633455933808,
+      -0.8460748440786721,
+      -1.441291075931761,
+      -2.25,
+      -2.1669613629641242,
+      -1.795197845486655,
+      0.5732759888019543,
+      3.713292460574315,
+      2.9777083149132846,
+      1.4612613035363538,
+      0.1015371218080344,
+      0.5365715552477789,
+      0.6520212445331522,
+      0.13410732114475274,
+      1.75272116700644,
+      2.4581238565546837,
+      3.8354481139313097,
+      5.319330850718955,
+      8.117118339122253,
+      1.6608923548907393,
+      16.187589217631558
+     ],
+     "source_beta_crit_screening": 0.191796875,
+     "sha256": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+     "cpu_beta_crit_screening": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "t GPU DE pop member rank4 (union-set bc 0.191796875)",
+     "y": [
+      2.25,
+      0.6704348126103237,
+      -1.0834328044169828,
+      -2.0288596778099923,
+      -2.0983256411738824,
+      -1.1581615275401838,
+      -0.9501676645519832,
+      -1.054882159235387,
+      -2.25,
+      -2.1543947768765936,
+      -2.0452969723043153,
+      0.7965829896266329,
+      3.4616748283177405,
+      3.0596073002908843,
+      1.4315215325112356,
+      0.10770770316066648,
+      0.510749215340491,
+      0.7722101492818367,
+      0.09329755021432351,
+      1.7298073417407354,
+      2.451365912985659,
+      3.819428630111201,
+      5.385201774724772,
+      8.327182664154172,
+      1.6555083672574873,
+      16.174416829363455
+     ],
+     "source_beta_crit_screening": 0.191796875,
+     "sha256": "7515296fcb16801533460c16b3bc4c616fd07facfc9525f58ba151e1bb5842b6",
+     "cpu_beta_crit_screening": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "t GPU DE pop member rank5 (union-set bc 0.191796875)",
+     "y": [
+      2.25,
+      0.6249108457969489,
+      -1.187519792285735,
+      -2.0448235427594885,
+      -2.1373426732311085,
+      -1.2688641586745357,
+      -1.0834469120862535,
+      -1.3117264638040305,
+      -2.2465931359686815,
+      -2.1332179788740113,
+      -2.07057513823445,
+      0.5457629256717018,
+      3.67185070779962,
+      3.049740612268245,
+      1.4770924270217938,
+      0.20240016314441434,
+      0.5763531671013429,
+      0.6559996008731535,
+      0.18338013301478762,
+      1.757298194682121,
+      2.452221201260129,
+      3.8544028166516355,
+      5.3681742907265875,
+      8.204827144831842,
+      1.657632699882017,
+      16.237764396828997
+     ],
+     "source_beta_crit_screening": 0.191796875,
+     "sha256": "1766aea8dee4e88474a5d0a065a7b346293c6f297b52a4bae4e20f0dc2ce1034",
+     "cpu_beta_crit_screening": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     }
+    }
+   ],
+   "y_ref_control": {
+    "y": [
+     2.25,
+     0.6006259237231515,
+     -1.0260467363489643,
+     -2.1033471370852337,
+     -2.106919671498228,
+     -1.2636633455933808,
+     -0.8460748440786721,
+     -1.441291075931761,
+     -2.25,
+     -2.1669613629641242,
+     -1.795197845486655,
+     0.5732759888019543,
+     3.713292460574315,
+     2.9777083149132846,
+     1.4612613035363538,
+     0.1015371218080344,
+     0.5365715552477789,
+     0.6520212445331522,
+     0.13410732114475274,
+     1.75272116700644,
+     2.4581238565546837,
+     3.8354481139313097,
+     5.319330850718955,
+     8.117118339122253,
+     1.6608923548907393,
+     16.187589217631558
+    ],
+    "sha256": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+    "cpu_beta_crit_screening": 0.191796875,
+    "cpu_record": {
+     "beta_crit": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "flag": "bisected"
+    }
+   },
+   "full_record": "results/p392_pool_t_harvest.json",
+   "wall_s": 13.258492231369019
+  }
+ },
+ "rw_lineage": {
+  "method": "GPU DE best/1/bin F=0.7 CR=0.9 pop 64 on the arm's DE union extended set; spec p392_spec_rw_de.json",
+  "box": {
+   "lo": [
+    -3.375,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -3.375,
+    -2.25,
+    -2.25,
+    -2.25,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -12.0,
+    0.25,
+    11.0
+   ],
+   "hi": [
+    3.375,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    3.375,
+    2.25,
+    2.25,
+    2.25,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    12.0,
+    3.0,
+    23.0
+   ],
+   "lib": "p391_12"
+  },
+  "seeds": {
+   "n_seed_ys": 8,
+   "seed_names": [
+    "y_his_equivalent",
+    "E2-1",
+    "E2_harvest_member_1_of_6 (e2 GPU DE best (union set); sha256 61679383...)",
+    "E2_harvest_member_2_of_6 (e2 Powell polish of DE top member de1; sha256 bd847a46...)",
+    "E2_harvest_member_3_of_6 (e2 GPU DE pop member (union-set bc 0.19102); sha256 1a5e7b17...)",
+    "E2_harvest_member_4_of_6 (e2 GPU DE pop member (union-set bc 0.19102); sha256 1dfdf020...)",
+    "E2_harvest_member_5_of_6 (e2 GPU DE pop member (union-set bc 0.19102); sha256 37b8dc6b...)",
+    "E2_harvest_member_6_of_6 (e2 GPU DE pop member (union-set bc 0.19102); sha256 e3903459...)"
+   ],
+   "seed_sha256": [
+    "201714dc0123173b57f12ca85fecd9eceac895d5ad88a19bcba7a58b90ddcd3d",
+    "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+    "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+    "bd847a465241bb4bdbb0abf8bc072a355d59aaaf2d013673a0e1835055aa34b1",
+    "1a5e7b17fab601488edaafd2e358bb44bf2b0e16a1ce14f6fc25f334ff2ddf93",
+    "1dfdf02002d8247b6d32e9a4aa30c733ca5790236acda0a53c5597e47c165e04",
+    "37b8dc6bf7aa1d5b8ea91ef36eed20a847c26e73b80ae7567b9c359d985c6633",
+    "e39034591e12a3f866ba3279b6b4c74fb6f73f8db75c130c4977b4e4da27e177"
+   ]
+  },
+  "y_ref_on_de_union_set": {
+   "y_ref_beta_crit_on_de_set": 0.191796875,
+   "bracket": [
+    0.19140625,
+    0.1921875
+   ],
+   "flag": "bisected",
+   "n_pts": 3640,
+   "lib": "p391_12",
+   "note": "SCREENING ONLY"
+  },
+  "de": {
+   "generations_completed": 102,
+   "wall_s": 5732.889287948608,
+   "beta_crit_evals": 6592,
+   "cap_min": 120,
+   "done_flag": false,
+   "stop": "stopped by Worker B on full convergence before the 120-min cap (391 E1 stop pattern): best static at 0.192578125 for the final ~50 generations with population mean 0.19257 within 0.00001 of best; state checkpointed at gen 102, done=False",
+   "best_beta_crit_screening_union_set": 0.19257812500000002,
+   "best_bracket": [
+    0.1921875,
+    0.19296875000000002
+   ],
+   "best_y": [
+    2.3565341414844596,
+    0.6023896364761296,
+    -0.9726033962068644,
+    -2.202836267656016,
+    -2.096282103580898,
+    -1.2573122363921212,
+    -0.6480840669818643,
+    -1.4939748105870705,
+    -2.295651434768075,
+    -2.206391679409564,
+    -1.8920710933076461,
+    0.7683187694476461,
+    3.7589893898947775,
+    2.841454519027781,
+    1.507458953762846,
+    0.12494845658534054,
+    0.5583239706821288,
+    0.6778024701533574,
+    0.1641480885262092,
+    1.7643168574575672,
+    2.477971123825694,
+    3.796738992039629,
+    5.362877181434702,
+    8.128696063190338,
+    1.6691175472208464,
+    16.1695718270389
+   ],
+   "best_y_sha256": "afcde914a800b43195a8dd9452a553457ddd2eb2fae55d061174f8fefcbea8bc",
+   "best_hist_change_points": [
+    {
+     "gen": 0,
+     "best": 0.191796875,
+     "elapsed_s": 67.37203526496887
+    },
+    {
+     "gen": 38,
+     "best": 0.19257812500000002,
+     "elapsed_s": 1795.2298512458801
+    }
+   ],
+   "best_hist_tail": [
+    {
+     "gen": 100,
+     "best": 0.19257812500000002,
+     "bracket": [
+      0.1921875,
+      0.19296875000000002
+     ],
+     "elapsed_s": 5611.053006887436
+    },
+    {
+     "gen": 101,
+     "best": 0.19257812500000002,
+     "bracket": [
+      0.1921875,
+      0.19296875000000002
+     ],
+     "elapsed_s": 5664.142565250397
+    },
+    {
+     "gen": 102,
+     "best": 0.19257812500000002,
+     "bracket": [
+      0.1921875,
+      0.19296875000000002
+     ],
+     "elapsed_s": 5732.889121770859
+    }
+   ],
+   "bound_sitting_best": {}
+  },
+  "powell_top3": [
+   {
+    "start": "de0",
+    "start_beta_crit_screening": null,
+    "beta_crit_screening": 0.19257812500000002,
+    "record": {
+     "beta_crit": 0.19257812500000002,
+     "bracket": [
+      0.1921875,
+      0.19296875000000002
+     ],
+     "flag": "bisected"
+    },
+    "nfev_obj": 421,
+    "powell_nfev": 421,
+    "source": "incumbent",
+    "wall_s": 445.94733333587646,
+    "y_opt_sha256": "afcde914a800b43195a8dd9452a553457ddd2eb2fae55d061174f8fefcbea8bc"
+   },
+   {
+    "start": "de1",
+    "start_beta_crit_screening": null,
+    "beta_crit_screening": 0.19257812500000002,
+    "record": {
+     "beta_crit": 0.19257812500000002,
+     "bracket": [
+      0.1921875,
+      0.19296875000000002
+     ],
+     "flag": "bisected"
+    },
+    "nfev_obj": 430,
+    "powell_nfev": 430,
+    "source": "incumbent",
+    "wall_s": 457.8081245422363,
+    "y_opt_sha256": "ece214fbdd8528231b9b8627c1dc4de0806cbf5b37097b6d6dc6ea65cfa62faf"
+   },
+   {
+    "start": "de2",
+    "start_beta_crit_screening": null,
+    "beta_crit_screening": 0.19257812500000002,
+    "record": {
+     "beta_crit": 0.19257812500000002,
+     "bracket": [
+      0.1921875,
+      0.19296875000000002
+     ],
+     "flag": "bisected"
+    },
+    "nfev_obj": 445,
+    "powell_nfev": 445,
+    "source": "incumbent",
+    "wall_s": 463.7197844982147,
+    "y_opt_sha256": "d4998176e225f3b43ca1e0640c3c051315fdafcdefff1d669a3984d48015fb3a"
+   }
+  ],
+  "harvest": {
+   "rule": "SCREENING ONLY (extended set, CPU per-candidate-r_m ranking)",
+   "top6": [
+    {
+     "provenance": "rw GPU DE best (union set)",
+     "y": [
+      2.3565341414844596,
+      0.6023896364761296,
+      -0.9726033962068644,
+      -2.202836267656016,
+      -2.096282103580898,
+      -1.2573122363921212,
+      -0.6480840669818643,
+      -1.4939748105870705,
+      -2.295651434768075,
+      -2.206391679409564,
+      -1.8920710933076461,
+      0.7683187694476461,
+      3.7589893898947775,
+      2.841454519027781,
+      1.507458953762846,
+      0.12494845658534054,
+      0.5583239706821288,
+      0.6778024701533574,
+      0.1641480885262092,
+      1.7643168574575672,
+      2.477971123825694,
+      3.796738992039629,
+      5.362877181434702,
+      8.128696063190338,
+      1.6691175472208464,
+      16.1695718270389
+     ],
+     "source_beta_crit_screening": 0.19257812500000002,
+     "sha256": "afcde914a800b43195a8dd9452a553457ddd2eb2fae55d061174f8fefcbea8bc",
+     "cpu_beta_crit_screening": 0.19257812500000002,
+     "cpu_record": {
+      "beta_crit": 0.19257812500000002,
+      "bracket": [
+       0.1921875,
+       0.19296875000000002
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "rw GPU DE pop member rank1 (union-set bc 0.19257812500000002)",
+     "y": [
+      2.341467067003603,
+      0.5880821537140986,
+      -0.9792924810416944,
+      -2.2286372483584564,
+      -2.0910727831705187,
+      -1.2296347352398347,
+      -0.6213167368818037,
+      -1.565800661541538,
+      -2.3933301476816444,
+      -2.1919845638324693,
+      -1.7939713885196569,
+      0.7650587106440285,
+      3.713292460574315,
+      2.932293354592611,
+      1.5110082059596401,
+      0.12643928290336753,
+      0.5790456492790317,
+      0.7159853156352516,
+      0.17138729574463213,
+      1.7525285596400806,
+      2.496925379258663,
+      3.8123373735228125,
+      5.305447403295814,
+      8.146244542530614,
+      1.667621579137638,
+      16.161007081501257
+     ],
+     "source_beta_crit_screening": 0.19257812500000002,
+     "sha256": "ece214fbdd8528231b9b8627c1dc4de0806cbf5b37097b6d6dc6ea65cfa62faf",
+     "cpu_beta_crit_screening": 0.19257812500000002,
+     "cpu_record": {
+      "beta_crit": 0.19257812500000002,
+      "bracket": [
+       0.1921875,
+       0.19296875000000002
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "rw GPU DE pop member rank2 (union-set bc 0.19257812500000002)",
+     "y": [
+      2.4287314693786555,
+      0.5727913563376444,
+      -0.9021764155612585,
+      -2.148455358048453,
+      -2.135803423154583,
+      -1.2194385622582318,
+      -0.5918286243360437,
+      -1.4912881885245248,
+      -2.285461462714545,
+      -2.2384444977023334,
+      -1.892579425391984,
+      0.8538597657141596,
+      3.824272006549385,
+      2.707672600377039,
+      1.5491497314817244,
+      0.11943170990469384,
+      0.5844322474573338,
+      0.674794034392379,
+      0.18700363345117882,
+      1.769701820383122,
+      2.488438658819689,
+      3.8144215234912,
+      5.365109526371362,
+      8.148294531704362,
+      1.677734844433846,
+      16.192168276345036
+     ],
+     "source_beta_crit_screening": 0.19257812500000002,
+     "sha256": "d4998176e225f3b43ca1e0640c3c051315fdafcdefff1d669a3984d48015fb3a",
+     "cpu_beta_crit_screening": 0.19257812500000002,
+     "cpu_record": {
+      "beta_crit": 0.19257812500000002,
+      "bracket": [
+       0.1921875,
+       0.19296875000000002
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "rw GPU DE pop member rank3 (union-set bc 0.19257812500000002)",
+     "y": [
+      2.267846283621754,
+      0.6142679898576454,
+      -1.129330908809772,
+      -2.1339184828055915,
+      -2.0883841764701727,
+      -1.365069947561988,
+      -0.738966552670084,
+      -1.6301157417077672,
+      -2.351504534948371,
+      -2.172669083382553,
+      -1.8941118466429119,
+      0.5756796832873634,
+      3.649338969554885,
+      2.8700635599337487,
+      1.481724978026399,
+      0.14508894847210216,
+      0.5590056770903418,
+      0.6303116599614903,
+      0.1556083182849839,
+      1.7605336087134904,
+      2.4339872034525722,
+      3.7843855631882635,
+      5.338980436093924,
+      8.025455972405712,
+      1.6569880028392214,
+      16.15521738800985
+     ],
+     "source_beta_crit_screening": 0.19257812500000002,
+     "sha256": "269798f383adf0c1da1079cd1683ff7bfb3883773edbad8d09635c66fa3047c2",
+     "cpu_beta_crit_screening": 0.19257812500000002,
+     "cpu_record": {
+      "beta_crit": 0.19257812500000002,
+      "bracket": [
+       0.1921875,
+       0.19296875000000002
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "rw GPU DE pop member rank4 (union-set bc 0.19257812500000002)",
+     "y": [
+      2.4765790247713886,
+      0.6201274229303678,
+      -0.901265898731609,
+      -2.1330121530758737,
+      -2.1102214957943977,
+      -1.211501748918377,
+      -0.4893664864716912,
+      -1.3760473509137492,
+      -2.1921383948477016,
+      -2.2073463301061476,
+      -2.0698925553450835,
+      1.0237452381524075,
+      3.767424883681122,
+      2.5978095880585235,
+      1.5193255733961266,
+      0.12846929356988254,
+      0.5584574899194508,
+      0.7225456863852057,
+      0.1607373359208354,
+      1.771907918477156,
+      2.4704375399476506,
+      3.804169706276466,
+      5.403335507207231,
+      8.358634898182853,
+      1.6681638067393412,
+      16.17148847124908
+     ],
+     "source_beta_crit_screening": 0.19257812500000002,
+     "sha256": "44719b508ba733bb257281f994f90340b1ac25b33684bbe8ac9c4da5f10535c2",
+     "cpu_beta_crit_screening": 0.19257812500000002,
+     "cpu_record": {
+      "beta_crit": 0.19257812500000002,
+      "bracket": [
+       0.1921875,
+       0.19296875000000002
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "rw GPU DE pop member rank5 (union-set bc 0.19257812500000002)",
+     "y": [
+      2.4165829758375423,
+      0.5922340827125949,
+      -0.9098707928150038,
+      -2.110187659485596,
+      -2.0950646672891544,
+      -1.242648160168975,
+      -0.5193853987340962,
+      -1.5086493824718452,
+      -2.306711703689176,
+      -2.2317438359980617,
+      -1.916901241691227,
+      0.9265272527977431,
+      3.8856769515393275,
+      2.6932826077211565,
+      1.5415836413106112,
+      0.11281945356052417,
+      0.5781140616224595,
+      0.6979966415297292,
+      0.20613360440517406,
+      1.7606781047541096,
+      2.5119223235502095,
+      3.842662531788301,
+      5.359712053839537,
+      8.157481958328646,
+      1.6732004997534167,
+      16.163542834704817
+     ],
+     "source_beta_crit_screening": 0.19257812500000002,
+     "sha256": "2efa8ac2ce03c231c957f32479e6b6cb8231bff4250570e3dc96764d8813e58d",
+     "cpu_beta_crit_screening": 0.19257812500000002,
+     "cpu_record": {
+      "beta_crit": 0.19257812500000002,
+      "bracket": [
+       0.1921875,
+       0.19296875000000002
+      ],
+      "flag": "bisected"
+     }
+    }
+   ],
+   "y_ref_control": {
+    "y": [
+     2.25,
+     0.6006259237231515,
+     -1.0260467363489643,
+     -2.1033471370852337,
+     -2.106919671498228,
+     -1.2636633455933808,
+     -0.8460748440786721,
+     -1.441291075931761,
+     -2.25,
+     -2.1669613629641242,
+     -1.795197845486655,
+     0.5732759888019543,
+     3.713292460574315,
+     2.9777083149132846,
+     1.4612613035363538,
+     0.1015371218080344,
+     0.5365715552477789,
+     0.6520212445331522,
+     0.13410732114475274,
+     1.75272116700644,
+     2.4581238565546837,
+     3.8354481139313097,
+     5.319330850718955,
+     8.117118339122253,
+     1.6608923548907393,
+     16.187589217631558
+    ],
+    "sha256": "6167938325934832baac896f7e177be6e0bed594fe43865c9bafcfe8a2573066",
+    "cpu_beta_crit_screening": 0.191796875,
+    "cpu_record": {
+     "beta_crit": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "flag": "bisected"
+    }
+   },
+   "full_record": "results/p392_pool_rw_harvest.json",
+   "wall_s": 18.901593923568726
+  }
+ },
+ "r16_lineage": {
+  "method": "GPU DE best/1/bin F=0.7 CR=0.9 pop 64 on the arm's DE union extended set; spec p392_spec_r16_de.json",
+  "box": {
+   "lo": [
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -2.25,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -12.0,
+    0.25,
+    11.0
+   ],
+   "hi": [
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    2.25,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    12.0,
+    3.0,
+    23.0
+   ],
+   "lib": "p392_16"
+  },
+  "seeds": {
+   "n_seed_ys": 2,
+   "seed_names": [
+    "y_his_equivalent",
+    "E2-1_embedded_ls_16mode"
+   ],
+   "seed_sha256": [
+    "be13909ebfa31254a2cfb7029ce0abffee6a356ab92b2490bbf042fd1bbac82e",
+    "249bd90cffcd6cb0db91fb2c75475761cbf1958751ad135f531d7e168439ce41"
+   ]
+  },
+  "y_ref_on_de_union_set": {
+   "y_ref_beta_crit_on_de_set": 0.191796875,
+   "bracket": [
+    0.19140625,
+    0.1921875
+   ],
+   "flag": "bisected",
+   "n_pts": 3640,
+   "lib": "p392_16",
+   "note": "SCREENING ONLY"
+  },
+  "de": {
+   "generations_completed": 106,
+   "wall_s": 5113.665158510208,
+   "beta_crit_evals": 6848,
+   "cap_min": 120,
+   "done_flag": false,
+   "stop": "stopped by Worker B at gen 106 (5,114 s) because the registered 6 h total pool budget bound before the 120-min cap; population still rising (mean 0.102 -> 0.178 over gens 39-106, best static at the gen-0 level 0.191015625) - the E2-style late lift had not arrived; state staged in results/p392_pool_r16_de_state.json (done=False)",
+   "best_beta_crit_screening_union_set": 0.191015625,
+   "best_bracket": [
+    0.190625,
+    0.19140625
+   ],
+   "best_y": [
+    2.25,
+    1.0903264161545119,
+    -0.33997211248907533,
+    -1.4676657154297272,
+    -2.0484593904389277,
+    -2.1169689989570877,
+    -1.7249478451924238,
+    -1.200235075317472,
+    -0.932734466424302,
+    -1.1421660225789134,
+    -1.6334492059051615,
+    -2.1608104950701663,
+    -2.1790964508128527,
+    -2.1261684677227866,
+    -1.1322163716814175,
+    0.598982322623477,
+    3.713292460574315,
+    2.9777083149132846,
+    1.4612613035363538,
+    0.1015371218080344,
+    0.5365715552477789,
+    0.6520212445331522,
+    0.13410732114475274,
+    1.75272116700644,
+    2.4581238565546837,
+    3.8354481139313097,
+    5.319330850718955,
+    8.117118339122253,
+    1.6608923548907393,
+    16.187589217631558
+   ],
+   "best_y_sha256": "e28f083f7e63f5317495021bcdee797a61ba83f66f455aae9d143208634f985f",
+   "best_hist_change_points": [
+    {
+     "gen": 0,
+     "best": 0.191015625,
+     "elapsed_s": 40.250675678253174
+    }
+   ],
+   "best_hist_tail": [
+    {
+     "gen": 104,
+     "best": 0.191015625,
+     "bracket": [
+      0.190625,
+      0.19140625
+     ],
+     "elapsed_s": 4967.694954395294
+    },
+    {
+     "gen": 105,
+     "best": 0.191015625,
+     "bracket": [
+      0.190625,
+      0.19140625
+     ],
+     "elapsed_s": 5023.8406529426575
+    },
+    {
+     "gen": 106,
+     "best": 0.191015625,
+     "bracket": [
+      0.190625,
+      0.19140625
+     ],
+     "elapsed_s": 5113.665050506592
+    }
+   ],
+   "bound_sitting_best": {
+    "coord_0": {
+     "value": 2.25,
+     "lo": -2.25,
+     "hi": 2.25
+    }
+   }
+  },
+  "powell_top3": [
+   {
+    "start": "de0",
+    "start_beta_crit_screening": null,
+    "beta_crit_screening": 0.191796875,
+    "record": {
+     "beta_crit": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "flag": "bisected"
+    },
+    "nfev_obj": 491,
+    "powell_nfev": 491,
+    "source": "incumbent",
+    "wall_s": 542.1242837905884,
+    "y_opt_sha256": "a66f0106b0af20bcafdeb30ab4dfe8bfa27acb900075f69f407e0e8be287487f"
+   },
+   {
+    "start": "de1",
+    "start_beta_crit_screening": null,
+    "beta_crit_screening": 0.19023437499999998,
+    "record": {
+     "beta_crit": 0.19023437499999998,
+     "bracket": [
+      0.18984374999999998,
+      0.190625
+     ],
+     "flag": "bisected"
+    },
+    "nfev_obj": 502,
+    "powell_nfev": 502,
+    "source": "incumbent",
+    "wall_s": 555.15159034729,
+    "y_opt_sha256": "d9d996658e99fcfcccf1bd85f533d12282f89c59cec33aa12c005b1af4614977"
+   },
+   {
+    "start": "de2",
+    "start_beta_crit_screening": null,
+    "beta_crit_screening": 0.19023437499999998,
+    "record": {
+     "beta_crit": 0.19023437499999998,
+     "bracket": [
+      0.18984374999999998,
+      0.190625
+     ],
+     "flag": "bisected"
+    },
+    "nfev_obj": 502,
+    "powell_nfev": 502,
+    "source": "incumbent",
+    "wall_s": 552.6610751152039,
+    "y_opt_sha256": "3674568faa15975f52ddda533dd2787a2ca2d15f6dd9e336d4318b682dc65322"
+   }
+  ],
+  "harvest": {
+   "rule": "SCREENING ONLY (extended set, CPU per-candidate-r_m ranking)",
+   "top6": [
+    {
+     "provenance": "r16 Powell polish of DE top member de0",
+     "y": [
+      2.214042291158638,
+      1.1883423107322533,
+      -0.3043513154255662,
+      -1.5934588481235805,
+      -2.0484593904389277,
+      -2.1169689989570877,
+      -1.7249478451924238,
+      -1.200235075317472,
+      -0.932734466424302,
+      -1.1421660225789134,
+      -1.6334492059051615,
+      -2.1608104950701663,
+      -2.1790964508128527,
+      -2.1261684677227866,
+      -1.1322163716814175,
+      0.598982322623477,
+      3.713292460574315,
+      2.9777083149132846,
+      1.4612613035363538,
+      0.1015371218080344,
+      0.5365715552477789,
+      0.6520212445331522,
+      0.13410732114475274,
+      1.75272116700644,
+      2.4581238565546837,
+      3.8354481139313097,
+      5.319330850718955,
+      8.117118339122253,
+      1.6608923548907393,
+      16.187589217631558
+     ],
+     "source_beta_crit_screening": 0.191796875,
+     "sha256": "a66f0106b0af20bcafdeb30ab4dfe8bfa27acb900075f69f407e0e8be287487f",
+     "cpu_beta_crit_screening": 0.191796875,
+     "cpu_record": {
+      "beta_crit": 0.191796875,
+      "bracket": [
+       0.19140625,
+       0.1921875
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "r16 GPU DE best (union set)",
+     "y": [
+      2.25,
+      1.0903264161545119,
+      -0.33997211248907533,
+      -1.4676657154297272,
+      -2.0484593904389277,
+      -2.1169689989570877,
+      -1.7249478451924238,
+      -1.200235075317472,
+      -0.932734466424302,
+      -1.1421660225789134,
+      -1.6334492059051615,
+      -2.1608104950701663,
+      -2.1790964508128527,
+      -2.1261684677227866,
+      -1.1322163716814175,
+      0.598982322623477,
+      3.713292460574315,
+      2.9777083149132846,
+      1.4612613035363538,
+      0.1015371218080344,
+      0.5365715552477789,
+      0.6520212445331522,
+      0.13410732114475274,
+      1.75272116700644,
+      2.4581238565546837,
+      3.8354481139313097,
+      5.319330850718955,
+      8.117118339122253,
+      1.6608923548907393,
+      16.187589217631558
+     ],
+     "source_beta_crit_screening": 0.191015625,
+     "sha256": "e28f083f7e63f5317495021bcdee797a61ba83f66f455aae9d143208634f985f",
+     "cpu_beta_crit_screening": 0.191015625,
+     "cpu_record": {
+      "beta_crit": 0.191015625,
+      "bracket": [
+       0.190625,
+       0.19140625
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "r16 Powell polish of DE top member de1",
+     "y": [
+      2.2367624152464054,
+      1.2167816844306283,
+      -0.42983820685198504,
+      -1.3474385853871789,
+      -2.25,
+      -2.1282516605787696,
+      -1.6964028179513793,
+      -0.8368152169291081,
+      -0.9249352582646512,
+      -1.5799875924877103,
+      -2.1029980459069813,
+      -2.12174021459063,
+      -2.175053429562964,
+      -2.1100502930246616,
+      -1.0720682198275358,
+      0.571347795521569,
+      4.4778301841627925,
+      4.120129678783222,
+      2.2067985529301923,
+      0.6507952993964661,
+      1.0042853814054693,
+      1.3249592577975438,
+      -0.36884910468793797,
+      1.7010700620209018,
+      2.6418277201440965,
+      4.005889827264475,
+      5.806228618722266,
+      8.410334898366681,
+      1.797178156519707,
+      15.647482720001085
+     ],
+     "source_beta_crit_screening": 0.19023437499999998,
+     "sha256": "d9d996658e99fcfcccf1bd85f533d12282f89c59cec33aa12c005b1af4614977",
+     "cpu_beta_crit_screening": 0.19023437499999998,
+     "cpu_record": {
+      "beta_crit": 0.19023437499999998,
+      "bracket": [
+       0.18984374999999998,
+       0.190625
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "r16 Powell polish of DE top member de2",
+     "y": [
+      2.1369459542759337,
+      1.162441466429215,
+      -0.8360222291243978,
+      -1.6404715084675763,
+      -2.0591034692062067,
+      -2.131851035077282,
+      -1.8442352531273658,
+      -1.573070602946255,
+      -1.0599483929364406,
+      -1.1745878287796072,
+      -1.4219574330074696,
+      -2.1594421663715204,
+      -2.1662850252782864,
+      -2.176915261413735,
+      -1.2623084908623432,
+      0.20811124871855108,
+      4.443146895180926,
+      2.252347269716502,
+      1.5576707399671288,
+      0.2597404033592834,
+      0.7264152381507297,
+      0.9438942769573316,
+      0.04699664944593018,
+      1.7671773142505918,
+      2.586596976149192,
+      3.823888608119021,
+      5.098151189807228,
+      7.315383750261701,
+      1.6191132413438851,
+      15.968089923719454
+     ],
+     "source_beta_crit_screening": 0.19023437499999998,
+     "sha256": "3674568faa15975f52ddda533dd2787a2ca2d15f6dd9e336d4318b682dc65322",
+     "cpu_beta_crit_screening": 0.19023437499999998,
+     "cpu_record": {
+      "beta_crit": 0.19023437499999998,
+      "bracket": [
+       0.18984374999999998,
+       0.190625
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "r16 GPU DE pop member rank2 (union-set bc 0.187109375)",
+     "y": [
+      2.25,
+      1.035306428394442,
+      -0.6097774967848983,
+      -1.5706310448770726,
+      -1.9161253869551302,
+      -2.139340414099868,
+      -1.6775695658905838,
+      -1.573070602946255,
+      -1.0599483929364406,
+      -1.1745878287796072,
+      -1.4219574330074696,
+      -2.1594421663715204,
+      -2.1662850252782864,
+      -2.176915261413735,
+      -1.2623084908623432,
+      0.20811124871855108,
+      4.443146895180926,
+      2.252347269716502,
+      1.5576707399671288,
+      0.2597404033592834,
+      0.7264152381507297,
+      0.9438942769573316,
+      0.04699664944593018,
+      1.7671773142505918,
+      2.586596976149192,
+      3.823888608119021,
+      5.098151189807228,
+      7.315383750261701,
+      1.6191132413438851,
+      15.968089923719454
+     ],
+     "source_beta_crit_screening": 0.187109375,
+     "sha256": "86c231db56e83d506952306e151eb2af16f3d5e7a76db82067be075c28643f6a",
+     "cpu_beta_crit_screening": 0.187890625,
+     "cpu_record": {
+      "beta_crit": 0.187890625,
+      "bracket": [
+       0.1875,
+       0.18828125
+      ],
+      "flag": "bisected"
+     }
+    },
+    {
+     "provenance": "r16 GPU DE pop member rank3 (union-set bc 0.186328125)",
+     "y": [
+      2.25,
+      0.8677676426634411,
+      -0.1946924611902373,
+      -1.571294641742306,
+      -1.8629417667970614,
+      -2.14822210373279,
+      -1.952341124052863,
+      -1.634800463613095,
+      -1.033548144513671,
+      -1.0639029861148428,
+      -1.2003592120355728,
+      -2.1116658359450335,
+      -2.1698007849146395,
+      -2.1420625302632725,
+      -1.1925552109526796,
+      0.9065110534824075,
+      3.38417491323311,
+      2.5301408794505345,
+      1.0562424839905558,
+      -0.3255753669017708,
+      0.2237202895183189,
+      0.2559646916320302,
+      0.4324664373203977,
+      1.8689330364764454,
+      2.641575246181727,
+      4.127607281790431,
+      4.311811588593435,
+      9.057215635490797,
+      1.6690842322969544,
+      16.416064199726264
+     ],
+     "source_beta_crit_screening": 0.186328125,
+     "sha256": "4db53985f7d7c41ea06ae9b97e06ee102e898838ef13bc489dccde025301b5b5",
+     "cpu_beta_crit_screening": 0.186328125,
+     "cpu_record": {
+      "beta_crit": 0.186328125,
+      "bracket": [
+       0.1859375,
+       0.18671875
+      ],
+      "flag": "bisected"
+     }
+    }
+   ],
+   "y_ref_control": {
+    "y": [
+     2.2569788046198447,
+     1.0903264161545119,
+     -0.33997211248907533,
+     -1.4676657154297272,
+     -2.0484593904389277,
+     -2.1169689989570877,
+     -1.7249478451924238,
+     -1.200235075317472,
+     -0.932734466424302,
+     -1.1421660225789134,
+     -1.6334492059051615,
+     -2.1608104950701663,
+     -2.1790964508128527,
+     -2.1261684677227866,
+     -1.1322163716814175,
+     0.598982322623477,
+     3.713292460574315,
+     2.9777083149132846,
+     1.4612613035363538,
+     0.1015371218080344,
+     0.5365715552477789,
+     0.6520212445331522,
+     0.13410732114475274,
+     1.75272116700644,
+     2.4581238565546837,
+     3.8354481139313097,
+     5.319330850718955,
+     8.117118339122253,
+     1.6608923548907393,
+     16.187589217631558
+    ],
+    "sha256": "249bd90cffcd6cb0db91fb2c75475761cbf1958751ad135f531d7e168439ce41",
+    "cpu_beta_crit_screening": 0.191796875,
+    "cpu_record": {
+     "beta_crit": 0.191796875,
+     "bracket": [
+      0.19140625,
+      0.1921875
+     ],
+     "flag": "bisected"
+    }
+   },
+   "full_record": "results/p392_pool_r16_harvest.json",
+   "wall_s": 17.359721422195435
+  }
+ },
+ "eval_counts_and_wall": {
+  "validate12_wall_s": 5.738368034362793,
+  "validate16_wall_s": 16.207813024520874,
+  "t_de": {
+   "beta_crit_evals": 7616,
+   "wall_s": 7229.556597471237
+  },
+  "t_powell_nfev_total": 1320,
+  "t_powell_wall_s_parallel": 539.2949934005737,
+  "t_harvest_wall_s": 13.258492231369019,
+  "rw_de": {
+   "beta_crit_evals": 6592,
+   "wall_s": 5732.889287948608
+  },
+  "rw_powell_nfev_total": 1296,
+  "rw_powell_wall_s_parallel": 463.7197844982147,
+  "rw_harvest_wall_s": 18.901593923568726,
+  "r16_de": {
+   "beta_crit_evals": 6848,
+   "wall_s": 5113.665158510208
+  },
+  "r16_powell_nfev_total": 1495,
+  "r16_powell_wall_s_parallel": 555.15159034729,
+  "r16_harvest_wall_s": 17.359721422195435,
+  "total_pool_search_wall_s_approx": 19705.74340081215,
+  "budget": "<= 6 h across all arms (CHECKPOINT392); Powell counted at parallel wall as in 391"
+ },
+ "pool_checkpoints": {
+  "state_dir": "~/work/p392/state (pool)",
+  "vm_copies": "results/p392_pool_*.json (md5-verified against pool originals)"
+ },
+ "pool_priority_rule": {
+  "launch_headroom": "every launch at >= 6 GiB available (validate/recalib ~11.6 GiB; DE T 11,791 MiB; RW 11,805 MiB; R16 11,595 MiB; Powell launches >= 11 GiB)",
+  "footprint": "pop 64, chunk 8 (391 envelope, <= ~3 GiB RSS per job)",
+  "watchdog": "results/p392_ram_log.txt (p392_watchdog.sh, 391 pattern): samples every ~2 min; yield at < 2.5 GiB on 3 consecutive samples",
+  "yield_events": "NONE. Two transient dips below 2.5 GiB, neither sustained: 2026-11-27T02:08Z one sample at 119 MiB (recovered to 11,821 MiB next sample) and 05:31-05:33Z two samples (2,248 -> 74 MiB, recovered to 11,716 MiB); the 3-sample sustained threshold was never reached and no p392 job was killed. Phase 362 was never disturbed (its driver live throughout, advanced by its own supervisor).",
+  "watchdog_gaps": "watchdog process died three times in VM runtime restarts / pool host-key changes (log gaps 00:36-00:38Z, 02:35Z-05:10Z, after 05:35Z); relaunched twice; coordinator-side free -m checks during gaps all >= 5,925 MiB except the two transient dips above, which the watchdog itself caught",
+  "checkpoints": "DE state checkpointed every generation (<= ~1 min) for all arms"
+ },
+ "pool_code_vm_copies": [
+  "work/p392_pool_p391_lib12.py",
+  "work/p392_pool_p391_screen12.py",
+  "work/p392_pool_p392_lib16.py",
+  "work/p392_pool_p392_screen16.py",
+  "work/p392_pool_p392_de.py",
+  "work/p392_pool_p392_powell.py",
+  "work/p392_pool_p392_harvest.py",
+  "work/p392_pool_p392_recalib.py",
+  "work/p392_pool_p392_validate.py",
+  "work/p392_pool_vectors.json",
+  "work/p392_make_followups.py"
+ ],
+ "not_done": [
+  "home re-judgement of harvest candidates (Worker C scope)",
+  "ledger append (parent owns it)"
+ ]
+}
