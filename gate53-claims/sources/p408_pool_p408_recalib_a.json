@@ -1,0 +1,77 @@
+{
+ "arm": "a",
+ "lib": "p392_16",
+ "mask": [
+  2.234381410067394,
+  27.265413445973113
+ ],
+ "n_pts_union": 3640,
+ "note": "SCREENING ONLY",
+ "reads": {
+  "y_his30_step_design": {
+   "lib_builder": "p392_16",
+   "sha256": "6db0afbf6ace25a2c950920b17db07ec7d0da59227b094defc3f008b57f1c559",
+   "gpu_union_beta_crit": 0.13632812500000002,
+   "gpu_bracket": [
+    0.13593750000000002,
+    0.13671875
+   ],
+   "gpu_flag": "bisected",
+   "cpu_extended_beta_crit": 0.13632812500000002,
+   "cpu_record": {
+    "beta_crit": 0.13632812500000002,
+    "bracket": [
+     0.13593750000000002,
+     0.13671875
+    ],
+    "flag": "bisected"
+   },
+   "wall_s": 0.5338358879089355
+  },
+  "y_his_equiv_A_seed0pattern": {
+   "lib_builder": "p392_16",
+   "sha256": "be13909ebfa31254a2cfb7029ce0abffee6a356ab92b2490bbf042fd1bbac82e",
+   "gpu_union_beta_crit": 0.1,
+   "gpu_bracket": [
+    null,
+    0.2
+   ],
+   "gpu_flag": "at_or_below_lo",
+   "cpu_extended_beta_crit": 0.1,
+   "cpu_record": {
+    "beta_crit": 0.1,
+    "bracket": [
+     null,
+     0.1
+    ],
+    "flag": "at_or_below_lo"
+   },
+   "wall_s": 0.14820647239685059
+  },
+  "artefact_emb16": {
+   "lib_builder": "p392_16",
+   "sha256": "8501b2006993d29d8a9887878491749faf9d205cec620d083c12c5144cabf954",
+   "gpu_union_beta_crit": 0.120703125,
+   "gpu_bracket": [
+    0.12031249999999999,
+    0.12109375
+   ],
+   "gpu_flag": "bisected",
+   "cpu_extended_beta_crit": 0.120703125,
+   "cpu_record": {
+    "beta_crit": 0.120703125,
+    "bracket": [
+     0.12031249999999999,
+     0.12109375
+    ],
+    "flag": "bisected"
+   },
+   "wall_s": 0.5505058765411377
+  }
+ },
+ "y_his_class_pass": true,
+ "artefact_class_pass": true,
+ "bar": "C-408-4: y_his-equivalent 0.136328125-class (bracket containing 0.1363, width <= 0.001); artefact LS-embedded read in [0.115, 0.127]",
+ "y_his_equivalent_naming_note": "The C-408-4 bar applies to the c=0 STEP design in the 16-mode basis (c=0 with y_his own a/q/r_m, sha 6db0afbf...), the y_his-equivalent of every prior phase recalib. The seed-0-pattern vectors named y_his_equivalent in the arm DE specs (c=0 with a foreign a-block: E2-1 embedding for Arm A, RW-5 for Arm B) are ALSO read here and recorded on the face: they screen at_or_below_lo (<=0.10) because the foreign a-block was tuned jointly with its grading; with c=0 they are different, worse designs, not the step design. This is a naming collision, not an instrument failure: the artefact, the step design and the staged-population reads all reproduce.",
+ "pass": true
+}

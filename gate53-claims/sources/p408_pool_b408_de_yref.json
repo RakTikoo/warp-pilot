@@ -1,0 +1,11 @@
+{
+ "y_ref_beta_crit_on_de_set": 0.19257812500000002,
+ "bracket": [
+  0.1921875,
+  0.19296875000000002
+ ],
+ "flag": "bisected",
+ "n_pts": 3640,
+ "lib": "p392_16",
+ "note": "SCREENING ONLY"
+}

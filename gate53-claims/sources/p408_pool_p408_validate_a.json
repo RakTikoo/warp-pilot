@@ -1,0 +1,182 @@
+{
+ "mode": "a",
+ "lib": "p392_16",
+ "n_candidates": 5,
+ "n_pts": 3640,
+ "candidate_names": [
+  "y_his_equiv_A",
+  "staged_best_y",
+  "staged_pop1",
+  "staged_pop2",
+  "staged_pop3"
+ ],
+ "candidate_sha256": [
+  "be13909ebfa31254a2cfb7029ce0abffee6a356ab92b2490bbf042fd1bbac82e",
+  "e28f083f7e63f5317495021bcdee797a61ba83f66f455aae9d143208634f985f",
+  "e28f083f7e63f5317495021bcdee797a61ba83f66f455aae9d143208634f985f",
+  "cc10d33d1dcfa37e727a597ef1be2d252ec636c333b910bf34e72394fa118e7e",
+  "0fe76965c2305eba683518eef280a31b3c4d9764df0808d41cc7c61d368ebf0a"
+ ],
+ "scores": [
+  {
+   "beta": 0.13,
+   "cpu_worst": [
+    -9.42926121460771e-05,
+    3.0477531951776765e-07,
+    3.0477531951776765e-07,
+    3.1004370152462766e-07,
+    3.850988316542965e-07
+   ],
+   "gpu_worst": [
+    -9.429261214673158e-05,
+    3.0477533079442686e-07,
+    3.0477533079442686e-07,
+    3.100437072678905e-07,
+    3.8509883370242815e-07
+   ],
+   "abs_diff": [
+    6.544786414208748e-16,
+    1.1276659211684051e-14,
+    1.1276659211684051e-14,
+    5.743262853144526e-15,
+    2.0481316486310882e-15
+   ],
+   "max_abs_diff": 1.1276659211684051e-14,
+   "wall_s": 2.3419339656829834
+  },
+  {
+   "beta": 0.145,
+   "cpu_worst": [
+    -0.00013165909095439585,
+    2.8962399542231534e-07,
+    2.8962399542231534e-07,
+    2.986777958371278e-07,
+    3.72207497296238e-07
+   ],
+   "gpu_worst": [
+    -0.00013165909095430418,
+    2.8962400701365385e-07,
+    2.8962400701365385e-07,
+    2.986778014431266e-07,
+    3.722074995255522e-07
+   ],
+   "abs_diff": [
+    9.16692936836494e-17,
+    1.1591338516094365e-14,
+    1.1591338516094365e-14,
+    5.605998781761803e-15,
+    2.2293141665707104e-15
+   ],
+   "max_abs_diff": 1.1591338516094365e-14,
+   "wall_s": 1.3404014110565186
+  }
+ ],
+ "note": "SCREENING ONLY",
+ "max_abs_diff_overall": 1.1591338516094365e-14,
+ "margins_pass": true,
+ "beta_crit_agreement": [
+  {
+   "name": "y_his_equiv_A",
+   "gpu_bc": 0.1,
+   "gpu_bracket": [
+    null,
+    0.1
+   ],
+   "gpu_flag": "at_or_below_lo",
+   "cpu_bc": 0.1,
+   "cpu_record": {
+    "beta_crit": 0.1,
+    "bracket": [
+     null,
+     0.1
+    ],
+    "flag": "at_or_below_lo"
+   },
+   "agree_within_0.001": true,
+   "wall_s": 0.5891664028167725
+  },
+  {
+   "name": "staged_best_y",
+   "gpu_bc": 0.191015625,
+   "gpu_bracket": [
+    0.190625,
+    0.19140625
+   ],
+   "gpu_flag": "bisected",
+   "cpu_bc": 0.191015625,
+   "cpu_record": {
+    "beta_crit": 0.191015625,
+    "bracket": [
+     0.190625,
+     0.19140625
+    ],
+    "flag": "bisected"
+   },
+   "agree_within_0.001": true,
+   "wall_s": 1.7894799709320068
+  },
+  {
+   "name": "staged_pop1",
+   "gpu_bc": 0.191015625,
+   "gpu_bracket": [
+    0.190625,
+    0.19140625
+   ],
+   "gpu_flag": "bisected",
+   "cpu_bc": 0.191015625,
+   "cpu_record": {
+    "beta_crit": 0.191015625,
+    "bracket": [
+     0.190625,
+     0.19140625
+    ],
+    "flag": "bisected"
+   },
+   "agree_within_0.001": true,
+   "wall_s": 1.2020692825317383
+  },
+  {
+   "name": "staged_pop2",
+   "gpu_bc": 0.17539062500000002,
+   "gpu_bracket": [
+    0.17500000000000002,
+    0.17578125
+   ],
+   "gpu_flag": "bisected",
+   "cpu_bc": 0.17539062500000002,
+   "cpu_record": {
+    "beta_crit": 0.17539062500000002,
+    "bracket": [
+     0.17500000000000002,
+     0.17578125
+    ],
+    "flag": "bisected"
+   },
+   "agree_within_0.001": true,
+   "wall_s": 2.210658550262451
+  },
+  {
+   "name": "staged_pop3",
+   "gpu_bc": 0.17851562500000004,
+   "gpu_bracket": [
+    0.17812500000000003,
+    0.17890625000000004
+   ],
+   "gpu_flag": "bisected",
+   "cpu_bc": 0.17851562500000004,
+   "cpu_record": {
+    "beta_crit": 0.17851562500000004,
+    "bracket": [
+     0.17812500000000003,
+     0.17890625000000004
+    ],
+    "flag": "bisected"
+   },
+   "agree_within_0.001": true,
+   "wall_s": 2.6773629188537598
+  }
+ ],
+ "brackets_pass": true,
+ "pass": true,
+ "bar": "worst margins agree <= 1e-7; beta_crit brackets agree (centres <= 0.001)"
+}
