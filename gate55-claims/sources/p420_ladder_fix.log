@@ -1,0 +1,6 @@
+  [completed ladder eps=1e-09 draw=0] best maxR=1.210e-14 (fresh, nfev=92)
+  [completed ladder eps=1e-09 draw=1] best maxR=7.478e-15 (fresh, nfev=102)
+  [completed ladder eps=1e-06 draw=0] best maxR=1.278e-14 (fresh, nfev=68)
+  [completed ladder eps=1e-06 draw=1] best maxR=2.298e-16 (warm, nfev=41)
+COMPLETED LADDER all_reclose: True
+VERDICT (completed ladder): COMPOSITE SUPPLIES THE CORRECTED TARGET

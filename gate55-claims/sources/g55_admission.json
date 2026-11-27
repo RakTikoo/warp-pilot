@@ -1,0 +1,26 @@
+{
+ "admitted": true,
+ "scope": "corroboration for the deciding reads of claims (a), (b), (c); deciding reads remain the VM's",
+ "mirror": "/home/spark/work/g55root (g55_lib.py md5 781e9385b1187e865eae84000378de52, identical VM<->laptop)",
+ "laptop_frame": "numpy 2.5.5 / scipy 1.18.1 (the VM frame)",
+ "claim_a_Tcorr_rebuild_maxdiff_laptop": 1.1519648082658485e-19,
+ "claim_a_Tcorr_rebuild_maxdiff_VM": 0.0,
+ "fitCA_Rs_laptop": [
+  4.05678111473357e-12,
+  7.639565577128637e-12,
+  3.4960098578639146e-10
+ ],
+ "fitCA_Rs_VM": [
+  4.056832927431698e-12,
+  7.639565560072827e-12,
+  3.496009861987862e-10
+ ],
+ "fitCA_Rs_max_abs_agreement": 5.1812698127953254e-17,
+ "fitCB_Rs_max_abs_agreement": 1.348162808588431e-18,
+ "claim_c_max_abs_agreement": 4.0657581468206416e-17,
+ "claim_c_min_all_channels_laptop": {
+  "A1_joint_argmin": 1.2273882708091336e-06,
+  "A2_sec_argmin": 2.747198085337188e-12,
+  "A3_peak": 2.276563406105464e-10
+ }
+}

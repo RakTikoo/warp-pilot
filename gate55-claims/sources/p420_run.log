@@ -1,0 +1,57 @@
+MACHINERY: {"M1_S_multi_vs_S_of_maxdiff": 6.992893892674703e-18, "M2_direct_multi_vs_T_direct_maxdiff": 0.0, "M3_mixed_mass_direct_vs_pairwise_rel": 1.213999315362475e-15, "pass": true}
+CTRL-420-A: maxR=2.966e-12 sigma_min=3.857618e-01 (stored 3.857618e-01, rel 3.39e-09) pass=True
+CTRL-420-B: maxR=2.305e-14 sigma_min=1.543248e-02 (stored 1.543248e-02, rel 4.47e-08) pass=True
+Building corrected targets (SS1)...
+  delta[A1_joint_argmin]: applied=False Delta=0.000000e+00 |delta|_F=0.000e+00 SEC_corr=2.794e-05 joint 1.227e-06 -> 1.227e-06
+  delta[A2_sec_argmin]: applied=True Delta=2.213557e-04 |delta|_F=1.231e-04 SEC_corr=1.084e-19 joint 1.385e-04 -> 2.491e-04
+  delta[A3_peak]: applied=True Delta=3.388413e-04 |delta|_F=1.695e-04 SEC_corr=0.000e+00 joint 8.805e-04 -> 1.050e-03
+  delta[B_stencil_-1.0]: applied=False Delta=0.000000e+00 |delta|_F=0.000e+00 SEC_corr=8.911e-06 joint 2.043e-06 -> 2.043e-06
+  delta[B_stencil_-0.5]: applied=False Delta=0.000000e+00 |delta|_F=0.000e+00 SEC_corr=1.641e-05 joint 1.541e-06 -> 1.541e-06
+  delta[B_stencil_+0.0]: applied=False Delta=0.000000e+00 |delta|_F=0.000e+00 SEC_corr=2.794e-05 joint 1.227e-06 -> 1.227e-06
+  delta[B_stencil_+0.5]: applied=False Delta=0.000000e+00 |delta|_F=0.000e+00 SEC_corr=3.039e-05 joint 1.325e-06 -> 1.325e-06
+  delta[B_stencil_+1.0]: applied=False Delta=0.000000e+00 |delta|_F=0.000e+00 SEC_corr=2.101e-05 joint 1.263e-06 -> 1.263e-06
+CTRL-420-delta pass: True
+FIT C-A: composite vs corrected target...
+  [fitCA N3_3] start=warmA maxR=2.509e-12 Rs=['6.41e-14', '1.32e-13', '2.51e-12'] nfev=285 (10.6s)
+  [fitCA N3_3] start=warmB maxR=1.178e-12 Rs=['2.74e-15', '6.49e-14', '1.18e-12'] nfev=205 (8.3s)
+  [fitCA N3_3] start=rand0 maxR=2.205e-11 Rs=['1.29e-13', '1.06e-12', '2.21e-11'] nfev=109 (3.7s)
+  [fitCA N3_3] start=rand1 maxR=9.573e-13 Rs=['4.09e-14', '9.57e-13', '1.37e-13'] nfev=234 (10.6s)
+  [fitCA N3_3] start=rand2 maxR=3.654e-12 Rs=['3.65e-13', '1.69e-13', '3.65e-12'] nfev=315 (21.9s)
+  [fitCA N3_3] start=rand3 maxR=1.783e-11 Rs=['8.57e-14', '2.77e-12', '1.78e-11'] nfev=827 (49.0s)
+  [fitCA N3_3] start=rand4 maxR=2.768e-11 Rs=['2.58e-12', '3.01e-12', '2.77e-11'] nfev=358 (24.6s)
+  [fitCA N3_3] start=rand5 maxR=1.415e-12 Rs=['2.46e-14', '2.85e-13', '1.42e-12'] nfev=276 (8.5s)
+  [fitCA N6_6] start=warmA maxR=3.496e-10 Rs=['4.06e-12', '7.64e-12', '3.50e-10'] nfev=26 (1.8s)
+  [fitCA N6_6] start=warmB maxR=5.187e-09 Rs=['4.55e-11', '5.12e-10', '5.19e-09'] nfev=47 (6.8s)
+  [fitCA N6_6] start=rand0 maxR=1.626e-09 Rs=['5.93e-12', '2.31e-11', '1.63e-09'] nfev=50 (6.8s)
+  [fitCA N6_6] start=rand1 maxR=2.453e-09 Rs=['5.34e-12', '3.07e-11', '2.45e-09'] nfev=43 (6.5s)
+  [fitCA N6_6] start=rand2 maxR=2.192e-09 Rs=['3.14e-12', '4.63e-11', '2.19e-09'] nfev=51 (3.3s)
+  [fitCA N6_6] start=rand3 maxR=8.238e-09 Rs=['2.04e-11', '1.54e-10', '8.24e-09'] nfev=46 (2.7s)
+  [fitCA N6_6] start=rand4 maxR=2.085e-09 Rs=['1.24e-11', '4.52e-10', '2.08e-09'] nfev=57 (4.4s)
+  [fitCA N6_6] start=rand5 maxR=3.397e-09 Rs=['8.86e-11', '1.55e-10', '3.40e-09'] nfev=44 (3.9s)
+FIT C-S: single family vs corrected target (context)...
+  [fitCS N6] start=warmA maxR=1.468e-11 Rs=['7.40e-14', '1.51e-12', '1.47e-11'] nfev=48 (0.9s)
+  [fitCS N6] start=rand0 maxR=1.758e-03 Rs=['2.55e-05', '3.16e-04', '1.76e-03'] nfev=900 (62.5s)
+  [fitCS N6] start=rand1 maxR=2.354e-11 Rs=['7.88e-14', '1.50e-12', '2.35e-11'] nfev=103 (6.2s)
+  [fitCS N6] start=rand2 maxR=1.104e-10 Rs=['2.71e-12', '1.35e-11', '1.10e-10'] nfev=704 (39.6s)
+  [fitCS N12] start=warmA maxR=3.288e-10 Rs=['9.92e-13', '1.81e-11', '3.29e-10'] nfev=44 (2.9s)
+  [fitCS N12] start=rand0 maxR=1.019e-09 Rs=['5.07e-12', '1.83e-10', '1.02e-09'] nfev=61 (12.9s)
+  [fitCS N12] start=rand1 maxR=3.128e-09 Rs=['4.68e-11', '7.51e-11', '3.13e-09'] nfev=67 (15.1s)
+  [fitCS N12] start=rand2 maxR=2.192e-09 Rs=['1.54e-10', '3.96e-10', '2.19e-09'] nfev=44 (7.2s)
+  [fitCS N12] start=rand3 maxR=2.504e-09 Rs=['9.14e-11', '1.69e-10', '2.50e-09'] nfev=45 (4.5s)
+PRIMARY C-A: arm=6,6 m2=0 maxR=3.496e-10
+FIT C-B: composite tracking on the stencil...
+  [fitCB N6_6] start=warmA maxR=3.575e-15 Rs=['2.21e-15', '3.37e-15', '3.58e-15', '3.46e-15', '2.34e-15'] nfev=1051 (540.6s)
+  [fitCB N6_6] start=warmB maxR=2.245e-13 Rs=['4.46e-14', '1.32e-13', '2.24e-13', '1.81e-13', '6.15e-14'] nfev=132 (67.3s)
+  [fitCB N6_6] start=rand0 maxR=2.328e-12 Rs=['1.43e-12', '1.97e-12', '2.33e-12', '1.22e-12', '3.97e-13'] nfev=116 (35.4s)
+  [fitCB N6_6] start=rand1 maxR=1.490e-13 Rs=['4.27e-14', '1.10e-13', '1.49e-13', '1.16e-13', '4.06e-14'] nfev=794 (338.9s)
+  [fitCB N6_6] start=rand2 maxR=8.741e-13 Rs=['3.47e-13', '7.27e-13', '8.74e-13', '7.26e-13', '3.96e-13'] nfev=81 (34.0s)
+  [fitCB N6_6] start=rand3 maxR=7.476e-13 Rs=['2.89e-13', '7.06e-13', '7.48e-13', '3.94e-13', '1.73e-13'] nfev=145 (56.7s)
+PRIMARY C-B: N=(6,6) maxR=3.575e-15
+[fitCA] direct maxR=3.496e-10 sigma_min=3.0121e+01 rank=30
+  [fitCA pert eps=1e-09 draw=0] best maxR=3.497e-10 (warm)
+  [fitCA pert eps=1e-09 draw=1] best maxR=3.487e-10 (warm)
+  [fitCA pert eps=1e-06 draw=0] best maxR=3.282e-09 (warm)
+  [fitCA pert eps=1e-06 draw=1] best maxR=6.667e-10 (fresh)
+[fitCB] direct maxR=3.565e-15 sigma_min=1.1390e-02 rank=50
+VERDICT: DOES NOT SUPPLY
+wall 1419s
