@@ -1,0 +1,229 @@
+{
+ "gate": 59,
+ "recovery_note": "g59_armA.py died in a service restart before writing its JSON; anatomy, Jacobian and the N=12 warm re-convergence recomputed here; per-start search values transcribed from g59_armA.log (the original run).",
+ "anatomy_gate": {
+  "A1_joint_argmin": [
+   {
+    "component": "T33",
+    "abs_residual": 3.289294970592249e-05
+   },
+   {
+    "component": "T22",
+    "abs_residual": 3.286994443284123e-05
+   },
+   {
+    "component": "T11",
+    "abs_residual": 3.133114733676596e-05
+   },
+   {
+    "component": "T13",
+    "abs_residual": 3.098816079456933e-07
+   },
+   {
+    "component": "T12",
+    "abs_residual": 1.1893110110754173e-07
+   },
+   {
+    "component": "T00",
+    "abs_residual": 8.13448963500607e-08
+   },
+   {
+    "component": "T02",
+    "abs_residual": 6.110477581988072e-08
+   },
+   {
+    "component": "T03",
+    "abs_residual": 4.244539617577293e-08
+   },
+   {
+    "component": "T01",
+    "abs_residual": 4.366348203866592e-09
+   },
+   {
+    "component": "T23",
+    "abs_residual": 3.142536176292565e-09
+   }
+  ],
+  "A2_sec_argmin": [
+   {
+    "component": "T11",
+    "abs_residual": 0.00020279169941460025
+   },
+   {
+    "component": "T33",
+    "abs_residual": 0.0002005699413557602
+   },
+   {
+    "component": "T22",
+    "abs_residual": 0.00020039441224611074
+   },
+   {
+    "component": "T00",
+    "abs_residual": 1.2226343766035984e-06
+   },
+   {
+    "component": "T13",
+    "abs_residual": 9.118431522061654e-07
+   },
+   {
+    "component": "T01",
+    "abs_residual": 9.88106568031375e-08
+   },
+   {
+    "component": "T02",
+    "abs_residual": 5.956371648332496e-08
+   },
+   {
+    "component": "T23",
+    "abs_residual": 2.0198622498670702e-08
+   },
+   {
+    "component": "T12",
+    "abs_residual": 1.3866933284309781e-08
+   },
+   {
+    "component": "T03",
+    "abs_residual": 2.3877051491582105e-09
+   }
+  ],
+  "A3_peak": [
+   {
+    "component": "T11",
+    "abs_residual": 0.0007396156483365209
+   },
+   {
+    "component": "T33",
+    "abs_residual": 0.0007355084529439193
+   },
+   {
+    "component": "T22",
+    "abs_residual": 0.0007339344613855398
+   },
+   {
+    "component": "T00",
+    "abs_residual": 4.113410565862808e-06
+   },
+   {
+    "component": "T23",
+    "abs_residual": 1.1108190526337243e-06
+   },
+   {
+    "component": "T13",
+    "abs_residual": 5.959604473288403e-07
+   },
+   {
+    "component": "T02",
+    "abs_residual": 3.1225092541779066e-07
+   },
+   {
+    "component": "T01",
+    "abs_residual": 9.403815576567828e-08
+   },
+   {
+    "component": "T12",
+    "abs_residual": 7.846415005974118e-08
+   },
+   {
+    "component": "T03",
+    "abs_residual": 5.757114628124991e-08
+   }
+  ]
+ },
+ "anatomy_Rs": [
+  5.6073686065139795e-05,
+  0.00034858841170036796,
+  0.0012754152716575767
+ ],
+ "theta_reconstruction_maxR": 0.0012754152716575732,
+ "stored_maxR_N12": 0.001275415271657572,
+ "shell_radius_spread": 2.7755575615628914e-17,
+ "shell_q_from_E": 0.10834931327259235,
+ "jac_h1e-06": {
+  "sigma_min": 0.0005408346221368049,
+  "sigma_max": 2851.6866405720157,
+  "rank_tol_1e-10_rel": 30,
+  "sigma_5_smallest": [
+   0.26802745605787853,
+   0.15137896845519058,
+   0.00736073919699847,
+   0.0010627842388527301,
+   0.0005408346221368049
+  ]
+ },
+ "jac_h3e-07": {
+  "sigma_min": 0.0005408339163078754,
+  "sigma_max": 2851.6866402471187,
+  "rank_tol_1e-10_rel": 30,
+  "sigma_5_smallest": [
+   0.26802743103595966,
+   0.15137866103033618,
+   0.007360701578077708,
+   0.0010627833053724089,
+   0.0005408339163078754
+  ]
+ },
+ "stored_constrained_jacobian": {
+  "sigma_min": 0.0005408373155676678,
+  "sigma_max": 2851.686640830329,
+  "rank": 30
+ },
+ "original_run_logged_sigma_min": {
+  "h1e-6": 0.0005408346221368049,
+  "h3e-7": 0.0005408339163078754
+ },
+ "warm_reconvergence_N12": {
+  "from_stored_maxR": 0.001275415271657572,
+  "after_search_maxR": 0.0012734805813737378,
+  "after_polish_maxR": 0.001271574327515576,
+  "original_run_logged_search_value": 0.001273481,
+  "wall_s": 730.3736333847046
+ },
+ "independent_search_transcribed_from_log": {
+  "12": {
+   "warm_stored": 0.001273481,
+   "rand0": 0.001684696,
+   "rand1": 0.001856004,
+   "rand2": 0.001835436,
+   "rand3": 0.00186845
+  },
+  "8": {
+   "rand0": 0.001668893,
+   "rand1": 0.001885602,
+   "rand2": 0.001781114,
+   "rand3": 0.001848074,
+   "rand4": 0.001836583,
+   "rand5": 0.001782265
+  },
+  "6": {
+   "rand0": 0.001725452,
+   "rand1": 0.001932164,
+   "rand2": 0.001816484,
+   "rand3": 0.001923931,
+   "rand4": 0.001662092,
+   "rand5": 0.001910115
+  },
+  "16": {
+   "rand0": 0.001652311,
+   "rand1": 0.001665417,
+   "rand2": 0.001878546
+  },
+  "note": "search-pass maxR per start, transcribed from g59_armA.log; size polishes for the random-start sizes were in memory at the restart and are not re-run (their starts sit 1.65e-3..1.93e-3, far from the floor basin; the phase's own polishes of like starts stayed >= 1.47e-3)."
+ },
+ "stored_size_bests": {
+  "6": 0.001323624435513346,
+  "8": 0.00127316549597957,
+  "12": 0.001275415271657572
+ },
+ "firstpass_relaxation_from_log": {
+  "note": "undertrained 1500-step Adam, NOT converged; superseded by g59_relax2.json",
+  "A3_peak": {
+   "1.01": 0.005440144,
+   "1.1": 0.01001453,
+   "1.35": 0.002377511,
+   "1.7": 0.00475366,
+   "2.2": 0.01063093,
+   "3.0": 0.02481361,
+   "4.3": 0.05962166
+  }
+ }
+}

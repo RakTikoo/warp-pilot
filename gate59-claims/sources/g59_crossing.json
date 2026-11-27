@@ -1,0 +1,41 @@
+{
+ "gate": 59,
+ "R_F_probes": {
+  "200000": {
+   "acoef": 2.9755557716447667e-12,
+   "permode_float64": 5.5258556341232435e-12,
+   "permode_longdouble_phase": 2.976200683936496e-12
+  },
+  "2e+06": {
+   "acoef": 2.975715961478992e-11,
+   "permode_float64": 4.871326944259851e-11,
+   "permode_longdouble_phase": 2.974828215203506e-11
+  },
+  "2e+07": {
+   "acoef": 2.975732508100382e-10,
+   "permode_float64": 4.997946531983668e-10,
+   "permode_longdouble_phase": 2.974185368530833e-10
+  },
+  "3.57271e+07": {
+   "acoef": 5.315709592356799e-10,
+   "permode_float64": 9.984565381309885e-10,
+   "permode_longdouble_phase": 5.316358484078147e-10
+  },
+  "6.72103e+07": {
+   "acoef": 1.0000000041132636e-09,
+   "permode_float64": 1.5553130101733612e-09,
+   "permode_longdouble_phase": 1.0003635613949514e-09
+  },
+  "2e+08": {
+   "acoef": 2.9757342271121574e-09,
+   "permode_float64": 4.6802065711613605e-09,
+   "permode_longdouble_phase": 2.9759328169826323e-09
+  }
+ },
+ "crossing_acoef": 67210312.02148879,
+ "crossing_permode_longdouble": 67187297.33926012,
+ "stored_driver_crossing": 35727055.84393014,
+ "sec_per_unit": 3.335678295635029e-09,
+ "crossing_acoef_s": 0.22419197905293822,
+ "crossing_ld_s": 0.22411520947694713
+}

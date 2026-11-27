@@ -1,0 +1,15 @@
+{
+ "object": "Gate-59 admission corroboration: Phase 410 Fit A t=0 read against stored T_req targets, computed with the GATE's own implementation (g59_lib) on the laptop pool (corroboration only; all deciding reads are the VM's)",
+ "numpy_pool": "2.5.5",
+ "staged_md5": {
+  "g59_lib.py": "1a3f5233d41b6c9560542af7e023d957",
+  "g59_laptop.py": "d0f5c60e9805e4c82c02e3d08468ae30",
+  "p410_fitA_primary.json": "488ed6182b8f4ad178cc2a11e8023f28",
+  "p410_targets.json": "91e43f2ffc164005edf84e394c1b93a8"
+ },
+ "laptop": {"Rs_pair": [8.152035464755384e-15, 2.763543323655305e-13, 2.9659850903775113e-12], "maxR_pair": 2.9659850903775113e-12, "Rs_field": [8.145190420511196e-15, 2.763449043573985e-13, 2.9659832652073106e-12], "maxR_field": 2.9659832652073106e-12},
+ "vm_gate": {"maxR_pair": 2.965984413711632e-12, "maxR_field": 2.9659839407219894e-12},
+ "diffs": {"pair_laptop_vs_vm_gate": 6.766658793e-19, "pair_laptop_vs_p431_admission_laptop": 1.3812017987e-18},
+ "pool_state": "Phase 368 step 2 priority run live and undisturbed (RSS ~3.16 GB of 15.6 GB; the gate read is seconds-long)",
+ "admitted_as_corroboration": true
+}

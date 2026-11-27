@@ -1,0 +1,36 @@
+{
+ "phase": 431,
+ "supplement": "Arm A window spots superseded: the driver's RF_t spots are per-mode-phase values, not evaluable at t ~ W; the spots below are the Acoef pairwise form and a factored direct form, which agree.",
+ "A_t1_N12": {
+  "E_registered": 1.005852660028616,
+  "R_F_0": 0.001275415271657572,
+  "acoef_spots": {
+   "W_over_4": 0.0012754152716575808,
+   "W_over_2": 0.0012754152716575808,
+   "W_over_1": 0.0012754152716575808
+  },
+  "acoef_spots_max_dev_from_R0": 8.673617379884035e-18,
+  "factored_direct_spots": {
+   "W_over_4": 0.0012754152716575767,
+   "W_over_2": 0.0012754152716575767,
+   "W_over_1": 0.0012754152716575767
+  },
+  "factored_direct_max_dev_from_R0": 4.553649124439119e-18
+ },
+ "A_t2_6_6": {
+  "E_registered": 2.1898959672736518,
+  "R_F_0": 9.969570519623321e-15,
+  "acoef_spots": {
+   "W_over_4": 9.953822294003724e-15,
+   "W_over_2": 9.953822294003724e-15,
+   "W_over_1": 9.953822294003724e-15
+  },
+  "acoef_spots_max_dev_from_R0": 1.5748225619597223e-17,
+  "factored_direct_spots": {
+   "W_over_4": 9.926694190904969e-15,
+   "W_over_2": 9.926402942106696e-15,
+   "W_over_1": 9.92585279028874e-15
+  },
+  "factored_direct_max_dev_from_R0": 4.3717729334581886e-17
+ }
+}

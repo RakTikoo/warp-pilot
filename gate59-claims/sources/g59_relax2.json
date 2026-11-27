@@ -1,0 +1,126 @@
+{
+ "gate": 59,
+ "note": "converged relaxation; supersedes the g59_armA.json first-pass relaxation section (undertrained Adam, not converged)",
+ "A3_peak_scan": [
+  {
+   "site": "A3_peak",
+   "E": 1.005852660028616,
+   "adam_frob": 0.0034444968177745876,
+   "polished_frob": 0.0012851879105550276,
+   "price_abs_c2": 0.1776985908660469
+  },
+  {
+   "site": "A3_peak",
+   "E": 1.2,
+   "adam_frob": 0.0062314593637055795,
+   "polished_frob": 0.0014414189289656215,
+   "price_abs_c2": 0.15026412867381977
+  },
+  {
+   "site": "A3_peak",
+   "E": 1.5,
+   "adam_frob": 0.003385225031817984,
+   "polished_frob": 0.0015977092582934583,
+   "price_abs_c2": 0.15722386035791452
+  },
+  {
+   "site": "A3_peak",
+   "E": 2.0,
+   "adam_frob": 0.00980585665703846,
+   "polished_frob": 0.0017351290086078405,
+   "price_abs_c2": 0.1585282364964075
+  },
+  {
+   "site": "A3_peak",
+   "E": 3.0,
+   "adam_frob": 0.01429765367270017,
+   "polished_frob": 0.0018659268644063826,
+   "price_abs_c2": 0.1584302950428036
+  },
+  {
+   "site": "A3_peak",
+   "E": 4.3,
+   "adam_frob": 0.011614513789129782,
+   "polished_frob": 0.001913907713726984,
+   "price_abs_c2": 0.17704256266870202
+  }
+ ],
+ "A3_best_anatomy": [
+  {
+   "component": "T11",
+   "abs_residual": 0.0007715564581411838
+  },
+  {
+   "component": "T22",
+   "abs_residual": 0.000765402682418942
+  },
+  {
+   "component": "T33",
+   "abs_residual": 0.0006839513697360265
+  },
+  {
+   "component": "T12",
+   "abs_residual": 3.54424161455533e-05
+  },
+  {
+   "component": "T23",
+   "abs_residual": 7.117962395492149e-06
+  },
+  {
+   "component": "T01",
+   "abs_residual": 6.118384463581303e-06
+  },
+  {
+   "component": "T02",
+   "abs_residual": 4.941093447349528e-06
+  },
+  {
+   "component": "T13",
+   "abs_residual": 4.400568041758879e-06
+  },
+  {
+   "component": "T00",
+   "abs_residual": 8.164116179888801e-07
+  },
+  {
+   "component": "T03",
+   "abs_residual": 7.415611320093562e-07
+  }
+ ],
+ "A3_best_E": 1.005852660028616,
+ "other_sites": [
+  {
+   "site": "A1_joint_argmin",
+   "E": 1.005852660028616,
+   "adam_frob": 0.0026245720624270877,
+   "polished_frob": 6.409019626945856e-05,
+   "price_abs_c2": 0.15886380168807762
+  },
+  {
+   "site": "A1_joint_argmin",
+   "E": 1.005852660028616,
+   "adam_frob": 0.0026245720624270877,
+   "polished_frob": 6.409019626945856e-05,
+   "price_abs_c2": 0.15886380168807762
+  },
+  {
+   "site": "A2_sec_argmin",
+   "E": 1.005852660028616,
+   "adam_frob": 0.002573703687901892,
+   "polished_frob": 0.00035095184747833844,
+   "price_abs_c2": 0.1580324850451647
+  },
+  {
+   "site": "A2_sec_argmin",
+   "E": 1.005852660028616,
+   "adam_frob": 0.002573703687901892,
+   "polished_frob": 0.00035095184747833844,
+   "price_abs_c2": 0.1580324850451647
+  }
+ ],
+ "joint_fit_site_residuals": {
+  "A1_joint_argmin": 5.6073686065139795e-05,
+  "A2_sec_argmin": 0.00034858841170036796,
+  "A3_peak": 0.0012754152716575767
+ }
+}

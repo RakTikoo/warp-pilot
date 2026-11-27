@@ -1,0 +1,32 @@
+anatomy done
+jac h = 1e-06  sigma_min = 0.0005408346221368049
+jac h = 3e-07  sigma_min = 0.0005408339163078754
+  N=12 warm_stored: 1.273481e-03
+  N=12 rand0: 1.684696e-03
+  N=12 rand1: 1.856004e-03
+  N=12 rand2: 1.835436e-03
+  N=12 rand3: 1.868450e-03
+  N=8 rand0: 1.668893e-03
+  N=8 rand1: 1.885602e-03
+  N=8 rand2: 1.781114e-03
+  N=8 rand3: 1.848074e-03
+  N=8 rand4: 1.836583e-03
+  N=8 rand5: 1.782265e-03
+  N=6 rand0: 1.725452e-03
+  N=6 rand1: 1.932164e-03
+  N=6 rand2: 1.816484e-03
+  N=6 rand3: 1.923931e-03
+  N=6 rand4: 1.662092e-03
+  N=6 rand5: 1.910115e-03
+  N=16 rand0: 1.652311e-03
+  N=16 rand1: 1.665417e-03
+  N=16 rand2: 1.878546e-03
+search done
+  relax A3 E=1.01: 5.440144e-03
+  relax A3 E=1.1: 1.001453e-02
+  relax A3 E=1.35: 2.377511e-03
+  relax A3 E=1.7: 4.753660e-03
+  relax A3 E=2.2: 1.063093e-02
+  relax A3 E=3.0: 2.481361e-02
+  relax A3 E=4.3: 5.962166e-02
+  relax A1_joint_argmin E=1.35: 1.161779e-02
