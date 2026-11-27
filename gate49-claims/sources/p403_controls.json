@@ -1,0 +1,115 @@
+{
+ "wp": "/home/hatch/workspace/warp-pilot",
+ "controls": {
+  "CTL-403-C395-HOME": {
+   "read": {
+    "nec": -2.9809850277749006e-05,
+    "dec": -1.7766846142506707e-06,
+    "wec": -0.00012604578745184045,
+    "sec": -0.00046317591386364136,
+    "rho": 9.780857711542179e-05
+   },
+   "diffs_vs_stored": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "worst_null_at_set_nec_argmin": -3.0896210095678075e-05,
+   "worst_null_diff": 0.0,
+   "joint": -2.9809850277749006e-05,
+   "joint_vs_stored_nec": 0.0,
+   "nec_argmin_r": 15.73170731707317,
+   "typeI_count": 4067,
+   "pass": true
+  },
+  "CTL-403-POSE-HOME": {
+   "read": {
+    "nec": -2.9809850277749006e-05,
+    "dec": -1.7766846142506707e-06,
+    "wec": -0.00012604578745184045,
+    "sec": -0.00046317591386364136,
+    "rho": 9.780857711542179e-05
+   },
+   "diffs_vs_lineage": {
+    "nec": 0.0,
+    "dec": 0.0,
+    "wec": 0.0,
+    "sec": 0.0,
+    "rho": 0.0
+   },
+   "joint": -2.9809850277749006e-05,
+   "joint_diff_vs_lineage": 0.0,
+   "worst_null_at_pose_argmin": -3.0896210095678075e-05,
+   "worst_null_diff_vs_stored": 0.0,
+   "nec_argmin_r": 15.73170731707317,
+   "argmin_r_same": true,
+   "typeI_count": 4067,
+   "typeI_count_same": true,
+   "pass": true
+  },
+  "CTL-403-W12": {
+   "pose": [
+    9.0,
+    21.0
+   ],
+   "read": {
+    "nec": -2.4728052267161693e-05,
+    "dec": -1.314264076501302e-06,
+    "wec": -7.969147061273154e-05,
+    "sec": -0.0003001623525328626,
+    "rho": 8.886991784762733e-05
+   },
+   "joint": -2.4728052267161693e-05,
+   "stored_joint": -2.4728052267161693e-05,
+   "joint_diff": 0.0,
+   "worst_null_at_nec_argmin": -2.6607692199924456e-05,
+   "stored_worst_null": -2.6607692199924456e-05,
+   "worst_null_diff": 0.0,
+   "dec_diff": 0.0,
+   "rho_diff": 0.0,
+   "typeI_count": 4093,
+   "stored_typeI_count": 4093,
+   "typeI_count_same": true,
+   "nec_argmin_r": 15.585365853658537,
+   "pass": true
+  },
+  "CTL-403-W14": {
+   "pose": [
+    8.0,
+    22.0
+   ],
+   "read": {
+    "nec": -2.050976956715771e-05,
+    "dec": -1.0499634521441515e-06,
+    "wec": -4.413452688794415e-05,
+    "sec": -0.00021318379342925246,
+    "rho": 8.110300208687759e-05
+   },
+   "joint": -2.050976956715771e-05,
+   "stored_joint": -2.050976956715771e-05,
+   "joint_diff": 0.0,
+   "worst_null_at_nec_argmin": -2.268064550905132e-05,
+   "stored_worst_null": -2.268064550905132e-05,
+   "worst_null_diff": 0.0,
+   "dec_diff": 0.0,
+   "rho_diff": 0.0,
+   "typeI_count": 4097,
+   "stored_typeI_count": 4097,
+   "typeI_count_same": true,
+   "nec_argmin_r": 15.682926829268293,
+   "pass": true
+  },
+  "CTL-403-H2": {
+   "nec_min": -0.00019422459891767227,
+   "stored_NEC_H2": -0.00019422459891767227,
+   "diff": 0.0,
+   "dec_diff": 0.0,
+   "rho_diff": 0.0,
+   "pass": true
+  }
+ },
+ "all_pass": true,
+ "wall_s": 31.78983974456787
+}

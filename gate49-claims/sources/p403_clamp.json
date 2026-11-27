@@ -1,0 +1,49 @@
+{
+ "reads": [
+  {
+   "name": "winner",
+   "triple": [
+    0.5000090643041506,
+    1.8999807308424006,
+    4.892092241322827
+   ],
+   "pose": [
+    1.0,
+    29.0
+   ],
+   "clamped": {
+    "joint": -3.8110196987227636e-06,
+    "nec_min": -3.8110196987227636e-06,
+    "dec_min": -3.810902732933794e-07,
+    "rho_min": 4.7055228199999e-05,
+    "nec_argmin_r": 17.04878048780488,
+    "feasible": true
+   },
+   "unclamped_joint": -3.676111526923747e-06,
+   "clamp_cost": 1.3490817179901663e-07
+  },
+  {
+   "name": "seed_C395_at_pose",
+   "triple": [
+    0.601180962300002,
+    1.5934531363763935,
+    4.887238651223381
+   ],
+   "pose": [
+    1.0,
+    29.0
+   ],
+   "clamped": {
+    "joint": -9.384853638507378e-06,
+    "nec_min": -9.384853638507378e-06,
+    "dec_min": -3.882513481100129e-07,
+    "rho_min": 4.705372357483816e-05,
+    "nec_argmin_r": 16.365853658536587,
+    "feasible": true
+   },
+   "unclamped_joint": -9.38489875115556e-06,
+   "clamp_cost": -4.511264818196463e-11
+  }
+ ],
+ "note": "clamp construction per registration SS6 (p394_lib clamp=True composed with 402 transport)"
+}

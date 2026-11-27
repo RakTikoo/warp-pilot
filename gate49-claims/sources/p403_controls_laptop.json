@@ -1,0 +1,34 @@
+{
+ "control": "CTL-403-ADM",
+ "admitted": false,
+ "machine": "laptop pool mirror /home/spark/work/p390root (RTGaming WSL, venv ~/work/venv)",
+ "read": {
+  "nec_min": -2.964864214304979e-05,
+  "dec_min": -1.7766846142508875e-06,
+  "wec_min": -0.00012427959428872238,
+  "sec_min": -0.00046317591386363827,
+  "rho_min": 9.780857711542179e-05,
+  "joint": -2.964864214304979e-05,
+  "nec_argmin_r": 15.487804878048781,
+  "dec_argmin_r": 18.65853658536585,
+  "typeI_count": 4067
+ },
+ "vm_home_read": {
+  "nec_min": -2.9809850277749006e-05,
+  "dec_min": -1.7766846142506707e-06,
+  "wec_min": -0.00012604578745184045,
+  "sec_min": -0.00046317591386364136,
+  "rho_min": 9.780857711542179e-05,
+  "typeI_count": 4067,
+  "nec_argmin_r": 15.73170731707317
+ },
+ "diffs": {
+  "nec_sampled": 1.6120813469921416e-07,
+  "wec_sampled": 1.7661931631180654e-06,
+  "dec": 2.168404344971009e-19,
+  "sec": 3.0899761915836876e-18,
+  "rho": 0.0,
+  "typeI_count": 0
+ },
+ "note": "NOT ADMITTED for the sampled minima -- the Gate-43 C-10 signature: the sampled NEC minimum drifts by 1.612e-07 and the WEC minimum by 1.766e-06, with the laptop's NEC argmin on the sibling shell (r = 15.488 vs the VM's 15.732), while the frame-invariant fields agree at roundoff (dec diff 2.2e-19, rho diff 0.0, sec diff 3.1e-18) and the Type-I count is exact (4067). The same pattern as Phase 402's non-admission. All deciding reads are VM reads, per registration SS2 (the one-frame rule of 397/398/402)."
+}

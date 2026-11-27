@@ -1,0 +1,91 @@
+{
+ "C0_trivial_max_abs_G": 0.0,
+ "C0b_schwarzschild_max_abs_G_h02": 0.0005298961038073043,
+ "C0b_schwarzschild_max_abs_G_rich": 1.5954389446434328e-07,
+ "C0b_rich_err_indicator": 0.00013251391188106966,
+ "C1_worstnull_selftest_max_dev": 5.329070518200751e-15,
+ "C2_h_convergence_C395_argmin": [
+  {
+   "h": 0.16,
+   "worst_null": -3.084586078077537e-05,
+   "scan": -3.0845860780775455e-05,
+   "diff_vs_stored": 5.0349314902701776e-08,
+   "nec_margin": -2.97567862892713e-05,
+   "nec_diff_vs_stored": 5.306398847770518e-08,
+   "typeI": false,
+   "rho_euler": 0.0001754012317616257,
+   "fd_err": 3.0341171931732452e-06
+  },
+  {
+   "h": 0.08,
+   "worst_null": -3.08962074656046e-05,
+   "scan": -3.08962074656046e-05,
+   "diff_vs_stored": 2.630073472919582e-12,
+   "nec_margin": -2.9809847282238834e-05,
+   "nec_diff_vs_stored": 2.9955101712910576e-12,
+   "typeI": false,
+   "rho_euler": 0.00017540606998376482,
+   "fd_err": 1.0893439241894779e-06
+  },
+  {
+   "h": 0.04,
+   "worst_null": -3.0896209966078036e-05,
+   "scan": -3.089620996607809e-05,
+   "diff_vs_stored": 1.29600038925419e-13,
+   "nec_margin": -2.9809850122371206e-05,
+   "nec_diff_vs_stored": 1.553777993854727e-13,
+   "typeI": false,
+   "rho_euler": 0.00017540607010619612,
+   "fd_err": 2.7235053048900794e-07
+  },
+  {
+   "h": 0.02,
+   "worst_null": -3.089621015593463e-05,
+   "scan": -3.089621015593474e-05,
+   "diff_vs_stored": -6.025655506242816e-14,
+   "nec_margin": -2.9809850332698188e-05,
+   "nec_diff_vs_stored": -5.494918214020428e-14,
+   "typeI": false,
+   "rho_euler": 0.00017540606971058726,
+   "fd_err": 6.808610505033824e-08
+  },
+  {
+   "h": 0.01,
+   "worst_null": -3.0896209617085256e-05,
+   "scan": -3.089620961708534e-05,
+   "diff_vs_stored": 4.785928191296598e-13,
+   "nec_margin": -2.980984981223203e-05,
+   "nec_diff_vs_stored": 4.655169750112514e-13,
+   "typeI": false,
+   "rho_euler": 0.00017540606923819604,
+   "fd_err": 1.7014572672344846e-08
+  }
+ ],
+ "C2_stored": {
+  "worst_null": -3.0896210095678075e-05,
+  "nec": -2.9809850277749006e-05,
+  "point": [
+   -15.383488301698574,
+   2.2228398846289754,
+   -2.4277326106594397
+  ]
+ },
+ "C1_note": "dev measured against a tight Nelder-Mead polished reference from an 8192-point scan (the first-pass figure compared against a coarse 2002-point scan minimum and measured the scan discretisation, not the solver)",
+ "C0b_per_radius_max_abs_G_rich": {
+  "2.0": 1.2005224253184572e-06,
+  "3.5": 2.5939788451113325e-10,
+  "6.0": 2.9372309266408005e-12,
+  "9.0": 4.562243811221455e-12,
+  "12.0": 1.8583859428707555e-12,
+  "15.0": 2.586826907997248e-12,
+  "17.0": 3.2207547458332484e-12,
+  "19.0": 7.913363913586196e-12,
+  "22.0": 7.91215565078989e-12,
+  "25.0": 6.7577471025493984e-12,
+  "28.0": 6.9671971427591e-12,
+  "11.0": 3.060564697471776e-12,
+  "14.0": 2.3121499298063095e-12,
+  "26.0": 4.333169436795673e-12
+ },
+ "C0b_note": "max |G| after Richardson is ~1e-12 at every radius >= 3.5; the r = 2.0 point (2m/r = 0.7, stencil reaching toward the horizon) carries 1.2e-6"
+}
