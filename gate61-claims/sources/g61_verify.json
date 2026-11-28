@@ -1,0 +1,88 @@
+{
+ "checker": "Gate-61 independent checker (engine clause path, independently ordered assembly)",
+ "checks": [
+  {
+   "check": "ctlH_combined_engine_path_vs_gate",
+   "pass": true,
+   "detail": "max diff 0.0"
+  },
+  {
+   "check": "shadow_X_m_vector_engine_path",
+   "pass": true,
+   "detail": "max diff 0.0"
+  },
+  {
+   "check": "shadow_X_m_positive",
+   "pass": true,
+   "detail": "all seven > 0"
+  },
+  {
+   "check": "shadow_H_0_vector_engine_path",
+   "pass": true,
+   "detail": "max diff 0.0"
+  },
+  {
+   "check": "shadow_H_0_positive",
+   "pass": true,
+   "detail": "all seven > 0"
+  },
+  {
+   "check": "rescue_arithmetic_X_m",
+   "pass": true,
+   "detail": "recomputed 106756986.37743658 vs stored 106756986.37743658"
+  },
+  {
+   "check": "rung_radial_ratio_X_m",
+   "pass": true,
+   "detail": "radial at rescue = bar"
+  },
+  {
+   "check": "rescue_arithmetic_H_0",
+   "pass": true,
+   "detail": "recomputed 106756983.65585029 vs stored 106756983.65585029"
+  },
+  {
+   "check": "rung_radial_ratio_H_0",
+   "pass": true,
+   "detail": "radial at rescue = bar"
+  },
+  {
+   "check": "E_shell_propto_R_X_m",
+   "pass": true,
+   "detail": "E(rescue) vs E(1.068e8)*R ratio rel diff 1.5809951703771453e-16"
+  },
+  {
+   "check": "E_shell_propto_R_H_0",
+   "pass": true,
+   "detail": "E(rescue) vs E(1.068e8)*R ratio rel diff 1.5809952106819072e-16"
+  },
+  {
+   "check": "counts_comp_jets_zero",
+   "pass": true,
+   "detail": "gate count reproduced"
+  },
+  {
+   "check": "A1_diff_zero",
+   "pass": true,
+   "detail": "from gate results"
+  },
+  {
+   "check": "both_marker_classification_complete",
+   "pass": true,
+   "detail": "every both-marker file classified; none POSING-class"
+  },
+  {
+   "check": "mechanics_all_hold",
+   "pass": true,
+   "detail": "{\"controls_all_pass\": true, \"identity_G1_holds\": true, \"identity_G2_holds\": true, \"identity_G3_holds\": true, \"shadow_vectors_at_0.0_and_positive\": true, \"D_identity_perturbation_ok\": true, \"D_identity_symbolic_ok\": true, \"scale_invariance_ok\": true, \"prices_ok\": true, \"D_blindness_ok\": true}"
+  },
+  {
+   "check": "verdict_consistent",
+   "pass": true,
+   "detail": "PASS"
+  }
+ ],
+ "n_pass": 16,
+ "n_total": 16,
+ "overall_pass": true
+}

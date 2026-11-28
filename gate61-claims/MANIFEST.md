@@ -1,0 +1,22 @@
+# Gate-61 claims — MANIFEST
+
+Bundle assembled by Gate-61 on its PASS WITH RIDER verdict (ledger entry 1243). Version and DOI are assigned by the parent at push time (landing order); RELEASE.md and README_WHATSNEW.md carry the placeholders. sha256 over the bundled files (MANIFEST.md itself excluded):
+
+bfcd326e434012543a2e4d750c60bff14342b232780cd897c0a7d65aa8313a92  ./GATE61.md
+64b1ec9aebb36cb1ec10b2a56303dfdb6f24199c433675ac5fc82147e7cb0961  ./GATE61_CHECKPOINT.md
+520808ca8a021f85ccb341a59fd715e3cc5c8f0d315a7c366fd9cd697957c108  ./README_WHATSNEW.md
+126f0aeb1c79c713debdbf27ecab080d46a8051d58416353f932184cf95f54f4  ./RELEASE.md
+ad1bd18f6114876cb310794e99d9ba3d4e7344a83b1d201b6dc5331f5eb0a9d4  ./RESULTS.md
+f347463052241b4bd777649753827bbb142ed361a38864c3e60e5bef00ee898a  ./code/g61_check.py
+8c3db4e33082fdb3822ded7baba13f4624598eb976c549207c2997942ed75f00  ./code/g61_registration.md
+0e754ebd82f42e02741df2b4fa8ef5a514be57ff31cab6c1de237235e8d4bfe9  ./code/g61_run.py
+270cf1e71e413f9ff349909a41aa791597632c91a33826a822a88b27fccc8f43  ./sources/CHECKPOINT478.md
+3fe9f7aa96d3cf0a085060f5bd56d64fcdf8a8b9d6e0247628e0e065fd820c9b  ./sources/g61_results.json
+8708624f578bf77e6ee072a5920d5771809771b7a9de5074bfbd416d39430225  ./sources/g61_verify.json
+6090981d66d84f60f6cc543ed40a9d43157dec878ae0772c5b26017b5e114348  ./sources/p467_memo.md
+73448be5cb68a16b3e16a8c05069a97b81217fcf672c158253d2efffd8d30ae2  ./sources/p467_results.json
+c206c2716aae13bcdc61c9b12757814b822f227941bf29537c70f9d7a5894b09  ./sources/p477_memo.md
+709b433919e510a7412cbf8ed68743436705dd7fb28dc667c7778e46ea3b8a96  ./sources/p477_results.json
+7b5d76e076d72cdad7b79c0a23dde085e7232a8d89a7cdc7fb0ba78cd27da3a8  ./sources/p478_memo.md
+0a72c574c668d97f817a7483112a9dd7fa8ba9e8a5da0007637cabfab6eb5114  ./sources/p478_results.json
+a3d4aa302858e143d5ff42a0e7ba61f529ec38c527e29bcdc97cb74ee526ddd0  ./sources/p478_verify.json

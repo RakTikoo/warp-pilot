@@ -1,0 +1,36 @@
+{
+ "checker": "p478_check.py (independent, fresh process)",
+ "checks": {
+  "CTL-H_combined_vector_max_abs_diff": 0.0,
+  "shadows": {
+   "X_m": {
+    "S1_vector_max_abs_diff_vs_driver": 0.0,
+    "all_positive_recomputed": true,
+    "tide_worst_radial_abs_diff": 0.0,
+    "tide_worst_lateral01_abs_diff": 0.0,
+    "rescue_radius_abs_diff_vs_driver": 0.0
+   },
+   "H_0": {
+    "S1_vector_max_abs_diff_vs_driver": 0.0,
+    "all_positive_recomputed": true,
+    "E_shell_at_rescue": 1.681507946152191e+52,
+    "E_shell_rel_diff_vs_driver": 6.778485029695298e-09
+   }
+  },
+  "build_path_counts": {
+   "p2261_run.py_comp_jets": 0,
+   "p2242_run.py_comp_jets": 0
+  },
+  "verdict_consistency": {
+   "identity_legs_hold_in_results": true,
+   "legal_shadows_in_results": [
+    "X_m",
+    "H_0"
+   ],
+   "expected_form_from_evidence": 2,
+   "stored_verdict_form": 2,
+   "consistent": true
+  }
+ },
+ "overall_pass": true
+}

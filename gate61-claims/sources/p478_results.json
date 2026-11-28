@@ -1,0 +1,368 @@
+{
+ "phase": "Phase 478 \u2014 THE DATUM AND ITS SHADOW",
+ "charge": "ledger entry 1239",
+ "registration": "phase478/work/p478_registration.md (pre-run)",
+ "frame": "Phase 166 pin, Gate-19-corrected tensor, venv python, float64",
+ "desk": "NO DATA CONTACT",
+ "controls": {
+  "CTL-H": {
+   "base_minima": {
+    "NEC_rho": 0.43125000000000036,
+    "NEC_th": 0.596875000000059,
+    "NEC_ph": -0.3406249999999409,
+    "WEC": 1.0624999999999998,
+    "DEC_rho": 0.43125000000000036,
+    "DEC_th": 0.596875000000059,
+    "DEC_ph": -0.3406249999999409
+   },
+   "base_max_abs_diff_vs_stored": 0.0,
+   "combined_minima": {
+    "NEC_rho": 0.6781346234610093,
+    "NEC_th": 0.9281631165591328,
+    "NEC_ph": 0.1764749454550547,
+    "WEC": 1.3094045367416725,
+    "DEC_rho": 0.6781346234610093,
+    "DEC_th": 0.9281631165591328,
+    "DEC_ph": 0.1764749454550547
+   },
+   "combined_max_abs_diff_vs_stored": 0.0,
+   "S_star": 0.6781346234610093,
+   "S_star_abs_diff": 0.0,
+   "utilde_true_theta_star": 1.1412482021558361,
+   "pass": true
+  },
+  "CTL-X": {
+   "wound_worsts": {
+    "R_lthlth": 0.46327403240424314,
+    "R_tthtth": 0.9369752522890477,
+    "R_tltl": 0.9718746251967629
+   },
+   "wound_diffs_vs_stored": {
+    "R_lthlth": 0.0,
+    "R_tthtth": 0.0,
+    "R_tltl": 0.0
+   },
+   "fallback_anchors_pass": true,
+   "pass": true
+  },
+  "CTL-467": {
+   "jet_diff_Fuu": 0.9343747896249985,
+   "jet_diff_Mtt": 2.569525345830215e-07,
+   "jet_fields_differing_gt_1e-12": [
+    "Fuu",
+    "Mtt"
+   ],
+   "tide_diff": {
+    "R_tltl": 0.765001585541698,
+    "R_tthtth": 0.0,
+    "R_lthlth": 0.0
+   },
+   "home_radial_worst": [
+    1.5202791951713714,
+    1.5707963267948963
+   ],
+   "X_radial_worst": [
+    0.9718746251967629,
+    0.02
+   ],
+   "pass": true
+  },
+  "CTL-477X": {
+   "max_abs_diff_vs_p477_T3_variant_minima": 0.0,
+   "pass": true
+  }
+ },
+ "Q1_identity_evidence": {
+  "E1_CTL-H": "datum stored vector reproduced on the home build at diff 0.0 (controls.CTL-H)",
+  "E2_build_path_inspection": {
+   "p2261_run.py": {
+    "comp_jets_count": 0,
+    "instant_jets_count": 1
+   },
+   "p2242_run.py": {
+    "comp_jets_count": 0,
+    "instant_jets_count": 1
+   }
+  },
+  "E2_comp_jets_absent_from_datum_build": true,
+  "E3_A1_set_vs_home_base_minima_max_abs_diff": 0.0,
+  "E3_A1_identity_holds": true,
+  "E4": "477 T2/T3 (under CTL-467 and CTL-477X here): the compensated path transplanted under CH-COMB poses D_X(m) = e^-0.2 j - (1-e^-0.2) tau_m, a third D; its clause read of the composition differs from the stored vector (NEC_th +1.4790316944454176, NEC_ph +0.9030810951057349 vs stored +0.9281631165591328 / +0.1764749454550547)",
+  "mechanical_legs_hold": true
+ },
+ "shadows": {
+  "X_m": {
+   "definition": {
+    "variant": "X_mtt_field",
+    "build": "comp_jets (Phase 167 compensated pose), march-FD Mtt feed (mtt_field on the Phase-169-fixed engine march), t = 0 slice; CH-COMB + director posed identically",
+    "D": "e^-0.2 * j - (1 - e^-0.2) * tau_m (477 SS4)"
+   },
+   "S1_full_clause_vector": {
+    "minima": {
+     "NEC_rho": 0.6781346234610093,
+     "NEC_th": 1.4790316944454176,
+     "NEC_ph": 0.9030810951057349,
+     "WEC": 1.3094045367416725,
+     "DEC_rho": 0.6781346234610093,
+     "DEC_th": 1.1394910646834866,
+     "DEC_ph": 0.9030810951057349
+    },
+    "argmin_theta": {
+     "NEC_rho": 1.5707963267948963,
+     "NEC_th": 2.949281950612582,
+     "NEC_ph": 1.3123302723290804,
+     "WEC": 0.02,
+     "DEC_rho": 1.5707963267948963,
+     "DEC_th": 0.02,
+     "DEC_ph": 1.3123302723290804
+    },
+    "S_star": 0.6781346234610093,
+    "all_seven_strictly_positive": true,
+    "all_seven_above_closure_bar_-1e-5": true,
+    "binding_clause": "NEC_rho",
+    "binding_minimum": 0.6781346234610093
+   },
+   "S5_D_identity_on_shadow_path": {
+    "-0.05": {
+     "channels_pth8_pph8": {
+      "D_preserving_max_abs_change": 2.220446049250313e-16,
+      "D_changing_max_abs_change": 0.040936537653899485
+     },
+     "R_tltl": {
+      "D_preserving_max_abs_change": 2.220446049250313e-16,
+      "D_changing_max_abs_change": 0.04093653765389926
+     }
+    },
+    "0.03": {
+     "channels_pth8_pph8": {
+      "D_preserving_max_abs_change": 2.220446049250313e-16,
+      "D_changing_max_abs_change": 0.02456192259233969
+     },
+     "R_tltl": {
+      "D_preserving_max_abs_change": 2.220446049250313e-16,
+      "D_changing_max_abs_change": 0.02456192259233958
+     }
+    }
+   },
+   "S3_tide_price": {
+    "R_tltl_worst_abs_pose^-2": 0.9718746251967629,
+    "R_tltl_worst_theta": 0.02,
+    "R_tltl_signed_at_0.02": -0.9718746251967629,
+    "R_tltl_signed_at_pi/2": -0.7552776096296735,
+    "lateral_beta0.1_worst_pose^-2": 0.9459504297033866,
+    "lateral_beta0.1_worst_theta": 0.02,
+    "rescue_radius_m": 106756986.37743658,
+    "binding_component": "radial R_tltl",
+    "cross_check_vs_p477_T4": {
+     "p477_rescue_radius_m": 106756986.37743658,
+     "abs_diff": 0.0
+    },
+    "direct_rung_at_rescue": {
+     "radial_s^-2": 4.904999999999999,
+     "radial_bar_ratio": 0.9999999999999998,
+     "lateral_beta0.1_s^-2": 4.774161951965494,
+     "lateral_beta0.1_bar_ratio": 0.9733255763436277,
+     "beta_ceiling": 0.194,
+     "beta_ceiling_note": "scan ceiling (contiguous from 0)"
+    }
+   },
+   "S2iii_legality_at_scale": {
+    "at_rescue_radius": {
+     "R_phys_m": 106756986.37743658,
+     "stress_factor_J_per_m3": 2.704111474367622e+26,
+     "normalised_minima": {
+      "NEC_rho": 0.6781346234610093,
+      "NEC_th": 1.4790316944454167,
+      "NEC_ph": 0.9030810951057348,
+      "WEC": 1.3094045367416725,
+      "DEC_rho": 0.6781346234610093,
+      "DEC_th": 1.1394910646834866,
+      "DEC_ph": 0.9030810951057348
+     },
+     "normalised_max_rel_diff_vs_own_vector": 6.00513446084845e-16,
+     "signs_match_own_vector": true,
+     "all_clauses_above_closure_bar": true
+    },
+    "at_2.5e8_m": {
+     "R_phys_m": 250000000.0,
+     "stress_factor_J_per_m3": 4.931024780003761e+25,
+     "normalised_minima": {
+      "NEC_rho": 0.6781346234610094,
+      "NEC_th": 1.479031694445418,
+      "NEC_ph": 0.9030810951057348,
+      "WEC": 1.3094045367416725,
+      "DEC_rho": 0.6781346234610094,
+      "DEC_th": 1.1394910646834866,
+      "DEC_ph": 0.9030810951057348
+     },
+     "normalised_max_rel_diff_vs_own_vector": 3.002567230424225e-16,
+     "signs_match_own_vector": true,
+     "all_clauses_above_closure_bar": true
+    }
+   },
+   "S4_E_shell": {
+    "at_rescue_radius_J": 1.681507977621277e+52,
+    "at_rescue_radius_mass_equiv_kg": 1.8709299455549207e+35,
+    "at_charge_radius_1.068e8_J": 1.6821854766022904e+52,
+    "E_over_R": {
+     "rescue": 1.5750800342718076e+44,
+     "charge": 1.5750800342718074e+44
+    },
+    "E_over_R_rel_spread": 1.257525979479722e-16
+   }
+  },
+  "H_0": {
+   "definition": {
+    "variant": "H_0",
+    "build": "instant_jets (home posing, recorded pose Phi = Phi0 + (u^2/2) J), Mtt feed identically zero; CH-COMB + director posed identically",
+    "D": "e^-0.2 * j (tax-free; 477 SS4)"
+   },
+   "S1_full_clause_vector": {
+    "minima": {
+     "NEC_rho": 0.6781346234610093,
+     "NEC_th": 1.479198706005177,
+     "NEC_ph": 1.0541767526056953,
+     "WEC": 1.3094045367416725,
+     "DEC_rho": 0.6781346234610093,
+     "DEC_th": 1.0279422865525754,
+     "DEC_ph": 1.0541767526056953
+    },
+    "argmin_theta": {
+     "NEC_rho": 1.5707963267948963,
+     "NEC_th": 0.12338642178632643,
+     "NEC_ph": 1.2606370614359172,
+     "WEC": 0.02,
+     "DEC_rho": 1.5707963267948963,
+     "DEC_th": 1.2089438505427539,
+     "DEC_ph": 1.2606370614359172
+    },
+    "S_star": 0.6781346234610093,
+    "all_seven_strictly_positive": true,
+    "all_seven_above_closure_bar_-1e-5": true,
+    "binding_clause": "NEC_rho",
+    "binding_minimum": 0.6781346234610093
+   },
+   "S5_D_identity_on_shadow_path": {
+    "-0.05": {
+     "channels_pth8_pph8": {
+      "D_preserving_max_abs_change": 2.220446049250313e-16,
+      "D_changing_max_abs_change": 0.040936537653899485
+     },
+     "R_tltl": {
+      "D_preserving_max_abs_change": 1.1102230246251565e-16,
+      "D_changing_max_abs_change": 0.04093653765389926
+     }
+    },
+    "0.03": {
+     "channels_pth8_pph8": {
+      "D_preserving_max_abs_change": 2.220446049250313e-16,
+      "D_changing_max_abs_change": 0.02456192259233969
+     },
+     "R_tltl": {
+      "D_preserving_max_abs_change": 1.1102230246251565e-16,
+      "D_changing_max_abs_change": 0.02456192259233958
+     }
+    }
+   },
+   "S3_tide_price": {
+    "R_tltl_worst_abs_pose^-2": 0.9718745756442096,
+    "R_tltl_worst_theta": 0.02,
+    "R_tltl_signed_at_0.02": -0.9718745756442096,
+    "R_tltl_signed_at_pi/2": -0.5859041951714309,
+    "lateral_beta0.1_worst_pose^-2": 0.9459504297033866,
+    "lateral_beta0.1_worst_theta": 0.02,
+    "rescue_radius_m": 106756983.65585029,
+    "binding_component": "radial R_tltl",
+    "cross_check_vs_p477_T4": {
+     "p477_rescue_radius_m": 106756983.65585029,
+     "abs_diff": 0.0
+    },
+    "direct_rung_at_rescue": {
+     "radial_s^-2": 4.9049999999999985,
+     "radial_bar_ratio": 0.9999999999999997,
+     "lateral_beta0.1_s^-2": 4.774162195383647,
+     "lateral_beta0.1_bar_ratio": 0.9733256259701624,
+     "beta_ceiling": 0.194,
+     "beta_ceiling_note": "scan ceiling (contiguous from 0)"
+    }
+   },
+   "S2iii_legality_at_scale": {
+    "at_rescue_radius": {
+     "R_phys_m": 106756983.65585029,
+     "stress_factor_J_per_m3": 2.7041116122409964e+26,
+     "normalised_minima": {
+      "NEC_rho": 0.6781346234610094,
+      "NEC_th": 1.4791987060051712,
+      "NEC_ph": 1.0541767526056953,
+      "WEC": 1.3094045367416727,
+      "DEC_rho": 0.6781346234610094,
+      "DEC_th": 1.0279422865525754,
+      "DEC_ph": 1.0541767526056953
+     },
+     "normalised_max_rel_diff_vs_own_vector": 3.902896686302678e-15,
+     "signs_match_own_vector": true,
+     "all_clauses_above_closure_bar": true
+    },
+    "at_2.5e8_m": {
+     "R_phys_m": 250000000.0,
+     "stress_factor_J_per_m3": 4.931024780003761e+25,
+     "normalised_minima": {
+      "NEC_rho": 0.6781346234610094,
+      "NEC_th": 1.4791987060051728,
+      "NEC_ph": 1.0541767526056953,
+      "WEC": 1.3094045367416725,
+      "DEC_rho": 0.6781346234610094,
+      "DEC_th": 1.0279422865525754,
+      "DEC_ph": 1.0541767526056953
+     },
+     "normalised_max_rel_diff_vs_own_vector": 2.8521168092211877e-15,
+     "signs_match_own_vector": true,
+     "all_clauses_above_closure_bar": true
+    }
+   },
+   "S4_E_shell": {
+    "at_rescue_radius_J": 1.6815079347541147e+52,
+    "at_rescue_radius_mass_equiv_kg": 1.87092989785877e+35,
+    "at_charge_radius_1.068e8_J": 1.6821854766022904e+52,
+    "E_over_R": {
+     "rescue": 1.5750800342718074e+44,
+     "charge": 1.5750800342718074e+44
+    },
+    "E_over_R_rel_spread": 0.0
+   }
+  }
+ },
+ "premise_audits": {
+  "X_m": {
+   "build_inputs": {
+    "march": "Phase-169-fixed engine march(2881, 0.0025) \u2014 pose-unit grid and step, dimensionless",
+    "Mtt_feed": "mtt_field centred FD of the marched lock field (pose units)",
+    "compensation": "comp_jets Fuu replacement \u2014 analytic theta-profiles phi0, j_prof, exp factors (dimensionless)",
+    "profile_channel": "CH-COMB flat, a = +0.10 (dimensionless)",
+    "director": "m = 1, kappa1 = 0.254873, kappa2 = 0 (dimensionless)",
+    "engine_constants": "R00 = 0.8, AUU = 0.2 pose units"
+   },
+   "any_physical_scale_input": false,
+   "semiclassical_sector_in_total": false,
+   "boundary": "P226-2 B-prime sector is NOT a constituent of this shadow total (a jet variant of the P226-1 composition: posed classical jet sectors + director channel shifts, homogeneous in L). A total carrying an intrinsic length would not inherit the invariance."
+  },
+  "H_0": {
+   "build_inputs": {
+    "jets": "instant_jets analytic profiles (phi0, att, j_prof in theta; R00 = 0.8, AUU = 0.2 pose units), Mtt feed identically zero",
+    "profile_channel": "CH-COMB flat, a = +0.10 (dimensionless)",
+    "director": "m = 1, kappa1 = 0.254873, kappa2 = 0 (dimensionless)",
+    "grids": "fine 2881, AUDIT_TH 181 (dimensionless)"
+   },
+   "any_physical_scale_input": false,
+   "semiclassical_sector_in_total": false,
+   "boundary": "P226-2 B-prime sector is NOT a constituent of this shadow total (a jet variant of the P226-1 composition: posed classical jet sectors + director channel shifts, homogeneous in L). A total carrying an intrinsic length would not inherit the invariance."
+  }
+ },
+ "verdict_form": 2,
+ "verdict": "A SECOND DATUM",
+ "verdict_legal_shadows": [
+  "X_m",
+  "H_0"
+ ],
+ "elapsed_s": 30.50204348564148
+}
