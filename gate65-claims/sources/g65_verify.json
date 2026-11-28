@@ -1,0 +1,135 @@
+{
+ "gate": "Gate-65",
+ "checker": "g65_check.py (stored records only)",
+ "n_checks": 30,
+ "n_pass": 30,
+ "all_pass": true,
+ "verdict": "CORRECTION CONFIRMED",
+ "checks": {
+  "A1_base_screen_diff0": {
+   "pass": true,
+   "detail": "all DECIDING_FIELDS vs p460 BASE_REC"
+  },
+  "A2_base_worstnull_diff0": {
+   "pass": true,
+   "detail": "1.149158092307544e-09"
+  },
+  "A3_base_adversary_diff0": {
+   "pass": true,
+   "detail": "2.333817817820605e-13"
+  },
+  "B1_member_x_matches_charged": {
+   "pass": true,
+   "detail": "gate x (from 479 stored verdict.x) == charged construction"
+  },
+  "B2_triple_diff0": {
+   "pass": true,
+   "detail": "joint 2.820462654076372e-09 wn 1.149158092307544e-09 adv 2.333817817820605e-13"
+  },
+  "B3_triple_equals_gate_base_triple": {
+   "pass": true,
+   "detail": "the joint was spent nowhere, on the gate reads"
+  },
+  "B4_six_diff0": {
+   "pass": true,
+   "detail": "{'SEC8': 2.4404440032471187e-05, 'SEC9': 2.4411976531644726e-05, 'SEC10': 2.4396443055148438e-05, 'DEC8': 4.894587722725915e-05, 'DEC9': 3.441160723921305e-05, 'DEC10': 2.4396443055148438e-05}"
+  },
+  "B5_six_values_charged": {
+   "pass": true,
+   "detail": "the six at 8/9/10 as charged in entry 1299/1255"
+  },
+  "B6_frame_invariance": {
+   "pass": true,
+   "detail": "sampled == Type-I-restricted at 8/9/10, both channels"
+  },
+  "B7_pen_diff0": {
+   "pass": true,
+   "detail": "2.004145258222042e-07"
+  },
+  "B8_defended": {
+   "pass": true,
+   "detail": "DEFENDED bar on the gate read"
+  },
+  "D1_crosscheck_diff0": {
+   "pass": true,
+   "detail": "gate aux set minima == screen minima, five channels"
+  },
+  "D2_residue": {
+   "pass": true,
+   "detail": "SEC set min at node index 23 (G62-R1), Type-I, diff 0.0"
+  },
+  "D3_other_channels_positive_at_set_scope": {
+   "pass": true,
+   "detail": {
+    "nec": 4.224285347572982e-09,
+    "wec": 4.224285347572982e-09,
+    "dec": 2.820462654076372e-09,
+    "rho": 4.815542106782363e-05
+   }
+  },
+  "D4_sec_only_failing_channel": {
+   "pass": true,
+   "detail": "no NEC/WEC/DEC/RHO-negative node anywhere"
+  },
+  "D5_enumeration_equals_corrected_set_1297": {
+   "pass": true,
+   "detail": "[7, 11, 12, 13, 14, 15, 16, 17, 18, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33]"
+  },
+  "D6_enumeration_supersedes_G62B": {
+   "pass": true,
+   "detail": "14 nodes beyond the published six"
+  },
+  "D7_enumeration_frame_robust": {
+   "pass": true,
+   "detail": "sampled enumeration == Type-I-restricted enumeration"
+  },
+  "D8_fresh_profile_matches_gate62_stored": {
+   "pass": true,
+   "detail": "all 41 per-node SEC values at diff 0.0 vs Gate-62 stored"
+  },
+  "D9_dec_positive_at_every_negative_sec_node": {
+   "pass": true,
+   "detail": "DEC node min > 0 at all 20 negative-SEC nodes"
+  },
+  "D10_dec_scope_fact_consistent": {
+   "pass": true,
+   "detail": "DEC set min at a non-Type-I point; Type-I-restricted positive \u2014 the G62-B clause that survives verbatim"
+  },
+  "C1_f1_screen_diff0": {
+   "pass": true,
+   "detail": "474 F1 screen on DECIDING_FIELDS"
+  },
+  "C2_f1_nodesec_diff0": {
+   "pass": true,
+   "detail": "{'8': 6.267279330478097e-05, '9': 2.674867695063221e-05, '10': 2.3917830480463622e-05}"
+  },
+  "C3_f1_node10_dec": {
+   "pass": true,
+   "detail": "-0.0005375277493220288"
+  },
+  "C4_f1_excluded": {
+   "pass": true,
+   "detail": "SEC8/9/10 >= 0 and DEC10 < 0 on the gate read"
+  },
+  "E1_arms_identical_fit": {
+   "pass": true,
+   "detail": "F0/F1/F2"
+  },
+  "E2_arms_identical_confirm": {
+   "pass": true,
+   "detail": "F0/F1/F2"
+  },
+  "E3_lp_vs_exact_table": {
+   "pass": true,
+   "detail": "Gate-62's fixed table, reproduced"
+  },
+  "E4_member_dx": {
+   "pass": true,
+   "detail": "0.002009452499039281"
+  },
+  "V1_verdict_correction_confirmed": {
+   "pass": true,
+   "detail": "standing parts all reproduce at diff 0.0 AND the complete enumeration supersedes G62-B's six"
+  }
+ }
+}
