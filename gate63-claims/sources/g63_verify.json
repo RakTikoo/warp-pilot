@@ -1,0 +1,124 @@
+{
+ "gate": "Gate-63",
+ "checks": {
+  "A1_base_screen_diff0": {
+   "pass": true,
+   "detail": "all DECIDING_FIELDS vs 475 stored incumbent screen"
+  },
+  "A2_base_worstnull_diff0": {
+   "pass": true,
+   "detail": "1.3932463241497539e-09"
+  },
+  "A3_base_adversary_diff0": {
+   "pass": true,
+   "detail": "1.2321965550763508e-12"
+  },
+  "A4_base_nodesec_diff0": {
+   "pass": true,
+   "detail": "per-node SEC nodes 5..13, sampled and Type-I, vs 475 record"
+  },
+  "A5_base_six_diff0": {
+   "pass": true,
+   "detail": "{'SEC7': -5.368730613015569e-06, 'SEC10': -6.793448628664004e-06, 'SEC11': -6.433344854499148e-06, 'DEC7': 6.896066379048901e-05, 'DEC10': 2.4658984119428845e-05, 'DEC11': 1.783454002970248e-05}"
+  },
+  "A6_base_six_values": {
+   "pass": true,
+   "detail": "the six at 7/10/11 fixed by CTL-482-1"
+  },
+  "B1_member_x_matches_stored": {
+   "pass": true,
+   "detail": ""
+  },
+  "B2_member_knots_charged": {
+   "pass": true,
+   "detail": "{'W482A[4]_x27[4]': -0.0006256155864301123, 'W482B[4]_x27[13]': -0.0010659530055582157, 'W482C[4]_x27[22]': -0.0011990467393266006, 'knot_diffs': {'A4': 0.0, 'B4': 0.0, 'C4': 0.0}, 'n_nonzero': 3}"
+  },
+  "B3_triple_diff0": {
+   "pass": true,
+   "detail": "joint 2.8204691775758897e-09 wn 1.3932463241497539e-09 adv 1.2321965550763508e-12"
+  },
+  "B4_triple_reproduces_incumbent": {
+   "pass": true,
+   "detail": "the joint was spent nowhere (vs the gate base read)"
+  },
+  "B5_six_diff0_and_positive": {
+   "pass": true,
+   "detail": "{'SEC7': 1.7857748749212834e-05, 'SEC10': 1.7860144271433635e-05, 'SEC11': 1.7845348315432977e-05, 'DEC7': 6.902108374779023e-05, 'DEC10': 2.4644814128023883e-05, 'DEC11': 1.7845348315432977e-05}"
+  },
+  "B6_six_values": {
+   "pass": true,
+   "detail": "SEC11 == DEC11 digit-for-digit included"
+  },
+  "B7_pen_diff0": {
+   "pass": true,
+   "detail": "1.0558979218253084e-06"
+  },
+  "B8_defended": {
+   "pass": true,
+   "detail": ""
+  },
+  "B9_frame_invariance": {
+   "pass": true,
+   "detail": "{'7': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}, '10': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}, '11': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}}"
+  },
+  "C1_tracked_nodes_diff0": {
+   "pass": true,
+   "detail": "nodes 5..13, SEC/DEC sampled and Type-I, vs 482 A-F2 record"
+  },
+  "C2_basin_lifted_not_cured": {
+   "pass": true,
+   "detail": "SEC8 -2.3136763326167455e-06 SEC9 -4.647783392976125e-06"
+  },
+  "C3_basin_dec_positive": {
+   "pass": true,
+   "detail": "{'DEC8': 4.844568674442049e-05, 'DEC9': 3.44601033001249e-05, 'DEC10': 2.4644814128023883e-05}"
+  },
+  "D1_crosscheck_diff0": {
+   "pass": true,
+   "detail": "gate aux minima vs screen rec minima, 5 channels"
+  },
+  "D2_residue_value_diff0": {
+   "pass": true,
+   "detail": "-6.792039324408745e-06"
+  },
+  "D3_residue_locus": {
+   "pass": true,
+   "detail": "node 26 r 19.097560975609756 typeI True"
+  },
+  "D4_residue_frameinvariant": {
+   "pass": true,
+   "detail": "typeI-restricted sec min -6.792039324408745e-06"
+  },
+  "D5_headroom_arithmetic": {
+   "pass": true,
+   "detail": "exact decimal headroom 1.409304255259E-9 == pre-registered 1.409304255259e-09; float64 subtraction of the same stored operands gives 1.4093042552588584e-09 (binary residue 1.417e-22, below the pre-registration's last digit)"
+  },
+  "D6_other_channels_positive": {
+   "pass": true,
+   "detail": "{'nec': 4.68795873140689e-09, 'wec': 4.68795873140689e-09, 'dec': 2.8204691775758897e-09, 'rho': 4.8155421068565664e-05}"
+  },
+  "E1_arms_identical": {
+   "pass": true,
+   "detail": ""
+  },
+  "E2_f0f1_capped_at_node7": {
+   "pass": true,
+   "detail": "{'A-F0': 5.368730613015569e-06, 'B-F0': 5.368730613015569e-06, 'A-F1': 5.368730613015569e-06, 'B-F1': 5.368730613015569e-06, 'A-F2': -1.7845348315432977e-05, 'B-F2': -1.7845348315432977e-05}"
+  },
+  "E3_f2_lp_vs_exact": {
+   "pass": true,
+   "detail": "F2 |lp_t - exact_d6c| = 4.712570306588445e-11"
+  },
+  "E4_member_step_small": {
+   "pass": true,
+   "detail": "0.0011990467393266006"
+  },
+  "E5_census": {
+   "pass": true,
+   "detail": "{'n_candidates': 10, 'n_cluster_feasible': 2}"
+  }
+ },
+ "n_pass": 29,
+ "n_total": 29,
+ "verdict_from_checks": "PASS"
+}
