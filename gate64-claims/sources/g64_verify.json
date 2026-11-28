@@ -1,0 +1,200 @@
+{
+ "gate": "Gate-64",
+ "checks": {
+  "A1_incumbent_screen_diff0": {
+   "pass": true,
+   "detail": "all DECIDING_FIELDS vs 475 stored incumbent screen"
+  },
+  "A1_incumbent_worstnull_diff0": {
+   "pass": true,
+   "detail": "1.3932463241497539e-09"
+  },
+  "A1_incumbent_adversary_diff0": {
+   "pass": true,
+   "detail": "1.2321965550763508e-12"
+  },
+  "A1_incumbent_nodesec_diff0": {
+   "pass": true,
+   "detail": "per-node SEC nodes 5..13, sampled and Type-I, vs 475 record"
+  },
+  "A1_incumbent_six_diff0": {
+   "pass": true,
+   "detail": "{'SEC7': -5.368730613015569e-06, 'SEC10': -6.793448628664004e-06, 'SEC11': -6.433344854499148e-06, 'DEC7': 6.896066379048901e-05, 'DEC10': 2.4658984119428845e-05, 'DEC11': 1.783454002970248e-05}"
+  },
+  "A1_incumbent_six_values": {
+   "pass": true,
+   "detail": "the six at 7/10/11 fixed by CTL-482-1"
+  },
+  "A2_held_x_is_482_member": {
+   "pass": true,
+   "detail": "494 x482_held and p494_lib MEMBER_X482 both equal 482 stored x"
+  },
+  "A2_base_screen_diff0": {
+   "pass": true,
+   "detail": "all DECIDING_FIELDS vs 482 stored A-F2 confirmation screen"
+  },
+  "A2_base_triple_diff0": {
+   "pass": true,
+   "detail": "joint 2.8204691775758897e-09 wn 1.3932463241497539e-09 adv 1.2321965550763508e-12"
+  },
+  "A2_base_instruments_vs_CTL494_1": {
+   "pass": true,
+   "detail": "worst-null and adversary vs 494 CTL-494-1 stored read"
+  },
+  "A2_base_pen_setsec_diff0": {
+   "pass": true,
+   "detail": "pen 1.0558979218253084e-06 set_sec -6.792039324408745e-06"
+  },
+  "A2_base_ten_diff0": {
+   "pass": true,
+   "detail": "{'SEC7': 1.7857748749212834e-05, 'SEC8': -2.3136763326167455e-06, 'SEC9': -4.647783392976125e-06, 'SEC10': 1.7860144271433635e-05, 'SEC11': 1.7845348315432977e-05, 'DEC7': 6.902108374779023e-05, 'DEC8': 4.844568674442049e-05, 'DEC9': 3.44601033001249e-05, 'DEC10': 2.4644814128023883e-05, 'DEC11': 1.7845348315432977e-05}"
+  },
+  "A2_base_ten_values": {
+   "pass": true,
+   "detail": "482's member ten at 7..11 (8/9 negative: the union deficit)"
+  },
+  "A2_union_deficit_SEC9": {
+   "pass": true,
+   "detail": "deficit10 4.647783392976125e-06, SEC9 binding"
+  },
+  "A2_base_node26_diff0": {
+   "pass": true,
+   "detail": "{'r': 19.097560975609756, 'sec': -6.792039324408745e-06, 'sec_typeI': -6.792039324408745e-06, 'dec': 1.1546418980741436e-08, 'dec_typeI': 1.5358157534442506e-07}"
+  },
+  "B1_member_x_matches_stored": {
+   "pass": true,
+   "detail": ""
+  },
+  "B2_member_knots_charged": {
+   "pass": true,
+   "detail": "{'W494B[1]_y27[10]': -0.0009057435147531116, 'W494B[4]_y27[13]': -0.0008762943517712976, 'knot_diffs': {'B1': 0.0, 'B4': 0.0}, 'n_nonzero': 2, 'nonzero_indices': [10, 13]}"
+  },
+  "B3_member_screen_diff0": {
+   "pass": true,
+   "detail": "all DECIDING_FIELDS vs 494 stored A-F0 confirmation screen"
+  },
+  "B4_triple_diff0": {
+   "pass": true,
+   "detail": "joint 2.8204691775758897e-09 wn 1.3932463241497539e-09 adv 1.2321965550763508e-12"
+  },
+  "B5_triple_reproduces_base": {
+   "pass": true,
+   "detail": "the joint was spent nowhere (vs the gate base read)"
+  },
+  "B6_ten_diff0_and_positive": {
+   "pass": true,
+   "detail": "{'SEC7': 1.7857748749212834e-05, 'SEC8': 1.7864243400333773e-05, 'SEC9': 1.7870862171171496e-05, 'SEC10': 1.7955442310646822e-05, 'SEC11': 1.7845348315432977e-05, 'DEC7': 6.902108374779023e-05, 'DEC8': 4.846795694247877e-05, 'DEC9': 3.4468113036368415e-05, 'DEC10': 2.4655507953470573e-05, 'DEC11': 1.7845348315432977e-05}"
+  },
+  "B7_ten_values": {
+   "pass": true,
+   "detail": "SEC11 == DEC11 digit-for-digit included; worst union value is SEC11/DEC11 at node 11"
+  },
+  "B8_pen_setsec_diff0": {
+   "pass": true,
+   "detail": "pen 1.055985013898491e-06 set_sec -6.792039324408745e-06"
+  },
+  "B9_defended": {
+   "pass": true,
+   "detail": ""
+  },
+  "B10_frame_invariance": {
+   "pass": true,
+   "detail": "{'7': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}, '8': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}, '9': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}, '10': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}, '11': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}}"
+  },
+  "B11_deficit10_level": {
+   "pass": true,
+   "detail": "member deficit10 -1.7845348315432977e-05 == -SEC11 (node 11's pair sets the level)"
+  },
+  "C1_tracked_nodes_diff0": {
+   "pass": true,
+   "detail": "nodes 5..13, SEC/DEC sampled and Type-I, vs 494 A-F0 record"
+  },
+  "C2_node26_diff0": {
+   "pass": true,
+   "detail": "{'r': 19.097560975609756, 'sec': -6.792039324408745e-06, 'sec_typeI': -6.792039324408745e-06, 'dec': 1.1546418980741436e-08, 'dec_typeI': 1.5358157534442506e-07}"
+  },
+  "C3_node26_values": {
+   "pass": true,
+   "detail": "node 26 SEC residue with DEC positive, sampled and Type-I"
+  },
+  "D1_crosscheck_diff0": {
+   "pass": true,
+   "detail": "gate aux minima vs screen rec minima, 5 channels"
+  },
+  "D2_residue_value_diff0": {
+   "pass": true,
+   "detail": "-6.792039324408745e-06"
+  },
+  "D3_residue_locus": {
+   "pass": true,
+   "detail": "node 26 r 19.097560975609756 typeI True"
+  },
+  "D4_residue_frameinvariant": {
+   "pass": true,
+   "detail": "typeI-restricted sec min -6.792039324408745e-06"
+  },
+  "D5_failing_set_exact": {
+   "pass": false,
+   "detail": "gate failing set [6, 12, 13, 14, 15, 19, 20, 21, 24, 25, 26, 27, 31, 32, 33] vs claimed [6, 12, 13, 20, 26]"
+  },
+  "D6_profile_vs_gate63_remaining": {
+   "pass": true,
+   "detail": "nodes 6/12/13/20/26 SEC identical to Gate-63 member profile"
+  },
+  "D7_profile_vs_gate63_lifted": {
+   "pass": false,
+   "detail": "{'14': -4.9335904547181475e-06, '15': -2.914594341954361e-06, '19': -3.819614637303386e-06, '21': -2.2439386671935593e-06, '24': -3.0493898737051287e-07, '25': -4.84923954155881e-06, '27': -2.9551049001937303e-06, '31': -3.220156473688593e-07, '32': -8.574668901271547e-07, '33': -9.109732576291279e-07}"
+  },
+  "D8_other_channels_positive": {
+   "pass": true,
+   "detail": "{'nec': 4.68795873140689e-09, 'wec': 4.68795873140689e-09, 'dec': 2.8204691775758897e-09, 'rho': 4.8155421068565664e-05}"
+  },
+  "D9_failing_set_values": {
+   "pass": false,
+   "detail": "[{'node': 6, 'r': 5.439024390243903, 'sec': -5.927806537606205e-06}, {'node': 12, 'r': 9.536585365853659, 'sec': -2.8994490665248517e-06}, {'node': 13, 'r': 10.219512195121952, 'sec': -4.049726337207395e-06}, {'node': 14, 'r': 10.902439024390244, 'sec': -4.9335904547181475e-06}, {'node': 15, 'r': 11.585365853658537, 'sec': -2.914594341954361e-06}, {'node': 19, 'r': 14.317073170731708, 'sec': -3.819614637303386e-06}, {'node': 20, 'r': 15.000000000000002, 'sec': -6.64725597356898e-06}, {'node': 21, 'r': 15.682926829268293, 'sec': -2.2439386671935593e-06}, {'node': 24, 'r': 17.731707317073173, 'sec': -3.0493898737051287e-07}, {'node': 25, 'r': 18.414634146341466, 'sec': -4.84923954155881e-06}, {'node': 26, 'r': 19.097560975609756, 'sec': -6.792039324408745e-06}, {'node': 27, 'r': 19.78048780487805, 'sec': -2.9551049001937303e-06}, {'node': 31, 'r': 22.512195121951223, 'sec': -3.220156473688593e-07}, {'node': 32, 'r': 23.195121951219512, 'sec': -8.574668901271547e-07}, {'node': 33, 'r': 23.878048780487806, 'sec': -9.109732576291279e-07}]"
+  },
+  "E1_arms_identical": {
+   "pass": true,
+   "detail": ""
+  },
+  "E2_one_round_each": {
+   "pass": true,
+   "detail": "{'F0': {'A': 1, 'B': 1}, 'F1': {'A': 1, 'B': 1}, 'F2': {'A': 1, 'B': 1}}"
+  },
+  "E3_f1f2_lp_exact_digit_for_digit": {
+   "pass": true,
+   "detail": "{'A-F1': 0.0, 'A-F2': 0.0}"
+  },
+  "E4_f0_lp_vs_exact_gap": {
+   "pass": true,
+   "detail": "F0 |lp_t - exact_d10| = 1.2400433779856737e-08 (the disclosed 1.24e-8 FD-noise-floor gap)"
+  },
+  "E5_census": {
+   "pass": true,
+   "detail": "{'n_candidates': 6, 'n_union_feasible': 6}"
+  },
+  "E6_diagnostic_feasible": {
+   "pass": true,
+   "detail": ""
+  },
+  "E7_reach_arithmetic": {
+   "pass": true,
+   "detail": "{'SEC7': 9, 'SEC8': 18, 'SEC9': 27, 'SEC10': 18, 'SEC11': 9, 'DEC7': 9, 'DEC8': 18, 'DEC9': 27, 'DEC10': 18, 'DEC11': 9, 'JOINT': 0}"
+  },
+  "E8_joint_row_vacuous": {
+   "pass": true,
+   "detail": "the eleventh (joint) constraint row is identically 0.0 in all 27 columns \u2014 measured in advance, binding nowhere"
+  },
+  "E9_probe_within_tolerance": {
+   "pass": true,
+   "detail": "CTL-494-3 probe ten-row max |err| 5.323831386412842e-07"
+  },
+  "E10_member_step_small": {
+   "pass": true,
+   "detail": "0.0009057435147531116"
+  }
+ },
+ "n_pass": 45,
+ "n_total": 48,
+ "verdict_from_checks": "CHECK FAILURE"
+}
