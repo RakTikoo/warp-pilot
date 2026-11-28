@@ -1,0 +1,93 @@
+{
+ "gate": "Gate-62",
+ "checks": {
+  "A1_base_screen_diff0": {
+   "pass": true,
+   "detail": "all DECIDING_FIELDS vs p460_lib BASE_REC"
+  },
+  "A2_base_worstnull_diff0": {
+   "pass": true,
+   "detail": "1.149158092307544e-09"
+  },
+  "A3_base_adversary_diff0": {
+   "pass": true,
+   "detail": "2.333817817820605e-13"
+  },
+  "B1_member_x_matches_stored": {
+   "pass": true,
+   "detail": ""
+  },
+  "B2_triple_diff0": {
+   "pass": true,
+   "detail": "joint 2.820462654076372e-09 wn 1.149158092307544e-09 adv 2.333817817820605e-13"
+  },
+  "B3_six_diff0_and_positive": {
+   "pass": true,
+   "detail": "{'SEC8': 2.4404440032471187e-05, 'SEC9': 2.4411976531644726e-05, 'SEC10': 2.4396443055148438e-05, 'DEC8': 4.894587722725915e-05, 'DEC9': 3.441160723921305e-05, 'DEC10': 2.4396443055148438e-05}"
+  },
+  "B4_pen_diff0": {
+   "pass": true,
+   "detail": "2.004145258222042e-07"
+  },
+  "B5_defended": {
+   "pass": true,
+   "detail": ""
+  },
+  "B6_frame_invariance": {
+   "pass": true,
+   "detail": "{'8': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}, '9': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}, '10': {'sec_sampled_eq_typeI': True, 'dec_sampled_eq_typeI': True}}"
+  },
+  "D1_crosscheck_diff0": {
+   "pass": true,
+   "detail": "gate aux minima vs screen rec minima, 5 channels"
+  },
+  "D2_residue_value_diff0": {
+   "pass": true,
+   "detail": "-6.459908493210403e-06"
+  },
+  "D3_residue_typeI_and_frameinvariant": {
+   "pass": true,
+   "detail": "typeI-restricted sec min -6.459908493210403e-06"
+  },
+  "D4_residue_radius": {
+   "pass": true,
+   "detail": "17.04878048780488"
+  },
+  "D5_residue_node_label": {
+   "pass": true,
+   "detail": "gate node index 23 (NODES[25] SEC = -3.293564937848059e-06) -- rider G62-R1"
+  },
+  "C1_f1_screen_diff0": {
+   "pass": true,
+   "detail": ""
+  },
+  "C2_f1_nodesec_diff0": {
+   "pass": true,
+   "detail": ""
+  },
+  "C3_f1_node10dec_diff0": {
+   "pass": true,
+   "detail": "-0.0005375277493220288"
+  },
+  "C4_f1_excluded": {
+   "pass": true,
+   "detail": "{'SEC8': 6.267279330478097e-05, 'SEC9': 2.674867695063221e-05, 'SEC10': 2.3917830480463622e-05, 'DEC8': -0.00023511239265981872, 'DEC9': -0.00041363589306668655, 'DEC10': -0.0005375277493220288}"
+  },
+  "E1_arms_identical": {
+   "pass": true,
+   "detail": ""
+  },
+  "E2_lp_vs_exact": {
+   "pass": true,
+   "detail": "max 8.117984553012553e-11"
+  },
+  "E3_member_step_small": {
+   "pass": true,
+   "detail": "0.002009452499039281"
+  }
+ },
+ "n_pass": 21,
+ "n_total": 21,
+ "verdict_from_checks": "PASS WITH RIDER (G62-R1)",
+ "rider": "G62-R1: the residue locus label. The phase record (entries 1240/1250, the 474/479 memos) names the set SEC argmin \"node 25\"; in the gate's own numbers, in the same 0-based NODES indexing in which the basin nodes are 8/9/10, r = 17.04878048780488 is node index 23 (NODES[25], r = 18.414634146341463, carries SEC -3.293564937848059e-06 on the member). Value, radius, Type-I status and frame-invariance of the residue are exact at diff 0.0; only the label is restated."
+}
